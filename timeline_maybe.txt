@@ -29,72 +29,39 @@ FS1
 2 | Chir' and Algot 120 both join.
 3 | Nothing significant.
 4 | Wither Dracos, Thartler, and Electroman102 all join.
-5 | Dragon eggs are spawned.
-6 | Electroman102 gains an Ice dragon.
-7 | Thartler, Algot 120, and realicraft all gain Ice dragons.
-8 | Nothing significant.
-9 | Status table moved to Google Sheets.
-10| Nothing significant.
+5~10 | Nothing significant.
 11| The /Cliff/ appears.
 12| Murphmario joins.
-  | The ~planet~ islands momentarily explode.
-13| Unisland gets struck by several lighting bolts, followed by a single lightning bolt.
+  | The planet momentariely explodes.
+13| The Island gets struck by several lighting bolts, followed by a single lightning bolt.
 14| Nothing significant.
 15| Several bullet noises.
 16| Nothing significant.
 17| Nothing significant.
 18| computerfan0 joins.
 19| Nuke launched.
-20| Thread canceled.
 
 Inter.
-20| Nuke traveles toward Unisland, reali mounts Chir' to try to get off the island
-21| Nuke hits Unisland, knocking reali and Chir' towards Bisland
+20| Nuke traveles toward the Island
+21| Nuke hits the Island
 22| Mushroom cloud starts dissipating
 23| Mushroom cloud finishes dissipating
-24| Nothing happens.
-25| reali and Chir' recover from being knocked into Bisland
-26| Nothing happens.
-27| Begining of FS2.
+24~26| Nothing happens.
+27| Begining of FS2
 
 FS2
 1 /27| realicraft, ElliotTheUnknown, Thartler, and Chir' all join.
      | The /Cliff/ appears.
-     | Chir' gains an Ice dragon egg.
-2 /28| Nothing significant.
-3 /29| Nothing significant.
-4 /30| Mystery portal, needs explaining at some point
-5 /31| Nothing significant.
+2/28~5/31| Nothing significant.
 6 /32| LiberianPrince joins.
-7 /33| Nothing significant.
-8 /34| Nothing significant.
-9 /35| Nothing significant.
-10/36| The *Obsession* starts.
-11/37| Nothing significant...
-12/38| Nothing significant...
-13/39| Nothing significant...
-14/40| Aggression.
+7/33~14/40| Nothing significant.
 15/41| The /Forest/ appears.
 16/42| 50 cats appeared.
 17/43| The /Tower of Ice/ appears.
-18/44| Nothing significant...
-19/45| Cat Get.
-20/46| Cet Get 2x Combo.
+18/44| Nothing significant.
+19/45| Nothing significant.
+20/46| Nothing significant.
 21/47| A bear appears.
-22/48| Nothing significant...
-23/49| Nothing significant...
-24/50| Nothing significant...
-25/51| A portal appears over Bisland.
-26/52| Something falls out of the portal.
-27/53| Nothing significant...
-28/54| Nothing significant...
-29/55| Mystery Potion 2: Electric Boogaloo
+22/48~29/55| Nothing significant.
 30/56| The /Arena/ appears.
-     | Mystery smoke, probably should be explained
 31/57| Skeleton dragon spawned.
-     | Thread inactive.
-
-FS2.5 & beyond
-74 | Thartler reaches Adult Dragon.
-84 | Chir''s dragon reaches Adult Dragon.
-135| FS2!Reali's *Obsessed* runs out.
