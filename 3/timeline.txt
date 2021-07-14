@@ -22,7 +22,11 @@ FS3
   | The /Tank/ is created in the /Fortress/.
 11| The /Spinach Plant/ is created in the /Fortress/.
 12| The islands momentarily explode.
-13| <not available>
+13| The /Dirt House/ and /Campfire/ are created.
+  | The /Fireproof-Explosionproof Wall/ and /Golden Carrot Plant/ are created in
+  \ the /Fortress/.
+  | Being _AFK_ is accecpted as a feature.
+14| <not available>
 
 FS1
 1 | realicraft, TheGuy, sneezingdog4, and Huzbubber Tim all join.
