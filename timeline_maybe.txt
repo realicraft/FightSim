@@ -32,7 +32,7 @@ FS1
 5~10 | Nothing significant.
 11| The /Cliff/ appears.
 12| Murphmario joins.
-  | The planet momentariely explodes.
+  | The ~planet~ islands momentariely explode.
 13| The Island gets struck by several lighting bolts, followed by a single lightning bolt.
 14| Nothing significant.
 15| Several bullet noises.
