@@ -2,6 +2,8 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="main.css"></link>
         <link rel="stylesheet" type="text/css" href="table.css"></link>
+        <link rel="stylesheet" type="text/css" href="player_table.css"></link>
+        <link rel="stylesheet" type="text/css" href="icons.css"></link>
         <style>
             .overheal {
                 color: green;
@@ -34,129 +36,569 @@
             <br>
             X turnS remaining
         </p>-->
-        <table id="player_stats">
-            <tr>
-                <th>Username</th>
-                <th>HP</th>
-                <th>Max HP</th>
-                <th>Kills</th>
-                <th>Deaths</th>
-                <th>Effect 1</th>
-                <th>Effect 2</th>
-                <th>Attack</th>
-                <th>Defense</th>
-            </tr>
-            <tr>
-                <td>realicraft</td>
-                <td><span class="overheal">102</span></td>
-                <td>100</td>
-                <td>1</td>
-                <td>1</td>
-                <td>None</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>5 (5)</td>
-            </tr>
-            <tr>
-                <td>Joyous Theta</td>
-                <td>68</td>
-                <td>100</td>
-                <td>0</td>
-                <td>1</td>
-                <td>Bruised (3)</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>4 (5)</td>
-                <!--ballet prof. lv0 10%-->
-            </tr>
-            <tr>
-                <td>SausageMcSauce</td>
-                <td>84</td>
-                <td>100</td>
-                <td>1</td>
-                <td>1</td>
-                <td>AFK</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>5 (5)</td>
-            </tr>
-            <tr>
-                <td>CatsUnited</td>
-                <td>95</td>
-                <td>100</td>
-                <td>0</td>
-                <td>3</td>
-                <td>AFK</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>5 (5)</td>
-            </tr>
-            <tr>
-                <td>Squrrelflight</td>
-                <td>97</td>
-                <td>100</td>
-                <td>0</td>
-                <td>1</td>
-                <td>AFK</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>5 (5)</td>
-            </tr>
-            <tr>
-                <td>IncendiaryGaming</td>
-                <td>91</td>
-                <td>100</td>
-                <td>1</td>
-                <td>1</td>
-                <td>None</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>5 (5)</td>
-            </tr>
-            <tr>
-                <td>Byron_Inc_TBG</td>
-                <td>92</td>
-                <td>100</td>
-                <td>1</td>
-                <td>2</td>
-                <td>None</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>5 (5)</td>
-            </tr>
-            <tr>
-                <td>cheesyfriedeggs</td>
-                <td>105</td>
-                <td>100</td>
-                <td>0</td>
-                <td>1</td>
-                <td>None</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>5 (5)</td>
-            </tr>
-            <tr>
-                <td>solitare</td>
-                <td>100</td>
-                <td>100</td>
-                <td>0</td>
-                <td>0</td>
-                <td>None</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>5 (5)</td>
-            </tr>
-            <!--<tr>
-                <td>name</td>
-                <td>100</td>
-                <td>100</td>
-                <td>0</td>
-                <td>0</td>
-                <td>None</td>
-                <td>None</td>
-                <td>10 (10)</td>
-                <td>5 (5)</td>
-            </tr>-->
+        <div style="height: 20px;"></div>
+        <div style="width: min(90%, 1500px); margin: auto;">
+            <!--<div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">username</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">100</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">5 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">0</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">0</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of effect</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of skill</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>-->
+            <div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">realicraft</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">102</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">5 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">1</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">1</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <!--<h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of effect</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+                <!--<h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of skill</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+            </div>
+            <div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">Joyous Theta</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">68</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">4 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">0</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">1</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon def_down"></td>
+                            <td>Bruised</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--<h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon"></td>
+                            <td>Ballet</td>
+                            <td>0</td>
+                            <td>10%</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+            </div>
+            <div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">SausageMcSauce</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">84</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">5 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">1</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">1</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon afk"></td>
+                            <td>AFK</td>
+                            <td>*</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--<h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of skill</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+            </div>
+            <div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">CatsUnited</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">100</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">5 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">0</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">3</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon afk"></td>
+                            <td>AFK</td>
+                            <td>*</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--<h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of skill</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+            </div>
+            <div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">Squrrelflight</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">97</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">5 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">0</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">1</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon afk"></td>
+                            <td>AFK</td>
+                            <td>*</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--<h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of skill</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+            </div>
+            <div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">IncendiaryGaming</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">91</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">5 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">1</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">1</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <!--<h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of effect</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+                <!--<h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of skill</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+            </div>
+            <div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">Byron_Inc_TBG</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">92</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">5 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">1</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">2</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <!--<h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of effect</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+                <!--<h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of skill</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+            </div>
+            <div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">cheesyfriedeggs</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">105</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">5 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">0</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">1</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <!--<h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of effect</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+                <!--<h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of skill</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+            </div>
+            <div class="player_table">
+                <span style="position: relative; width: 100%; display: inline-block;"><span class="icon normal_type type_icon"></span></span>
+                <h2 class="username">solitare</h2>
+                <div class="meter_container">
+                    <div class="health_disp"><span class="icon heart"></span><span style="vertical-align: top;">100</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">100</span></div>
+                    <div class="combat_disp"><span class="icon sword"></span><span style="vertical-align: top;">10 (10)</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">5 (5)</span><span class="icon sheild"></span></div>
+                    <div class="kd_disp"><span class="icon swing"></span><span style="vertical-align: top;">0</span><span style="font-size: 25px; vertical-align: top;">/</span><span style="vertical-align: bottom;">0</span><span class="icon broken_sheild"></span></div>
+                </div>
+                <!--<h3 style="margin: 0px;">Effects</h3>
+                <table class="pt_effects">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Turns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of effect</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+                <!--<h3 style="margin: 0px;">Skills</h3>
+                <table class="pt_skills">
+                    <colgroup>
+                        <col style="width:32px; background-color: #7f7f7f;">
+                        <col style="width:100%; background-color: #9f9f9f;">
+                        <col style="width:20px; background-color: #7f7f7f;">
+                        <col style="width:30px; background-color: #9f9f9f;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 10px;">Icon</th>
+                            <th style="font-size: 10px;">Name</th>
+                            <th style="font-size: 10px;">Level</th>
+                            <th style="font-size: 10px;">Prof.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="icon heart"></td>
+                            <td>Name of skill</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+            </div>
+        </div>
         </table>
         <table id="effects">
             <tr>

@@ -1,0 +1,93 @@
+span.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.heart {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: 0px 0px;
+}
+.heart2 {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -32px 0px;
+}
+.broken_heart, .ko {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -64px 0px;
+}
+.sword {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -96px 0px;
+}
+.sheild {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -128px 0px;
+}
+.swing, .kill {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -160px 0px;
+}
+.broken_sheild, .death {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -192px 0px;
+}
+.normal_type, .placeholder {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: 0px -64px;
+}
+.fire_type {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -32px -64px;
+}
+.water_type {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -64px -64px;
+}
+.elec_type {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -96px -64px;
+}
+.plant_type {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -128px -64px;
+}
+.ice_type {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -160px -64px;
+}
+.light_type {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -192px -64px;
+}
+.dark_type {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -224px -64px;
+}
+.fire {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: 0px -128px;
+}
+.freeze {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -32px -128px;
+}
+.atk_up {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -64px -128px;
+}
+.def_up {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -96px -128px;
+}
+.atk_down {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -128px -128px;
+}
+.def_down {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -160px -128px;
+}
+.afk, .sleep {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -192px -128px;
+}

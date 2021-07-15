@@ -1,0 +1,50 @@
+.player_table {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: min(25%, 400px);
+    display: inline-block;
+}
+.username {
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.health_disp, .combat_disp {
+    width: calc(50% - 1px);
+    display: inline-block;
+    background-color: #6f6f6f;
+    height: 32px;
+}
+.kd_disp {
+    width: 100%;
+    display: inline-block;
+    background-color: #6f6f6f;
+    height: 32px;
+}
+.health_disp {
+    float: left;
+}
+.combat_disp {
+    float: right;
+}
+.kd_disp {
+   margin-top: 2px; 
+}
+.type_icon {
+    position: absolute;
+    left: 0px;
+}
+.meter_container {
+    height: 66px;
+    background-color: black;
+    font-size: 15px;
+}
+.pt_effects, .pt_skills {
+    width: 95%;
+    margin-top: 0px;
+}
+.pt_effects tr, .pt_effects td, .pt_effects th, .pt_skills tr, .pt_skills td, .pt_skills th {
+    background-color: transparent;
+}
