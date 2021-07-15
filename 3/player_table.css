@@ -1,7 +1,7 @@
 .player_table {
     border: 2px solid black;
     border-radius: 5px;
-    width: min(25%, 400px);
+    width: 400px;
     display: inline-block;
 }
 .username {
@@ -39,7 +39,7 @@
 .meter_container {
     height: 66px;
     background-color: black;
-    font-size: 15px;
+    font-size: 12px;
 }
 .pt_effects, .pt_skills {
     width: 95%;
