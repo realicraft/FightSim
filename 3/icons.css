@@ -3,7 +3,7 @@ span.icon {
     width: 32px;
     height: 32px;
 }
-.heart {
+.heart, .health {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: 0px 0px;
 }
@@ -15,11 +15,11 @@ span.icon {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -64px 0px;
 }
-.sword {
+.sword, .attack {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -96px 0px;
 }
-.sheild {
+.sheild, .shield, .defense, .defence {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -128px 0px;
 }
@@ -27,7 +27,7 @@ span.icon {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -160px 0px;
 }
-.broken_sheild, .death {
+.broken_sheild, .death, .broken_shield {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -192px 0px;
 }
@@ -63,11 +63,19 @@ span.icon {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -224px -64px;
 }
-.fire {
+.typeless {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -256px -64px;
+}
+.missingtype {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -288px -64px;
+}
+.fire, .on_fire {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: 0px -128px;
 }
-.freeze {
+.freeze, .frozen {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -32px -128px;
 }
@@ -90,4 +98,36 @@ span.icon {
 .afk, .sleep {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -192px -128px;
+}
+.lightning, .paralyzed {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -224px -128px;
+}
+.poison, .poisoned {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -256px -128px;
+}
+.pickaxe, .mining {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: 0px -192px;
+}
+.axe, .chopping {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -32px -192px;
+}
+.crafting {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -64px -192px;
+}
+.cooking, .grill {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -96px -192px;
+}
+.flower, .gardening {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -128px -192px;
+}
+.missing, .iconless, .missingno {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -480px -480px;
 }
