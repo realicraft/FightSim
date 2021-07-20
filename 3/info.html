@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="main.css"></link>
+        <link rel="stylesheet" type="text/css" href="table.css"></link>
 	</head>
 	<body>
         <img src="CurrentLogo/logo.png">
@@ -11,8 +12,9 @@
             <a href="stats.html">Stats</a>
             <a href="structures.html">Structures</a>
             <a href="voting.html">Voting</a>
+            <a href="gardens.html">Gardens</a>
         </div>
-        <p>This page details things that occur in Fighting Simulator 3.</p>
+        <p>This page details things miscellaneous information about Fighting Simulator 3.</p>
         <h2>Formatting</h2>
         <p>
             FS3 uses various types of formatting to signify different things.
@@ -25,25 +27,110 @@
             <br>
             <u>Underlined</u> text signifies something that could be added by voting on it. 
         </p>
-        <h2>Types</h2>
-        <p>will format later</p>
-        <pre>There are 8 types: [color=gray]Normal[/color], [color=orange]Fire[/color], [color=blue]Water[/color], [color=yellow]Electric[/color], [color=green]Plant[/color], [color=cyan]Ice[/color], [color=lightgray]Light[/color], and [color=darkgray]Dark[/color].
-The type effectiveness works like this:
-[code]
-               Dark ->  Normal  -> Light              
-    Water, Electric ->   Fire   -> Plant, Ice         
-         Plant, Ice ->  Water   -> Fire               
-               Dark -> Electric -> Fire, Dark         
-               Fire ->  Plant   -> Water, Light       
-               Fire ->   Ice    -> Water              
-Dark, Plant, Normal ->  Light   -> Dark               
-    Light, Electric ->   Dark   -> Normal, Electric   
-[/code]
-Additionally, some effects behave differently with certain types. Specifically:
-[quote]On Fire: Fire types are healed rather than harmed, Ice and Plant types take +2 damage per turn, Water types take -1 damage per turn and have a 20% chance per turn to have the effect tick down an extra turn.
-Frozen: Ice types gain a +3 defense boost rather than the standard effects, and Water types have a 20% chance per turn for the effect to not tick down.
-Paralysis: Electric types gain a +3 attack boost rather than the standard effects, and Dark types gain a -2 attack loss.
-Poisoned: Dark types are immune, and Light types always take damage.[/quote]
-You can change type at any time, but it takes effect at the end of the turn.
+        <h2>Skill Exp.</h2>
+        <p>Skills gain exp based on how high you rolled on the skill roll, using the folowing table.<br />
+        (Values above 20 can only be obtained by having a sufficent level in the skill.)</p>
+        <table>
+            <tr>
+                <th>Level Req.</th>
+                <th>Roll</th>
+                <th>Exp Gained</th>
+            </tr><tr>
+                <td rowspan="14">0</td>
+                <td>1, 2</td>
+                <td>5%</td>
+            </tr><tr>
+                <td>3, 4, 5</td>
+                <td>10%</td>
+            </tr><tr>
+                <td>6, 7</td>
+                <td>15%</td>
+            </tr><tr>
+                <td>8, 9</td>
+                <td>20%</td>
+            </tr><tr>
+                <td>10, 11</td>
+                <td>25%</td>
+            </tr><tr>
+                <td>12</td>
+                <td>30%</td>
+            </tr><tr>
+                <td>13</td>
+                <td>35%</td>
+            </tr><tr>
+                <td>14</td>
+                <td>40%</td>
+            </tr><tr>
+                <td>15</td>
+                <td>50%</td>
+            </tr><tr>
+                <td>16</td>
+                <td>55%</td>
+            </tr><tr>
+                <td>17</td>
+                <td>60%</td>
+            </tr><tr>
+                <td>18</td>
+                <td>65%</td>
+            </tr><tr>
+                <td>19</td>
+                <td>70%</td>
+            </tr><tr>
+                <td>20</td>
+                <td>80%</td>
+            </tr><tr>
+                <td rowspan="2">1</td>
+                <td>21</td>
+                <td>90%</td>
+            </tr><tr>
+                <td>22</td>
+                <td>95%</td>
+            </tr><tr>
+                <td rowspan="2">2</td>
+                <td>23</td>
+                <td>100%</td>
+            </tr><tr>
+                <td>24</td>
+                <td>105%</td>
+            </tr><tr>
+                <td rowspan="2">3</td>
+                <td>25</td>
+                <td>105%</td>
+            </tr><tr>
+                <td>26</td>
+                <td>110%</td>
+            </tr><tr>
+                <td rowspan="2">4</td>
+                <td>27</td>
+                <td>110%</td>
+            </tr><tr>
+                <td>28</td>
+                <td>115%</td>
+            </tr><tr>
+                <td>5</td>
+                <td>29, 30</td>
+                <td>115%</td>
+            </tr><tr>
+                <td>6</td>
+                <td>31</td>
+                <td>120%</td>
+            </tr><tr>
+                <td>7</td>
+                <td>32</td>
+                <td>120%</td>
+            </tr><tr>
+                <td>8</td>
+                <td>33</td>
+                <td>120%</td>
+            </tr><tr>
+                <td>9</td>
+                <td>34</td>
+                <td>120%</td>
+            </tr><tr>
+                <td>10</td>
+                <td>35</td>
+                <td>125%</td>
+            </tr>
+        </table>
 	</body>
 </html>
