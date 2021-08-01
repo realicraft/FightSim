@@ -27,6 +27,14 @@ FS3
   \ the /Fortress/.
   | Being _AFK_ is accecpted as a feature.
 14| <not available>
+15| <not available>
+16| <not available>
+17| <not available>
+18| <not available>
+19| <not available>
+20| <not available>
+21| <not available>
+22| <not available>
 
 FS1
 1 | realicraft, TheGuy, sneezingdog4, and Huzbubber Tim all join.
