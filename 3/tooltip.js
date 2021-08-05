@@ -22,7 +22,8 @@ var tooltips = [
     ["Golden Ripe Spinach Bundle", "Golden <em>and</em> ripe!?<br />Restores 15 HP, gives Regen 2.", "Harvesting Spinach"],
     ["Golden Potato", "Butter included.<br />Restores 10 HP, gives Attack Up 1.", "Harvesting Potatoes"],
     ["Flint & Steel", "Sets things on fire.", "Unknown"],
-    ["TNT", "Explodes after being ignited.", "Unknown"]
+    ["TNT", "Explodes after being ignited.", "Unknown"],
+    ["Icicle", "It's cold, and kinda pointy.", "Finding it"]
 ]
 var tt = function(id=0) {
     tooltip(tooltips[id][0], tooltips[id][1], tooltips[id][2])
