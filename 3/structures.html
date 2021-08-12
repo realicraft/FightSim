@@ -1,6 +1,7 @@
 <html>
 	<head>
         <link rel="stylesheet" type="text/css" href="main.css"></link>
+        <link rel="stylesheet" type="text/css" href="icons.css"></link>
         <style>
             h1, h2, h3 {
                 margin-top: 5px;
@@ -19,6 +20,19 @@
             }
             .struct .struct {
                 width: 90%
+            }
+            .info_text {
+                height: 32px;
+                display: inline-block;
+                line-height: 32px;
+                /*From https://stackoverflow.com/a/4919231 */
+                text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+            }
+            .info_icon {
+                position: absolute; 
+                margin: auto;
+                z-index: -1;
+                left: calc(50% - 16px);
             }
         </style>
 	</head>
@@ -59,12 +73,12 @@
             <h1>Base Under the Island</h1>
             <h2>Created by: SausageMcSausage</h2>
             <h2>Created On: <a href="https://tbgforums.com/forums/viewtopic.php?pid=562841#p562841">Turn 7</a></h2>
-            <p>A base underneath the island. Contains the following:</p>
+            <p>A base underneath Trisland. Contains the following:</p>
             <div class="struct">
                 <h2>Oven Underneath the Island</h2>
                 <h3>Created by: SausageMcSausage</h3>
                 <h3>Created On: <a href="https://tbgforums.com/forums/viewtopic.php?pid=492275#p492275">Turn 4</a></h3>
-                <p>An oven underneath the Island. It's too far away to do anything to the Island's surface.</p>
+                <p>An oven underneath Trisland. It's too far away to do anything to Trisland's surface.</p>
             </div><div class="struct">
                 <h2>Cave</h2>
                 <h3>Created by: SausageMcSausage</h3>
@@ -90,7 +104,7 @@
                 <h2>Destroyed Fireproof/Explosionproof Wall</h2>
                 <h3>Created by: Byron_Inc_TBG</h3>
                 <h3>Created On: <a href="https://tbgforums.com/forums/viewtopic.php?pid=564089#p564089">Turn 13</a></h3>
-                <p>A wall immune to things like fire and explosions. Destroyed by a shockwave. Currently being rebuilt. (1/3)</p>
+                <p>A wall immune to things like fire and explosions. Destroyed by a shockwave. Currently being rebuilt. (2/3)</p>
             </div><div class="struct">
                 <h2>Storage Room</h2>
                 <h3>Created by: Byron_Inc_TBG</h3>
@@ -150,8 +164,6 @@
             </div>
         </div><div class="struct">
             <h1>The North Pole</h1>
-            <h2>Created by: The Planet</h2>
-            <h2>Created On: Turn negative a billion</h2>
             <p>Ah, the North Pole.<br /><span style="font-size: 7px;">...I'm sorry.</span></p>
             <!--<div class="struct">
                 See /FightSim/3/apology.txt
@@ -160,16 +172,25 @@
                 <h3>Created On: <a href="https://tbgforums.com/forums/viewtopic.php?pid=569557#p569557">Turn 22</a></h3>
                 <p>A net, made to catch things like fish, plastic containers filled with frozen beans, and more fish.</p>
             </div>--><div class="struct">
-            <h1>Portal to Trisland</h1>
-            <h2>Created by: Vote</h2>
-            <h2>Created On: <a href="https://tbgforums.com/forums/viewtopic.php?pid=570180#p570180">Turn 23</a></h2>
-            <p>A portal that links to another portal at Trisland.</p>
+                <h2>Portal to Trisland</h2>
+                <h3>Created by: Vote</h3>
+                <h3>Created On: <a href="https://tbgforums.com/forums/viewtopic.php?pid=570180#p570180">Turn 23</a></h3>
+                <p>A portal that links to another portal at Trisland.</p>
+            </div><div class="struct">
+                <h2>Cave in the Ice</h2>
+                <h3>Created by: solitare</h3>
+                <h3>Created On: <a href="https://tbgforums.com/forums/viewtopic.php?pid=570180#p570180">Turn 23</a></h3>
+                <p>A small cave in some ice.</p>
+            </div>
         </div><div class="struct">
-            <h1>Cave in the Ice</h1>
-            <h2>Created by: solitare</h2>
-            <h2>Created On: <a href="https://tbgforums.com/forums/viewtopic.php?pid=570180#p570180">Turn 23</a></h2>
-            <p>A small cave in some ice.</p>
-        </div>
+            <h1>War Tank</h1>
+            <h2>Created by: IncendiaryGaming</h2>
+            <h2>Created On: <a href="https://tbgforums.com/forums/viewtopic.php?pid=570731#p570731">Turn 24</a></h2>
+            <p>A tank, capable on shooting one singular person at a time.</p>
+            <div style="position: relative; text-align: center;"><span class="icon heart info_icon"></span><span class="info_text">225/250</span><br />
+            <span class="icon attack info_icon"></span><span class="info_text">15 (15)</span><br />
+            <span class="icon defense info_icon"></span><span class="info_text">9 (10)</span><br />
+            <span class="icon kill info_icon"></span><span class="info_text">0</span></div>
         </div>
 	</body>
 </html>

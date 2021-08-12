@@ -1,0 +1,44 @@
+Skeledop - Turn 23
+(Note: this update was made out-of-order.)
+[quote=solitare]i vote b
+
+i attempt to carve a house out of the ice[/quote]
+Skill roll: 1d20 = 12
+You manage to carve some sort of cave. It's kind of small. (Your Carving skill has gone up by 30%.)
+[quote=cheesyfriedeggs](I vote option A.)
+
+I work on reinforcing my wall around my campfire. I also harvest the cabbage and radishes, while also thinking about green beans.[/quote]
+Skill roll: 1d20 = [color=green]19[/color]
+The wall is now Reinforced, and is no longer slightly damaged. (Your Crafting skill has gone up by 70%.)
+Skill roll: 2d20 = 13, [color=green]18[/color]
+You harvest 4 Heads of Cabbage and 5 Bundles of Radishes. These have been placed by the garden. (Your Garening skill has gone up by 75%.) (I explained this in Turn 19, but I'll go over it again: "The formula used for exp gain when there are multiple rolls is avg(<exp gain for all rolls>)*((<rolls>+1)/2).")
+[quote=Byron_Inc_TBG]I vote for B.
+
+I harvest and replant all my plants, eats the beans (probably green), and build my everything-proof wall. (2/3)
+
+"What's what that mushroom clouds?"[/quote]
+Skill roll: 3d20+4 = 6, 13, [color=green]19[/color] = 10, 17, [color=green][b]23[/b][/color]
+You harvest 2 Bundles of Spinach, 4 Cans of Beans, 6 Potatoes, and 2 Golden Potatoes. (Your Gardening skill has gone up by 124%.)
+You keep building the wall.
+[quote=IncendiaryGaming]B
+The War Tank should now be completed, equipped with regenerative energy ammo and self healing armour.[/quote]
+I-I'm sorry, the [b][i]WHAT[/i][/b].
+Uh, could you explain what you've been doing? Like is this a structure, or an inventory item, or something new. It is surprisingly weak, or is it so overpowered I need to play the "Not a Feature" card? What does it do? Does it have stats, or do we need to push it into the ocean to get rid of it? Really, could you please explain so I know what to do here?
+
+I start baking cookies in the oven under Trisland, for no real reason.
+
+The ongoing vote about dealing with the North Pole has been ended early. Normally, votes started during the update itself last for the two turns after the update, but this one will only last one, as it's caused... problems. I have changed my vote to B.
+Votes recieved: 4 B, 1 A, 0 No, 5 Abstain. Option B passes.
+The [i]Portal[/i] has appeared on both Trisland and the North Pole.
+
+The [i]Damaged Lightning Rod[/i], [i]People-Firing Cannon[/i], and [i]Fishing Net[/i] have been removed from the game, as per request. ([color=transparent]If you don't understand what this means, please note that the page count of this thread has shrunk to 5.[/color])
+
+Several entries, including votes, have been removed from the website, as per the same request. ([color=transparent]I wish I didn't have to do this.[/color])
+
+Faressain and LeaopardyLeaf are now considered [b]AFK[/b].
+
+Plants grow. The [i]Golden Carrots[/i] and [i]Beetroot[/i] are now harvestable.
+The [i]Carrots[/i] are now rotting. Whoops.
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url]
+[code].../FightSim/3/apology.txt 200 OK[/code]

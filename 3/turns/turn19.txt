@@ -1,0 +1,44 @@
+Turn 19 - Skeledop
+(Note the skeledops and updates are based on what day it is for Pacific Time (UTC-7 during DST, UTC-8 otherwise). This means that, to you, they might come the day after I said they would. Additionally, the time they are released is still "when I feel like it".)
+
+[quote=Byron_Inc_TBG]I harvest and replant all crops (did not harvest golden carrots), look up to the sky and let out a sigh.[/quote]
+Skill rolls: 3d20+2 = [b][color=green]20[/color][/b], 6, [b][color=green]22[/color][/b]
+From the [i]Spinach[/i], you harvest 5 Ripe Spinach Bundles and a [color=magenta]Golden Ripe Spinach Bundle[/color].
+From the [i]Beans[/i], you harvest a Can of Beans.
+From the [i]Potatoes[/i], you harvest 5 Bags of Potatoes and 2 [color=magenta]Golden Potatoes[/color].
+(The golden plants have been put into your inventory for safekeeping, the rest are out in the open until moved somewhere else.)
+(Your Gardening skill has increased by {20,6,22}=[b]128[/b]%. Your Gardening level increases to 2! You now have a +4 on Gardening rolls.)
+In case your wondering why you didn't gain full exp for all the rolls, with the current exp curve, that would be somewhat overpowered. The formula used for exp gain when there are multiple rolls is avg(<exp gain for all rolls>)*((<rolls>+1)/2). (The average is rounded up.)
+Also, the number of plants one can have is now capped at 4, to prevent massive exp gains. (Might reduce the cap to 3 later.)
+You look at the sky and see clouds, along with something else, though you can't quite figure out [i]what[/i].
+[quote=Joyous Theta]Rocket, not missile, unless I'm wrong and this is actually technically a missile.
+
+I continue to work on the cool bean farm (7/10) and the rocket (3/4).[/quote]
+My bad.
+I'm considering making plants be created instantly. Does that seem like a good idea to you?
+[quote=solitare]i go on a journey to try and find a village[/quote]
+Unfortunatly, there isn't really anywhere to [i]go[/i], considering you're on an island. But you do see Byron's fortress, cheesy's campfire, SausageMcSauce's base under the island, your own house, that island in the distance with a bunch of people on it, and that island in the distance [i]without[/i] a bunch of people on it.
+...come to think of it, this island [i]is[/i] a village.
+
+Wait, why is everyone of that island in the distance with people on it running around like there's something about to explode?
+[quote=cheesyfriedeggs]Mourn the loss of my cabbage, then gain an odd obsession with radishes and plant some of those. (along with replanting the cabbage)[/quote]
+You mourn the cabbage.
+You then plant some radishes. (0/3)
+Harvested plants are replanted by default, unless specified, or you roll a 1.
+[quote=Byron_Inc_TBG]I also keep making TNT. (2/2)
+I get a Flint & Steel and keep it in a safe place.[/quote]
+The [i]TNT[/i] has been created on the island. Might want to move it.
+The best place to keep something is your inventory.
+[quote=IncendiaryGaming]Continue work and employ some sort of army to fight with.[/quote]
+The work has been continued... whatever it was.
+Unfortunatly, [u]recruitable armies[/u] aren't a thing.
+...actually, [u]recruitable [i]anythin[/i][/u] isn't a thing.
+[quote=solitare]skeledop when[/quote]
+Around 4:56 PDT, which is about... now.
+
+The plants grow. (I'm just gonna stop listing specific plant growth.)
+Hey, that thing in the sky seems to be heading towards us. Is that bad?
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url]
+
+I'll likely post the Turn 20 skeledop tomorrow, so I can update it on Friday.

@@ -1,0 +1,33 @@
+Byron 1:
+    Skill rolls: 3d20+2 = 20, 6, 22
+    Gained 5 Ripe Spinach Bundles and 1 Golden Ripe Spinach Bundle, Spinach replanted
+    Gained 1 Can of Beans, Beans replanted
+    Gained 5 Bags of Potatoes and 2 Golden Potatoes, Potatoes replanted
+    Exp gained: avg({20}, {6}, {22})*((3+1)/2) = avg(80, 15, 95)*(4/2) = 64*2 = 128
+    New exp: 128+30 = 158, {2, 8%}
+    Explain exp gain from multiple rolls
+    Cap plant count at 4 (possibly 3 later)
+    See clouds and mystery object
+Theta 1:
+    My bad (rocket/missile)
+    Consider making plants instant-create
+Soli 1:
+    Reveal structures: Fortress, campfire, base under island, house, Unisland, Bisland
+    This is a village
+    Plot: Why's everyone at Unisland screaming
+Cheesy 1:
+    Cabbage mourned
+    Plant Radishes
+    Cabbage already replanted
+Byron 2:
+    Created TNT, on island
+    Obtained Flint & Steel, in inventory
+Incendiary 1:
+    Work continued, whatever it is
+    Armies aren't a thing
+    Actually, recruitable /anything/ isn't a thing
+Soli 2:
+    4:56 PDT
+
+Main:
+    Plot: That thing in the sky looks like it's heading towards us

@@ -1,0 +1,63 @@
+Turn 15 - Skeledop
+Did you know that most ad blockers for desktop browsers can also block things that /aren't/ ads? And that you can /manually/ block thing?
+It's helpful for things like "hide a signature image that makes you uncomfortable", or "hide a signature gif that makes you uncomfortable", or "hide that picture of a bunny your friend keeps showing you", or even some other things!
+Unfortunately, it cannot help with "hide a post that makes you uncomfortable", so don't expect this post to be finished within the next few hours.
+
+[quote=Faressain]> map c1m1_island; sv_consistency 0; sv_cheats 0
+[b]
+Fighting Simulator 3: Subtitle[/b]
+You must fight this hard, to reap the rewards.
+
+Loading.
+[||||||||||]
+Loading complete.
+
+[Changing Flask]: Heyyo! Is there anypony?
+*Picked up slingshot and ammo.*
+[Changing Flask]: This will stun some meanies.
+*Aiming at Incendiary.*
+[Changing Flask]: "Whoa, are those 'hoomans' that Celestia warned me not to befriend? Sounds like a real mean creature!"
+[i][Slingshot sounds][/i]
+*Fired rock at IncendiaryGaming head.*
+
+[ Slingshot 2 ]
+[ Hoof (kick) ]
+[ No throwables ]
+[ No healing item 1 ]
+[ No healing item 2 ][/quote]
+Y'know, I was wondering when you would show up. Actually, if we're being honest, I was kinda hoping you wouldn't.
+Anyway, while you do have experience with Fighting Simulator, having played in the first two, you seem to not be sure of how to play 3. I'll go over your post and show you how to play:
+[quote]I think using a console to change where the game is being played violates the no godmodding rule. Don't worry, you get off with just a warning the first time.
+The subtitle of [i][b]Fighting Simulator 3: Subtitlle[/b][/i] is "Subtitle". That's why it's after the colon.
+Unfortunately, [u]ponies[/u] are a feature that haven't been added, so you're going to need to be something else. I know it breaks whatever narrative you're going for, but that's just how this game works.
+Also try not to add subnarratives? It makes things hard to understand.
+You do still get to pick up the slingshot and attack Incendiary, though, since [u]inventories[/u] were already added around turn 4 or so, and attacking is a basic feature.
+Not everyone's a human. Probably. Pretty sure I'm a stickfigure.
+That's not how inventories work; how they work is you get 9 slots to hold things in, and each slot can hold anything. Also, I keep track of them on the website, not you.[/quote]
+It's a bit hard for me to tell what's going on with all that extra stuff in that post, so here's my attempt at making it in the style of the average post (you can substitute "I" for a name of your choice):
+[quote=Faressain (paraphrased)]I yell out "Heyyo, anyone here?!"
+I then pick up a slingshot and some ammo, and shoot IncendiaryGaming.[/quote]
+Simple, right? You have some dialogue, and then you fight someone. Much easier to understand!
+Anyway, time for the actual post to be parsed:
+Accuracy roll: 1d10-2(Dodge) = 4-2 = [color=red]2[/color] ([color=transparent]No, really. That was the first roll.[/color])
+...you missed.
+Alright, now that the wall of text is done, time for the other posts.
+[quote=cheesyfriedeggs]That's not where the cabbage is supposed to go. It's supposed to go next to the campfire.
+
+Anyways, I take some string, a stick, and a rock to make a small hammer thing. ;)[/quote]
+My bad, I'll move it.
+Skill roll: 1d20 = 8
+You make a Decent Hammer. It looks flimsy. (Your Crafting skill has gone up by 20%.)
+[quote=IncendiaryGaming]Dodge the rock and fight back[/quote]
+Dodge successful! I'll just assume you punch Fares.
+Attack roll: 1d10 = 3
+Defense roll: 1d5 = [b][color=red]1[/color][/b]
+Faressain takes 3-0=[b]3[/b] damage.
+[quote=Byron_Inc_TBG]I expands my fortress to allow more rooms.
+I build a room for explosives, one for defenses, one for melee weapons, and one for shelter.
+I also build an emergency bunker.[/quote]
+The [i]Explosives Room[/i], [i]Defense Room[/i], [i]Weaponry[/i], and [i]Shelter[/i] have been created inside the [i]Fortress[/i].
+[quote=solitare]i go strip mining and find diamonds[/quote]
+
+[quote=Joyous Theta]I continue to make a bean farm (3/10) and vote against adding types since they just seem kind of pointless and honestly might just inhibit creativity in attacks [s]and there's not even a bean type[/s].[/quote]
+([color=transparent]i almost didn't include these because you posted them while i was in the middle of making this[/color])

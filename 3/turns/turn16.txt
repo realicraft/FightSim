@@ -1,0 +1,51 @@
+Turn 16 - Skeledop
+I'm taking a break until Saturday, but I still want to address a few things.
+
+[h]The Element System[/h]
+Yeah... if I'm being honest, I [i]really[/i] didn't think elements through.
+The type effectiveness chart wasn't really made with a focus on being [i]balanced[/i], and neither was the interactions between types and effects. Why does On Fire interact with [i]four[/i] types, when the other effects only interact to two? Why is Light weak to three types? Why's no type [i]strong[/i] against three?
+How about we compromise: you control the element system.
+Basically, the system will become a blank slate of "there's normal and it doesn't do anything special, and there's also typeless which will never do anything special." You guys get to add things like new types, interactions between types, interactions of types and effects, and more. Or we could just throw them out entirely. Your choice.
+[h]Ponies[/h]
+In FS2, by the time it "ended", two of the three active players were dragons and ended up with largely increased stats compared to the base stats (one player had [i]750[/i] HP, and the baseline was 100). This made made somewhat disinterested in things that majorly affect stats, like species. Plus, it would be hard to both keep track of and balance: "What abilities would they have? Does type affect anything? Any special interactions with effects? How do I balance [i]flying[/i]?"
+I'm trying (and not actually [i]succeeding[/i], now that I think about it) to keep FS3 simple. Simple to understand, play, and update. Species would not help with that.
+Also, I think you don't realize we aren't talking about the "horse, but small" kind of pony. ([color=transparent]Do you guys use ScratchStyle by any chance? Yes, that is related.[/color])
+The kind we [i]are[/i] talking about comes loaded with complications: "How would they hold stuff? [i]Can[/i] they be ridden? How do I balance having only one person having [i]magic[/i]? Would food work the same? No, really, how do I balance flying."
+I felt it would be best to just ignore those questions by enforcing voting more. Guess I was wrong.
+(Also, if we do vote any kind of animals in, there's going to be a clear, solid line between players and NPCs.)
+
+[quote=LeopardyLeaf]I'd find some coal in the island.[/quote]
+Skill roll: 1d20 = [color=green][b]20[/b][/color]
+You find three coal and a diamond. (Your Mining skill has gone up by 80%.)
+[quote=Joyous Theta]I already figured that, but I'm referring to the fact that against fire types you're basically just going to be throwing a bucket of water at them repeatedly because that's what the element system encourages, and there's only so many ways you can splash somebody with water.
+
+There's also the factor of normal type, which is supposed to be the type for people who don't want to bother with elements as you've said, except that isn't true because they're weak to dark and strong against light so they do have to bother with elements, to which I was considering making a vote to remove that but then I realized that this would make normal the most optimal element because no elements have a resistance, but you can't really implement resistances because you can just... not attack them with an element they resist, unless you want to implement a whole bunch of other systems I guess.
+
+So, at the end of the day, the only thing the element system does is increase the amount of damage everyone takes (which I haven't mentioned but it makes no mention of how effectiveness even applies) by reducing creativity and giving status immunity to some statuses.
+
+I am starting a vote for [b]the removal of the element system[/b] and voting yes on it.
+
+Also, I don't see any reason that Fare can't be a pony if it does not affect gameplay in any way. And on the subject of such, perhaps a racial system could pop up as a similar thing to the element system but without any of the weakness system and instead focusing more on changing stats up?
+
+I continue on the bean farm after that wall of text is finished. (4/10)[/quote]
+([i]This was addressed in the section at the top of this post.[/i])
+
+[quote=solitare]i go strip mining for diamonds again[/quote]
+Skill roll: 1d20 = 11
+You find a piece of coal. (Your Mining skill has gone up by 25%.)
+[quote=Byron_Inc_TBG]I plant some beans and potatoes.
+
+Voting a yes for ponies because they're an easy method of travelling.
+Count me in, for the removal of elements.
+It's quite the issue to think which is the optimal strategy.[/quote]
+([i]Note: Byron later revoked the vote for ponies on 16384. Also, elements were already addressed.[/i])
+[i]Beans[/i] and [i]Potatoes[/i] have been planted. (I'm reorganising all of the plants.)
+I don't think Theta started a vote for ponies.
+
+The plants grow. (Spinach, 2/3; Golden Carrots, 4/5; Beans & Potatoes, 1/3; Cabbage, 3/3)
+
+Joyous Theta is no longer [b]Bruised[/b].
+Joyous Theta's [b]Shielded (2)[/b] ticks down. (1)
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url]
+...what? It's a little past midnight, which means it's Saturday. ...though I seem to not be able to leave you guys by yourselves...

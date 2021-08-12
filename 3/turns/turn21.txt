@@ -1,0 +1,43 @@
+Turn 21 - Skeledop
+Hey, remember this game?
+[quote=IncendiaryGaming]Continue manufacturing the very futuristic war tank[/quote]
+...not going to keep track? Okay, then.
+[quote=solitare]as the beetroots grow (1/3), i install wheels onto my house[/quote]
+The [i]Dirt and Stone House[/i] is now a [i]Dirt and Stone House with Wheels[/i].
+[quote=Byron_Inc_TBG]I make a barrier wall fir my crops.[/quote]
+The [i]Barrier Wall[/i] has been added to your Garden.
+[quote=Joyous Theta]Thank goodness my rocket's going over the barrier wall and not through it, should still be capable of delivering the ice as usual.
+
+I continue the work on the cool bean farm (9/10).[/quote]
+Well, we'll have to wait to see what happens, considering the rocket is still in the air. (1/3)
+
+[b]The nuke[/b], which no-one seems to have cared about, [b]has hit that island in the distance with people on it[/b]. ...well, now it's that island in the distance that [i]used[/i] to have people on it. Actually, we need a better name for it. Seeing as it's the first of three, maybe [b]Unisland[/b]? And that other island in the distance can be called [b]Bisland[/b], and this island, the one you're on, can be called [b]Trisland[/b].
+
+Oh, right, the shockwave.
+Attack roll: 8d25+5: [color=red]8[/color], 18, 21, 21, 22, [color=green]26[/color], 15, 22 ([color=transparent]i guess random.org likes 16 and 17 today[/color]
+Defense roll: 8d5*: 2, 4, [color=red][b]1[/b][/color], [color=green][b]5[/b][/color], 3, 2, [color=red][b]1[/b][/color], 3
+In order: realicraft takes 8-2=[b]6[/b] damage, Joyous Theta takes 18-4=[b]14[/b] damage**, IncendiaryGaming takes 21-0=[b]21[/b] damage, Byron_Inc_TBG takes 21x(2/3)†=[b]14[/b] damage, cheesyfriedeggs takes 22-3=[b]19[/b] damage, solitare takes 26-2=[b]24[/b] damage, Faressain takes 15-0=[b]15[/b] damage, and LeopardyLeaf takes 22-3=[b]19[/b] damage.
+As for the plants:
+Attack roll: 1d25+5: 16
+The [i]Barrier Wall[/i] takes the bulk of the damage for Byron's plants. (84/100)
+All other plants are damaged by the shockwave, causing them to not grow this turn.
+Finally, structures:
+Attack roll: 6d20+4: 13, 11, [color=red][b]5[/b][/color], 18, 11, [color=red]7[/color]
+The [i]Plastic Container Filled with Frozen Beans[/i] is knocked into the sea, and floats away on the waves. Alas, poor beans.
+The [i]Lighting Rod[/i] is damaged by the shockwave, but still functions by virtue of it just being a metal stick.
+The [i]People-Firing Cannon[/i] is somehow completely unaffected by the shockwave†*.
+The [i]Base Under the Island[/i] is unaffected due to being under the island.
+The [i]Fortress[/i] is protected by the [i]Fireproof/Explosionproof Wall[/i], which is destroyed.
+The [i]Dirt and Stone House with Wheels[/i] is pushed off the island by the shockwave, and crumbles on contact with the water. Maybe those wheels weren't the [i]best[/i] idea.
+The [i]Wall[/i] is damaged a little by the shockwave, but is mostly intact.
+
+...while you're in shock about all the damage, is now a good time to mention [i][b]I was lying about FS3 being a continuity reboot, and that it's actually occurring concurrently with FS1/FS2?[/b][/i]
+
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url]
+I'll update the timeline tomorrow. ...well, today, since it's around 12:45 AM Sunday. My bad.
+
+*Everyone has 5 defense, so I just combined the rolls.
+**Somehow, the shockwave reaches the North Pole, despite otherwise being contained to the three islands. The most likely reason for this is either "Theta's been at the North Pole too long and should take damage at some point" or "I forgot Theta was at the North Pole when making the rolls."
+†If you get a crit, you will either only take two-thirds of the damage, or take only as much damage as you would if you got the same number, but not as a crit, depending on which reduces damage more. Note that this requires taking at least [i]18[/i] damage for the first to take affect, and that number increases by 3 for every point of defense, meaning that, except for unusually powerful attacks, getting a crit on a defense roll won't really do anything special.
+†*It's still possible to get a Critical Miss even if you have a flat boost to a roll.
