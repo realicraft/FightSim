@@ -1,4 +1,4 @@
-var tooltip = function(name="lang.en.itemname.default", desc="lang.en.itemdesc.default", source="lang.en.itemsrc.default") {
+var tooltip = function(name, desc, source) {
     var tooltipBodyEl = document.getElementsByClassName("tooltip_body")[0];
     var tooltipNameEl = document.getElementsByClassName("tooltip_name")[0];
     var tooltipDescEl = document.getElementsByClassName("tooltip_desc")[0];
@@ -23,7 +23,8 @@ var tooltips = [
     ["Golden Potato", "Butter included.<br />Restores 10 HP, gives Attack Up 1.", "Harvesting Potatoes"],
     ["Flint & Steel", "Sets things on fire.", "Unknown"],
     ["TNT", "Explodes after being ignited.", "Unknown"],
-    ["Icicle", "It's cold, and kinda pointy.", "Finding it"]
+    ["Icicle", "It's cold, and kinda pointy.", "Finding it"],
+    ["Tray of Cookies", "A tray filled with cookies.", "Cooking"]
 ]
 var tt = function(id=0) {
     tooltip(tooltips[id][0], tooltips[id][1], tooltips[id][2])
