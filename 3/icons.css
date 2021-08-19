@@ -127,6 +127,14 @@ span.icon {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -128px -192px;
 }
+.construction {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -160px -192px;
+}
+.carving, .sharpening {
+    background-image: url("Items/Exported/icons_sheet.png");
+    background-position: -192px -192px;
+}
 .missing, .iconless, .missingno {
     background-image: url("Items/Exported/icons_sheet.png");
     background-position: -480px -480px;
