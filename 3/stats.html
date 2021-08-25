@@ -15,6 +15,12 @@
                 color: darkred;
                 font-weight: bold;
             }
+            .vat {
+                vertical-align: top;
+            }
+            .vab {
+                vertical-align: bottom;
+            }
         </style>
     </head>
     <body>
@@ -38,7 +44,7 @@
             X turnS remaining
         </p>-->
         <div style="height: 20px;"></div>
-        <div style="width: min(90%, 1500px); margin: auto;">
+        <div style="width: min(90%, 1500px); margin: auto;" id="stat_table_container">
             <!--<div class="player_table">
                 <span style="position: relative; width: 100%; display: inline-block;"><span class="icon typeless type_icon"></span></span>
                 <h2 class="username">username</h2>
@@ -798,5 +804,6 @@
                 <td>cause</td>
             </tr>-->
         </table>
+        <script src="stats_table.js"></script>
     </body>
 </html>

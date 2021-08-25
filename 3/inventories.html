@@ -7,6 +7,18 @@
             td {
                 max-width: 200px;
             }
+            td.inv_item {
+                position: relative;
+                background-clip: padding-box;
+            }
+            td.inv_item span {
+                color: white;
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+                /*From https://stackoverflow.com/a/4919231 */
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            }
         </style>
     </head>
     <body>
@@ -170,10 +182,10 @@
             <tr>
                 <td class="inv_user">cheesyfriedeggs</td>
                 <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/rock.png" onmouseover='tt(5);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/rock.png" onmouseover='tt(5);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/rock.png" onmouseover='tt(5);' onmouseout="nt()"></td>
+                <td class="inv_item"><img src="Items/Exported/rock.png" onmouseover='tt(5);' onmouseout="nt()"><span>3</span></td>
                 <td class="inv_item"><img src="Items/Exported/decent_hammer.png" onmouseover='tt(8);' onmouseout="nt()"></td>
+                <td class="inv_item"></td>
+                <td class="inv_item"></td>
                 <td class="inv_item"></td>
                 <td class="inv_item"></td>
                 <td class="inv_item"></td>
@@ -185,8 +197,8 @@
                 <td class="inv_space"></td>
                 <td class="inv_item"><img src="Items/Exported/coal.png" onmouseover='tt(6);' onmouseout="nt()"></td>
                 <td class="inv_item"><img src="Items/Exported/icicle.png" onmouseover='tt(14);' onmouseout="nt()"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
+                <td class="inv_item"><img src="Items/Exported/log.png" onmouseover='tt(16);' onmouseout="nt()"><span>2</span></td>
+                <td class="inv_item"><img src="Items/Exported/stick.png" onmouseover='tt(17);' onmouseout="nt()"><span>4</span></td>
                 <td class="inv_item"></td>
                 <td class="inv_item"></td>
                 <td class="inv_item"></td>
@@ -209,10 +221,10 @@
             <tr>
                 <td class="inv_user">LeopardyLeaf</td>
                 <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/coal.png" onmouseover='tt(6);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/coal.png" onmouseover='tt(6);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/coal.png" onmouseover='tt(6);' onmouseout="nt()"></td>
+                <td class="inv_item"><img src="Items/Exported/coal.png" onmouseover='tt(6);' onmouseout="nt()"><span>3</span></td>
                 <td class="inv_item"><img src="Items/Exported/diamond.png" onmouseover='tt(7);' onmouseout="nt()"></td>
+                <td class="inv_item"></td>
+                <td class="inv_item"></td>
                 <td class="inv_item"></td>
                 <td class="inv_item"></td>
                 <td class="inv_item"></td>

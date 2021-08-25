@@ -24,7 +24,9 @@ var tooltips = [
     ["Flint & Steel", "Sets things on fire.", "Unknown"],
     ["TNT", "Explodes after being ignited.", "Unknown"],
     ["Icicle", "It's cold, and kinda pointy.", "Finding it"],
-    ["Tray of Cookies", "A tray filled with cookies.", "Cooking"]
+    ["Tray of Cookies", "A tray filled with cookies.", "Cooking"],
+    ["Log", "A log.", "Chopping"],
+    ["Stick", "It's a stick. You can use it in a bunch of different things.", "Chopping"]
 ]
 var tt = function(id=0) {
     tooltip(tooltips[id][0], tooltips[id][1], tooltips[id][2])
