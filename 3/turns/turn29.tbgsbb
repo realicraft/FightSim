@@ -1,0 +1,76 @@
+Skeledop - Turn 29
+[h]Equipment: A Guide[/h]
+The way equipment will work, at least initially, is that you will get 8 different slots for equipment: Helmet, Chestplate, Leggings, Boots, Weapon, Shield, Accessory, and Golden Food.
+What equipment you have will [b][i]only affect your stats[/i][/b]; having a helmet will still protect you against spikes, for example, and you can still pull a sword out of nowhere even if you have a bow equipped.
+
+[b]How attacking works[/b]
+
+The basic pattern for attacking generally involves one of three methods:
+[list=a]
+[*]Attack with a natural feature (i.e. your fist) (uses your attack stat)[/*]
+[*]Attack with something you pulled from nowhere (the item disappears once used, so attacking with a sword from nowhere won't give you a sword item, this category also includes things like random fireballs or lightning strikes) (uses your attack stat, plus [i]possibly[/i] a bonus [b]if it makes sense[/b])[/*]
+[*]Attack with something you prepared earlier (such as, say, a tank) (uses either the attack stat of the item, if it has a dedicated attack stat, or your attack stat plus a bonus related to the item (will usually be [b]no bonus[/b], as the item increases attack passively))[/*]
+[*]Some other method. (this category usually includes things that don't use your attack stat, like pushing someone off a cliff)[/*]
+[/list]
+Item B is [i][b]not directly influenced by the weapon you have equipped[/b][/i]; it might be affected by a buff affecting specific attack types, but not your weapon.
+(Item C generally [i]is[/i] influenced by your weapon, but, like previously mentioned, this influence is usually passive and affects all attack types.)
+
+[b]What does equipment give[/b]
+
+Equipment usually gives stat boosts based on what kind of equipment it is; armor gives a defense boost, weapons give an attack boost. Accessories and Golden Foods are special in this regard, as they can generally give any kind of stat boost or effect, such as a dodge chance or regeneration.
+
+[b]Golden Food?[/b]
+
+If equipment is accepted as a feature, it will also come with a rework for Golden Food (which you get from high harvesting rolls). Previously, golden food was just regular food, but with a higher health restoration and a buff. Now, golden food is equipable, and will give you a permanent buff (until you remove it) based on what kind of food it is. It's also the only equipment type you can stack.
+
+[b]What won't be added?[/b]
+
+While equipment does add a lot, there are some things it [i]doesn't[/i] add. Notable ones include:
+[list=*]
+[*][u]Usable abilities.[/u][/*]
+[*]Free equipment.[/*]
+[*]New stats,[/*]
+[*]Ways to avoid being KOd.[/*]
+[/list]
+
+[b]I don't see any equipment slots.[/b]
+
+That's because the vote hasn't passed yet. Wait until next turn.
+
+[quote=Byron_Inc_TBG]Yes for equipments.
+
+(I'm not that ready for battle yet, so dealing a little of damage would not do good for me)
+
+I build a troop of robotic soldiers. (1/100) (The number signifies the amount of robotic soldiers created, and every round after this a 2d15 will decide how many made.) (The robotic soldiers have stats slightly above players.)[/quote]
+While structures that can attack are a feature (see the tank), [u]structures that can attack on their own[/u] aren't. Additionally, 100 structures (or even just a few) with stats higher than players would probably be overpowered.
+Plus, 100 seems like a lot to keep track of (consider that each one would be able to have it's own buffs, along with hp), and do you really trust me to remember to do something every turn?
+Remember, [b]players can also start votes[/b], so if you manage to get a vote for [u]structures that can attack on their own[/u] to pass, feel free to try again with smaller numbers.
+[quote=cheesyfriedeggs]Voting yes for equipment.
+
+I eat one of my radishes to heal myself from the attack and continue looking for materials to make a sword.[/quote]
+You eat a Radish and gain 5 HP.
+Option roll: 1d2 = 2
+You decide that the best place to look for materials is by chopping down a tree. Hey, a tree!
+Skill roll: 1d20 = 12
+You gain 1 Log, 3 Planks, and 3 Sticks. That's enough for a sword and a shovel! (Your Chopping skill goes up by 55%.)
+[quote=solitare]support for equipment
+
+ok wait what i never planted canned beans
+
+i harvest the beetroots[/quote]
+Skill roll: 1d20 = 15
+You harvest 5 [i]Beetroot[/i]. (Your Gardening skill goes up by 65%.) ([color=transparent]Gee, soli, how come you get [i]4[/i] skills?[/color])
+(Also if you don't accept the Potted Canned Bean Bush, I'll just wait for it to rot away)
+[quote=IncendiaryGaming]I attempt to find ways to safely boost the power of the War Tank and fire again at the closest person.[/quote]
+Have you tried upgrading it? You're at level 1 Construction.
+I have no idea who the closed person to you is so I'm just going to pick randomly.
+Option roll: 1d4 = 1 (realicraft)
+Attack roll: 1d15+1* = 5+1 = 6
+Defense roll: 1d5 = [color=green][b]5[/b][/color]
+You manage to deal a grand total of 1 damage. ([color=transparent]I think I've figured out why no-ones been KOd.[/color])
+
+Plants grow.
+The [i]Golden Carrots[/i] are now harvestable.
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url]
+*Yes, the upgrade you did last turn is now a flat bonus.

@@ -3,6 +3,7 @@
     border-radius: 5px;
     width: 400px;
     display: inline-block;
+    margin: 2px;
 }
 .username {
     color: white;
@@ -37,7 +38,7 @@
     left: 0px;
 }
 .meter_container {
-    height: 66px;
+    height: 68px;
     background-color: black;
     font-size: 12px;
 }

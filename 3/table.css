@@ -18,9 +18,9 @@ td>img {
 }
 .inv_item {
     width: 64px;
-    height: 71px;
+    height: 64px;
     background-color: #7f7f7f;
-    border: 5px ridge #7f7f7f;
+    border: 5px ridge #5f5f5f;
     text-align: center;
 }
 .inv_space {
