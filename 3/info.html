@@ -3,6 +3,11 @@
     <head>
         <link rel="stylesheet" type="text/css" href="main.css"></link>
         <link rel="stylesheet" type="text/css" href="table.css"></link>
+        <style>
+            th {
+                font-size: 10px;
+            }
+        </style>
     </head>
     <body>
         <img src="CurrentLogo/logo.png">
@@ -28,18 +33,25 @@
             <br>
             <u>Underlined</u> text signifies something that could be added by voting on it. 
         </p>
-        <h2>Skill Exp.</h2>
-        <p>Skills gain exp based on how high you rolled on the skill roll, using the folowing table.<br />
-        (Values above 20 can only be obtained by having a sufficent level in the skill.)</p>
+        <h2>Various Gains</h2>
+        <p>(Values above 20 can only be obtained by having a sufficent level in the skill.)</p>
+        <h3>Skill Exp.</h3>
+        <p>Skills gain exp based on how high you rolled on the skill roll.</p>
+        <h3>Harvest Gains</h3>
+        <p>When harvesting crops, the rewards are based on how high you rolled on the skill roll.<br />
+        The first number is the number of standard crops, the second number is the number of golden crops.<br />
+        (Below level 5, rolling a critical miss will destroy the crop.)</p>
         <table>
             <tr>
                 <th>Level Req.</th>
                 <th>Roll</th>
-                <th>Exp Gained</th>
+                <th>Skill Exp</th>
+                <th>Crop Gain</th>
             </tr><tr>
                 <td rowspan="20">0</td>
                 <td>1</td>
                 <td>10%</td>
+                <td rowspan="3">0,0</td>
             </tr><tr>
                 <td>2</td>
                 <td>15%</td>
@@ -48,11 +60,13 @@
                 <td rowspan="2">20%</td>
             </tr><tr>
                 <td>4</td>
+                <td rowspan="2">1,0</td>
             </tr><tr>
                 <td>5</td>
                 <td rowspan="2">25%</td>
             </tr><tr>
                 <td>6</td>
+                <td rowspan="3">2,0</td>
             </tr><tr>
                 <td>7</td>
                 <td>30%</td>
@@ -62,6 +76,7 @@
             </tr><tr>
                 <td>9</td>
                 <td>40%</td>
+                <td rowspan="3">3,0</td>
             </tr><tr>
                 <td>10</td>
                 <td>45%</td>
@@ -71,6 +86,7 @@
             </tr><tr>
                 <td>12</td>
                 <td rowspan="2">55%</td>
+                <td rowspan="3">4,0</td>
             </tr><tr>
                 <td>13</td>
             </tr><tr>
@@ -79,6 +95,7 @@
             </tr><tr>
                 <td>15</td>
                 <td rowspan="2">65%</td>
+                <td rowspan="3">5,0</td>
             </tr><tr>
                 <td>16</td>
             </tr><tr>
@@ -86,12 +103,14 @@
                 <td rowspan="2">70%</td>
             </tr><tr>
                 <td>18</td>
+                <td rowspan="2">6,0</td>
             </tr><tr>
                 <td>19</td>
                 <td>75%</td>
             </tr><tr>
                 <td>20</td>
                 <td rowspan="3">80%</td>
+                <td rowspan="3">6,1</td>
             </tr><tr>
                 <td rowspan="2">1</td>
                 <td>21</td>
@@ -101,6 +120,7 @@
                 <td rowspan="2">2</td>
                 <td>23</td>
                 <td rowspan="2">85%</td>
+                <td rowspan="3">6,2</td>
             </tr><tr>
                 <td>24</td>
             </tr><tr>
@@ -109,6 +129,7 @@
                 <td rowspan="3">90%</td>
             </tr><tr>
                 <td>26</td>
+                <td rowspan="3">7,2</td>
             </tr><tr>
                 <td rowspan="2">4</td>
                 <td>27</td>
@@ -118,9 +139,11 @@
             </tr><tr>
                 <td rowspan="2">5</td>
                 <td>29</td>
+                <td>8,2</td>
             </tr><tr>
                 <td>30</td>
                 <td rowspan="6">100%</td>
+                <td rowspan="3">8,3</td>
             </tr><tr>
                 <td>6</td>
                 <td>31</td>
@@ -130,12 +153,14 @@
             </tr><tr>
                 <td>8</td>
                 <td>33</td>
+                <td rowspan="2">9,3</td>
             </tr><tr>
                 <td>9</td>
                 <td>34</td>
             </tr><tr>
                 <td>10</td>
                 <td>35</td>
+                <td>9,4</td>
             </tr>
         </table>
     </body>

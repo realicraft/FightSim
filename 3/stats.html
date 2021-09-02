@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="table.css"></link>
         <link rel="stylesheet" type="text/css" href="player_table.css"></link>
         <link rel="stylesheet" type="text/css" href="icons.css"></link>
+        <link rel="stylesheet" type="text/css" href="tooltip.css"></link>
         <style>
             .overheal {
                 color: green;
@@ -30,6 +31,9 @@
             }
             th {
                 font-size: 10px;
+            }
+            table {
+                margin-bottom: 5px;
             }
         </style>
     </head>
@@ -814,6 +818,12 @@
                 <td>cause</td>
             </tr>-->
         </table>
+        <div class="tooltip_body">
+            <h3 class="tooltip_name">Item Name</h3><br /><br />
+            <p class="tooltip_desc">Item description. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br />
+            <p class="tooltip_bonus">+1 Place Holding</p>
+            <p class="tooltip_src1">Source: </p><p class="tooltip_src2">Item source</p>
+        </div>
         <script src="stats_table.js"></script>
     </body>
 </html>

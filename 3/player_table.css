@@ -4,6 +4,7 @@
     width: 400px;
     display: inline-block;
     margin: 2px;
+    padding-bottom: 5px;
 }
 .username {
     color: white;
@@ -46,6 +47,18 @@
     width: 95%;
     margin-top: 0px;
 }
-.pt_effects tr, .pt_effects td, .pt_effects th, .pt_skills tr, .pt_skills td, .pt_skills th {
+.pt_effects tr, .pt_effects td, .pt_effects th, .pt_skills tr, .pt_skills td, .pt_skills th, .pt_equip tr, .pt_equip td, .pt_equip th {
     background-color: transparent;
+}
+.pt_equip {
+    margin-top: 0px;
+    width: 272px;
+    height: 32px;
+    background-image: url("Items/Exported/equip_back.png");
+    display: block;
+    margin: auto;
+    padding: 2px 0px 2px 2px;
+}
+.pt_equip span {
+    margin-right: 2px;
 }

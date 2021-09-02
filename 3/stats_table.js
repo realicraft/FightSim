@@ -16,17 +16,31 @@ var skilllist = [ //[name, css class for icon]
     ["Construction", "construction"],
     ["Gathering", "gathering"]
 ]
+var equiplist = [ //[name, css class for icon, description, source, bonuses]
+    ["null", "iconless", "Whoops, forgot to put something here.", "An error", ""],
+    ["armor.empty_helm", "empty_helm", "desc.empty_equip", "src.empty_equip", ""],
+    ["armor.empty_chest", "empty_chest", "desc.empty_equip", "src.empty_equip", ""],
+    ["armor.empty_legs", "empty_legs", "desc.empty_equip", "src.empty_equip", ""],
+    ["armor.empty_boots", "empty_boots", "desc.empty_equip", "src.empty_equip", ""],
+    ["armor.empty_sword", "empty_sword", "desc.empty_equip", "src.empty_equip", ""],
+    ["armor.empty_sheild", "empty_sheild", "desc.empty_equip", "src.empty_equip", ""],
+    ["armor.empty_acc", "empty_acc", "desc.empty_equip", "src.empty_equip", ""],
+    ["armor.empty_food", "empty_food", "desc.empty_equip", "src.empty_equip", ""],
+    ["Wooden Sword", "wood_sword", "A sword made out of wood.", "Crafting", "+1 Indirect Attack"],
+    ["Wooden Shovel", "wood_shovel", "A shovel made out of wood. Not the most conventional of weapons.", "Crafting", "+1 Indirect Attack"],
+    ["Stick and Rock", "stick_rock", "A rock taped to a stick. This isn't very good.", "Crafting", "50% Chance of breaking on hit"]
+]
 var user_data = {
-    "realicraft":{"type":0,"health":[95,100],"attack":[10,10],"defense":[5,5],"kills":1,"deaths":1,"skills":[[6,0,25]],"effects":[]},
-    "SausageMcSauce":{"type":0,"health":[84,100],"attack":[10,10],"defense":[5,5],"kills":1,"deaths":1,"skills":[],"effects":[[1,"*"]]},
-    "CatsUnited":{"type":0,"health":[100,100],"attack":[10,10],"defense":[5,5],"kills":0,"deaths":3,"skills":[],"effects":[[1,"*"]]},
-    "Squrrelflight":{"type":0,"health":[97,100],"attack":[10,10],"defense":[5,5],"kills":0,"deaths":1,"skills":[],"effects":[[1,"*"]]},
-    "IncendiaryGaming":{"type":0,"health":[70,100],"attack":[10,10],"defense":[5,5],"kills":1,"deaths":1,"skills":[[7,1,78],[8,0,10]],"effects":[]},
-    "Byron_Inc_TBG":{"type":0,"health":[78,100],"attack":[10,10],"defense":[5,5],"kills":1,"deaths":2,"skills":[[1,3,86]],"effects":[]},
-    "cheesyfriedeggs":{"type":0,"health":[91,100],"attack":[10,10],"defense":[5,5],"kills":0,"deaths":1,"skills":[[4,0,90],[1,0,77],[3,0,55]],"effects":[]},
-    "solitare":{"type":0,"health":[86,100],"attack":[10,10],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,60],[5,0,30],[3,0,65],[1,0,65]],"effects":[]},
-    "Faressain":{"type":0,"health":[82,100],"attack":[10,10],"defense":[5,5],"kills":0,"deaths":0,"skills":[],"effects":[[1,"*"]]},
-    "LeopardyLeaf":{"type":0,"health":[81,100],"attack":[10,10],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,80]],"effects":[[1,"*"]]}
+    "realicraft":{"type":0,"health":[95,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[6,0,25]],"effects":[],"equips":[1,2,3,4,5,6,7,8]},
+    "SausageMcSauce":{"type":0,"health":[84,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8]},
+    "CatsUnited":{"type":0,"health":[100,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":3,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8]},
+    "Squrrelflight":{"type":0,"health":[97,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8]},
+    "IncendiaryGaming":{"type":0,"health":[70,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[7,2,13],[8,0,10],[4,0,20]],"effects":[],"equips":[1,2,3,4,11,6,7,8]},
+    "Byron_Inc_TBG":{"type":0,"health":[78,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":2,"skills":[[1,3,161]],"effects":[],"equips":[1,2,3,4,5,6,7,8]},
+    "cheesyfriedeggs":{"type":0,"health":[91,100],"attack":["8+3","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[[4,1,10],[1,0,77],[3,0,55]],"effects":[],"equips":[1,2,3,4,9,6,7,8]},
+    "solitare":{"type":0,"health":[86,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,60],[5,0,30],[3,0,65],[1,0,65]],"effects":[],"equips":[1,2,3,4,5,6,7,8]},
+    "Faressain":{"type":0,"health":[82,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8]},
+    "LeopardyLeaf":{"type":0,"health":[81,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,80]],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8]}
 }
 var stat_tables = ""
 var stat_table = ""
@@ -76,8 +90,48 @@ for (var i in user_data) {
         }
         stat_table += '</tbody></table>'
     }
+    if (user_data[i]["equips"].length != 0) {
+        stat_table += '<h3 style="margin: 0px;">Equipment</h3><span class="pt_equip">'
+        for (var l of user_data[i]["equips"]) {
+            stat_table += '<span class="icon '
+            stat_table += equiplist[l][1]
+            stat_table += '" onmouseover="tt('
+            stat_table += l
+            stat_table += ');" onmouseout="nt()"></span>'
+        }
+        stat_table += '</span>'
+    }
     stat_table += "</div>"
     stat_tables += stat_table
 }
 var containEl = document.getElementById("stat_table_container")
 containEl.innerHTML = stat_tables
+
+var tooltip = function(name, desc, source, bonus) {
+    var tooltipBodyEl = document.getElementsByClassName("tooltip_body")[0];
+    var tooltipNameEl = document.getElementsByClassName("tooltip_name")[0];
+    var tooltipDescEl = document.getElementsByClassName("tooltip_desc")[0];
+    var tooltipSrc2El = document.getElementsByClassName("tooltip_src2")[0];
+    var tooltipBonusEl = document.getElementsByClassName("tooltip_bonus")[0];
+    tooltipNameEl.innerHTML = name;
+    tooltipDescEl.innerHTML = desc;
+    tooltipSrc2El.innerHTML = source;
+    tooltipBonusEl.innerHTML = bonus;
+    tooltipBodyEl.setAttribute("style", "display: block;")
+}
+var tt = function(id=0) {
+    if ((id >= 1) & (id <= 8)) {}
+    else {tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], equiplist[id][4])}
+}
+var nt = function() {
+    var tooltipBodyEl = document.getElementsByClassName("tooltip_body")[0];
+    var tooltipNameEl = document.getElementsByClassName("tooltip_name")[0];
+    var tooltipDescEl = document.getElementsByClassName("tooltip_desc")[0];
+    var tooltipSrc2El = document.getElementsByClassName("tooltip_src2")[0];
+    var tooltipBonusEl = document.getElementsByClassName("tooltip_bonus")[0];
+    tooltipNameEl.innerHTML = "";
+    tooltipDescEl.innerHTML = "";
+    tooltipSrc2El.innerHTML = "";
+    tooltipBonusEl.innerHTML = "";
+    tooltipBodyEl.setAttribute("style", "display: none;")
+}
