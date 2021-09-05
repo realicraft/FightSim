@@ -13,7 +13,7 @@
     display: none;
 }
 .tooltip_src1 {
-    color: gray;
+    color: #8f8f8f;
 }
 .tooltip_src1, .tooltip_src2, .tooltip_name, .tooltip_desc {
     display: inline;
@@ -29,5 +29,5 @@
 .tooltip_bonus {
     font-style: italic;
     font-weight: bold;
-    color: #3f3fff
+    color: #6f6fff
 }

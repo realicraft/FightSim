@@ -16,13 +16,13 @@
 .health_disp, .combat_disp {
     width: calc(50% - 1px);
     display: inline-block;
-    background-color: #6f6f6f;
+    background-color: #8f8f8f;
     height: 32px;
 }
 .kd_disp {
     width: 100%;
     display: inline-block;
-    background-color: #6f6f6f;
+    background-color: #8f8f8f;
     height: 32px;
 }
 .health_disp {

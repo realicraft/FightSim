@@ -1,0 +1,52 @@
+Skeledop - Turn 31
+(this turns update might be delayed because i want to make a bunch of sprites for the website)
+[quote=Byron_Inc_TBG]I harvest and replant.
+
+I craft a set of gear out of some netherite I summon from thin air (allowed as said [post=564972]here[/post]).
+I grab all my loose golden carrots and equip them as well.
+I also grab a shield from the defense room.
+
+(ooh cool that's a support)
+(also ig remove my vote on structures that can move on their own, idk what was i doing)[/quote]
+Skill rolls: 2d20+6 = 14, 12 = 20, 18
+You manage to harvest 6 Cans of Beans, 1 Golden Bean, and 6 Bags of Potatoes. (Your Gardening skill has gone up by 113%. Your Gardening skill has leveled up!)
+Skill roll: 1d18 = 11
+You spend a bunch of time trying to figure out why it isn't working before realizing that's not how you make Netherite gear. (Your Crafting skill went up by 50%.)
+(Just so you know, giving yourself a bunch of strong gear all at once without a good reason [i]probably[/i] violates the "no godmodding" rule. Maybe try something weaker?) ([color=transparent]Again, I'll only punish breaking that rule if there's no way to logic up a failure.[/color])
+You equip 6 Golden Carrots from the Garden and 11 from the Storage Room, for a total of 17.
+A Golden Carrot gives 0.3 Indirect Defense, so 17 gives... 3.49 Indirect Defense. Oh no, diminishing returns! (Partial bonuses round normally, so this is equal to +3.)
+(The formula for this is; for every item in the stack, add 0.95 to the power of how many items came before it in the stack. So the 5th item would add 0.95 to the fourth power, or ~0.815. This is then multiplied by the base bonus of the food.)
+(Golden Carrots are weak because they're easier to get than other golden foods, and because a buff to Indirect Defense is pretty strong.)
+([color=transparent]If this seems badly balanced [i]please[/i] tell me[/color])
+Note that the website displays the base gain, and not the actual one, because I can't really be bothered to figure out how to make it do that.
+Effect roll: 1d20 = [color=green][b]20[/b][/color]
+Woah, is that a [i]Diamond Shield[/i]!? (+2 Indirect Defense, +1 Direct Defense) ([color=transparent]It's mostly wood.[/color])
+A support for what? There isn't a vote going on for [u]usable abilities[/u]. You could start one, if that's something you want.
+Noted.
+[quote=IncendiaryGaming]How does that even work?
+I'll just continue on building the walls up, maybe start on the roof with some logs and stone.[/quote]
+Skill roll: 1d20+4 = [color=green]17[/color]+4 = [color=green]21[/color]
+You succeed at making [i]Sturdy Wooden Walls[/i], and start on an [i]Unfinished Roof[/i]. (Roof is 10% finished.) (Your Construction skill went up by 80%.)
+[quote=gilbert_given_TBG]Ah yes, the website is the most readable website I ever see in my life. The contrast is just great. Especially the mixed lighting themes!
+
+Anyway, I collect some wood. (if possible)[/quote]
+You know, if you wanted to tell me the contrast was bad, there are better ways to do that. You didn't necessarily need to [i]join[/i] the game just to tell me I'm bad at balancing things.
+I think I've fixed it, though. (I also darkened the default table background color, if that's what you were complaining about.)
+Skill roll: 1d20 = [color=green][b]20[/b][/color] ([color=transparent]huh, 2 natural 20s in one turn[/color])
+You manage to chop down an entire tree, and obtain 3 Logs, 6 Planks, and 4 Sticks. (Your Chopping skill has gone up by 80%.)
+[quote=solitare]i continue to work on the house
+
+i also begin to grow even more beetroots[/quote]
+You continue working on your house. No, really, you should keep track of that.
+Unfortunately, you cannot grow the same thing twice at one time.
+[quote=gilbert_given_TBG]If I can get woods, I use it to build a house.[/quote]
+Yes, wood does in fact help you with building a house.
+Skill roll: 1d20 = 7
+Your second attempt at getting wood doesn't go as well as the first; you obtain 3 Planks and 2 Sticks. (Your Chopping skill has gone up by 30%. Your Chopping skill has leveled up!)
+
+Plants grow.
+cheesyfriedeggs' Cabbage and Radishes are harvestable.
+The Potted Bean Bush will rot away next turn. If anyone wants to save it, or use it as fertilizer, now's your last chance!
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url]
+(unfortunately i did not manage to make more sprites for the website)
