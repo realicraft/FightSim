@@ -1,0 +1,240 @@
+/* setup */
+span.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+/* hud */
+.heart, .health {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: 0px 0px;
+}
+.heart2 {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -32px 0px;
+}
+.broken_heart, .ko {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -64px 0px;
+}
+.sword, .attack {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -96px 0px;
+}
+.sheild, .shield, .defense, .defence {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -128px 0px;
+}
+.swing, .kill {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -160px 0px;
+}
+.broken_sheild, .death, .broken_shield {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -192px 0px;
+}
+/* types */
+.normal_type, .placeholder {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: 0px -64px;
+}
+.fire_type {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -32px -64px;
+}
+.water_type {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -64px -64px;
+}
+.elec_type {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -96px -64px;
+}
+.plant_type {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -128px -64px;
+}
+.ice_type {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -160px -64px;
+}
+.light_type {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -192px -64px;
+}
+.dark_type {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -224px -64px;
+}
+.typeless {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -256px -64px;
+}
+.missingtype {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -288px -64px;
+}
+/* effects */
+.fire, .on_fire {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: 0px -128px;
+}
+.freeze, .frozen {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -32px -128px;
+}
+.atk_up {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -64px -128px;
+}
+.def_up {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -96px -128px;
+}
+.atk_down {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -128px -128px;
+}
+.def_down {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -160px -128px;
+}
+.afk, .sleep {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -192px -128px;
+}
+.lightning, .paralyzed {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -224px -128px;
+}
+.poison, .poisoned {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -256px -128px;
+}
+/* skills */
+.pickaxe, .mining {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: 0px -192px;
+}
+.axe, .chopping {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -32px -192px;
+}
+.crafting {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -64px -192px;
+}
+.cooking, .grill {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -96px -192px;
+}
+.flower, .gardening {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -128px -192px;
+}
+.construction {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -160px -192px;
+}
+.carving, .sharpening {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -192px -192px;
+}
+/* misc */
+.missing, .iconless, .missingno {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -480px -480px;
+}
+/* equipment */
+.empty_helm {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px 0px;
+}
+.empty_chest {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px 0px;
+}
+.empty_legs {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px 0px;
+}
+.empty_boots {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -96px 0px;
+}
+.empty_sword {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -128px 0px;
+}
+.empty_shield, .empty_sheild {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px 0px;
+}
+.empty_acc {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px 0px;
+}
+.empty_food {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px 0px;
+}
+.diamond_helm {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -32px;
+}
+.diamond_chest {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -32px;
+}
+.diamond_legs {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px -32px;
+}
+.diamond_boots {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -96px -32px;
+}
+.diamond_sword {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -128px -32px;
+}
+.diamond_shield, .diamond_sheild {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px -32px;
+}
+.diamond_acc {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -32px;
+}
+.gold_burger {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -32px;
+}
+.wood_sword {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -64px;
+}
+.stick {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -64px;
+}
+.wood_shovel {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px -64px;
+}
+.stick_rock {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -96px -64px;
+}
+.decent_hammer {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -128px -64px;
+}
+.icicle {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px -64px;
+}
+.gold_carrot {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -64px;
+}
