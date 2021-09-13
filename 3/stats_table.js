@@ -6,15 +6,15 @@ var effectlist = [ //[name, css class for icon]
     ["Frozen", "frozen"]
 ]
 var skilllist = [ //[name, css class for icon]
-    ["None", "iconless"],
-    ["Gardening", "gardening"],
-    ["Mining", "mining"],
-    ["Chopping", "chopping"],
-    ["Crafting", "crafting"],
-    ["Carving", "carving"],
-    ["Cooking", "cooking"],
-    ["Construction", "construction"],
-    ["Gathering", "gathering"]
+    ["None", "iconless"], //0
+    ["Gardening", "gardening"], //1
+    ["Mining", "mining"], //2
+    ["Chopping", "chopping"], //3
+    ["Crafting", "crafting"], //4
+    ["Carving", "carving"], //5
+    ["Cooking", "cooking"], //6
+    ["Construction", "construction"], //7
+    ["Gathering", "gathering"] //8
 ]
 var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["null", "iconless", "Whoops, forgot to put something here.", "An error", ""], //0
@@ -38,7 +38,7 @@ var user_data = {
     "CatsUnited":{"type":0,"health":[100,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":3,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "Squrrelflight":{"type":0,"health":[97,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "IncendiaryGaming":{"type":0,"health":[70,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[7,2,148],[8,0,10],[4,0,20]],"effects":[],"equips":[1,2,3,4,11,6,7,8,""]},
-    "Byron_Inc_TBG":{"type":0,"health":[78,100],"attack":["7+3","7+3"],"defense":["10+1",5],"kills":1,"deaths":2,"skills":[[1,4,24],[4,0,50]],"effects":[],"equips":[1,2,3,4,5,13,7,12,17]},
+    "Byron_Inc_TBG":{"type":0,"health":[78,100],"attack":["7+3","7+3"],"defense":["10+1",5],"kills":1,"deaths":2,"skills":[[1,4,24],[4,0,50],[7,0,65]],"effects":[],"equips":[1,2,3,4,5,13,7,12,17]},
     "cheesyfriedeggs":{"type":0,"health":[91,100],"attack":["8+3","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[[4,1,10],[1,1,41],[3,0,55]],"effects":[],"equips":[1,2,3,4,9,6,7,8,""]},
     "solitare":{"type":0,"health":[86,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,60],[5,0,30],[3,0,65],[1,0,65]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]},
     "Faressain":{"type":0,"health":[82,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
