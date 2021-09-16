@@ -4,6 +4,11 @@ span.icon {
     width: 32px;
     height: 32px;
 }
+span.small_icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
 /* hud */
 .heart, .health {
     background-image: url("Icons/Exported/icons_sheet.png");
@@ -237,4 +242,70 @@ span.icon {
 .gold_carrot {
     background-image: url("Icons/Exported/armor_sheet.png");
     background-position: -192px -64px;
+}
+/* info (large) */
+.yes, .passed {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: 0px 0px;
+}
+.no, .failed {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -32px 0px;
+}
+.clock, .time {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -64px 0px;
+}
+.info {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -96px 0px;
+}
+.passed_a {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: 0px -32px;
+}
+.passed_b {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -32px -32px;
+}
+/* info (small) */
+.fs1 {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -192px 0px;
+}
+.fs2 {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -208px 0px;
+}
+.fs3 {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -192px -16px;
+}
+.sun, .sunny, .day {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -224px 0px;
+}
+.moon, .night {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -240px 0px;
+}
+.storm, .stormy {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -208px -16px;
+}
+.cloud, .cloudy {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -224px -16px;
+}
+.rain, .rainy {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -240px -16px;
+}
+.info_small {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -176px 0px;
+}
+.help {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -176px -16px;
 }

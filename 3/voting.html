@@ -3,211 +3,236 @@
     <head>
         <link rel="stylesheet" type="text/css" href="../main.css"></link>
         <link rel="stylesheet" type="text/css" href="../table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../icons.css"></link>
         <title>Votes | FS3</title>
+        <style>
+        .struct {
+            border: 5px solid black;
+            border-radius: 5px;
+            width: 50%;
+            margin: auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            position: relative;
+        }
+        .struct > span.icon {
+            position: absolute;
+            left: -5px;
+            top: -5px;
+            border-radius: 5px;
+            border: 5px solid black;
+        }
+        </style>
     </head>
     <body>
-        <img src="CurrentLogo/logo.png">
+        <img src="CurrentLogo/logo.png" title="Fighting Simulator 3" alt="Fighting Simulator 3">
         <br />
-        <div id="header">
-            <a href="info.html">Info</a>
-            <a href="inventories.html">Inventories</a>
-            <a href="stats.html">Stats</a>
-            <a href="structures.html">Structures</a>
-            <a href="voting.html">Voting</a>
-            <a href="gardens.html">Gardens</a>
-        </div>
+        <div id="header"></div>
+        <div id="time_box"></div>
         <h1>Ongoing Votings</h1>
         <p>None right now.</p>
         <h1>Past Votings</h1>
-        <h2>Structures that can act on their own</h2>
-        <h3><i>Requires supermajority</i></h3>
-        <table>
-            <tr>
-                <th>Username</th>
-                <th>Vote</th>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Turn</th>
-            </tr><tr>
-                <td>Byron_Inc_TBG</td>
-                <td>No</td>
-                <td>09/02/21</td>
-                <td>00:44 PDT</td>
-                <td>31</td>
-            </tr>
-        </table>
-        <h2>Equipment</h2>
-        <table>
-            <tr>
-                <th>Username</th>
-                <th>Vote</th>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Turn</th>
-            </tr><tr>
-                <td>realicraft</td>
-                <td>Yes</td>
-                <td>08/25/21</td>
-                <td>09:07 PDT</td>
-                <td>28</td>
-            </tr><tr>
-                <td>Byron_Inc_TBG</td>
-                <td>Yes</td>
-                <td>08/25/21</td>
-                <td>17:52 PDT</td>
-                <td>29</td>
-            </tr><tr>
-                <td>cheesyfriedeggs</td>
-                <td>Yes</td>
-                <td>08/25/21</td>
-                <td>18:09 PDT</td>
-                <td>29</td>
-            </tr><tr>
-                <td>solitare</td>
-                <td>Yes</td>
-                <td>08/25/21</td>
-                <td>18:13 PDT</td>
-                <td>29</td>
-            </tr>
-            <!--<tr>
-                <td>Username</td>
-                <td>None</td>
-                <td>MM/DD/YY</td>
-                <td>HH:MM PDT</td>
-                <td>TT</td>
-            </tr>-->
-        </table>
-        <h2>Deal with the North Pole</h2>
-        <h3>Options:<br /><span style="color: #df1f1f;">Send everyone back to Trisland</span><br />OR<br /><span style="color: #1fdf1f;">Make a portal between Trisland and the North Pole</span></h3>
-        <table>
-            <tr>
-                <th>Username</th>
-                <th>Vote</th>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Turn</th>
-            </tr><tr>
-                <td>realicraft</td>
-                <td>B</td>
-                <td>08/05/21</td>
-                <td>00:00 PDT</td>
-                <td>22</td>
-            </tr><tr>
-                <td>solitare</td>
-                <td>B</td>
-                <td>08/05/21</td>
-                <td>10:53 PDT</td>
-                <td>23</td>
-            </tr><tr>
-                <td>cheesyfriedeggs</td>
-                <td>A</td>
-                <td>08/05/21</td>
-                <td>13:06 PDT</td>
-                <td>23</td>
-            </tr><tr>
-                <td>Byron_Inc_TBG</td>
-                <td>B</td>
-                <td>08/05/21</td>
-                <td>18:41 PDT</td>
-                <td>23</td>
-            </tr><tr>
-                <td>IncendiaryGaming</td>
-                <td>B</td>
-                <td>08/06/21</td>
-                <td>07:36 PDT</td>
-                <td>23</td>
-            </tr>
-            <!--<tr>
-                <td>Username</td>
-                <td>None</td>
-                <td>MM/DD/YY</td>
-                <td>HH:MM PDT</td>
-                <td>TT</td>
-            </tr>-->
-        </table>
-        <h2>Inventories</h2>
-        <table>
-            <tr>
-                <th>Username</th>
-                <th>Vote</th>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Turn</th>
-            </tr><tr>
-                <td>realicraft</td>
-                <td>Yes</td>
-                <td>04/10/20</td>
-                <td>14:15 PDT</td>
-                <td>03</td>
-            </tr><!--<tr>
-                See /FightSim/3/apology.txt
-                <td>Joyous Theta</td>
-                <td>Yes</td>
-                <td>04/10/20</td>
-                <td>14:19 PDT</td>
-                <td>04</td>
-            </tr>--><tr>
-                <td>SausageMcSauce</td>
-                <td>Yes</td>
-                <td>04/10/20</td>
-                <td>23:03 PDT</td>
-                <td>04</td>
-            </tr><tr>
-                <td>CatsUnited</td>
-                <td>Yes</td>
-                <td>04/11/20</td>
-                <td>16:34 PDT</td>
-                <td>05</td>
-            </tr>
-            <!--<tr>
-                <td>Username</td>
-                <td>None</td>
-                <td>MM/DD/YY</td>
-                <td>HH:MM PDT</td>
-                <td>TT</td>
-            </tr>-->
-        </table>
-        <h2>Buildable Structures</h2>
-        <table>
-            <tr>
-                <th>Username</th>
-                <th>Vote</th>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Turn</th>
-            </tr><tr>
-                <td>realicraft</td>
-                <td>Yes</td>
-                <td>04/11/20</td>
-                <td>10:51 PDT</td>
-                <td>04</td>
-            </tr><!--<tr>
-                See /FightSim/3/apology.txt
-                <td>Joyous Theta</td>
-                <td>Yes</td>
-                <td>04/10/20</td>
-                <td>14:19 PDT</td>
-                <td>04</td>
-            </tr>--><tr>
-                <td>SausageMcSauce</td>
-                <td>Yes</td>
-                <td>04/11/20</td>
-                <td>23:00 PDT</td>
-                <td>05</td>
-            </tr><tr>
-                <td>CatsUnited</td>
-                <td>Yes</td>
-                <td>04/11/20</td>
-                <td>16:34 PDT</td>
-                <td>05</td>
-            </tr>
-            <!--<tr>
-                <td>Username</td>
-                <td>None</td>
-                <td>MM/DD/YY</td>
-                <td>HH:MM PDT</td>
-                <td>TT</td>
-            </tr>-->
-        </table>
+        <div class="struct">
+            <span class="icon failed" title="Failed to pass."></span>
+            <h2>Structures that can act on their own</h2>
+            <b><em>Requires supermajority</em></b>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Vote</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr><tr>
+                    <td>Byron_Inc_TBG</td>
+                    <td>No</td>
+                    <td>09/02/21</td>
+                    <td>00:44 PDT</td>
+                    <td>31</td>
+                </tr>
+            </table>
+        </div><div class="struct">
+            <span class="icon passed" title="Passed."></span>
+            <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Vote</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr><tr>
+                    <td>realicraft</td>
+                    <td>Yes</td>
+                    <td>08/25/21</td>
+                    <td>09:07 PDT</td>
+                    <td>28</td>
+                </tr><tr>
+                    <td>Byron_Inc_TBG</td>
+                    <td>Yes</td>
+                    <td>08/25/21</td>
+                    <td>17:52 PDT</td>
+                    <td>29</td>
+                </tr><tr>
+                    <td>cheesyfriedeggs</td>
+                    <td>Yes</td>
+                    <td>08/25/21</td>
+                    <td>18:09 PDT</td>
+                    <td>29</td>
+                </tr><tr>
+                    <td>solitare</td>
+                    <td>Yes</td>
+                    <td>08/25/21</td>
+                    <td>18:13 PDT</td>
+                    <td>29</td>
+                </tr>
+                <!--<tr>
+                    <td>Username</td>
+                    <td>None</td>
+                    <td>MM/DD/YY</td>
+                    <td>HH:MM PDT</td>
+                    <td>TT</td>
+                </tr>-->
+            </table>
+        </div><div class="struct">
+            <span class="icon passed_b" title="Passed with option B."></span>
+            <h2>Deal with the North Pole</h2>
+            <h3>Options:<br /><span style="color: #df1f1f;">Send everyone back to Trisland</span><br />OR<br /><span style="color: #1fdf1f;">Make a portal between Trisland and the North Pole</span></h3>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Vote</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr><tr>
+                    <td>realicraft</td>
+                    <td>B</td>
+                    <td>08/05/21</td>
+                    <td>00:00 PDT</td>
+                    <td>22</td>
+                </tr><tr>
+                    <td>solitare</td>
+                    <td>B</td>
+                    <td>08/05/21</td>
+                    <td>10:53 PDT</td>
+                    <td>23</td>
+                </tr><tr>
+                    <td>cheesyfriedeggs</td>
+                    <td>A</td>
+                    <td>08/05/21</td>
+                    <td>13:06 PDT</td>
+                    <td>23</td>
+                </tr><tr>
+                    <td>Byron_Inc_TBG</td>
+                    <td>B</td>
+                    <td>08/05/21</td>
+                    <td>18:41 PDT</td>
+                    <td>23</td>
+                </tr><tr>
+                    <td>IncendiaryGaming</td>
+                    <td>B</td>
+                    <td>08/06/21</td>
+                    <td>07:36 PDT</td>
+                    <td>23</td>
+                </tr>
+                <!--<tr>
+                    <td>Username</td>
+                    <td>None</td>
+                    <td>MM/DD/YY</td>
+                    <td>HH:MM PDT</td>
+                    <td>TT</td>
+                </tr>-->
+            </table>
+        </div><div class="struct">
+            <span class="icon passed" title="Passed."></span>
+            <h2>Inventories</h2>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Vote</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr><tr>
+                    <td>realicraft</td>
+                    <td>Yes</td>
+                    <td>04/10/20</td>
+                    <td>14:15 PDT</td>
+                    <td>03</td>
+                </tr><!--<tr>
+                    See /FightSim/3/apology.txt
+                    <td>Joyous Theta</td>
+                    <td>Yes</td>
+                    <td>04/10/20</td>
+                    <td>14:19 PDT</td>
+                    <td>04</td>
+                </tr>--><tr>
+                    <td>SausageMcSauce</td>
+                    <td>Yes</td>
+                    <td>04/10/20</td>
+                    <td>23:03 PDT</td>
+                    <td>04</td>
+                </tr><tr>
+                    <td>CatsUnited</td>
+                    <td>Yes</td>
+                    <td>04/11/20</td>
+                    <td>16:34 PDT</td>
+                    <td>05</td>
+                </tr>
+                <!--<tr>
+                    <td>Username</td>
+                    <td>None</td>
+                    <td>MM/DD/YY</td>
+                    <td>HH:MM PDT</td>
+                    <td>TT</td>
+                </tr>-->
+            </table>
+        </div><div class="struct">
+            <span class="icon passed" title="Passed."></span>
+            <h2>Buildable Structures</h2>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Vote</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr><tr>
+                    <td>realicraft</td>
+                    <td>Yes</td>
+                    <td>04/11/20</td>
+                    <td>10:51 PDT</td>
+                    <td>04</td>
+                </tr><!--<tr>
+                    See /FightSim/3/apology.txt
+                    <td>Joyous Theta</td>
+                    <td>Yes</td>
+                    <td>04/10/20</td>
+                    <td>14:19 PDT</td>
+                    <td>04</td>
+                </tr>--><tr>
+                    <td>SausageMcSauce</td>
+                    <td>Yes</td>
+                    <td>04/11/20</td>
+                    <td>23:00 PDT</td>
+                    <td>05</td>
+                </tr><tr>
+                    <td>CatsUnited</td>
+                    <td>Yes</td>
+                    <td>04/11/20</td>
+                    <td>16:34 PDT</td>
+                    <td>05</td>
+                </tr>
+                <!--<tr>
+                    <td>Username</td>
+                    <td>None</td>
+                    <td>MM/DD/YY</td>
+                    <td>HH:MM PDT</td>
+                    <td>TT</td>
+                </tr>-->
+            </table>
+        </div>
+        <script src="allpages.js"></script>
     </body>
 </html>

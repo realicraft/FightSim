@@ -40,7 +40,7 @@ var user_data = {
     "IncendiaryGaming":{"type":0,"health":[70,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[7,2,148],[8,0,10],[4,0,20]],"effects":[],"equips":[1,2,3,4,11,6,7,8,""]},
     "Byron_Inc_TBG":{"type":0,"health":[78,100],"attack":["7+3","7+3"],"defense":["10+1",5],"kills":1,"deaths":2,"skills":[[1,4,24],[4,0,50],[7,0,65]],"effects":[],"equips":[1,2,3,4,5,13,7,12,17]},
     "cheesyfriedeggs":{"type":0,"health":[91,100],"attack":["8+3","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[[4,1,10],[1,1,41],[3,0,55]],"effects":[],"equips":[1,2,3,4,9,6,7,8,""]},
-    "solitare":{"type":0,"health":[86,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,60],[5,0,30],[3,0,65],[1,0,65]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]},
+    "solitare":{"type":0,"health":[86,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,60],[5,0,30],[3,0,65],[1,1,30]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]},
     "Faressain":{"type":0,"health":[82,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "LeopardyLeaf":{"type":0,"health":[81,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,80]],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "gilbert_given_TBG":{"type":0,"health":[100,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[3,1,10]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]}
