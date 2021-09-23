@@ -1,9 +1,13 @@
 var typelist = ["typeless", "normal_type", "fire_type", "water_type", "elec_type", "plant_type", "ice_type", "light_type", "dark_type", "missingtype"]
-var effectlist = [ //[name, css class for icon]
-    ["None", "iconless"],
-    ["AFK", "afk"],
-    ["On Fire", "on_fire"],
-    ["Frozen", "frozen"]
+var effectlist = [ //[name, css class for icon, description, source, bonuses]
+    ["None", "iconless", "Looks like someone forgot to clear the slot.", "An error", ""], //0
+    ["AFK", "afk", "Hey, where'd you go?", "Not playing", "Can't be interacted with"], //1
+    ["On Fire", "on_fire", "It burns, like fire normally does.", "Fire", "-4 HP each turn<br />Items have a small chance of burning up"], //2
+    ["Frozen", "frozen", "Where'd all this ice come from, anyway?", "Ice", "Can't move"], //3
+    ["KOd", "ko", "Maybe pay more attention to your HP next time?", "Reaching 0 HP", "Can't interact with anything<br />Can't be interacted with"], //4
+    ["Paralyzed", "paralyzed", "Bzzzt!", "Electricity", "Actions have a 1/3 chance of failing"], //5
+    ["Poisoned", "poisoned", "\"Oooh, what's this purple stuff do?\"", "Poison", "-6 HP each turn"], //6
+    ["Soaked", "soaked", "You stayed in the rain too long and now you're all soggy.", "Rain", "You keep tracking water everywhere"] //7
 ]
 var skilllist = [ //[name, css class for icon]
     ["None", "iconless"], //0
@@ -37,9 +41,9 @@ var user_data = {
     "SausageMcSauce":{"type":0,"health":[84,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "CatsUnited":{"type":0,"health":[100,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":3,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "Squrrelflight":{"type":0,"health":[97,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
-    "IncendiaryGaming":{"type":0,"health":[70,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[7,2,148],[8,0,10],[4,0,20]],"effects":[],"equips":[1,2,3,4,11,6,7,8,""]},
-    "Byron_Inc_TBG":{"type":0,"health":[78,100],"attack":["7+3","7+3"],"defense":["10+1",5],"kills":1,"deaths":2,"skills":[[1,4,141],[4,0,50],[7,1,0]],"effects":[],"equips":[1,2,3,4,5,13,7,12,17]},
-    "cheesyfriedeggs":{"type":0,"health":[91,100],"attack":["8+3","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[[4,1,10],[1,1,41],[3,0,55]],"effects":[],"equips":[1,2,3,4,9,6,7,8,""]},
+    "IncendiaryGaming":{"type":0,"health":[61,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[7,3,18],[8,0,10],[4,0,30],[2,0,10]],"effects":[],"equips":[1,2,3,4,11,6,7,8,""]},
+    "Byron_Inc_TBG":{"type":0,"health":[78,100],"attack":["7+3","7+3"],"defense":["11+1",5],"kills":1,"deaths":2,"skills":[[1,4,196],[4,0,50],[7,1,60]],"effects":[[7, 3]],"equips":[1,2,3,4,5,13,7,12,21]},
+    "cheesyfriedeggs":{"type":0,"health":[91,100],"attack":["8+3","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[[4,1,10],[1,1,86],[3,0,55]],"effects":[],"equips":[1,2,3,4,9,6,7,8,""]},
     "solitare":{"type":0,"health":[86,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,60],[5,0,30],[3,0,65],[1,1,30]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]},
     "Faressain":{"type":0,"health":[82,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "LeopardyLeaf":{"type":0,"health":[81,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,80]],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
@@ -70,7 +74,9 @@ for (var i in user_data) {
         for (var j of user_data[i]["effects"]) {
             stat_table += '<tr><td><span class="icon '
             stat_table += effectlist[j[0]][1]
-            stat_table += '"></td><td>'
+            stat_table += '"onmouseover="ttEffect('
+            stat_table += j[0]
+            stat_table += ');" onmouseout="nt();"></span></td><td>'
             stat_table += effectlist[j[0]][0]
             stat_table += '</td><td>'
             stat_table += j[1]
@@ -83,7 +89,7 @@ for (var i in user_data) {
         for (var k of user_data[i]["skills"]) {
             stat_table += '<tr><td><span class="icon '
             stat_table += skilllist[k[0]][1]
-            stat_table += '"></td><td>'
+            stat_table += '"></span></td><td>'
             stat_table += skilllist[k[0]][0]
             stat_table += '</td><td>'
             stat_table += k[1]
@@ -97,15 +103,15 @@ for (var i in user_data) {
     for (var l of user_data[i]["equips"].slice(0,7)) {
         stat_table += '<span class="icon '
         stat_table += equiplist[l][1]
-        stat_table += '" onmouseover="tt('
+        stat_table += '" onmouseover="ttEquip('
         stat_table += l
-        stat_table += ');" onmouseout="nt()"></span>'
+        stat_table += ');" onmouseout="nt();"></span>'
     }
     stat_table += '<span class="icon '
     stat_table += equiplist[user_data[i]["equips"][7]][1]
-    stat_table += '" onmouseover="tt('
+    stat_table += '" onmouseover="ttEquip('
     stat_table += user_data[i]["equips"][7]
-    stat_table += ');" onmouseout="nt()" style="position:relative;"><span class="pt_stackcount">'
+    stat_table += ');" onmouseout="nt();" style="position:relative;"><span class="pt_stackcount">'
     stat_table += user_data[i]["equips"][8]
     stat_table += '</span></span>'
     stat_table += '</span></div>'
@@ -126,9 +132,12 @@ var tooltip = function(name, desc, source, bonus) {
     tooltipBonusEl.innerHTML = bonus;
     tooltipBodyEl.setAttribute("style", "display: block;")
 }
-var tt = function(id=0) {
+var ttEquip = function(id=0) {
     if ((id >= 1) & (id <= 8)) {}
     else {tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], equiplist[id][4])}
+}
+var ttEffect = function(id=0) {
+    tooltip(effectlist[id][0], effectlist[id][2], effectlist[id][3], effectlist[id][4])
 }
 var nt = function() {
     var tooltipBodyEl = document.getElementsByClassName("tooltip_body")[0];
