@@ -1,41 +1,4 @@
 var typelist = ["typeless", "normal_type", "fire_type", "water_type", "elec_type", "plant_type", "ice_type", "light_type", "dark_type", "missingtype"]
-var effectlist = [ //[name, css class for icon, description, source, bonuses]
-    ["None", "iconless", "Looks like someone forgot to clear the slot.", "An error", ""], //0
-    ["AFK", "afk", "Hey, where'd you go?", "Not playing", "Can't be interacted with"], //1
-    ["On Fire", "on_fire", "It burns, like fire normally does.", "Fire", "-4 HP each turn<br />Items have a small chance of burning up"], //2
-    ["Frozen", "frozen", "Where'd all this ice come from, anyway?", "Ice", "Can't move"], //3
-    ["KOd", "ko", "Maybe pay more attention to your HP next time?", "Reaching 0 HP", "Can't interact with anything<br />Can't be interacted with"], //4
-    ["Paralyzed", "paralyzed", "Bzzzt!", "Electricity", "Actions have a 1/3 chance of failing"], //5
-    ["Poisoned", "poisoned", "\"Oooh, what's this purple stuff do?\"", "Poison", "-6 HP each turn"], //6
-    ["Soaked", "soaked", "You stayed in the rain too long and now you're all soggy.", "Rain", "You keep tracking water everywhere"] //7
-]
-var skilllist = [ //[name, css class for icon]
-    ["None", "iconless"], //0
-    ["Gardening", "gardening"], //1
-    ["Mining", "mining"], //2
-    ["Chopping", "chopping"], //3
-    ["Crafting", "crafting"], //4
-    ["Carving", "carving"], //5
-    ["Cooking", "cooking"], //6
-    ["Construction", "construction"], //7
-    ["Gathering", "gathering"] //8
-]
-var equiplist = [ //[name, css class for icon, description, source, bonuses]
-    ["null", "iconless", "Whoops, forgot to put something here.", "An error", ""], //0
-    ["armor.empty_helm", "empty_helm", "desc.empty_equip", "src.empty_equip", ""], //1
-    ["armor.empty_chest", "empty_chest", "desc.empty_equip", "src.empty_equip", ""], //2
-    ["armor.empty_legs", "empty_legs", "desc.empty_equip", "src.empty_equip", ""], //3
-    ["armor.empty_boots", "empty_boots", "desc.empty_equip", "src.empty_equip", ""], //4
-    ["armor.empty_sword", "empty_sword", "desc.empty_equip", "src.empty_equip", ""], //5
-    ["armor.empty_shield", "empty_shield", "desc.empty_equip", "src.empty_equip", ""], //6
-    ["armor.empty_acc", "empty_acc", "desc.empty_equip", "src.empty_equip", ""], //7
-    ["armor.empty_food", "empty_food", "desc.empty_equip", "src.empty_equip", ""], //8
-    ["Wooden Sword", "wood_sword", "A sword made out of wood.", "Crafting", "+1 Indirect Attack"], //9
-    ["Wooden Shovel", "wood_shovel", "A shovel made out of wood. Not the most conventional of weapons.", "Crafting", "+1 Indirect Attack"], //10
-    ["Stick and Rock", "stick_rock", "A rock taped to a stick. This isn't very good.", "Crafting", "50% Chance of breaking on hit"], //11
-    ["Golden Carrot", "gold_carrot", "A carrot made out of gold. Aren't carrots supposed to give you better eyesight?", "Gardening", "+0.3 Indirect Defense"], //12
-    ["Diamond Shield", "diamond_shield", "A shield with a diamond in the center.", "???", "+2 Indirect Defense<br />+1 Direct Defense"] //13
-]
 var user_data = {
     "realicraft":{"type":0,"health":[95,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[6,0,25]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]},
     "SausageMcSauce":{"type":0,"health":[84,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
