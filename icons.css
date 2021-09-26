@@ -116,6 +116,14 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -256px -128px;
 }
+.water, .soaked, .water_drop {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -288px -128px;
+}
+.bleeding {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -320px -128px;
+}
 /* skills */
 .pickaxe, .mining {
     background-image: url("Icons/Exported/icons_sheet.png");
@@ -242,6 +250,74 @@ span.small_icon {
 .gold_carrot {
     background-image: url("Icons/Exported/armor_sheet.png");
     background-position: -192px -64px;
+}
+.gold_sword {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -96px;
+}
+.gold_shovel {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -96px;
+}
+.gold_pickaxe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px -96px;
+}
+.gold_axe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -96px -96px;
+}
+.stone_sword {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -128px -96px;
+}
+.stone_shovel {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -3160px -96px;
+}
+.stone_pickaxe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -96px;
+}
+.stone_axe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -96px;
+}
+.iron_sword {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -128px;
+}
+.iron_shovel {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -128px;
+}
+.iron_pickaxe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px -128px;
+}
+.iron_axe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -96px -128px;
+}
+.diamond_shovel {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -128px -128px;
+}
+.diamond_pickaxe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px -128px;
+}
+.diamond_axe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -128px;
+}
+.wood_pickaxe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -128px;
+}
+.wood_axe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -160px;
 }
 /* info (large) */
 .yes, .passed {
