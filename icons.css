@@ -153,6 +153,10 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -192px -192px;
 }
+.wheat, .farming {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -224px -192px;
+}
 /* misc */
 .missing, .iconless, .missingno {
     background-image: url("Icons/Exported/icons_sheet.png");

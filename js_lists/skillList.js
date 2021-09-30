@@ -1,6 +1,6 @@
 var skilllist = [ //[name, css class for icon]
     ["None", "iconless"], //0
-    ["Gardening", "gardening"], //1
+    ["Farming", "farming"], //1
     ["Mining", "mining"], //2
     ["Chopping", "chopping"], //3
     ["Crafting", "crafting"], //4

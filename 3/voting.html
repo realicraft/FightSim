@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="../main.css"></link>
         <link rel="stylesheet" type="text/css" href="../table.css"></link>
         <link rel="stylesheet" type="text/css" href="../icons.css"></link>
+        <link rel="stylesheet" type="text/css" href="../tooltip.css"></link>
         <title>Votes | FS3</title>
         <style>
         .struct {
@@ -34,7 +35,7 @@
         <h1>Past Votings</h1>
         <div class="struct">
             <span class="icon failed" title="Failed to pass."></span>
-            <h2>Structures that can act on their own</h2>
+            <h2><span class="info-hover" data-info-title="Auto-Acting Structures" data-info-desc='"Gee, it sure is annoying having to do things. Hey, what if I built a structure to do things for me?"' id="info-actonown" onmouseover="info('info-actonown');" onmouseout="noinfo();">Structures that can act on their own</span></h2>
             <b><em>Requires supermajority</em></b>
             <table>
                 <tr>
@@ -53,7 +54,7 @@
             </table>
         </div><div class="struct">
             <span class="icon passed" title="Passed."></span>
-            <h2>Equipment</h2>
+            <h2><span class="info-hover" data-info-title="Equipment" data-info-desc="Hey, you know what would be great? More stat boosts." id="info-equip" onmouseover="info('info-equip');" onmouseout="noinfo();">Equipment</span></h2>
             <table>
                 <tr>
                     <th>Username</th>
@@ -96,7 +97,7 @@
             </table>
         </div><div class="struct">
             <span class="icon passed_b" title="Passed with option B."></span>
-            <h2>Deal with the North Pole</h2>
+            <h2><span class="info-hover" data-info-title="The North Pole" data-info-desc="See, someone was at the North Pole for a long time and it was starting to get annoying how we couldn't do anything to them, so I set up a vote to make things less annoying.<br /><br />I think I just made things worse." id="info-northpole" onmouseover="info('info-northpole');" onmouseout="noinfo();">Deal with the North Pole</span></h2>
             <h3>Options:<br /><span style="color: #df1f1f;">Send everyone back to Trisland</span><br />OR<br /><span style="color: #1fdf1f;">Make a portal between Trisland and the North Pole</span></h3>
             <table>
                 <tr>
@@ -146,7 +147,7 @@
             </table>
         </div><div class="struct">
             <span class="icon passed" title="Passed."></span>
-            <h2>Inventories</h2>
+            <h2><span class="info-hover" data-info-title="Inventories" data-info-desc="Holding stuff would be neat, sure hope it doesn't make the game pause for like a year." id="info-inven" onmouseover="info('info-inven');" onmouseout="noinfo();">Inventories</span></h2>
             <table>
                 <tr>
                     <th>Username</th>
@@ -190,7 +191,7 @@
             </table>
         </div><div class="struct">
             <span class="icon passed" title="Passed."></span>
-            <h2>Buildable Structures</h2>
+            <h2><span class="info-hover" data-info-title="Structures" data-info-desc="Tired of not having a house? Make your own house!" id="info-struct" onmouseover="info('info-struct');" onmouseout="noinfo();">Buildable Structures</span></h2>
             <table>
                 <tr>
                     <th>Username</th>
@@ -233,6 +234,11 @@
                 </tr>-->
             </table>
         </div>
+        <div class="info_body">
+            <h3 class="info_name">Info Topic</h3><br />
+            <p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
         <script src="allpages.js"></script>
+        <script src="info.js"></script>
     </body>
 </html>

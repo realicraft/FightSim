@@ -31,3 +31,35 @@
     font-weight: bold;
     color: #6f6fff
 }
+
+.info_body {
+    background-color: #ffffffbf;
+    border: 3px solid #ffffffdf;
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 300px;
+    min-height: 25px;
+    color: black;
+    text-align: left;
+    position: fixed;
+    bottom: 0px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: none;
+}
+.info_name, .info_desc {
+    margin: 0px;
+    text-align: center;
+}
+.info_name {
+    font-size: 20px;
+    color: #3f3f3f;
+}
+.info_desc ul, .info_desc ol {
+    text-align: left;
+    padding-left: 10px;
+}
+.info-hover {
+    text-decoration: underline dashed #3f3fff;
+}

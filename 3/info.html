@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="../main.css"></link>
         <link rel="stylesheet" type="text/css" href="../table.css"></link>
         <link rel="stylesheet" type="text/css" href="../icons.css"></link>
+        <link rel="stylesheet" type="text/css" href="../tooltip.css"></link>
         <title>Info | FS3</title>
         <style>
             th {
@@ -30,19 +31,13 @@
             <u>Underlined</u> text signifies something that could be added by voting on it. 
         </p>
         <h2>Various Gains</h2>
-        <p>(Values above 20 can only be obtained by having a sufficent level in the skill.)</p>
-        <h3>Skill Exp.</h3>
-        <p>Skills gain exp based on how high you rolled on the skill roll.</p>
-        <h3>Harvest Gains</h3>
-        <p>When harvesting crops, the rewards are based on how high you rolled on the skill roll.<br />
-        The first number is the number of standard crops, the second number is the number of golden crops.<br />
-        (Below level 5, rolling a critical miss will destroy the crop.)</p>
+        <p>(Values above 20 can only be obtained by having a sufficent level and bonus in the skill.)</p>
         <table>
             <tr>
-                <th>Level Req.</th>
+                <th>Max Level Req.</th>
                 <th>Roll</th>
-                <th>Skill Exp</th>
-                <th>Crop Gain</th>
+                <th><span class="info-hover" data-info-title="Skill Exp" data-info-desc="When you make a skill roll, you'll gain exp in that skill, based on how high you rolled (after bonuses)." id="info-skill" onmouseover="info('info-skill');" onmouseout="noinfo();">Skill Exp</span></th>
+                <th><span class="info-hover" data-info-title="Harvest Gains" data-info-desc="When you harvest a crop, the amount of the crop you gain is dependent on what you roll.<br />The first number indicates how many of the standard variety of the crop you get, and the second number indicates how many of the golden variety.<br />(If you aren't Proficient or higher in Gardening, then getting a Critical Miss will destroy the crop.)" id="info-crop" onmouseover="info('info-crop');" onmouseout="noinfo();">Crop Gain</span></th>
             </tr><tr>
                 <td rowspan="20">0</td>
                 <td>1</td>
@@ -138,7 +133,7 @@
                 <td>8,2</td>
             </tr><tr>
                 <td>30</td>
-                <td rowspan="6">100%</td>
+                <td rowspan="11">100%</td>
                 <td rowspan="3">8,3</td>
             </tr><tr>
                 <td>6</td>
@@ -154,9 +149,20 @@
                 <td>9</td>
                 <td>34</td>
             </tr><tr>
-                <td>10</td>
+                <td rowspan="6">10</td>
                 <td>35</td>
-                <td>9,4</td>
+                <td rowspan="4">9,4</td>
+            </tr><tr>
+                <td>36</td>
+            </tr><tr>
+                <td>37</td>
+            </tr><tr>
+                <td>38</td>
+            </tr><tr>
+                <td>39</td>
+                <td rowspan="2">10,4</td>
+            </tr><tr>
+                <td>40</td>
             </tr>
         </table>
         <h2>Skill bonuses</h2>
@@ -172,42 +178,54 @@
                 <th>Level 5 Bonus</th>
                 <th>Level 10 Bonus</th>
             </tr><tr>
-                <td>Gardening</td>
+                <td><span class="info-hover" data-info-title="Farming" data-info-desc="With this skill, you grow crops, which can heal you or incrase stats." id="info-farming" onmouseover="info('info-farming');" onmouseout="noinfo();">Farming</span></td>
                 <td>Critical Misses no longer destroy the crop, and gain 1 extra crop on Critical Hits.</td>
                 <td>Once per post, you can pick one crop, owned by anyone, to give an extra turn of growth to.</td>
             </tr><tr>
-                <td>Mining</td>
+                <td><span class="info-hover" data-info-title="Mining" data-info-desc="With this skill, you obtain rocks and ores. You can probably craft stuff with them." id="info-mining" onmouseover="info('info-mining');" onmouseout="noinfo();">Mining</span></td>
                 <td>When mining for nothing in particular, gain 1 extra ore of any type.</td>
                 <td>+2 Direct Defense.</td>
             </tr><tr>
-                <td>Chopping</td>
+                <td><span class="info-hover" data-info-title="Chopping" data-info-desc="With this skill, you obtain wood. I guess you could also chop down a person." id="info-chopping" onmouseover="info('info-chopping');" onmouseout="noinfo();">Chopping</span></td>
                 <td>Non-Chopping skill rolls now have a 40% chance to give you one Stick.</td>
                 <td>When attacking, ignore 30% of the enemy's Direct Defense.</td>
             </tr><tr>
-                <td>Crafting</td>
+                <td><span class="info-hover" data-info-title="Crafting" data-info-desc="Use this skill to turn items into different, usually better items." id="info-crafting" onmouseover="info('info-crafting');" onmouseout="noinfo();">Crafting</span></td>
                 <td>Crafted items gain a 25% boost to an bonuses they have.</td>
                 <td>For every item consumed by crafting, there's a 25% chance to not consume the item. This does not apply to thin-air items.</td>
             </tr><tr>
-                <td>Carving</td>
+                <td><span class="info-hover" data-info-title="Carving" data-info-desc="Use this skill to turn items into sharper items. That's probably useful to you." id="info-carving" onmouseover="info('info-carving');" onmouseout="noinfo();">Carving</span></td>
                 <td>You no longer need to use a skill roll to sharpen your weapon.</td>
                 <td>+2 Direct Attack.</td>
             </tr><tr>
-                <td>Cooking</td>
+                <td><span class="info-hover" data-info-title="Cooking" data-info-desc="With this skill, you can make food. Also maybe pottery?" id="info-cooking" onmouseover="info('info-cooking');" onmouseout="noinfo();">Cooking</span></td>
                 <td>You suffer 33% less of the effects from food-born debuffs, and heal an additional 2 HP from crops.</td>
                 <td>Once per turn, you can pick one person to heal by 20 HP and give Regen 2 to.</td>
             </tr><tr>
-                <td>Construction</td>
+                <td><span class="info-hover" data-info-title="Construction" data-info-desc="With this skill, you can create buildings. No, you can't make a shop. Stop trying." id="info-construction" onmouseover="info('info-construction');" onmouseout="noinfo();">Construction</span></td>
                 <td>+2 Indirect Defense, and Critical Misses no longer damage what's being worked on.</td>
                 <td>Once per post, you can pick one person or structure to create a wall around without needing to use a skill roll.</td>
             </tr><tr>
-                <td>Gathering</td>
+                <td><span class="info-hover" data-info-title="Gathering" data-info-desc="Use this skill to gather items. You know, like rocks, or sticks, or berries. That kinda stuff." id="info-gathering" onmouseover="info('info-gathering');" onmouseout="noinfo();">Gathering</span></td>
                 <td>When finding items from any non-Gathering skill roll, you gain 15% more items.</td>
                 <td>Once per post, you can pick one item source to gain an item from without needing to use a skill roll, and without resetting any counters.</td>
+            </tr><tr>
+                <td><span class="info-hover" data-info-title="Digging" data-info-desc="Use this skill to get stuff like dirt and sand. Isn't Trisland made out of rock?" id="info-digging" onmouseover="info('info-digging');" onmouseout="noinfo();">Digging</span></td>
+                <td>Skill rolls that affect the environment (such as Mining or Chopping) have a 50% chance to give you 1 Dirt, Sand, or Gravel.</td>
+                <td>You can now throw blocks like Sand or Gravel at someone to Blind them. This deals 50% more damage than it would otherwise.</td>
+            </tr><tr>
+                <td><span class="info-hover" data-info-title="Gardening" data-info-desc="With this skill, you grow plants, which are like crops but less specific." id="info-gardening" onmouseover="info('info-gardening');" onmouseout="noinfo();">Gardening</span></td>
+                <td>Critical Misses no longer destroy the plant, and gain 1 extra plant on Critical Hits.</td>
+                <td>You can eat one plant that wouldn't normally give an effect per post to gain a status effect based on the plant. Plants that normally give effects on consumption are unaffected by the limit.</td>
+            </tr><tr>
+                <td><span class="info-hover" data-info-title="Mystery Skill 1" data-info-desc="You don't know what this skill is yet.<br />...something about <b>liquid</b>?" id="info-mysterya" onmouseover="info('info-mysterya');" onmouseout="noinfo();">Mystery Skill 1</span></td>
+                <td>???</td>
+                <td>???</td>
             </tr>
         </table>
         <h2>Weather</h2>
         <p>Occasionally, the weather will change, resulting in various effects.</p>
-        <p>Things that rely on the sun will have reduced effectiveness when it's not Day. This does not apply to plants, and Night reduces effectiveness less than other weather types.</p>
+        <p>Things that rely on the sun will have reduced effectiveness when it's not Day. This does not apply to plants, and both Night and Partly Cloudy reduce effectiveness less than other weather types.</p>
         <table>
             <tr>
                 <th>Type</th>
@@ -222,13 +240,30 @@
                 <td>Rain</td>
                 <td>Crops grow slightly faster, fires are extinguished quicker, and items and structures might get soaked.</td>
             </tr><tr>
+                <td>Downpour</td>
+                <td>Like rain, but worse. Crops and Structures have a chance to get buffeted by the rain, damaging them, and exposed fires are put out immediately. Additionally, Structures can be Flooded.</td>
+            </tr><tr>
                 <td>Cloudy</td>
+                <td>No special effects.</td>
+            </tr><tr>
+                <td>Partly Cloudy</td>
                 <td>No special effects.</td>
             </tr><tr>
                 <td>Thunderstorm</td>
                 <td>Similar to rain, with the added effect of structures occasionally getting hit by lightning.</td>
+            </tr><tr>
+                <td>Lightning</td>
+                <td>Similar to a thunderstorm, but without the rain.</td>
+            </tr><tr>
+                <td>Snow</td>
+                <td>It's colder, crops grow slower, and structures might get covered in snow.</td>
             </tr>
         </table>
+        <div class="info_body">
+            <h3 class="info_name">Info Topic</h3><br />
+            <p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
         <script src="allpages.js"></script>
+        <script src="info.js"></script>
     </body>
 </html>
