@@ -2,7 +2,7 @@ var headerEl = document.getElementById("header")
 var timeboxEl = document.getElementById("time_box")
 
 var headerLinks = [["Info", "info"],["Inventories", "inventories"],["Stats", "stats"],["Structures", "structures"],["Voting", "voting"],["Gardens", "gardens"]]
-var timeboxInfo = [38, "rain", "Downpour"]
+var timeboxInfo = [39, "cloudy", "Cloudy"]
 
 var headerCont = '<span class="small_icon fs3" style="position:absolute;left:4px;top:4px;" title="FS3"></span>'
 for (var i in headerLinks) {
