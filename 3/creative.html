@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../main.css"></link>
+        <link rel="stylesheet" type="text/css" href="../table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../tooltip.css"></link>
+        <link rel="stylesheet" type="text/css" href="../icons.css"></link>
+        <title>Creative Inventory | FS3</title>
+        <style>
+            td {
+                max-width: 200px;
+            }
+            td.inv_item {
+                position: relative;
+                background-clip: padding-box;
+            }
+            td.inv_item span:not(.icon) {
+                color: white;
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+                /*From https://stackoverflow.com/a/4919231 */
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+                font-size: 10px;
+            }
+            td.inv_item span.icon {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="CurrentLogo/logo.png">
+        <br />
+        <div id="header"></div>
+        <div id="time_box"></div>
+        <table id="creative_inv"></table>
+        <div class="tooltip_body">
+            <h3 class="tooltip_name">Item Name</h3><br /><br />
+            <p class="tooltip_desc">Item description. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br />
+            <p class="tooltip_bonus">+1 Place Holding</p>
+            <p class="tooltip_src1">Source: </p><p class="tooltip_src2">Item source</p>
+        </div>
+        <div class="info_body">
+            <h3 class="info_name">Info Topic</h3><br />
+            <p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <script src="allpages.js"></script>
+        <script src="../js_lists/itemList.js"></script>
+        <script src="../js_lists/equipList.js"></script>
+        <script src="tooltip.js"></script>
+        <script src="info.js"></script>
+        <script src="creative_inv.js"></script>
+    </body>
+</html>

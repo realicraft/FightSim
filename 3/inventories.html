@@ -14,13 +14,16 @@
                 position: relative;
                 background-clip: padding-box;
             }
-            td.inv_item span {
+            td.inv_item span:not(.icon) {
                 color: white;
                 position: absolute;
                 right: 0px;
                 bottom: 0px;
                 /*From https://stackoverflow.com/a/4919231 */
                 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            }
+            td.inv_item span.icon {
+                display: block;
             }
         </style>
     </head>
@@ -30,19 +33,6 @@
         <div id="header"></div>
         <div id="time_box"></div>
         <table id="player_inv">
-            <tr>
-                <td class="inv_user">realicraft</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/cookie_tray.png" onmouseover='tt(15);' onmouseout="nt()"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
             <!--<tr> See /FightSim/3/apology.txt
                 <td class="inv_user">Joyous Theta</td>
                 <td class="inv_space"></td>
@@ -56,136 +46,6 @@
                 <td class="inv_item"></td>
                 <td class="inv_item"></td>
             </tr>-->
-            <tr>
-                <td class="inv_user">SausageMcSausage</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
-            <tr>
-                <td class="inv_user">CatsUnited</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
-            <tr>
-                <td class="inv_user">Squrrelflight</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
-            <tr>
-                <td class="inv_user">IncendiaryGaming</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/logo_3.png" onmouseover='tt(2);' onmouseout="nt()"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
-            <tr>
-                <td class="inv_user">Byron_Inc_TBG</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/logo_F.png" onmouseover='tt(3);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/logo_S.png" onmouseover='tt(4);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/rock.png" onmouseover='tt(5);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/flint&steel.png" onmouseover='tt(12);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="banana.gif" onmouseover='tt(20);' onmouseout="nt()"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
-            <tr>
-                <td class="inv_user">cheesyfriedeggs</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/rock.png" onmouseover='tt(5);' onmouseout="nt()"><span>3</span></td>
-                <td class="inv_item"><img src="Items/Exported/decent_hammer.png" onmouseover='tt(8);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/log.png" onmouseover='tt(16);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/mush.png" onmouseover='tt(19);' onmouseout="nt()"><span>5</span></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
-            <tr>
-                <td class="inv_user">solitare</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/coal.png" onmouseover='tt(6);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/icicle.png" onmouseover='tt(14);' onmouseout="nt()"></td>
-                <td class="inv_item"><img src="Items/Exported/log.png" onmouseover='tt(16);' onmouseout="nt()"><span>2</span></td>
-                <td class="inv_item"><img src="Items/Exported/stick.png" onmouseover='tt(17);' onmouseout="nt()"><span>4</span></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
-            <tr>
-                <td class="inv_user">Faressain</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/slingshot.png" onmouseover='tt(9);' onmouseout="nt()"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
-            <tr>
-                <td class="inv_user">LeopardyLeaf</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/coal.png" onmouseover='tt(6);' onmouseout="nt()"><span>3</span></td>
-                <td class="inv_item"><img src="Items/Exported/diamond.png" onmouseover='tt(7);' onmouseout="nt()"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
-            <tr>
-                <td class="inv_user">gilbert_given_TBG</td>
-                <td class="inv_space"></td>
-                <td class="inv_item"><img src="Items/Exported/log.png" onmouseover='tt(16);' onmouseout="nt()"><span>3</span></td>
-                <td class="inv_item"><img src="Items/Exported/planks.png" onmouseover='tt(18);' onmouseout="nt()"><span>9</span></td>
-                <td class="inv_item"><img src="Items/Exported/stick.png" onmouseover='tt(17);' onmouseout="nt()"><span>6</span></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-                <td class="inv_item"></td>
-            </tr>
         </table>
         <div class="tooltip_body">
             <h3 class="tooltip_name">Item Name</h3><br /><br />
@@ -199,7 +59,9 @@
         </div>
         <script src="allpages.js"></script>
         <script src="../js_lists/itemList.js"></script>
+        <script src="../js_lists/equipList.js"></script>
         <script src="tooltip.js"></script>
         <script src="info.js"></script>
+        <script src="inventory.js"></script>
     </body>
 </html>

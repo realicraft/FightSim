@@ -11,7 +11,7 @@ var tooltip = function(name, desc, source, bonus) {
     tooltipBodyEl.setAttribute("style", "display: block;")
 }
 var tt = function(id=0) {
-    tooltip(itemlist[id][0], itemlist[id][1], itemlist[id][2], itemlist[id][3])
+    tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], equiplist[id][4])
 }
 var nt = function() {
     var tooltipBodyEl = document.getElementsByClassName("tooltip_body")[0];
