@@ -1,0 +1,65 @@
+Skeledop - Turn 40
+The inventory has been squished
+Changelog:
+ - merged items and equipment
+ - added icon for "no css class exists for this yet"
+ - implemented icicle sprite
+ - correctly gave cheesy a wooden shovel
+ - added "creative mode" page (available [url=https://realicraft.github.io/FightSim/3/creative.html]here[/url]) that shows all items currently implemented
+ - gilbert is now afk
+[quote=Byron_Inc_TBG]I collect my beans and potatoes.
+I clean up all the water in my base and use the water to water my plants.[/quote]
+Skill roll: 2d20+8 = [color=green]19[/color], [color=green]19[/color] = [color=green]27[/color], [color=green]27[/color]
+You collect 7 Ripe Cans of Beans, 2 Golden Cans of Beans*, 7 Ripe Potatoes, and 2 Golden Potatoes. What a great harvest!
+(Your Farming skill went up by 135%. Your Farming skill leveled up! [b]You've reached Proficiency in Farming![/b]**)
+Skill roll: 6d18: 10, 5, 9, 8, 5, [color=green]17[/color] (Moat (3), Tank (3), 4 Turrets (2 each))
+You collect 2+1+1+1+1+2 water for a total of 8 Water. You give two to each plant.
+(Your Gathering skill has gone up by 140%.*** Your Gathering skill went up.)
+[quote=IncendiaryGaming]I thought I had some tools or something, nothing is showing up in my inventory. I'll collect some of the stone from the mining I’ve done to make the garage and use it to make a hammer and pickaxe, maybe an axe if there's enough usable stones.[/quote]
+Oh yeah, you mined.
+Skill roll: 2d20 = [color=green]19[/color], [color=green]19[/color] ([color=transparent]This again?[/color])
+You mine a total of 8 stone and 4 coal.
+(Your Mining skill went up by 113%. Your Mining skill went up!)
+You do not have any Sticks to craft equipment with!
+[quote=solitare]i add an oven and sofa to the house (as reccomended by reali)[/quote]
+Skill roll: 2d20 = 17, 11
+You add an Oven, along with a Decent Sofa.
+(Your Construction skill went up by 90%.)
+[quote=IncendiaryGaming]No, I don't recall making a wooden sword. I'll just make some upgrades to my existing tools and go mining for metals later on.[/quote]
+The only "tool" you have right now is your Stick and Rock, so you upgrade it with 2 Stone to make a Rock-on-a-Stick.
+You go mining for some Iron.
+Skill roll: 1d20+2 = 9+2 = 11
+You mine 1 Stone and 2 Iron Ore.
+(Your Mining skill goes up by 50%.)
+
+The Turrets are still malfunctioning!
+Target rolls: 4d20 = 1, 6, 19, 6 (5 players, tank, wall, storage, explosives room, defense room, weaponry, shelter, reinforced wall, war tank, under-construction house, solitare's house, excavator, each of the other 3 turrets)
+The first turret shoots reali!
+Attack roll: 1d5+3 = [color=green]5[/color]+3 = [color=green]8[/color]
+Defense roll: 1d5 = [color=green][b]5[/b][/color]
+realicraft takes 8-5=[b]3[/b] damage.
+The second turret shoots the tank!
+Attack roll: 1d10+10 = 4+10 = 14
+Defense roll: 1d3+2 = 3+2 = 5
+The Tank takes 14-5=[b]9[/b] damage.
+The third turret shoots the second turret!
+Attack roll: 1d10+10 = [color=red][b]1[/b][/color]
+It misses.
+The fourth turret also shoots the tank!
+Attack roll: 1d10+10 = [color=red]2[/color]+10 = [color=red]12[/color]
+Defense roll: 1d3+2 = 3+2 = 5
+The Tank takes 12-5=[b]7[/b] damage.
+The Tank has been "wounded" somewhat, and has lost 1 Indirect Defense, and 2 Indirect Attack.
+
+Plants grow.
+Byron's Golden Carrots are harvestable.
+cheesy's Cabbage and Radishes are ripe.
+solitare's Beetroot continues rotting.
+solitare's Orange Tree is ripe. Careful, rot can spread to the tree itself.
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url]
+augh, this took too long
+
+*Golden Food can't be ripe, to decrease clutter. (The Bundle of Golden Ripe Spinach in your base is now a bundle of Golden Spinach.)
+**Having Proficiency in a skill means your at level 5 or greater. This nets you a bonus, listed on the info page. The levels after 5 have diminishing returns; levels 6 to 10 only give you +1 to a skill roll per level, and the exp requirement increases by 100 each level, instead of 50.
+***You know how the formula for exp gains from multiple rolls is avg({exp gains})/((2+{number of rolls}))/2? Well, {number of rolls} has diminishing returns now. Basically, each roll after the fourth is only counted as half a roll, up to the eighth roll, after which rolls are ignored for the purposes of {number of rolls}.

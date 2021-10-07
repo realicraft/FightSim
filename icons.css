@@ -439,6 +439,30 @@ span.small_icon {
     background-image: url("Icons/Exported/armor_sheet.png");
     background-position: -384px -192px;
 }
+.carrot {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -64px;
+}
+.apple {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -288px;
+}
+.golden_apple {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px -288px;
+}
+.orange {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -96px -288px;
+}
+.golden_orange {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -128px -288px;
+}
+.clay_sheild, .clay_shield {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -256px -96px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");

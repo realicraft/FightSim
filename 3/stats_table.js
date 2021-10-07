@@ -1,16 +1,16 @@
 var typelist = ["typeless", "normal_type", "fire_type", "water_type", "elec_type", "plant_type", "ice_type", "light_type", "dark_type", "missingtype"]
 var user_data = {
-    "realicraft":{"type":0,"health":[65,100],"attack":["7+2","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[6,0,35]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]},
+    "realicraft":{"type":0,"health":[62,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[6,0,35]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]},
     "SausageMcSauce":{"type":0,"health":[84,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "CatsUnited":{"type":0,"health":[100,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":3,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "Squrrelflight":{"type":0,"health":[97,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
-    "IncendiaryGaming":{"type":0,"health":[61,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[7,3,128],[8,0,10],[4,0,30],[2,0,10]],"effects":[],"equips":[1,2,3,4,11,6,7,8,""]},
-    "Byron_Inc_TBG":{"type":0,"health":[78,100],"attack":["7+3","7+3"],"defense":["11+1",5],"kills":1,"deaths":2,"skills":[[1,4,236],[4,0,50],[7,1,115]],"effects":[],"equips":[1,2,3,4,5,13,7,12,21]},
+    "IncendiaryGaming":{"type":0,"health":[61,100],"attack":["8+3","7+3"],"defense":[5,5],"kills":1,"deaths":1,"skills":[[7,3,128],[8,0,10],[4,0,30],[2,1,73]],"effects":[],"equips":[1,2,3,4,78,6,7,8,""]},
+    "Byron_Inc_TBG":{"type":0,"health":[78,100],"attack":["7+3","7+3"],"defense":["10+1",5],"kills":1,"deaths":2,"skills":[[1,5,71],[4,0,50],[7,1,115],[8,1,40]],"effects":[],"equips":[1,2,3,4,5,13,7,12,21]},
     "cheesyfriedeggs":{"type":0,"health":[91,100],"attack":["7+4","7+3"],"defense":[5,5],"kills":0,"deaths":1,"skills":[[4,1,10],[1,1,119],[3,0,55]],"effects":[],"equips":[1,2,3,4,9,6,7,8,""]},
-    "solitare":{"type":0,"health":[86,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,60],[5,0,30],[3,0,65],[1,1,100]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]},
+    "solitare":{"type":0,"health":[86,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,60],[5,0,30],[3,0,65],[1,1,100],[7,0,90]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]},
     "Faressain":{"type":0,"health":[82,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
     "LeopardyLeaf":{"type":0,"health":[81,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[2,0,80]],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]},
-    "gilbert_given_TBG":{"type":0,"health":[100,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[3,1,10]],"effects":[],"equips":[1,2,3,4,5,6,7,8,""]}
+    "gilbert_given_TBG":{"type":0,"health":[100,100],"attack":["7+3","7+3"],"defense":[5,5],"kills":0,"deaths":0,"skills":[[3,1,10]],"effects":[[1,"*"]],"equips":[1,2,3,4,5,6,7,8,""]}
 }
 var stat_tables = ""
 var stat_table = ""
