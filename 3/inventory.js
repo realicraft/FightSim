@@ -3,7 +3,7 @@ var inventoryList = {
     "SausageMcSausage":  [[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]],
     "CatsUnited":        [[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]],
     "Squrrelflight":     [[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]],
-    "IncendiaryGaming":  [[32,1],[51,6],[36,4],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]],
+    "IncendiaryGaming":  [[32,1],[51,9],[36,5],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]],
     "Byron_Inc_TBG":     [[33,1],[34,1],[35,1],[40,1],[48,1],[0,1],[0,1],[0,1],[0,1]],
     "cheesyfriedeggs":   [[35,3],[38,1],[44,1],[47,5],[10,1],[0,1],[0,1],[0,1],[0,1]],
     "solitare":          [[36,1],[42,1],[44,2],[45,4],[0,1],[0,1],[0,1],[0,1],[0,1]],
@@ -12,33 +12,33 @@ var inventoryList = {
     "gilbert_given_TBG": [[44,3],[46,9],[45,6],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]
 };
 
-var creativeRows = "";
-var creativeRow = "";
+var invenRows = "";
+var invenRow = "";
 for (var i in inventoryList) {
-    creativeRow = "<tr><td class='inv_user'>";
-    creativeRow += i;
-    creativeRow += "</td><td class='inv_space'></td>";
+    invenRow = "<tr><td class='inv_user'>";
+    invenRow += i;
+    invenRow += "</td><td class='inv_space'></td>";
     for (var j of inventoryList[i]) {
-        creativeRow += "<td class='inv_item'>";
+        invenRow += "<td class='inv_item'>";
         if (j[0] == 0) {}
         else {
-            creativeRow += "<span class='icon ";
-            creativeRow += equiplist[j[0]][1];
-            creativeRow += "' onmouseover='tt(";
-            creativeRow += j[0];
-            creativeRow += ");' onmouseout='nt();'></span>";
+            invenRow += "<span class='icon ";
+            invenRow += equiplist[j[0]][1];
+            invenRow += "' onmouseover='tt(";
+            invenRow += j[0];
+            invenRow += ");' onmouseout='nt();'></span>";
         };
         if (j[1] == 1) {}
         else {
-            creativeRow += "<span>"
-            creativeRow += j[1]
-            creativeRow += "</span>"
+            invenRow += "<span>"
+            invenRow += j[1]
+            invenRow += "</span>"
         };
-        creativeRow += "</td>"
+        invenRow += "</td>"
     };
-    creativeRow += "</tr>"
-    creativeRows += creativeRow
+    invenRow += "</tr>"
+    invenRows += invenRow
 };
 
 var invenListEl = document.getElementById("player_inv");
-invenListEl.innerHTML = creativeRows
+invenListEl.innerHTML = invenRows

@@ -10,7 +10,7 @@ img {
     margin-right: auto;
     margin-top: 30px
 }
-#header {
+.header {
     background-color: #afafaf;
     color: black;
     height: 25px;
@@ -23,16 +23,17 @@ img {
     padding-right: 5px;
     position: relative;
     margin-right: 16px;
+    margin-bottom: 3px;
 }
-#header a {
+.header a {
     text-align: center;
     line-height: 25px;
     text-decoration: none !important;
 }
-#header a:visited, #header a:hover, #header a:focus, #header a:active {
+.header a:visited, .header a:hover, .header a:focus, .header a:active {
     color: black;
 }
-#header a:hover {
+.header a:hover {
     background-color: #7f7f7f;
 }
 #time_box {
@@ -67,4 +68,24 @@ img {
     position: absolute;
     top: 1px;
     left: 2px;
+}
+.struct {
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.struct .struct {
+    width: 90%
+}
+td.inv_item span:not(.icon), .pt_stackcount {
+    color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    /*From https://stackoverflow.com/a/4919231 */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }

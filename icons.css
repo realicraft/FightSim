@@ -463,6 +463,62 @@ span.small_icon {
     background-image: url("Icons/Exported/armor_sheet.png");
     background-position: -256px -96px;
 }
+.hardite_ore {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -256px -224px;
+}
+.hardite_bar {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -288px -224px;
+}
+.emerald {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -320px -224px;
+}
+.sandstone_brick_wall {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -320px;
+}
+.brick_wall {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -320px;
+}
+.stone_brick_wall {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px -320px;
+}
+.stone_wall {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px -320px;
+}
+.iron_wall {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -320px;
+}
+.hardite_wall {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -320px;
+}
+.plank_wall {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -256px -320px;
+}
+.flint {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px -160px;
+}
+.string {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -160px;
+}
+.arrow {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -160px;
+}
+.bow {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -256px -160px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");
@@ -528,4 +584,12 @@ span.small_icon {
 .help {
     background-image: url("Icons/Exported/info_sheet.png");
     background-position: -176px -16px;
+}
+.collapse_closed {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -160px 0px;
+}
+.collapse_open {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -160px -16px;
 }

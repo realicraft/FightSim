@@ -1,0 +1,68 @@
+Skeledop - Turn 41
+sorry about the late skeledop, i fell asleep and then forgot about it
+also i'm adding two new pages to the website, one with crafting recipes, and an encyclopedia*
+(*note: the encyclopedia might not exist by turn 41's update)
+[quote=Byron_Inc_TBG]I also try to fix the turrets and the tank.[/quote]
+Skill roll: 5d20+2 = 5, 13, [color=green][b]20[/b][/color], [color=red]3[/color], [color=red][b]1[/b][/color] = 7, 15, [color=green][b]22[/b][/color], [color=red]5[/color], [color=red][b]3[/b][/color]
+The first turret has stopped shooting randomly, but is still moderately flooded and needs to be drained before you can use it.
+The second turret has been fully repaired.
+The third turret has been repaired and improved.
+The fourth turret failed to be repaired, and is in the same state it was before.
+The Tank was damaged by the repairs.
+Some exposed wiring combined with the flooding has caused anything inside the tank to be electrocuted. That means you.
+Damage roll: 1d20+5 = 14+5 = 19
+Defense roll: 1d10+1 = 5+1 = 6
+Effect roll: 1d20 = 12
+Byron takes 19-6=[b]13[/b] damage, and is Paralyzed for 1 turn.
+(Your Construction skill has gone up by 143%. Your Construction skill leveled up!)
+[quote=solitare]i harvest the oranges[/quote]
+Skill roll: 1d20+2 = [color=green]17[/color]+2 = [color=green]19[/color]
+You harvest 6 Ripe Oranges. (Your Farming skill went up by 75%. Your Farming skill leveled up!)
+[quote=cheesyfriedeggs]Harvest the cabbage and the radishes.[/quote]
+Skill roll: 2d20+2 = [color=red]4[/color], [color=red]2[/color] = [color=red]6[/color], [color=red]4[/color]
+You harvest 2 heads of Ripe Cabbage and 1 Ripe Radish.
+[quote=IncendiaryGaming]Harvest some more stone. I can stockpile it for building the garage and a black smithing station.[/quote]
+You mine for some stone.*
+Skill roll: 1d20+2 = 13+2 = 15
+You mine 3 Stone and 1 Coal. (Your Mining skill went up by 65%.)
+By the way, what's a "black smithing station"? You don't need anything special to craft items. (Some items do require skill levels, though.) Would it boost your Crafting rolls? Why does it specifically need to be black? Wouldn't a green one work just as well?
+
+The fourth turret fires randomly!
+Target rolls: 1d20 = 10 (5 players, tank, wall, storage, explosives room, defense room, weaponry, shelter, reinforced wall, war tank, under-construction house, solitare's house, excavator, each of the other 3 turrets)
+The turret hits the defense room. Not much happens.
+
+Plants grow.
+Byron's Golden Carrots are ripe.
+solitare's Beetroot continues rotting.
+
+Weather roll: 1d20 = 14
+The skies clear.
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url]
+Hey, are you guys gonna do anything with types? Or digging? Or the two mystery skills?
+By the way, here are some plans for things I want to add:
+ - move the hud on structures to the corners, like voting
+  - upper left corner is health
+  - upper right corner is attack/defense
+  - lower right corner is kills, if the structure can kill
+  - lower left corner is misc info, like water level, construction completeness, and other stuff
+  - lower center might be targetability (like if it can be targeted by rain or the turrets, for example)
+ - player exp
+  - will either be decorative or provide very small bonuses
+  - gained by doing things
+  - three categories:
+   - combat exp, gained from fighting
+   - skill exp, gained from skills ([color=transparent]also called skill exp 2: electric boogaloo[/color])
+   - misc exp, gained from doing other things
+ - might make the encyclopedia a wiki if i can't think of a good way to implement it on the website
+  - will be a wiki that looks like wikipedia
+  - won't be a wikia because they changed the layout and the new one looks ugly
+ - more items
+  - crops
+  - armor?
+  - you guys [b]aren't limited to what's already on the website[/b] (but you should use it for ideas)
+  - wool?
+ - make enchanted golden carrots/apples have a glowy effect (like actual enchanted golden apples)
+ - flowers (plants slots (gardening) and crop slots (farming) are separate things)
+
+*Fun fact: things you mine for have different "difficulties" depending on how rare the item is - so stone is difficulty 0, copper and coal are 1, iron and gold are 2, diamond and emerald are 3, and hardite is 4. (If you don't know what hardite is, you should check the All Items page.)

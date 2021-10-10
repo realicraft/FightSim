@@ -10,27 +10,12 @@
             td {
                 max-width: 200px;
             }
-            td.inv_item {
-                position: relative;
-                background-clip: padding-box;
-            }
-            td.inv_item span:not(.icon) {
-                color: white;
-                position: absolute;
-                right: 0px;
-                bottom: 0px;
-                /*From https://stackoverflow.com/a/4919231 */
-                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-            }
-            td.inv_item span.icon {
-                display: block;
-            }
         </style>
     </head>
     <body>
         <img src="CurrentLogo/logo.png">
         <br />
-        <div id="header"></div>
+        <div id="header_container"></div>
         <div id="time_box"></div>
         <table id="player_inv">
             <!--<tr> See /FightSim/3/apology.txt

@@ -28,8 +28,13 @@ td>img {
     background-color: transparent;
     border-top: 0px solid transparent;
     border-bottom: 0px solid transparent;
+    position: relative;
+    background-clip: padding-box;
 }
 .inv_user {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+td.inv_item span.icon {
+    display: block;
 }

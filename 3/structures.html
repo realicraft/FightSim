@@ -13,17 +13,6 @@
             hr {
                 width: 50%
             }
-            .struct {
-                border: 5px solid black;
-                border-radius: 5px;
-                width: 75%;
-                margin: auto;
-                margin-top: 5px;
-                margin-bottom: 5px;
-            }
-            .struct .struct {
-                width: 90%
-            }
             .info_text {
                 display: inline-block;
                 /*From https://stackoverflow.com/a/4919231 */
@@ -52,7 +41,7 @@
     <body>
         <img src="CurrentLogo/logo.png">
         <br />
-        <div id="header"></div>
+        <div id="header_container"></div>
         <div id="time_box"></div>
         <p>This page lists structures on the island the FS3 occurs on, also called Trisland.</p>
         <!--<div class="struct">
@@ -102,9 +91,9 @@
                 <p>Water level: (2/3)</p>
                 <p>A tank. Flooded by the rain, and needs to be drained.</p>
                 <div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
-                    <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">49/75</span></div>
+                    <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">39/75</span></div>
                     <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">3<br />(5)</span></div>
-                    <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">2+2<br />(3+2)</span></div>
+                    <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">2+1<br />(3+2)</span></div>
                     <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
                 </div>
             </div><div class="struct">
@@ -143,13 +132,13 @@
             </div><div class="struct">
                 <h2>Flooded Turrets</h2>
                 <h3>Created by: Byron_Inc_TBG</h3>
-                <p>Water level: (1/2),(1/2),(1/2),(0/2)</p>
-                <p>Four turrets to shoot things with. Flooded by the rain, and will shoot randomly until fixed.<br />
+                <p>Water level: (1/2),(0/2),(0/2),(0/2)</p>
+                <p>Four turrets to shoot things with. The fourth turret has been flooded by the rain, and will shoot randomly until fixed.<br />
                 The first turret has been crippled from damage.</p>
                 <div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
-                    <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">6/25</span></div>
-                    <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">5+3<br />(10+10)</span></div>
-                    <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">0<br />(1)</span></div>
+                    <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">16/25</span></div>
+                    <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">7+6<br />(10+10)</span></div>
+                    <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
                     <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
                 </div><br /><div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
                     <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">25/25</span></div>
@@ -157,8 +146,8 @@
                     <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
                     <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
                 </div><br /><div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
-                    <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">25/25</span></div>
-                    <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">10+10<br />(10+10)</span></div>
+                    <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">30/30</span></div>
+                    <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">11+11<br />(11+11)</span></div>
                     <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
                     <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
                 </div><br /><div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
