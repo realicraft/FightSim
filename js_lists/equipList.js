@@ -11,7 +11,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Wooden Sword", "wood_sword", "A sword made out of wood.", "Crafting", "+1 Direct Attack"], //9
     ["Wooden Shovel", "wood_shovel", "A shovel made out of wood. You should probably use this for digging instead.", "Crafting", "+1 Indirect Attack<br />+1 to Digging"], //10
     ["Stick and Rock", "stick_rock", "A rock taped to a stick. This isn't very good.", "Crafting", "50% Chance of breaking on hit"], //11
-    ["Golden Carrot", "gold_carrot", "A carrot made out of gold. Aren't carrots supposed to give you better eyesight?", "Gardening", "+0.3 Indirect Defense"], //12
+    ["Golden Carrot", "gold_carrot", "A carrot made out of gold. Aren't carrots supposed to give you better eyesight?", "Farming", "+0.3 Indirect Defense"], //12
     ["Diamond Shield", "diamond_shield", "A shield with a diamond in the center.", "Crafting", "+1 Indirect Defense<br />+1 Direct Defense"], //13
     ["Golden Sword", "gold_sword", "A sword made out of gold. Seems fragile.", "Crafting", "+1 Indirect Attack<br />10% chance of breaking on hit"], //14
     ["Golden Shovel", "gold_shovel", "A shovel made out of gold. Seems fragile, and is probably btter used for digging.", "Crafting", "+1 Indirect Attack<br />+2 to Digging<br />10% chance of breaking on hit"], //15
@@ -89,4 +89,38 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["String", "string", "A piece of string.", "Gathering", ""], //87
     ["Bow", "bow", "A bow. You can shoot arrows with it.", "Crafting", "+1 Indirect Attack<br />Consume 1 Arrow for +1 Direct Attack"], //88
     ["Arrow", "arrow", "An arrow.", "Crafting", "Use it with a bow"], //89
+    ["Empty Can", "can", "A can with nothing in it.", "Crafting", "Fill it with stuff"], //90
+    ["Canned Water", "can", "A can with water in it. You can drink it.", "Crafting", "Drink for 3 HP"], //91
+    ["Can of Beans", "can", "A can with beans in it.", "Farming", "+5 HP on consume"], //92
+    ["Golden Can of Beans", "gold_can", "A golden can with golden beans in it.", "Farming", "+0.1 Direct Defense"], //93
+    ["Clay Bowl", "clay_bowl", "A bowl made of clay.", "Pottery", ""], //94
+    ["Clay Vase", "clay_vase", "A vase made of clay.", "Pottery", ""], //95
+    ["Glass Bowl", "glass_bowl", "A bowl made of glass.", "Crafting", ""], //96
+    ["Red Tulip", "red_tulip", "A red tulip. Can be turned into red dye.", "Gardening", ""], //97
+    ["Orange Tulip", "orange_tulip", "An orange tulip. Can be turned into orange dye.", "Gardening", ""], //98
+    ["Yellow Tulip", "yellow_tulip", "A yellow tulip. Can be turned into yellow dye.", "Gardening", ""], //99
+    ["Cyan Tulip", "cyan_tulip", "A cyan tulip. Can be turned into cyan dye.", "Gardening", ""], //100
+    ["Azure Tulip", "azure_tulip", "An azure tulip. Can be turned into cyan dye.", "Gardening", ""], //101
+    ["Blue Tulip", "blue_tulip", "A blue tulip. Can be turned into blue dye.", "Gardening", ""], //102
+    ["Purple Tulip", "purple_tulip", "A purple tulip. Can be turned into purple dye.", "Gardening", ""], //103
+    ["Pink Tulip", "pink_tulip", "A pink tulip. Can be turned into pink dye.", "Gardening", ""], //104
+    ["White Dandelion", "white_dandelion", "A white dandelion. Can be turned into white dye.", "Gardening", ""], //105
+    ["Gray Dandelion", "gray_dandelion", "A gray dandelion. Can be turned into gray dye.", "Gardening", ""], //106
+    ["Yellow Dandelion", "yellow_dandelion", "A yellow dandelion. Can be turned into yellow dye.", "Gardening", ""], //107
+    ["Leaf", "leaf", "A single leaf.", "Gathering", ""], //108
+    ["Blade of Grass", "grass_blade", "A single blade of grass.", "Gathering", ""], //109
+    ["Block of Leaves", "leaf_block", "A block of leaves.", "Gathering", ""], //110
+    ["Red Dye", "red_dye", "{placeholder}", "Crafting", ""], //111
+    ["Orange Dye", "orange_dye", "{placeholder}", "Crafting", ""], //112
+    ["Yellow Dye", "yellow_dye", "{placeholder}", "Crafting", ""], //113
+    ["Green Dye", "green_dye", "{placeholder}", "Crafting", ""], //114
+    ["Cyan Dye", "cyan_dye", "{placeholder}", "Crafting", ""], //115
+    ["Blue Dye", "blue_dye", "{placeholder}", "Crafting", ""], //116
+    ["Purple Dye", "purple_dye", "{placeholder}", "Crafting", ""], //117
+    ["Pink Dye", "pink_dye", "{placeholder}", "Crafting", ""], //118
+    ["White Dye", "white_dye", "{placeholder}", "Crafting", ""], //119
+    ["Gray Dye", "gray_dye", "{placeholder}", "Crafting", ""], //120
+    ["Black Dye", "black_dye", "{placeholder}", "Crafting", ""], //121
+    ["Glass Bottle", "glass_bottle", "A bottle made of glass.", "Crafting", "Fill it with stuff"], //122
+    ["Water Bottle", "potion_blue", "A bottle filled with water.", "Crafting", "Drink for 3 HP<br />Or fill it with more stuff and cook it"], //123
 ]

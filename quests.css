@@ -1,0 +1,28 @@
+.questleft {
+    width: calc(80%-5px);
+    height: 45px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+}
+.questright {
+    width: calc(20%-5px);
+    right: 5px;
+    position: absolute;
+    height: 45px;
+    top: 5px;
+    text-align: right;
+}
+.questbottom {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    height: 15px;
+    font-style: italic;
+}
+.questbox {
+    height: 70px;
+}

@@ -4,6 +4,13 @@ var recipe_group = ""
 var recipe_current = ""
 var k = 0
 
+var recipetypelist = [
+    "craft_default",
+    "craft_alchemy",
+    "craft_smithing",
+    "craft_smelting",
+]
+
 for (var i in recipelist) {
     recipe_group = '<div class="struct collapse" id="'
     recipe_group += i.toLowerCase().replace(" ","_")
@@ -38,20 +45,22 @@ for (var i in recipelist) {
             recipe_current += "</td>"
             k++
         }
-        recipe_current += '<td class="inv_space"></td>'
+        recipe_current += '<td class="inv_space" style="width:20px;"><span class="small_icon '
+        recipe_current += recipetypelist[recipelist[i][j][14]];
+        recipe_current += '"></span></td>'
         recipe_current += "<td class='inv_item'>";
-            if (recipelist[i][j][14] == 0) {}
+            if (recipelist[i][j][15] == 0) {}
             else {
                 recipe_current += "<span class='icon ";
-                recipe_current += equiplist[recipelist[i][j][14]][1];
+                recipe_current += equiplist[recipelist[i][j][15]][1];
                 recipe_current += "' onmouseover='tt(";
-                recipe_current += recipelist[i][j][2+(k*2)];
+                recipe_current += recipelist[i][j][15];
                 recipe_current += ");' onmouseout='nt();'></span>";
             };
-            if (recipelist[i][j][15] == 1) {}
+            if (recipelist[i][j][16] == 1) {}
             else {
                 recipe_current += "<span>"
-                recipe_current += recipelist[i][j][15]
+                recipe_current += recipelist[i][j][16]
                 recipe_current += "</span>"
             };
             recipe_current += "</td>"

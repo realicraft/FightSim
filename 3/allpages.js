@@ -2,10 +2,10 @@ var headerEl = document.getElementById("header_container")
 var timeboxEl = document.getElementById("time_box")
 
 var headerLinks = {
-    "3": [["Info", "info"],["Inventories", "inventories"],["Stats", "stats"],["Structures", "structures"],["Voting", "voting"],["Gardens", "gardens"]],
+    "3": [["Info", "info"],["Inventories", "inventories"],["Stats", "stats"],["Structures", "structures"],["Voting", "voting"],["Gardens", "gardens"],["Quests","quests"]],
     "i": [["All Items", "creative"],["Crafting", "crafting"],["Encyclopedia", "help"]]
 }
-var timeboxInfo = [41, "night", "Night, Clear Skies"]
+var timeboxInfo = [42, "night", "Night, Clear Skies"]
 
 var headerCont = '<div class="header"><span class="small_icon fs3" style="position:absolute;left:4px;top:4px;" title="FS3"></span>'
 for (var i in headerLinks["3"]) {headerCont += '\n<a href="' + headerLinks["3"][i][1] + '.html">' + headerLinks["3"][i][0] + '</a>'}

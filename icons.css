@@ -161,6 +161,14 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -224px -192px;
 }
+.fishing {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -256px -192px;
+}
+.alchemy {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -288px -192px;
+}
 /* misc */
 .missing, .iconless, .missingno {
     background-image: url("Icons/Exported/icons_sheet.png");
@@ -519,6 +527,158 @@ span.small_icon {
     background-image: url("Icons/Exported/armor_sheet.png");
     background-position: -256px -160px;
 }
+.can {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px -288px;
+}
+.gold_can {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -288px;
+}
+.clay_bowl {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -256px;
+}
+.clay_vase {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -256px;
+}
+.glass_bowl {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px -256px;
+}
+.red_tulip {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -352px;
+}
+.orange_tulip {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -352px;
+}
+.yellow_tulip {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px -352px;
+}
+.cyan_tulip {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -96px -352px;
+}
+.azure_tulip {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -128px -352px;
+}
+.blue_tulip {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px -352px;
+}
+.purple_tulip {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -352px;
+}
+.pink_tulip {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -352px;
+}
+.white_dandelion {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -256px -352px;
+}
+.gray_dandelion {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -288px -352px;
+}
+.yellow_dandelion {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -320px -352px;
+}
+.leaf {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -352px -352px;
+}
+.grass_blade {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -384px -352px;
+}
+.leaf_block {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -448px -192px;
+}
+.red_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -384px;
+}
+.orange_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -384px;
+}
+.yellow_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -64px -384px;
+}
+.green_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -96px -384px;
+}
+.cyan_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -128px -384px;
+}
+.blue_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px -384px;
+}
+.purple_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -384px;
+}
+.pink_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -384px;
+}
+.white_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -256px -384px;
+}
+.gray_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -288px -384px;
+}
+.black_dye {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -320px -384px;
+}
+.glass_bottle {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -96px -256px;
+}
+.potion_red {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -128px -256px;
+}
+.potion_orange {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -160px -256px;
+}
+.potion_yellow {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -192px -256px;
+}
+.potion_green {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -256px;
+}
+.potion_cyan {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -256px -256px;
+}
+.potion_blue {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -288px -256px;
+}
+.glass_purple {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -320px -256px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");
@@ -592,4 +752,20 @@ span.small_icon {
 .collapse_open {
     background-image: url("Icons/Exported/info_sheet.png");
     background-position: -160px -16px;
+}
+.craft_default {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -224px -32px;
+}
+.craft_alchemy {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -240px -32px;
+}
+.craft_smithing {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -224px -48px;
+}
+.craft_smelting {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -240px -48px;
 }
