@@ -67,11 +67,11 @@ quest_full = '<h2>Full Quests</h2>'
 for (i in quests.slice(0,3)) {
     i = parseInt(i)
     quest_current = '<div class="struct questbox"><div class="questleft">'
-    quest_current += quests[i+3][0]
+    quest_current += quests[i+6][0]
     quest_current += '</div><div class="questright">'
-    quest_current += quests[i+3][1]
+    quest_current += quests[i+6][1]
     quest_current += '</div><div class="questbottom">Reward: '
-    quest_current += quests[i+3][2]
+    quest_current += quests[i+6][2]
     quest_current += '</div></div>'
     quest_full += quest_current
 }
