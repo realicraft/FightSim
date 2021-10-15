@@ -6,6 +6,7 @@
     margin: 2px;
     padding-bottom: 5px;
     vertical-align: top;
+    position: relative;
 }
 .username {
     color: white;
@@ -62,4 +63,22 @@
 }
 .pt_equip span {
     margin-right: 2px;
+}
+.pt_level_upper {
+    font-weight: bold;
+    font-size: 16px;
+}
+.pt_level_lower {
+    font-style: italic;
+    font-size: 11px;
+    text-align: right;
+}
+.pt_level_contain {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    color: white;
+}
+.pt_level_contain p {
+    margin: 0px;
 }

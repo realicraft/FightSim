@@ -8,13 +8,13 @@ var questbox_fullpast = document.getElementById("quest_fullpast")
 var quests = [ // [quest, claimed, reward]
     ["Plant a flower.", "Unclaimed", "10% Gardening Exp"],
     ["Dig something up.", "Unclaimed", "1 Sand"],
-    ["Damage someone.", "Unclaimed", "5 HP"],
-    ["Take 20 damage total.", "Unclaimed", "20 HP, 1 Iron Bar"],
+    ["Damage someone.", "Unclaimed", "1 Misc Exp"],
+    ["Take 20 damage total.", "Unclaimed", "10 HP, 1 Iron Bar, 2 Misc Exp"],
     ["Harvest a crop.", "Unclaimed", "15% Farming Exp"],
     ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp"],
-    ["Kill someone.", "Unclaimed", "10 HP"],
+    ["Kill someone.", "Unclaimed", "3 Misc Exp"],
     ["Complete a Structure.", "Unclaimed", "30% Construction Exp"],
-    ["Equip any armor.", "Unclaimed", "5 HP, 1 Wooden Shield"],
+    ["Equip any armor.", "Unclaimed", "1 Misc Exp, 1 Wooden Shield"],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
