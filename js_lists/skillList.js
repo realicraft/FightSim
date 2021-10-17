@@ -7,5 +7,7 @@ var skilllist = [ //[name, css class for icon]
     ["Carving", "carving"], //5
     ["Cooking", "cooking"], //6
     ["Construction", "construction"], //7
-    ["Gathering", "gathering"] //8
+    ["Gathering", "gathering"], //8
+    ["Digging", "digging"], //9
+    ["Gardening", "gardening"], //10
 ]

@@ -34,14 +34,14 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Logo 3", "logo_3", 'The "3" from the logo.', "Unknown", ""], //32
     ["Logo F", "logo_f", 'The "F" from the logo. Why\'s it so small now?', "Unknown", ""], //33
     ["Logo S", "logo_s", 'The "S" from the logo.', "Unknown", ""], //34
-    ["Rock", "rock", "It's a small rock.", "Picking up a rock", "Throw to deal 4 damage"], //35
+    ["Rock", "rock", "It's a small rock.", "Gathering", "Throw to deal 4 damage"], //35
     ["Coal", "coal", "It's a piece of coal.", "Mining", ""], //36
     ["Diamond", "diamond", "It's a diamond. These things are rare!", "Mining", ""], //37
     ["Decent Hammer", "decent_hammer", "Bonk.", "Crafting", "+1 Direct Attack"], //38
-    ["Slingshot", "slingshot", "You shoot things with it.", "Unknown", "+1 Indirect Attack<br />Can be used with ammo to deal more damage"], //39
-    ["Flint & Steel", "flint_and_steel", "Sets things on fire.", "Unknown", "+30% chance to inflict On Fire on hit for 1 turn"], //40
+    ["Slingshot", "slingshot", "You shoot things with it.", "Crafting", "+1 Indirect Attack<br />Can be used with ammo to deal more damage"], //39
+    ["Flint & Steel", "flint_and_steel", "Sets things on fire.", "Crafting", "+30% chance to inflict On Fire on hit for 1 turn"], //40
     ["TNT", "tnt", "Explodes after being ignited.", "Unknown", ""], //41
-    ["Icicle", "icicle", "It's cold, and kinda pointy.", "Finding it", "+10% chance to inflict Frozen on hit for 2 turns"], //42
+    ["Icicle", "icicle", "It's cold, and kinda pointy.", "Gathering", "+10% chance to inflict Frozen on hit for 2 turns"], //42
     ["Tray of Cookies", "cookie_tray", "A tray filled with cookies.", "Cooking", ""], //43
     ["Log", "log", "A log.", "Chopping", ""], //44
     ["Stick", "stick_item", "It's a stick. You can use it in a bunch of different things.", "Chopping", ""], //45
@@ -123,4 +123,23 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Black Dye", "black_dye", "{placeholder}", "Crafting", ""], //121
     ["Glass Bottle", "glass_bottle", "A bottle made of glass.", "Crafting", "Fill it with stuff"], //122
     ["Water Bottle", "potion_blue", "A bottle filled with water.", "Crafting", "Drink for 3 HP<br />Or fill it with more stuff and cook it"], //123
+    ["Fertilizer", "fertilizer", "Some fertilizer.", "Crafting", "Use on a plant for +1 growth turn"], //124
+    ["Dirt", "dirt", "A block of dirt. Not the best material to make a house out of, but you do you.", "Digging", ""], //125
+    ["Grass", "grass", "A block of dirt with some grass on it.", "Unknown", ""], //126
+    ["Wooden Shield", "wood_shield", "A shield made out of wood.", "Crafting", "+1 Indirect Defense"], //127
+    ["Gold Shield", "iron_shield", "A shield made out of wood, with an iron core.", "Crafting", "+1 Direct Defense"], //128
+    ["Iron Shield", "gold_shield", "A shield made out of wood, with a golden core.", "Crafting", "+1 Indirect Defense"], //129
+    ["Radish", "radish", "A radish.", "Farming", "+5 HP on consume"], //130
+    ["Golden Radish", "gold_radish", "A golden radish.", "Farming", "+0.15 Mining"], //131
+    ["Potato", "potato", "A potato.", "Farming", "+5 HP on consume"], //132
+    ["Golden Potato", "gold_potato", "A golden potato. No, it's not butter.", "Farming", "+0.15 Chopping"], //133
+    ["Cabbage", "cabbage", "A head of cabbage.", "Farming", "+5 HP on consume"], //134
+    ["Golden Cabbage", "gold_cabbage", "A golden head of cabbage. Some people use the leaves as decoration.", "Farming", "+0.2 Max HP"], //135
+    ["Corn Cob", "corn", "A cob of corn.", "Farming", "+5 HP on consume"], //136
+    ["Golden Corn Cob", "gold_corn", "A golden cob of corn. No, it's not butter.", "Farming", "+0.3 Indirect Attack"], //137
+    ["Beetroot", "beetroot", "A beetroot.", "Farming", "+5 HP on consume"], //138
+    ["Golden Beetroot", "gold_beetroot", "A golden beetroot.", "Farming", "+0.15 Digging"], //139
+    ["Buttered Corn Cob", "corn", "A cob of corn, covered in butter.", "Crafting", "+7 HP on consume"], //140
+    ["Baked Potato", "baked_potato", "A baked potato.", "Cooking", "+7 HP on consume"], //141
+    ["Butter", "butter", "A bar of butter. No, it's not golden.", "Unknown", "-1 HP on consume"], //142
 ]

@@ -675,9 +675,33 @@ span.small_icon {
     background-image: url("Icons/Exported/armor_sheet.png");
     background-position: -288px -256px;
 }
-.glass_purple {
+.potion_purple {
     background-image: url("Icons/Exported/armor_sheet.png");
     background-position: -320px -256px;
+}
+.wood_sheild, .wood_shield {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -256px -128px;
+}
+.iron_sheild, .iron_shield {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -288px -96px;
+}
+.gold_sheild, .gold_shield {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -288px -128px;
+}
+.butter {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -224px -288px;
+}
+.cabbage {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -256px -288px;
+}
+.gold_cabbage {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -288px -288px;
 }
 /* info (large) */
 .yes, .passed {
