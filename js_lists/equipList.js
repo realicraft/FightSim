@@ -142,4 +142,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Buttered Corn Cob", "corn", "A cob of corn, covered in butter.", "Crafting", "+7 HP on consume"], //140
     ["Baked Potato", "baked_potato", "A baked potato.", "Cooking", "+7 HP on consume"], //141
     ["Butter", "butter", "A bar of butter. No, it's not golden.", "Unknown", "-1 HP on consume"], //142
+    ["Wooden Bowl", "wood_bowl", "A bowl made of wood.", "Carving", ""], //143
+    ["Wooden Table", "wood_table", "A table made of wood. You can put things on it.", "Crafting", "Place it down as a Structure"], //144
+    ["Wooden Chair", "wood_chair", "A chair made of wood. You can sit on it.", "Crafting", ""], //145
+    ["Folding Chair", "fold_chair", "A chair made of iron. It can fold into a smaller form.", "Crafting", ""], //146
 ]

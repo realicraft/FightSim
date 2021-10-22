@@ -82,13 +82,13 @@ cheesy: (8)
   Level Up: 2 (4)
  Misc: (4)
   Quadturn Quest: 1 (4)
-solitare: (9)
+solitare: (13)
  Combat:
- Skill: (4)
-  Level Up: 2 (4)
- Misc: (5)
+ Skill: (6)
+  Level Up: 3 (6)
+ Misc: (7)
   Crit: 1 (1)
-  Turn Quest: 2 (4)
+  Turn Quest: 3 (6)
 Faressain:
  Combat:
  Skill:
@@ -104,7 +104,10 @@ gilbert: (4)
   Level Up: 1 (2)
   Crit: 1 (2)
  Misc:
-TwilightSeleneMisty:
+TwilightSeleneMisty: (8)
  Combat:
  Skill:
- Misc:
+ Misc: (8)
+  Turn Quest: 1 (2)
+  Quadturn Quest: 1 (4)
+  Quest Bonus: (2)

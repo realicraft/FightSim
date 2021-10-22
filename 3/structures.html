@@ -21,6 +21,13 @@
                 -webkit-text-stroke: 1px white;
                 color: black;
             }
+            .accuracy + .info_text {
+                /*From https://stackoverflow.com/a/4919231 */
+                /*text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;*/
+                /*From https://css-tricks.com/adding-stroke-to-web-text/ */
+                -webkit-text-stroke: 1px black;
+                color: white;
+            }
             .info_icon {
                 position: absolute; 
                 margin: auto;
@@ -90,10 +97,11 @@
                 <h3>Created by: Byron_Inc_TBG</h3>
                 <p>Water level: (2/3)</p>
                 <p>A tank. Flooded by the rain, and needs to be drained.</p>
-                <div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
+                <div style="position:relative;text-align:center;display:inline-block;width:250px;height:32px;">
                     <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">39/75</span></div>
                     <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">3<br />(5)</span></div>
-                    <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">2+1<br />(3+2)</span></div>
+                    <div class="struct_stats" style="right:100px;"><span class="icon defense info_icon"></span><span class="info_text">2+1<br />(3+2)</span></div>
+                    <div class="struct_stats" style="right:50px;"><span class="icon accuracy info_icon"></span><span class="info_text">8</span></div>
                     <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
                 </div>
             </div><div class="struct">
@@ -135,25 +143,29 @@
                 <p>Water level: (1/2),(0/2),(0/2),(0/2)</p>
                 <p>Four turrets to shoot things with.<br />
                 The first turret has been crippled from damage.</p>
-                <div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
+                <div style="position:relative;text-align:center;display:inline-block;width:250px;height:32px;">
                     <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">16/25</span></div>
                     <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">7+6<br />(10+10)</span></div>
-                    <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
+                    <div class="struct_stats" style="right:100px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
+                    <div class="struct_stats" style="right:50px;"><span class="icon accuracy info_icon"></span><span class="info_text">9</span></div>
                     <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
-                </div><br /><div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
+                </div><br /><div style="position:relative;text-align:center;display:inline-block;width:250px;height:32px;">
                     <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">25/25</span></div>
                     <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">10+10<br />(10+10)</span></div>
-                    <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
+                    <div class="struct_stats" style="right:100px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
+                    <div class="struct_stats" style="right:50px;"><span class="icon accuracy info_icon"></span><span class="info_text">7</span></div>
                     <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
-                </div><br /><div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
+                </div><br /><div style="position:relative;text-align:center;display:inline-block;width:250px;height:32px;">
                     <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">30/30</span></div>
                     <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">11+11<br />(11+11)</span></div>
-                    <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
+                    <div class="struct_stats" style="right:100px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
+                    <div class="struct_stats" style="right:50px;"><span class="icon accuracy info_icon"></span><span class="info_text">7</span></div>
                     <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
-                </div><br /><div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
+                </div><br /><div style="position:relative;text-align:center;display:inline-block;width:250px;height:32px;">
                     <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">25/25</span></div>
                     <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">10+10<br />(10+10)</span></div>
-                    <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
+                    <div class="struct_stats" style="right:100px;"><span class="icon defense info_icon"></span><span class="info_text">1<br />(1)</span></div>
+                    <div class="struct_stats" style="right:50px;"><span class="icon accuracy info_icon"></span><span class="info_text">7</span></div>
                     <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
                 </div>
             </div>
@@ -189,10 +201,11 @@
             <h1>War Tank</h1>
             <h2>Created by: IncendiaryGaming</h2>
             <p>A tank, capable of shooting one singular person at a time.</p>
-            <div style="position:relative;text-align:center;display:inline-block;width:200px;height:32px;">
+            <div style="position:relative;text-align:center;display:inline-block;width:250px;height:32px;">
                 <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">265/275</span></div>
                 <div class="struct_stats" style="left:50px;"><span class="icon attack info_icon"></span><span class="info_text">15+1<br />(15)</span></div>
-                <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">11<br />(11)</span></div>
+                <div class="struct_stats" style="right:100px;"><span class="icon defense info_icon"></span><span class="info_text">11<br />(11)</span></div>
+                <div class="struct_stats" style="right:50px;"><span class="icon accuracy info_icon"></span><span class="info_text">6</span></div>
                 <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
             </div>
         </div><div class="struct">

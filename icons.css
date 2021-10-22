@@ -42,6 +42,10 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -192px 0px;
 }
+.target, .accuracy {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -224px 0px;
+}
 /* types */
 .normal_type, .placeholder {
     background-image: url("Icons/Exported/icons_sheet.png");
@@ -702,6 +706,18 @@ span.small_icon {
 .gold_cabbage {
     background-image: url("Icons/Exported/armor_sheet.png");
     background-position: -288px -288px;
+}
+.wood_bowl {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -320px -288px;
+}
+.wood_table {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: 0px -416px;
+}
+.wood_chair {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -32px -416px;
 }
 /* info (large) */
 .yes, .passed {
