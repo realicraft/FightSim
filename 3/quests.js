@@ -14,7 +14,7 @@ var quests = [ // [quest, claimed, reward]
     ["Mine 5 Stone.", "Unclaimed", "20% Mining Exp", "44~47"],
     ["Kill someone.", "Unclaimed", "3 Misc Exp"],
     ["Complete a Structure.", "Unclaimed", "30% Construction Exp"],
-    ["Equip any armor.", "Unclaimed", "1 Misc Exp, 1 Wooden Shield"],
+    ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
@@ -35,7 +35,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
-        
+        ["Equip any armor.", "Claimed by Byron", "1 Misc Exp, 1 Wooden Shield"],
     ],
 ]
 
