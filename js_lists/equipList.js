@@ -14,7 +14,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Golden Carrot", "gold_carrot", "A carrot made out of gold. Aren't carrots supposed to give you better eyesight?", "Farming", "+0.3 Indirect Defense"], //12
     ["Diamond Shield", "diamond_shield", "A shield with a diamond in the center.", "Crafting", "+1 Indirect Defense<br />+1 Direct Defense"], //13
     ["Golden Sword", "gold_sword", "A sword made out of gold. Seems fragile.", "Crafting", "+1 Indirect Attack<br />10% chance of breaking on hit"], //14
-    ["Golden Shovel", "gold_shovel", "A shovel made out of gold. Seems fragile, and is probably btter used for digging.", "Crafting", "+1 Indirect Attack<br />+2 to Digging<br />10% chance of breaking on hit"], //15
+    ["Golden Shovel", "gold_shovel", "A shovel made out of gold. Seems fragile, and is probably better used for digging.", "Crafting", "+1 Indirect Attack<br />+2 to Digging<br />10% chance of breaking on hit or dig"], //15
     ["Golden Pickaxe", "gold_pickaxe", "A pickaxe made out of gold. Seems fragile, and is probably better used for mining.", "Crafting", "+1 Indirect Attack<br />+2 to Mining<br />10% chance of breaking on hit or mine"], //16
     ["Golden Axe", "gold_axe", "A axe made out of gold. Seems fragile, and is probably better used for chopping.", "Crafting", "+2 Indirect Attack<br />+2 to Chopping<br />10% chance of breaking on hit or chop"], //17
     ["Iron Sword", "iron_sword", "A sword made out of iron.", "Crafting", "+1 Direct Attack<br />+1 Indirect Attack"], //18
@@ -22,7 +22,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Iron Pickaxe", "iron_pickaxe", "A pickaxe made out of iron. You should probably use this for mining instead.", "Crafting", "+1 Direct Attack<br />+2 to Mining"], //20
     ["Iron Axe", "iron_axe", "A axe made out of iron. You should probably use this for chopping instead.", "Crafting", "+1 Direct Attack<br />+2 Indirect Attack<br />+2 to Chopping"], //21
     ["Stone Sword", "stone_sword", "A sword made out of stone.", "Crafting", "+1 Direct Attack"], //22
-    ["Stone Shovel", "stone_shovel", "A shovel made out of stone. You should probably use this for digging instead.", "Crafting", "+1 Indirect Attack<br />+2 to Chopping"], //23
+    ["Stone Shovel", "stone_shovel", "A shovel made out of stone. You should probably use this for digging instead.", "Crafting", "+1 Indirect Attack<br />+1 to Digging"], //23
     ["Stone Pickaxe", "stone_pickaxe", "A pickaxe made out of stone. You should probably use this for mining instead.", "Crafting", "+1 Indirect Attack<br />+1 to Mining"], //24
     ["Stone Axe", "stone_axe", "A axe made out of stone. You should probably use this for chopping instead.", "Crafting", "+1 Direct Attack<br />+1 Indirect Attack<br />+1 to Chopping"], //25
     ["Diamond Sword", "diamond_sword", "A sword made out of diamonds.", "Crafting", "+2 Direct Attack"], //26
@@ -46,7 +46,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Log", "log", "A log.", "Chopping", ""], //44
     ["Stick", "stick_item", "It's a stick. You can use it in a bunch of different things.", "Chopping", ""], //45
     ["Planks", "planks", "Some planks.", "Chopping", ""], //46
-    ["Rotting Mush", "crop_mush", "Eww, why did you keep this?", "Farming", "Get rid of it"], //47
+    ["Rotting Mush", "crop_mush", "Eww, why did you keep this?", "Farming", "Make it into fertilizer, or just get rid of it<br />Potion effect: Nausea (1 turn)"], //47
     ["Banana", "banana", "Potassium", "Unknown", "Eat it for potassium"], //48
     ["Sand", "sand", "A cube of sand. Carful, or it'll get everywhere.", "Digging", "Throw it at someone to Blind them for a turn"], //49
     ["Gravel", "gravel", "A cube of gravel. Maybe there's some flint in there?", "Digging", ""], //50
@@ -67,7 +67,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Golden Orange", "golden_orange", "A golden orange. No one knows whether it's golden on the inside, because the peel is solid gold and can't be removed.", "Farming", "+0.7 Max HP"], //65
     ["Carrot", "carrot", "A carrot. It's orange.", "Farming", "+5 HP on consume<br />Consume like 10 at once to turn very slightly orange"], //66
     ["Clay Shield", "clay_shield", "A shield made of clay. Try to avoid letting it shatter.", "Pottery", "+1 Indirect Defense<br />+1 Direct Defense<br />15% chance of breaking on hit"], //67
-    ["Iron Ore", "iron_ore", "Some iron ore. Can be crafted into bars, requiring 2 ore per bar.", "Mining", ""], //68
+    ["Iron Ore", "iron_ore", "Some iron ore. Can be crafted into bars, requiring 2 ore per bar.", "Mining", "Potion effect: 50% chance of Defense Up (1 turn)"], //68
     ["Copper Ore", "copper_ore", "Some copper ore. Can be crafted into bars, requiring 1 ore per bar.", "Mining", ""], //69
     ["Gold Ore", "gold_ore", "Some gold ore. Can be crafted into bars, requiring 1 ore per bar.", "Mining", ""], //70
     ["Gold Bar", "gold_bar", "A bar of solid gold. Actually kind of soft for a metal.", "Crafting", ""], //71
@@ -85,7 +85,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Iron Wall", "iron_wall", "A wall made of Iron.", "Crafting", "75 HP<br />4+2 Defense"], //83
     ["Hardite Wall", "hardite_wall", "A wall made of Hardite.", "Crafting", "125 HP<br />5+2 Defense"], //84
     ["Plank Wall", "plank_wall", "A wall made of Planks.", "Crafting", "25 HP<br />2 Defense"], //85
-    ["Flint", "flint", "A piece of flint.", "Crafting", ""], //86
+    ["Flint", "flint", "A piece of flint.", "Crafting", "Potion effect: 50% chance of Attack Up (1 turn)"], //86
     ["String", "string", "A piece of string.", "Gathering", ""], //87
     ["Bow", "bow", "A bow. You can shoot arrows with it.", "Crafting", "+1 Indirect Attack<br />Consume 1 Arrow for +1 Direct Attack"], //88
     ["Arrow", "arrow", "An arrow.", "Crafting", "Use it with a bow"], //89
@@ -104,9 +104,9 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Blue Tulip", "blue_tulip", "A blue tulip. Can be turned into blue dye.", "Gardening", ""], //102
     ["Purple Tulip", "purple_tulip", "A purple tulip. Can be turned into purple dye.", "Gardening", ""], //103
     ["Pink Tulip", "pink_tulip", "A pink tulip. Can be turned into pink dye.", "Gardening", ""], //104
-    ["White Dandelion", "white_dandelion", "A white dandelion. Can be turned into white dye.", "Gardening", ""], //105
-    ["Gray Dandelion", "gray_dandelion", "A gray dandelion. Can be turned into gray dye.", "Gardening", ""], //106
-    ["Yellow Dandelion", "yellow_dandelion", "A yellow dandelion. Can be turned into yellow dye.", "Gardening", ""], //107
+    ["White Dandelion", "white_dandelion", "A white dandelion. Can be turned into white dye.", "Gardening", "Potion effect: 25% chance of Regen (1 turn)"], //105
+    ["Gray Dandelion", "gray_dandelion", "A gray dandelion. Can be turned into gray dye.", "Gardening", "Potion effect: 25% chance of Regen (1 turn)"], //106
+    ["Yellow Dandelion", "yellow_dandelion", "A yellow dandelion. Can be turned into yellow dye.", "Gardening", "Potion effect: 25% chance of Regen (1 turn)"], //107
     ["Leaf", "leaf", "A single leaf.", "Gathering", ""], //108
     ["Blade of Grass", "grass_blade", "A single blade of grass.", "Gathering", ""], //109
     ["Block of Leaves", "leaf_block", "A block of leaves.", "Gathering", ""], //110
@@ -131,7 +131,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Iron Shield", "gold_shield", "A shield made out of wood, with a golden core.", "Crafting", "+1 Indirect Defense"], //129
     ["Radish", "radish", "A radish.", "Farming", "+5 HP on consume"], //130
     ["Golden Radish", "gold_radish", "A golden radish.", "Farming", "+0.15 Mining"], //131
-    ["Potato", "potato", "A potato.", "Farming", "+5 HP on consume"], //132
+    ["Potato", "potato", "A potato.", "Farming", "+5 HP on consume<br />Potion effect: 25% chance of Defense Up (1 turn)"], //132
     ["Golden Potato", "gold_potato", "A golden potato. No, it's not butter.", "Farming", "+0.15 Chopping"], //133
     ["Cabbage", "cabbage", "A head of cabbage.", "Farming", "+5 HP on consume"], //134
     ["Golden Cabbage", "gold_cabbage", "A golden head of cabbage. Some people use the leaves as decoration.", "Farming", "+0.2 Max HP"], //135
@@ -141,9 +141,31 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Golden Beetroot", "gold_beetroot", "A golden beetroot.", "Farming", "+0.15 Digging"], //139
     ["Buttered Corn Cob", "corn", "A cob of corn, covered in butter.", "Crafting", "+7 HP on consume"], //140
     ["Baked Potato", "baked_potato", "A baked potato.", "Cooking", "+7 HP on consume"], //141
-    ["Butter", "butter", "A bar of butter. No, it's not golden.", "Unknown", "-1 HP on consume"], //142
+    ["Butter", "butter", "A bar of butter. No, it's not golden.", "Unknown", "-1 HP on consume<br />Potion effect: 30% chance to upgrade one effect"], //142
     ["Wooden Bowl", "wood_bowl", "A bowl made of wood.", "Carving", ""], //143
     ["Wooden Table", "wood_table", "A table made of wood. You can put things on it.", "Crafting", "Place it down as a Structure"], //144
     ["Wooden Chair", "wood_chair", "A chair made of wood. You can sit on it.", "Crafting", ""], //145
     ["Folding Chair", "fold_chair", "A chair made of iron. It can fold into a smaller form.", "Crafting", ""], //146
+    ["Wheat Bundle", "wheat_bundle", "A bundle of wheat. You can't eat it raw, but you can make it into dough.", "Farming", ""], //147
+    ["Golden Wheat Bundle", "gold_wheat", "A bundle of golden wheat. You can make it into dough, or equip it.", "Farming", "+0.15 Max HP"], //148
+    ["Dough", "dough", "A ball of dough.", "Cooking", ""], //149
+    ["Golden Dough", "gold_dough", "A ball of golden dough.", "Cooking", "+0.1 Cooking"], //150
+    ["Apple Pie", "apple_pie", "A pie with apples in it.", "Cooking", "+10 HP on consume"], //151
+    ["Golden Apple Pie", "gold_apple_pie", "A golden pie with golden apples in it.", "Cooking", "+17 HP on consume<br />Gain Regen+ and Defense Up+ (1 turn) on consume<br />Can't be equipped"], //152
+    ["Bread", "bread", "A loaf of bread.", "Cooking", "+6 HP on consume<br />Potion effect: +3 HP<br />Potion effect: 50% chance to add 1 turn to one effect"], //153
+    ["Wooden Hoe", "wood_hoe", "A hoe made out of wood. There isn't much of a point for this.", "Crafting", "+1 Indirect Attack<br />+1 Farming"], //154
+    ["Stone Hoe", "stone_hoe", "A hoe made out of stone. There isn't much of a point for this.", "Crafting", "+1 Indirect Attack<br />+1 Farming"], //155
+    ["Gold Hoe", "gold_hoe", "A hoe made out of gold. There isn't much of a point for this.", "Crafting", "+1 Indirect Attack<br />+2 Farming<br />10% chance of breaking per hit or harvest"], //156
+    ["Iron Hoe", "iron_hoe", "A hoe made out of iron. There isn't much of a point for this.", "Crafting", "+1 Indirect Attack<br />+2 Farming"], //157
+    ["Diamond Hoe", "diamond_hoe", "A hoe made out of diamond. Why did you <i>make</i> this?", "Crafting", "+1 Indirect Attack<br />+3 Farming"], //158
+    ["Gold Helmet", "gold_helm", "A helmet made of gold.", "Crafting", "+1 Indirect Defense"], //159
+    ["Gold Chestplate", "gold_chest", "A chestplate made of gold.", "Crafting", "+1 Direct Defense"], //160
+    ["Gold Leggings", "gold_legs", "A pair of leggings made of gold.", "Crafting", "+1 Direct Defense"], //161
+    ["Gold Boots", "gold_boots", "A pair of boots made of gold.", "Crafting", "+1 Indirect Defense"], //162
+    ["Iron Helmet", "iron_helm", "A helmet made of iron.", "Crafting", "+1 Direct Defense"], //163
+    ["Iron Chestplate", "iron_chest", "A chestplate made of iron.", "Crafting", "+1 Direct Defense<br />+1 Indirect Defense"], //164
+    ["Iron Leggings", "iron_legs", "A pair of leggings made of iron.", "Crafting", "+1 Direct Defense<br />+1 Indirect Defense"], //165
+    ["Iron Boots", "iron_boots", "A pair of boots made of iron.", "Crafting", "+1 Indirect Defense"], //166
+    ["Red Mushroom", "red_mushroom", "A mushroom with a spotted red cap.", "Gathering", "Eat for Poison (1 turn)<br />Potion effect: Poison (1 turn)"], //167
+    ["Brown Mushroom", "brown_mushroom", "A mushroom with a brown cap.", "Gathering", "Eat for +2 HP<br />Potion effect: 50% chance to add 1 turn to one effect"], //168
 ]

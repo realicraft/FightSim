@@ -25,9 +25,45 @@ while (currentRow < rowCount) {
     };
     creativeRow += "</tr>"
     creativeRows += creativeRow
-    console.log(creativeRow)
     currentRow++
 };
 
 var invenListEl = document.getElementById("creative_inv");
 invenListEl.innerHTML = creativeRows
+
+var ett = function(id=0) {
+    tooltip(effectlist[id][0], effectlist[id][2], effectlist[id][3], effectlist[id][4])
+}
+
+var effectRows = "";
+var effectRow = "";
+var effectRowCount = Math.ceil(effectlist.length/9)
+var currentEffectRow = 0
+var currentEffectCol = 0
+var remainEffects = effectlist.length - ((effectRowCount-1)*9)
+while (currentEffectRow < effectRowCount) {
+    effectRow = "<tr>"
+    currentEffectCol = 0
+    while (currentEffectCol < 9) {
+        effectRow += "<td class='inv_item'>";
+        if ((currentEffectRow*9)+currentEffectCol >= effectlist.length) {}
+        else {
+            effectRow += "<span class='icon ";
+            effectRow += effectlist[(currentEffectRow*9)+currentEffectCol][1];
+            effectRow += "' onmouseover='ett(";
+            effectRow += (currentEffectRow*9)+currentEffectCol;
+            effectRow += ");' onmouseout='nt();'></span>";
+            effectRow += "<span>"
+            effectRow += (currentEffectRow*9)+currentEffectCol
+            effectRow += "</span>"
+        }
+        effectRow += "</td>"
+        currentEffectCol++
+    };
+    effectRow += "</tr>"
+    effectRows += effectRow
+    currentEffectRow++
+};
+
+var skillListEl = document.getElementById("creative_skill_inv");
+skillListEl.innerHTML = effectRows

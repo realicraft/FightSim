@@ -132,6 +132,10 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -320px -128px;
 }
+.regen {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -416px -480px;
+}
 /* skills */
 .pickaxe, .mining {
     background-image: url("Icons/Exported/icons_sheet.png");
@@ -718,6 +722,74 @@ span.small_icon {
 .wood_chair {
     background-image: url("Icons/Exported/armor_sheet.png");
     background-position: -32px -416px;
+}
+.dough {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -352px -288px;
+}
+.gold_dough {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -384px -288px;
+}
+.gold_helm {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -320px -96px;
+}
+.gold_chest {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -352px -96px;
+}
+.gold_legs {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -384px -96px;
+}
+.gold_boots {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -416px -96px;
+}
+.iron_helm {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -320px -128px;
+}
+.iron_chest {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -352px -128px;
+}
+.iron_legs {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -384px -128px;
+}
+.iron_boots {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -416px -128px;
+}
+.wood_hoe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -288px -160px;
+}
+.stone_hoe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -320px -160px;
+}
+.gold_hoe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -352px -160px;
+}
+.iron_hoe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -384px -160px;
+}
+.diamond_hoe {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -416px -160px;
+}
+.red_mushroom {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -416px -352px;
+}
+.brown_mushroom {
+    background-image: url("Icons/Exported/armor_sheet.png");
+    background-position: -448px -352px;
 }
 /* info (large) */
 .yes, .passed {
