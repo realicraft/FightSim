@@ -54,7 +54,7 @@ Squirrelflight:
  Combat:
  Skill:
  Misc:
-Incendiary: (31)
+Incendiary: (41)
  Combat: (19)
   Kill: 1 (1)
   Deal Damage: 6 (12)
@@ -64,14 +64,15 @@ Incendiary: (31)
  Skill: (12)
   Level Up: 4 (8)
   Crit: 2 (4)
- Misc:
-Byron: (73)
+ Misc: (10)
+  Full Quest: 1 (10)
+Byron: (75)
  Combat: (22)
   Kill: 1 (1)
   Deal Damage: 7 (14)
   Over 10 Damage: 7 (7)
- Skill: (30)
-  Level Up: 8 (16)
+ Skill: (32)
+  Level Up: 9 (18)
   Proficiency Bonus: 1 (4)
   Crit: 5 (10)
  Misc: (21)
@@ -86,13 +87,13 @@ cheesy: (8)
   Level Up: 2 (4)
  Misc: (4)
   Quadturn Quest: 1 (4)
-solitare: (13)
+solitare: (15)
  Combat:
  Skill: (6)
   Level Up: 3 (6)
- Misc: (7)
+ Misc: (9)
   Crit: 1 (1)
-  Turn Quest: 3 (6)
+  Turn Quest: 4 (8)
 Faressain:
  Combat:
  Skill:

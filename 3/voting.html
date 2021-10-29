@@ -25,6 +25,19 @@
         <p>None right now.</p>
         <h1>Past Votings</h1>
         <div class="struct">
+            <span class="icon clock" title="Ongoing."></span>
+            <h2><span class="info-hover" data-info-title="Mob Spawning" data-info-desc="Other games have automatically spawning mobs, why not this one?" id="info-mobspawn" onmouseover="info('info-mobspawn');" onmouseout="noinfo();">Automatic Mob Spawning</span></h2>
+            <b><em>Requires supermajority</em></b>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Vote</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr>
+            </table>
+        </div><div class="struct">
             <span class="icon failed" title="Failed to pass."></span>
             <h2><span class="info-hover" data-info-title="Auto-Acting Structures" data-info-desc='"Gee, it sure is annoying having to do things. Hey, what if I built a structure to do things for me?"' id="info-actonown" onmouseover="info('info-actonown');" onmouseout="noinfo();">Structures that can act on their own</span></h2>
             <b><em>Requires supermajority</em></b>
@@ -225,10 +238,8 @@
                 </tr>-->
             </table>
         </div>
-        <div class="info_body">
-            <h3 class="info_name">Info Topic</h3><br />
-            <p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div class="tooltip_body"></div>
+        <div class="info_body"></div>
         <script src="allpages.js"></script>
         <script src="info.js"></script>
     </body>

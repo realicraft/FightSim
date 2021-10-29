@@ -18,13 +18,27 @@
                 font-weight: bold;
             }
             .vat {
-                vertical-align: top;
+                right: 108px;
             }
             .vab {
-                vertical-align: bottom;
+                left: 108px;
+            }
+            .vat, .vab {
+                position: absolute;
+                top: 10px;
+            }
+            .kd_disp .vat{
+                right: 208px;
+            }
+            .kd_disp .vab{
+                left: 208px;
             }
             .lh {
+                position: relative;
                 line-height: 32px;
+            }
+            .combat_disp .vat, .combat_disp .vab, .lh {
+                top: 2px;
             }
             .health_disp, .combat_disp, .kd_disp {
                 position: relative;
@@ -121,20 +135,13 @@
                 <td>cause</td>
             </tr>-->
         </table>
-        <div class="tooltip_body">
-            <h3 class="tooltip_name">Item Name</h3><br /><br />
-            <p class="tooltip_desc">Item description. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br />
-            <p class="tooltip_bonus">+1 Place Holding</p>
-            <p class="tooltip_src1">Source: </p><p class="tooltip_src2">Item source</p>
-        </div>
-        <div class="info_body">
-            <h3 class="info_name">Info Topic</h3><br />
-            <p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div class="tooltip_body"></div>
+        <div class="info_body"></div>
         <script src="allpages.js"></script>
         <script src="../js_lists/effectList.js"></script>
         <script src="../js_lists/equipList.js"></script>
         <script src="../js_lists/skillList.js"></script>
+        <script src="../js_lists/userData.js"></script>
         <script src="stats_table.js"></script>
         <script src="info.js"></script>
     </body>

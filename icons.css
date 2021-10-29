@@ -10,7 +10,7 @@ span.small_icon {
     height: 16px;
 }
 .icon {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -480px -480px;
 }
 /* hud */
@@ -184,612 +184,652 @@ span.small_icon {
 }
 /* equipment */
 .empty_helm {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/misc_sheet.png");
     background-position: 0px 0px;
 }
 .empty_chest {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -32px 0px;
 }
 .empty_legs {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -64px 0px;
 }
 .empty_boots {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -96px 0px;
 }
 .empty_sword {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -128px 0px;
 }
 .empty_shield, .empty_sheild {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -160px 0px;
 }
 .empty_acc {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -192px 0px;
 }
 .empty_food {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -224px 0px;
 }
 .diamond_helm {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -32px;
-}
-.diamond_chest {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -32px;
-}
-.diamond_legs {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -32px;
-}
-.diamond_boots {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -32px;
-}
-.diamond_sword {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -32px;
-}
-.diamond_shield, .diamond_sheild {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -32px;
-}
-.diamond_acc {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -32px;
-}
-.gold_burger {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -32px;
-}
-.wood_sword {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -64px;
-}
-.stick {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -64px;
-}
-.wood_shovel {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -64px;
-}
-.stick_rock {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -64px;
-}
-.decent_hammer {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -64px;
-}
-.icicle {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -64px;
-}
-.gold_carrot {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -64px;
-}
-.gold_sword {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -96px;
-}
-.gold_shovel {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -96px;
-}
-.gold_pickaxe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -96px;
-}
-.gold_axe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -96px;
-}
-.stone_sword {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -96px;
-}
-.stone_shovel {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -96px;
-}
-.stone_pickaxe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -96px;
-}
-.stone_axe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -96px;
-}
-.iron_sword {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -128px;
-}
-.iron_shovel {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -128px;
-}
-.iron_pickaxe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -128px;
-}
-.iron_axe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -128px;
-}
-.diamond_shovel {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -128px;
-}
-.diamond_pickaxe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -128px;
-}
-.diamond_axe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -128px;
-}
-.wood_pickaxe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -128px;
-}
-.wood_axe {
-    background-image: url("Icons/Exported/armor_sheet.png");
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: 0px -160px;
 }
-.stick_item {
-    background-image: url("Icons/Exported/armor_sheet.png");
+.diamond_chest {
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -32px -160px;
 }
-.rock {
-    background-image: url("Icons/Exported/armor_sheet.png");
+.diamond_legs {
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -64px -160px;
 }
-.flint_and_steel {
-    background-image: url("Icons/Exported/armor_sheet.png");
+.diamond_boots {
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -96px -160px;
 }
-.log {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -192px;
-}
-.plank, .planks {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -192px;
-}
-.dirt {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -192px;
-}
-.grass {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -192px;
-}
-.gravel {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -192px;
-}
-.sand {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -192px;
-}
-.coal {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -224px;
-}
-.diamond {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -224px;
-}
-.iron_ore {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -224px;
-}
-.iron_bar {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -224px;
-}
-.copper_ore {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -224px;
-}
-.copper_bar {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -224px;
-}
-.gold_ore {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -224px;
-}
-.gold_bar {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -224px;
-}
-.logo_f {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -416px 0px;
-}
-.logo_s {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -448px 0px;
-}
-.logo_3 {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -480px 0px;
-}
-.tnt {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -416px -192px;
-}
-.stone {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -192px;
-}
-.sandstone {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -192px;
-}
-.bricks {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -192px;
-}
-.stone_bricks {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -288px -192px;
-}
-.sandstone_bricks {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -320px -192px;
-}
-.carved_sandstone {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -352px -192px;
-}
-.glass_block {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -384px -192px;
-}
-.carrot {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -64px;
-}
-.apple {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -288px;
-}
-.golden_apple {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -288px;
-}
-.orange {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -288px;
-}
-.golden_orange {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -288px;
-}
-.clay_sheild, .clay_shield {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -96px;
-}
-.hardite_ore {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -224px;
-}
-.hardite_bar {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -288px -224px;
-}
-.emerald {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -320px -224px;
-}
-.sandstone_brick_wall {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -320px;
-}
-.brick_wall {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -320px;
-}
-.stone_brick_wall {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -320px;
-}
-.stone_wall {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -320px;
-}
-.iron_wall {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -320px;
-}
-.hardite_wall {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -320px;
-}
-.plank_wall {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -320px;
-}
-.flint {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -160px;
-}
-.string {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -160px;
-}
-.arrow {
-    background-image: url("Icons/Exported/armor_sheet.png");
+.diamond_sword {
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -224px -160px;
 }
-.bow {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -160px;
+.diamond_shield, .diamond_sheild {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -192px -160px;
 }
-.can {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -288px;
+.diamond_pendant {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -160px -160px;
 }
-.gold_can {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -288px;
+.gold_burger {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -128px -32px;
 }
-.clay_bowl {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -256px;
+.wood_sword {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -224px -32px;
 }
-.clay_vase {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -256px;
+.stick {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: 0px -32px;
 }
-.glass_bowl {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -256px;
+.wood_shovel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -256px -32px;
 }
-.red_tulip {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -352px;
+.stick_rock {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -0px -288px;
 }
-.orange_tulip {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -352px;
+.decent_hammer {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -32px -288px;
 }
-.yellow_tulip {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -352px;
+.icicle {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -96px -32px;
 }
-.cyan_tulip {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -352px;
+.gold_carrot {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -224px -0px;
 }
-.azure_tulip {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -352px;
+.gold_sword {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -224px -96px;
 }
-.blue_tulip {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -352px;
+.gold_shovel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -256px -96px;
 }
-.purple_tulip {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -352px;
-}
-.pink_tulip {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -352px;
-}
-.white_dandelion {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -352px;
-}
-.gray_dandelion {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -288px -352px;
-}
-.yellow_dandelion {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -320px -352px;
-}
-.leaf {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -352px -352px;
-}
-.grass_blade {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -384px -352px;
-}
-.leaf_block {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -448px -192px;
-}
-.red_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -384px;
-}
-.orange_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -384px;
-}
-.yellow_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -64px -384px;
-}
-.green_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -384px;
-}
-.cyan_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -384px;
-}
-.blue_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -384px;
-}
-.purple_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -384px;
-}
-.pink_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -384px;
-}
-.white_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -384px;
-}
-.gray_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -288px -384px;
-}
-.black_dye {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -320px -384px;
-}
-.glass_bottle {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -96px -256px;
-}
-.potion_red {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -128px -256px;
-}
-.potion_orange {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -160px -256px;
-}
-.potion_yellow {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -192px -256px;
-}
-.potion_green {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -256px;
-}
-.potion_cyan {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -256px;
-}
-.potion_blue {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -288px -256px;
-}
-.potion_purple {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -320px -256px;
-}
-.wood_sheild, .wood_shield {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -128px;
-}
-.iron_sheild, .iron_shield {
-    background-image: url("Icons/Exported/armor_sheet.png");
+.gold_pickaxe {
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -288px -96px;
 }
-.gold_sheild, .gold_shield {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -288px -128px;
-}
-.butter {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -224px -288px;
-}
-.cabbage {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -256px -288px;
-}
-.gold_cabbage {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -288px -288px;
-}
-.wood_bowl {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -320px -288px;
-}
-.wood_table {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: 0px -416px;
-}
-.wood_chair {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -32px -416px;
-}
-.dough {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -352px -288px;
-}
-.gold_dough {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -384px -288px;
-}
-.gold_helm {
-    background-image: url("Icons/Exported/armor_sheet.png");
+.gold_axe {
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -320px -96px;
 }
-.gold_chest {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -352px -96px;
+.stone_sword {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -224px -64px;
 }
-.gold_legs {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -384px -96px;
+.stone_shovel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -256px -64px;
 }
-.gold_boots {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -416px -96px;
+.stone_pickaxe {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -288px -64px;
 }
-.iron_helm {
-    background-image: url("Icons/Exported/armor_sheet.png");
+.stone_axe {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -320px -64px;
+}
+.iron_sword {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -224px -128px;
+}
+.iron_shovel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -256px -128px;
+}
+.iron_pickaxe {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -288px -128px;
+}
+.iron_axe {
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -320px -128px;
 }
-.iron_chest {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -352px -128px;
+.diamond_shovel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -256px -160px;
 }
-.iron_legs {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -384px -128px;
-}
-.iron_boots {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -416px -128px;
-}
-.wood_hoe {
-    background-image: url("Icons/Exported/armor_sheet.png");
+.diamond_pickaxe {
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -288px -160px;
 }
-.stone_hoe {
-    background-image: url("Icons/Exported/armor_sheet.png");
+.diamond_axe {
+    background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -320px -160px;
 }
+.wood_pickaxe {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -288px -32px;
+}
+.wood_axe {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -320px -32px;
+}
+.stick_item {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: 0px -32px;
+}
+.rock {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -32px -32px;
+}
+.flint_and_steel {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -64px -32px;
+}
+.log {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: 0px -0px;
+}
+.plank, .planks {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -32px -0px;
+}
+.dirt {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -96px -0px;
+}
+.grass {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -128px -0px;
+}
+.gravel {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -224px -0px;
+}
+.sand {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -192px -0px;
+}
+.coal {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: 0px -32px;
+}
+.diamond {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -96px -32px;
+}
+.iron_ore {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -0px -0px;
+}
+.iron_bar {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -32px -0px;
+}
+.copper_ore {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -64px -0px;
+}
+.copper_bar {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -96px -0px;
+}
+.gold_ore {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -128px -0px;
+}
+.gold_bar {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -160px -0px;
+}
+.logo_f {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -192px -192px;
+}
+.logo_s {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -224px -192px;
+}
+.logo_3 {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -224px -224px;
+}
+.tnt {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -192px -32px;
+}
+.stone {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -160px -0px;
+}
+.sandstone {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -64px -32px;
+}
+.bricks {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -0px -32px;
+}
+.stone_bricks {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -32px -32px;
+}
+.sandstone_bricks {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -96px -32px;
+}
+.carved_sandstone {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -128px -32px;
+}
+.glass_block {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -160px -32px;
+}
+.carrot {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -192px -0px;
+}
+.apple {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -0px -0px;
+}
+.golden_apple {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -32px -0px;
+}
+.orange {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -64px -0px;
+}
+.golden_orange {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -96px -0px;
+}
+.clay_sheild, .clay_shield {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -192px -256px;
+}
+.hardite_ore {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -192px -0px;
+}
+.hardite_bar {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -224px -0px;
+}
+.emerald {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -128px -32px;
+}
+.sandstone_brick_wall {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: 0px -64px;
+}
+.brick_wall {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -32px -64px;
+}
+.stone_brick_wall {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -64px -64px;
+}
+.stone_wall {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -96px -64px;
+}
+.iron_wall {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -128px -64px;
+}
+.hardite_wall {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -160px -64px;
+}
+.plank_wall {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -192px -64px;
+}
+.flint {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -64px -32px;
+}
+.string {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -32px -32px;
+}
+.arrow {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -64px -288px;
+}
+.bow {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -96px -288px;
+}
+.can {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -0px -32px;
+}
+.gold_can {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -32px -32px;
+}
+.clay_bowl {
+    background-image: url("Icons/Exported/decor_sheet.png");
+    background-position: 0px -0px;
+}
+.clay_vase {
+    background-image: url("Icons/Exported/decor_sheet.png");
+    background-position: -32px -0px;
+}
+.glass_bowl {
+    background-image: url("Icons/Exported/decor_sheet.png");
+    background-position: -64px -0px;
+}
+.red_tulip {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: 0px -96px;
+}
+.orange_tulip {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -32px -96px;
+}
+.yellow_tulip {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -64px -96px;
+}
+.cyan_tulip {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -96px -96px;
+}
+.azure_tulip {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -128px -96px;
+}
+.blue_tulip {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -160px -96px;
+}
+.purple_tulip {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -192px -96px;
+}
+.pink_tulip {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -224px -96px;
+}
+.white_dandelion {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -32px -64px;
+}
+.gray_dandelion {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -64px -64px;
+}
+.yellow_dandelion {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -96px -64px;
+}
+.leaf {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -128px -64px;
+}
+.grass_blade {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -160px -64px;
+}
+.leaf_block {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -64px -0px;
+}
+.red_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -160px -192px;
+}
+.orange_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -192px -192px;
+}
+.yellow_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -224px -192px;
+}
+.green_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -0px -224px;
+}
+.cyan_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -32px -224px;
+}
+.blue_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -64px -224px;
+}
+.purple_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -96px -224px;
+}
+.pink_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -128px -224px;
+}
+.white_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -160px -224px;
+}
+.gray_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -192px -224px;
+}
+.black_dye {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -224px -224px;
+}
+.glass_bottle {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -0px -0px;
+}
+.potion_red {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -32px -0px;
+}
+.potion_orange {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -64px -0px;
+}
+.potion_yellow {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -96px -0px;
+}
+.potion_green {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -128px -0px;
+}
+.potion_cyan {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -160px -0px;
+}
+.potion_blue {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -192px -0px;
+}
+.potion_purple {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -224px -0px;
+}
+.wood_sheild, .wood_shield {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -192px -32px;
+}
+.iron_sheild, .iron_shield {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -192px -128px;
+}
+.gold_sheild, .gold_shield {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -192px -96px;
+}
+.butter {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -224px -32px;
+}
+.cabbage {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -128px -0px;
+}
+.gold_cabbage {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -160px -0px;
+}
+.wood_bowl {
+    background-image: url("Icons/Exported/decor_sheet.png");
+    background-position: -96px -0px;
+}
+.wood_table {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: 0px -96px;
+}
+.wood_chair {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -32px -96px;
+}
+.dough {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -160px -32px;
+}
+.gold_dough {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -192px -32px;
+}
+.gold_helm {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -0px -96px;
+}
+.gold_chest {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -32px -96px;
+}
+.gold_legs {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -64px -96px;
+}
+.gold_boots {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -96px -96px;
+}
+.iron_helm {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -0px -128px;
+}
+.iron_chest {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -32px -128px;
+}
+.iron_legs {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -64px -128px;
+}
+.iron_boots {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -96px -128px;
+}
+.wood_hoe {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -352px -32px;
+}
+.stone_hoe {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -352px -64px;
+}
 .gold_hoe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -352px -160px;
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -352px -96px;
 }
 .iron_hoe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -384px -160px;
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -352px -128px;
 }
 .diamond_hoe {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -416px -160px;
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -352px -160px;
 }
 .red_mushroom {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -416px -352px;
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -192px -64px;
 }
 .brown_mushroom {
-    background-image: url("Icons/Exported/armor_sheet.png");
-    background-position: -448px -352px;
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -224px -64px;
+}
+.wood_hammer {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -384px -32px;
+}
+.stone_hammer {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -384px -64px;
+}
+.gold_hammer {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -384px -96px;
+}
+.iron_hammer {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -384px -128px;
+}
+.diamond_hammer {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -384px -160px;
+}
+.wood_trowel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -416px -32px;
+}
+.stone_trowel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -416px -64px;
+}
+.gold_trowel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -416px -96px;
+}
+.iron_trowel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -416px -128px;
+}
+.diamond_trowel {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -416px -160px;
 }
 /* info (large) */
 .yes, .passed {

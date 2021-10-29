@@ -1,23 +1,10 @@
 var typelist = ["typeless", "normal_type", "fire_type", "water_type", "elec_type", "plant_type", "ice_type", "light_type", "dark_type", "missingtype"]
-var user_data = {
-    "realicraft":         {"type":0,"health": [62,100],"attack":["7+3","7+3"],"defense":     [5,5],"kills":1,"deaths":1,"skills":                                                         [[6,0,45]],"effects":       [],"equips":    [1,2,3,4,5,6,7,8,""],"exp": [0,1,10]},
-    "SausageMcSauce":     {"type":0,"health": [84,100],"attack":["7+3","7+3"],"defense":     [5,5],"kills":1,"deaths":1,"skills":                                                                 [],"effects":[[1,"*"]],"equips":    [1,2,3,4,5,6,7,8,""],"exp": [0,9,10]},
-    "CatsUnited":         {"type":0,"health":[100,100],"attack":["7+3","7+3"],"defense":     [5,5],"kills":0,"deaths":3,"skills":                                                                 [],"effects":[[1,"*"]],"equips":    [1,2,3,4,5,6,7,8,""],"exp": [0,0,10]},
-    "Squrrelflight":      {"type":0,"health": [97,100],"attack":["7+3","7+3"],"defense":     [5,5],"kills":0,"deaths":1,"skills":                                                                 [],"effects":[[1,"*"]],"equips":    [1,2,3,4,5,6,7,8,""],"exp": [0,0,10]},
-    "IncendiaryGaming":   {"type":0,"health": [61,102],"attack":["8+3","7+3"],"defense":     [5,5],"kills":1,"deaths":1,"skills":                             [[7,3,203],[8,0,10],[4,0,30],[2,2,23]],"effects":       [],"equips":   [1,2,3,4,78,6,7,8,""],"exp": [2,1,30]},
-    "Byron_Inc_TBG":      {"type":0,"health": [72,102],"attack":["7+4","7+3"],"defense":["11+2",5],"kills":1,"deaths":2,"skills":                            [[1,5,266],[4,0,50],[7,3,18],[8,1,120]],"effects":       [],"equips":[1,164,3,4,9,13,7,12,21],"exp": [3,13,40]},
-    "cheesyfriedeggs":    {"type":0,"health": [91,100],"attack":["7+4","7+3"],"defense":     [5,5],"kills":0,"deaths":1,"skills":                     [[4,1,10],[1,2,64],[3,0,55],[5,0,65],[8,0,45]],"effects":       [],"equips":    [1,2,3,4,9,6,7,8,""],"exp": [0,8,10]},
-    "solitare":           {"type":0,"health": [86,100],"attack":["7+4","7+3"],"defense":     [5,5],"kills":0,"deaths":0,"skills":[[2,1,110],[5,0,30],[3,0,65],[1,1,138],[7,0,90],[10,0,10],[9,0,60]],"effects":       [],"equips":   [1,2,3,4,22,6,7,8,""],"exp": [1,3,20]},
-    "Faressain":          {"type":0,"health": [82,100],"attack":["7+3","7+3"],"defense":     [5,5],"kills":0,"deaths":0,"skills":                                                                 [],"effects":[[1,"*"]],"equips":    [1,2,3,4,5,6,7,8,""],"exp": [0,0,10]},
-    "LeopardyLeaf":       {"type":0,"health": [81,100],"attack":["7+3","7+3"],"defense":     [5,5],"kills":0,"deaths":0,"skills":                                                         [[2,0,90]],"effects":[[1,"*"]],"equips":    [1,2,3,4,5,6,7,8,""],"exp": [0,2,10]},
-    "gilbert_given_TBG":  {"type":0,"health":[100,100],"attack":["7+4","7+3"],"defense":     [5,5],"kills":0,"deaths":0,"skills":                                                         [[3,1,20]],"effects":       [],"equips":    [1,2,3,4,9,6,7,8,""],"exp": [0,4,10]},
-    "TwilightSeleneMisty":{"type":0,"health": [34,101],"attack":["8+3","7+3"],"defense":     [6,5],"kills":0,"deaths":1,"skills":                                                [[3,0,95],[2,0,25]],"effects":       [],"equips": [1,2,3,4,30,127,7,8,""],"exp": [1,1,20]},
+
+var getPlus = function(input) {
+    if (input[1] == 0) {return input[0].toString()}
+    else {return input[0].toString() + "+" + input[1].toString()}
 }
 
-// <span class="pt_level_contain">
-//     <p class="pt_level_upper">Level 1</p>
-//     <p class="pt_level_lower">5/20</p>
-// </span>
 var stat_tables = ""
 var stat_table = ""
 for (var i in user_data) {
@@ -33,15 +20,15 @@ for (var i in user_data) {
     stat_table += typelist[user_data[i]["type"]]
     stat_table += ' type_icon"></span></span><h2 class="username">' + i + '</h2><div class="meter_container"><div class="health_disp"><span class="icon health" style="position:absolute;left:0px;"></span><span class="vat">'
     stat_table += user_data[i]["health"][0]
-    stat_table += '</span><span class="vat lh" style="font-size: 25px;">/</span><span class="vab">'
+    stat_table += '</span><span class="lh" style="font-size: 25px;">/</span><span class="vab">'
     stat_table += user_data[i]["health"][1]
     stat_table += '</span></div><div class="combat_disp"><span class="icon attack" style="position:absolute;left:0px;"></span><span class="vat">'
-    stat_table += user_data[i]["attack"][0] + " (" + user_data[i]["attack"][1]
-    stat_table += ')</span><span class="vat lh" style="font-size: 25px;">/</span><span class="vab">'
-    stat_table += user_data[i]["defense"][0] + " (" + user_data[i]["defense"][1]
+    stat_table += getPlus(user_data[i]["attack"][0]) + "<br />(" + getPlus(user_data[i]["attack"][1])
+    stat_table += ')</span><span class="lh" style="font-size: 25px;">/</span><span class="vab">'
+    stat_table += getPlus(user_data[i]["defense"][0]) + "<br />(" + getPlus(user_data[i]["defense"][1])
     stat_table += ')</span><span class="icon defense" style="position:absolute;right:0px;"></span></div><div class="kd_disp"><span class="icon swing" style="position:absolute;left:0px;"></span><span class="vat">'
     stat_table += user_data[i]["kills"]
-    stat_table += '</span><span class="vat lh" style="font-size: 25px;">/</span><span class="vab">'
+    stat_table += '</span><span class="lh" style="font-size: 25px;">/</span><span class="vab">'
     stat_table += user_data[i]["deaths"]
     stat_table += '</span><span class="icon broken_shield" style="position:absolute;right:0px;"></span></div></div>'
     if (user_data[i]["effects"].length != 0) {

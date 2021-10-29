@@ -38,11 +38,15 @@
                 <th>Roll</th>
                 <th><span class="info-hover" data-info-title="Skill Exp" data-info-desc="When you make a skill roll, you'll gain exp in that skill, based on how high you rolled (after bonuses)." id="info-skill" onmouseover="info('info-skill');" onmouseout="noinfo();">Skill Exp</span></th>
                 <th><span class="info-hover" data-info-title="Harvest Gains" data-info-desc="When you harvest a crop, the amount of the crop you gain is dependent on what you roll.<br />The first number indicates how many of the standard variety of the crop you get, and the second number indicates how many of the golden variety.<br />(If you aren't Proficient or higher in Gardening, then getting a Critical Miss will destroy the crop.)" id="info-crop" onmouseover="info('info-crop');" onmouseout="noinfo();">Crop Gain</span></th>
+                <th><span class="info-hover" data-info-title="Fish Count" data-info-desc="How many fish you catch when you go fishing." id="info-fish-count" onmouseover="info('info-fish-count');" onmouseout="noinfo();">Fish Count</span></th>
+                <th><span class="info-hover" data-info-title="Fish Quality" data-info-desc="How high quality a caught fish is. This is a luck roll, and ignores skill bonuses." id="info-fish-qual" onmouseover="info('info-fish-qual');" onmouseout="noinfo();">Fish Quality</span></th>
             </tr><tr>
                 <td rowspan="20">0</td>
                 <td>1</td>
                 <td>10%</td>
                 <td rowspan="3">0,0</td>
+                <td rowspan="4">0</td>
+                <td rowspan="3">Junk</td>
             </tr><tr>
                 <td>2</td>
                 <td>15%</td>
@@ -52,9 +56,11 @@
             </tr><tr>
                 <td>4</td>
                 <td rowspan="2">1,0</td>
+                <td rowspan="5">Goldfish</td>
             </tr><tr>
                 <td>5</td>
                 <td rowspan="2">25%</td>
+                <td rowspan="4">1</td>
             </tr><tr>
                 <td>6</td>
                 <td rowspan="3">2,0</td>
@@ -68,6 +74,8 @@
                 <td>9</td>
                 <td>40%</td>
                 <td rowspan="3">3,0</td>
+                <td rowspan="4">2</td>
+                <td rowspan="4">Jellyfish</td>
             </tr><tr>
                 <td>10</td>
                 <td>45%</td>
@@ -80,6 +88,8 @@
                 <td rowspan="3">4,0</td>
             </tr><tr>
                 <td>13</td>
+                <td rowspan="4">3</td>
+                <td rowspan="3">Fish 3</td>
             </tr><tr>
                 <td>14</td>
                 <td>60%</td>
@@ -89,15 +99,18 @@
                 <td rowspan="3">5,0</td>
             </tr><tr>
                 <td>16</td>
+                <td rowspan="3">Fish 4</td>
             </tr><tr>
                 <td>17</td>
                 <td rowspan="2">70%</td>
+                <td rowspan="4">4</td>
             </tr><tr>
                 <td>18</td>
                 <td rowspan="2">6,0</td>
             </tr><tr>
                 <td>19</td>
                 <td>75%</td>
+                <td rowspan="2">Solid<br />Goldfish</td>
             </tr><tr>
                 <td>20</td>
                 <td rowspan="3">80%</td>
@@ -105,6 +118,8 @@
             </tr><tr>
                 <td rowspan="2">1</td>
                 <td>21</td>
+                <td rowspan="5">5</td>
+                <td rowspan="20" style="background-color:#afafaf;">N/A</td>
             </tr><tr>
                 <td>22</td>
             </tr><tr>
@@ -121,6 +136,7 @@
             </tr><tr>
                 <td>26</td>
                 <td rowspan="3">7,2</td>
+                <td rowspan="5">6</td>
             </tr><tr>
                 <td rowspan="2">4</td>
                 <td>27</td>
@@ -138,6 +154,7 @@
             </tr><tr>
                 <td>6</td>
                 <td>31</td>
+                <td rowspan="5">7</td>
             </tr><tr>
                 <td>7</td>
                 <td>32</td>
@@ -154,6 +171,7 @@
                 <td rowspan="4">9,4</td>
             </tr><tr>
                 <td>36</td>
+                <td rowspan="5">8</td>
             </tr><tr>
                 <td>37</td>
             </tr><tr>
@@ -283,9 +301,9 @@
                 <td>???</td>
                 <td>???</td>
             </tr><tr>
-                <td><span class="info-hover" data-info-title="Mystery Skill 3" data-info-desc="You don't know what this skill is yet.<br />...is there <b>something in the water</b>?" id="info-mystery3" onmouseover="info('info-mystery3');" onmouseout="noinfo();">Mystery Skill 3</span></td>
-                <td>???</td>
-                <td>???</td>
+                <td><span class="info-hover" data-info-title="Fishing" data-info-desc="With this skill, you catch fish, which can <i>probably</i> be used for things?" id="info-fishing" onmouseover="info('info-fishing');" onmouseout="noinfo();">Fishing</span></td>
+                <td>Once per post, you can eat any fish to gain an effect based on the fish.</td>
+                <td>Once per post, when attacking, you can use a fishing rod to reel someone in, preventing them from dodging.</td>
             </tr>
         </table>
         <h2>Weather</h2>
@@ -324,10 +342,8 @@
                 <td>It's colder, crops grow slower, and structures might get covered in snow.</td>
             </tr>
         </table>
-        <div class="info_body">
-            <h3 class="info_name">Info Topic</h3><br />
-            <p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div class="tooltip_body"></div>
+        <div class="info_body"></div>
         <script src="allpages.js"></script>
         <script src="info.js"></script>
     </body>

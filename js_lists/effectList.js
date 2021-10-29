@@ -18,4 +18,5 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses]
     ["Defense Up", "def_up", "You feel sturdier, and take less damage.", "Potions", "+1 Direct Defense"], //16
     ["Defense Up+", "def_up", "You feel sturdier, and take less damage.", "Potions", "+2 Direct Defense"], //17
     ["Defense Up++", "def_up", "You feel significantly sturdier, and take less damage.", "Potions", "+3 Direct Defense"], //18
+    ["Blind", "blind", "Hey, who turned the lights out?", "Sand", "40% chance of missing an attack"], //18
 ]

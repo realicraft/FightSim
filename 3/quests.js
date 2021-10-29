@@ -6,19 +6,22 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward]
-    ["Go fishing.", "Unclaimed", "10% ??? Exp", "45"],
-    ["Brew a potion.", "Unclaimed", "10% ??? Exp, 1 Bottle of Water", "45"],
-    ["Attack a Structure.", "Unclaimed", "3 Misc EXP", "45"],
+    ["Plant a flower.", "Unclaimed", "10% Gardening Exp", "46"],
+    ["Craft 2 items.", "Unclaimed", "20% Crafting Exp, 1 Coal", "46"],
+    ["Chop a tree.", "Unclaimed", "10% Chopping Exp, 1 Orange", "46"],
     ["Deal 20 damage total.", "Claimed by Byron", "10 HP, 1 Gold Bar, 2 Misc Exp", "44~47"],
     ["Harvest a flower.", "Unclaimed", "15% Gardening Exp", "44~47"],
     ["Mine 5 Stone.", "Unclaimed", "20% Mining Exp", "44~47"],
     ["Kill someone.", "Unclaimed", "3 Misc Exp"],
-    ["Complete a Structure.", "Unclaimed", "30% Construction Exp"],
+    ["Reach Proficient in any skill.", "Unclaimed", "4 Misc Exp"],
     ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go fishing.", "Claimed by solitare", "10% ??? Exp", "45"],
+        ["Brew a potion.", "Unclaimed", "10% ??? Exp, 1 Bottle of Water", "45"],
+        ["Attack a Structure.", "Unclaimed", "3 Misc EXP", "45"],
         ["Go digging.", "Unclaimed", "10% Digging Exp", "44"],
         ["Gather something.", "Claimed by Byron", "10% Gathering Exp, 1 Rock", "44"],
         ["Craft 2 items.", "Claimed by TwilightSeleneMisty", "1 Chair, 1 Misc EXP", "44"],
@@ -35,6 +38,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
+        ["Complete a Structure.", "Claimed by Incendiary", "30% Construction Exp"],
         ["Equip any armor.", "Claimed by Byron", "1 Misc Exp, 1 Wooden Shield"],
     ],
 ]

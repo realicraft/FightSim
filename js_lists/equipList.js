@@ -9,28 +9,28 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["armor.empty_acc", "empty_acc", "desc.empty_equip", "src.empty_equip", ""], //7
     ["armor.empty_food", "empty_food", "desc.empty_equip", "src.empty_equip", ""], //8
     ["Wooden Sword", "wood_sword", "A sword made out of wood.", "Crafting", "+1 Direct Attack"], //9
-    ["Wooden Shovel", "wood_shovel", "A shovel made out of wood. You should probably use this for digging instead.", "Crafting", "+1 Indirect Attack<br />+1 to Digging"], //10
+    ["Wooden Shovel", "wood_shovel", "A shovel made out of wood.", "Crafting", "+1 Indirect Attack<br />+1 to Digging"], //10
     ["Stick and Rock", "stick_rock", "A rock taped to a stick. This isn't very good.", "Crafting", "50% Chance of breaking on hit"], //11
     ["Golden Carrot", "gold_carrot", "A carrot made out of gold. Aren't carrots supposed to give you better eyesight?", "Farming", "+0.3 Indirect Defense"], //12
     ["Diamond Shield", "diamond_shield", "A shield with a diamond in the center.", "Crafting", "+1 Indirect Defense<br />+1 Direct Defense"], //13
-    ["Golden Sword", "gold_sword", "A sword made out of gold. Seems fragile.", "Crafting", "+1 Indirect Attack<br />10% chance of breaking on hit"], //14
-    ["Golden Shovel", "gold_shovel", "A shovel made out of gold. Seems fragile, and is probably better used for digging.", "Crafting", "+1 Indirect Attack<br />+2 to Digging<br />10% chance of breaking on hit or dig"], //15
-    ["Golden Pickaxe", "gold_pickaxe", "A pickaxe made out of gold. Seems fragile, and is probably better used for mining.", "Crafting", "+1 Indirect Attack<br />+2 to Mining<br />10% chance of breaking on hit or mine"], //16
-    ["Golden Axe", "gold_axe", "A axe made out of gold. Seems fragile, and is probably better used for chopping.", "Crafting", "+2 Indirect Attack<br />+2 to Chopping<br />10% chance of breaking on hit or chop"], //17
-    ["Iron Sword", "iron_sword", "A sword made out of iron.", "Crafting", "+1 Direct Attack<br />+1 Indirect Attack"], //18
-    ["Iron Shovel", "iron_shovel", "A shovel made out of iron. You should probably use this for digging instead.", "Crafting", "+1 Indirect Attack<br />+2 to Digging<br />5% chance to steal an item"], //19
-    ["Iron Pickaxe", "iron_pickaxe", "A pickaxe made out of iron. You should probably use this for mining instead.", "Crafting", "+1 Direct Attack<br />+2 to Mining"], //20
-    ["Iron Axe", "iron_axe", "A axe made out of iron. You should probably use this for chopping instead.", "Crafting", "+1 Direct Attack<br />+2 Indirect Attack<br />+2 to Chopping"], //21
-    ["Stone Sword", "stone_sword", "A sword made out of stone.", "Crafting", "+1 Direct Attack"], //22
-    ["Stone Shovel", "stone_shovel", "A shovel made out of stone. You should probably use this for digging instead.", "Crafting", "+1 Indirect Attack<br />+1 to Digging"], //23
-    ["Stone Pickaxe", "stone_pickaxe", "A pickaxe made out of stone. You should probably use this for mining instead.", "Crafting", "+1 Indirect Attack<br />+1 to Mining"], //24
-    ["Stone Axe", "stone_axe", "A axe made out of stone. You should probably use this for chopping instead.", "Crafting", "+1 Direct Attack<br />+1 Indirect Attack<br />+1 to Chopping"], //25
-    ["Diamond Sword", "diamond_sword", "A sword made out of diamonds.", "Crafting", "+2 Direct Attack"], //26
-    ["Diamond Shovel", "diamond_shovel", "A shovel made out of diamonds. You should probably use this for digging instead.", "Crafting", "+2 Indirect Attack<br />+3 to Digging<br />10% chance to steal an item"], //27
-    ["Diamond Pickaxe", "diamond_pickaxe", "A pickaxe made out of diamonds. You should probably use this for mining instead.", "Crafting", "+1 Direct Attack<br />+2 Indirect Attack<br />+3 to Mining"], //28
-    ["Diamond Axe", "diamond_axe", "A axe made out of diamonds. You should probably use this for chopping instead.", "Crafting", "+2 Direct Attack<br />+1 Indirect Attack<br />+3 to Chopping"], //29
-    ["Wooden Pickaxe", "wood_pickaxe", "A pickaxe made out of wood. You should probably use this for mining instead.", "Crafting", "+1 Indirect Attack<br />+1 to Mining"], //30
-    ["Wooden Axe", "wood_axe", "A axe made out of wood. You should probably use this for chopping instead.", "Crafting", "+1 Indirect Attack<br />+1 to Chopping"], //31
+    ["Golden Sword", "gold_sword", "A sword made out of gold. Seems fragile.", "Crafting", "+2 Indirect Attack<br />10% chance of breaking on hit"], //14
+    ["Golden Shovel", "gold_shovel", "A shovel made out of gold. Seems fragile.", "Crafting", "+1 Indirect Attack<br />+2 to Digging<br />10% chance of breaking on hit or dig"], //15
+    ["Golden Pickaxe", "gold_pickaxe", "A pickaxe made out of gold. Seems fragile.", "Crafting", "+1 Indirect Attack<br />+2 to Mining<br />10% chance of breaking on hit or mine"], //16
+    ["Golden Axe", "gold_axe", "A axe made out of gold. Seems fragile.", "Crafting", "+1 Indirect Attack<br />+2 to Chopping<br />10% chance of breaking on hit or chop"], //17
+    ["Iron Sword", "iron_sword", "A sword made out of iron.", "Crafting", "+1 Direct Attack<br />+2 Indirect Attack"], //18
+    ["Iron Shovel", "iron_shovel", "A shovel made out of iron.", "Crafting", "+1 Indirect Attack<br />+2 to Digging<br />5% chance to steal an item"], //19
+    ["Iron Pickaxe", "iron_pickaxe", "A pickaxe made out of iron.", "Crafting", "+1 Direct Attack<br />+2 to Mining"], //20
+    ["Iron Axe", "iron_axe", "A axe made out of iron.", "Crafting", "+1 Direct Attack<br />+1 Indirect Attack<br />+2 to Chopping"], //21
+    ["Stone Sword", "stone_sword", "A sword made out of stone.", "Crafting", "+1 Direct Attack<br />+1 Indirect Attack"], //22
+    ["Stone Shovel", "stone_shovel", "A shovel made out of stone.", "Crafting", "+1 Indirect Attack<br />+1 to Digging"], //23
+    ["Stone Pickaxe", "stone_pickaxe", "A pickaxe made out of stone.", "Crafting", "+1 Indirect Attack<br />+1 to Mining"], //24
+    ["Stone Axe", "stone_axe", "A axe made out of stone.", "Crafting", "+1 Direct Attack<br />+1 to Chopping"], //25
+    ["Diamond Sword", "diamond_sword", "A sword made out of diamonds.", "Crafting", "+2 Direct Attack<br />+1 Indirect Attack"], //26
+    ["Diamond Shovel", "diamond_shovel", "A shovel made out of diamonds.", "Crafting", "+2 Indirect Attack<br />+3 to Digging<br />10% chance to steal an item"], //27
+    ["Diamond Pickaxe", "diamond_pickaxe", "A pickaxe made out of diamonds.", "Crafting", "+1 Direct Attack<br />+2 Indirect Attack<br />+3 to Mining"], //28
+    ["Diamond Axe", "diamond_axe", "A axe made out of diamonds.", "Crafting", "+2 Direct Attack<br />+3 to Chopping"], //29
+    ["Wooden Pickaxe", "wood_pickaxe", "A pickaxe made out of wood.", "Crafting", "+1 Indirect Attack<br />+1 to Mining"], //30
+    ["Wooden Axe", "wood_axe", "A axe made out of wood.", "Crafting", "+1 Indirect Attack<br />+1 to Chopping"], //31
     ["Logo 3", "logo_3", 'The "3" from the logo.', "Unknown", ""], //32
     ["Logo F", "logo_f", 'The "F" from the logo. Why\'s it so small now?', "Unknown", ""], //33
     ["Logo S", "logo_s", 'The "S" from the logo.', "Unknown", ""], //34
@@ -168,4 +168,27 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Iron Boots", "iron_boots", "A pair of boots made of iron.", "Crafting", "+1 Indirect Defense"], //166
     ["Red Mushroom", "red_mushroom", "A mushroom with a spotted red cap.", "Gathering", "Eat for Poison (1 turn)<br />Potion effect: Poison (1 turn)"], //167
     ["Brown Mushroom", "brown_mushroom", "A mushroom with a brown cap.", "Gathering", "Eat for +2 HP<br />Potion effect: 50% chance to add 1 turn to one effect"], //168
+    ["Wooden Hammer", "wood_hammer", "A hammer made of wood.", "Crafting", "(has not been assigned attack values yet)<br />+1 Construction"], //169
+    ["Wooden Trowel", "wood_trowel", "A trowel made of wood.", "Crafting", "(has not been assigned attack values yet)<br />+1 Gardening"], //170
+    ["Wooden Fishing Rod", "wood_fish_rod", "A fishing rod made of wood.", "Crafting", "(has not been assigned attack values yet)<br />+1 Fishing"], //171
+    ["Stone Hammer", "stone_hammer", "A hammer made of stone.", "Crafting", "(has not been assigned attack values yet)<br />+1 Construction"], //172
+    ["Stone Trowel", "stone_trowel", "A trowel made of stone.", "Crafting", "(has not been assigned attack values yet)<br />+1 Gardening"], //173
+    ["Stone Fishing Rod", "stone_fish_rod", "A fishing rod made of stone.", "Crafting", "(has not been assigned attack values yet)<br />+1 Fishing"], //174
+    ["Gold Hammer", "gold_hammer", "A hammer made of gold.", "Crafting", "(has not been assigned attack values yet)<br />+2 Construction"], //175
+    ["Gold Trowel", "gold_trowel", "A trowel made of gold.", "Crafting", "(has not been assigned attack values yet)<br />+2 Gardening"], //176
+    ["Gold Fishing Rod", "gold_fish_rod", "A fishing rod made of gold.", "Crafting", "(has not been assigned attack values yet)<br />+2 Fishing"], //177
+    ["Iron Hammer", "iron_hammer", "A hammer made of iron.", "Crafting", "(has not been assigned attack values yet)<br />+2 Construction"], //178
+    ["Iron Trowel", "iron_trowel", "A trowel made of iron.", "Crafting", "(has not been assigned attack values yet)<br />+2 Gardening"], //179
+    ["Iron Fishing Rod", "iron_fish_rod", "A fishing rod made of iron.", "Crafting", "(has not been assigned attack values yet)<br />+2 Fishing"], //180
+    ["Diamond Hammer", "diamond_hammer", "A hammer made of diamond.", "Crafting", "(has not been assigned attack values yet)<br />+3 Construction"], //181
+    ["Diamond Trowel", "diamond_trowel", "A trowel made of diamond.", "Crafting", "(has not been assigned attack values yet)<br />+3 Gardening"], //182
+    ["Diamond Fishing Rod", "diamond_fish_rod", "A fishing rod made of diamond.", "Crafting", "(has not been assigned attack values yet)<br />+3 Fishing"], //183
+    ["Old Boot", "old_boot", "An old boot you fished up.", "Fishing", ""], //184
+    ["Pair of Old Boots", "old_boot_pair", "A pair of old boots you fished up. Surprisingly effective at defending you.", "Fishing", "+1 Direct Defense<br />+1 Fishing"], //185
+    ["Wad of String", "string_wad", "A wad of String you fished up.", "Crafting", ""], //186
+    ["Goldfish", "goldfish", "A small goldfish.", "Fishing", "Potion effect: 30% chance of Water Resistance (1 turn)<br />Cook it to make it edible"], //187
+    ["Jellyfish", "jellyfish", "A small jellyfish. Packs a mean sting.", "Fishing", "Throw it at someone to deal 5 damage<br />Throw Effect: 20% chance of Paralysis (1 turn)"], //188
+    ["Fish 3", "goldfish", "{placeholder}", "Fishing", ""], //189
+    ["Fish 4", "goldfish", "{placeholder}", "Fishing", ""], //190
+    ["Solid Goldfish", "gold_goldfish", "Like a goldfish, but actually gold.", "Fishing", "Cook it to make it equippable"], //191
 ]
