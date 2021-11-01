@@ -11,12 +11,16 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses]
     ["Nausea", "poisoned", "You feel sick, and it's kinda hard to see.", "Spoiled food", "25% chance of missing an attack<br />-1 to all skills"], //9
     ["Regen", "regen", "You're slowly recovering health.", "Potions", "+4 HP/turn"], //10
     ["Regen+", "regen", "You're slowly recovering health.", "Potions", "+8 HP/turn"], //11
-    ["Regen++", "regen", "You're slowly recovering health.", "Potions", "+12 HP/turn"], //12
+    ["Regen++", "regen", "You're \"slowly\" recovering health.", "Potions", "+12 HP/turn"], //12
     ["Attack Up", "atk_up", "You feel stronger, and deal more damage.", "Potions", "+1 Direct Attack"], //13
     ["Attack Up+", "atk_up", "You feel stronger, and deal more damage.", "Potions", "+2 Direct Attack"], //14
     ["Attack Up++", "atk_up", "You feel significantly stronger, and deal more damage.", "Potions", "+3 Direct Attack"], //15
     ["Defense Up", "def_up", "You feel sturdier, and take less damage.", "Potions", "+1 Direct Defense"], //16
     ["Defense Up+", "def_up", "You feel sturdier, and take less damage.", "Potions", "+2 Direct Defense"], //17
     ["Defense Up++", "def_up", "You feel significantly sturdier, and take less damage.", "Potions", "+3 Direct Defense"], //18
-    ["Blind", "blind", "Hey, who turned the lights out?", "Sand", "40% chance of missing an attack"], //18
+    ["Blind", "blind", "Hey, who turned the lights out?", "Potions/Sand", "40% chance of missing an attack"], //18
+    ["Badly Poisoned", "poisoned", "Okay, maybe <i>avoid</i> the purple stuff.", "Poison", "-9 to 6 HP each turn, depending on remaining duration"], //19
+    ["Asleep", "sleep", "The ground isn't a very good place to sleep, you know.", "Sleeping", "Can't do anything<br />Can attempt to wake up, 75% success rate<br />Getting hit removes this effect"], //20
+    ["Deep Sleep", "sleep", "Hey, wake up already!", "Sleeping", "Can't do anything<br />Can attempt to wake up, 45% success rate<br />Getting hit replaces this effect with Asleep"], //21
+    ["Restful Sleep", "sleep", "That's a nice bed you got there.", "Sleeping", "Can't do anything<br />Can attempt to wake up, 80% success rate<br />Getting hit removes this effect<br />+6 HP per turn"], //22
 ]

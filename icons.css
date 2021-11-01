@@ -11,7 +11,7 @@ span.small_icon {
 }
 .icon {
     background-image: url("Icons/Exported/equip_sheet.png");
-    background-position: -480px -480px;
+    background-position: -608px -480px;
 }
 /* hud */
 .heart, .health {
@@ -830,6 +830,34 @@ span.small_icon {
 .diamond_trowel {
     background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -416px -160px;
+}
+.goldfish {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -0px -0px;
+}
+.jellyfish {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -32px -0px;
+}
+.fish_3 {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -64px -0px;
+}
+.fish_4 {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -96px -0px;
+}
+.gold_goldfish {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -128px -0px;
+}
+.old_boot {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -160px -0px;
+}
+.old_boot_pair {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -192px -0px;
 }
 /* info (large) */
 .yes, .passed {
