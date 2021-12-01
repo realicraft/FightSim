@@ -1,5 +1,5 @@
 Scheduled potions:
-Byron (Pool 1)
+none
 
 Pool 1 (attack/defense/hp up)
 

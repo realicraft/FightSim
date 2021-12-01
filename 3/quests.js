@@ -6,12 +6,12 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward]
-    ["Plant a crop.", "Unclaimed", "10% Farming Exp", "47"],
-    ["Craft a weapon.", "Unclaimed", "20% Crafting Exp, 1 Iron Bar", "47"],
-    ["Cook something.", "Unclaimed", "10% Cooking Exp, 1 Dough", "47"],
-    ["Deal 20 damage total.", "Claimed by Byron", "10 HP, 1 Gold Bar, 2 Misc Exp", "44~47"],
-    ["Harvest a flower.", "Unclaimed", "15% Gardening Exp", "44~47"],
-    ["Mine 5 Stone.", "Unclaimed", "20% Mining Exp", "44~47"],
+    ["Harvest 2 crops.", "Unclaimed", "30% Farming Exp", "48"],
+    ["Craft a tool.", "Unclaimed", "20% Crafting Exp, 1 Gold Bar", "48"],
+    ["Make only one action total.", "Unclaimed", "5 Misc EXP, 1 Iron Sword", "48"],
+    ["Repair a Structure.", "Unclaimed", "30% Construction Exp, 3 Stone", "48~51"],
+    ["Go Chopping twice.", "Unclaimed", "25% Chopping Exp", "48~51"],
+    ["Mine 2 Iron Ore.", "Unclaimed", "25% Mining Exp, 1 Coal", "48~51"],
     ["Kill someone.", "Unclaimed", "3 Misc Exp"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc Exp"],
     ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
@@ -19,6 +19,9 @@ var quests = [ // [quest, claimed, reward]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Plant a crop.", "Unclaimed", "10% Farming Exp", "47"],
+        ["Craft a weapon.", "Claimed by solitare", "20% Crafting Exp, 1 Iron Bar", "47"],
+        ["Cook something.", "Claimed by Byron", "10% Cooking Exp, 1 Dough", "47"],
         ["Plant a flower.", "Claimed by Byron", "10% Gardening Exp", "46"],
         ["Craft 2 items.", "Unclaimed", "20% Crafting Exp, 1 Coal", "46"],
         ["Chop a tree.", "Claimed by Byron", "10% Chopping Exp, 1 Orange", "46"],
@@ -36,6 +39,9 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Damage someone.", "Unclaimed", "1 Misc Exp", "42"],
     ],
     [
+        ["Deal 20 damage total.", "Claimed by Byron", "10 HP, 1 Gold Bar, 2 Misc Exp", "44~47"],
+        ["Harvest a flower.", "Unclaimed", "15% Gardening Exp", "44~47"],
+        ["Mine 5 Stone.", "Unclaimed", "20% Mining Exp", "44~47"],
         ["Take 20 damage total.", "Claimed by TwilightSeleneMisty", "10 HP, 1 Iron Bar, 2 Misc Exp", "40~43"],
         ["Harvest a crop.", "Claimed by cheesy", "15% Farming Exp", "40~43"],
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],

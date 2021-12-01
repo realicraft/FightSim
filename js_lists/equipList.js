@@ -188,15 +188,15 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Wad of String", "string_wad", "A wad of String you fished up.", "Crafting", ""], //186
     ["Goldfish", "goldfish", "A small goldfish.", "Fishing", "Potion effect: 30% chance of Water Resistance (1 turn)<br />Cook it to make it edible"], //187
     ["Jellyfish", "jellyfish", "A small jellyfish. Packs a mean sting.", "Fishing", "Throw it at someone to deal 5 damage<br />Throw Effect: 20% chance of Paralysis (1 turn)"], //188
-    ["Fish 3", "fish_3", "{placeholder}", "Fishing", ""], //189
-    ["Fish 4", "fish_4", "{placeholder}", "Fishing", ""], //190
+    ["Bloach", "fish_3", "{placeholder}", "Fishing", ""], //189
+    ["Salmon", "fish_4", "{placeholder}", "Fishing", ""], //190
     ["Solid Goldfish", "gold_goldfish", "Like a goldfish, but actually gold.", "Fishing", "Cook it to make it equippable"], //191
     ["Spinach", "spinach", "A bunch of spinach. Supposedly makes you stronger.", "Farming", "+5 HP on consume<br />Potion effect: 25% chance of Attack Up (1 turn)"], //192
     ["Golden Spinach", "gold_spinach", "A bunch of gold spinach. <i>Actually</i> makes you stronger.", "Farming", "Equip for 0.4 Direct Attack"], //193
     ["Ripe Apple", "ripe apple", "An apple that's riper than usual.", "Farming", "+10 HP on Consume"], //194
     ["Ripe Orange", "ripe orange", "An orange that's riper than usual.", "Farming", "+10 HP on Consume"], //195
     ["Ripe Carrot", "ripe carrot", "A carrot that's riper than usual. It's oranger.", "Farming", "+10 HP on Consume"], //196
-    ["Can of Ripe Beans", "ripe can", "A cab of beans that's riper than usual.", "Farming", "+10 HP on Consume"], //197
+    ["Can of Ripe Beans", "ripe can", "A can of beans that's riper than usual.", "Farming", "+10 HP on Consume"], //197
     ["Ripe Radish", "ripe radish", "A radish that's riper than usual.", "Farming", "+10 HP on Consume"], //198
     ["Ripe Potato", "ripe potato", "A potato that's riper than usual.", "Farming", "+10 HP on Consume<br />Potion effect: 40% chance of Defense Up (1 turn)"], //199
     ["Ripe Cabbage", "ripe cabbage", "A head of cabbage that's riper than usual.", "Farming", "+10 HP on Consume"], //200
@@ -206,4 +206,15 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Ripe Spinach", "ripe spinach", "A bunch of spinach that's riper than usual.", "Farming", "+10 HP on consume<br />Potion effect: 40% chance of Attack Up (1 turn)"], //204
     ["Enchanted Golden Carrot", "enchanted gold_carrot", "An enchanted carrot made out of gold. Surprisingly rare.", "Farming", "+0.6 Indirect Defense"], //205
     ["Enchanted Golden Apple", "enchanted golden_apple", "An enchanted golden apple. This is really rare!", "Farming", "Equip for +1 Max HP<br />Eat for Regen+ and Defense Up+ (1 turn)"], //206
+    ["Red Potion", "potion_red", "A bottle filled with a red liquid. Who knows what it does?", "Alchemy", ""], //207
+    ["Orange Potion", "potion_orange", "A bottle filled with an orange liquid. Who knows what it does?", "Alchemy", ""], //208
+    ["Yellow Potion", "potion_yellow", "A bottle filled with a yellow liquid. Who knows what it does?", "Alchemy", ""], //209
+    ["Green Potion", "potion_green", "A bottle filled with a green liquid. Who knows what it does?", "Alchemy", ""], //210
+    ["Cyan Potion", "potion_cyan", "A bottle filled with a cyan liquid. Who knows what it does?", "Alchemy", ""], //211
+    ["Blue Potion", "potion_blue", "A bottle filled with a blue liquid. Who knows what it does?", "Alchemy", ""], //212
+    ["Purple Potion", "potion_purple", "A bottle filled with a purple liquid. Who knows what it does?", "Alchemy", ""], //213
+    ["Cooked Solid Goldfish", "gold_goldfish", "It's melted a little from the heat.", "Cooking", "+0.7 Fishing"], //214
+    ["Cooked Goldfish", "goldfish", "A small goldfish, cooked to perfection.", "Cooking", "Consume for +7 HP"], //215
+    ["Leather", "leather", "A piece of leather, probably from a cow.", "Mobs", ""], //216
+    ["Bone", "bone", "A single bone. Why <i>do</i> bones always look like that, anyway?", "Mobs", ""], //217
 ]
