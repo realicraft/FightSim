@@ -6,12 +6,12 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward]
-    ["Harvest 2 crops.", "Unclaimed", "30% Farming Exp", "48"],
-    ["Craft a tool.", "Unclaimed", "20% Crafting Exp, 1 Gold Bar", "48"],
-    ["Make only one action total.", "Unclaimed", "5 Misc EXP, 1 Iron Sword", "48"],
+    ["Harvest a flower.", "Unclaimed", "30% Gardening Exp", "49"],
+    ["Level up a skill.", "Unclaimed", "2 Misc EXP", "49"],
+    ["Go Fishing.", "Unclaimed", "30% Fishing Exp, 1 Goldfish", "49"],
     ["Repair a Structure.", "Unclaimed", "30% Construction Exp, 3 Stone", "48~51"],
     ["Go Chopping twice.", "Unclaimed", "25% Chopping Exp", "48~51"],
-    ["Mine 2 Iron Ore.", "Unclaimed", "25% Mining Exp, 1 Coal", "48~51"],
+    ["Mine 2 Iron Ore.", "Claimed by Byron", "25% Mining Exp, 1 Coal", "48~51"],
     ["Kill someone.", "Unclaimed", "3 Misc Exp"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc Exp"],
     ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
@@ -19,6 +19,9 @@ var quests = [ // [quest, claimed, reward]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Harvest 2 crops.", "Unclaimed", "30% Farming Exp", "48"],
+        ["Craft a tool.", "Unclaimed", "20% Crafting Exp, 1 Gold Bar", "48"],
+        ["Make only one action total.", "Claimed by gilbert", "5 Misc EXP, 1 Iron Sword", "48"],
         ["Plant a crop.", "Unclaimed", "10% Farming Exp", "47"],
         ["Craft a weapon.", "Claimed by solitare", "20% Crafting Exp, 1 Iron Bar", "47"],
         ["Cook something.", "Claimed by Byron", "10% Cooking Exp, 1 Dough", "47"],
