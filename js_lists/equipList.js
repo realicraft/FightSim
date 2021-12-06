@@ -217,4 +217,10 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Cooked Goldfish", "goldfish", "A small goldfish, cooked to perfection.", "Cooking", "Consume for +7 HP"], //215
     ["Leather", "leather", "A piece of leather, probably from a cow.", "Mobs", ""], //216
     ["Bone", "bone", "A single bone. Why <i>do</i> bones always look like that, anyway?", "Mobs", ""], //217
+    ["Wool", "wool", "A block of wool from a sheep.", "Mobs", ""], //218
+    ["Feather", "feather", "A single feather.", "Mobs", ""], //219
+    ["Rotten Flesh", "rotten_flesh", "Some rotting flesh from a zombie. I guess you could eat it?", "Mobs", "+3 HP on consume<br />Eat for Hunger (1 turn, 80% chance)"], //220
+    ["Cooked Flesh", "cooked_flesh", "Some rotting flesh that's been cooked. Probably safer to eat now.", "Cooking", "+4 HP on Consume"], //221
+    ["Golden Flesh", "gold_flesh", "Some golden flesh. Yes, this is a thing that exists.", "Mobs", "Equip for +0.3 HP per turn"], //222
+    ["Slime Ball", "slime_ball", "A ball of slime.", "Mobs", ""], //223
 ]

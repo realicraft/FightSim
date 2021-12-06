@@ -44,7 +44,7 @@ img {
     border-radius: 3px;
     border: 2px solid #afafaf;
     text-align: left;
-    width: 54px;
+    width: 72px;
     height: 34px;
     background-color: #8f8f8f;
 }
@@ -57,12 +57,16 @@ img {
     position: absolute;
     bottom: 2px;
     left: 34px;
-    width: 16px;
+    width: 34px;
     height: 16px;
+}
+#time_box_time {
+    position: absolute;
+    left: 0px;
 }
 #time_box_weather {
     position: absolute;
-    left: 0px;
+    right: 0px;
 }
 #time_box_icon {
     position: absolute;

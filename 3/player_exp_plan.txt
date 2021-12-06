@@ -7,6 +7,7 @@ combat exp
  - 1 point for Blocking an attack
  - 1 point for a Kill
  - 20 points for causing a KO
+ - 1 point for killing a mob
 
 skill exp 2: electric boogaloo
  - 2 points for every skill level gained
@@ -66,19 +67,19 @@ Incendiary: (43)
   Crit: 2 (4)
  Misc: (10)
   Full Quest: 1 (10)
-Byron: (89)
+Byron: (95)
  Combat: (26)
   Kill: 1 (1)
   Deal Damage: 8 (16)
   Over 10 Damage: 9 (9)
- Skill: (34)
-  Level Up: 10 (20)
+ Skill: (36)
+  Level Up: 11 (22)
   Proficiency Bonus: 1 (4)
   Crit: 5 (10)
- Misc: (27)
+ Misc: (31)
   Crit: 2 (2)
   Turn Quest: 4 (8)
-  Quadturn Quest: 1 (4)
+  Quadturn Quest: 2 (8)
   Full Quest: 1 (10)
   Quest Bonus: (2)+(1)
 cheesy: (8)
@@ -87,10 +88,10 @@ cheesy: (8)
   Level Up: 2 (4)
  Misc: (4)
   Quadturn Quest: 1 (4)
-solitare: (17)
+solitare: (19)
  Combat:
- Skill: (6)
-  Level Up: 3 (6)
+ Skill: (8)
+  Level Up: 4 (8)
  Misc: (11)
   Crit: 1 (1)
   Turn Quest: 5 (10)
@@ -103,12 +104,14 @@ LeopardyLeaf: (2)
  Skill: (2)
   Crit: 1 (2)
  Misc:
-gilbert: (4)
+gilbert: (11)
  Combat:
  Skill: (4)
   Level Up: 1 (2)
   Crit: 1 (2)
- Misc:
+ Misc: (7)
+  Turn Quest: 1 (2)
+  Quest Bonus: (5)
 TwilightSeleneMisty: (13)
  Combat:
  Skill: (2)

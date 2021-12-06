@@ -4,10 +4,10 @@ var tooltipEl = document.getElementsByClassName("tooltip_body")[0]
 var infoEl = document.getElementsByClassName("info_body")[0]
 
 var headerLinks = {
-    "3": [["Info", "info"],["Inventories", "inventories"],["Stats", "stats"],["Structures", "structures"],["Voting", "voting"],["Gardens", "gardens"],["Quests","quests"]],
+    "3": [["Info", "info"],["Inventories", "inventories"],["Stats", "stats"],["Structures", "structures"],["Voting", "voting"],["Gardens", "gardens"],["Quests","quests"],["Mobs","mobs"]],
     "i": [["All Items", "creative"],["Crafting", "crafting"],["Encyclopedia", "help"]]
 }
-var timeboxInfo = [47, "night", "Night, Clear Skies"]
+var timeboxInfo = [49, "dawn", "sunny", "Dawn", "Clear Skies"]
 
 var headerCont = '<div class="header"><span class="small_icon fs3" style="position:absolute;left:4px;top:4px;" title="FS3"></span>'
 for (var i in headerLinks["3"]) {headerCont += '\n<a href="' + headerLinks["3"][i][1] + '.html">' + headerLinks["3"][i][0] + '</a>'}
@@ -18,7 +18,7 @@ headerEl.innerHTML = headerCont
 
 var timeboxCont = '<span class="icon time" id="time_box_icon"></span>'
 timeboxCont += '\n<span id="time_box_turns" title="Current Turn">' + timeboxInfo[0] + '</span>'
-timeboxCont += '\n<span id="time_box_weather_container"><span class="small_icon ' + timeboxInfo[1] + '" id="time_box_weather" title="Weather (' + timeboxInfo[2] + ')"></span></span>'
+timeboxCont += '\n<span id="time_box_weather_container">' + '<span class="small_icon ' + timeboxInfo[1] + '" id="time_box_time" title="Time of Day (' + timeboxInfo[3] + ')"></span>' + '<span class="small_icon ' + timeboxInfo[2] + '" id="time_box_weather" title="Weather (' + timeboxInfo[4] + ')"></span></span>'
 timeboxEl.innerHTML = timeboxCont
 
 var tooltipCont = '<h3 class="tooltip_name">Item Name</h3><br /><br /><p class="tooltip_desc">Item description. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br /><p class="tooltip_bonus">+1 Place Holding</p><p class="tooltip_src1">Source: </p><p class="tooltip_src2">Item source</p>'

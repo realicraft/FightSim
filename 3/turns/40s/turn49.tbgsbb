@@ -1,0 +1,59 @@
+Skeledop - Turn 49
+It's dawn now, by the way. I added dawn and dusk to the daylight cycle. (for mob spawning)
+EDIT: it's 1 am now i'm gonna go to sleep and finish this in the morning (don't worry it's half done already (more like 75% done if you count creating the mobs page))
+[quote=gilbert_given_TBG]hooray!
+I chop some more wood.[/quote]
+You chop some wood.
+Skill roll: 1d20+2 = [color=red]3[/color]+2 = [color=red]5[/color]
+You get a Plank and a Stick.
+You've completed a quest! (Make only one action total.) You've gained an Iron Sword, plus a total of 7 Misc EXP. [b][i]You've leveled up![/i][/b]
+[quote=IncendiaryGaming]I buff the inner walls with some stone, concrete and metal [s]beans[/s] beams.[/quote]
+You do that, whatever that is.
+[quote=Byron_Inc_TBG]sorry for that extremely long post hehe
+
+I'll keep the dough & the cans of beans in the food storage room, the wooden shield in the defence room, and the drops of water in the storage room. (1 action)
+I use my excavator to mine for Iron. (1 action)
+I harvest my golden carrots and keep them in my food bar. (1 action)
+I'll chop some trees. (1 action)[/quote]
+You move the things to the places.
+You go mining for Iron.
+Skill roll: 1d20+2 = 12+2 = 14
+You mine 2 Stone and 2 Iron Ore.
+Damage roll: 1d2+2 = 1+2 = 3
+You take [b]3[/b] damage, the excavator does the same.
+(Your Mining skill has gone up by 60%. Your Mining skill leveled up! You've gained 2 Skill EXP.)
+You've completed a quest! ([i]Mine 2 Iron Ore.[/i]) You've gained 25% Mining, 1 Coal, and 4 Misc EXP.
+You harvest your Golden Carrots.
+Skill roll: 1d18+11 = [color=green]17[/color]+11 = [color=green]28[/color]
+You harvest 7 Golden Carrots and 2 Enchanted Golden Carrots. You then equip the Golden Carrots, bringing your total up to 28 carrots, granting you 15.2*0.3=[b]4.6[/b]* Indirect Defense.
+(Your Farming skill has gone up by 95%.) (Harvest 2 crops: 1/2)
+You go to chop a tree.
+Skill roll: 1d16 = 6
+You get 2 Planks. (Your Chopping skill has gone up by 25%.) (Go Chopping twice: 1/2)
+[quote=solitare]i put the iron bar, goldfish, and leather in the storage room
+i then go fishing again[/quote]
+You move the things to the places.
+You then go fishing.
+Skill roll: 1d20+1 = 9+1 = 10
+You catch 2 fish.
+Luck rolls: 2d20 = 8, 10
+You catch a Goldfish and a Jellyfish. (Your Fishing skill goes up by 45%. Your Fishing skill levels up! You gained 2 Skill EXP.)
+
+Plants grow.
+cheesy's Cabbages and Radishes are harvestable.
+solitare's Beetroot ripen.
+All of Twilight's crops start rotting. What was your plan there?
+solitare's Red Roses start wilting.
+Byron's Orange Tulips are harvestable.
+
+The vote for more inventory space passes with 2 Yes and 0 No.
+I'll implement it next turn.
+
+I was gonna put an explanation of the new time system here but it's 1 am and i want to go to bed but don't want to have to finish this in the morning (the important part is that the last turn of dawn is turn 53)
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url]
+why do i keep procrastinating
+also if i missed anything in this update let me know
+...i [i]just[/i] realized i missed cavernur's post
+
+*Oh, by the way, stat bonuses now have a resolution of 0.1, instead of 1. This allows fractional parts of bonuses to stack. When used for rolls, the combined bonus is rounded down.

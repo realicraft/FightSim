@@ -925,11 +925,11 @@ span.small_icon {
     background-image: url("Icons/Exported/info_sheet.png");
     background-position: -192px -16px;
 }
-.sun, .sunny, .day {
+.sun, .sunny {
     background-image: url("Icons/Exported/info_sheet.png");
     background-position: -224px 0px;
 }
-.moon, .night {
+.moon {
     background-image: url("Icons/Exported/info_sheet.png");
     background-position: -240px 0px;
 }
@@ -944,6 +944,22 @@ span.small_icon {
 .rain, .rainy {
     background-image: url("Icons/Exported/info_sheet.png");
     background-position: -240px -16px;
+}
+.day {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -128px 0px;
+}
+.dusk {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -144px 0px;
+}
+.night {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -128px -16px;
+}
+.dawn {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -144px -16px;
 }
 .info_small {
     background-image: url("Icons/Exported/info_sheet.png");

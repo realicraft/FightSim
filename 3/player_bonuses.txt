@@ -1,0 +1,73 @@
+reali:
+ Stats:
+ Skills:
+SausageMcSauce:
+ Stats:
+ Skills:
+CatsUnited:
+ Stats:
+ Skills:
+Squirrelflight:
+ Stats:
+ Skills:
+Incendiary:
+ Stats:
+  Indirect Attack: (+1)
+   Rock on a Stick (+1)
+  Health: (+2)
+   Player Level (+2)
+ Skills:
+Byron:
+ Stats:
+  Indirect Defense: (+6.6)
+   Iron Chestplate (+1)
+   Diamond Shield (+1)
+   Golden Carrots (+4.6)
+  Direct Defense: (+2)
+   Iron Chestplate (+1)
+   Diamond Shield (+1)
+  Indirect Attack: (+1)
+   Iron Shovel (+1)
+  Health: (+3)
+   Player Level (+3)
+ Skills:
+  Digging: (+1)
+   Iron Shovel (+1)
+cheesy:
+ Stats:
+  Direct Attack: (+1)
+   Wooden Sword (+1)
+ Skills:
+solitare:
+ Stats:
+  Health: (+1)
+   Player Level (+1)
+ Skills:
+  Fishing: (+1)
+   Stone Fishing Rod (+1)
+Faressain:
+ Stats:
+ Skills:
+LeopardyLeaf:
+ Stats:
+ Skills:
+gilbert:
+ Stats:
+  Indirect Attack: (+1)
+   Stone Pickaxe (+1)
+  Health: (+1)
+   Player Level (+1)
+ Skills:
+  Mining: (+1)
+   Stone Pickaxe (+1)
+TwilightSeleneMisty:
+ Stats:
+  Indirect Defense: (+1)
+   Wooden Shield (+1)
+  Indirect Attack: (+1)
+   Wooden Pickaxe (+1)
+  Health: (+1)
+   Player Level (+1)
+ Skills:
+  Mining: (+1)
+   Wooden Pickaxe (+1)
