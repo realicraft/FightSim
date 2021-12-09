@@ -23,6 +23,9 @@ misc exp
  - i may give out exp for this category
  - 1 point for non skill/combat roll Critical Hits
 
++1 HP every level
++1 Ind Atk every 5 levels
++1 Ind Def every 10 levels
 
 level reqs:
 
@@ -67,34 +70,34 @@ Incendiary: (43)
   Crit: 2 (4)
  Misc: (10)
   Full Quest: 1 (10)
-Byron: (95)
- Combat: (26)
+Byron: (109)
+ Combat: (30)
   Kill: 1 (1)
-  Deal Damage: 8 (16)
-  Over 10 Damage: 9 (9)
- Skill: (36)
-  Level Up: 11 (22)
+  Deal Damage: 9 (18)
+  Over 10 Damage: 11 (11)
+ Skill: (38)
+  Level Up: 12 (24)
   Proficiency Bonus: 1 (4)
   Crit: 5 (10)
- Misc: (31)
+ Misc: (39)
   Crit: 2 (2)
-  Turn Quest: 4 (8)
-  Quadturn Quest: 2 (8)
+  Turn Quest: 5 (10)
+  Quadturn Quest: 3 (12)
   Full Quest: 1 (10)
-  Quest Bonus: (2)+(1)
-cheesy: (8)
+  Quest Bonus: (2*2)+(1)
+cheesy: (10)
  Combat:
- Skill: (4)
-  Level Up: 2 (4)
+ Skill: (6)
+  Level Up: 3 (6)
  Misc: (4)
   Quadturn Quest: 1 (4)
-solitare: (19)
+solitare: (23)
  Combat:
- Skill: (8)
-  Level Up: 4 (8)
- Misc: (11)
+ Skill: (10)
+  Level Up: 5 (10)
+ Misc: (13)
   Crit: 1 (1)
-  Turn Quest: 5 (10)
+  Turn Quest: 6 (12)
 Faressain:
  Combat:
  Skill:
