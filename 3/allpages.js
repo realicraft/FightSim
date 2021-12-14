@@ -7,7 +7,7 @@ var headerLinks = {
     "3": [["Info", "info"],["Inventories", "inventories"],["Stats", "stats"],["Structures", "structures"],["Voting", "voting"],["Gardens", "gardens"],["Quests","quests"],["Mobs","mobs"]],
     "i": [["All Items", "creative"],["Crafting", "crafting"],["Encyclopedia", "help"]]
 }
-var timeboxInfo = [50, "dawn", "sunny", "Dawn", "Clear Skies"]
+var timeboxInfo = [51, "dawn", "sunny", "Dawn", "Clear Skies"]
 
 var headerCont = '<div class="header"><span class="small_icon fs3" style="position:absolute;left:4px;top:4px;" title="FS3"></span>'
 for (var i in headerLinks["3"]) {headerCont += '\n<a href="' + headerLinks["3"][i][1] + '.html">' + headerLinks["3"][i][0] + '</a>'}

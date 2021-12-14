@@ -6,19 +6,22 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward]
-    ["Start a potion.", "Unclaimed", "30% Alchemy Exp", "50"],
-    ["Damage a mob.", "Unclaimed", "2 Misc EXP", "50"],
-    ["Carve something.", "Unclaimed", "30% Carving Exp", "50"],
+    ["Go Mining.", "Unclaimed", "25% Mining Exp", "51"],
+    ["Go Digging.", "Unclaimed", "25% Digging Exp", "51"],
+    ["Attack someone.", "Unclaimed", "3 Misc EXP", "51"],
     ["Repair a Structure.", "Unclaimed", "30% Construction Exp, 3 Stone", "48~51"],
-    ["Go Chopping twice.", "Unclaimed", "35% Chopping Exp", "48~51"],
+    ["Go Chopping twice.", "Claimed by Byron", "35% Chopping Exp", "48~51"],
     ["Mine 2 Iron Ore.", "Claimed by Byron", "25% Mining Exp, 1 Coal", "48~51"],
-    ["Kill someone.", "Unclaimed", "3 Misc Exp"],
+    ["Die.", "Unclaimed", "5 Misc Exp, 4 Iron Ore"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc Exp"],
     ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Start a potion.", "Unclaimed", "30% Alchemy Exp", "50"],
+        ["Damage a mob.", "Claimed by Byron", "2 Misc EXP", "50"],
+        ["Carve something.", "Unclaimed", "30% Carving Exp", "50"],
         ["Harvest a flower.", "Unclaimed", "30% Gardening Exp", "49"],
         ["Level up a skill.", "Claimed by Byron", "2 Misc EXP", "49"],
         ["Go Fishing.", "Claimed by solitare", "30% Fishing Exp, 1 Goldfish", "49"],
@@ -53,6 +56,8 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
+        ["Use a thin-air weapon.", "Claimed by gilbert", "2 Misc Exp"],
+        ["Kill someone.", "Claimed by Byron", "3 Misc Exp"],
         ["Complete a Structure.", "Claimed by Incendiary", "30% Construction Exp"],
         ["Equip any armor.", "Claimed by Byron", "1 Misc Exp, 1 Wooden Shield"],
     ],

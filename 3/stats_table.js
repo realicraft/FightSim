@@ -18,7 +18,15 @@ for (var i in user_data) {
     stat_table += user_data[i]["exp"][2]
     stat_table += '</p></span><span style="position: relative; width: 100%; display: inline-block;"><span class="icon '
     stat_table += typelist[user_data[i]["type"]]
-    stat_table += ' type_icon"></span></span><h2 class="username">' + i + '</h2><div class="meter_container"><div class="health_disp"><span class="icon health" style="position:absolute;left:0px;"></span><span class="vat">'
+    stat_table += ' type_icon"></span></span><h2 class="username">' + i + '</h2><div class="meter_container"><div class="health_disp"><span class="icon '
+    if (user_data[i]["health"][0] > 50) {stat_table += 'health'}
+    else if (user_data[i]["health"][0] > 0) {stat_table += 'heart2'}
+    else {stat_table += 'ko'}
+    stat_table += '" style="position:absolute;left:0px;"></span><span class="vat'
+    if (user_data[i]["health"][0] > 50) {}
+    else if (user_data[i]["health"][0] > 0) {stat_table += ' lowhp'}
+    else {stat_table += ' kod'}
+    stat_table += '">'
     stat_table += user_data[i]["health"][0]
     stat_table += '</span><span class="lh" style="font-size: 25px;">/</span><span class="vab">'
     stat_table += user_data[i]["health"][1]

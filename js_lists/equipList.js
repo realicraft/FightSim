@@ -35,7 +35,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Logo F", "logo_f", 'The "F" from the logo. Why\'s it so small now?', "Unknown", ""], //33
     ["Logo S", "logo_s", 'The "S" from the logo.', "Unknown", ""], //34
     ["Rock", "rock", "It's a small rock.", "Gathering", "Throw to deal 4 damage"], //35
-    ["Coal", "coal", "It's a piece of coal.", "Mining", ""], //36
+    ["Coal", "coal", "It's a piece of coal.", "Mining", "Counts as 4 fuel units"], //36
     ["Diamond", "diamond", "It's a diamond. These things are rare!", "Mining", ""], //37
     ["Decent Hammer", "decent_hammer", "Bonk.", "Crafting", "+1 Direct Attack"], //38
     ["Slingshot", "slingshot", "You shoot things with it.", "Crafting", "+1 Indirect Attack<br />Can be used with ammo to deal more damage"], //39
@@ -44,8 +44,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Icicle", "icicle", "It's cold, and kinda pointy.", "Gathering", "+10% chance to inflict Frozen on hit for 2 turns"], //42
     ["Tray of Cookies", "cookie_tray", "A tray filled with cookies.", "Cooking", ""], //43
     ["Log", "log", "A log.", "Chopping", ""], //44
-    ["Stick", "stick_item", "It's a stick. You can use it in a bunch of different things.", "Chopping", ""], //45
-    ["Planks", "planks", "Some planks.", "Chopping", ""], //46
+    ["Stick", "stick_item", "It's a stick. You can use it in a bunch of different things.", "Chopping", "Counts as 1 fuel unit"], //45
+    ["Planks", "planks", "Some planks.", "Chopping", "Counts as 2 fuel units"], //46
     ["Rotting Mush", "crop_mush", "Eww, why did you keep this?", "Farming", "Make it into fertilizer, or just get rid of it<br />Potion effect: Nausea (1 turn)"], //47
     ["Banana", "banana", "Potassium", "Unknown", "Eat it for potassium"], //48
     ["Sand", "sand", "A cube of sand. Carful, or it'll get everywhere.", "Digging", "Throw it at someone to Blind them for a turn"], //49
@@ -223,4 +223,13 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Cooked Flesh", "cooked_flesh", "Some rotting flesh that's been cooked. Probably safer to eat now.", "Cooking", "+4 HP on Consume"], //221
     ["Golden Flesh", "gold_flesh", "Some golden flesh. Yes, this is a thing that exists.", "Mobs", "Equip for +0.3 HP per turn"], //222
     ["Slime Ball", "slime_ball", "A ball of slime.", "Mobs", ""], //223
+    ["Sap", "sap", "Some sap from a tree.", "Gathering", "Counts as 2 fuel units<br />Consume for -1 HP"], //224
+    ["1 Fuel Unit", "fuel_outline", "This recipe requires <b>1</b> unit of fuel.", "", ""], //225
+    ["2 Fuel Units", "fuel_outline", "This recipe requires <b>2</b> units of fuel.", "", ""], //226
+    ["3 Fuel Units", "fuel_outline", "This recipe requires <b>3</b> units of fuel.", "", ""], //227
+    ["4 Fuel Units", "fuel_outline", "This recipe requires <b>4</b> units of fuel.", "", ""], //228
+    ["5 Fuel Units", "fuel_outline", "This recipe requires <b>5</b> units of fuel.", "", ""], //229
+    ["6 Fuel Units", "fuel_outline", "This recipe requires <b>6</b> units of fuel.", "", ""], //230
+    ["7 Fuel Units", "fuel_outline", "This recipe requires <b>7</b> units of fuel.", "", ""], //231
+    ["8 Fuel Units", "fuel_outline", "This recipe requires <b>8</b> units of fuel.", "", ""], //232
 ]

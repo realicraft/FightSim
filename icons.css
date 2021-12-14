@@ -887,6 +887,14 @@ span.small_icon {
     background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -448px -160px;
 }
+.sap {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: 0px -128px;
+}
+.fuel_outline {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -128px -224px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");
