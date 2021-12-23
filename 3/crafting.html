@@ -12,9 +12,34 @@
             .collapse_body h4 {
                 margin: 0px;
             }
+            .collapse_body {
+                margin: 0px;
+            }
             td.inv_item {
                 position: relative;
                 background-clip: padding-box;
+            }
+            .recipe_inner > span.icon {
+                position: absolute;
+                left: -2px;
+                top: -2px;
+                border-radius: 5px;
+                border: 2px solid black;
+            }
+            span.icon > span {
+                position: absolute;
+                font-size: 15px;
+            }
+            hr {
+                border-top-color: black;
+                border-bottom-color: transparent;
+            }
+            .recipe_inner {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                position: relative;
             }
         </style>
     </head>
@@ -33,6 +58,7 @@
         <script src="tooltip.js"></script>
         <script src="../js_lists/recipeList.js"></script>
         <script src="../js_lists/equipList.js"></script>
+        <script src="../js_lists/skillList.js"></script>
         <script src="craft_recipe.js"></script>
     </body>
 </html>

@@ -20,7 +20,9 @@ for (var i in recipelist) {
     recipe_group += i
     recipe_group += '</h3><div class="collapse_body" style="display:none;">'
     for (var j in recipelist[i]) {
-        recipe_current = '<h4>' + recipelist[i][j][0] + '</h4>'
+        recipe_current = '<div class="recipe_inner">'
+        recipe_current += '<span class="icon ' + skilllist[recipelist[i][j][17]][1] + '"><span>' + recipelist[i][j][18] + '</span></span>'
+        recipe_current += '<h4>' + recipelist[i][j][0] + '</h4>'
         if (recipelist[i][j][1] != "") {
             recipe_current += '<p>' + recipelist[i][j][1] + '</p>'
         }
@@ -64,7 +66,7 @@ for (var i in recipelist) {
                 recipe_current += "</span>"
             };
             recipe_current += "</td>"
-        recipe_current += '</tr></table><hr />'
+        recipe_current += '</tr></table></div>'
         recipe_group += recipe_current
     }
     recipe_group += "</div></div>"

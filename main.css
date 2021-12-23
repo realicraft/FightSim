@@ -85,7 +85,7 @@ img {
 .struct .struct {
     width: 90%
 }
-td.inv_item span:not(.icon), .pt_stackcount {
+td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
     color: white;
     position: absolute;
     right: 0px;

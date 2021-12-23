@@ -6,12 +6,12 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward]
-    ["Go Mining.", "Unclaimed", "25% Mining Exp", "51"],
-    ["Go Digging.", "Unclaimed", "25% Digging Exp", "51"],
-    ["Attack someone.", "Unclaimed", "3 Misc EXP", "51"],
-    ["Repair a Structure.", "Unclaimed", "30% Construction Exp, 3 Stone", "48~51"],
-    ["Go Chopping twice.", "Claimed by Byron", "35% Chopping Exp", "48~51"],
-    ["Mine 2 Iron Ore.", "Claimed by Byron", "25% Mining Exp, 1 Coal", "48~51"],
+    ["Hang a Stocking.", "Unclaimed", "1 Effect Candy", "52"],
+    ["Harvest a crop.", "Unclaimed", "1 Skill Candy", "52"],
+    ["Obtain an item.", "Unclaimed", "1 Item Candy", "52"],
+    ["Create a Structure", "Unclaimed", "30% Construction Exp, 3 Planks", "52~55"],
+    ["Go Digging twice.", "Unclaimed", "40% Digging Exp", "52~55"],
+    ["Deal 10 damage.", "Unclaimed", "3 Misc EXP, 1 Rock", "52~55"],
     ["Die.", "Unclaimed", "5 Misc Exp, 4 Iron Ore"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc Exp"],
     ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
@@ -19,6 +19,9 @@ var quests = [ // [quest, claimed, reward]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go Mining.", "Claimed by Byron", "25% Mining Exp", "51"],
+        ["Go Digging.", "Unclaimed", "25% Digging Exp", "51"],
+        ["Attack someone.", "Unclaimed", "3 Misc EXP", "51"],
         ["Start a potion.", "Unclaimed", "30% Alchemy Exp", "50"],
         ["Damage a mob.", "Claimed by Byron", "2 Misc EXP", "50"],
         ["Carve something.", "Unclaimed", "30% Carving Exp", "50"],
@@ -48,6 +51,9 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Damage someone.", "Unclaimed", "1 Misc Exp", "42"],
     ],
     [
+        ["Repair a Structure.", "Unclaimed", "30% Construction Exp, 3 Stone", "48~51"],
+        ["Go Chopping twice.", "Claimed by Byron", "35% Chopping Exp", "48~51"],
+        ["Mine 2 Iron Ore.", "Claimed by Byron", "25% Mining Exp, 1 Coal", "48~51"],
         ["Deal 20 damage total.", "Claimed by Byron", "10 HP, 1 Gold Bar, 2 Misc Exp", "44~47"],
         ["Harvest a flower.", "Unclaimed", "15% Gardening Exp", "44~47"],
         ["Mine 5 Stone.", "Unclaimed", "20% Mining Exp", "44~47"],

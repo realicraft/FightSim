@@ -26,14 +26,14 @@ Byron:
   Direct Defense: (+2)
    Iron Chestplate (+1)
    Diamond Shield (+1)
-  Indirect Attack: (+2)
-   Iron Shovel (+1)
+  Indirect Attack: (+3)
+   Iron Sword (+2)
    Player Level (+1)
+  Direct Attack: (+1)
+   Iron Sword (+1)
   Health: (+5)
    Player Level (+5)
  Skills:
-  Digging: (+1)
-   Iron Shovel (+1)
 cheesy:
  Stats:
   Direct Attack: (+1)
@@ -43,9 +43,11 @@ solitare:
  Stats:
   Health: (+1)
    Player Level (+1)
+  Indirect Attack: (+1)
+   Stone Shovel (+1)
  Skills:
-  Fishing: (+1)
-   Stone Fishing Rod (+1)
+  Digging: (+1)
+   Stone Shovel (+1)
 Faressain:
  Stats:
  Skills:

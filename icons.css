@@ -895,6 +895,22 @@ span.small_icon {
     background-image: url("Icons/Exported/ore_sheet.png");
     background-position: -128px -224px;
 }
+.stocking {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -64px -64px;
+}
+.blue_candy {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -96px -64px;
+}
+.green_candy {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -128px -64px;
+}
+.red_candy {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -160px -64px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");
