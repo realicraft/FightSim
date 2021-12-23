@@ -911,6 +911,22 @@ span.small_icon {
     background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -160px -64px;
 }
+.black_candy {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -192px -64px;
+}
+.gray_candy {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -224px -64px;
+}
+.gift_box {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -0px -96px;
+}
+.old_stocking {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -32px -96px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");
@@ -968,6 +984,10 @@ span.small_icon {
 .rain, .rainy {
     background-image: url("Icons/Exported/info_sheet.png");
     background-position: -240px -16px;
+}
+.snow, .snowy {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -208px -32px;
 }
 .day {
     background-image: url("Icons/Exported/info_sheet.png");
