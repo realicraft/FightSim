@@ -927,6 +927,26 @@ span.small_icon {
     background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -32px -96px;
 }
+.ltt_hoodie {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -64px -96px;
+}
+.box {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -96px -96px;
+}
+.sponge {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -128px -96px;
+}
+.esolang {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -160px -96px;
+}
+.slime_ball {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -192px -96px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");

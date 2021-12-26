@@ -1,7 +1,7 @@
 var user_data = {
     "realicraft": {
-        "type": 0,"health": [0,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],
-        "kills": 1,"deaths": 2,"skills": [[6,0,45]],"effects": [[4,2]],
+        "type": 0,"health": [100,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],
+        "kills": 1,"deaths": 2,"skills": [[6,0,45]],"effects": [],
         "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,1,10]
     },
     "SausageMcSauce": {
@@ -27,7 +27,7 @@ var user_data = {
     "Byron_Inc_TBG": {
         "type": 0,"health": [96,105],"attack": [[10,4],[7,3]],"defense": [[11.6,2],[5,0]],
         "kills": 2,"deaths": 2,"skills": [[1,6,281],[4,1,0],[7,3,18],[8,2,30],[10,0,20],[2,2,60],[3,1,20],[11,0,70],[6,0,10]],"effects": [],
-        "equips": [1,164,3,4,18,13,7,12,28],"exp": [5,5,60]
+        "equips": [1,164,3,4,18,13,7,12,28],"exp": [5,7,60]
     },
     "cheesyfriedeggs": {
         "type": 0,"health": [92,101],"attack": [[7,4],[7,3]],"defense": [[5,0],[5,0]],
@@ -51,12 +51,12 @@ var user_data = {
     },
     "gilbert_given_TBG": {
         "type": 0,"health": [78,101],"attack": [[8,3],[7,3]],"defense": [[5,0],[5,0]],
-        "kills": 0,"deaths": 0,"skills": [[3,1,120],[2,0,85]],"effects": [],
+        "kills": 0,"deaths": 0,"skills": [[3,1,120],[2,0,85],[6,0,55]],"effects": [],
         "equips": [1,2,3,4,24,6,7,8,""],"exp": [1,13,20]
     },
     "TwilightSeleneMisty": {
         "type": 0,"health": [34,101],"attack": [[8,3],[7,3]],"defense": [[6,0],[5,0]],
-        "kills": 0,"deaths": 1,"skills": [[3,0,95],[2,1,45]],"effects": [],
-        "equips": [1,2,3,4,30,127,7,8,""],"exp": [1,3,20]
+        "kills": 0,"deaths": 1,"skills": [[3,0,95],[2,1,45],[1,0,85]],"effects": [],
+        "equips": [1,2,3,4,30,127,7,8,""],"exp": [1,7,20]
     },
 }

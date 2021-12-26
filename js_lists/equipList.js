@@ -92,7 +92,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["Empty Can", "can", "A can with nothing in it.", "Crafting", "Fill it with stuff"], //90
     ["Canned Water", "can", "A can with water in it. You can drink it.", "Crafting", "Drink for 3 HP"], //91
     ["Can of Beans", "can", "A can with beans in it.", "Farming", "+5 HP on consume"], //92
-    ["Golden Can of Beans", "gold_can", "A golden can with golden beans in it.", "Farming", "+0.1 Direct Defense"], //93
+    ["Golden Can of Beans", "gold_can", "A golden can with golden beans in it.", "Farming", "+0.15 Direct Defense"], //93
     ["Clay Bowl", "clay_bowl", "A bowl made of clay.", "Pottery", ""], //94
     ["Clay Vase", "clay_vase", "A vase made of clay.", "Pottery", ""], //95
     ["Glass Bowl", "glass_bowl", "A bowl made of glass.", "Crafting", ""], //96
@@ -232,12 +232,21 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses]
     ["6 Fuel Units", "fuel_outline", "This recipe requires <b>6</b> units of fuel.", "", ""], //230
     ["7 Fuel Units", "fuel_outline", "This recipe requires <b>7</b> units of fuel.", "", ""], //231
     ["8 Fuel Units", "fuel_outline", "This recipe requires <b>8</b> units of fuel.", "", ""], //232
-    ["Christmas Stocking", "stocking", "A stocking for Christmas. Hang it up during your turn to get extra rewards!", "Christmas", "Hang it up"], //233
+    ["Christmas Stocking", "stocking", "A stocking for Christmas. Hang it up during your turn to get extra rewards!", "Christmas", "Hang it up<br />Can be used while KOd"], //233
     ["Effect Candy", "blue_candy", "A small piece of candy, wrapped in a blue wrapper. Eat it to gain a random positive effect!", "Events", "Consume for one of the following: Regen, Attack Up, Defense Up"], //234
     ["Skill Candy", "green_candy", "A small piece of candy, wrapped in a green wrapper. Eat it to gain 300% in a random skill!", "Events", "Consume for 300% in a random skill you have that is below level 5"], //235
     ["Item Candy", "red_candy", "A small piece of candy, wrapped in a red wrapper. Eat it to gain a random item!", "Events", "Consume for a random item (see Info)"], //236
     ["Mystery Gift", "gift_box", "A gift in a box. It could be anything!", "Item Candy", "Open it to gain a random item out of all the items currently in the game"], //237
     ["Time Candy", "black_candy", "A small piece of candy, wrapped in a black and yellow wrapper. If you have this in your inventory, you'll be allowed three posts in a turn, instead of two!", "Unknown", "Holding this item allows one extra post in a turn (consumed during extra post)"], //238
     ["Old Candy", "gray_candy", "A small piece of old candy. The color on the wrapper has faded away, so you can't tell what kind of candy this was.", "Old Stocking", "Consume for a reduced version of a different candy's effect"], //239
-    ["Old Christmas Stocking", "old_stocking", "An old stocking for Christmas. It's too late to hang it up, but there might still be something inside...", "Post-Christmas", "Hang it up"], //233
+    ["Old Christmas Stocking", "old_stocking", "An old stocking for Christmas. It's too late to hang it up, but there might still be something inside...", "Post-Christmas", "Look inside"], //240
+    ["LTT Hoodie", "ltt_hoodie", "Uh... thanks, Incendiary?", "Unknown", "+0.7 Indirect Defense"], //241
+    ["Furnace", "furnace", "A furnace. Having this in your inventory will passively reduce fuel requirements in recipies by 1.", "Crafting", "Reduces recipe fuel requirements by one"], //242
+    ["Box", "box", "A box. It has the following items in it:", "Unknown", "You can take items out of it"], //243
+    ["Hammer", "hammer", "A hammer capable of messing with Structures.", "Unknown", "Use it to mess with a Structure somehow (not consumed)<br />Equip for +0.7 Direct Attack and +4 damage vs. Structures"], //244
+    ["bobm", "bobm", "it goes boom", "Unknown", "Use it near someone to Die and deal 1d40+40 to everyone in the nearby area (including you)"], //245
+    ["Deployable Cannon", "cannon", "A cannon, ready for deploying.", "Unknown", "Deploy it to create a Cannon"], //246
+    ["Sponge", "sponge", "A sponge. It can absorb water, and the abrasive side is kinda scratchy.", "Unknown", "Use it to remove water from something (not consumed)<br />Equip for +0.7 Direct Attack and 15% chance to inflict Soaked (1 turn)"], //247
+    ["Esolang", "esolang", "An \"esoteric language\". You're not sure what it does, are how to use it, but that's the fun part!<br />Skill level: ", "Unknown", "Does something random on use<br />Usually fails, chance of failure decreases with higher Skill level<br />Using it increases Skill level"], //248
+    ["Santa Hat", "santa_hat", "A traditional(-ish) Christmas hat.", "Christmas", "+1 Indirect Defense<br />+1 Indirect Attack<br />+5% XP from Monsters"], //246
 ]

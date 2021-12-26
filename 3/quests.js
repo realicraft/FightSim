@@ -6,9 +6,9 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward]
-    ["Hang a Stocking.", "Unclaimed", "1 Effect Candy", "52"],
-    ["Harvest a crop.", "Unclaimed", "1 Skill Candy", "52"],
-    ["Obtain an item.", "Unclaimed", "1 Item Candy", "52"],
+    ["Use a Candy.", "Unclaimed", "1 Misc EXP", "53"],
+    ["Obtain a Stick.", "Unclaimed", "1 Stick, 5% Chopping Exp", "53"],
+    ["Craft an item.", "Unclaimed", "40% Crafting Exp", "53"],
     ["Create a Structure", "Unclaimed", "30% Construction Exp, 3 Planks", "52~55"],
     ["Go Digging twice.", "Unclaimed", "40% Digging Exp", "52~55"],
     ["Deal 10 damage.", "Unclaimed", "3 Misc EXP, 1 Rock", "52~55"],
@@ -19,6 +19,9 @@ var quests = [ // [quest, claimed, reward]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Hang a Stocking.", "Claimed by Byron", "1 Effect Candy", "52"],
+        ["Harvest a crop.", "Claimed by TwilightSeleneMisty", "1 Skill Candy", "52"],
+        ["Obtain an item.", "Claimed by TwilightSeleneMisty", "1 Item Candy", "52"],
         ["Go Mining.", "Claimed by Byron", "25% Mining Exp", "51"],
         ["Go Digging.", "Unclaimed", "25% Digging Exp", "51"],
         ["Attack someone.", "Unclaimed", "3 Misc EXP", "51"],

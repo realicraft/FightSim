@@ -12,9 +12,9 @@ for (var i of moblist) {
     mobs_group += i[0]
     mobs_group += '</h3><div class="collapse_body" style="display:none;">'
     mobs_group += '<p>Health: ' + i[1] + '<br />'
-    mobs_group += 'Attack: ' + i[2][0] + '+' + i[2][1] + '<br />'
-    mobs_group += 'Defense: ' + i[3][0] + '+' + i[3][1] + '</p><p style="margin-bottom:2px;">Drops:</p><table style="margin-top:2px;"><tr>'
-    for (j of i[4]) {
+    mobs_group += 'Attack: ' + i[2][0] + '+' + i[2][1] + " (" + i[4][0] + '+' + i[4][1] + ')<br />'
+    mobs_group += 'Defense: ' + i[3][0] + '+' + i[3][1] + " (" + i[5][0] + '+' + i[5][1] + ')</p><p style="margin-bottom:2px;">Drops:</p><table style="margin-top:2px;"><tr>'
+    for (j of i[6]) {
         mobs_group += "<td class='inv_item'>";
         if (j[0] == 0) {}
         else {
@@ -33,7 +33,7 @@ for (var i of moblist) {
         mobs_group += "</td>"
     }
     mobs_group += '</tr><tr>'
-    for (k of i[4]) {
+    for (k of i[6]) {
         mobs_group += '<td>'
         mobs_group += k[2]
         mobs_group += '</td>'

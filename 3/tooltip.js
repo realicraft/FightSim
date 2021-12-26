@@ -10,11 +10,15 @@ var tooltip = function(name, desc, source, bonus) {
     tooltipBonusEl.innerHTML = bonus;
     tooltipBodyEl.setAttribute("style", "display: block;")
 }
-var tt = function(id=0, nbt="") {
-    if (nbt == "") {tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], equiplist[id][4])}
-    else {
+var tt = function(id=0, nbt="", dnbt="") {
+    if (nbt == "" && dnbt == "") {tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], equiplist[id][4])}
+    else if (nbt == "") {tooltip(equiplist[id][0], equiplist[id][2]+dnbt, equiplist[id][3], equiplist[id][4])}
+    else if (dnbt == "") {
         if (equiplist[id][4] == "") {tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], (nbt))}
         else {tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], (equiplist[id][4]+"<br />"+nbt))}
+    } else {
+        if (equiplist[id][4] == "") {tooltip(equiplist[id][0], equiplist[id][2]+dnbt, equiplist[id][3], (nbt))}
+        else {tooltip(equiplist[id][0], equiplist[id][2]+dnbt, equiplist[id][3], (equiplist[id][4]+"<br />"+nbt))}
     }
 }
 var nt = function() {
