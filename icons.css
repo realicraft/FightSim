@@ -947,6 +947,42 @@ span.small_icon {
     background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -192px -96px;
 }
+.radish {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -64px -32px;
+}
+.gold_radish {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -96px -32px;
+}
+.hammer {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -128px -288px;
+}
+.chain_helm {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -0px -64px;
+}
+.chain_chest {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -32px -64px;
+}
+.chain_legs {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -64px -64px;
+}
+.chain_boots {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -96px -64px;
+}
+.beetroot {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -128px -32px;
+}
+.gold_beetroot {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -160px -32px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");

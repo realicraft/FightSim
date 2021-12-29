@@ -32,15 +32,15 @@ var inventoryList = {
     ],
     "IncendiaryGaming": [
          [32,1,{}],[51,11,{}],[36,5,{}],
-         [243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[246,1,{}], [0,1,{}],
+         [243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat"]}],[246,1,{}], [0,1,{}],
           [0,1,{}],  [0,1,{}], [0,1,{}],
           [0,1,{}],  [0,1,{}], [0,1,{}]
     ],
     "Byron_Inc_TBG": [
         [40,1,{}],                  [25,1,{}],  [46,3,{}],
-        [45,1,{}],[207,1,{potion_eff:[10,1]}],  [51,7,{}],
-        [23,1,{}],                 [243,1,{desc_append:["<br />3x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[124,10,{}],
-         [0,1,{}],                   [0,1,{}],   [0,1,{}]
+        [45,1,{}],[207,1,{potion_eff:[10,1]}],  [51,8,{}],
+        [23,1,{}],[243,1,{desc_append:["<br />3x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[124,10,{}],
+        [36,2,{}],                  [37,1,{}],   [0,1,{}]
     ],
     "cheesyfriedeggs": [
         [35,3,{}], [38,1,{}], [46,4,{}],
@@ -49,10 +49,10 @@ var inventoryList = {
          [0,1,{}],  [0,1,{}],  [0,1,{}]
     ],
     "solitare": [
-         [36,5,{}],[190,1,{}], [44,2,{}],
-         [45,1,{}],[187,1,{}], [51,6,{}],
-        [216,1,{}],[174,1,{}], [22,1,{}],
-         [24,1,{}], [49,2,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />7x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}]
+        [194,4,{}],[190,1,{}],[203,3,{}],
+         [51,2,{}],[187,1,{}], [68,3,{}],
+         [37,1,{}],[174,1,{}], [22,1,{}],
+         [23,1,{}],  [0,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />7x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x LTT Hoodie"]}]
     ],
     "Faressain": [
         [39,1,{}],[240,1,{}],[36,10,{}],
@@ -70,7 +70,7 @@ var inventoryList = {
          [44,6,{}],                     [46,9,{}], [45,4,{}],
         [154,1,{}],                      [9,1,{}], [51,3,{}],
          [30,1,{}],                     [18,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],
-        [215,1,{}],[248,1,{desc_append:["0/50"]}],  [0,1,{}]
+          [0,1,{}],[248,1,{desc_append:["0/50"]}],  [0,1,{}]
     ],
     "TwilightSeleneMisty": [
          [92,1,{}],[130,1,{}],                                                        [72,1,{}],

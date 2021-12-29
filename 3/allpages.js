@@ -7,7 +7,7 @@ var headerLinks = {
     "3": [["Info", "info"],["Inventories", "inventories"],["Stats", "stats"],["Structures", "structures"],["Voting", "voting"],["Gardens", "gardens"],["Quests","quests"],["Mobs","mobs"]],
     "i": [["All Items", "creative"],["Crafting", "crafting"],["Encyclopedia", "help"]]
 }
-var timeboxInfo = [53, "dawn", "snowy", "Dawn", "Snowing"]
+var timeboxInfo = [54, "day", "snowy", "Day", "Snowing"]
 
 var headerCont = '<div class="header"><span class="small_icon fs3" style="position:absolute;left:4px;top:4px;" title="FS3"></span>'
 for (var i in headerLinks["3"]) {headerCont += '\n<a href="' + headerLinks["3"][i][1] + '.html">' + headerLinks["3"][i][0] + '</a>'}
@@ -21,7 +21,7 @@ timeboxCont += '\n<span id="time_box_turns" title="Current Turn">' + timeboxInfo
 timeboxCont += '\n<span id="time_box_weather_container">' + '<span class="small_icon ' + timeboxInfo[1] + '" id="time_box_time" title="Time of Day (' + timeboxInfo[3] + ')"></span>' + '<span class="small_icon ' + timeboxInfo[2] + '" id="time_box_weather" title="Weather (' + timeboxInfo[4] + ')"></span></span>'
 timeboxEl.innerHTML = timeboxCont
 
-var tooltipCont = '<h3 class="tooltip_name">Item Name</h3><br /><br /><p class="tooltip_desc">Item description. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br /><p class="tooltip_bonus">+1 Place Holding</p><p class="tooltip_src1">Source: </p><p class="tooltip_src2">Item source</p>'
+var tooltipCont = '<h3 class="tooltip_name">Item Name</h3><br /><p class="tooltip_cat1">Categories: </p><p class="tooltip_cat2">Placeholder</p><br /><br /><p class="tooltip_desc">Item description. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br /><p class="tooltip_bonus">+1 Place Holding</p><p class="tooltip_src1">Source: </p><p class="tooltip_src2">Item source</p>'
 tooltipEl.innerHTML = tooltipCont
 
 var infoCont = '<h3 class="info_name">Info Topic</h3><br /><p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>'

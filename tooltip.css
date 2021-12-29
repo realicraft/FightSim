@@ -12,17 +12,17 @@
     right: 0px;
     display: none;
 }
-.tooltip_src1 {
+.tooltip_src1, .tooltip_cat1 {
     color: #8f8f8f;
 }
-.tooltip_src1, .tooltip_src2, .tooltip_name, .tooltip_desc {
+.tooltip_src1, .tooltip_src2, .tooltip_cat1, .tooltip_cat2, .tooltip_name, .tooltip_desc {
     display: inline;
 }
 .tooltip_name {
     font-size: 20px;
     color: cyan;
 }
-.tooltip_src1, .tooltip_src2 {
+.tooltip_src1, .tooltip_src2, .tooltip_cat1, .tooltip_cat2 {
     font-size: 10px;
     font-style: italic;
 }

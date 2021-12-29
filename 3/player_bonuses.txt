@@ -14,6 +14,8 @@ Incendiary:
  Stats:
   Indirect Attack: (+1)
    Rock on a Stick (+1)
+  Indirect Defense: (+0.7)
+   LTT Hoodie (+0.7)
   Health: (+2)
    Player Level (+2)
  Skills:
@@ -23,9 +25,10 @@ Byron:
    Iron Chestplate (+1)
    Diamond Shield (+1)
    Golden Carrots (+4.6)
-  Direct Defense: (+2)
+  Direct Defense: (+3)
    Iron Chestplate (+1)
    Diamond Shield (+1)
+   Defense Up (+1)
   Indirect Attack: (+3)
    Iron Sword (+2)
    Player Level (+1)
@@ -43,11 +46,16 @@ solitare:
  Stats:
   Health: (+1)
    Player Level (+1)
-  Indirect Attack: (+1)
+  Indirect Attack: (+2)
    Stone Shovel (+1)
+   Santa Hat (+1)
+  Indirect Defense: (+1)
+   Santa Hat (+1)
+  XP from Monsters: (+5%)
+   Santa Hat (+5%)
  Skills:
-  Digging: (+1)
-   Stone Shovel (+1)
+  Mining: (+1)
+   Stone Pickaxe (+1)
 Faressain:
  Stats:
  Skills:
