@@ -92,4 +92,9 @@ td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
     bottom: 0px;
     /*From https://stackoverflow.com/a/4919231 */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /*font-family: "FightSim-Num";*/
 }
+/*@font-face {
+    font-family: "FightSim-Num";
+    src: url("FightSim-Num.ttf");
+}*/ /* font was made with fontforge and for some reason doesn't want to work (everything but .notdef is empty)*/

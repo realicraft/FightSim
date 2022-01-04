@@ -7,12 +7,12 @@ desc_append: string to append
 // [id, count, {nbt_name: [nbt_conts]}]
 var inventoryList = {
     "realicraft": [
-        [43,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[0,1,{}],
+        [43,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[99,6,{}],
          [0,1,{}],  [0,1,{}],[0,1,{}],
          [0,1,{}],  [0,1,{}],[0,1,{}],
          [0,1,{}],  [0,1,{}],[0,1,{}]
     ],
-    "SausageMcSausage": [
+    "SausageMcSauce": [
         [240,1,{}],[244,1,{}],[0,1,{}],
           [0,1,{}],  [0,1,{}],[0,1,{}],
           [0,1,{}],  [0,1,{}],[0,1,{}],
@@ -24,7 +24,7 @@ var inventoryList = {
           [0,1,{}], [0,1,{}],[0,1,{}],
           [0,1,{}], [0,1,{}],[0,1,{}]
     ],
-    "Squrrelflight": [
+    "Squirrelflight": [
         [240,1,{}],[245,1,{}],[0,1,{}],
           [0,1,{}],  [0,1,{}],[0,1,{}],
           [0,1,{}],  [0,1,{}],[0,1,{}],
@@ -32,15 +32,15 @@ var inventoryList = {
     ],
     "IncendiaryGaming": [
          [32,1,{}],[51,11,{}],[36,5,{}],
-         [243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat"]}],[246,1,{}], [0,1,{}],
+         [243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat"]}],[246,1,{}], [46,3,{}],
           [0,1,{}],  [0,1,{}], [0,1,{}],
           [0,1,{}],  [0,1,{}], [0,1,{}]
     ],
     "Byron_Inc_TBG": [
         [40,1,{}],                  [25,1,{}],  [46,3,{}],
-        [45,1,{}],[207,1,{potion_eff:[10,1]}],  [51,8,{}],
-        [23,1,{}],[243,1,{desc_append:["<br />3x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[124,10,{}],
-        [36,2,{}],                  [37,1,{}],   [0,1,{}]
+        [45,1,{}],[207,1,{potion_eff:[10,1]}], [51,10,{}],
+        [23,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[124,10,{}],
+        [36,5,{}],                  [37,2,{}],   [0,1,{}]
     ],
     "cheesyfriedeggs": [
         [35,3,{}], [38,1,{}], [46,4,{}],
@@ -52,7 +52,7 @@ var inventoryList = {
         [194,4,{}],[190,1,{}],[203,3,{}],
          [51,2,{}],[187,1,{}], [68,3,{}],
          [37,1,{}],[174,1,{}], [22,1,{}],
-         [23,1,{}],  [0,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />7x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x LTT Hoodie"]}]
+         [23,1,{}],  [0,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />7x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x LTT Hoodie<br />5x Beetroot<br />5x Ripe Beetroot"]}]
     ],
     "Faressain": [
         [39,1,{}],[240,1,{}],[36,10,{}],
@@ -67,16 +67,16 @@ var inventoryList = {
          [0,1,{}], [0,1,{}],  [0,1,{}]
     ],
     "gilbert_given_TBG": [
-         [44,6,{}],                     [46,9,{}], [45,4,{}],
-        [154,1,{}],                      [9,1,{}], [51,3,{}],
-         [30,1,{}],                     [18,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],
-          [0,1,{}],[248,1,{desc_append:["0/50"]}],  [0,1,{}]
+         [44,6,{}],                     [46,9,{}],[45,4,{}],
+        [154,1,{}],                      [9,1,{}],[51,3,{}],
+         [30,1,{}],                     [18,1,{}],[89,3,{}],
+          [0,1,{}],[248,1,{desc_append:["2/50"]}], [0,1,{}]
     ],
     "TwilightSeleneMisty": [
          [92,1,{}],[130,1,{}],                                                        [72,1,{}],
         [144,1,{}],[ 45,3,{}],                                                        [23,1,{}],
          [31,1,{}],  [9,1,{}],                                                        [68,7,{}],
-        [240,1,{}], [47,8,{}],[243,1,{desc_append:["<br />1x Item Candy<br />1x Skill Candy<br />1x Mystery Gift"]}]
+        [239,1,{}], [47,8,{}],[243,1,{desc_append:["<br />1x Item Candy<br />1x Skill Candy<br />1x Mystery Gift"]}]
     ],
 };
 

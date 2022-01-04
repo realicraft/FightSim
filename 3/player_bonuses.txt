@@ -21,10 +21,10 @@ Incendiary:
  Skills:
 Byron:
  Stats:
-  Indirect Defense: (+6.6)
+  Indirect Defense: (+7)
    Iron Chestplate (+1)
    Diamond Shield (+1)
-   Golden Carrots (+4.6)
+   Golden Carrots (+5.0)
   Direct Defense: (+3)
    Iron Chestplate (+1)
    Diamond Shield (+1)

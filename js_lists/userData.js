@@ -14,20 +14,20 @@ var user_data = {
         "kills": 0,"deaths": 3,"skills": [],"effects": [[1,"*"]],
         "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,0,10]
     },
-    "Squrrelflight": {
+    "Squirrelflight": {
         "type": 0,"health": [97,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],
         "kills": 0,"deaths": 1,"skills": [],"effects": [[1,"*"]],
         "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,0,10]
     },
     "IncendiaryGaming": {
-        "type": 0,"health": [61,102],"attack": [[8,3],[7,3]],"defense": [[6,0],[5,0]],
-        "kills": 1,"deaths": 1,"skills": [[7,4,58],[8,0,10],[4,0,30],[2,2,23]],"effects": [],
-        "equips": [1,241,3,4,78,6,7,8,""],"exp": [2,13,30]
+        "type": 0,"health": [61,102],"attack": [[8,3],[7,3]],"defense": [[5.7,0],[5,0]],
+        "kills": 1,"deaths": 1,"skills": [[7,4,128],[8,0,10],[4,0,30],[2,2,23]],"effects": [],
+        "equips": [1,241,3,4,78,6,7,8,""],"exp": [2,17,30]
     },
     "Byron_Inc_TBG": {
-        "type": 0,"health": [96,105],"attack": [[10,4],[7,3]],"defense": [[11.6,3],[5,0]],
-        "kills": 2,"deaths": 2,"skills": [[1,6,281],[4,1,0],[7,3,18],[8,2,30],[10,0,20],[2,2,130],[3,1,20],[11,0,70],[6,0,10]],"effects": [[16,3]],
-        "equips": [1,164,3,4,18,13,7,12,28],"exp": [5,10,60]
+        "type": 0,"health": [96,105],"attack": [[10,4],[7,3]],"defense": [[12,3],[5,0]],
+        "kills": 2,"deaths": 2,"skills": [[1,6,281],[4,1,0],[7,3,18],[8,2,30],[10,0,20],[2,3,10],[3,1,20],[11,0,70],[6,0,10]],"effects": [[16,2]],
+        "equips": [1,164,3,4,18,13,7,12,34],"exp": [5,12,60]
     },
     "cheesyfriedeggs": {
         "type": 0,"health": [92,101],"attack": [[7,4],[7,3]],"defense": [[5,0],[5,0]],
@@ -50,9 +50,9 @@ var user_data = {
         "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,2,10]
     },
     "gilbert_given_TBG": {
-        "type": 0,"health": [85,101],"attack": [[8,3],[7,3]],"defense": [[5,0],[5,0]],
+        "type": 0,"health": [1,101],"attack": [[8,3],[7,3]],"defense": [[5,0],[5,0]],
         "kills": 0,"deaths": 0,"skills": [[3,1,120],[2,0,85],[6,0,55]],"effects": [],
-        "equips": [1,2,3,4,24,6,7,8,""],"exp": [1,13,20]
+        "equips": [1,2,3,4,24,6,7,8,""],"exp": [1,17,20]
     },
     "TwilightSeleneMisty": {
         "type": 0,"health": [34,101],"attack": [[8,3],[7,3]],"defense": [[6,0],[5,0]],

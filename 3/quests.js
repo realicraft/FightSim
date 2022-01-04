@@ -1,15 +1,16 @@
 var questbox_turn = document.getElementById("quest_turn")
 var questbox_quadturn = document.getElementById("quest_quadturn")
 var questbox_full = document.getElementById("quest_full")
+var questbox_rep = document.getElementById("quest_rep")
 var questbox_turnpast = document.getElementById("quest_turnpast")
 var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward]
-    ["Use a Candy.", "Unclaimed", "2 Misc EXP", "54"],
-    ["Go Chopping.", "Unclaimed", "1 Log, 30% Chopping Exp", "54"],
-    ["Make 10 edits to the wiki.", "Unclaimed", "4 Misc EXP, 1 Item Candy", "54"],
-    ["Create a Structure", "Unclaimed", "30% Construction Exp, 3 Planks", "52~55"],
+    ["Use a Candy.", "Unclaimed", "2 Misc EXP, 1 Copper Bar", "55"],
+    ["Go Digging.", "Unclaimed", "3 Gravel, 35% Digging Exp", "55"],
+    ["Start a Potion.", "Unclaimed", "40% Alchemy Exp", "55"],
+    ["Create a Structure.", "Claimed by Incendiary", "30% Construction Exp, 3 Planks", "52~55"],
     ["Go Digging twice.", "Unclaimed", "40% Digging Exp", "52~55"],
     ["Deal 10 damage.", "Unclaimed", "3 Misc EXP, 1 Rock", "52~55"],
     ["Die.", "Unclaimed", "5 Misc Exp, 4 Iron Ore"],
@@ -17,8 +18,46 @@ var quests = [ // [quest, claimed, reward]
     ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
 ]
 
+var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
+    ["Harvest Crops.", "This is a repeatable quest, meaning you can complete it multiple times!<br />After the big goal is completed, the quest will be removed.",
+        [
+            ["reali", "1 Crop", "1 Misc EXP", "0/1"],
+            ["S.&nbsp;McSaus", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Incendiary", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Byron", "1 Crop", "1 Misc EXP", "0/1"],
+            ["cheesy", "1 Crop", "1 Misc EXP", "0/1"],
+            ["solitare", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Leopardy", "1 Crop", "1 Misc EXP", "0/1"],
+            ["gilbert", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Twilight", "1 Crop", "1 Misc EXP", "0/1"],
+        ], "50 Harvests (0/50)"
+    ],
+    ["Make Wiki Edits.", "The edits need to be significant in some way; fixing a typo won't count.",
+        [
+            ["reali", "10 Edits", "1 Skill Candy", "0/10"],
+            ["S.&nbsp;McSause", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Cats.", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Squirrelflight", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Incendiary", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Byron", "10 Edits", "1 Skill Candy", "0/10"],
+            ["cheesy", "10 Edits", "1 Skill Candy", "0/10"],
+            ["solitare", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Fares", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Leopardy", "10 Edits", "1 Skill Candy", "0/10"],
+            ["gilbert", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Twilight", "10 Edits", "1 Skill Candy", "0/10"],
+        ], "500 Edits (0/500)"
+    ],
+]
+
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Use a Candy.", "Claimed by gilbert", "2 Misc EXP", "54"],
+        ["Go Chopping.", "Unclaimed", "1 Log, 30% Chopping Exp", "54"],
+        ["Make 10 edits to the wiki.", "Unclaimed", "4 Misc EXP, 1 Item Candy", "54"],
         ["Use a Candy.", "Claimed by Byron", "1 Misc EXP", "53"],
         ["Obtain a Stick.", "Unclaimed", "1 Stick, 5% Chopping Exp", "53"],
         ["Craft an item.", "Unclaimed", "40% Crafting Exp", "53"],
@@ -126,6 +165,80 @@ for (i in quests.slice(0,3)) {
     quest_full += quest_current
 }
 questbox_full.innerHTML = quest_full
+
+// Rep Quests
+quest_full = '<h2>Repeatable Quests</h2>'
+for (i in repquests) {
+    i = parseInt(i)
+    quest_current = '<div class="struct repquestbox"><div class="repquesttop">'
+    quest_current += repquests[i][0]
+    quest_current += '</div><div class="repquestmid">'
+    quest_current += repquests[i][1]
+    quest_current += '</div><div style="height:40px;"></div>'
+    var l = 6
+    for (var j = 0; j < Math.ceil(repquests[i][2].length/6); j++) {
+        quest_current += '<table class="repquesttable"><tr><th>User</th>'
+        if ((j+1)*6 > repquests[i][2].length) {l = repquests[i][2].length % 6}
+        for (k in repquests[i][2].slice(0, l)) {quest_current += '<th>' + repquests[i][2][parseInt(k)+(j*6)][0] + '</th>'}
+        quest_current += '<th>User</th></tr><th>Req.</th>'
+        for (k in repquests[i][2].slice(0, l)) {quest_current += '<td>' + repquests[i][2][parseInt(k)+(j*6)][1] + '</td>'}
+        quest_current += '<th>Req.</th></tr><tr><th>Reward</th>'
+        for (k in repquests[i][2].slice(0, l)) {quest_current += '<td>' + repquests[i][2][parseInt(k)+(j*6)][2] + '</td>'}
+        quest_current += '<th>Reward</th></tr><tr><th>Comp.</th>'
+        for (k in repquests[i][2].slice(0, l)) {quest_current += '<td>' + repquests[i][2][parseInt(k)+(j*6)][3] + '</td>'}
+        quest_current += '<th>Comp.</th></tr></table>'
+        
+    }
+    quest_current += '<div class="repquestbottom">Goal: <b>' + repquests[i][3] + '</b></div>'
+    quest_full += '</div>'
+    quest_full += quest_current
+}
+questbox_rep.innerHTML = quest_full
+/*
+<div class="struct repquestbox">
+    <div class="repquesttop">Harvest Crops.</div>
+    <div class="reqquestmid">This is a repeatable quest, meaning you can complete it multiple times!</div>
+    <table style="top: 40px;position: relative;font-size: 12px !important;">
+        <tr>
+            <th>User</th>
+            <th>aaaaaa</th>
+            <th>bbbbbb</th>
+            <th>cccccc</th>
+            <th>dddddd</th>
+            <th>eeeeee</th>
+            <th>ffffff</th>
+            <th>User</th>
+        </tr><tr>
+            <th>Req.</th>
+            <td>1 Crop</td>
+            <td>1 Crop</td>
+            <td>1 Crop</td>
+            <td>3 Crops</td>
+            <td>1 Crop</td>
+            <td>1 Crop</td>
+            <th>Req.</th>
+        </tr><tr>
+            <th>Reward</th>
+            <td>1 Misc EXP</td>
+            <td>1 Misc EXP</td>
+            <td>1 Misc EXP</td>
+            <td>3 Misc EXP</td>
+            <td>1 Misc EXP</td>
+            <td>1 Misc EXP</td>
+            <th>Reward</th>
+        </tr><tr>
+            <th>Comp.</th>
+            <td>0/1</td>
+            <td>0/1</td>
+            <td>0/1</td>
+            <td>0/3</td>
+            <td>0/1</td>
+            <td>0/1</td>
+            <th>Comp.</th>
+        </tr>
+    </table>
+</div>
+*/
 
 // Turn Quests (Past)
 quest_full = '<span class="small_icon collapse_button collapse_closed" onclick="collapse(\'quest_turnpast\');"></span><h3 class="collapse_header">Turn Quests (Past)</h3><div class="collapse_body" style="display:none;">'

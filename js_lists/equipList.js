@@ -253,4 +253,6 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Chain Chestplate", "chain_chest", "A chestplate made of chainmail.", "Crafting", "+1 Direct Defense<br />+1 Indirect Defense", [2]], //251
     ["Chain Leggings", "chain_legs", "A pair of leggings made of chainmail.", "Crafting", "+1 Direct Defense", [3]], //252
     ["Chain Boots", "chain_boots", "A pair of boots made of chainmail.", "Crafting", "+1 Indirect Defense", [4]], //253
+    ["4 Leaf Clover", "clover4", "A clover with 4 leaves. Supposedly brings you luck.", "Gathering", "+1 Luck<br />+0.1 Indirect Defense", [8,11,14]], //254
+    ["8 Leaf Clover", "clover8", "A clover with 8 leaves. This is really lucky!", "Gathering", "Holding this makes you luckier", [14]], //254
 ]

@@ -26,6 +26,11 @@
 .questbox {
     height: 70px;
 }
+.repquestbox {
+    min-height: 140px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .questbottomleft {
     position: absolute;
     left: 5px;
@@ -34,4 +39,26 @@
     height: 15px;
     font-size: 15px;
     text-align: left;
+}
+.repquesttop {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    margin: auto;
+    width: 100%;
+}
+.repquestmid {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+}
+.repquesttable {
+    margin-bottom: 5px;
+}
+.repquesttable tbody, .repquesttable tr, .repquesttable th, .repquesttable td {
+    font-size: 12px;
+}
+.repquestbottom {
+    font-size: 14px;
 }

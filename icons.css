@@ -983,6 +983,14 @@ span.small_icon {
     background-image: url("Icons/Exported/plant_sheet.png");
     background-position: -160px -32px;
 }
+.clover4 {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -32px -128px;
+}
+.clover8 {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -64px -128px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");
