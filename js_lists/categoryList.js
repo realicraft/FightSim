@@ -31,4 +31,6 @@ var categorylist = [ // [name]
     ["Unique"], //29
     ["Consumable"], //30
     ["Candy"], //31
+    ["Plot"], //32
+    ["Special"], //33
 ]

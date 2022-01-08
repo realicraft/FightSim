@@ -3,7 +3,9 @@ Valid 'NBT' data:
 potion_eff: effect id, effect length (turns)
 enchant: enchant id, enchant level
 desc_append: string to append
-*/
+
+Future 'NBT' data:
+name_color: color as a string*/
 // [id, count, {nbt_name: [nbt_conts]}]
 var inventoryList = {
     "realicraft": [
@@ -37,22 +39,22 @@ var inventoryList = {
           [0,1,{}],  [0,1,{}], [0,1,{}]
     ],
     "Byron_Inc_TBG": [
-        [40,1,{}],                  [25,1,{}],  [46,3,{}],
-        [45,1,{}],[207,1,{potion_eff:[10,1]}], [51,10,{}],
+        [40,1,{}],                  [25,1,{}],[0,1,{}],
+         [0,1,{}],[207,1,{potion_eff:[10,1]}],[0,1,{}],
         [23,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[124,10,{}],
-        [36,5,{}],                  [37,2,{}],   [0,1,{}]
+         [0,1,{}],                   [0,1,{}],[0,1,{}]
     ],
     "cheesyfriedeggs": [
-        [35,3,{}], [38,1,{}], [46,4,{}],
-        [47,5,{}], [10,1,{}],[143,1,{}],
-        [44,2,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[247,1,{}],
-         [0,1,{}],  [0,1,{}],  [0,1,{}]
+         [35,3,{}], [38,1,{}], [46,4,{}],
+         [47,5,{}], [10,1,{}],[143,1,{}],
+         [44,2,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />1x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[247,1,{}],
+        [35,10,{}],  [0,1,{}],  [0,1,{}]
     ],
     "solitare": [
-        [194,4,{}],[190,1,{}],[203,3,{}],
-         [51,2,{}],[187,1,{}], [68,3,{}],
-         [37,1,{}],[174,1,{}], [22,1,{}],
-         [23,1,{}],  [0,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />7x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x LTT Hoodie<br />5x Beetroot<br />5x Ripe Beetroot"]}]
+        [237,1,{}], [73,1,{}], [50,5,{}],
+         [49,2,{}],[187,1,{}],  [0,1,{}],
+          [0,1,{}],[174,1,{}], [22,1,{}],
+         [24,1,{}], [47,6,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />7x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x LTT Hoodie<br />5x Beetroot<br />5x Ripe Beetroot"]}]
     ],
     "Faressain": [
         [39,1,{}],[240,1,{}],[36,10,{}],

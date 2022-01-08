@@ -9,6 +9,7 @@ var recipetypelist = [
     "craft_alchemy",
     "craft_smithing",
     "craft_smelting",
+    "craft_meatpaste",
 ]
 
 for (var i in recipelist) {

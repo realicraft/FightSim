@@ -991,6 +991,18 @@ span.small_icon {
     background-image: url("Icons/Exported/plant_sheet.png");
     background-position: -64px -128px;
 }
+.fertilizer {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -96px -128px;
+}
+.cocoa_bean {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -192px -32px;
+}
+.gold_cocoa_bean {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -224px -32px;
+}
 /* info (large) */
 .yes, .passed {
     background-image: url("Icons/Exported/info_sheet.png");

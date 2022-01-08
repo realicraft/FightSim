@@ -7,12 +7,12 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward]
-    ["Use a Candy.", "Unclaimed", "2 Misc EXP, 1 Copper Bar", "55"],
-    ["Go Digging.", "Unclaimed", "3 Gravel, 35% Digging Exp", "55"],
-    ["Start a Potion.", "Unclaimed", "40% Alchemy Exp", "55"],
-    ["Create a Structure.", "Claimed by Incendiary", "30% Construction Exp, 3 Planks", "52~55"],
-    ["Go Digging twice.", "Unclaimed", "40% Digging Exp", "52~55"],
-    ["Deal 10 damage.", "Unclaimed", "3 Misc EXP, 1 Rock", "52~55"],
+    ["Go Gathering.", "Unclaimed", "40% Gathering Exp", "56"],
+    ["Kill a mob.", "Unclaimed", "2 Misc EXP", "56"],
+    ["Make a weapon.", "Unclaimed", "10 HP, 2 Misc EXP", "56"],
+    ["Equip a piece of armor.", "Unclaimed", "Iron Boots", "56~59"],
+    ["Find a 4-Leaf Clover.", "Unclaimed", "4-Leaf Clover, 3 Misc EXP", "56~59"],
+    ["Make an adjustment to a Type.", "Unclaimed", "1 Misc EXP", "56~59"],
     ["Die.", "Unclaimed", "5 Misc Exp, 4 Iron Ore"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc Exp"],
     ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
@@ -26,35 +26,38 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
             ["Incendiary", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Byron", "1 Crop", "1 Misc EXP", "0/1"],
-            ["cheesy", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Byron", "3 Crops", "3 Misc EXP", "0/3"],
+            ["cheesy", "2 Crops", "2 Misc EXP", "0/2"],
             ["solitare", "1 Crop", "1 Misc EXP", "0/1"],
             ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
             ["Leopardy", "1 Crop", "1 Misc EXP", "0/1"],
             ["gilbert", "1 Crop", "1 Misc EXP", "0/1"],
             ["Twilight", "1 Crop", "1 Misc EXP", "0/1"],
-        ], "50 Harvests (0/50)"
+        ], "75 Harvests (4/75)"
     ],
     ["Make Wiki Edits.", "The edits need to be significant in some way; fixing a typo won't count.",
         [
-            ["reali", "10 Edits", "1 Skill Candy", "0/10"],
+            ["reali", "Ineligible", "N/A", "N/A"],
             ["S.&nbsp;McSause", "10 Edits", "1 Skill Candy", "0/10"],
             ["Cats.", "10 Edits", "1 Skill Candy", "0/10"],
             ["Squirrelflight", "10 Edits", "1 Skill Candy", "0/10"],
             ["Incendiary", "10 Edits", "1 Skill Candy", "0/10"],
-            ["Byron", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Byron", "10 Edits", "1 Skill Candy", "3/10"],
             ["cheesy", "10 Edits", "1 Skill Candy", "0/10"],
             ["solitare", "10 Edits", "1 Skill Candy", "0/10"],
             ["Fares", "10 Edits", "1 Skill Candy", "0/10"],
             ["Leopardy", "10 Edits", "1 Skill Candy", "0/10"],
             ["gilbert", "10 Edits", "1 Skill Candy", "0/10"],
             ["Twilight", "10 Edits", "1 Skill Candy", "0/10"],
-        ], "500 Edits (0/500)"
+        ], "500 Edits (3/500)"
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Use a Candy.", "Claimed by solitare", "2 Misc EXP, 1 Copper Bar", "55"],
+        ["Go Digging.", "Unclaimed", "3 Gravel, 35% Digging Exp", "55"],
+        ["Start a Potion.", "Unclaimed", "40% Alchemy Exp", "55"],
         ["Use a Candy.", "Claimed by gilbert", "2 Misc EXP", "54"],
         ["Go Chopping.", "Unclaimed", "1 Log, 30% Chopping Exp", "54"],
         ["Make 10 edits to the wiki.", "Unclaimed", "4 Misc EXP, 1 Item Candy", "54"],
@@ -96,6 +99,9 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Damage someone.", "Unclaimed", "1 Misc Exp", "42"],
     ],
     [
+        ["Create a Structure.", "Claimed by Incendiary", "30% Construction Exp, 3 Planks", "52~55"],
+        ["Go Digging twice.", "Unclaimed", "40% Digging Exp", "52~55"],
+        ["Deal 10 damage.", "Unclaimed", "3 Misc EXP, 1 Rock", "52~55"],
         ["Repair a Structure.", "Unclaimed", "30% Construction Exp, 3 Stone", "48~51"],
         ["Go Chopping twice.", "Claimed by Byron", "35% Chopping Exp", "48~51"],
         ["Mine 2 Iron Ore.", "Claimed by Byron", "25% Mining Exp, 1 Coal", "48~51"],

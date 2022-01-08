@@ -254,5 +254,21 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Chain Leggings", "chain_legs", "A pair of leggings made of chainmail.", "Crafting", "+1 Direct Defense", [3]], //252
     ["Chain Boots", "chain_boots", "A pair of boots made of chainmail.", "Crafting", "+1 Indirect Defense", [4]], //253
     ["4 Leaf Clover", "clover4", "A clover with 4 leaves. Supposedly brings you luck.", "Gathering", "+1 Luck<br />+0.1 Indirect Defense", [8,11,14]], //254
-    ["8 Leaf Clover", "clover8", "A clover with 8 leaves. This is really lucky!", "Gathering", "Holding this makes you luckier", [14]], //254
+    ["8 Leaf Clover", "clover8", "A clover with 8 leaves. This is really lucky!", "Meatpasting", "Holding this makes you luckier", [14]], //255
+    ["Raw Beef", "raw_beef", "Some raw beef from a cow. You should probably cook it.", "Mobs", "Consume for +3 HP<br />50% chance to give Nausea (1 turn)", [10,11,30]], //256
+    ["Steak", "cooked_beef", "Some steak from a cow.", "Mobs", "Consume for +6 HP", [10,30]], //257
+    ["Raw Pork", "raw_pork", "Some raw pork from a pig. You should probably cook it.", "Mobs", "Consume for +3 HP<br />50% chance to give Nausea (1 turn)", [10,11,30]], //258
+    ["Cooken Pork", "cooked_pork", "Some pork from a pig.", "Mobs", "Consume for +6 HP", [10,30]], //259
+    ["Raw Chicken", "raw_chicken", "Some raw chicken from a chicken. You should probably cook it.", "Mobs", "Consume for +3 HP<br />75% chance to give Nausea (1 turn)", [10,11,30]], //260
+    ["Cooken Chicken", "cooked_chicken", "Some chicken from a chicken.", "Mobs", "Consume for +6 HP", [10,30]], //261
+    ["Raw Mutton", "raw_mutton", "Some raw mutton from a sheep. You should probably cook it.", "Mobs", "Consume for +4 HP<br />50% chance to give Nausea (1 turn)", [10,11,30]], //262
+    ["Cooked Mutton", "cooked_mutton", "Some mutton from a sheep.", "Mobs", "Consume for +8 HP", [10,30]], //263
+    ["Meat Paste", "meat_paste", "A paste made from some meat. What, exactly, would you do with this?", "Crafting", "Consume for +5 HP", [11]], //264
+    ["Cookie", "cookie", "A plain cookie.", "Cooking", "Consume for +5 HP", [10,30]], //265
+    ["Chocolate Chip Cookie", "cookie", "A cookie with chocolate chips inside. A classic.", "Cooking", "Consume for +7 HP", [10,30]], //266
+    ["Apple Cookie", "cookie", "A cookie with small chunks of apples inside.", "Cooking", "Consume for +8 HP", [10,30]], //267
+    ["Carrot Cookie", "cookie", "A cookie with small ribbons of carrot inside. It's like a carrot cake, but a cookie.<br />For some reason, you get the feeling that these will be important...", "Cooking", "Consume for +6 HP", [10,30]], //268
+    ["Cocoa Beans", "cocoa_bean", "Some cocoa beans.", "Farming", "", [13,11]], //269
+    ["Chocolate Chips", "chocolate_chips", "Some chocolate chips.", "Cooking", "Consume for +2 HP", [10,11]], //270
+    ["Chocolate Bar", "chocolate_bar", "A bar made of solid chocolate. Yummy.", "Cooking", "Consume for +5 HP", [10]], //271
 ]
