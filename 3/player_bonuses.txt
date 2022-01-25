@@ -25,10 +25,9 @@ Byron:
    Iron Chestplate (+1)
    Diamond Shield (+1)
    Golden Carrots (+5.0)
-  Direct Defense: (+3)
+  Direct Defense: (+2)
    Iron Chestplate (+1)
    Diamond Shield (+1)
-   Defense Up (+1)
   Indirect Attack: (+3)
    Iron Sword (+2)
    Player Level (+1)
@@ -47,15 +46,15 @@ solitare:
   Health: (+2)
    Player Level (+2)
   Indirect Attack: (+2)
-   Stone Shovel (+1)
+   Stone Sword (+1)
    Santa Hat (+1)
+  Direct Attack: (+1)
+   Stone Sword (+1)
   Indirect Defense: (+1)
    Santa Hat (+1)
   XP from Monsters: (+5%)
    Santa Hat (+5%)
  Skills:
-  Digging: (+1)
-   Stone Shovel (+1)
 Faressain:
  Stats:
  Skills:

@@ -1,0 +1,90 @@
+Skeledop - Turn 57
+According to the timeline, FS2 ends this turn. Neat.
+[quote=TwilightSeleneMisty]I make iron bars out of all my raw iron.
+
+Then I make an iron pickaxe.[/quote]
+You need 4 Fuel to make an Iron Bar, but you only have 3.
+You need 3 Iron Bars to make an Iron Pickaxe, but you only have 1.
+Maybe plan these things better.
+[quote=Byron_Inc_TBG]I go gather for string, as well as try to find a four-leaf clover.
+I also grab the loose plants in my garden and chuck them into the food storage room.
+I might as well murder the skeleton.[/quote]
+You go gathering for some String. (Common)
+Skill roll: 1d20+4 = 14+4 = 18
+You find 6 String. (Your Gathering skill has gone up by 70%.)
+You've completed a quest! (Go Gathering.) You've gained 40% Gathering Exp, plus 2 Misc EXP.
+You go gathering for some Four-Leaf Clovers. (Uncommon)
+Skill roll: 18+4 = 7+4 = 11
+You find 1 Four-Leaf Clover. (Your Gathering skill has gone up by 50%.)
+You've completed a quest! (Find a 4-Leaf Clover.) You've gained a Four-Leaf Clover, plus a total of 7 Misc EXP.
+You move the plants.
+You attack the skeleton.
+Attack roll: 1d10+4 = 3+4 = 7
+Defense roll: 1d1 = 1
+The skeleton takes 7-1=[b]6[/b] damage, and Dies.
+You gain a total of 4 Combat EXP. (2 for dealing damage, 1 for a Kill, and 1 for killing a mob)
+Drop roll: 5d100 = [color=red]22[/color], [color=red]3[/color], [color=red]55[/color], [color=green]82[/color], [color=green]66[/color]
+You get 2 Arrows.
+You've completed a quest! (Kill a mob.) You gain a total of 4 Misc EXP.
+[quote=cheesyfriedeggs]I harvest my corn, then go hunting for 4-leaf clovers.[/quote]
+You harvest your Corn.
+Skill roll: 1d20+6 = [color=red]2[/color]+6 = [color=red]8[/color]
+You harvest 2 Ripe Cobs of Corn. (Your Farming skill has gone up by 35%.)
+[quote=gilbert_given_TBG]hunt for 4 leaf clovers.
+hunt for 4 leaf clovers.
+hunt for 4 leaf clovers.[/quote]
+You go gathering for some Four-Leaf Clovers. (Uncommon)
+Skill roll: 1d20 = 10
+You find 2 Four-Leaf Clovers.* (Your Gathering skill has gone up by 45%.)
+Skill roll: 1d18 = 8
+You find 1 Four-Leaf Clover. (Your Gathering skill has gone up by 35%.)
+Skill roll: 1d16 = 13
+You find 2 Four-Leaf Clovers. (Your Gathering skill has gone up by 55%. Your Gathering skill leveled up!)
+[quote=IncendiaryGaming]See if there are any four leaf clovers within the base area, or around the general location[/quote]
+You go gathering for some Four-Leaf Clovers. (Uncommon)
+Skill roll: 1d20 = [color=red]2[/color]
+You don't find anything.(Your Gathering skill has gone up by 15%.)
+[quote=solitare]i put the copper bar, gravel, sand, and goldfish into storage
+then i equip my stone sword and kill the chicken that just spawned
+then i go gathering for 4 leaf clovers like everyone else
+then i open the mystery gift[/quote]
+You move the items.
+You then equip the Stone Sword, unequipping your Stone Shovel in the process.
+You attack the Chicken.
+Accuracy roll: 1d20 = [color=green]10[/color]
+Attack roll: 1d9+4 = [color=green][b]9[/b][/color]+4 = [color=green][b]13[/b][/color]
+You get a crit! (+5 to drop rolls)
+Defense roll: 1d1 = 1
+The Chicken takes 13-1=[b]12[/b] damage and dies.
+Drop rolls: 5d100+5 = 10, 41, 22, 48, 75 = [color=red]15[/color], [color=green]46[/color], [color=green]27[/color], [color=red]53[/color], [color=green]80[/color]
+You get a Feather, a Raw Chicken, and an Egg.
+You gain a total of 5 Combat EXP. (2 for dealing damage, 1 for dealing 10+ damage, 1 for a kill, 1 for killing a mob)
+You go gathering for some Four-Leaf Clovers. (Uncommon)
+Skill roll: 1d20 = 10 
+You find 2 Four-Leaf Clovers. (Your Gathering skill has gone up by 45%. Your Gathering skill leveled up!)
+You open the Mystery Gift.
+Item roll: 1d308 = 114
+You obtain a Green Dye!
+
+Plants grow.
+cheesy's Cabbages and Radishes are harvestable.
+solitare's Apple Tree ripens.
+soliatre's Wheat is harvestable.
+All of Twilight's crops ripen.
+
+Weather roll: 1d20 = 18
+The weather stays sunny.
+
+Mob roll: 2d7 = 3, 3
+Two Sheep spawn.
+
+Byron's Defense Up expires.
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url] [url=https://fightsim.miraheze.org/wiki/Main_Page]Wiki[/url]
+I've decided to tell you what items I've added for foreshadowing here, to make it easier for you to see what's been added (and for suspense)
+This update adds some staves. You know, big sticks used by mages? You should make the Iron Staff, and then keep it for later.
+It also adds a bunch of canned foods, fruits, and pies, because I realized I could reuse sprites for them. I am taking this very seriously.
+Oh, and baby carrots. At least, I [i]think[/i] those are baby carrots. They might be carrot slabs.
+also sorry for the large delay
+
+* Right now, the way I determine gains from Gathering is to take the gains from Farming, divide by 1 (Common)/2 (Uncommon)/3 (Rare)/5 (Very Rare), and then random-round the result. (i.e. a reward of 1.5 would have a 50/50 chance of being either 1 or 2, while a reward of 0.33 would have a 33% chance of being 1 and a 67% chance of being 0)

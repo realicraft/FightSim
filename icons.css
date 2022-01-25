@@ -244,8 +244,8 @@ span.small_icon {
     background-position: -160px -160px;
 }
 .gold_burger {
-    background-image: url("Icons/Exported/misc_sheet.png");
-    background-position: -128px -32px;
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -0px -0px;
 }
 .wood_sword {
     background-image: url("Icons/Exported/equip_sheet.png");
@@ -700,8 +700,8 @@ span.small_icon {
     background-position: -192px -96px;
 }
 .butter {
-    background-image: url("Icons/Exported/misc_sheet.png");
-    background-position: -224px -32px;
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -96px -0px;
 }
 .cabbage {
     background-image: url("Icons/Exported/plant_sheet.png");
@@ -724,12 +724,12 @@ span.small_icon {
     background-position: -32px -96px;
 }
 .dough {
-    background-image: url("Icons/Exported/misc_sheet.png");
-    background-position: -160px -32px;
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -32px -0px;
 }
 .gold_dough {
-    background-image: url("Icons/Exported/misc_sheet.png");
-    background-position: -192px -32px;
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -64px -0px;
 }
 .gold_helm {
     background-image: url("Icons/Exported/equip_sheet.png");
@@ -1002,6 +1002,122 @@ span.small_icon {
 .gold_cocoa_bean {
     background-image: url("Icons/Exported/plant_sheet.png");
     background-position: -224px -32px;
+}
+.wood_staff {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -480px -32px;
+}
+.stone_staff {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -480px -64px;
+}
+.gold_staff {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -480px -96px;
+}
+.iron_staff {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -480px -128px;
+}
+.diamond_staff {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -480px -160px;
+}
+.potato {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -128px -128px;
+}
+.gold_potato {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -160px -128px;
+}
+.baked_potato {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -192px -128px;
+}
+.raw_beef {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -128px -0px;
+}
+.cooked_beef {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -160px -0px;
+}
+.raw_pork {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -192px -0px;
+}
+.cooked_pork {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -224px -0px;
+}
+.pie {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -0px -32px;
+}
+.gold_pie {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -32px -32px;
+}
+.cookie {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -64px -32px;
+}
+.chocolate_chip_cookie {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -96px -32px;
+}
+.apple_cookie {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -128px -32px;
+}
+.carrot_cookie {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -160px -32px;
+}
+.sugar_cookie {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -192px -32px;
+}
+.blueberries {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -0px -160px;
+}
+.gold_blueberries {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -32px -160px;
+}
+.cherries {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -64px -160px;
+}
+.gold_cherries {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -96px -160px;
+}
+.baby_carrots {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -224px -32px;
+}
+.bucket {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -0px -64px;
+}
+.milk_bucket {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -32px -64px;
+}
+.water_bucket {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -64px -64px;
+}
+.lava_bucket {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -96px -64px;
+}
+.egg {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -128px -64px;
 }
 /* info (large) */
 .yes, .passed {

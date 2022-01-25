@@ -31,9 +31,7 @@ while (currentRow < rowCount) {
 var invenListEl = document.getElementById("creative_inv");
 invenListEl.innerHTML = creativeRows
 
-var ett = function(id=0) {
-    tooltip(effectlist[id][0], effectlist[id][2], effectlist[id][3], "Effect", effectlist[id][4])
-}
+var ett = ttEffect
 
 var effectRows = "";
 var effectRow = "";

@@ -33,4 +33,7 @@ var categorylist = [ // [name]
     ["Candy"], //31
     ["Plot"], //32
     ["Special"], //33
+    ["Effect"], //34
+    ["Debuff"], //35
+    ["Buff"], //36
 ]

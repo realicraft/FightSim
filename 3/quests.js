@@ -7,11 +7,11 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward]
-    ["Go Gathering.", "Unclaimed", "40% Gathering Exp", "56"],
-    ["Kill a mob.", "Unclaimed", "2 Misc EXP", "56"],
-    ["Make a weapon.", "Unclaimed", "10 HP, 2 Misc EXP", "56"],
+    ["Deal damage to a player.", "Unclaimed", "5 HP, 1 Misc EXP", "57"],
+    ["Go Fishing.", "Unclaimed", "40% Fishing Exp", "57"],
+    ["Make a shield.", "Unclaimed", "3 Misc EXP", "57"],
     ["Equip a piece of armor.", "Unclaimed", "Iron Boots", "56~59"],
-    ["Find a 4-Leaf Clover.", "Unclaimed", "4-Leaf Clover, 3 Misc EXP", "56~59"],
+    ["Find a 4-Leaf Clover.", "Claimed by Byron", "4-Leaf Clover, 3 Misc EXP", "56~59"],
     ["Make an adjustment to a Type.", "Unclaimed", "1 Misc EXP", "56~59"],
     ["Die.", "Unclaimed", "5 Misc Exp, 4 Iron Ore"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc Exp"],
@@ -27,7 +27,7 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
             ["Incendiary", "1 Crop", "1 Misc EXP", "0/1"],
             ["Byron", "3 Crops", "3 Misc EXP", "0/3"],
-            ["cheesy", "2 Crops", "2 Misc EXP", "0/2"],
+            ["cheesy", "2 Crops", "2 Misc EXP", "1/2"],
             ["solitare", "1 Crop", "1 Misc EXP", "0/1"],
             ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
             ["Leopardy", "1 Crop", "1 Misc EXP", "0/1"],
@@ -55,6 +55,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go Gathering.", "Claimed by Byron", "40% Gathering Exp", "56"],
+        ["Kill a mob.", "Claimed by Byron", "2 Misc EXP", "56"],
+        ["Make a weapon.", "Unclaimed", "10 HP, 2 Misc EXP", "56"],
         ["Use a Candy.", "Claimed by solitare", "2 Misc EXP, 1 Copper Bar", "55"],
         ["Go Digging.", "Unclaimed", "3 Gravel, 35% Digging Exp", "55"],
         ["Start a Potion.", "Unclaimed", "40% Alchemy Exp", "55"],
