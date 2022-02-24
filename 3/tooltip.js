@@ -24,7 +24,7 @@ var tooltip = function(name, desc, source, cats, bonus, name_class) {
     tooltipBodyEl.setAttribute("style", "display: block;")
 }
 var ttEquip = function(id=0, nbt="", dnbt="") {
-    if ((id >= 1) & (id <= 8)) {}
+    if (((id >= 1) & (id <= 8)) | (id == 330)) {}
     else {tt(id,nbt,dnbt)}
 }
 var ttEffect = function(id=0) {

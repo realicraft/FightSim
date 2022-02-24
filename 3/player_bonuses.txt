@@ -33,8 +33,8 @@ Byron:
    Player Level (+1)
   Direct Attack: (+1)
    Iron Sword (+1)
-  Health: (+5)
-   Player Level (+5)
+  Health: (+6)
+   Player Level (+6)
  Skills:
 cheesy:
  Stats:
@@ -45,16 +45,16 @@ solitare:
  Stats:
   Health: (+2)
    Player Level (+2)
-  Indirect Attack: (+2)
-   Stone Sword (+1)
+  Indirect Attack: (+1)
    Santa Hat (+1)
-  Direct Attack: (+1)
-   Stone Sword (+1)
-  Indirect Defense: (+1)
+  Indirect Defense: (+2)
    Santa Hat (+1)
+   Wooden Shield (+1)
   XP from Monsters: (+5%)
    Santa Hat (+5%)
  Skills:
+  Fishing: (+1)
+    Stone Fishing Rod (+1)
 Faressain:
  Stats:
  Skills:
@@ -65,8 +65,8 @@ gilbert:
  Stats:
   Indirect Attack: (+1)
    Stone Pickaxe (+1)
-  Health: (+1)
-   Player Level (+1)
+  Health: (+2)
+   Player Level (+2)
  Skills:
   Mining: (+1)
    Stone Pickaxe (+1)

@@ -82,3 +82,12 @@
 .pt_level_contain p {
     margin: 0px;
 }
+.pt_level_bar_outer {
+    height: 6px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.pt_level_bar_inner {
+    background-color: white;
+    height: 100%;
+}

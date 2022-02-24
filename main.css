@@ -98,3 +98,36 @@ td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
     font-family: "FightSim-Num";
     src: url("FightSim-Num.ttf");
 }*/ /* font was made with fontforge and for some reason doesn't want to work (everything but .notdef is empty)*/
+
+span.normal {
+    color: #dfdfdf;
+    font-weight: bold;
+}
+span.fire {
+    color: #df0f0f;
+    font-weight: bold;
+}
+span.water {
+    color: #0f0fdf;
+    font-weight: bold;
+}
+span.electric {
+    color: #dfdf0f;
+    font-weight: bold;
+}
+span.plant {
+    color: #0fdf0f;
+    font-weight: bold;
+}
+span.ice {
+    color: #0fdfdf;
+    font-weight: bold;
+}
+span.light {
+    color: #dfdfaf;
+    font-weight: bold;
+}
+span.dark {
+    color: #3f3f5f;
+    font-weight: bold;
+}

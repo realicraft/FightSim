@@ -32,8 +32,13 @@
             <u>Underlined</u> text signifies something that could be added by voting on it. 
         </p>
         <h2>Various Gains</h2>
-        <p>(Values above 20 can only be obtained by having a sufficent level and bonus in the skill.)</p>
+        <p>(Values above 20 can only be obtained by having a sufficent level and/or bonus in the skill.)</p>
         <table>
+            <tr>
+                <th colspan="4"></th>
+                <th colspan="2" style="font-size: 12px;">Fishing</th>
+                <th colspan="8" style="font-size: 12px;">Mining Gains</th>
+            </tr>
             <tr>
                 <th>Max Level Req.</th>
                 <th>Roll</th>
@@ -41,6 +46,14 @@
                 <th><span class="info-hover" data-info-title="Harvest Gains" data-info-desc="When you harvest a crop, the amount of the crop you gain is dependent on what you roll.<br />The first number indicates how many of the standard variety of the crop you get, and the second number indicates how many of the golden variety.<br />(If you aren't Proficient or higher in Gardening, then getting a Critical Miss will destroy the crop.)" id="info-crop" onmouseover="info('info-crop');" onmouseout="noinfo();">Crop Gain</span></th>
                 <th><span class="info-hover" data-info-title="Fish Count" data-info-desc="How many fish you catch when you go fishing." id="info-fish-count" onmouseover="info('info-fish-count');" onmouseout="noinfo();">Fish Count</span></th>
                 <th><span class="info-hover" data-info-title="Fish Quality" data-info-desc="How high quality a caught fish is. This is a luck roll, and ignores skill bonuses." id="info-fish-qual" onmouseover="info('info-fish-qual');" onmouseout="noinfo();">Fish Quality</span></th>
+                <th><span class="info-hover" data-info-title="Stone" data-info-desc="How much stone you gain from Mining.<br />If you're specifically looking for something that isn't Coal, Copper, or Gold, the gains are increased by 25%, rounded." id="info-stone-gain" onmouseover="info('info-stone-gain');" onmouseout="noinfo();">Stone</span></th>
+                <th><span class="info-hover" data-info-title="Coal" data-info-desc="How much coal you gain from Mining, if you're looking for coal." id="info-coal-gain" onmouseover="info('info-coal-gain');" onmouseout="noinfo();">Coal</span></th>
+                <th><span class="info-hover" data-info-title="Copper" data-info-desc="How much copper you gain from Mining, if you're looking for copper." id="info-copper-gain" onmouseover="info('info-copper-gain');" onmouseout="noinfo();">Copper</span></th>
+                <th><span class="info-hover" data-info-title="Iron" data-info-desc="How much iron you gain from Mining." id="info-iron-gain" onmouseover="info('info-iron-gain');" onmouseout="noinfo();">Iron</span></th>
+                <th><span class="info-hover" data-info-title="Gold" data-info-desc="How much gold you gain from Mining, if you're looking for gold." id="info-gold-gain" onmouseover="info('info-gold-gain');" onmouseout="noinfo();">Gold</span></th>
+                <th><span class="info-hover" data-info-title="Diamond" data-info-desc="How many diamonds you gain from Mining." id="info-diamond-gain" onmouseover="info('info-diamond-gain');" onmouseout="noinfo();">Diamond</span></th>
+                <th><span class="info-hover" data-info-title="Emerald" data-info-desc="How many emeralds you gain from Mining." id="info-emerald-gain" onmouseover="info('info-emerald-gain');" onmouseout="noinfo();">Emerald</span></th>
+                <th><span class="info-hover" data-info-title="Hardite" data-info-desc="How much hardite you gain from Mining." id="info-hardite-gain" onmouseover="info('info-hardite-gain');" onmouseout="noinfo();">Hardite</span></th>
             </tr><tr>
                 <td rowspan="20">0</td>
                 <td>1</td>
@@ -48,6 +61,14 @@
                 <td rowspan="3">0,0</td>
                 <td rowspan="4">0</td>
                 <td rowspan="3">Junk</td>
+                <td rowspan="4">0</td>
+                <td rowspan="5">0</td>
+                <td rowspan="6">0</td>
+                <td rowspan="7">0</td>
+                <td rowspan="8">0</td>
+                <td rowspan="11">0</td>
+                <td rowspan="12">0</td>
+                <td rowspan="15">0</td>
             </tr><tr>
                 <td>2</td>
                 <td>15%</td>
@@ -62,21 +83,27 @@
                 <td>5</td>
                 <td rowspan="2">25%</td>
                 <td rowspan="4">1</td>
+                <td rowspan="4">1</td>
             </tr><tr>
                 <td>6</td>
                 <td rowspan="3">2,0</td>
+                <td rowspan="6">1</td>
             </tr><tr>
                 <td>7</td>
                 <td>30%</td>
+                <td rowspan="7">1</td>
             </tr><tr>
                 <td>8</td>
                 <td>35%</td>
+                <td rowspan="6">1</td>
             </tr><tr>
                 <td>9</td>
                 <td>40%</td>
                 <td rowspan="3">3,0</td>
                 <td rowspan="4">2</td>
                 <td rowspan="4">Jellyfish</td>
+                <td rowspan="4">2</td>
+                <td rowspan="7">1</td>
             </tr><tr>
                 <td>10</td>
                 <td>45%</td>
@@ -87,13 +114,19 @@
                 <td>12</td>
                 <td rowspan="2">55%</td>
                 <td rowspan="3">4,0</td>
+                <td rowspan="7">2</td>
+                <td rowspan="7">1</td>
             </tr><tr>
                 <td>13</td>
                 <td rowspan="4">3</td>
                 <td rowspan="3">Fish 3</td>
+                <td rowspan="4">3</td>
+                <td rowspan="7">1</td>
             </tr><tr>
                 <td>14</td>
                 <td>60%</td>
+                <td rowspan="8">2</td>
+                <td rowspan="6">2</td>
             </tr><tr>
                 <td>15</td>
                 <td rowspan="2">65%</td>
@@ -101,9 +134,12 @@
             </tr><tr>
                 <td>16</td>
                 <td rowspan="3">Fish 4</td>
+                <td rowspan="6">2</td>
+                <td rowspan="8">1</td>
             </tr><tr>
                 <td>17</td>
                 <td rowspan="2">70%</td>
+                <td rowspan="4">4</td>
                 <td rowspan="4">4</td>
             </tr><tr>
                 <td>18</td>
@@ -112,17 +148,24 @@
                 <td>19</td>
                 <td>75%</td>
                 <td rowspan="2">Solid<br />Goldfish</td>
+                <td rowspan="8">3</td>
+                <td rowspan="7">2</td>
             </tr><tr>
                 <td>20</td>
                 <td rowspan="3">80%</td>
                 <td rowspan="3">6,1</td>
+                <td rowspan="6">3</td>
+                <td rowspan="7">2</td>
             </tr><tr>
                 <td rowspan="2">1</td>
                 <td>21</td>
                 <td rowspan="5">5</td>
                 <td rowspan="20" style="background-color:#afafaf;">N/A</td>
+                <td rowspan="4">5</td>
             </tr><tr>
                 <td>22</td>
+                <td rowspan="9">3</td>
+                <td rowspan="7">3</td>
             </tr><tr>
                 <td rowspan="2">2</td>
                 <td>23</td>
@@ -130,17 +173,23 @@
                 <td rowspan="3">6,2</td>
             </tr><tr>
                 <td>24</td>
+                <td rowspan="7">2</td>
             </tr><tr>
                 <td rowspan="2">3</td>
                 <td>25</td>
                 <td rowspan="3">90%</td>
+                <td rowspan="4">6</td>
             </tr><tr>
                 <td>26</td>
                 <td rowspan="3">7,2</td>
                 <td rowspan="5">6</td>
+                <td rowspan="6">4</td>
+                <td rowspan="8">3</td>
             </tr><tr>
                 <td rowspan="2">4</td>
                 <td>27</td>
+                <td rowspan="9">4</td>
+                <td rowspan="8">3</td>
             </tr><tr>
                 <td>28</td>
                 <td rowspan="2">95%</td>
@@ -148,6 +197,8 @@
                 <td rowspan="2">5</td>
                 <td>29</td>
                 <td>8,2</td>
+                <td rowspan="4">7</td>
+                <td rowspan="6">4</td>
             </tr><tr>
                 <td>30</td>
                 <td rowspan="11">100%</td>
@@ -156,25 +207,36 @@
                 <td>6</td>
                 <td>31</td>
                 <td rowspan="5">7</td>
+                <td rowspan="10">4</td>
+                <td rowspan="6">3</td>
             </tr><tr>
                 <td>7</td>
                 <td>32</td>
+                <td rowspan="5">5</td>
             </tr><tr>
                 <td>8</td>
                 <td>33</td>
                 <td rowspan="2">9,3</td>
+                <td rowspan="4">8</td>
             </tr><tr>
                 <td>9</td>
                 <td>34</td>
+                <td rowspan="7">4</td>
             </tr><tr>
                 <td rowspan="6">10</td>
                 <td>35</td>
                 <td rowspan="4">9,4</td>
+                <td rowspan="6">5</td>
+                <td rowspan="6">4</td>
             </tr><tr>
                 <td>36</td>
                 <td rowspan="5">8</td>
+                <td rowspan="5">5</td>
             </tr><tr>
                 <td>37</td>
+                <td rowspan="4">9</td>
+                <td rowspan="4">6</td>
+                <td rowspan="4">4</td>
             </tr><tr>
                 <td>38</td>
             </tr><tr>
@@ -421,6 +483,8 @@
                 <td>2 Apples</td>
                 <td>1 Carrot</td>
                 <td>1 Carrot Cookie</td>
+                <td>1 Sticker Pack</td>
+                <td>2 Sugar</td>
                 <td>Nothing</td>
             </tr>
         </table>

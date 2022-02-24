@@ -12,7 +12,12 @@ for (var i in user_data["3"]) {
     stat_table += i.toLowerCase()
     stat_table += '"><span class="pt_level_contain"><p class="pt_level_upper">Level '
     stat_table += user_data["3"][i]["exp"][0]
-    stat_table += '</p><p class="pt_level_lower">'
+    stat_table += '</p>'
+    stat_table += '<div class="pt_level_bar_outer"><div class="pt_level_bar_inner" style="width:calc(100% * ('
+    stat_table += user_data["3"][i]["exp"][1]
+    stat_table += ' / '
+    stat_table += user_data["3"][i]["exp"][2]
+    stat_table += '));"></div></div><p class="pt_level_lower">'
     stat_table += user_data["3"][i]["exp"][1]
     stat_table += '/'
     stat_table += user_data["3"][i]["exp"][2]
@@ -85,9 +90,48 @@ for (var i in user_data["3"]) {
     stat_table += user_data["3"][i]["equips"][7]
     stat_table += ');" onmouseout="nt();" style="position:relative;"><span class="pt_stackcount">'
     stat_table += user_data["3"][i]["equips"][8]
-    stat_table += '</span></span>'
-    stat_table += '</span></div>'
+    stat_table += '</span></span></span>'
+    stat_table += '<h3 style="margin: 0px; margin-top: 5px;">Stickers</h3><table style="margin-top: 0px;margin-bottom: 0px;">'
+    for (var m in user_data["3"][i]["stickers"]) {
+        stat_table += "<tr>"
+        if (m == 0) {
+            stat_table += '<td class="inv_item"><span class="icon '
+            stat_table += equiplist[309][1]
+            stat_table += '" onmouseover="ttEquip(309);" onmouseout="nt();"></span></td>'
+            for (var n in user_data["3"][i]["stickers"][m]) {
+                o = user_data["3"][i]["stickers"][m][n]
+                if (o == 0) {o = 330}
+                stat_table += '<td class="inv_item"><span class="icon '
+                stat_table += equiplist[o][1]
+                stat_table += '" onmouseover="ttEquip('
+                stat_table += o
+                stat_table += ');" onmouseout="nt();"></span></td>'
+            }
+        }
+        else {
+            stat_table += '<td class="inv_item"><span class="icon '
+            stat_table += equiplist[310][1]
+            stat_table += '" onmouseover="ttEquip(310);" onmouseout="nt();"></span></td>'
+            for (var n in user_data["3"][i]["stickers"][m]) {
+                o = user_data["3"][i]["stickers"][m][n]
+                if (o == 0) {o = 330}
+                stat_table += '<td class="inv_item"><span class="icon '
+                stat_table += equiplist[o][1]
+                stat_table += '" onmouseover="ttEquip('
+                stat_table += o
+                stat_table += ');" onmouseout="nt();"></span></td>'
+            }
+        }
+        stat_table += "</tr>"
+    }
+    stat_table += '</table></div>'
     stat_tables += stat_table
 }
 var containEl = document.getElementById("stat_table_container")
 containEl.innerHTML = stat_tables
+
+/*
+<div class="pt_level_bar_outer">
+    <div class="pt_level_bar_inner" style="width:calc(100% * (35 / 70));"></div>
+</div>
+*/

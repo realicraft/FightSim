@@ -36,4 +36,8 @@ var categorylist = [ // [name]
     ["Effect"], //34
     ["Debuff"], //35
     ["Buff"], //36
+    ["Sticker"], //37
+    ["FS1"], //38
+    ["FS2"], //39
+    ["Unobtainable"], //40
 ]

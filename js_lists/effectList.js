@@ -23,4 +23,7 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses, [c
     ["Asleep", "sleep", "The ground isn't a very good place to sleep, you know.", "Sleeping", "Can't do anything<br />Can attempt to wake up, 75% success rate<br />Getting hit removes this effect", [34, 35], 1], //20
     ["Deep Sleep", "sleep", "Hey, wake up already!", "Sleeping", "Can't do anything<br />Can attempt to wake up, 45% success rate<br />Getting hit replaces this effect with Asleep", [34, 35], 2], //21
     ["Restful Sleep", "sleep", "That's a nice bed you got there.", "Sleeping", "Can't do anything<br />Can attempt to wake up, 80% success rate<br />Getting hit removes this effect<br />+6 HP per turn", [34, 36], 1], //22
+    ["Rule-Breaker", "rule_breaker", "Stop that.", "Breaking a rule (FS1/2); Unobtainable (FS3)", "-50% Max HP", [34, 35, 38, 39, 40], 7], //23
+    ["Sour!", "sour", "Wow, that lemon (or lime) was really sour, and now you can't focus.", "Lemons (or limes)", "-2 Accuracy<br />-0.7 to all skills<br />-0.7 Direct Defense", [34, 35], 1], //24
+    ["Sugar Rush", "sugar_rush", "You're filled with sugar. Nyoom!", "Sugar", "-1 Accuracy<br />+0.6 to all skills<br />+0.7 Direct Attack", [34, 36], 1], //25
 ]

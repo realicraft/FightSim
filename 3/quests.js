@@ -6,15 +6,15 @@ var questbox_turnpast = document.getElementById("quest_turnpast")
 var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
-var quests = [ // [quest, claimed, reward]
-    ["Deal damage to a player.", "Unclaimed", "5 HP, 1 Misc EXP", "57"],
-    ["Go Fishing.", "Unclaimed", "40% Fishing Exp", "57"],
-    ["Make a shield.", "Unclaimed", "3 Misc EXP", "57"],
+var quests = [ // [quest, claimed, reward, turn]
+    ["Deal damage to a mob.", "Unclaimed", "5 HP, 1 Misc EXP", "58"],
+    ["Go Chopping.", "Unclaimed", "40% Chopping Exp", "58"],
+    ["Make a Chestplate.", "Unclaimed", "Leather Helmet", "58"],
     ["Equip a piece of armor.", "Unclaimed", "Iron Boots", "56~59"],
     ["Find a 4-Leaf Clover.", "Claimed by Byron", "4-Leaf Clover, 3 Misc EXP", "56~59"],
     ["Make an adjustment to a Type.", "Unclaimed", "1 Misc EXP", "56~59"],
-    ["Die.", "Unclaimed", "5 Misc Exp, 4 Iron Ore"],
-    ["Reach Proficient in any skill.", "Unclaimed", "4 Misc Exp"],
+    ["Obtain 2 Stickers.", "Unclaimed", "3 Misc EXP, 1 Sticker Pack"],
+    ["Reach Proficient in any skill.", "Unclaimed", "4 Misc EXP"],
     ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
 ]
 
@@ -27,7 +27,7 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
             ["Incendiary", "1 Crop", "1 Misc EXP", "0/1"],
             ["Byron", "3 Crops", "3 Misc EXP", "0/3"],
-            ["cheesy", "2 Crops", "2 Misc EXP", "1/2"],
+            ["cheesy", "3 Crops", "3 Misc EXP", "1/3"],
             ["solitare", "1 Crop", "1 Misc EXP", "0/1"],
             ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
             ["Leopardy", "1 Crop", "1 Misc EXP", "0/1"],
@@ -55,6 +55,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Deal damage to a player.", "Claimed by Byron", "5 HP, 1 Misc EXP", "57"],
+        ["Go Fishing.", "Claimed by solitare", "40% Fishing Exp", "57"],
+        ["Make a shield.", "Claimed by solitare", "3 Misc EXP", "57"],
         ["Go Gathering.", "Claimed by Byron", "40% Gathering Exp", "56"],
         ["Kill a mob.", "Claimed by Byron", "2 Misc EXP", "56"],
         ["Make a weapon.", "Unclaimed", "10 HP, 2 Misc EXP", "56"],
@@ -99,7 +102,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Cook something.", "Unclaimed", "1 Apple", "43"],
         ["Plant a flower.", "Claimed by solitare", "10% Gardening Exp", "42"],
         ["Dig something up.", "Claimed by solitare", "1 Sand", "42"],
-        ["Damage someone.", "Unclaimed", "1 Misc Exp", "42"],
+        ["Damage someone.", "Unclaimed", "1 Misc EXP", "42"],
     ],
     [
         ["Create a Structure.", "Claimed by Incendiary", "30% Construction Exp, 3 Planks", "52~55"],
@@ -108,18 +111,19 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Repair a Structure.", "Unclaimed", "30% Construction Exp, 3 Stone", "48~51"],
         ["Go Chopping twice.", "Claimed by Byron", "35% Chopping Exp", "48~51"],
         ["Mine 2 Iron Ore.", "Claimed by Byron", "25% Mining Exp, 1 Coal", "48~51"],
-        ["Deal 20 damage total.", "Claimed by Byron", "10 HP, 1 Gold Bar, 2 Misc Exp", "44~47"],
+        ["Deal 20 damage total.", "Claimed by Byron", "10 HP, 1 Gold Bar, 2 Misc EXP", "44~47"],
         ["Harvest a flower.", "Unclaimed", "15% Gardening Exp", "44~47"],
         ["Mine 5 Stone.", "Unclaimed", "20% Mining Exp", "44~47"],
-        ["Take 20 damage total.", "Claimed by TwilightSeleneMisty", "10 HP, 1 Iron Bar, 2 Misc Exp", "40~43"],
+        ["Take 20 damage total.", "Claimed by TwilightSeleneMisty", "10 HP, 1 Iron Bar, 2 Misc EXP", "40~43"],
         ["Harvest a crop.", "Claimed by cheesy", "15% Farming Exp", "40~43"],
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
-        ["Use a thin-air weapon.", "Claimed by gilbert", "2 Misc Exp"],
-        ["Kill someone.", "Claimed by Byron", "3 Misc Exp"],
+        ["Die.", "Claimed by gilbert", "5 Misc EXP, 4 Iron Ore"],
+        ["Use a thin-air weapon.", "Claimed by gilbert", "2 Misc EXP"],
+        ["Kill someone.", "Claimed by Byron", "3 Misc EXP"],
         ["Complete a Structure.", "Claimed by Incendiary", "30% Construction Exp"],
-        ["Equip any armor.", "Claimed by Byron", "1 Misc Exp, 1 Wooden Shield"],
+        ["Equip any armor.", "Claimed by Byron", "1 Misc EXP, 1 Wooden Shield"],
     ],
 ]
 
@@ -203,51 +207,6 @@ for (i in repquests) {
     quest_full += quest_current
 }
 questbox_rep.innerHTML = quest_full
-/*
-<div class="struct repquestbox">
-    <div class="repquesttop">Harvest Crops.</div>
-    <div class="reqquestmid">This is a repeatable quest, meaning you can complete it multiple times!</div>
-    <table style="top: 40px;position: relative;font-size: 12px !important;">
-        <tr>
-            <th>User</th>
-            <th>aaaaaa</th>
-            <th>bbbbbb</th>
-            <th>cccccc</th>
-            <th>dddddd</th>
-            <th>eeeeee</th>
-            <th>ffffff</th>
-            <th>User</th>
-        </tr><tr>
-            <th>Req.</th>
-            <td>1 Crop</td>
-            <td>1 Crop</td>
-            <td>1 Crop</td>
-            <td>3 Crops</td>
-            <td>1 Crop</td>
-            <td>1 Crop</td>
-            <th>Req.</th>
-        </tr><tr>
-            <th>Reward</th>
-            <td>1 Misc EXP</td>
-            <td>1 Misc EXP</td>
-            <td>1 Misc EXP</td>
-            <td>3 Misc EXP</td>
-            <td>1 Misc EXP</td>
-            <td>1 Misc EXP</td>
-            <th>Reward</th>
-        </tr><tr>
-            <th>Comp.</th>
-            <td>0/1</td>
-            <td>0/1</td>
-            <td>0/1</td>
-            <td>0/3</td>
-            <td>0/1</td>
-            <td>0/1</td>
-            <th>Comp.</th>
-        </tr>
-    </table>
-</div>
-*/
 
 // Turn Quests (Past)
 quest_full = '<span class="small_icon collapse_button collapse_closed" onclick="collapse(\'quest_turnpast\');"></span><h3 class="collapse_header">Turn Quests (Past)</h3><div class="collapse_body" style="display:none;">'

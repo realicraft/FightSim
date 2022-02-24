@@ -1,0 +1,118 @@
+Skeledop - Turn 58
+four-leaf clovers don't do anything by themselves, you're supposed to meatpaste them together to make eight-leaf clovers, which make rare things happen when you do stuff
+[quote=solitare]i put the dye, feather, raw chicken, egg, and 4 leaf clover in storage
+then i equip my fishing rod and go fishing
+i then take out the wood from storage and craft it into planks
+then i craft a wooden shield[/quote]
+You move the items.*
+You equip the Stone Fishing Rod, unequipping the Stone Sword in the process.
+You go fishing.
+Skill roll: 1d20+2+1 = [color=red]2[/color]+3 = [color=red]5[/color]
+You catch one fish.
+Luck roll: 1d20 = [color=green]17[/color]
+You catch a Salmon! ...At least, I [i]think[/i] that's a Salmon.
+For conveniences sake, it'll go straight into your Storage Room.
+(Your Fishing skill has gone up by 25%.)
+You've completed a quest! (Go Fishing.) You've gained 40% Fishing, plus 2 Misc EXP.
+You take out both Logs, turn them into 8 Planks, and make a Wooden Shield. (Your Crafting skill goes up by 5+5+15=[b]25[/b]%.)
+You equip the Wooden Shield.
+You've completed a quest! (Make a shield.) You've gained a total of 5 Misc EXP.
+
+[quote=cheesyfriedeggs]I harvest the cabbage and radishes, then go hunting for 4-leaf clovers.[/quote]
+You harvest your crops.
+Skill rolls: 2d20+6 = 10, 11 = 16, 17
+You harvest 5 heads of Cabbage and 5 Radishes. (Your Farming skill has gone up by 102%. Your Farming skill leveled up!)
+You've completed a repeatable quest! (Harvest Crops.) You've gained a total of 4 Misc EXP!
+You go gathering for some Four-Leaf Clovers.
+Skill roll: 1d18 = 13
+You find 2 Four-Leaf Clovers. (Your Gathering skill has gone up by 55%. Your Gathering skill leveled up!)
+
+[quote=IncendiaryGaming]Keep searching for 4 leaf clovers until one is found[/quote]
+You go gathering for some Four-Leaf Clovers.
+Skill roll: 1d20 = 7
+You find 1 Four-Leaf Clover. (Your Gathering skill has gone up by 30%.)
+
+[quote=Byron_Inc_TBG]I try to find an accessory in my defence room. (Not sure how else should I obtain accessories)
+I then punch Gilbert repeatedly so he can get the "Die" quest
+After that, I use my excavator to mine for iron.
+I'll craft an iron fishing rod if I have enough iron after mining, if not, a stone sword.[/quote]
+You look for an accessory in the Defense room.
+Luck roll: 1d20** = [color=green]19[/color]
+You find a Diamond Band.
+You know you could have just jumped into the water to complete the quest for yourself, right?† Kills and KOs aren't the same thing. If you had read the first two games, you'd understand.
+The short explanation is that a Kill is along the lines of "throw them off a cliff" or "stab them with a really big sword," while KOs are more akin to "punch them until they reach 0 HP" or "slowly deplete their HP with some poison."
+With that aside, you punch Gilbert.
+Attack roll: 1d10+4 = [color=green]9[/color]+4 = [color=green]13[/color]
+Defense roll: 1d5 = 3
+Gilbert takes 13-3=[b]10[/b] damage and is KOd.†*
+You gain 2 Combat EXP for dealing damage, plus 1 EXP for dealing 10+ damage, plus 1 EXP for a kill, plus 20 EXP for getting a KO, for a total of 24.
+...which was [b]exactly[/b] how much you needed to reach Level 6.
+[b][i]You leveled up![/i][/b] You've gained 1 Max HP.
+You've completed a quest! (Deal damage to a player.) You've gained 5 HP, plus a total of 3 Misc EXP.
+Gilbert's completed a quest! ([b][i]Die.[/i][/b]) He gains 4 Iron Ore, plus a total of 15 Misc EXP. Byron what was your plan with this.
+[b][i]Gilbert leveled up![/i][/b] ([i]Byron what was your plan with this?[/i]) He gained 1 Max HP.
+
+[quote=gilbert_given_TBG]I put all of my logs, stones and clovers to my chest.
+Then I use the esolang again.[/quote]
+Unfortunately, you're KOd, and can't do any of this.
+The good news is that no-one can steal your clovers (or anything in your inventory) while you're KOd.
+...oh, yeah, were you guys aware you could steal from each-other?
+Just so you know, you could have Blocked the attack. Not that hard, just give a good reason why the attack wouldn't work, such as "I summon a thin-air shield and block the punch with it."
+Granted, if you had an actual shield, you could also use that, but if you didn't, there's always thin-air items.
+Also, the block needs to be in the [b]immediate[/b] next post, or else you'll block it too late (and possibly end up doing something else in the process.)
+
+[quote=realicraft]go mining for iron
+(did you forget that i'm also a player)[/quote]
+No, I didn't forget.
+Skill roll: 1d20 = [color=green][b]20[/b][/color]
+You gain 4 Stone, 3*1.25=[b]4[/b] Iron Ore, 2 Diamonds, 2 Emeralds, and 1 Hardite Ore.
+(Your Mining skill has gone up by 80%. You gain 2 Skill EXP.)
+
+Everyone gets a [i]Heart-Shaped Chocolate[/i]. Twilight's is in her Box, while Gilbert's is queued to enter his inventory the next time there's a free slot.
+
+Plants grow.
+Solitare's Apple Tree has started rotting. Well, only the actual fruit is rotting right now, but if you don't hurry, the rot could spread to the rest of the tree, causing you to need to replant the whole tree!
+Solitare's Wheat ripens.
+All of Twilight's crops start rotting, again.
+
+Mob roll: 2d7 = 5, 5
+Two Slimes spawn. Since all spawn slots are filled, no new mobs will spawn until a mob is killed.
+
+Weather roll: 1d20 = 13
+The weather stays sunny.
+
+[url=https://realicraft.github.io/FightSim/3/]Website[/url] [url=https://fightsim.miraheze.org/wiki/Main_Page]Wiki[/url]
+Yeesh, took long enough. My bad. Hey, at least it's only been less than a month!
+This turn, I redid Mining gains, and added more of a base for the type system.
+Here's a quick rundown of types:
+Attacks can be of one type, same as players. The type of the attack vs. the type of the player determines what multiplier is given to the attack.
+Changes to the type system, or to your own type, take effect at the end of the turn, to prevent gaming the system.
+You can only change type if it's been at least 5 turns since the last time you changed type.
+If you use the same strategy multiple times simply because of the type advantage, the strategy will get nerfed.
+A type can be either Weak, Partially Weak, Standard, or Resistant against another type. (x2, x1.5, x1, and x0.5 respectively.)
+(The inverse is that a type is either Super Effective, Greatly Effective, Effective, or Not Very Effective [i]to[/i] another type)
+"Typeless" is a special type, as it is [i]outside of the type system[/i]; it's Standard both to and against all other types, and cannot be changed. This is the default type for all players, and all attacks.
+Currently, there are 8 types, [b]all Standard against each other[/b]: Normal, Fire, Water, Electric, Plant, Ice, Light, and Dark.
+To change a type's effectiveness, or to add or remove a type, simply say what you're doing with the type in your post.
+Also, [b]stickers[/b]!
+I was initially trying to make a sword pendant, but along the line I accidentally made a sticker instead. And then inspiration struck, or something.
+Stickers are little collectibles that you can put in your [i]Sticker Book[/i], a new item that you've all been given for free.
+Doing so will give you a small bonus. If you want more room for stickers, you can make Sticker Pages, which give +4 Sticker Slots on use.
+You can also combine 3 stickers into a Sticker Pack, which will give 2 random stickers. You might get a rare one!
+As for other items added, I added a weird potion. I'm sure you'll figure out what it does eventually. Probably in 4 turns. That seems like the right number. (You can't obtain the potion. Stop trying.)
+Also, an old debuff from FS1 (and probably FS2). To you, it's unobtainable.
+Finally, some lemons, limes, and lemonade. And high fructose corn syrup. This is what happens when you go on a wiki walk with VNC open.
+
+Any of you gonna use your candies? You know, the ones inside the boxes.
+Also, I'd like to remind you that [b]you are not limited to what's on the website.[/b] You can do basically anything, as long as it's isn't too overpowered.
+Want to plant a crop that doesn't have an item form? Go for it. Want to light a sword on fire with a Flint & Steel? Sure! The only limit is your imagination!
+...or something like that.
+
+Oh, and I added some bars for tracking EXP progress. I thought it would look nice.
+
+Also, we missed Valentine's day. You still get a [i]Heart-Shaped Chocolate[/i], though.
+
+* I'd like to note that this wasn't done until [i]February 12th[/i], with the days prior being spent either doing nothing, working on stickers, or working on the mining gain revamp. Ah, procrastination.
+** You can equip a Four-Leaf clover for a +1 bonus to luck rolls, if that's something you'd like to do.
+† The water around Trisland will Kill you if you try to go in it unprotected. You could try using a boat, though.
+†* You might notice that Gilbert's HP is now at -9/101. This is purely stylistic, as you will always be restored to max HP when [i]KOd[/i] runs out.

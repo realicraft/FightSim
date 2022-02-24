@@ -87,8 +87,29 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -288px -64px;
 }
+/* type matchups */
+.type_effect_0x {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -64px -32px;
+}
+.type_effect_05x {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -80px -32px;
+}
+.type_effect_1x {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -96px -32px;
+}
+.type_effect_15x {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -64px -48px;
+}
+.type_effect_2x {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -80px -48px;
+}
 /* effects */
-.fire, .on_fire {
+.on_fire {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: 0px -128px;
 }
@@ -124,7 +145,7 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -256px -128px;
 }
-.water, .soaked, .water_drop {
+.soaked, .water_drop {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -288px -128px;
 }
@@ -135,6 +156,10 @@ span.small_icon {
 .regen {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -416px -480px;
+}
+.rule_breaker {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -288px -480px;
 }
 /* skills */
 .pickaxe, .mining {
@@ -1118,6 +1143,146 @@ span.small_icon {
 .egg {
     background-image: url("Icons/Exported/food_sheet.png");
     background-position: -128px -64px;
+}
+.sticker_book {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -0px -0px;
+}
+.sticker_page {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -32px -0px;
+}
+.sticker_sword {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -64px -0px;
+}
+.sticker_sword_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -96px -0px;
+}
+.sticker_shield {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -128px -0px;
+}
+.sticker_shield_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -160px -0px;
+}
+.sticker_knife {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -192px -0px;
+}
+.sticker_knife_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -224px -0px;
+}
+.sticker_bow {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -0px -32px;
+}
+.sticker_bow_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -32px -32px;
+}
+.sticker_iron {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -64px -32px;
+}
+.sticker_iron_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -96px -32px;
+}
+.sticker_apple {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -128px -32px;
+}
+.sticker_apple_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -160px -32px;
+}
+.sticker_carrot {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -192px -32px;
+}
+.sticker_carrot_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -224px -32px;
+}
+.sticker_sap {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -0px -64px;
+}
+.sticker_sap_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -32px -64px;
+}
+.stone_sheild, .stone_shield {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -192px -64px;
+}
+.mystery_potion {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -0px -32px;
+}
+.empty_sticker {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -224px -32px;
+}
+.sticker_orb {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -64px -64px;
+}
+.sticker_orb_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -96px -64px;
+}
+.lemon, .sour {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -128px -160px;
+}
+.gold_lemon, .gold_lime {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -160px -160px;
+}
+.lime {
+    background-image: url("Icons/Exported/plant_sheet.png");
+    background-position: -192px -160px;
+}
+.heart_chocolate {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -224px -96px;
+}
+.you_tried {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -288px -288px;
+}
+.wood_band {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -160px -32px;
+}
+.stone_band {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -160px -64px;
+}
+.gold_band {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -160px -96px;
+}
+.iron_band {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -160px -128px;
+}
+.diamond_band {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -160px -160px;
+}
+.diamond_pendant {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -128px -160px;
+}
+.emerald_pendant {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -128px -160px;
 }
 /* info (large) */
 .yes, .passed {
