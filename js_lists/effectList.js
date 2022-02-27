@@ -26,4 +26,5 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses, [c
     ["Rule-Breaker", "rule_breaker", "Stop that.", "Breaking a rule (FS1/2); Unobtainable (FS3)", "-50% Max HP", [34, 35, 38, 39, 40], 7], //23
     ["Sour!", "sour", "Wow, that lemon (or lime) was really sour, and now you can't focus.", "Lemons (or limes)", "-2 Accuracy<br />-0.7 to all skills<br />-0.7 Direct Defense", [34, 35], 1], //24
     ["Sugar Rush", "sugar_rush", "You're filled with sugar. Nyoom!", "Sugar", "-1 Accuracy<br />+0.6 to all skills<br />+0.7 Direct Attack", [34, 36], 1], //25
+    ["Oiled", "oiled", "You're covered in flammable oil.", "Lamp Oil", "-0.3 to Farming and Gardening<br />On Fire deals 3 more damage per turn<br />On Fire has a 20% chance to not tick down", [34, 35], 1], //26
 ]

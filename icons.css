@@ -297,7 +297,7 @@ span.small_icon {
     background-position: -96px -32px;
 }
 .gold_carrot {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -224px -0px;
 }
 .gold_sword {
@@ -481,23 +481,23 @@ span.small_icon {
     background-position: -160px -32px;
 }
 .carrot {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -192px -0px;
 }
 .apple {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -0px -0px;
 }
 .golden_apple {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -32px -0px;
 }
 .orange {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -64px -0px;
 }
 .golden_orange {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -96px -0px;
 }
 .clay_sheild, .clay_shield {
@@ -561,11 +561,11 @@ span.small_icon {
     background-position: -96px -288px;
 }
 .can {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -0px -32px;
 }
 .gold_can {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -32px -32px;
 }
 .clay_bowl {
@@ -729,11 +729,11 @@ span.small_icon {
     background-position: -96px -0px;
 }
 .cabbage {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -128px -0px;
 }
 .gold_cabbage {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -160px -0px;
 }
 .wood_bowl {
@@ -973,11 +973,11 @@ span.small_icon {
     background-position: -192px -96px;
 }
 .radish {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -64px -32px;
 }
 .gold_radish {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -96px -32px;
 }
 .hammer {
@@ -1001,11 +1001,11 @@ span.small_icon {
     background-position: -96px -64px;
 }
 .beetroot {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -128px -32px;
 }
 .gold_beetroot {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -160px -32px;
 }
 .clover4 {
@@ -1021,11 +1021,11 @@ span.small_icon {
     background-position: -96px -128px;
 }
 .cocoa_bean {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -192px -32px;
 }
 .gold_cocoa_bean {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -224px -32px;
 }
 .wood_staff {
@@ -1049,15 +1049,15 @@ span.small_icon {
     background-position: -480px -160px;
 }
 .potato {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -128px -128px;
 }
 .gold_potato {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -160px -128px;
 }
 .baked_potato {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -192px -128px;
 }
 .raw_beef {
@@ -1105,19 +1105,19 @@ span.small_icon {
     background-position: -192px -32px;
 }
 .blueberries {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -0px -160px;
 }
 .gold_blueberries {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -32px -160px;
 }
 .cherries {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -64px -160px;
 }
 .gold_cherries {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -96px -160px;
 }
 .baby_carrots {
@@ -1237,15 +1237,15 @@ span.small_icon {
     background-position: -96px -64px;
 }
 .lemon, .sour {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -128px -160px;
 }
 .gold_lemon, .gold_lime {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -160px -160px;
 }
 .lime {
-    background-image: url("Icons/Exported/plant_sheet.png");
+    background-image: url("Icons/Exported/crop_sheet.png");
     background-position: -192px -160px;
 }
 .heart_chocolate {
@@ -1283,6 +1283,50 @@ span.small_icon {
 .emerald_pendant {
     background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -128px -160px;
+}
+.pear {
+    background-image: url("Icons/Exported/crop_sheet.png");
+    background-position: -0px -64px;
+}
+.gold_pear {
+    background-image: url("Icons/Exported/crop_sheet.png");
+    background-position: -32px -64px;
+}
+.chalk {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -224px -32px;
+}
+.wool {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -224px -64px;
+}
+.sugar, .sugar_rush {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -160px -64px;
+}
+.lemon_juice {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -192px -64px;
+}
+.lime_juice {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -224px -64px;
+}
+.wheat_bundle {
+    background-image: url("Icons/Exported/crop_sheet.png");
+    background-position: -64px -64px;
+}
+.gold_wheat {
+    background-image: url("Icons/Exported/crop_sheet.png");
+    background-position: -96px -64px;
+}
+.santa_hat {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -320px -288px;
+}
+.lamp_oil, .oiled {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -0px -128px;
 }
 /* info (large) */
 .yes, .passed {

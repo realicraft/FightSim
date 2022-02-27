@@ -14,6 +14,22 @@
     margin: 0px;
     padding-top: 1em;
     padding-bottom: 1em;
+    position: relative;
+}
+.lower_username {
+    font-size: 12px;
+    font-weight: initial;
+    margin: 0px;
+    position: absolute;
+    width: 200px;
+    left: calc(50% - 100px);
+    bottom: 0px;
+}
+.type_icon_contain {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    z-index: 1;
 }
 .health_disp, .combat_disp {
     width: calc(50% - 1px);
@@ -78,6 +94,7 @@
     right: 2px;
     top: 2px;
     color: white;
+    z-index: 1;
 }
 .pt_level_contain p {
     margin: 0px;

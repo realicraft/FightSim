@@ -72,24 +72,24 @@ Incendiary: (47)
  Misc: (14)
   Quadturn Quest: 1 (4)
   Full Quest: 1 (10)
-Byron: (213)
- Combat: (83)
-  Kill: 4 (4)
-  Deal Damage: 12 (24)
-  Over 10 Damage: 14 (14)
+Byron: (235)
+ Combat: (90)
+  Kill: 5 (5)
+  Deal Damage: 14 (28)
+  Over 10 Damage: 15 (15)
   KO: 2 (40)
-  Kill Mob: 1 (1)
+  Kill Mob: 2 (2)
  Skill: (44)
   Level Up: 15 (30)
   Proficiency Bonus: 1 (4)
   Crit: 5 (10)
- Misc: (86)
+ Misc: (101)
   Crit: 2 (2)
-  Turn Quest: 12 (24)
+  Turn Quest: 14 (28)
   Quadturn Quest: 4 (16)
-  Full Quest: 2 (20)
+  Full Quest: 3 (30)
   Repquest: 2 (4)
-  Quest Bonus: (2*5)+(1*4)+(3*2)
+  Quest Bonus: (2*5)+(1*5)+(3*2)
 cheesy: (23)
  Combat:
  Skill: (12)
@@ -136,3 +136,15 @@ TwilightSeleneMisty: (17)
   Turn Quest: 4 (8)
   Quadturn Quest: 1 (4)
   Quest Bonus: (2)+(1)
+Luigis_Pizza:
+ Combat:
+ Skill:
+ Misc:
+Joyous Theta:
+ Combat:
+ Skill:
+ Misc:
+SAVVYSCLUTTER:
+ Combat:
+ Skill:
+ Misc:

@@ -7,15 +7,15 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Deal damage to a mob.", "Unclaimed", "5 HP, 1 Misc EXP", "58"],
-    ["Go Chopping.", "Unclaimed", "40% Chopping Exp", "58"],
-    ["Make a Chestplate.", "Unclaimed", "Leather Helmet", "58"],
+    ["Go Fishing.", "Unclaimed", "40% Fishing Exp", "59"],
+    ["Make a food.", "Unclaimed", "25% Cooking Exp, 2 Dough", "59"],
+    ["Move three items.", "Unclaimed", "3 Misc EXP", "59"],
     ["Equip a piece of armor.", "Unclaimed", "Iron Boots", "56~59"],
     ["Find a 4-Leaf Clover.", "Claimed by Byron", "4-Leaf Clover, 3 Misc EXP", "56~59"],
     ["Make an adjustment to a Type.", "Unclaimed", "1 Misc EXP", "56~59"],
     ["Obtain 2 Stickers.", "Unclaimed", "3 Misc EXP, 1 Sticker Pack"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc EXP"],
-    ["Equip any accessory.", "Unclaimed", "2 Iron Bars"],
+    ["Equip any chestplate.", "Unclaimed", "Leather Leggings"],
 ]
 
 var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
@@ -33,6 +33,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Leopardy", "1 Crop", "1 Misc EXP", "0/1"],
             ["gilbert", "1 Crop", "1 Misc EXP", "0/1"],
             ["Twilight", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Luigi", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Kitty", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Savvy", "1 Crop", "1 Misc EXP", "0/1"],
         ], "75 Harvests (4/75)"
     ],
     ["Make Wiki Edits.", "The edits need to be significant in some way; fixing a typo won't count.",
@@ -49,12 +52,18 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Leopardy", "10 Edits", "1 Skill Candy", "0/10"],
             ["gilbert", "10 Edits", "1 Skill Candy", "0/10"],
             ["Twilight", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Luigi", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Kitty", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Savvy", "10 Edits", "1 Skill Candy", "0/10"],
         ], "500 Edits (3/500)"
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Deal damage to a mob.", "Claimed by Byron", "5 HP, 1 Misc EXP", "58"],
+        ["Go Chopping.", "Claimed by Byron", "40% Chopping Exp", "58"],
+        ["Make a Chestplate.", "Unclaimed", "Leather Helmet", "58"],
         ["Deal damage to a player.", "Claimed by Byron", "5 HP, 1 Misc EXP", "57"],
         ["Go Fishing.", "Claimed by solitare", "40% Fishing Exp", "57"],
         ["Make a shield.", "Claimed by solitare", "3 Misc EXP", "57"],
@@ -119,6 +128,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
+        ["Equip any accessory.", "Claimed by Byron", "2 Iron Bars"]
         ["Die.", "Claimed by gilbert", "5 Misc EXP, 4 Iron Ore"],
         ["Use a thin-air weapon.", "Claimed by gilbert", "2 Misc EXP"],
         ["Kill someone.", "Claimed by Byron", "3 Misc EXP"],

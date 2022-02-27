@@ -40,15 +40,15 @@ var inventoryList = {
           [0,1,{}],  [0,1,{}], [0,1,{}]
     ],
     "Byron_Inc_TBG": [
-         [40,1,{}],                  [25,1,{}],[87,6,{}],
-        [254,2,{}],[207,1,{potion_eff:[10,1]}],[89,2,{}],
-         [23,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[124,10,{}],
-        [357,1,{}],                 [351,1,{}], [0,1,{}]
+         [40,1,{}],                  [25,1,{}], [87,6,{}],
+        [254,2,{}],[207,1,{potion_eff:[10,1]}], [89,2,{}],
+         [23,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie<br />1x Iron Ore<br />3x Plank<br />3x Stick<br />2x Iron Bar"]}],[124,10,{}],
+         [51,2,{}],                  [44,2,{}],[223,3,{}]
     ],
     "cheesyfriedeggs": [
          [35,3,{}], [38,1,{}], [46,4,{}],
          [47,5,{}], [10,1,{}],[143,1,{}],
-         [44,2,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />1x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[247,1,{}],
+         [36,2,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />1x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[247,1,{}],
         [35,10,{}],[254,2,{}],[351,1,{}]
     ],
     "solitare": [
@@ -80,6 +80,24 @@ var inventoryList = {
         [144,1,{}],[ 45,3,{}],                                                        [23,1,{}],
          [31,1,{}],  [9,1,{}],                                                        [68,7,{}],
         [239,1,{}], [47,8,{}],[243,1,{desc_append:["<br />1x Item Candy<br />1x Skill Candy<br />1x Mystery Gift<br />1x Heart-Shaped Chocolate"]}]
+    ],
+    "Luigis_Pizza": [
+        [0,1,{}],[0,1,{}],[0,1,{}],
+        [0,1,{}],[0,1,{}],[0,1,{}],
+        [0,1,{}],[0,1,{}],[0,1,{}],
+        [0,1,{}],[0,1,{}],[0,1,{}]
+    ],
+    "<abbr title=\"Dark Necromancer Kitty\">D. N. Kitty</abbr>": [
+        [0,1,{}],[0,1,{}],[0,1,{}],
+        [0,1,{}],[0,1,{}],[0,1,{}],
+        [0,1,{}],[0,1,{}],[0,1,{}],
+        [0,1,{}],[0,1,{}],[0,1,{}]
+    ],
+    "SAVVYSCLUTTER": [
+        [0,1,{}],[0,1,{}],[0,1,{}],
+        [0,1,{}],[0,1,{}],[0,1,{}],
+        [0,1,{}],[0,1,{}],[0,1,{}],
+        [0,1,{}],[0,1,{}],[0,1,{}]
     ],
 };
 

@@ -21,25 +21,29 @@ Incendiary:
  Skills:
 Byron:
  Stats:
-  Indirect Defense: (+7)
+  Indirect Defense: (+8.2)
    Iron Chestplate (+1)
    Diamond Shield (+1)
    Golden Carrots (+5.0)
+   Diamond Band (+1.2)
   Direct Defense: (+2)
    Iron Chestplate (+1)
    Diamond Shield (+1)
-  Indirect Attack: (+3)
+  Indirect Attack: (+4.2)
    Iron Sword (+2)
    Player Level (+1)
-  Direct Attack: (+1)
+   Diamond Band (+1.2)
+  Direct Attack: (+0)
    Iron Sword (+1)
+   Bleeding (-1)
   Health: (+6)
    Player Level (+6)
  Skills:
 cheesy:
  Stats:
-  Direct Attack: (+1)
+  Direct Attack: (+2)
    Wooden Sword (+1)
+   Attack Up (+1)
  Skills:
 solitare:
  Stats:
@@ -81,3 +85,12 @@ TwilightSeleneMisty:
  Skills:
   Mining: (+1)
    Wooden Pickaxe (+1)
+Luigis_Pizza:
+ Stats:
+ Skills:
+Joyous Theta:
+ Stats:
+ Skills:
+SAVVYSCLUTTER:
+ Stats:
+ Skills:

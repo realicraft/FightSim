@@ -1,0 +1,34 @@
+var table = document.getElementById("creative_inv");
+
+var cells_to_remove = [];
+
+for (var i = 0, cell; cell = table.getElementsByTagName('td')[i]; i++) {
+    icon = cell.getElementsByTagName('span')[0];
+    style = icon.currentStyle || window.getComputedStyle(icon, false);
+    bi = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+pos = window.getComputedStyle(icon,null).backgroundPosition.trim().split(/\s+/)[0]
+    if (bi != "file:///home/pi/git/FightSim/Icons/Exported/equip_sheet.png") {
+        cells_to_remove.push(cell);
+    } else if (pos != "-608px") {
+        cells_to_remove.push(cell);
+    };
+};
+
+for (var j = 0; j < cells_to_remove.length; j++) {
+    cells_to_remove[j].remove();
+}
+
+var remain_class = [];
+
+for (var l = 0, cell; cell = table.getElementsByTagName('td')[l]; l++) {
+    icon = cell.getElementsByTagName('span')[0];
+    cname = icon.className;
+    remain_class.push(cname.substring(5))
+};
+
+String(remain_class);
+
+"slingshot,cookie_tray,crop_mush,banana,rock_on_stick,corn,gold_corn,corn,fold_chair,bread,
+string_wad,spinach,gold_spinach,ripe corn,ripe spinach,feather,rotten_flesh,cooked_flesh,gold_flesh,furnace,bobm,cannon,
+raw_chicken,cooked_chicken,raw_mutton,cooked_mutton,meat_paste,chocolate_chips,chocolate_bar,blackberries,gold_blackberries,peach,gold_peach,
+sticker_pack_a,ripe blackberries,ripe peach,lemonade,limeade,hfcs,popcorn"

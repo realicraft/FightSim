@@ -9,7 +9,7 @@ var stat_tables = ""
 var stat_table = ""
 for (var i in user_data["3"]) {
     stat_table = '<div class="player_table user_'
-    stat_table += i.toLowerCase()
+    stat_table += user_data["3"][i]["css_class"].toLowerCase()
     stat_table += '"><span class="pt_level_contain"><p class="pt_level_upper">Level '
     stat_table += user_data["3"][i]["exp"][0]
     stat_table += '</p>'
@@ -21,9 +21,13 @@ for (var i in user_data["3"]) {
     stat_table += user_data["3"][i]["exp"][1]
     stat_table += '/'
     stat_table += user_data["3"][i]["exp"][2]
-    stat_table += '</p></span><span style="position: relative; width: 100%; display: inline-block;"><span class="icon '
+    stat_table += '</p></span><span class="type_icon_contain"><span class="icon '
     stat_table += typelist[user_data["3"][i]["type"]]
-    stat_table += ' type_icon" title="Type"></span></span><h2 class="username">' + i + '</h2><div class="meter_container"><div class="health_disp"><span class="icon '
+    stat_table += ' type_icon" title="Type"></span></span><h2 class="username">' + i
+    if (!(user_data["3"][i]["un_same"])) {
+        stat_table += '<p class="lower_username">' + user_data["3"][i]["username"] + '</p>'
+    }
+    stat_table += '</h2><div class="meter_container"><div class="health_disp"><span class="icon '
     if (user_data["3"][i]["health"][0] > 50) {stat_table += 'health'}
     else if (user_data["3"][i]["health"][0] > 0) {stat_table += 'heart2'}
     else {stat_table += 'ko'}
