@@ -48,8 +48,8 @@ var inventoryList = {
     "cheesyfriedeggs": [
          [35,3,{}], [38,1,{}], [46,4,{}],
          [47,5,{}], [10,1,{}],[143,1,{}],
-         [36,2,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />1x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[247,1,{}],
-        [35,10,{}],[254,2,{}],[351,1,{}]
+         [36,2,{}],[243,1,{desc_append:["<br />1x Effect Candy<br />2x Skill Candy<br />1x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[247,1,{}],
+        [35,10,{}],[254,2,{}],  [0,1,{}]
     ],
     "solitare": [
         [46,3,{}],[351,1,{}],  [0,1,{}],
