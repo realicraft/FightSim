@@ -25,6 +25,14 @@
     left: calc(50% - 100px);
     bottom: 0px;
 }
+.pn_contain {
+    font-size: 12px;
+    font-weight: initial;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
 .type_icon_contain {
     position: relative;
     width: 100%;

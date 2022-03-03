@@ -27,7 +27,9 @@ for (var i in user_data["3"]) {
     if (!(user_data["3"][i]["un_same"])) {
         stat_table += '<p class="lower_username">' + user_data["3"][i]["username"] + '</p>'
     }
-    stat_table += '</h2><div class="meter_container"><div class="health_disp"><span class="icon '
+    stat_table += '<span class="pn_contain"><span class="small_icon phone_small" style="vertical-align:middle;"></span>'
+    stat_table += user_data["3"][i]["pn"]
+    stat_table += '</span></h2><div class="meter_container"><div class="health_disp"><span class="icon '
     if (user_data["3"][i]["health"][0] > 50) {stat_table += 'health'}
     else if (user_data["3"][i]["health"][0] > 0) {stat_table += 'heart2'}
     else {stat_table += 'ko'}

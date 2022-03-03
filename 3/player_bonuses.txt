@@ -26,9 +26,10 @@ Byron:
    Diamond Shield (+1)
    Golden Carrots (+5.0)
    Diamond Band (+1.2)
-  Direct Defense: (+2)
+  Direct Defense: (+0)
    Iron Chestplate (+1)
    Diamond Shield (+1)
+   Severe Nausea (-2)
   Indirect Attack: (+4.2)
    Iron Sword (+2)
    Player Level (+1)
@@ -38,7 +39,13 @@ Byron:
    Bleeding (-1)
   Health: (+6)
    Player Level (+6)
+  Health Regen: (-9)
+   Bleeding (-5)
+   Severe Nausea (-8)
+   Regen (+4)
  Skills:
+  All Skills: (-3)
+   Severe Nausea (-3)
 cheesy:
  Stats:
   Direct Attack: (+2)

@@ -1324,9 +1324,130 @@ span.small_icon {
     background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -320px -288px;
 }
+
 .lamp_oil, .oiled {
     background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -0px -128px;
+}
+.pearl {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -160px -32px;
+}
+.amethyst {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -192px -32px;
+}
+.quartz {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -224px -32px;
+}
+.sapphire {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -0px -64px;
+}
+.ruby {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -32px -64px;
+}
+.thunder_stone {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -64px -64px;
+}
+.rope {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -32px -128px;
+}
+.topaz {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -96px -64px;
+}
+.sticker_pack_red {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -0px -224px;
+}
+.sticker_pack_orange {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -32px -224px;
+}
+.sticker_pack_yellow {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -64px -224px;
+}
+.sticker_pack_green {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -96px -224px;
+}
+.sticker_pack_blue {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -128px -224px;
+}
+.sticker_pack_cyan {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -160px -224px;
+}
+.sticker_pack_purple {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -192px -224px;
+}
+.sticker_pack_gray {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -224px -224px;
+}
+.ruby_sapphire_bar {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -128px -64px;
+}
+.electrum_ore {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -160px -64px;
+}
+.electrum_bar {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -192px -64px;
+}
+.electrum_nugget {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -224px -64px;
+}
+.gunpowder {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -64px -128px;
+}
+.snowball, .snowball_with_rock {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -96px -128px;
+}
+.disp_phone {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -128px -128px;
+}
+.reuse_phone {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -160px -128px;
+}
+.used_disp_phone {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -192px -128px;
+}
+.crate {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -224px -128px;
+}
+.fish_bag {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -224px -0px;
+}
+.potion_enchant {
+    background-image: url("Icons/Exported/alchemy_sheet.png");
+    background-position: -32px -32px;
+}
+.chest {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -64px -96px;
+}
+.furnace {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -96px -96px;
 }
 /* info (large) */
 .yes, .passed {
@@ -1437,6 +1558,10 @@ span.small_icon {
 .craft_smelting {
     background-image: url("Icons/Exported/info_sheet.png");
     background-position: -240px -48px;
+}
+.phone_small {
+    background-image: url("Icons/Exported/info_sheet.png");
+    background-position: -112px -32px;
 }
 /* effects */
 .enchanted {

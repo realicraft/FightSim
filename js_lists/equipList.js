@@ -39,9 +39,9 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Diamond", "diamond", "It's a diamond. These things are rare!", "Mining", "", [24,11], 2], //37
     ["Decent Hammer", "decent_hammer", "Bonk.", "Crafting", "+1 Direct Attack", [5,23], 1], //38
     ["Slingshot", "slingshot", "You shoot things with it.", "Crafting", "+1 Indirect Attack<br />Can be used with ammo to deal more damage", [5], 2], //39
-    ["Flint & Steel", "flint_and_steel", "Sets things on fire.", "Crafting", "+30% chance to inflict On Fire on hit for 1 turn", [5,20], 1], //40
+    ["Flint & Steel", "flint_and_steel", "Sets things on fire.", "Crafting", "+30% chance to inflict On Fire on hit for 1 turn<br />+1 <span class=\"fire\">Fire</span> damage", [5,20], 1], //40
     ["TNT", "tnt", "Explodes after being ignited.", "Unknown", "", [17], 2], //41
-    ["Icicle", "icicle", "It's cold, and kinda pointy.", "Gathering", "+10% chance to inflict Frozen on hit for 1 turn", [5,23], 1], //42
+    ["Icicle", "icicle", "It's cold, and kinda pointy.", "Gathering", "+10% chance to inflict Frozen on hit for 1 turn<br />+1 <span class=\"ice\">Ice</span> damage", [5,23], 1], //42
     ["Tray of Cookies", "cookie_tray", "A tray filled with cookies.", "Cooking", "", [20], 1], //43
     ["Log", "log", "A log.", "Chopping", "", [17], 1], //44
     ["Stick", "stick_item", "It's a stick. You can use it in a bunch of different things.", "Chopping", "Counts as 1 fuel unit", [11,27], 1], //45
@@ -65,7 +65,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Golden Apple", "golden_apple", "A golden apple. One of the more common golden foods, and the only edible one.", "Farming", "Equip for +0.5 Max HP<br />Eat for Regen and Defense Up (1 turn)", [9,30], 2], //63
     ["Orange", "orange", "An orange. Not very similar to an apple, which is why they're compared so often.", "Farming", "+5 HP on consume", [10,30], 1], //64
     ["Golden Orange", "golden_orange", "A golden orange. No one knows whether it's golden on the inside, because the peel is solid gold and can't be removed.", "Farming", "Equip for +0.7 Max HP", [9], 2], //65
-    ["Carrot", "carrot", "A carrot. It's orange.", "Farming", "+5 HP on consume<br />Consume like 10 at once to turn very slightly orange", [10,30], 1], //66
+    ["Carrot", "carrot", "A carrot. It's orange.<br /><br />A dragon would probably like this.", "Farming", "+5 HP on consume<br />Consume like 10 at once to turn very slightly orange", [10,30], 1], //66
     ["Clay Shield", "clay_shield", "A shield made of clay. Try to avoid letting it shatter.", "Pottery", "+1 Indirect Defense<br />+1 Direct Defense<br />15% chance of breaking on hit", [7], 1], //67
     ["Iron Ore", "iron_ore", "Some iron ore. Can be crafted into bars, requiring 2 ore per bar.", "Mining", "Potion effect: 50% chance of Defense Up (1 turn)", [24], 1], //68
     ["Copper Ore", "copper_ore", "Some copper ore. Can be crafted into bars, requiring 1 ore per bar.", "Mining", "", [24], 1], //69
@@ -246,7 +246,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Hammer", "hammer", "A hammer capable of messing with Structures.", "Unknown", "Use it to mess with a Structure somehow (not consumed)<br />Equip for +0.7 Direct Attack and +4 damage vs. Structures", [29,6], 4], //244
     ["bobm", "bobm", "it goes boom", "Unknown", "Use it near someone to Die and deal 1d40+40 to everyone in the nearby area (including you)", [29,20,23], 4], //245
     ["Deployable Cannon", "cannon", "A cannon, ready for deploying.", "Unknown", "Deploy it to create a Cannon", [29,20], 4], //246
-    ["Sponge", "sponge", "A sponge. It can absorb water, and the abrasive side is kinda scratchy.", "Unknown", "Use it to remove water from something (not consumed)<br />Equip for +0.7 Direct Attack and 15% chance to inflict Soaked (1 turn)", [29,6], 4], //247
+    ["Sponge", "sponge", "A sponge. It can absorb water, and the abrasive side is kinda scratchy.", "Unknown", "Use it to remove water from something (not consumed)<br />Equip for +0.7 Direct Attack and 15% chance to inflict Soaked (1 turn)<br />+1 <span class=\"water\">Water</span> damage", [29,6], 4], //247
     ["Esolang", "esolang", "An \"esoteric language\". You're not sure what it does, or how to use it, but that's the fun part!<br />Skill level: ", "Unknown", "Does something random on use<br />Usually fails, chance of failure decreases with higher Skill level<br />Using it increases Skill level", [29,20], 4], //248
     ["Santa Hat", "santa_hat", "A traditional(-ish) Christmas hat.", "Christmas", "+1 Indirect Defense<br />+1 Indirect Attack<br />+5% XP from Monsters", [12,1], 1], //249
     ["Chain Helmet", "chain_helm", "A helmet made of chainmail.", "Crafting", "+1 Indirect Defense", [1], 1], //250
@@ -267,7 +267,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Cookie", "cookie", "A plain cookie.", "Cooking", "Consume for +5 HP", [10,30], 1], //265
     ["Chocolate Chip Cookie", "chocolate_chip_cookie", "A cookie with chocolate chips inside. A classic.", "Cooking", "Consume for +7 HP", [10,30], 1], //266
     ["Apple Cookie", "apple_cookie", "A cookie with small chunks of apples inside.", "Cooking", "Consume for +8 HP", [10,30], 1], //267
-    ["Carrot Cookie", "carrot_cookie", "A cookie with small ribbons of carrot inside. It's like a carrot cake, but a cookie.<br />For some reason, you get the feeling that these will be important...", "Cooking", "Consume for +6 HP", [10,30], 1], //268
+    ["Carrot Cookie", "carrot_cookie", "A cookie with small ribbons of carrot inside. It's like a carrot cake, but a cookie.<br />For some reason, you get the feeling that these will be important...<br />It probably has something to do with dragons.", "Cooking", "Consume for +6 HP", [10,30], 1], //268
     ["Cocoa Beans", "cocoa_bean", "Some cocoa beans.", "Farming", "", [13,11], 1], //269
     ["Chocolate Chips", "chocolate_chips", "Some chocolate chips.", "Cooking", "Consume for +2 HP", [10,11], 1], //270
     ["Chocolate Bar", "chocolate_bar", "A bar made of solid chocolate. Yummy.", "Cooking", "Consume for +5 HP", [10], 1], //271
@@ -302,7 +302,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Canned Blueberries", "can", "A can with bluebrries in it.", "Crafting", "Open it", [20], 1], //300
     ["Canned Cherries", "can", "A can with cherries in it.", "Crafting", "Open it", [20], 1], //301
     ["Canned Radish Slices", "can", "A can with radish slices in it.", "Crafting", "Open it", [20], 1], //302
-    ["Baby Carrots", "baby_carrots", "Some baby carrots.", "Cooking", "Consume for +6 HP", [10,30], 1], //303
+    ["Baby Carrots", "baby_carrots", "Some baby carrots.<br /><br />A small dragon would probably like these.", "Cooking", "Consume for +6 HP", [10,30], 1], //303
     ["Bucket", "bucket", "A bucket. It can hold liquids, or be used as a helmet.", "Crafting", "+0.7 Direct Defense", [1,11,20], 1], //304
     ["Water Bucket", "water_bucket", "A bucket filled with water.", "Bucket", "", [20], 1], //305
     ["Milk Bucket", "milk_bucket", "A bucket filled with milk.", "Bucket", "Drink it for +7 HP<br />Drink it to reduce all active effects by 1 turn", [20,30], 1], //306
@@ -327,7 +327,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Sap Sticker", "sticker_sap", "A sticker of some sap.<br />[St1, 15, C]", "Unknown", "Put it in your Sticker Book for +0.7 Chopping", [37, 20], 1], //325
     ["Raised Sap Sticker", "sticker_sap_rare", "A raised sticker of some sap. The sap isn't sticky, but the sticker is.<br />[St1, 16, R]", "Unknown", "Put it in your Sticker Book for +2 Chopping", [37, 20], 3], //326
     ["Stone Shield", "stone_shield", "A shield made out of wood, with a stone core.", "Crafting", "+0.5 Indirect Defense<br />+0.5 Direct Defense", [7], 1], //327
-    ["Sticker Pack (St1)", "sticker_pack_a", "A pack of two stickers. Open it and see what you get!", "Crafting", "Grants two random stickers", [20], 2], //328
+    ["Sticker Pack (St1)", "sticker_pack_cyan", "A pack of two stickers. Open it and see what you get!", "Crafting", "Grants two random stickers", [20], 2], //328
     ["Mystery Potion D", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />No, really, what does this do. And what's with the fancy gradient?", "Unknown", "???", [16, 32, 29, 33, 40], 5], //329
     ["stickers.empty_sticker", "empty_sticker", "desc.empty_equip", "src.empty_equip", "", [28, 37], 0], //330
     ["Orb Sticker", "sticker_orb", "A sticker of an orb. Looks more like a circle to me.<br />[St1, 17, UC]", "Unknown", "Put it in your Sticker Book for +0.2 Direct Attack, +0.2 Direct Defense, +0.4 Max HP, and +0.1 to all Skills", [37, 20], 2], //331
@@ -359,4 +359,42 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Diamond Band", "diamond_band", "A band made of diamond, to go around your wrist.", "Crafting", "+1.2 Indirect Defense<br />+1.2 Indirect Attack", [8], 2], //357
     ["Chalk", "chalk", "A block of chalk. It's dusty.", "Mining", "", [11,17], 1], //358
     ["Lamp Oil", "lamp_oil", "A container of lamp oil. It's very flammable.", "Gathering", "Counts as 3 fuel units<br />Throw it at someone to inflict Oiled for 2 turns", [11,20,21,27], 1], //359
+    ["Pearl", "pearl", "A small, spherical pearl. Pearls that are naturally spherical are pretty rare.", "Fishing", "", [11], 2], //360
+    ["Amethyst Shard", "amethyst", "A shard of amethyst.", "Mining", "", [24,11], 2], //361
+    ["Quartz Shard", "quartz", "A shard of white quartz. Sometimes, it comes in different colors, but then it has a different name.", "Mining", "", [24,11], 2], //362
+    ["Sapphire", "sapphire", "A sapphire. Why do these end up teardrop-shaped so often?", "Mining", "", [24,11], 2], //363
+    ["Ruby", "ruby", "A small ruby. Aren't these normally square, rather than... I think that's an octagon?", "Mining", "", [24,11], 2], //364
+    ["Thunder Stone", "thunder_stone", "It's brimming with electricity. One of these could probably power up a weapon signifcantly.<br />...if you have the right weapon.", "Unknown (FS2); Gathering with an 8-Leaf Clover (FS3)", "Can only be obtained once per game, ever<br />Combine with a specific weapon to strengthen it", [11, 29, 32, 33], 4], //365
+    ["Rope", "rope", "A coil of rope. You can climb it, if it's hung off of something.", "Crafting", "", [20,21], 1], //366
+    ["Topaz", "topaz", "A single topaz. At least, it's shaped like a topaz. The color's weird.", "Mining", "", [24,11], 2], //367
+    ["Ruby-Sapphire Bar", "ruby_sapphire_bar", "Look, I know that rubies and sapphires are just different colors of the same mineral, but that doesn't mean this makes sense.", "Crafting", "", [11,25], 2], //368
+    ["Electrum Ore", "electrum_ore", "Some electrum ore. Can be crafted into bars, requiring 1 ore per bar.", "Mining", "", [24], 1], //369
+    ["Electrum Bar", "electrum_bar", "A bar of electrum. Touching it gives a light static shock.", "Crafting", "", [11,25], 1], //370
+    ["Electrum Nugget", "electrum_nugget", "A nugget of electrum. It's like a weak battery.", "Crafting", "", [11,41], 1], //371
+    ["Gunpowder", "gunpowder", "Some black powder. Careful, it's flammable. And explosive.", "Mobs", "", [11], 1], //372
+    ["Snow", "snow_block", "A block of snow.", "Digging", "", [11], 1], //373
+    ["Snowball", "snowball", "A ball of snow.", "Crafting", "Throw it at someone to deal 1 <span class=\"ice\">Ice</span> damage", [11,21], 1], //374
+    ["Snowball with a rock in it", "snowball_with_rock", "A ball of snow with a rock in it.", "Crafting", "Throw it at someone to deal 2 <span class=\"ice\">Ice</span> damage and 4 Typeless damage", [21], 1], //375
+    ["Lever", "lever", "A lever. You can push it to make electricity flow.", "Crafting", "", [17], 1], //376
+    ["Wooden Button", "wood_button", "A button made of wood. You can push it to make electricity flow.", "Crafting", "", [17], 1], //377
+    ["Stone Button", "stone_button", "A button made of stone. You can push it to make electricity flow.", "Crafting", "", [17], 1], //378
+    ["Iron Button", "iron_button", "A button made of iron. You can push it to make electricity flow.", "Crafting", "", [17], 1], //379
+    ["Wooden Pressure Plate", "wood_plate", "A pressure plate made of wood. You can push it to make electricity flow.", "Crafting", "", [17], 1], //380
+    ["Stone Pressure Plate", "stone_plate", "A pressure plate made of stone. You can push it to make electricity flow.", "Crafting", "", [17], 1], //381
+    ["Wire String", "wire", "A string of wire. Electricity can flow through it.", "Crafting", "", [11], 1], //382
+    ["Disposable Phone", "disp_phone", "A cheap phone. You can make calls on it, but it's so poorly made that it breaks when hung up.", "Crafting", "Call people on it<br />Can also call other players", [11,20], 2], //383
+    ["Reuseable Phone", "reuse_phone", "A once-cheap phone, augmented with hardite to strengthen it. The downside is that it chugs through electrum nuggets like water, which is why it has three battery slots.<br />Battery status: ", "Crafting", "Uses Electrum Nuggets as batteries<br />Call people on it<br />Can also call other players<br />Does not break on usage", [20], 3], //384
+    ["Used Disposable Phone", "used_disp_phone", "A cheap phone, which was broken, tossed into the sea, and then fished back up again.", "Fishing", "", [26], 1], //385
+    ["Morshu's Express Pack", "crate", "A crate from Morshu, containing lamp oil, rope, and bombs.", "Phone", "Open it", [20], 1], //386
+    ["Takeout Express Variety Pack", "crate", "A cardboard box with a crate-like pattern, filled with various food.", "Phone", "Open it and eat the food", [20], 1], //387
+    ["Mama June's Pepperoni Pizza", "pizza", "A pizza from the \"local\" Mama June's Pizza.", "Phone", "+12 HP on consume", [10], 1], //388
+    ["Coin", "coin", "A coin that you minted yourself. It's obviously counterfeit, but for some reason all the stores you call will take it anyway?", "Crafting", "", [20], 1], //389
+    ["Cod", "cod", "A small cod.", "Fishing", "Cook it to make it edible", [26], 1], //390
+    ["Cooked Cod", "cooked_cod", "A small cod, cooked to perfection.", "Cooking", "Consume for +7 HP.", [10,30], 1], //391
+    ["Seaweed", "seaweed", "A square of raw seaweed. Probably not that useful.", "Fishing", "Cook it to make it edible", [11], 1], //392
+    ["Red Herring", "red_herring", "This is clearly the most important item in the entire game.", "Fishing", "+0.7 Direct Attack", [26,5], 2], //393
+    ["Spin Fish", "spin_fish", "A really large fish. It's too large to eat, but you could spin it to knock people off of things.", "Fishing", "+1.3 Direct Attack<br />Causes knockback", [26,5], 2], //394
+    ["Bag of Fish", "fish_bag", "A bag containing a number of fish.", "Fishing", "Open to gain 1d3+1 fish from any non-Junk/non-Treasure item pool", [20,42], 2], //395
+    ["Bottle o' Enchanting", "potion_enchant", "A bottle filled with a bunch of skill experience.", "Fishing", "Throw it on someone (can be yourself) to give them 50% Exp to 4 random skills", [16,21], 3], //396
+    ["Chest", "chest", "A chest. You can put it in a structure.", "Crafting", "Stores 18 items", [17], 1], //397
 ]

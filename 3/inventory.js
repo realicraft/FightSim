@@ -10,10 +10,10 @@ name_color: color as a string*/
 // [id, count, {nbt_name: [nbt_conts]}]
 var inventoryList = {
     "realicraft": [
-        [43,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie"]}],[99,6,{}],
+        [43,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie<br />1x Old Boot"]}],[99,6,{}],
         [51,4,{}], [68,4,{}], [37,2,{}],
-        [75,2,{}], [76,1,{}],[351,1,{}],
-         [0,1,{}],  [0,1,{}],  [0,1,{}]
+        [75,2,{}], [76,1,{}],[190,2,{}],
+        [44,1,{}], [46,3,{}], [45,2,{}]
     ],
     "SausageMcSauce": [
         [240,1,{}],[244,1,{}],[351,1,{}],
@@ -40,10 +40,10 @@ var inventoryList = {
           [0,1,{}],  [0,1,{}], [0,1,{}]
     ],
     "Byron_Inc_TBG": [
-         [40,1,{}],                  [25,1,{}], [87,6,{}],
-        [254,2,{}],[207,1,{potion_eff:[10,1]}], [89,2,{}],
-         [23,1,{}],[243,1,{desc_append:["<br />2x Effect Candy<br />2x Skill Candy<br />2x Item Candy<br />1x Time Candy<br />1x Santa Hat<br />1x LTT Hoodie<br />1x Iron Ore<br />3x Plank<br />3x Stick<br />2x Iron Bar"]}],[124,10,{}],
-         [51,2,{}],                  [44,2,{}],[223,3,{}]
+         [0,1,{}],[25,1,{}],[0,1,{}],
+         [0,1,{}], [0,1,{}],[0,1,{}],
+        [23,1,{}], [0,1,{}],[0,1,{}],
+         [0,1,{}], [0,1,{}],[0,1,{}]
     ],
     "cheesyfriedeggs": [
          [35,3,{}], [38,1,{}], [46,4,{}],
@@ -76,9 +76,9 @@ var inventoryList = {
         [254,5,{}],[248,1,{desc_append:["2/50"]}],[68,4,{}] // Queued: 1x 351
     ],
     "TwilightSeleneMisty": [
-         [92,1,{}],[130,1,{}],                                                        [72,1,{}],
-        [144,1,{}],[ 45,3,{}],                                                        [23,1,{}],
-         [31,1,{}],  [9,1,{}],                                                        [68,7,{}],
+         [92,1,{}],[130,1,{}],[72,1,{}],
+         [51,1,{}],[ 45,3,{}],[23,1,{}],
+         [31,1,{}],  [9,1,{}],[68,7,{}],
         [239,1,{}], [47,8,{}],[243,1,{desc_append:["<br />1x Item Candy<br />1x Skill Candy<br />1x Mystery Gift<br />1x Heart-Shaped Chocolate"]}]
     ],
     "Luigis_Pizza": [

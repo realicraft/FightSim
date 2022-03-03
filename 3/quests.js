@@ -7,12 +7,12 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Go Fishing.", "Unclaimed", "40% Fishing Exp", "59"],
-    ["Make a food.", "Unclaimed", "25% Cooking Exp, 2 Dough", "59"],
-    ["Move three items.", "Unclaimed", "3 Misc EXP", "59"],
-    ["Equip a piece of armor.", "Unclaimed", "Iron Boots", "56~59"],
-    ["Find a 4-Leaf Clover.", "Claimed by Byron", "4-Leaf Clover, 3 Misc EXP", "56~59"],
-    ["Make an adjustment to a Type.", "Unclaimed", "1 Misc EXP", "56~59"],
+    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 5 Misc EXP", "60"],
+    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 5 Misc EXP", "60"],
+    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 5 Misc EXP", "60"],
+    ["Use a Disposable Phone.", "Unclaimed", "1 Electrum Bar, 5 Misc EXP", "60~63"],
+    ["Make an 8-Leaf Clover.", "Unclaimed", "1 Bottle o' Enchanting,", "60~63"],
+    ["Cause a new item to be made.", "Unclaimed", "2 Misc EXP", "60~63"],
     ["Obtain 2 Stickers.", "Unclaimed", "3 Misc EXP, 1 Sticker Pack"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc EXP"],
     ["Equip any chestplate.", "Unclaimed", "Leather Leggings"],
@@ -61,6 +61,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go Fishing.", "Claimed by Reali", "40% Fishing Exp", "59"],
+        ["Make a food.", "Unclaimed", "25% Cooking Exp, 2 Dough", "59"],
+        ["Move three items.", "Claimed by Byron", "3 Misc EXP", "59"],
         ["Deal damage to a mob.", "Claimed by Byron", "5 HP, 1 Misc EXP", "58"],
         ["Go Chopping.", "Claimed by Byron", "40% Chopping Exp", "58"],
         ["Make a Chestplate.", "Unclaimed", "Leather Helmet", "58"],

@@ -1,0 +1,11 @@
+Byron
+ - Crops should not be loose (just put them in people's inventories)
+ - Garden need a better UI (one table per player? item sprites? completion bar?)
+ - Mobs page needs art (enemy art, also prpbably a better ui)
+ √ Phones should last longer (compromise: more phones)
+ - Voting is redundant (no change yet)
+ - Just re-use dragons (no change yet)
+ X Stop focusing on lore (no)
+ - Just tell us the lore (maybe)
+ - Update schedule should be more consistent (working on it)
+ - Types are too complicated (have you played pokemon?)
