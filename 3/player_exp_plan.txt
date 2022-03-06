@@ -37,14 +37,15 @@ and so on
 --------------
 GAIN RECORD
 
-reali: (7)
+reali: (14)
  Combat: (1)
   Kill: 1 (1)
  Skill: (4)
   Level Up: 1 (2)
   Crit: 1 (2)
- Misc: (2)
-  Turn Quest: 1 (2)
+ Misc: (9)
+  Turn Quest: 3 (4)
+  Quest Bonus: (5)
 SausageMcSauce: (9)
  Combat: (9)
   Kill: 1 (1)
@@ -74,15 +75,15 @@ Incendiary: (47)
  Misc: (14)
   Quadturn Quest: 1 (4)
   Full Quest: 1 (10)
-Byron: (240)
+Byron: (242)
  Combat: (90)
   Kill: 5 (5)
   Deal Damage: 14 (28)
   Over 10 Damage: 15 (15)
   KO: 2 (40)
   Kill Mob: 2 (2)
- Skill: (44)
-  Level Up: 15 (30)
+ Skill: (46)
+  Level Up: 16 (32)
   Proficiency Bonus: 1 (4)
   Crit: 5 (10)
  Misc: (106)
@@ -92,14 +93,15 @@ Byron: (240)
   Full Quest: 3 (30)
   Repquest: 2 (4)
   Quest Bonus: (2*5)+(1*5)+(3*3)
-cheesy: (23)
+cheesy: (30)
  Combat:
  Skill: (12)
   Level Up: 6 (12)
- Misc: (11)
+ Misc: (18)
+  Turn Quest: 1 (2)
   Quadturn Quest: 1 (4)
   Repquest: 2 (4)
-  Quest Bonus: (1)+(2)
+  Quest Bonus: (1)+(2)+(5)
 solitare: (47)
  Combat: (5)
   Kill: 1 (1)
@@ -138,15 +140,21 @@ TwilightSeleneMisty: (17)
   Turn Quest: 4 (8)
   Quadturn Quest: 1 (4)
   Quest Bonus: (2)+(1)
-Luigis_Pizza:
- Combat:
+Luigis_Pizza: (3)
+ Combat: (3)
+  Deal Damage: 1 (2)
+  Over 10 Damage: 1 (1)
  Skill:
  Misc:
-Joyous Theta:
+Joyous Theta (D. N. Kitty):
  Combat:
  Skill:
  Misc:
 SAVVYSCLUTTER:
+ Combat:
+ Skill:
+ Misc:
+iwantpie21 (Bobby):
  Combat:
  Skill:
  Misc:

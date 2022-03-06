@@ -7,9 +7,9 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 5 Misc EXP", "60"],
-    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 5 Misc EXP", "60"],
-    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 5 Misc EXP", "60"],
+    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 4 Misc EXP", "61"],
+    ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "61"],
+    ["Mint a coin or decicoin.", "Unclaimed", "1 Coin", "61"],
     ["Use a Disposable Phone.", "Unclaimed", "1 Electrum Bar, 5 Misc EXP", "60~63"],
     ["Make an 8-Leaf Clover.", "Unclaimed", "1 Bottle o' Enchanting,", "60~63"],
     ["Cause a new item to be made.", "Unclaimed", "2 Misc EXP", "60~63"],
@@ -26,7 +26,7 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
             ["Incendiary", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Byron", "3 Crops", "3 Misc EXP", "0/3"],
+            ["Byron", "3 Crops", "3 Misc EXP", "2/3"],
             ["cheesy", "3 Crops", "3 Misc EXP", "1/3"],
             ["solitare", "1 Crop", "1 Misc EXP", "0/1"],
             ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
@@ -36,7 +36,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Luigi", "1 Crop", "1 Misc EXP", "0/1"],
             ["Kitty", "1 Crop", "1 Misc EXP", "0/1"],
             ["Savvy", "1 Crop", "1 Misc EXP", "0/1"],
-        ], "75 Harvests (4/75)"
+            ["Bobby", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Tony", "1 Crop", "1 Misc EXP", "0/1"],
+        ], "75 Harvests (9/75)"
     ],
     ["Make Wiki Edits.", "The edits need to be significant in some way; fixing a typo won't count.",
         [
@@ -55,12 +57,17 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Luigi", "10 Edits", "1 Skill Candy", "0/10"],
             ["Kitty", "10 Edits", "1 Skill Candy", "0/10"],
             ["Savvy", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Bobby", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Tony", "10 Edits", "1 Skill Candy", "0/10"],
         ], "500 Edits (3/500)"
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go Mining for Electrum.", "Claimed by cheesy", "2 Disposable Phones, 5 Misc EXP", "60"],
+        ["Go Mining for Electrum.", "Claimed by reali", "2 Disposable Phones, 5 Misc EXP", "60"],
+        ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 5 Misc EXP", "60"],
         ["Go Fishing.", "Claimed by Reali", "40% Fishing Exp", "59"],
         ["Make a food.", "Unclaimed", "25% Cooking Exp, 2 Dough", "59"],
         ["Move three items.", "Claimed by Byron", "3 Misc EXP", "59"],
@@ -131,7 +138,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
-        ["Equip any accessory.", "Claimed by Byron", "2 Iron Bars"]
+        ["Equip any accessory.", "Claimed by Byron", "2 Iron Bars"],
         ["Die.", "Claimed by gilbert", "5 Misc EXP, 4 Iron Ore"],
         ["Use a thin-air weapon.", "Claimed by gilbert", "2 Misc EXP"],
         ["Kill someone.", "Claimed by Byron", "3 Misc EXP"],

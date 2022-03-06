@@ -14,4 +14,6 @@ var skilllist = [ //[name, css class for icon]
     ["Pottery", "pottery"], //12
     ["Fishing", "fishing"], //13
     ["Ballet", "ballet"], //14
+    ["Rapping", "rapping"], //15
+    ["No Skill", "no_skill"], //16
 ]

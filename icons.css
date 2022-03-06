@@ -372,7 +372,7 @@ span.small_icon {
     background-image: url("Icons/Exported/misc_sheet.png");
     background-position: 0px -32px;
 }
-.rock {
+.rock, .geode {
     background-image: url("Icons/Exported/ore_sheet.png");
     background-position: -32px -32px;
 }
@@ -1324,7 +1324,6 @@ span.small_icon {
     background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -320px -288px;
 }
-
 .lamp_oil, .oiled {
     background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -0px -128px;
@@ -1448,6 +1447,70 @@ span.small_icon {
 .furnace {
     background-image: url("Icons/Exported/block_sheet.png");
     background-position: -96px -96px;
+}
+.coin {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -0px -160px;
+}
+.coin_good {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -32px -160px;
+}
+.dollar_bill {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -64px -160px;
+}
+.wood_plate {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -128px -96px;
+}
+.stone_plate {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -160px -96px;
+}
+.iron_plate {
+    background-image: url("Icons/Exported/block_sheet.png");
+    background-position: -192px -96px;
+}
+.contact_card_wet {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -160px -32px;
+}
+.contact_card_dry {
+    background-image: url("Icons/Exported/fish_sheet.png");
+    background-position: -192px -32px;
+}
+.penny {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -96px -160px;
+}
+.penny_good {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -128px -160px;
+}
+.pizza {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -0px -96px;
+}
+.golden_pizza {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -32px -96px;
+}
+.tomato {
+    background-image: url("Icons/Exported/crop_sheet.png");
+    background-position: -128px -64px;
+}
+.gold_tomato {
+    background-image: url("Icons/Exported/crop_sheet.png");
+    background-position: -160px -64px;
+}
+.bomb {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -160px -160px;
+}
+.shrapnel_bomb {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -192px -160px;
 }
 /* info (large) */
 .yes, .passed {

@@ -33,4 +33,4 @@ String(remain_class);
 string_wad,spinach,gold_spinach,ripe corn,ripe spinach,feather,rotten_flesh,cooked_flesh,gold_flesh,bobm,cannon,
 raw_chicken,cooked_chicken,raw_mutton,cooked_mutton,meat_paste,chocolate_chips,chocolate_bar,blackberries,gold_blackberries,peach,gold_peach,
 ripe blackberries,ripe peach,lemonade,limeade,hfcs,popcorn,
-snow_block,lever,wood_button,stone_button,iron_button,wood_plate,stone_plate,wire,pizza,coin,cod,cooked_cod,seaweed,red_herring,spin_fish"
+snow_block,lever,wood_button,stone_button,iron_button,wire,pizza,cod,cooked_cod,seaweed,red_herring,spin_fish"

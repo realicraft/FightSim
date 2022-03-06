@@ -131,3 +131,7 @@ span.dark {
     color: #3f3f5f;
     font-weight: bold;
 }
+span.phone_number, span.phone_num {
+    color: #0f5f0f;
+
+}
