@@ -2,6 +2,11 @@ reali:
  Stats:
   Health: (+1)
    Player Level (+1)
+  Indirect Attack: (+1)
+   Santa Hat (+1)
+  Indirect Defense: (+1.7)
+   Santa Hat (+1)
+   LTT Hoodie (+0.7)
  Skills:
 SausageMcSauce:
  Stats:
@@ -40,8 +45,6 @@ Byron:
   Health: (+6)
    Player Level (+6)
  Skills:
-  All Skills: (-1)
-   Severe Nausea (-1)
 cheesy:
  Stats:
   Direct Attack: (+1)

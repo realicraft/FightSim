@@ -7,9 +7,9 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 4 Misc EXP", "61"],
-    ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "61"],
-    ["Mint a coin or decicoin.", "Unclaimed", "1 Coin", "61"],
+    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 3 Misc EXP", "62"],
+    ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "62"],
+    ["Buy a scroll.", "Unclaimed", "1 Scroll (Runes 1, 3)", "62"],
     ["Use a Disposable Phone.", "Unclaimed", "1 Electrum Bar, 5 Misc EXP", "60~63"],
     ["Make an 8-Leaf Clover.", "Unclaimed", "1 Bottle o' Enchanting,", "60~63"],
     ["Cause a new item to be made.", "Unclaimed", "2 Misc EXP", "60~63"],
@@ -65,6 +65,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go Mining for Electrum.", "Claimed by gilbert", "2 Disposable Phones, 4 Misc EXP", "61"],
+        ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "61"],
+        ["Mint a coin or decicoin.", "Unclaimed", "1 Coin", "61"],
         ["Go Mining for Electrum.", "Claimed by cheesy", "2 Disposable Phones, 5 Misc EXP", "60"],
         ["Go Mining for Electrum.", "Claimed by reali", "2 Disposable Phones, 5 Misc EXP", "60"],
         ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 5 Misc EXP", "60"],

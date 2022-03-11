@@ -28,3 +28,22 @@ Theta?
  - Inventory/Structure system could give early players an advantage (kind of how all multiplayer games work; removing inventories would break 3/4 of the game and structures aren't actually locked)
  - Remove the type system (just tell me what needs explaining)
  / Fire in spurts (CG; Co·co·nut Gun)
+
+
+Garden UI Vote
+ - A: No Change: 3
+ - B: Add Spacing: 6
+ - C: Display Obtainable Items: 7
+ - D: Display Loose Items: 7
+ - E: Move Harvested Crops: 8
+ - Winning: B, C, E
+
+Pet/Summon/Ally system
+ - A: No System: (1+5)/2 = 6/2 = 3
+ - B: Pet Collction: (1+4)/2 = 5/2 = 2.5
+ - C: One Pet, Decor: (3+8)/2 = 11/2 = 5.5
+ - D: One Pet, Single Bonus: (6+6)/2 = 12/2 = 6
+ - E: One Pet, Bonus Set: (7+7)/2 = 14/2 = 7
+ - F: Re-use dragons: (1+8)/2 = 9/2 = 4.5
+ - G: Use not-dragons: (3+8)/2 = 11/2 = 5.5
+ - System Type: 1 Pet, 2 Summon, 1 Ally

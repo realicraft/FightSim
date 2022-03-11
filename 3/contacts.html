@@ -16,8 +16,14 @@
                 border-color: #0f5f0f;
             }
             .contact_list {
-                width: min(75%, 400px);
+                min-width: min(75%, 400px);
                 color: #0f2f0f
+            }
+            .contact_menu {
+                margin-top: 0px;
+            }
+            .contact_list td:nth-child(3) {
+                padding: 3px;
             }
         </style>
     </head>
@@ -26,6 +32,97 @@
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
+        <h2>Important Shops</h2>
+        <table class="contact_list">
+            <colgroup>
+                <col style="width:75px;background-color: #9fef9f;">
+                <col style="background-color: #cfefcf;">
+                <col style="background-color: #cfefcf;">
+            </colgroup>
+            <tbody>
+                <tr>
+                    <th>Number</th>
+                    <th>Contact</th>
+                    <th>Menu</th>
+                </tr><tr>
+                    <td>MRSHU<br />67748</td>
+                    <td>Morshu's Delivery</td>
+                    <td>
+                        <table class="contact_menu">
+                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <tr><th>Price</th><th>Item</th></tr>
+                            <tr><td>4R</td><td>Express Pack</td></tr>
+                            <tr><td>1R</td><td>Lamp Oil</td></tr>
+                            <tr><td>1R</td><td>Rope</td></tr>
+                            <tr><td>2R</td><td>Bomb</td></tr>
+                            <tr><td>3R</td><td>Shrapnel Bomb</td></tr>
+                            <tr><td>3R</td><td>Iron Sword</td></tr>
+                        </table>
+                    </td>
+                </tr><tr>
+                    <td>TKOUT<br />85688</td>
+                    <td>Takeout Express</td>
+                    <td>
+                        <table class="contact_menu">
+                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <tr><th>Price</th><th>Item</th></tr>
+                            <tr><td>C5</td><td>Value Pack</td></tr>
+                            <tr><td>C7</td><td>Country Pack 3-Set</td></tr>
+                            <tr><td>C1 3¢</td><td>Bottle of Ketchup</td></tr>
+                        </table>
+                    </td>
+                </tr><tr>
+                    <td>HMSTK<br />46785</td>
+                    <td>Mama June's Pizza</td>
+                    <td>
+                        <table class="contact_menu">
+                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <tr><th>Price</th><th>Item</th></tr>
+                            <tr><td>C4</td><td>Pepperoni Pizza</td></tr>
+                            <tr><td>C2 8¢</td><td>Cheese Pizza</td></tr>
+                            <tr><td>C2</td><td>Breadsticks</td></tr>
+                            <tr><td>C5 2¢</td><td>Meat-Lovers Pizza</td></tr>
+                        </table>
+                    </td>
+                </tr><tr>
+                    <td>MONEY<br />66639</td>
+                    <td>Bankin Bank</td>
+                    <td>
+                        <table class="contact_menu">
+                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <tr><th>Price</th><th>Item</th></tr>
+                            <tr><td>C1</td><td>10 Decicoins</td></tr>
+                            <tr><td>C2</td><td>Ruby</td></tr>
+                            <tr><td>C4</td><td>Dollar Bill</td></tr>
+                        </table>
+                    </td>
+                </tr><tr>
+                    <td>SCROL<br />07355</td>
+                    <td>Scroll Shop Stop</td>
+                    <td>
+                        <table class="contact_menu">
+                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <tr><th>Price</th><th>Item</th></tr>
+                            <tr><td>C1 5¢</td><td>Scroll of (1) (7)</td></tr>
+                            <tr><td>C2 5¢</td><td>Scroll of (1) (3)</td></tr>
+                            <tr><td>C3</td><td>Scroll of (14) (30)</td></tr>
+                            <tr><td>3¢</td><td>Scroll of (15) (29)</td></tr>
+                            <tr><td>$1</td><td>Scroll of (24) (24)</td></tr>
+                        </table>
+                    </td>
+                </tr><tr>
+                    <td>77777</td>
+                    <td>Lucky Lottos Ltd.</td>
+                    <td>
+                        <table class="contact_menu">
+                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <tr><th>Price</th><th>Item</th></tr>
+                            <tr><td>$1 C1</td><td>Additonal Hint</td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2>Important People</h2>
         <table class="contact_list">
             <colgroup>
@@ -36,19 +133,10 @@
                 <tr>
                     <th>Number</th>
                     <th>Contact</th>
-                </tr><tr>
-                    <td>MRSHU<br />67748</td>
-                    <td>Morshu's Delivery</td>
-                </tr><tr>
-                    <td>TKOUT<br />85688</td>
-                    <td>Takeout Express</td>
-                </tr><tr>
-                    <td>HMSTK<br />46785</td>
-                    <td>Mama June's Pizza</td>
                 </tr>
             </tbody>
         </table>
-        <h2>Semi-Important People</h2>
+        <h2>Semi-Important Businesses</h2>
         <table class="contact_list">
             <colgroup>
                 <col style="width:75px;background-color: #9fef9f;">
@@ -61,6 +149,10 @@
                 </tr><tr>
                     <td>63594</td>
                     <td>Lottery</td>
+                </tr>
+                <tr>
+                    <td>SELLS<br/>73557</td>
+                    <td>Sell Us Stuff</td>
                 </tr>
             </tbody>
         </table>

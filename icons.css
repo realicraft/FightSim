@@ -161,6 +161,10 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -288px -480px;
 }
+.invisible, .misted {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -352px -480px;
+}
 /* skills */
 .pickaxe, .mining {
     background-image: url("Icons/Exported/icons_sheet.png");
@@ -1511,6 +1515,147 @@ span.small_icon {
 .shrapnel_bomb {
     background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -192px -160px;
+}
+/* scrolls */
+.scroll_01_04 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -0px -32px;
+}
+.scroll_01_21 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -32px -32px;
+}
+.scroll_01_05 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -64px -32px;
+}
+.scroll_01_03 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -96px -32px;
+}
+.scroll_01_07 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -128px -32px;
+}
+.scroll_06_07 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -160px -32px;
+}
+.scroll_14_09 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -192px -32px;
+}
+.scroll_14_10 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -224px -32px;
+}
+.scroll_14_04 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -0px -64px;
+}
+.scroll_14_30 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -32px -64px;
+}
+.scroll_14_11 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -64px -64px;
+}
+.scroll_14_12 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -96px -64px;
+}
+.scroll_14_13 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -128px -64px;
+}
+.scroll_01_02 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -160px -64px;
+}
+.scroll_01_08 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -192px -64px;
+}
+.scroll_01_15 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -224px -64px;
+}
+.scroll_01_16 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -0px -96px;
+}
+.scroll_01_17 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -32px -96px;
+}
+.scroll_01_18 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -64px -96px;
+}
+.scroll_14_15 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -96px -96px;
+}
+.scroll_14_20 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -128px -96px;
+}
+.scroll_15_29 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -160px -96px;
+}
+.scroll_25_31 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -192px -96px;
+}
+.scroll_03_29 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -224px -96px;
+}
+.scroll_23_23 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -0px -128px;
+}
+.scroll_04_04 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -32px -128px;
+}
+.scroll_13_24 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -64px -128px;
+}
+.scroll_01_23 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -96px -128px;
+}
+.scroll_01_29 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -128px -128px;
+}
+.scroll_01_09 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -160px -128px;
+}
+.scroll_01_10 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -192px -128px;
+}
+.scroll_22_04 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -224px -128px;
+}
+.scroll_24_24 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -0px -160px;
+}
+.scroll_07_24 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -32px -160px;
+}
+.scroll_20_05 {
+    background-image: url("Icons/Exported/scroll_sheet.png");
+    background-position: -64px -160px;
 }
 /* info (large) */
 .yes, .passed {

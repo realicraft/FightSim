@@ -28,4 +28,7 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses, [c
     ["Sugar Rush", "sugar_rush", "You're filled with sugar. Nyoom!", "Sugar", "-1 Accuracy<br />+0.6 to all skills<br />+0.7 Direct Attack", [34, 36], 1], //26
     ["Oiled", "oiled", "You're covered in flammable oil.", "Lamp Oil", "-0.3 to Farming and Gardening<br />On Fire deals 3 more damage per turn<br />On Fire has a 20% chance to not tick down", [34, 35], 1], //27
     ["Severe Nausea", "poisoned", "You ate WAY too much food, and now you feel like you want to die.", "Eating 10+ food at once", "66% chance of missing an attack<br />-3 to all skills<br />-2 Direct Defense<br />-8 HP per turn<br />On expire, gain Nausea for 1 turn", [34, 35], 2], //28
+    ["Invisible", "invisible", "You're invisible.", "Potions", "Attacks made on you must make an acccuracy roll (>=11) to succeed", [34, 36], 1], //29
+    ["Misted", "misted", "You've been turned to mist, somehow.", "Unknown (FS1/2); Unobtainable (FS3)", "Attacks made on you must make an acccuracy roll (>=11) to succeed", [34, 36, 38, 39, 40], 7], //30
+    ["Scared", "scared", "help", "Unknown", "-2 Direct Attack<br />-1 Direct Defense<br />-1 to all Skills", [34, 35], 2], //31
 ]

@@ -75,8 +75,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Copper Bar", "copper_bar", "A bar of solid copper. Try to avoid getting it oxidized.", "Crafting", "", [11,25], 1, 8], //73
     ["Water", "water_drop", "One (1) level of water. Good for 0.5 turns of plant growth.", "Gathering", "", [11], 1, 0], //74
     ["Emerald", "emerald", "It's an emerald. These things are rare!", "Mining", "", [24,11], 2, 13], //75
-    ["Hardite Ore", "hardite_ore", "Some hardite ore. Can be crafted into bars, requiring 3 ore per bar.", "Mining", "", [24], 3, 14], //76
-    ["Hardite Bar", "hardite_bar", "A bar of solid hardite, named after both how hard it is to get, and how hard it is as a material. This stuff can cut diamond!", "Crafting", "", [11,25], 3, 16], //77
+    ["Hardite Ore", "hardite_ore", "Some hardite ore. Can be crafted into bars, requiring 3 ore per bar.", "Mining", "", [24], 3, 18], //76
+    ["Hardite Bar", "hardite_bar", "A bar of solid hardite, named after both how hard it is to get, and how hard it is as a material. This stuff can cut diamond!", "Crafting", "", [11,25], 3, 21], //77
     ["Rock-on-a-Stick", "rock_on_stick", "A rock fastened to a stick with more rock. Better than just using tape.", "Crafting", "20% Chance of breaking on hit<br />+1 Indirect Attack", [5,23], 1, 3], //78
     ["Sandstone Brick Wall", "sandstone_brick_wall", "A wall made of Sandstone Bricks.", "Crafting", "40 HP<br />3+1 Defense", [19,20], 1, 8], //79
     ["Brick Wall", "brick_wall", "A wall made of Bricks.", "Crafting", "50 HP<br />3+1 Defense", [19,20], 1, 8], //80
@@ -327,8 +327,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Sap Sticker", "sticker_sap", "A sticker of some sap.<br />[St1, 15, C]", "Unknown", "Put it in your Sticker Book for +0.7 Chopping", [37, 20], 1, 0], //325
     ["Raised Sap Sticker", "sticker_sap_rare", "A raised sticker of some sap. The sap isn't sticky, but the sticker is.<br />[St1, 16, R]", "Unknown", "Put it in your Sticker Book for +2 Chopping", [37, 20], 3, 0], //326
     ["Stone Shield", "stone_shield", "A shield made out of wood, with a stone core.", "Crafting", "+0.5 Indirect Defense<br />+0.5 Direct Defense", [7], 1, 7], //327
-    ["Sticker Pack (St1)", "sticker_pack_cyan", "A pack of two stickers. Open it and see what you get!", "Crafting", "Grants two random stickers", [20], 2, 16], //328
-    ["Mystery Potion D", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />No, really, what does this do. And what's with the fancy gradient?", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //329
+    ["Sticker Pack (St1)", "sticker_pack_cyan", "A pack of two stickers. Open it and see what you get!", "Unknown", "Grants two random stickers", [20], 2, 16], //328
+    ["Dragon Transformation Potion", "mystery_potion", "A bottle filled with a strange liquid. It... turns you into a dragon, apparently.<br /><br />What on <i>earth</i> is going on over there?!", "Unknown", "?!?!?!", [16, 32, 29, 33, 40], 5, 0], //329
     ["stickers.empty_sticker", "empty_sticker", "desc.empty_equip", "src.empty_equip", "", [28, 37], 0, 0], //330
     ["Orb Sticker", "sticker_orb", "A sticker of an orb. Looks more like a circle to me.<br />[St1, 17, UC]", "Unknown", "Put it in your Sticker Book for +0.2 Direct Attack, +0.2 Direct Defense, +0.4 Max HP, and +0.1 to all Skills", [37, 20], 2, 0], //331
     ["Raised Orb Sticker", "sticker_orb_rare", "A raised sticker of an orb. Kind of an \"all-rounder\", if you catch my drift.<br />[St1, 18, VR]", "Unknown", "Put it in your Sticker Book for +0.7 Direct Attack, +0.7 Direct Defense, +1.5 Max HP, +0.3 Luck, and +0.5 to all Skills", [37, 20], 3, 0], //332
@@ -409,6 +409,42 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Ripe Tomato", "ripe tomato", "A tomato that's riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7], //407
     ["Bomb", "bomb", "A bomb. You can light it and throw it at something to blow it up.", "Crafting", "Throw it at someone after lighting it to deal 9+<span class=fire>6</span> damage", [21,22], 1, 4], //408
     ["Mystery Potion Y", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Oh no, there are more of them!", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //409
-    ["Mystery Potion AL", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Will we ever know what these do?", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //410
+    ["Mystery Potion AL", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Hopefully these two don't do anything stupid.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //410
     ["Shrapnel Bomb", "shrapnel_bomb", "A bomb with cracks in it, designed to break into shrapnel after exploding.", "Crafting", "Throw it at someone after lighting it to deal 12+<span class=fire>6</span> damage<br />Will also inflict Bleeding for 2 turns", [21,22], 1, 0], //411
+    ["Scroll (Runes 1,4)", "scroll_01_04", "A scroll with the first and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //412
+    ["Scroll (Runes 1,21)", "scroll_01_21", "A scroll with the first and twenty-first runes printed on it.", "Shops", "???", [20,43], 2, 0], //413
+    ["Scroll (Runes 1,5)", "scroll_01_05", "A scroll with the first and fifth runes printed on it.", "Shops", "???", [20,43], 2, 0], //414
+    ["Scroll (Runes 1,3)", "scroll_01_03", "A scroll with the first and third runes printed on it.", "Shops", "???", [20,43], 2, 0], //415
+    ["Scroll (Runes 1,7)", "scroll_01_07", "A scroll with the first and seventh runes printed on it.", "Shops", "???", [20,43], 2, 0], //416
+    ["Scroll (Runes 6,7)", "scroll_06_07", "A scroll with the sixth and seventh runes printed on it.", "Shops", "???", [20,43], 2, 0], //417
+    ["Scroll (Runes 14,9)", "scroll_14_09", "A scroll with the fourteenth and ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //418
+    ["Scroll (Runes 14,10)", "scroll_14_10", "A scroll with the fourteenth and tenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //419
+    ["Scroll (Runes 14,4)", "scroll_14_04", "A scroll with the fourteenth and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //420
+    ["Scroll (Runes 14,30)", "scroll_14_30", "A scroll with the fourteenth and thirtieth runes printed on it.", "Shops", "???", [20,43], 2, 0], //421
+    ["Scroll (Runes 14,11)", "scroll_14_11", "A scroll with the fourteenth and eleventh runes printed on it.", "Shops", "???", [20,43], 2, 0], //422
+    ["Scroll (Runes 14,12)", "scroll_14_12", "A scroll with the fourteenth and twelfth runes printed on it.", "Shops", "???", [20,43], 2, 0], //423
+    ["Scroll (Runes 14,13)", "scroll_14_13", "A scroll with the fourteenth and thirteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //424
+    ["Scroll (Runes 1,2)", "scroll_01_02", "A scroll with the first and second runes printed on it.", "Shops", "???", [20,43], 2, 0], //425
+    ["Scroll (Runes 1,8)", "scroll_01_08", "A scroll with the first and eigth runes printed on it.", "Shops", "???", [20,43], 2, 0], //426
+    ["Scroll (Runes 1,15)", "scroll_01_15", "A scroll with the first and fifteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //427
+    ["Scroll (Runes 1,16)", "scroll_01_16", "A scroll with the first and sixteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //428
+    ["Scroll (Runes 1,17)", "scroll_01_17", "A scroll with the first and seventeenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //429
+    ["Scroll (Runes 1,18)", "scroll_01_18", "A scroll with the first and eighteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //430
+    ["Scroll (Runes 14,15)", "scroll_14_15", "A scroll with the fourteenth and fifteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //431
+    ["Scroll (Runes 14,20)", "scroll_14_20", "A scroll with the fourteenth and twentieth runes printed on it.", "Shops", "???", [20,43], 2, 0], //432
+    ["Scroll (Runes 15,29)", "scroll_15_29", "A scroll with the fifteenth and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //433
+    ["Scroll (Runes 25,31)", "scroll_25_31", "A scroll with the twenty-fifth and thirty-first runes printed on it.", "Shops", "???", [20,43], 2, 0], //434
+    ["Scroll (Runes 3,29)", "scroll_03_29", "A scroll with the third and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //435
+    ["Scroll (Runes 23,23)", "scroll_23_23", "A scroll with the twenty-third rune printed on it twice.", "Shops", "???", [20,43], 2, 0], //436
+    ["Scroll (Runes 4,4)", "scroll_04_04", "A scroll with the fourth rune printed on it twice.", "Shops", "???", [20,43], 2, 0], //437
+    ["Scroll (Runes 13,24)", "scroll_13_24", "A scroll with the thirteenth and twenty-fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //438
+    ["Scroll (Runes 1,23)", "scroll_01_23", "A scroll with the first and twenty-third runes printed on it.", "Shops", "???", [20,43], 2, 0], //439
+    ["Scroll (Runes 1,29)", "scroll_01_29", "A scroll with the first and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //440
+    ["Scroll (Runes 1,9)", "scroll_01_09", "A scroll with the first and ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //441
+    ["Scroll (Runes 1,10)", "scroll_01_10", "A scroll with the first and tenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //442
+    ["Scroll (Runes 22,4)", "scroll_22_04", "A scroll with the twenty-second and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //443
+    ["Scroll (Runes 24,24)", "scroll_24_24", "A scroll with the twenty-fourth rune printed on it twice.", "Shops", "???", [20,43], 2, 0], //444
+    ["Scroll (Runes 7,24)", "scroll_07_24", "A scroll with the seventh and twenty-fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //445
+    ["Scroll (Runes 20,5)", "scroll_20_05", "A scroll with the twentieth and fifth runes printed on it.", "Shops", "???", [20,43], 2, 0], //446
+    ["Paper", "paper", "A piece of paper.", "Crafting", "", [11], 1, 1], //447
 ]

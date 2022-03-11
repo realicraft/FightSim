@@ -3,7 +3,7 @@ var timeboxEl = document.getElementById("time_box")
 var tooltipEl = document.getElementsByClassName("tooltip_body")[0]
 var infoEl = document.getElementsByClassName("info_body")[0]
 
-var timeboxInfo = [61, "day", "rain", "Day", "Raining"]
+var timeboxInfo = [62, "day", "rain", "Day", "Raining"]
 
 var headerCont = '<div class="header"><span class="small_icon fs3" style="position:absolute;left:4px;top:4px;" title="FS3"></span>'
 for (var i in headerLinks["3"]) {headerCont += '\n<a href="' + headerLinks["3"][i][1] + '">' + headerLinks["3"][i][0] + '</a>'}
