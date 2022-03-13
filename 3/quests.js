@@ -7,15 +7,15 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 3 Misc EXP", "62"],
-    ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "62"],
-    ["Buy a scroll.", "Unclaimed", "1 Scroll (Runes 1, 3)", "62"],
+    ["Go Mining for Electrum.", "Unclaimed", "2 Disposable Phones, 2 Misc EXP", "63"],
+    ["Go Gathering.", "Unclaimed", "1 Contact Card (Dry)", "63"],
+    ["Obtain a Sticker.", "Unclaimed", "1 Scroll (Runes 1, 4)", "63"],
     ["Use a Disposable Phone.", "Unclaimed", "1 Electrum Bar, 5 Misc EXP", "60~63"],
     ["Make an 8-Leaf Clover.", "Unclaimed", "1 Bottle o' Enchanting,", "60~63"],
     ["Cause a new item to be made.", "Unclaimed", "2 Misc EXP", "60~63"],
     ["Obtain 2 Stickers.", "Unclaimed", "3 Misc EXP, 1 Sticker Pack"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc EXP"],
-    ["Equip any chestplate.", "Unclaimed", "Leather Leggings"],
+    ["Buy a scroll.", "Unclaimed", "1 Dollar Bill"],
 ]
 
 var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
@@ -32,7 +32,7 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
             ["Leopardy", "1 Crop", "1 Misc EXP", "0/1"],
             ["gilbert", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Twilight", "1 Crop", "1 Misc EXP", "0/1"],
+            ["Twilight", "1 Crop", "1 Misc EXP", "3/1"],
             ["Luigi", "1 Crop", "1 Misc EXP", "0/1"],
             ["Kitty", "1 Crop", "1 Misc EXP", "0/1"],
             ["Savvy", "1 Crop", "1 Misc EXP", "0/1"],
@@ -65,6 +65,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go Mining for Electrum.", "Claimed by Byron", "2 Disposable Phones, 3 Misc EXP", "62"],
+        ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "62"],
+        ["Buy a scroll.", "Unclaimed", "1 Scroll (Runes 1, 3)", "62"],
         ["Go Mining for Electrum.", "Claimed by gilbert", "2 Disposable Phones, 4 Misc EXP", "61"],
         ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "61"],
         ["Mint a coin or decicoin.", "Unclaimed", "1 Coin", "61"],
@@ -141,6 +144,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
+        ["Equip any chestplate.", "Claimed by gilbert", "Leather Leggings"],
         ["Equip any accessory.", "Claimed by Byron", "2 Iron Bars"],
         ["Die.", "Claimed by gilbert", "5 Misc EXP, 4 Iron Ore"],
         ["Use a thin-air weapon.", "Claimed by gilbert", "2 Misc EXP"],

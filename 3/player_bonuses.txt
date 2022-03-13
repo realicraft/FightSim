@@ -1,3 +1,12 @@
+INT boosts Alchemy and Crafting
+STR boosts Mining, Chopping, and Digging
+AGI boosts Ballet and Gathering
+CHR boosts Rapping
+DEX boosts Pottery and Construction
+CON boosts Farming and Digging
+every 1 stat grants a +0.1 skill boost, capped at 30 of the stat (+3 skill boost)
+
+
 reali:
  Stats:
   Health: (+1)
@@ -7,6 +16,8 @@ reali:
   Indirect Defense: (+1.7)
    Santa Hat (+1)
    LTT Hoodie (+0.7)
+  INT: (+2)
+   LTT Hoodie (+2)
  Skills:
 SausageMcSauce:
  Stats:
@@ -25,6 +36,8 @@ Incendiary:
    LTT Hoodie (+0.7)
   Health: (+2)
    Player Level (+2)
+  INT: (+2)
+   LTT Hoodie (+2)
  Skills:
 Byron:
  Stats:
@@ -76,8 +89,13 @@ gilbert:
  Stats:
   Indirect Attack: (+1)
    Stone Pickaxe (+1)
+  Indirect Defense: (+0.7)
+   LTT Hoodie (+0.7)
   Health: (+2)
-   Player Level (+2)
+   Player Level (+3)
+   Liquid Radiation (-1)
+  INT: (+2)
+   LTT Hoodie (+2)
  Skills:
   Mining: (+1)
    Stone Pickaxe (+1)

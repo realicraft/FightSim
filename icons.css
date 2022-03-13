@@ -1516,6 +1516,107 @@ span.small_icon {
     background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -192px -160px;
 }
+.empty_upgrade {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -192px -32px;
+}
+/* upgrades */
+.upgrade_none {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -0px -0px;
+}
+.upgrade_null {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -32px -0px;
+}
+.upgrade_ind_atk {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -64px -0px;
+}
+.upgrade_dir_atk {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -96px -0px;
+}
+.upgrade_ind_def {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -128px -0px;
+}
+.upgrade_dir_def {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -160px -0px;
+}
+.upgrade_max_hp {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -192px -0px;
+}
+.upgrade_regen {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -224px -0px;
+}
+.upgrade_luck {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -0px -32px;
+}
+.upgrade_farming {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -32px -32px;
+}
+.upgrade_mining {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -64px -32px;
+}
+.upgrade_chopping {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -96px -32px;
+}
+.upgrade_crafting {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -128px -32px;
+}
+.upgrade_carving {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -160px -32px;
+}
+.upgrade_cooking {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -192px -32px;
+}
+.upgrade_construction {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -224px -32px;
+}
+.upgrade_gathering {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -0px -64px;
+}
+.upgrade_digging {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -32px -64px;
+}
+.upgrade_gardening {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -64px -64px;
+}
+.upgrade_alchemy {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -96px -64px;
+}
+.upgrade_pottery {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -128px -64px;
+}
+.upgrade_fishing {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -160px -64px;
+}
+.upgrade_ballet {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -192px -64px;
+}
+.upgrade_rapping {
+    background-image: url("Icons/Exported/ally_sheet.png");
+    background-position: -224px -64px;
+}
 /* scrolls */
 .scroll_01_04 {
     background-image: url("Icons/Exported/scroll_sheet.png");

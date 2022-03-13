@@ -447,4 +447,28 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Scroll (Runes 7,24)", "scroll_07_24", "A scroll with the seventh and twenty-fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //445
     ["Scroll (Runes 20,5)", "scroll_20_05", "A scroll with the twentieth and fifth runes printed on it.", "Shops", "???", [20,43], 2, 0], //446
     ["Paper", "paper", "A piece of paper.", "Crafting", "", [11], 1, 1], //447
+    ["upgrades.empty_upgrade", "empty_upgrade", "desc.empty_equip", "src.empty_equip", "", [28, 44], 0, 0], //448
+    ["No Upgrade", "upgrade_none", "An upgrade square that upgrades... absolutely nothing.", "Summon/Ally", "", [44], 1, 0], //449
+    ["Null Upgrade", "upgrade_null", "An upgrade square that upgrades... uh...", "Summon/Ally", "", [44], 0, 0], //450
+    ["Indirect Attack Upgrade", "upgrade_ind_atk", "An upgrade square that upgrades Indirect Attack.", "Summon/Ally", "+1 Indirect Attack", [44], 1, 0], //451
+    ["Direct Attack Upgrade", "upgrade_dir_atk", "An upgrade square that upgrades Direct Attack.", "Summon/Ally", "+1 Direct Attack", [44], 1, 0], //452
+    ["Indirect Defense Upgrade", "upgrade_ind_def", "An upgrade square that upgrades Indirect Defense.", "Summon/Ally", "+1 Indirect Defense", [44], 1, 0], //453
+    ["Direct Defense Upgrade", "upgrade_dir_def", "An upgrade square that upgrades Direct Defense.", "Summon/Ally", "+1 Direct Defense", [44], 1, 0], //454
+    ["Max HP Upgrade", "upgrade_max_hp", "An upgrade square that upgrades Max HP.", "Summon/Ally", "Equip on Summon/Ally for +5 Max HP<br />Equip on Player for +2 Max HP", [44], 1, 0], //455
+    ["Regen Upgrade", "upgrade_regen", "An upgrade square that upgrades Regen.", "Summon/Ally", "+3 HP/turn", [44], 1, 0], //456
+    ["Luck Upgrade", "upgrade_luck", "An upgrade square that upgrades Luck.", "Summon/Ally", "+1 Luck", [44], 1, 0], //457
+    ["Farming Upgrade", "upgrade_farming", "An upgrade square that upgrades Farming.", "Summon/Ally", "+1 Farming", [44], 1, 0], //458
+    ["Mining Upgrade", "upgrade_mining", "An upgrade square that upgrades Mining.", "Summon/Ally", "+1 Mining", [44], 1, 0], //459
+    ["Chopping Upgrade", "upgrade_chopping", "An upgrade square that upgrades Chopping.", "Summon/Ally", "+1 Chopping", [44], 1, 0], //460
+    ["Crafting Upgrade", "upgrade_crafting", "An upgrade square that upgrades Crafting.", "Summon/Ally", "+1 Crafting", [44], 1, 0], //461
+    ["Carving Upgrade", "upgrade_carving", "An upgrade square that upgrades Carving.", "Summon/Ally", "+1 Carving", [44], 1, 0], //462
+    ["Cooking Upgrade", "upgrade_cooking", "An upgrade square that upgrades Cooking.", "Summon/Ally", "+1 Cooking", [44], 1, 0], //463
+    ["Construction Upgrade", "upgrade_construction", "An upgrade square that upgrades Construction.", "Summon/Ally", "+1 Constructions", [44], 1, 0], //464
+    ["Gathering Upgrade", "upgrade_gathering", "An upgrade square that upgrades Gathering.", "Summon/Ally", "+1 Gathering", [44], 1, 0], //465
+    ["Digging Upgrade", "upgrade_digging", "An upgrade square that upgrades Digging.", "Summon/Ally", "+1 Digging", [44], 1, 0], //466
+    ["Gardening Upgrade", "upgrade_gardening", "An upgrade square that upgrades Gardening.", "Summon/Ally", "+1 Gardening", [44], 1, 0], //467
+    ["Alchemy Upgrade", "upgrade_alchemy", "An upgrade square that upgrades Alchemy.", "Summon/Ally", "+1 Alchemy", [44], 1, 0], //468
+    ["Pottery Upgrade", "upgrade_pottery", "An upgrade square that upgrades Pottery.", "Summon/Ally", "+1 Pottery", [44], 1, 0], //469
+    ["Fishing Upgrade", "upgrade_fishing", "An upgrade square that upgrades Fishing.", "Summon/Ally", "+1 Fishing", [44], 1, 0], //470
+    ["Ballet Upgrade", "upgrade_ballet", "An upgrade square that upgrades Ballet.", "Summon/Ally", "+1 Ballet", [44], 1, 0], //471
 ]

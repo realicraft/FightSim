@@ -215,7 +215,7 @@ var recipelist = { // [category: [name, description, item1, stack1, item2, ..., 
         ["Morshu's Express Pack", "Returns an Electrum Nugget", "383", "1", "364", "4", "0", "1", "0", "1", "0", "1", "0", "1", "0", "386", "1", "4", "0"],
         ["Takeout Express Variety Pack", "Returns an Electrum Nugget", "383", "1", "389", "5", "0", "1", "0", "1", "0", "1", "0", "1", "0", "387", "1", "4", "0"],
         ["Mama June's Pepperoni Pizza", "Returns an Electrum Nugget", "383", "1", "389", "4", "0", "1", "0", "1", "0", "1", "0", "1", "0", "388", "1", "4", "0"],
-        ["Random Scroll from Scroll Shop Stop", "Returns an Electrum Nugget", "383", "1", "389", "1", "0", "1", "0", "1", "0", "1", "0", "1", "0", "427", "1", "4", "0"],
+        ["Random Scroll from Scroll Shop Stop", "Returns an Electrum Nugget", "383", "1", "389", "2", "0", "1", "0", "1", "0", "1", "0", "1", "0", "426", "1", "4", "0"],
     ],
     "Misc": [
         ["Stick", "", "46", "2", "264", "1", "0", "1", "0", "1", "0", "1", "0", "1", "0", "45", "4", "4", "2"],

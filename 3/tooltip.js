@@ -47,7 +47,7 @@ var tooltip = function(name, desc, source, cats, bonus, name_class, price) { // 
     tooltipBodyEl.setAttribute("style", "display: block;")
 }
 var ttEquip = function(id=0, nbt="", dnbt="") { // on the stats page, don't display tooltips for placeholders
-    if (((id >= 1) & (id <= 8)) | (id == 330)) {}
+    if (((id >= 1) & (id <= 8)) | (id == 330) | (id == 448)) {}
     else {tt(id,nbt,dnbt)}
 }
 var ttEffect = function(id=0) { // tooltip wrapper for effects

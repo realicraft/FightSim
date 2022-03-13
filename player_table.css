@@ -1,12 +1,28 @@
-.player_table {
+.player_table, .summon_div, .summon_div_inner {
     border: 2px solid black;
     border-radius: 5px;
-    width: 400px;
     display: inline-block;
     margin: 2px;
     padding-bottom: 5px;
     vertical-align: top;
     position: relative;
+}
+.player_table {
+    width: 400px;
+}
+.summon_div {
+    width: 300px;
+    background-color: #9f9f9f;
+}
+.summon_div_inner {
+    width: 250px;
+    padding: 0px;
+}
+.summon_div_inner:not(.table_summon_div_inner) {
+    height: 32px;
+}
+.summon_div_inner.table_summon_div_inner {
+    min-height: 32px;
 }
 .username {
     color: white;
