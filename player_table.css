@@ -24,6 +24,17 @@
 .summon_div_inner.table_summon_div_inner {
     min-height: 32px;
 }
+.rpg_stat_container {
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.rpg_stat_container td, .rpg_stat_container tr {
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+}
 .username {
     color: white;
     background-color: black;

@@ -165,6 +165,10 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -352px -480px;
 }
+.leech_seed {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -384px -480px;
+}
 /* skills */
 .pickaxe, .mining {
     background-image: url("Icons/Exported/icons_sheet.png");
@@ -1519,6 +1523,30 @@ span.small_icon {
 .empty_upgrade {
     background-image: url("Icons/Exported/misc_sheet.png");
     background-position: -192px -32px;
+}
+.book {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -224px -160px;
+}
+.plain_shirt {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -352px -288px;
+}
+.abs_shirt {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -384px -288px;
+}
+.knife {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -160px -288px;
+}
+.real_knife {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -192px -288px;
+}
+.thunder_knife {
+    background-image: url("Icons/Exported/equip_sheet.png");
+    background-position: -224px -288px;
 }
 /* upgrades */
 .upgrade_none {

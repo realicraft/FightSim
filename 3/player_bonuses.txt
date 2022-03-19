@@ -9,8 +9,8 @@ every 1 stat grants a +0.1 skill boost, capped at 30 of the stat (+3 skill boost
 
 reali:
  Stats:
-  Health: (+1)
-   Player Level (+1)
+  Health: (+2)
+   Player Level (+2)
   Indirect Attack: (+1)
    Santa Hat (+1)
   Indirect Defense: (+1.7)
@@ -53,8 +53,9 @@ Byron:
    Iron Sword (+2)
    Player Level (+1)
    Diamond Band (+1.2)
-  Direct Attack: (+1)
+  Direct Attack: (+0)
    Iron Sword (+1)
+   Bleeding (-1)
   Health: (+6)
    Player Level (+6)
  Skills:
@@ -105,8 +106,8 @@ TwilightSeleneMisty:
    Wooden Shield (+1)
   Indirect Attack: (+1)
    Wooden Pickaxe (+1)
-  Health: (+1)
-   Player Level (+1)
+  Health: (+2)
+   Player Level (+2)
  Skills:
   Mining: (+1)
    Wooden Pickaxe (+1)

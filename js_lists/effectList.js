@@ -31,4 +31,6 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses, [c
     ["Invisible", "invisible", "You're invisible.", "Potions", "Attacks made on you must make an acccuracy roll (>=11) to succeed", [34, 36], 1], //29
     ["Misted", "misted", "You've been turned to mist, somehow.", "Unknown (FS1/2); Unobtainable (FS3)", "Attacks made on you must make an acccuracy roll (>=11) to succeed", [34, 36, 38, 39, 40], 7], //30
     ["Scared", "scared", "help", "Unknown", "-2 Direct Attack<br />-1 Direct Defense<br />-1 to all Skills", [34, 35], 2], //31
+    ["Leech Seed (User)", "leech_seed", "You threw some seeds at someone, and now you're stealing their health. Neat.", "Unknown", "Sap 4 HP per turn<br />If the target loses Leech Seed (Target), this effect immediately expires", [34, 36], 2], //32
+    ["Leech Seed (Target)", "leech_seed", "Someone threw some seeds at you, and now they're stealing your health. Well, that's annoying.", "Unknown", "4 HP is sapped from you per turn<br />If the attacker loses Leech Seed (User), this effect immediately expires", [34, 35], 2], //33
 ]

@@ -47,6 +47,13 @@ for (var i in user_data["3"]) { // single table
     stat_table += '</span><span class="lh" style="font-size: 25px;">/</span><span class="vab">'
     stat_table += user_data["3"][i]["deaths"]
     stat_table += '</span><span class="icon broken_shield" style="position:absolute;right:0px;" title="Deaths"></span></div></div>'
+/*
+<table class="rpg_stat_container"><tbody><tr><td>STR: 5</td><td>INT: 5</td><td>AGI: 5</td></tr><tr><td>CHR: 5</td><td>DEX: 5</td><td>CON: 5</td></tr></tbody></table>
+*/
+    stat_table += '<table class="rpg_stat_container"><tbody>'
+    stat_table += '<tr><td>STR: ' + user_data["3"][i]["rpg_stats"][0] + '</td><td>INT: ' + user_data["3"][i]["rpg_stats"][1] + '</td><td>AGI: ' + user_data["3"][i]["rpg_stats"][2] + '</td></tr>'
+    stat_table += '<tr><td>CHR: ' + user_data["3"][i]["rpg_stats"][3] + '</td><td>DEX: ' + user_data["3"][i]["rpg_stats"][4] + '</td><td>CON: ' + user_data["3"][i]["rpg_stats"][5] + '</td></tr>'
+    stat_table += '</tbody></table>'
     if (user_data["3"][i]["effects"].length != 0) {
         stat_table += '<h3 style="margin: 0px;">Effects</h3><table class="pt_effects"><colgroup><col style="width:32px; background-color: #7f7f7f;"><col style="width:100%; background-color: #9f9f9f;"><col style="width:20px; background-color: #7f7f7f;"></colgroup><thead><tr style="font-size: 10px;"><th>Icon</th><th>Name</th><th>Turns</th></tr></thead><tbody>'
         for (var j of user_data["3"][i]["effects"]) {
@@ -106,3 +113,7 @@ for (var i in user_data["3"]) { // single table
 }
 var containEl = document.getElementById("stat_table_container")
 containEl.innerHTML = stat_tables
+
+/*
+<table class="rpg_stat_container"><tbody><tr><td>STR: 5</td><td>INT: 5</td><td>AGI: 5</td></tr><tr><td>CHR: 5</td><td>DEX: 5</td><td>CON: 5</td></tr></tbody></table>
+*/

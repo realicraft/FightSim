@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../main.css"></link>
+        <link rel="stylesheet" type="text/css" href="../icons.css"></link>
+        <link rel="stylesheet" type="text/css" href="../tooltip.css"></link>
+        <link rel="stylesheet" type="text/css" href="../table.css"></link>
+        <link rel="shortcut icon" href="../favicon.ico">
+        <title>Helper Tools | FS3</title>
+    </head>
+    <body>
+        <img src="CurrentLogo/logo.png">
+        <br />
+        <div id="header_container"></div>
+        <div id="time_box"></div>
+        <p>This page contains various helper tools to assist with creating updates for FS3. It is unlikely to contain anything useful for players.</p>
+        <h2>Mining Gains</h2>
+        <input placeholder="Roll" type="number" min="1" max="40" step="1" id="mine_roll" style="width:50px;">
+        <label for="mine_target">Target:</label>
+        <select id="mine_target">
+            <option value="stone">Stone</option><option value="coal">Coal</option>
+            <option value="copper">Copper</option><option value="iron">Iron</option>
+            <option value="gold">Gold</option><option value="electrum">Electrum</option>
+            <option value="diamond">Diamond</option><option value="emerald">Emerald</option>
+            <option value="hardite">Hardite</option><option value="geode">Geodes</option>
+        </select>
+        <button id="mine_button" onclick="run_mine();">Get Result</button>
+        <br /><div class="output" id="mine_output">&nbsp;</div>
+        <div class="tooltip_body"></div>
+        <div class="info_body"></div>
+        <script src="../js_lists/headerLinks.js"></script>
+        <script src="allpages.js"></script>
+        <script src="../js_lists/equipList.js"></script>
+        <script src="../js_lists/categoryList.js"></script>
+        <script src="../js_lists/mineRewards.js"></script>
+        <script src="tooltip.js"></script>
+        <script src="info.js"></script>
+        <script src="helper.js"></script>
+    </body>
+</html>

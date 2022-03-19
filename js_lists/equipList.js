@@ -408,8 +408,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Golden Tomato", "gold_tomato", "A golden tomato. Shame there's no tomato sauce item.", "Farming", "+0.15 Cooking", [9], 2, 15], //406
     ["Ripe Tomato", "ripe tomato", "A tomato that's riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7], //407
     ["Bomb", "bomb", "A bomb. You can light it and throw it at something to blow it up.", "Crafting", "Throw it at someone after lighting it to deal 9+<span class=fire>6</span> damage", [21,22], 1, 4], //408
-    ["Mystery Potion Y", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Oh no, there are more of them!", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //409
-    ["Mystery Potion AL", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Hopefully these two don't do anything stupid.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //410
+    ["Mystery Potion Y", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Oh no, there are more of them!<br /><br /><br />It smells oddly sweet.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //409
+    ["Mystery Potion AL", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Hopefully these two don't do anything stupid.<br /><br /><br />It smells oddly sour.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //410
     ["Shrapnel Bomb", "shrapnel_bomb", "A bomb with cracks in it, designed to break into shrapnel after exploding.", "Crafting", "Throw it at someone after lighting it to deal 12+<span class=fire>6</span> damage<br />Will also inflict Bleeding for 2 turns", [21,22], 1, 0], //411
     ["Scroll (Runes 1,4)", "scroll_01_04", "A scroll with the first and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //412
     ["Scroll (Runes 1,21)", "scroll_01_21", "A scroll with the first and twenty-first runes printed on it.", "Shops", "???", [20,43], 2, 0], //413
@@ -471,4 +471,19 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Pottery Upgrade", "upgrade_pottery", "An upgrade square that upgrades Pottery.", "Summon/Ally", "+1 Pottery", [44], 1, 0], //469
     ["Fishing Upgrade", "upgrade_fishing", "An upgrade square that upgrades Fishing.", "Summon/Ally", "+1 Fishing", [44], 1, 0], //470
     ["Ballet Upgrade", "upgrade_ballet", "An upgrade square that upgrades Ballet.", "Summon/Ally", "+1 Ballet", [44], 1, 0], //471
+    ["Wizard Hat", "wizard_hat", "A hat with stars on it, fit for a wizard.", "Crafting", "+1 INT", [1], 2, 12], //472
+    ["Head Apple", "apple", "An apple you place on your head. Somehow this makes you more agile?", "Crafting", "+1 AGI", [1], 2, 7], //473
+    ["\"Kiss the Chef\" Apron", "chef_apron", "An apron with a funny message.", "Crafting", "+1 CHR<br />+0.5 Cooking", [2], 2, 9], //474
+    ["One-Handed Book", "book", "A book designed to be held with one hand. It boosts Charisma because it's a joke book.", "Crafting", "+1 CHR", [7], 2, 10], //475
+    ["Book", "book", "A book.", "Crafting", "Read it", [11,20], 1, 3], //476
+    ["Fabric", "fabric", "Some fabric, to make into clothes.", "Crafting", "", [11], 1, 2], //477
+    ["Thin Gloves", "gloves", "A pair of gloves which make you better at handling things.", "Crafting", "+1 DEX", [8], 2, 8], //478
+    ["U.S. Constitution Shirt", "const_shirt", "A shirt with the Constitution of the United States on it. No points for guessing what it boosts.", "Crafting", "+1 CON", [2], 2, 13], //479
+    ["Fake Abs Shirt", "abs_shirt", "A shirt with some fake abs drawn on it.", "Crafting", "+1 STR", [2], 2, 5], //480
+    ["Plain Shirt", "plain_shirt", "A plain shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //481
+    ["Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding.", "Crafting", "+0.4 Construction", [1,11], 1, 7], //482
+    ["Automatic Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding. It differs from the regular one because it activates the filter automatically, rather than having it on all the time, so it's obviously the better choice.", "Crafting", "+1.1 Construction", [1], 2, 14], //483
+    ["Knife", "knife", "Oh hey, it's the knife from the sticker.", "Crafting", "+1 Indirect Attack<br />+2 Melee Damage", [5,11], 1, 4], //484
+    ["Weird Egg", "ice_egg", "A large, cyan egg. It's probably from a dragon or something.", "Unknown (FS1/2); Unobtainable (FS3)", "Can presumably hatch", [21,32,33,38,39,40], 7, 0], //485
+    ["Sweet and Sour Carrot", "tainted_carrot", "A carrot covered in concerningly-colored sauce.", "Presumably Crafting (FS2); Unobtainable (FS3)", "???", [10,30,32,33,39,40], 5, 0], //486
 ]

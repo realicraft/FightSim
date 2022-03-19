@@ -3,7 +3,7 @@ body {
     color: black;
     margin: 0;
     text-align: center;
-    font-family: monospace
+    font-family: monospace;
 }
 img {
     margin-left: auto;
@@ -73,7 +73,7 @@ img {
     top: 1px;
     left: 2px;
 }
-.struct {
+.struct, .output {
     border: 5px solid black;
     border-radius: 5px;
     width: 50%;
@@ -81,6 +81,12 @@ img {
     margin-top: 5px;
     margin-bottom: 5px;
     position: relative;
+}
+.output {
+    width: 350px;
+    border-width: 2px;
+    background-color: #afafaf;
+    padding: 3px;
 }
 .struct .struct {
     width: 90%
@@ -91,14 +97,18 @@ td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
     right: 0px;
     bottom: 0px;
     /*From https://stackoverflow.com/a/4919231 */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    /*font-family: "FightSim-Num";*/
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0px 1px 0 #000, 1px 0px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000;
+    font-size: 9px;
+    font-family: "FightStack";
 }
 /*@font-face {
     font-family: "FightSim-Num";
     src: url("FightSim-Num.ttf");
 }*/ /* font was made with fontforge and for some reason doesn't want to work (everything but .notdef is empty)*/
-
+@font-face {
+    font-family: "FightStack";
+    src: url("fightstack.ttf");
+}
 span.normal {
     color: #dfdfdf;
     font-weight: bold;
