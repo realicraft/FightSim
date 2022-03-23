@@ -78,7 +78,7 @@ Incendiary: (53)
   Quadturn Quest: 1 (4)
   Full Quest: 1 (10)
   Quest Bonus: (2)
-Byron: (282)
+Byron: (284)
  Combat: (90)
   Kill: 5 (5)
   Deal Damage: 14 (28)
@@ -89,9 +89,9 @@ Byron: (282)
   Level Up: 19 (38)
   Proficiency Bonus: 1 (4)
   Crit: 5 (10)
- Misc: (140)
+ Misc: (142)
   Crit: 2 (2)
-  Turn Quest: 17 (34)
+  Turn Quest: 18 (36)
   Quadturn Quest: 5 (20)
   Full Quest: 3 (30)
   Repquest: 5 (10)
@@ -127,15 +127,15 @@ LeopardyLeaf: (2)
  Skill: (2)
   Crit: 1 (2)
  Misc:
-gilbert: (63)
+gilbert: (76)
  Combat:
  Skill: (6)
   Level Up: 2 (4)
   Crit: 1 (2)
- Misc: (55)
+ Misc: (68)
   Turn Quest: 3 (6)
-  Full Quest: 3 (30)
-  Quest Bonus: (5*2)+(2*2)+(4)
+  Full Quest: 4 (40)
+  Quest Bonus: (5*2)+(2*2)+(4)+(3)
   Crit: 1 (1)
 TwilightSeleneMisty: (34)
  Combat:
@@ -152,11 +152,13 @@ Luigis_Pizza: (3)
   Over 10 Damage: 1 (1)
  Skill:
  Misc:
-Joyous Theta (D. N. Kitty): (1)
+Joyous Theta (D. N. Kitty): (5)
  Combat: (1)
   Kill: 1 (1)
- Skill:
- Misc:
+ Skill: (2)
+  Level Up: 1 (2)
+ Misc: (2)
+  Turn Quest: 1 (2)
 SAVVYSCLUTTER:
  Combat:
  Skill:
@@ -165,7 +167,9 @@ iwantpie21 (Bobby):
  Combat:
  Skill:
  Misc:
-TonyBrown148:
+TonyBrown148: (4)
  Combat:
- Skill:
- Misc:
+ Skill: (2)
+  Level Up: 1 (2)
+ Misc: (2)
+  Turn Quest: 1 (2)

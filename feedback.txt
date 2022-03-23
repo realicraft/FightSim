@@ -47,3 +47,8 @@ Pet/Summon/Ally system
  - F: Re-use dragons: (1+8)/2 = 9/2 = 4.5
  - G: Use not-dragons: (3+8)/2 = 11/2 = 5.5
  - System Type: 1 Pet, 2 Summon, 1 Ally
+
+Treasure Chest Vote
+ - A: Add Treasure Chest: (1+10)/2 = 11/2 = 5.5
+ - Winning: A
+ - Items: Scrolls, Potions, Mob Loot, Candies, Stickers, Upgrades, Experience / Bottles o' Enchanting, Money, Plot-related Items.

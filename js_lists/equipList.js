@@ -411,11 +411,11 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Mystery Potion Y", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Oh no, there are more of them!<br /><br /><br />It smells oddly sweet.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //409
     ["Mystery Potion AL", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Hopefully these two don't do anything stupid.<br /><br /><br />It smells oddly sour.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //410
     ["Shrapnel Bomb", "shrapnel_bomb", "A bomb with cracks in it, designed to break into shrapnel after exploding.", "Crafting", "Throw it at someone after lighting it to deal 12+<span class=fire>6</span> damage<br />Will also inflict Bleeding for 2 turns", [21,22], 1, 0], //411
-    ["Scroll (Runes 1,4)", "scroll_01_04", "A scroll with the first and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //412
-    ["Scroll (Runes 1,21)", "scroll_01_21", "A scroll with the first and twenty-first runes printed on it.", "Shops", "???", [20,43], 2, 0], //413
-    ["Scroll (Runes 1,5)", "scroll_01_05", "A scroll with the first and fifth runes printed on it.", "Shops", "???", [20,43], 2, 0], //414
-    ["Scroll (Runes 1,3)", "scroll_01_03", "A scroll with the first and third runes printed on it.", "Shops", "???", [20,43], 2, 0], //415
-    ["Scroll (Runes 1,7)", "scroll_01_07", "A scroll with the first and seventh runes printed on it.", "Shops", "???", [20,43], 2, 0], //416
+    ["Scroll of Gain (4)", "scroll_01_04", "A scroll with the first and fourth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //412
+    ["Scroll of Gain Ore", "scroll_01_21", "A scroll that allows you to gain several ores.", "Shops", "Gain 1d3 Ore", [20,43], 2, 0], //413
+    ["Scroll of Gain (5)", "scroll_01_05", "A scroll with the first and fifth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //414
+    ["Scroll of Gain (3)", "scroll_01_03", "A scroll with the first and third runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //415
+    ["Scroll of Gain (7)", "scroll_01_07", "A scroll with the first and seventh runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //416
     ["Scroll (Runes 6,7)", "scroll_06_07", "A scroll with the sixth and seventh runes printed on it.", "Shops", "???", [20,43], 2, 0], //417
     ["Scroll (Runes 14,9)", "scroll_14_09", "A scroll with the fourteenth and ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //418
     ["Scroll (Runes 14,10)", "scroll_14_10", "A scroll with the fourteenth and tenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //419
@@ -424,24 +424,24 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Scroll (Runes 14,11)", "scroll_14_11", "A scroll with the fourteenth and eleventh runes printed on it.", "Shops", "???", [20,43], 2, 0], //422
     ["Scroll (Runes 14,12)", "scroll_14_12", "A scroll with the fourteenth and twelfth runes printed on it.", "Shops", "???", [20,43], 2, 0], //423
     ["Scroll (Runes 14,13)", "scroll_14_13", "A scroll with the fourteenth and thirteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //424
-    ["Scroll (Runes 1,2)", "scroll_01_02", "A scroll with the first and second runes printed on it.", "Shops", "???", [20,43], 2, 0], //425
-    ["Scroll (Runes 1,8)", "scroll_01_08", "A scroll with the first and eigth runes printed on it.", "Shops", "???", [20,43], 2, 0], //426
-    ["Scroll (Runes 1,15)", "scroll_01_15", "A scroll with the first and fifteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //427
-    ["Scroll (Runes 1,16)", "scroll_01_16", "A scroll with the first and sixteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //428
-    ["Scroll (Runes 1,17)", "scroll_01_17", "A scroll with the first and seventeenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //429
-    ["Scroll (Runes 1,18)", "scroll_01_18", "A scroll with the first and eighteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //430
-    ["Scroll (Runes 14,15)", "scroll_14_15", "A scroll with the fourteenth and fifteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //431
+    ["Scroll of Gain (2)", "scroll_01_02", "A scroll with the first and second runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //425
+    ["Scroll of Gain (8)", "scroll_01_08", "A scroll with the first and eigth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //426
+    ["Scroll of Gain Experience", "scroll_01_15", "A scroll that grants skill Exp.", "Shops", "Gain 50~75% in a random skill", [20,43], 2, 0], //427
+    ["Scroll of Gain (16)", "scroll_01_16", "A scroll with the first and sixteenth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //428
+    ["Scroll of Gain (17)", "scroll_01_17", "A scroll with the first and seventeenth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //429
+    ["Scroll of Gain (18)", "scroll_01_18", "A scroll with the first and eighteenth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //430
+    ["Scroll (14) Experience", "scroll_14_15", "A scroll with the fourteenth and fifteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //431
     ["Scroll (Runes 14,20)", "scroll_14_20", "A scroll with the fourteenth and twentieth runes printed on it.", "Shops", "???", [20,43], 2, 0], //432
-    ["Scroll (Runes 15,29)", "scroll_15_29", "A scroll with the fifteenth and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //433
+    ["Scroll of Learn Pi", "scroll_15_29", "A scroll that grants you the knowledge of the first 100 digits of pi.<br />Not very useful.", "Shops", "Teaches you 100 digits of Pi", [20,43], 2, 0], //433
     ["Scroll (Runes 25,31)", "scroll_25_31", "A scroll with the twenty-fifth and thirty-first runes printed on it.", "Shops", "???", [20,43], 2, 0], //434
-    ["Scroll (Runes 3,29)", "scroll_03_29", "A scroll with the third and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //435
+    ["Scroll (3) Pie", "scroll_03_29", "A scroll with the third and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //435
     ["Scroll (Runes 23,23)", "scroll_23_23", "A scroll with the twenty-third rune printed on it twice.", "Shops", "???", [20,43], 2, 0], //436
     ["Scroll (Runes 4,4)", "scroll_04_04", "A scroll with the fourth rune printed on it twice.", "Shops", "???", [20,43], 2, 0], //437
     ["Scroll (Runes 13,24)", "scroll_13_24", "A scroll with the thirteenth and twenty-fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //438
-    ["Scroll (Runes 1,23)", "scroll_01_23", "A scroll with the first and twenty-third runes printed on it.", "Shops", "???", [20,43], 2, 0], //439
-    ["Scroll (Runes 1,29)", "scroll_01_29", "A scroll with the first and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //440
-    ["Scroll (Runes 1,9)", "scroll_01_09", "A scroll with the first and ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //441
-    ["Scroll (Runes 1,10)", "scroll_01_10", "A scroll with the first and tenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //442
+    ["Scroll of Gain (23)", "scroll_01_23", "A scroll with the first and twenty-third runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //439
+    ["Scroll of Gain Pie", "scroll_01_29", "A scroll that gives you some nice pie.", "Shops", "Gain a random pie", [20,43], 2, 0], //440
+    ["Scroll of Gain (9)", "scroll_01_09", "A scroll with the first and ninth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //441
+    ["Scroll of Gain (10)", "scroll_01_10", "A scroll with the first and tenth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //442
     ["Scroll (Runes 22,4)", "scroll_22_04", "A scroll with the twenty-second and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //443
     ["Scroll (Runes 24,24)", "scroll_24_24", "A scroll with the twenty-fourth rune printed on it twice.", "Shops", "???", [20,43], 2, 0], //444
     ["Scroll (Runes 7,24)", "scroll_07_24", "A scroll with the seventh and twenty-fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //445
@@ -483,7 +483,25 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Plain Shirt", "plain_shirt", "A plain shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //481
     ["Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding.", "Crafting", "+0.4 Construction", [1,11], 1, 7], //482
     ["Automatic Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding. It differs from the regular one because it activates the filter automatically, rather than having it on all the time, so it's obviously the better choice.", "Crafting", "+1.1 Construction", [1], 2, 14], //483
-    ["Knife", "knife", "Oh hey, it's the knife from the sticker.", "Crafting", "+1 Indirect Attack<br />+2 Melee Damage", [5,11], 1, 4], //484
-    ["Weird Egg", "ice_egg", "A large, cyan egg. It's probably from a dragon or something.", "Unknown (FS1/2); Unobtainable (FS3)", "Can presumably hatch", [21,32,33,38,39,40], 7, 0], //485
+    ["Knife", "knife", "Oh hey, it's the knife from the sticker.", "Crafting", "+1 Indirect Attack<br />+2 Melee Damage", [5,11,23], 1, 4], //484
+    ["Weird Egg", "ice_egg", "A large, cyan egg. It's probably from a dragon or something.", "Unknown (FS1/2); Unobtainable(?) (FS3)", "Can presumably hatch", [21,32,33,38,39], 4, 0], //485
     ["Sweet and Sour Carrot", "tainted_carrot", "A carrot covered in concerningly-colored sauce.", "Presumably Crafting (FS2); Unobtainable (FS3)", "???", [10,30,32,33,39,40], 5, 0], //486
+    ["Gemmo", "idleon_gem", "A Gem, perfect for the Gem Shop. You know, the one in a different game.", "Mining", "Hold down on it to add it to your account", [20, 24], 2, 1], //487
+    ["Prize", "prize", "A yellow box with orange stripes. Open it for a reward!", "Unknown", "Open for 1d2+1 random items (see Info)", [20,33,42], 3, 0], //488
+    ["Smeckledorf Smurf Hat", "smurf_hat", "A hat typically worn by Smeckledorf Smurfs.", "Mobs", "+3 Max HP", [1], 2, 18], //489
+    ["Goldfish Sticker", "sticker_goldfish", "A sticker of a goldfish.<br />[St2, 1, C]", "Unknown", "Put it in your Sticker Book for +0.7 Fishing", [37, 20], 1, 0], //490
+    ["Raised Goldfish Sticker", "sticker_goldfish_rare", "A raised sticker of a goldfish. Smells fishy.<br />[St2, 2, R]", "Unknown", "Put it in your Sticker Book for +2 Fishing", [37, 20], 3, 30], //491
+    ["Hand Basket Sticker", "sticker_basket", "A sticker of a hand basket.<br />[St2, 3, C]", "Unknown", "Put it in your Sticker Book for +0.7 Gathering", [37, 20], 1, 0], //492
+    ["Raised Hand Basket Sticker", "sticker_basket_rare", "A raised sticker of a hand basket.<br />[St2, 4, R]", "Unknown", "Put it in your Sticker Book for +2 Gathering", [37, 20], 3, 30], //493
+    ["Bottle Sticker", "sticker_bottle", "A sticker of a glass bottle.<br />[St2, 5, C]", "Unknown", "Put it in your Sticker Book for +0.7 Alchemy", [37, 20], 1, 0], //494
+    ["Raised Bottle Sticker", "sticker_bottle_rare", "A raised sticker of a glass bottle. Not actually made of glass.<br />[St2, 6, R]", "Unknown", "Put it in your Sticker Book for +2 Alchemy", [37, 20], 3, 30], //495
+    ["Hammer Sticker", "sticker_hammer", "A sticker of a hammer.<br />[St2, 7, C]", "Unknown", "Put it in your Sticker Book for +0.7 Crafting", [37, 20], 1, 0], //496
+    ["Raised Hammer Sticker", "sticker_hammer_rare", "A raised sticker of a hammer.<br />[St2, 8, R]", "Unknown", "Put it in your Sticker Book for +2 Crafting", [37, 20], 3, 30], //497
+    ["Dirt Sticker", "sticker_dirt", "A sticker of a block of dirt.<br />[St2, 9, C]", "Unknown", "Put it in your Sticker Book for +0.7 Digging", [37, 20], 1, 0], //498
+    ["Raised Dirt Sticker", "sticker_dirt_rare", "A raised sticker of a block of dirt. Ooh, scratch n' sniff!<br />[St2, 10, R]", "Unknown", "Put it in your Sticker Book for +2 Digging", [37, 20], 3, 30], //499
+    ["Depleted Electrum Nugget", "depleted_electrum_nugget", "A depleted nugget of electrum. It's like a dead battery.", "Reusable Phone", "", [11,41], 2, 1], //500
+    ["Sticker Pack (St2)", "sticker_pack_red", "A pack of two stickers. Open it and see what you get!", "Unknown", "Grants two random stickers", [20], 2, 16], //501
+    ["Sticker Pack (All)", "sticker_pack_gray", "A pack of two stickers. Open it and see what you get!", "Unknown", "Grants two random stickers", [20], 2, 18], //502
+    ["Depleted Electrum Bar", "depleted_electrum_bar", "A depleted bar of electrum. Since there's no electricity in it anymore, you could probably used it to make tools.", "Crafting", "", [11,25], 2, 7], //503
+    ["Real Knife", "real_knife", "Uh oh.<br /><br />Wait, why bonus damage against dragons?", "Unknown", "+3 Attack<br />+5 Melee Damage<br />+5 Damage vs. Dragons", [5,23,29,32,33,40], 5, 0], //504
 ]

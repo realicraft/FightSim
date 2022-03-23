@@ -169,6 +169,10 @@ span.small_icon {
     background-image: url("Icons/Exported/icons_sheet.png");
     background-position: -384px -480px;
 }
+.shackles_pain {
+    background-image: url("Icons/Exported/icons_sheet.png");
+    background-position: -320px -480px;
+}
 /* skills */
 .pickaxe, .mining {
     background-image: url("Icons/Exported/icons_sheet.png");
@@ -1547,6 +1551,62 @@ span.small_icon {
 .thunder_knife {
     background-image: url("Icons/Exported/equip_sheet.png");
     background-position: -224px -288px;
+}
+.idleon_gem {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -0px -96px;
+}
+.prize {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -0px -192px;
+}
+.sticker_goldfish {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -128px -96px;
+}
+.sticker_goldfish_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -160px -96px;
+}
+.sticker_bottle {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -192px -96px;
+}
+.sticker_bottle_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -224px -96px;
+}
+.sticker_hammer {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -0px -128px;
+}
+.sticker_hammer_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -32px -128px;
+}
+.sticker_dirt {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -64px -128px;
+}
+.sticker_dirt_rare {
+    background-image: url("Icons/Exported/sticker_sheet.png");
+    background-position: -96px -128px;
+}
+.depleted_electrum_nugget {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -32px -96px;
+}
+.depleted_electrum_bar {
+    background-image: url("Icons/Exported/ore_sheet.png");
+    background-position: -64px -96px;
+}
+.ice_egg {
+    background-image: url("Icons/Exported/misc_sheet.png");
+    background-position: -32px -192px;
+}
+.chocolate_bar {
+    background-image: url("Icons/Exported/food_sheet.png");
+    background-position: -64px -96px;
 }
 /* upgrades */
 .upgrade_none {

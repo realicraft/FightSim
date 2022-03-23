@@ -7,13 +7,13 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Use \"smeckledorf\" in your post.", "Unclaimed", "1 Bottle o' Enchanting (can be claimed by multiple people)", "64"],
-    ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "64"],
-    ["Obtain a Scroll.", "Unclaimed", "1 Scroll (Runes 20, 5)", "64"],
+    ["Fight a mob.", "Unclaimed", "2 Meat Paste", "65"],
+    ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "65"],
+    ["Obtain a Sticker.", "Unclaimed", "1 Bow Sticker", "65"],
     ["Plant a flower.", "Unclaimed", "100% Gardening Exp", "64~67"],
     ["Plant Wheat.", "Unclaimed", "110% Farming Exp", "64~67"],
     ["Equip a Helmet or Chestplate.", "Unclaimed", "4 Misc EXP", "64~67"],
-    ["Obtain 2 Stickers.", "Unclaimed", "3 Misc EXP, 1 Sticker Pack"],
+    ["Attack a Structure.", "Unclaimed", "1 Indirect Attack"],
     ["Reach Proficient in any skill.", "Unclaimed", "4 Misc EXP"],
     ["Recruit an ally or summon.", "Unclaimed", "1 Max HP Upgrade"],
 ]
@@ -58,13 +58,16 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Kitty", "10 Edits", "1 Skill Candy", "0/10"],
             ["Savvy", "10 Edits", "1 Skill Candy", "0/10"],
             ["Bobby", "10 Edits", "1 Skill Candy", "0/10"],
-            ["Tony", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Tony", "10 Edits", "1 Skill Candy", "5/10"],
         ], "500 Edits (3/500)"
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Use \"smeckledorf\" in your post.", "Claimed by Tony, Byron, Theta", "1 Bottle o' Enchanting (can be claimed by multiple people)", "64"],
+        ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "64"],
+        ["Obtain a Scroll.", "Unclaimed", "1 Scroll (Runes 20, 5)", "64"],
         ["Go Mining for Electrum.", "Claimed by Incendiary", "2 Disposable Phones, 2 Misc EXP", "63"],
         ["Go Gathering.", "Claimed by reali", "1 Contact Card (Dry)", "63"],
         ["Obtain a Sticker.", "Unclaimed", "1 Scroll (Runes 1, 4)", "63"],
@@ -150,6 +153,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
+        ["Obtain 2 Stickers.", "Claimed by gilbert", "3 Misc EXP, 1 Sticker Pack"],
         ["Buy a scroll.", "Claimed by realicraft", "1 Dollar Bill"],
         ["Equip any chestplate.", "Claimed by gilbert", "Leather Leggings"],
         ["Equip any accessory.", "Claimed by Byron", "2 Iron Bars"],

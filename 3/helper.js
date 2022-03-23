@@ -10,7 +10,8 @@ var run_mine = function() {
         return
     }
     var mrl = mineRewardList[rollNum-1]
-    if (target == "stone") {outputEl.innerText = Math.round(mrl[0]*1.25) + ' Stone, ' + mrl[3] + ' Iron Ore, ' + mrl[5] + ' Electrum Ore, ' + mrl[6] + ' Diamonds, ' + mrl[7] + ' Emeralds, ' + mrl[8] + ' Hardite Ore, ' + mrl[9] + ' Geodes'}
+    if (target == "none") {outputEl.innerText = mrl[0] + ' Stone, ' + mrl[3] + ' Iron Ore, ' + mrl[5] + ' Electrum Ore, ' + mrl[6] + ' Diamonds, ' + mrl[7] + ' Emeralds, ' + mrl[8] + ' Hardite Ore, ' + mrl[9] + ' Geodes'}
+    else if (target == "stone") {outputEl.innerText = Math.round(mrl[0]*1.25) + ' Stone, ' + mrl[3] + ' Iron Ore, ' + mrl[5] + ' Electrum Ore, ' + mrl[6] + ' Diamonds, ' + mrl[7] + ' Emeralds, ' + mrl[8] + ' Hardite Ore, ' + mrl[9] + ' Geodes'}
     else if (target == "coal") {outputEl.innerText = mrl[0] + ' Stone, ' + mrl[1] + ' Coal, ' + mrl[3] + ' Iron Ore, ' + mrl[5] + ' Electrum Ore, ' + mrl[6] + ' Diamonds, ' + mrl[7] + ' Emeralds, ' + mrl[8] + ' Hardite Ore, ' + mrl[9] + ' Geodes'}
     else if (target == "copper") {outputEl.innerText = mrl[0] + ' Stone, ' + mrl[2] + ' Copper Ore, '  + mrl[3] + ' Iron Ore, ' + mrl[5] + ' Electrum Ore, ' + mrl[6] + ' Diamonds, ' + mrl[7] + ' Emeralds, ' + mrl[8] + ' Hardite Ore, ' + mrl[9] + ' Geodes'}
     else if (target == "iron") {outputEl.innerText = mrl[0] + ' Stone, ' + Math.round(mrl[3]*1.25) + ' Iron Ore, ' + mrl[5] + ' Electrum Ore, ' + mrl[6] + ' Diamonds, ' + mrl[7] + ' Emeralds, ' + mrl[8] + ' Hardite Ore, ' + mrl[9] + ' Geodes'}

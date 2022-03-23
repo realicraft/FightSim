@@ -18,15 +18,14 @@
             .info_text {
                 display: inline-block;
                 /*From https://stackoverflow.com/a/4919231 */
-                /*text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;*/
-                /*From https://css-tricks.com/adding-stroke-to-web-text/ */
-                -webkit-text-stroke: 1px white;
+                text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 0px 1px 0 #fff, 1px 0px 0 #fff, 0px -1px 0 #fff, -1px 0px 0 #fff;
                 color: black;
+                font-family: "FightStack";
             }
             .accuracy + .info_text {
-                /*From https://css-tricks.com/adding-stroke-to-web-text/ */
-                -webkit-text-stroke: 1px black;
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0px 1px 0 #000, 1px 0px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000;
                 color: white;
+                font-family: "FightStack";
             }
             .info_icon {
                 position: absolute; 
@@ -38,7 +37,7 @@
                 position: absolute;
                 display: inline-flex;
                 width: 50px;
-                font-size: 10px;
+                font-size: 9px;
                 align-items: center;
                 justify-content: center;
                 height: 32px;
@@ -73,6 +72,32 @@
             <h1>Dropped Items</h1>
             <p>Items people have dropped. Anyone can pick them up.</p>
             <table class="store_room" data-inven='{"items":{"0":[[51,2],[145,1],[35,1],[125,2],[0,1],[90,3],[0,1],[0,1],[0,1]],"1":[[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]}}'></table>
+        </div><div class="struct">
+            <h1>Treasure Chest</h1>
+            <h2>Created by: Vote</h2>
+            <p>A treasure chest that you can pull random items from.</p>
+            <div class="struct">
+                <h2>Item Pools</h2>
+                <h3>Scrolls</h3>
+                <table class="store_room" data-inven='{"items":{"0":[[412,"1/35"],[413,"1/35"],[414,"1/35"],[415,"1/35"],[416,"1/35"],[417,"1/35"],[418,"1/35"],[419,"1/35"],[420,"1/35"]],"1":[[421,"1/35"],[422,"1/35"],[423,"1/35"],[424,"1/35"],[425,"1/35"],[426,"1/35"],[427,"1/35"],[428,"1/35"],[429,"1/35"]],"2":[[430,"1/35"],[431,"1/35"],[432,"1/35"],[433,"1/35"],[434,"1/35"],[435,"1/35"],[436,"1/35"],[437,"1/35"],[438,"1/35"]],"3":[[439,"1/35"],[440,"1/35"],[441,"1/35"],[442,"1/35"],[443,"1/35"],[444,"1/35"],[445,"1/35"],[446,"1/35"],[0,1]]}}'></table>
+                <h3>Potions</h3>
+                <table class="store_room" data-inven='{"items":{"0":[[207,"3/22"],[208,"3/22"],[209,"3/22"],[210,"3/22"],[211,"3/22"],[212,"3/22"],[213,"3/22"],[396,"1/22"],[0,1]]}}'></table>
+                <h3>Mob Loot</h3>
+                <table class="store_room" data-inven='{"items":{"0":[[218,"2/9"],[216,"2/9"],[217,"1/9"],[223,"2/9"],[256,"1/9"],[372,"1/9"],[0,1],[0,1],[0,1]]}}'></table>
+                <h3>Candies</h3>
+                <table class="store_room" data-inven='{"items":{"0":[[234,"4/15"],[235,"4/15"],[236,"4/15"],[238,"1/15"],[239,"2/15"],[0,1],[0,1],[0,1],[0,1]]}}'></table>
+                <h3>Stickers</h3>
+                <table class="store_room" data-inven='{"items":{"0":[[311,"4/81"],[312,"2/81"],[313,"4/81"],[314,"2/81"],[315,"4/81"],[316,"2/81"],[317,"4/81"],[318,"2/81"],[319,"4/81"]],"1":[[320,"2/81"],[321,"4/81"],[322,"2/81"],[323,"4/81"],[324,"2/81"],[325,"4/81"],[326,"2/81"],[331,"2/81"],[332,"1/81"]],"2":[[490,"4/81"],[491,"2/81"],[492,"4/81"],[493,"2/81"],[494,"4/81"],[495,"2/81"],[496,"4/81"],[497,"2/81"],[498,"4/81"]],"3":[[499,"2/81"],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]}}'></table>
+                <h3>Upgrades</h3>
+                <table class="store_room" data-inven='{"items":{"0":[[449,"1/22"],[451,"1/22"],[452,"1/22"],[453,"1/22"],[454,"1/22"],[455,"1/22"],[456,"1/22"],[457,"1/22"],[458,"1/22"]],"1":[[459,"1/22"],[460,"1/22"],[461,"1/22"],[462,"1/22"],[463,"1/22"],[464,"1/22"],[465,"1/22"],[466,"1/22"],[467,"1/22"]],"2":[[468,"1/22"],[469,"1/22"],[470,"1/22"],[471,"1/22"],[0,1],[0,1],[0,1],[0,1],[0,1]]}}'></table>
+                <h3>Experience</h3>
+                <p>(Note: this category is incomplete.)</p>
+                <table class="store_room" data-inven='{"items":{"0":[[396,"1/?"],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]}}'></table>
+                <h3>Money</h3>
+                <table class="store_room" data-inven='{"items":{"0":[[398,"4/13"],[399,"1/13"],[404,"8/13"],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]}}'></table>
+                <h3>Plot Items</h3>
+                <table class="store_room" data-inven='{"items":{"0":[[66,"4/21"],[68,"3/21"],[264,"3/21"],[254,"5/21"],[268,"2/21"],[303,"2/21"],[366,"1/21"],[383,"1/21"],[0,1]]}}'></table>
+            </div>
         </div><div class="struct">
             <h1>Base Under the Island</h1>
             <h2>Created by: SausageMcSauce</h2>
@@ -119,12 +144,12 @@
                 <h2>Storage Room</h2>
                 <h3>Created by: Byron_Inc_TBG</h3>
                 <p>A room to store things other than food in.</p>
-                <table class="store_room" data-inven='{"items":{"0":[[74,3],[33,1],[34,1],[124,12],[71,1],[0,1],[37,3],[51,13],[46,6]],"1":[[0,1],[0,1],[238,1],[249,1],[241,1],[68,1],[0,1],[0,1],[72,2]],"2":[[0,1],[254,2],[0,1],[44,2],[223,3],[0,1],[0,1],[0,1],[0,1]]}}'></table>
+                <table class="store_room" data-inven='{"items":{"0":[[74,3],[33,1],[34,1],[124,12],[71,1],[238,1],[37,10],[51,31],[46,6]],"1":[[249,1],[241,1],[68,1],[72,3],[254,2],[44,2],[223,3],[75,6],[360,1]],"2":[[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]}}'></table>
             </div><div class="struct">
                 <h2>Food Storage Room</h2>
                 <h3>Created by: Byron_Inc_TBG</h3>
                 <p>A room to store food in.</p>
-                <table class="store_room" data-inven='{"items":{"0":[[64,1],[48,1],[192,6],[204,5],[193,1],[205,4],[132,42],[133,17],[141,1]],"1":[[149,1],[92,37],[197,13],[93,9],[199,11],[63,16],[234,2],[235,2],[236,2]]}}'></table>
+                <table class="store_room" data-inven='{"items":{"0":[[64,1],[48,1],[192,6],[204,5],[193,1],[205,4],[132,42],[133,23],[141,1]],"1":[[149,1],[92,37],[197,13],[93,14],[199,11],[63,16],[234,2],[235,2],[236,2]]}}'></table>
             </div><div class="struct">
                 <h2>Explosives Room</h2>
                 <h3>Created by: Byron_Inc_TBG</h3>
@@ -250,6 +275,11 @@
                         <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">10/10</span></div>
                         <div class="struct_stats" style="right:0px;"><span class="icon defense info_icon"></span><span class="info_text">2<br />(2)</span></div>
                     </div>
+                </div><div class="struct">
+                    <h2>Storage Room</h2>
+                    <h3>Created by: IncendiaryGaming</h3>
+                    <p>Completion: (1/?)</p>
+                    <p>A room for storing items.</p>
                 </div>
             </div><div class="struct">
                 <h2>Underground Garage</h2>
@@ -301,7 +331,7 @@
             <p>An excavator. It excavates things.<br />You can use this structure to mine with a +2 boost. This will deal 1d2+2 (i.e. 3-4) damage to both the user and the excavator.
             <br />You can also run someone over with it; this will deal 1d10+10 damage, but can be dodged without needing to roll.</p>
             <div style="position:relative;text-align:center;display:inline-block;width:150px;height:32px;">
-                <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">90/100</span></div>
+                <div class="struct_stats" style="left:0px;"><span class="icon heart info_icon"></span><span class="info_text">86/100</span></div>
                 <div class="struct_stats" style="right:50px;"><span class="icon defense info_icon"></span><span class="info_text">6<br />(6)</span></div>
                 <div class="struct_stats" style="right:0px;"><span class="icon kill info_icon"></span><span class="info_text">0</span></div>
             </div>
@@ -333,7 +363,7 @@
             <h1>Wooden Shed</h1>
             <h2>Created by: realicraft</h2>
             <p>A shed for storing things.</p>
-            <table class="store_room" data-inven='{"items":{"0":[[189,1],[338,2],[402,1],[399,1],[0,1],[0,1],[0,1],[0,1],[0,1]],"1":[[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]],"2":[[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]}}'></table>
+            <table class="store_room" data-inven='{"items":{"0":[[189,1],[338,2],[402,1],[399,1],[99,6],[190,2],[44,1],[234,2],[238,1]],"1":[[187,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]],"2":[[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1],[0,1]]}}'></table>
         </div>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
