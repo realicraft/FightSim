@@ -43,16 +43,16 @@ var user_data = {
         "Byron_Inc_TBG": {
             "un_same": true, "username": "", "css_class": "byron",
             "type": 0,"health": [81,106],"attack": [[11.2,4],[7,3]],"defense": [[13.3,2],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 5,"deaths": 2,"skills": [[1,7,169],[4,2,135],[7,3,18],[8,3,70],[10,0,20],[2,4,100],[3,1,120],[11,0,70],[6,0,60],[13,1,10],[9,0,50]],"effects": [],
+            "kills": 5,"deaths": 2,"skills": [[1,7,169],[4,2,165],[7,3,18],[8,3,70],[10,0,20],[2,4,100],[3,1,120],[11,0,70],[6,0,60],[13,1,10],[9,0,50]],"effects": [],
             "equips": [1,164,3,4,18,13,357,12,38],"exp": [6,34,70],
             "stickers": [[319,0,0,0]], "pn": "29766",
             "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
         },
         "cheesyfriedeggs": {
             "un_same": true, "username": "", "css_class": "cheesy",
-            "type": 0,"health": [88,102],"attack": [[7,4],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 0,"deaths": 1,"skills": [[4,1,14],[1,4,238],[3,1,10],[5,0,65],[8,1,45],[2,0,80]],"effects": [],
-            "equips": [1,2,3,4,9,6,7,8,""],"exp": [2,11,30],
+            "type": 0,"health": [88,103],"attack": [[7,4],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
+            "kills": 0,"deaths": 1,"skills": [[4,1,14],[1,5,118],[3,1,10],[5,0,65],[8,1,45],[2,0,80]],"effects": [],
+            "equips": [1,2,3,4,9,6,7,8,""],"exp": [3,9,40],
             "stickers": [[0,0,0,0]], "pn": "24379",
             "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
         },
@@ -106,11 +106,11 @@ var user_data = {
         },
         "<abbr title=\"Dark Necromancer Kitty\">D. N. Kitty</abbr>": {
             "un_same": false, "username": "Joyous Theta", "css_class": "kitty",
-            "type": 0,"health": [83,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 1,"deaths": 1,"skills": [[14,1,15]],"effects": [],
+            "type": 0,"health": [70,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
+            "kills": 1,"deaths": 1,"skills": [[14,1,55],[3,0,50],[6,0,50],[8,0,50],[11,0,50]],"effects": [],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,5,10],
             "stickers": [[0,0,0,0]], "pn": "54889",
-            "summon/ally": [true, "Ally", "Slime", [20,20, [5,2],[5,2], [5,0],[5,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]] // [type, name, [hp,mhp, [atk],[batk], [def],[bdef], k/d], [[summon bonus]], [[player bonus]]]
+            "summon/ally": [true, "Ally", "Slime", [10,20, [5,2],[5,2], [5,0],[5,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]] // [type, name, [hp,mhp, [atk],[batk], [def],[bdef], k/d], [[summon bonus]], [[player bonus]]]
         },
         "SAVVYSCLUTTER": {
             "un_same": true, "username": "", "css_class": "savvy",
@@ -130,9 +130,9 @@ var user_data = {
         },
         "TonyBrown148": {
             "un_same": true, "username": "", "css_class": "tony",
-            "type": 0,"health": [100,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 0,"deaths": 0,"skills": [[2,1,25],[3,0,95],[4,0,60]],"effects": [],
-            "equips": [1,2,3,4,30,6,7,8,""],"exp": [0,4,10],
+            "type": 0,"health": [100,101],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
+            "kills": 0,"deaths": 0,"skills": [[2,1,25],[3,1,105],[4,1,10],[6,0,50],[15,0,50],[7,0,50]],"effects": [],
+            "equips": [1,2,3,4,25,6,7,8,""],"exp": [1,0,10],
             "stickers": [[0,0,0,0]], "pn": "82148",
             "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
         },

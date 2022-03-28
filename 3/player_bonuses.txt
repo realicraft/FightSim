@@ -64,8 +64,8 @@ cheesy:
  Stats:
   Direct Attack: (+1)
    Wooden Sword (+1)
-  Health: (+2)
-   Player Level (+2)
+  Health: (+3)
+   Player Level (+3)
  Skills:
 solitare:
  Stats:
@@ -126,6 +126,8 @@ iwantpie21 (Bobby):
  Skills:
 TonyBrown148:
  Stats:
+  Health: (+1)
+   Player Level (+1)
  Skills:
   Mining: (+1)
    Wooden Pickaxe (+1)

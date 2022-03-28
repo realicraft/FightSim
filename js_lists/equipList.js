@@ -64,7 +64,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Apple", "apple", "An apple.", "Farming", "+5 HP on consume", [10,30], 1, 5], //62
     ["Golden Apple", "golden_apple", "A golden apple. One of the more common golden foods, and the only edible one.", "Farming", "Equip for +0.5 Max HP<br />Eat for Regen and Defense Up (1 turn)", [9,30], 2, 15], //63
     ["Orange", "orange", "An orange. Not very similar to an apple, which is why they're compared so often.", "Farming", "+5 HP on consume", [10,30], 1, 5], //64
-    ["Golden Orange", "golden_orange", "A golden orange. No one knows whether it's golden on the inside, because the peel is solid gold and can't be removed.", "Farming", "Equip for +0.7 Max HP", [9], 2, 15], //65
+    ["Golden Orange", "golden_orange", "A golden orange. No one knows whether it's golden on the inside, because the peel is solid gold and can't be removed.", "Farming", "Equip for +0.5 AGI", [9], 2, 15], //65
     ["Carrot", "carrot", "A carrot. It's orange.<br /><br />A dragon would probably like this.", "Farming", "+5 HP on consume<br />Consume like 10 at once to turn very slightly orange", [10,30], 1, 5], //66
     ["Clay Shield", "clay_shield", "A shield made of clay. Try to avoid letting it shatter.", "Pottery", "+1 Indirect Defense<br />+1 Direct Defense<br />15% chance of breaking on hit", [7], 1, 6], //67
     ["Iron Ore", "iron_ore", "Some iron ore. Can be crafted into bars, requiring 2 ore per bar.", "Mining", "Potion effect: 50% chance of Defense Up (1 turn)", [24], 1, 7], //68
@@ -92,7 +92,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Empty Can", "can", "A can with nothing in it.", "Crafting", "Fill it with stuff", [11], 1, 1], //90
     ["Canned Water", "can", "A can with water in it. You can drink it.", "Crafting", "Drink for 3 HP", [30], 1, 2], //91
     ["Can of Beans", "can", "A can with beans in it.", "Farming", "+5 HP on consume", [10,30], 1, 5], //92
-    ["Golden Can of Beans", "gold_can", "A golden can with golden beans in it.", "Farming", "Equip for +0.15 Direct Defense", [9], 2, 15], //93
+    ["Golden Can of Beans", "gold_can", "A golden can with golden beans in it.", "Farming", "Equip for +0.2 Direct Defense", [9], 2, 15], //93
     ["Clay Bowl", "clay_bowl", "A bowl made of clay.", "Pottery", "", [], 1, 6], //94
     ["Clay Vase", "clay_vase", "A vase made of clay.", "Pottery", "", [], 1, 6], //95
     ["Glass Bowl", "glass_bowl", "A bowl made of glass.", "Crafting", "", [], 1, 6], //96
@@ -130,15 +130,15 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Iron Shield", "iron_shield", "A shield made out of wood, with an iron core.", "Crafting", "+1 Direct Defense", [7], 1, 12], //128
     ["Gold Shield", "gold_shield", "A shield made out of wood, with a golden core.", "Crafting", "+1 Indirect Defense", [7], 1, 9], //129
     ["Radish", "radish", "A radish.", "Farming", "+5 HP on consume", [10,30], 1, 5], //130
-    ["Golden Radish", "gold_radish", "A golden radish.", "Farming", "Equip for +0.15 Mining", [9], 2, 15], //131
+    ["Golden Radish", "gold_radish", "A golden radish.", "Farming", "Equip for +0.2 Mining", [9], 2, 15], //131
     ["Potato", "potato", "A potato.", "Farming", "+5 HP on consume<br />Potion effect: 25% chance of Defense Up (1 turn)", [10,30], 1, 5], //132
-    ["Golden Potato", "gold_potato", "A golden potato. No, it's not butter.", "Farming", "Equip for +0.15 Chopping", [9], 2, 15], //133
+    ["Golden Potato", "gold_potato", "A golden potato. No, it's not butter.", "Farming", "Equip for +0.2 Chopping", [9], 2, 15], //133
     ["Cabbage", "cabbage", "A head of cabbage.", "Farming", "+5 HP on consume", [10,30], 1, 5], //134
-    ["Golden Cabbage", "gold_cabbage", "A golden head of cabbage. Some people use the leaves as decoration.", "Farming", "Equip for +0.2 Max HP", [9], 2, 15], //135
+    ["Golden Cabbage", "gold_cabbage", "A golden head of cabbage. Some people use the leaves as decoration.", "Farming", "Equip for +0.2 Direct Attack", [9], 2, 15], //135
     ["Corn Cob", "corn", "A cob of corn.", "Farming", "+5 HP on consume", [10,30], 1, 5], //136
-    ["Golden Corn Cob", "gold_corn", "A golden cob of corn. No, it's not butter.", "Farming", "Equip for +0.3 Indirect Attack", [9], 2, 15], //137
+    ["Golden Corn Cob", "gold_corn", "A golden cob of corn. No, it's not butter.", "Farming", "Equip for +0.4 Indirect Attack", [9], 2, 15], //137
     ["Beetroot", "beetroot", "A beetroot.", "Farming", "+5 HP on consume", [10,30], 1, 5], //138
-    ["Golden Beetroot", "gold_beetroot", "A golden beetroot.", "Farming", "Equip for +0.15 Digging", [9], 2, 15], //139
+    ["Golden Beetroot", "gold_beetroot", "A golden beetroot.", "Farming", "Equip for +0.2 Digging", [9], 2, 15], //139
     ["Buttered Corn Cob", "corn", "A cob of corn, covered in butter.", "Crafting", "+7 HP on consume", [10,30], 1, 8], //140
     ["Baked Potato", "baked_potato", "A baked potato.", "Cooking", "+7 HP on consume", [10,30], 1, 8], //141
     ["Butter", "butter", "A bar of butter. No, it's not golden.", "Unknown", "-1 HP on consume<br />Potion effect: 30% chance to upgrade one effect", [10,11], 1, 2], //142
@@ -147,9 +147,9 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Wooden Chair", "wood_chair", "A chair made of wood. You can sit on it.", "Crafting", "", [18], 1, 2], //145
     ["Folding Chair", "fold_chair", "A chair made of iron. It can fold into a smaller form.", "Crafting", "", [18], 2, 8], //146
     ["Wheat Bundle", "wheat_bundle", "A bundle of wheat. You can't eat it raw, but you can make it into dough.", "Farming", "", [11,13], 1, 5], //147
-    ["Golden Wheat Bundle", "gold_wheat", "A bundle of golden wheat. You can make it into dough, or equip it.", "Farming", "Equip for +0.15 Max HP", [11,13], 2, 15], //148
+    ["Golden Wheat Bundle", "gold_wheat", "A bundle of golden wheat. You can make it into dough, or equip it.", "Farming", "Equip for +0.2 Farming", [11,13], 2, 15], //148
     ["Dough", "dough", "A ball of dough.", "Cooking", "", [11], 1, 6], //149
-    ["Golden Dough", "gold_dough", "A ball of golden dough.", "Cooking", "Equip for +0.1 Cooking", [11], 2, 15], //150
+    ["Golden Dough", "gold_dough", "A ball of golden dough.", "Cooking", "Equip for +0.2 Cooking", [11], 2, 15], //150
     ["Apple Pie", "pie", "A pie with apples in it.", "Cooking", "+10 HP on consume", [10,30], 1, 11], //151
     ["Golden Apple Pie", "gold_pie", "A golden pie with golden apples in it.", "Cooking", "+17 HP on consume<br />Gain Regen+ and Defense Up+ (1 turn) on consume<br />Can't be equipped", [9,30], 3, 30], //152
     ["Bread", "bread", "A loaf of bread.", "Cooking", "+6 HP on consume<br />Potion effect: +3 HP<br />Potion effect: 50% chance to add 1 turn to one effect", [10,30], 1, 5], //153
@@ -192,7 +192,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Salmon", "fish_4", "{placeholder}", "Fishing", "", [0,26], 2, 12], //190
     ["Solid Goldfish", "gold_goldfish", "Like a goldfish, but actually gold.", "Fishing", "Cook it to make it equippable", [26], 2, 15], //191
     ["Spinach", "spinach", "A bunch of spinach. Supposedly makes you stronger.", "Farming", "+5 HP on consume<br />Potion effect: 25% chance of Attack Up (1 turn)", [10,30], 1, 5], //192
-    ["Golden Spinach", "gold_spinach", "A bunch of gold spinach. <i>Actually</i> makes you stronger.", "Farming", "Equip for 0.4 Direct Attack", [9], 2, 19], //193
+    ["Golden Spinach", "gold_spinach", "A bunch of gold spinach. <i>Actually</i> makes you stronger.", "Farming", "Equip for 0.5 STR", [9], 2, 19], //193
     ["Ripe Apple", "ripe apple", "An apple that's riper than usual.", "Farming", "+10 HP on Consume", [10,30], 1, 7], //194
     ["Ripe Orange", "ripe orange", "An orange that's riper than usual.", "Farming", "+10 HP on Consume", [10,30], 1, 7], //195
     ["Ripe Carrot", "ripe carrot", "A carrot that's riper than usual. It's oranger.", "Farming", "+10 HP on Consume", [10,30], 1, 7], //196
@@ -204,8 +204,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Ripe Beetroot", "ripe beetroot", "A beetroot that's riper than usual. Can be turned into red dye.", "Farming", "+10 HP on Consume", [10,30], 1, 7], //202
     ["Ripe Wheat Bundle", "ripe wheat_bundle", "A bundle of wheat that's riper than usual. Still can't be eaten directly, though.", "Farming", "", [10], 1, 7], //203
     ["Ripe Spinach", "ripe spinach", "A bunch of spinach that's riper than usual.", "Farming", "+10 HP on consume<br />Potion effect: 40% chance of Attack Up (1 turn)", [10,30], 1, 7], //204
-    ["Enchanted Golden Carrot", "enchanted gold_carrot", "An enchanted carrot made out of gold. Surprisingly rare.", "Farming", "+0.6 Indirect Defense", [9], 3, 29], //205
-    ["Enchanted Golden Apple", "enchanted golden_apple", "An enchanted golden apple. This is really rare!", "Farming", "Equip for +1 Max HP<br />Eat for Regen+ and Defense Up+ (1 turn)", [9,30], 3, 31], //206
+    ["Enchanted Golden Carrot", "enchanted gold_carrot", "An enchanted carrot made out of gold. Surprisingly rare.", "Farming", "+0.7 Indirect Defense", [9], 3, 29], //205
+    ["Enchanted Golden Apple", "enchanted golden_apple", "An enchanted golden apple. This is really rare!", "Farming", "Equip for +1.2 Max HP<br />Eat for Regen+ and Defense Up+ (1 turn)", [9,30], 3, 31], //206
     ["Red Potion", "potion_red", "A bottle filled with a red liquid. Who knows what it does?", "Alchemy", "", [16], 1, 0], //207
     ["Orange Potion", "potion_orange", "A bottle filled with an orange liquid. Who knows what it does?", "Alchemy", "", [16], 1, 0], //208
     ["Yellow Potion", "potion_yellow", "A bottle filled with a yellow liquid. Who knows what it does?", "Alchemy", "", [16], 1, 0], //209
@@ -281,7 +281,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Blueberries", "blueberries", "A handful of blueberries.", "Farming", "+4 HP on consume", [10,30], 1, 5], //279
     ["Golden Blueberries", "gold_blueberries", "A handful of golden blueberries.", "Farming", "Equip for +0.2 Gathering", [9], 2, 15], //280
     ["Cherries", "cherries", "A handful of cherries.", "Farming", "+4 HP on consume", [10,30], 1, 5], //281
-    ["Golden Cherries", "gold_cherries", "A handful of golden cherries.", "Farming", "Equip for +0.2 Digging", [9], 2, 15], //282
+    ["Golden Cherries", "gold_cherries", "A handful of golden cherries.", "Farming", "Equip for +0.2 Ballet", [9], 2, 15], //282
     ["Blackberries", "blackberries", "A handful of blackberries.", "Farming", "+4 HP on consume", [10,30], 1, 5], //283
     ["Golden Blackberries", "gold_blackberries", "A handful of golden blackberries.", "Farming", "Equip for +0.2 Crafting", [9], 2, 15], //284
     ["Peach", "peach", "A peach.", "Farming", "+4 HP on consume", [10,30], 1, 5], //285
@@ -405,7 +405,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Decicoin", "penny", "A decicoin that you minted yourself. It's clearly counterfeit, given all the dents, but for some reason all the stores you call will take it anyway? Valued at 1/10th of a coin.", "Crafting", "", [20], 1, 0], //403
     ["Official Decicoin", "penny_good", "An official decicoin from the Isles of Fighting. Valued at 1/10th of a coin.", "Unknown", "", [20], 1, 0], //404
     ["Tomato", "tomato", "A tomato.", "Farming", "+5 HP on consume", [10,30], 1, 5], //405
-    ["Golden Tomato", "gold_tomato", "A golden tomato. Shame there's no tomato sauce item.", "Farming", "+0.15 Cooking", [9], 2, 15], //406
+    ["Golden Tomato", "gold_tomato", "A golden tomato. Shame there's no tomato sauce item.", "Farming", "+0.5 CHR", [9], 2, 15], //406
     ["Ripe Tomato", "ripe tomato", "A tomato that's riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7], //407
     ["Bomb", "bomb", "A bomb. You can light it and throw it at something to blow it up.", "Crafting", "Throw it at someone after lighting it to deal 9+<span class=fire>6</span> damage", [21,22], 1, 4], //408
     ["Mystery Potion Y", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Oh no, there are more of them!<br /><br /><br />It smells oddly sweet.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //409
@@ -504,4 +504,38 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Sticker Pack (All)", "sticker_pack_gray", "A pack of two stickers. Open it and see what you get!", "Unknown", "Grants two random stickers", [20], 2, 18], //502
     ["Depleted Electrum Bar", "depleted_electrum_bar", "A depleted bar of electrum. Since there's no electricity in it anymore, you could probably used it to make tools.", "Crafting", "", [11,25], 2, 7], //503
     ["Real Knife", "real_knife", "Uh oh.<br /><br />Wait, why bonus damage against dragons?", "Unknown", "+3 Attack<br />+5 Melee Damage<br />+5 Damage vs. Dragons", [5,23,29,32,33,40], 5, 0], //504
+    ["Emerald Helmet", "emerald_helm", "A helmet made of emerald.", "Crafting", "+1.1 Direct Defense<br />+0.5 Indirect Defense", [1], 2, 19], //505
+    ["Emerald Chestplate", "emerald_chest", "A chestplate made of emerald.", "Crafting", "+1.7 Direct Defense<br />+0.7 Indirect Defense", [2], 2, 21], //506
+    ["Emerald Leggings", "emerald_legs", "A pair of leggings made of emerald.", "Crafting", "+1.4 Direct Defense<br />+0.6 Indirect Defense", [3], 2, 19], //507
+    ["Emerald Boots", "emerald_boots", "A pair of boots made of emerald.", "Crafting", "+0.8 Direct Defense<br />+0.4 Indirect Defense", [4], 2, 19], //508
+    ["Emerald Shield", "emerald_shield", "A shield with an emerald in the center.", "Crafting", "+0.9 Indirect Defense<br />+0.9 Direct Defense", [7], 2, 16], //509
+    ["Emerald Band", "emerald_band", "A band made of emerald, to go around your wrist.", "Crafting", "+1.1 Indirect Defense<br />+1.1 Indirect Attack", [8], 2, 16], //510
+    ["Emerald Sword", "emerald_sword", "A sword made out of emeralds.", "Crafting", "+2.9 Direct Attack<br />+1.3 Indirect Attack", [5,23], 2, 17], //511
+    ["Emerald Shovel", "emerald_shovel", "A shovel made out of emeralds.", "Crafting", "+1.2 Direct Attack<br />+0.6 Indirect Attack<br />+2.9 to Digging<br />10% chance to steal an item", [6], 2, 16], //512
+    ["Emerald Pickaxe", "emerald_pickaxe", "A pickaxe made out of emeralds.", "Crafting", "+1.6 Direct Attack<br />+0.8 Indirect Attack<br />+2.9 to Mining", [6], 2, 16], //513
+    ["Emerald Axe", "emerald_axe", "A axe made out of emeralds.", "Crafting", "+1.9 Direct Attack<br />+1 Indirect Attack<br />+2.9 to Chopping", [6], 2, 16], //514
+    ["Emerald Hoe", "emerald_hoe", "A hoe made out of emerald. Why did you <i>make</i> this?", "Crafting", "+1 Indirect Attack<br />+2.9 Farming", [6], 2, 16], //515
+    ["Emerald Hammer", "emerald_hammer", "A hammer made of emerald.", "Crafting", "+1.8 Direct Attack<br />+0.7 Indirect Attack<br />+2.9 Construction", [6], 2, 16], //516
+    ["Emerald Trowel", "emerald_trowel", "A trowel made of emerald.", "Crafting", "+0.9 Direct Attack<br />+0.5 Indirect Attack<br />+2.9 Gardening", [6], 2, 16], //517
+    ["Emerald Fishing Rod", "emerald_fish_rod", "A fishing rod made of emerald.", "Crafting", "+2.9 Fishing", [6], 2, 16], //518
+    ["Emerald Staff", "emerald_staff", "A staff made of emerald.", "Crafting", "+1.1 Direct Attack<br />+0.7 Indirect Attack<br />+2.9 Damage for \"magical\" attacks", [5], 2, 16], //519
+    ["Hardite Helmet", "hardite_helm", "A helmet made of hardite.", "Crafting", "+1.3 Direct Defense<br />+0.7 Indirect Defense", [1], 3, 24], //520
+    ["Hardite Chestplate", "hardite_chest", "A chestplate made of hardite.", "Crafting", "+2 Direct Defense<br />+0.9 Indirect Defense", [2], 3, 26], //521
+    ["Hardite Leggings", "hardite_legs", "A pair of leggings made of hardite.", "Crafting", "+1.7 Direct Defense<br />+0.8 Indirect Defense", [3], 3, 24], //522
+    ["Hardite Boots", "hardite_boots", "A pair of boots made of hardite.", "Crafting", "+1.1 Direct Defense<br />+0.6 Indirect Defense", [4], 3, 24], //523
+    ["Hardite Shield", "hardite_shield", "A shield made out of wood, with a hardite core.", "Crafting", "+1.3 Indirect Defense<br />+1.3 Direct Defense", [7], 3, 21], //524
+    ["Hardite Band", "hardite_band", "A band made of hardite, to go around your wrist.", "Crafting", "+1.4 Indirect Defense<br />+1.4 Indirect Attack", [8], 3, 21], //525
+    ["Hardite Sword", "hardite_sword", "A sword made out of hardite.", "Crafting", "+4.1 Direct Attack<br />+1.7 Indirect Attack", [5,23], 3, 22], //526
+    ["Hardite Shovel", "hardite_shovel", "A shovel made out of hardite.", "Crafting", "+1.8 Direct Attack<br />+0.8 Indirect Attack<br />+4 to Digging<br />10% chance to steal an item", [6], 3, 21], //527
+    ["Hardite Pickaxe", "hardite_pickaxe", "A pickaxe made out of hardite.", "Crafting", "+2.3 Direct Attack<br />+1.1 Indirect Attack<br />+4 to Mining", [6], 3, 21], //528
+    ["Hardite Axe", "hardite_axe", "A axe made out of hardite.", "Crafting", "+2.7 Direct Attack<br />+1.1 Indirect Attack<br />+4 to Chopping", [6], 3, 21], //529
+    ["Hardite Hoe", "hardite_hoe", "A hoe made out of hardite. Since <u>Achievements</u> aren't a thing, you have basically no reason to have made this. Except for the Farming bonus, I guess.", "Crafting", "+1 Indirect Attack<br />+4 Farming", [6], 3, 21], //530
+    ["Hardite Hammer", "hardite_hammer", "A hammer made of hardite.", "Crafting", "+2.6 Direct Attack<br />+1 Indirect Attack<br />+4 Construction", [6], 3, 21], //531
+    ["Hardite Trowel", "hardite_trowel", "A trowel made of hardite.", "Crafting", "+1.2 Direct Attack<br />+0.7 Indirect Attack<br />+4 Gardening", [6], 3, 21], //532
+    ["Hardite Fishing Rod", "hardite_fish_rod", "A fishing rod made of hardite.", "Crafting", "+4 Fishing", [6], 3, 21], //533
+    ["Hardite Staff", "hardite_staff", "A staff made of hardite.", "Crafting", "+1.6 Direct Attack<br />+1 Indirect Attack<br />+4 Damage for \"magical\" attacks", [5], 3, 21], //534
+    ["Leather Cap", "leather_helm", "A cap made of leather.", "Crafting", "+1.1 Direct Defense<br />+0.5 Indirect Defense", [1], 1, 10], //535
+    ["Leather Shirt", "leather_chest", "A shirt made of leather.", "Crafting", "+1.7 Direct Defense<br />+0.7 Indirect Defense", [2], 1, 12], //536
+    ["Leather Pants", "leather_legs", "A pair of pants made of leather.", "Crafting", "+1.4 Direct Defense<br />+0.6 Indirect Defense", [3], 1, 10], //537
+    ["Leather Shoes", "leather_boots", "A pair of shoes made of leather.", "Crafting", "+0.8 Direct Defense<br />+0.4 Indirect Defense", [4], 1, 10], //538
 ]
