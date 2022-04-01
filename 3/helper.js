@@ -23,3 +23,48 @@ var run_mine = function() {
     else if (target == "geode") {outputEl.innerText = mrl[0] + ' Stone, ' + mrl[3] + ' Iron Ore, ' + mrl[5] + ' Electrum Ore, ' + mrl[6] + ' Diamonds, ' + mrl[7] + ' Emeralds, ' + mrl[8] + ' Hardite Ore, ' + Math.round(mrl[9]*1.25) + ' Geodes'}
     else {outputEl.innerText = "That target doesn't make sense."}
 }
+
+/* TBGSBB+ to TBGSBB converter */
+var loop_until_char = function(string, char) {
+    var i = 0
+    while (i < string.length) {
+        if (string[i] == char) {break}
+        i++
+    }
+    return i
+}
+var run_conv = function() {
+    var inEl = document.getElementById("conv_in")
+    var outEl = document.getElementById("conv_out")
+    var cont = inEl.value
+    //var cont = "abc"
+    var outCont = ""
+    var semiCont = ""
+    var partA = ""
+    var partB = ""
+    var j = 0
+    var k = 0
+    var l = 0
+    var done = false
+    while (!done) {
+        j = loop_until_char(cont, "{")
+        outCont += cont.slice(0, j)
+        if (j == cont.length) {
+            done = true
+            continue
+        }
+        cont = cont.slice(j+1)
+        k = loop_until_char(cont, "}")
+        semiCont = cont.slice(0, k)
+        l = loop_until_char(semiCont, "|")
+        if (l == semiCont.length) {
+            if (semiCont in replaceSingleList) {outCont += replaceSingleList[semiCont]}
+        } else {
+            partA = semiCont.slice(0, l)
+            partB = semiCont.slice(l+1)
+            if (partA in replaceDoubleList) {outCont += replaceDoubleList[partA][0] + partB + replaceDoubleList[partA][1]}
+        }
+        cont = cont.slice(k+1)
+    }
+    outEl.value = outCont
+}

@@ -299,7 +299,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Canned Carrots", "can", "A can with carrots in it.", "Crafting", "Open it", [20], 1, 6], //297
     ["Canned Potatoes", "can", "A can with potatoes in it.", "Crafting", "Open it", [20], 1, 6], //298
     ["Canned Corn", "can", "A can with corn in it.", "Crafting", "Open it", [20], 1, 6], //299
-    ["Canned Blueberries", "can", "A can with bluebrries in it.", "Crafting", "Open it", [20], 1, 6], //300
+    ["Canned Blueberries", "can", "A can with blueberries in it.", "Crafting", "Open it", [20], 1, 6], //300
     ["Canned Cherries", "can", "A can with cherries in it.", "Crafting", "Open it", [20], 1, 6], //301
     ["Canned Radish Slices", "can", "A can with radish slices in it.", "Crafting", "Open it", [20], 1, 6], //302
     ["Baby Carrots", "baby_carrots", "Some baby carrots.<br /><br />A small dragon would probably like these.", "Cooking", "Consume for +6 HP", [10,30], 1, 4], //303
@@ -538,4 +538,5 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Leather Shirt", "leather_chest", "A shirt made of leather.", "Crafting", "+1.7 Direct Defense<br />+0.7 Indirect Defense", [2], 1, 12], //536
     ["Leather Pants", "leather_legs", "A pair of pants made of leather.", "Crafting", "+1.4 Direct Defense<br />+0.6 Indirect Defense", [3], 1, 10], //537
     ["Leather Shoes", "leather_boots", "A pair of shoes made of leather.", "Crafting", "+0.8 Direct Defense<br />+0.4 Indirect Defense", [4], 1, 10], //538
+    ["Landmine", "mine", "A landmine. You can place it by a Structure, Crop, or Plant to make it blow up when someone goes near it.", "Crafting", "Place it somewhere", [20], 2, 14], //539
 ]

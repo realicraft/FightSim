@@ -3,7 +3,8 @@ body {
     color: black;
     margin: 0;
     text-align: center;
-    font-family: monospace;
+    font-family: "FightSim Body";
+    font-size: 15px;
 }
 img {
     margin-left: auto;
@@ -22,7 +23,7 @@ img {
     padding-left: 21px;
     padding-right: 5px;
     position: relative;
-    margin-right: 16px;
+    margin-right: 17px;
     margin-bottom: 3px;
 }
 .header a {
@@ -35,6 +36,15 @@ img {
 }
 .header a:hover {
     background-color: #7f7f7f;
+}
+h3, h2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+h1 {
+    font-size: 30px;
+    font-family: "FightSim Body Double";
+    font-weight: normal;
 }
 #time_box {
     position: absolute;
@@ -107,7 +117,39 @@ td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
 }*/ /* font was made with fontforge and for some reason doesn't want to work (everything but .notdef is empty)*/
 @font-face {
     font-family: "FightStack";
-    src: url("fightstack.ttf");
+    src: url("../fightstack.ttf");
+}
+@font-face {
+    font-family: "FightSim Body";
+    src: url("../fightsim-body.ttf");
+}
+@font-face {
+    font-family: "FightSim Body";
+    src: url("../fightsim-body-bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "FightSim Body";
+    src: url("../fightsim-body-italic.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "FightSim Body";
+    src: url("../fightsim-body-bold-italic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "FightSim 12";
+    src: url("../fightsim-12px.ttf");
+}
+@font-face {
+    font-family: "FightSim 20";
+    src: url("../fightsim-20px.ttf");
+}
+@font-face {
+    font-family: "FightSim Body Double";
+    src: url("../fightsim-body-bold-double.ttf");
 }
 span.normal {
     color: #dfdfdf;

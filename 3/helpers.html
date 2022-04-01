@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../main.css"></link>
-        <link rel="stylesheet" type="text/css" href="../icons.css"></link>
-        <link rel="stylesheet" type="text/css" href="../tooltip.css"></link>
-        <link rel="stylesheet" type="text/css" href="../table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/main.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Helper Tools | FS3</title>
     </head>
@@ -27,6 +27,10 @@
         </select>
         <button id="mine_button" onclick="run_mine();">Get Result</button>
         <br /><div class="output" id="mine_output">&nbsp;</div>
+        <h2>TBGSBB+ to TBGSBB converter</h2>
+        <textarea rows="15" cols="80" id="conv_in"></textarea>
+        <textarea rows="15" cols="80" id="conv_out" disabled></textarea>
+        <br /><button id="conv_button" onclick="run_conv();">Convert</button>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
         <script src="../js_lists/headerLinks.js"></script>
@@ -34,6 +38,7 @@
         <script src="../js_lists/equipList.js"></script>
         <script src="../js_lists/categoryList.js"></script>
         <script src="../js_lists/mineRewards.js"></script>
+        <script src="../js_lists/replaceList.js"></script>
         <script src="tooltip.js"></script>
         <script src="info.js"></script>
         <script src="helper.js"></script>

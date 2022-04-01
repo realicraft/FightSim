@@ -20,6 +20,8 @@
 }
 .summon_div_inner:not(.table_summon_div_inner) {
     height: 32px;
+    font-size: 12px;
+    font-family: "FightSim 12";
 }
 .summon_div_inner.table_summon_div_inner {
     min-height: 32px;
@@ -34,6 +36,7 @@
     background-color: transparent;
     border: none;
     font-size: 12px;
+    font-family: "FightSim 12";
 }
 .username {
     color: white;
@@ -51,14 +54,16 @@
     width: 200px;
     left: calc(50% - 100px);
     bottom: 0px;
+    font-family: "FightSim 12";
 }
 .pn_contain {
-    font-size: 12px;
+    font-size: 9px;
     font-weight: initial;
     margin: 0px;
     position: absolute;
     left: 0px;
     bottom: 0px;
+    font-family: "FightStack";
 }
 .type_icon_contain {
     position: relative;
@@ -95,6 +100,7 @@
     height: 68px;
     background-color: black;
     font-size: 12px;
+    font-family: "FightSim 12";
 }
 .pt_effects, .pt_skills {
     width: 95%;
@@ -107,7 +113,7 @@
     margin-top: 0px;
     width: 272px;
     height: 32px;
-    background-image: url("3/Items/Exported/equip_back.png");
+    background-image: url("../3/Items/Exported/equip_back.png");
     display: block;
     margin: auto;
     padding: 2px 0px 2px 2px;
@@ -117,11 +123,12 @@
 }
 .pt_level_upper {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
 }
 .pt_level_lower {
-    font-style: italic;
-    font-size: 11px;
+    /*font-style: italic;*/
+    font-size: 9px;
+    font-family: "FightStack";
     text-align: right;
 }
 .pt_level_contain {
@@ -142,4 +149,17 @@
 .pt_level_bar_inner {
     background-color: white;
     height: 100%;
+}
+.col1 {
+    width:32px;
+    background-color: #7f7f7f;
+}
+.col2 {
+    width:100%; background-color: #9f9f9f;
+}
+.col3 {
+    width:20px; background-color: #7f7f7f;
+}
+.col4 {
+    width:30px; background-color: #9f9f9f;
 }

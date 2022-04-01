@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../main.css"></link>
-        <link rel="stylesheet" type="text/css" href="../table.css"></link>
-        <link rel="stylesheet" type="text/css" href="../icons.css"></link>
-        <link rel="stylesheet" type="text/css" href="../tooltip.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/main.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Info | FS3</title>
         <style>
             th {
-                font-size: 10px;
+                font-size: 9px;
+                font-family: "FightStack";
             }
             .fish_pool_table th {
                 font-size: 15px;
+                font-family: "FightSim Body";
             }
             .fish_pool_table td{
                 font-size: 12px;
                 width: 120px;
+                font-family: "FightSim 12";
             }
         </style>
     </head>
@@ -45,8 +48,8 @@
         <table>
             <tr>
                 <th colspan="4"></th>
-                <th colspan="2" style="font-size: 12px;">Fishing</th>
-                <th colspan="10" style="font-size: 12px;">Mining Gains</th>
+                <th colspan="2" style="font-size: 12px;font-family: 'FightSim 12';">Fishing</th>
+                <th colspan="10" style="font-size: 12px;font-family: 'FightSim 12';">Mining Gains</th>
             </tr>
             <tr>
                 <th>Max Level Req.</th>
@@ -91,7 +94,7 @@
             </tr><tr>
                 <td>4</td>
                 <td rowspan="2">1,0</td>
-                <td rowspan="4" style="font-size: 12px;">Poor Fish</td>
+                <td rowspan="4" style="font-size: 12px;font-family: 'FightSim 12';">Poor Fish</td>
             </tr><tr>
                 <td>5</td>
                 <td rowspan="2">25%</td>
@@ -108,7 +111,7 @@
             </tr><tr>
                 <td>8</td>
                 <td>35%</td>
-                <td rowspan="3" style="font-size: 12px;">Mediocre<br />Fish</td>
+                <td rowspan="3" style="font-size: 12px;font-family: 'FightSim 12';">Mediocre<br />Fish</td>
                 <td rowspan="6">1</td>
             </tr><tr>
                 <td>9</td>
@@ -125,7 +128,7 @@
             </tr><tr>
                 <td>11</td>
                 <td>50%</td>
-                <td rowspan="3" style="font-size: 12px;">Good Fish</td>
+                <td rowspan="3" style="font-size: 12px;font-family: 'FightSim 12';">Good Fish</td>
             </tr><tr>
                 <td>12</td>
                 <td rowspan="2">55%</td>
@@ -140,7 +143,7 @@
             </tr><tr>
                 <td>14</td>
                 <td>60%</td>
-                <td rowspan="3" style="font-size: 12px;">Great<br />Fish</td>
+                <td rowspan="3" style="font-size: 12px;font-family: 'FightSim 12';">Great<br />Fish</td>
                 <td rowspan="8">2</td>
                 <td rowspan="6">2</td>
             </tr><tr>
@@ -155,7 +158,7 @@
                 <td>17</td>
                 <td rowspan="2">70%</td>
                 <td rowspan="4">4</td>
-                <td rowspan="2" style="font-size: 12px;">Excellent<br />Fish</td>
+                <td rowspan="2" style="font-size: 12px;font-family: 'FightSim 12';">Excellent<br />Fish</td>
                 <td rowspan="4">4</td>
                 <td rowspan="6">2</td>
                 <td rowspan="8">2</td>
@@ -165,7 +168,7 @@
             </tr><tr>
                 <td>19</td>
                 <td>75%</td>
-                <td rowspan="2" style="font-size: 12px;">Treasure</td>
+                <td rowspan="2" style="font-size: 12px;font-family: 'FightSim 12';">Treasure</td>
                 <td rowspan="8">3</td>
                 <td rowspan="7">2</td>
             </tr><tr>
@@ -178,7 +181,7 @@
                 <td rowspan="2">1</td>
                 <td>21</td>
                 <td rowspan="5">5</td>
-                <td rowspan="20" style="background-color:#afafaf;">N/A</td>
+                <td rowspan="20" style="background-color:black;color:white;">N/A</td><!-- background-color:#afafaf; -->
                 <td rowspan="4">5</td>
             </tr><tr>
                 <td>22</td>
@@ -408,7 +411,11 @@
                 <td>Once per post, you can eat any fish to gain an effect based on the fish; you can now go fishing up to 3 times per post.</td>
                 <td>Once per post, when attacking, you can use a fishing rod to reel someone in, preventing them from dodging.</td>
             </tr><tr>
-                <td><span class="info-hover" data-info-title="Mystery Skill 4" data-info-desc="You don't know what this skill is yet.<br />...<b>&quot;skdeep boop&quot;</b>?" id="info-mystery4" onmouseover="info('info-mystery4');" onmouseout="noinfo();">Mystery Skill 4</span></td>
+                <td><span class="info-hover" data-info-title="Mystery Skill 4" data-info-desc="You don't know what this skill is yet.<br />...<b>&quot;skdeep boop&quot;</b>?" id="info-mystery4" onmouseover="info('info-mystery4');" onmouseout="noinfo();">Mystery Skill&nbsp;4</span></td>
+                <td>???</td>
+                <td>???</td>
+            </tr><tr>
+                <td><span class="info-hover" data-info-title="Mystery Skill 5" data-info-desc="You don't know what this skill is yet.<br />...hey, a <b>hole in one</b>!" id="info-mystery5" onmouseover="info('info-mystery5');" onmouseout="noinfo();">Mystery Skill&nbsp;5</span></td>
                 <td>???</td>
                 <td>???</td>
             </tr>
@@ -537,7 +544,7 @@
                 <td>Old Boot (184)<br />1/6 (16.7%)</td>
                 <td>Wad of String<br />(186)<br />1/6 (16.7%)</td>
                 <td>Seaweed (392)<br />2/6 (33.3%)</td>
-                <td><span class="info-hover" data-info-title="Used Disposable Phone Count" data-info-desc="The chance of catching a phone goes up the more phones are used (and down the more are caught.) The formula for this is floor(sqrt(phones_used)).<br /><br />The current value is as follows:<br />floor(sqrt(<b>5</b>))<br />floor(<b>2.236</b>)<br /><b>2</b>" id="info-used-phone" onmouseover="info('info-used-phone');" onmouseout="noinfo();">Used Disp. Phone</span><br />(385)<br />2/6 (33.3%)</td>
+                <td><span class="info-hover" data-info-title="Used Disposable Phone Count" data-info-desc="The chance of catching a phone goes up the more phones are used (and down the more are caught.) The formula for this is floor(sqrt(phones_used)).<br /><br />The current value is as follows:<br />floor(sqrt(<b>4</b>))<br />floor(<b>2</b>)<br /><b>2</b>" id="info-used-phone" onmouseover="info('info-used-phone');" onmouseout="noinfo();">Used Disp. Phone</span><br />(385)<br />2/6 (33.3%)</td>
                 <td></td>
                 <td></td>
             </tr>

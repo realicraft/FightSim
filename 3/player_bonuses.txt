@@ -19,6 +19,8 @@ reali:
   INT: (+2)
    LTT Hoodie (+2)
  Skills:
+  Fishing: (+0.7)
+   Goldfish Sticker (+0.7)
 SausageMcSauce:
  Stats:
  Skills:
@@ -117,6 +119,12 @@ Luigis_Pizza:
  Skills:
 Joyous Theta (D. N. Kitty):
  Stats:
+  Direct Attack: (-1)
+   Intimidated (-1)
+  Indirect Attack: (+1)
+   Quest Reward (+1)
+  Health: (+1)
+   Player Level (+1)
  Skills:
 SAVVYSCLUTTER:
  Stats:
@@ -126,8 +134,12 @@ iwantpie21 (Bobby):
  Skills:
 TonyBrown148:
  Stats:
+  Direct Attack: (+1.6)
+   Emerald Pickaxe (+1.6)
+  Indirect Attack: (+0.8)
+   Emerald Pickaxe (+0.8)
   Health: (+1)
    Player Level (+1)
  Skills:
-  Mining: (+1)
-   Wooden Pickaxe (+1)
+  Mining: (+2.9)
+   Emerald Pickaxe (+2.9)

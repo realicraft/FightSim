@@ -1,6 +1,6 @@
 .tooltip_body {
-    background-color: rgb(29, 14, 30);
-    border: 3px solid rgb(44, 10, 98);
+    background-color: black;
+    border: 3px solid #55ffff;
     border-radius: 5px;
     padding: 0px 5px;
     width: 300px;
@@ -13,59 +13,64 @@
     display: none;
 }
 .tooltip_src1, .tooltip_cat1, .tooltip_price1 {
-    color: #8f8f8f;
+    color: white;
 }
 .tooltip_src1, .tooltip_src2, .tooltip_cat1, .tooltip_cat2, .tooltip_name, .tooltip_desc, .tooltip_price_cont, .tooltip_price1, .tooltip_price2 {
     display: inline;
 }
 .tooltip_name {
-    font-size: 20px;
-    color: cyan;
+    font-size: 18px;
+    font-family: "FightSim 20";
+    color: #55ffff;
+    font-weight: normal;
 }
 .tooltip_src1, .tooltip_src2, .tooltip_cat1, .tooltip_cat2, .tooltip_price1, .tooltip_price2 {
-    font-size: 10px;
-    font-style: italic;
+    font-size: 9px;
+    /*font-style: italic;*/
+    font-family: "FightStack";
 }
 .tooltip_bonus {
     font-style: italic;
     font-weight: bold;
-    color: #6f6fff
+    color: #55ffff
 }
 .tooltip_name.common {
-    color: #0fefef;
+    color: #55ffff;
 }
 .tooltip_name.uncommon {
-    color: #0f7fef;
+    color: #55ffff;
 }
 .tooltip_name.rare {
-    color: #0fef7f;
+    color: #ff55ff;
 }
 .tooltip_name.unique {
-    color: #ef7f0f;
+    color: #ff55ff;
 }
 .tooltip_name.plot_b {
-    background: rgb(175,111,15);
+    /*background: rgb(175,111,15);
     background: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(175,111,15,1) 60%, rgba(127,15,15,1) 90%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: transparent;
+    color: transparent;*/
+    color: #ff55ff;
 }
 .tooltip_name.plot_g {
-    background: rgb(231,223,127);
+    /*background: rgb(231,223,127);
     background: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(231,223,127,1) 60%, rgba(239,239,239,1) 90%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: transparent;
+    color: transparent;*/
+    color: white;
 }
 .tooltip_name.fs2_ex {
-    color: #7f7f7f;
+    color: white;
 }
 
 .info_body {
-    background-color: #ffffffbf;
-    border: 3px solid #ffffffdf;
+    background-color: white;
+    border: 3px solid #55ffff;
     border-radius: 5px;
     padding: 0px 5px;
     width: 300px;
@@ -84,13 +89,15 @@
     text-align: center;
 }
 .info_name {
-    font-size: 20px;
-    color: #3f3f3f;
+    font-size: 18px;
+    color: black;
+    font-family: "FightSim 20";
+    font-weight: normal;
 }
 .info_desc ul, .info_desc ol {
     text-align: left;
     padding-left: 10px;
 }
 .info-hover {
-    text-decoration: underline dashed #3f3fff;
+    text-decoration: underline dashed #55ffff;
 }

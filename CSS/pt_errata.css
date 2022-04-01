@@ -1,0 +1,56 @@
+.overheal { 
+    color: #55ffff;
+}
+.lowhp { 
+    color: #ff55ff;
+} 
+.kod { 
+    color: #ff55ff; font-weight: bold;
+} 
+.vat { 
+    right: 108px;
+} 
+.vab { 
+    left: 108px;
+} 
+.summon_div_inner .vat { 
+    right: 133px;
+} 
+.summon_div_inner .vab { 
+    left: 133px;
+} 
+.vat, .vab { 
+    position: absolute; top: 10px;
+} 
+.kd_disp .vat{ 
+    right: 208px;
+} 
+.kd_disp .vab{ 
+    left: 208px;
+} 
+.lh { 
+    position: relative; line-height: 32px;
+} 
+.combat_disp .vat, .combat_disp .vab, .lh, .combat_summon_div_inner .vat, .combat_summon_div_inner .vab { 
+    top: 2px;
+} 
+.health_disp, .combat_disp, .kd_disp { 
+    position: relative;
+} 
+th { 
+    font-size: 9px;
+    font-family: "FightStack";
+    text-align: left;
+} 
+table { 
+    margin-bottom: 5px;
+} 
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "FightSim 20";
+}
+.slash {
+    font-size: 30px;
+    font-family: "FightSim Body Double";
+}

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../main.css"></link>
-        <link rel="stylesheet" type="text/css" href="../table.css"></link>
-        <link rel="stylesheet" type="text/css" href="../icons.css"></link>
-        <link rel="stylesheet" type="text/css" href="../tooltip.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/main.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Votes | FS3</title>
         <style>
@@ -14,6 +14,9 @@
                 top: -5px;
                 border-radius: 5px;
                 border: 5px solid black;
+            }
+            .pad1 {
+                padding-right: 1px;
             }
         </style>
     </head>
@@ -32,7 +35,7 @@
         <div class="struct">
             <span class="icon passed" title="Passed."></span>
             <h2><span class="info-hover" data-info-title="More Inventory Space" data-info-desc="9 is a small number. 12 is a bigger number. Therefore, we should have 12 inventory spacs." id="info-invenbig" onmouseover="info('info-invenbig');" onmouseout="noinfo();">+3 Inventory Spaces</span></h2>
-            <b><em>Requires supermajority</em></b>
+            <b><em class="pad1">Requires supermajority</em></b>
             <table>
                 <tr>
                     <th>Username</th>
@@ -57,7 +60,7 @@
         </div><div class="struct">
             <span class="icon passed" title="Passed."></span>
             <h2><span class="info-hover" data-info-title="Mob Spawning" data-info-desc="Other games have automatically spawning mobs, why not this one?" id="info-mobspawn" onmouseover="info('info-mobspawn');" onmouseout="noinfo();">Automatic Mob Spawning</span></h2>
-            <b><em>Requires supermajority</em></b>
+            <b><em class="pad1">Requires supermajority</em></b>
             <table>
                 <tr>
                     <th>Username</th>
@@ -88,7 +91,7 @@
         </div><div class="struct">
             <span class="icon failed" title="Failed to pass."></span>
             <h2><span class="info-hover" data-info-title="Auto-Acting Structures" data-info-desc='"Gee, it sure is annoying having to do things. Hey, what if I built a structure to do things for me?"' id="info-actonown" onmouseover="info('info-actonown');" onmouseout="noinfo();">Structures that can act on their own</span></h2>
-            <b><em>Requires supermajority</em></b>
+            <b><em class="pad1">Requires supermajority</em></b>
             <table>
                 <tr>
                     <th>Username</th>
@@ -150,7 +153,7 @@
         </div><div class="struct">
             <span class="icon passed_b" title="Passed with option B."></span>
             <h2><span class="info-hover" data-info-title="The North Pole" data-info-desc="See, someone was at the North Pole for a long time and it was starting to get annoying how we couldn't do anything to them, so I set up a vote to make things less annoying.<br /><br />I think I just made things worse." id="info-northpole" onmouseover="info('info-northpole');" onmouseout="noinfo();">Deal with the North Pole</span></h2>
-            <h3>Options:<br /><span style="color: #df1f1f;">Send everyone back to Trisland</span><br />OR<br /><span style="color: #1fdf1f;">Make a portal between Trisland and the North Pole</span></h3>
+            <h3>Options:<br /><span style="color: #ff55ff;"><!-- #df1f1f -->Send everyone back to Trisland</span><br />OR<br /><span style="color: #55ffff;"><!-- #1fdf1f -->Make a portal between Trisland and the North Pole</span></h3>
             <table>
                 <tr>
                     <th>Username</th>

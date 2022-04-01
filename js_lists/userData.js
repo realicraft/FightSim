@@ -1,138 +1,138 @@
 var user_data = {
     "3": {
         "realicraft": {
-            "un_same": true, "username": "", "css_class": "reali",
+            "un_same": true, "username": "", "css_class": "reali", "do_pad": false,
             "type": 0,"health": [100,102],"attack": [[8,3],[7,3]],"defense": [[6.7,0],[5,0]],"rpg_stats": [5,7,5,5,5,5],
-            "kills": 1,"deaths": 3,"skills": [[6,0,45],[2,2,20],[3,0,40],[13,4,70],[4,0,36],[8,0,55]],"effects": [],
+            "kills": 1,"deaths": 3,"skills": [[6,0,45],[2,2,20],[3,0,95],[13,4,150],[4,0,36],[8,0,55],[1,0,45]],"effects": [],
             "equips": [249,241,3,4,5,6,7,8,""],"exp": [2,7,30],
-            "stickers": [[0,0,0,0]], "pn": "73254",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "stickers": [[490,0,0,0]], "pn": "73254",
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "SausageMcSauce": {
-            "un_same": true, "username": "", "css_class": "sauce",
+            "un_same": true, "username": "", "css_class": "sauce", "do_pad": false,
             "type": 0,"health": [84,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 1,"deaths": 1,"skills": [],"effects": [[1,"*"]],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,9,10],
             "stickers": [[0,0,0,0]], "pn": "72823",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "CatsUnited": {
-            "un_same": true, "username": "", "css_class": "cats",
+            "un_same": true, "username": "", "css_class": "cats", "do_pad": true,
             "type": 0,"health": [100,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 0,"deaths": 3,"skills": [],"effects": [[1,"*"]],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,0,10],
             "stickers": [[0,0,0,0]], "pn": "22878",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "Squirrelflight": {
-            "un_same": true, "username": "", "css_class": "squirrel",
+            "un_same": true, "username": "", "css_class": "squirrel", "do_pad": false,
             "type": 0,"health": [97,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 0,"deaths": 1,"skills": [],"effects": [[1,"*"]],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,0,10],
             "stickers": [[0,0,0,0]], "pn": "77775",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "IncendiaryGaming": {
-            "un_same": true, "username": "", "css_class": "incendiary",
+            "un_same": true, "username": "", "css_class": "incendiary", "do_pad": false,
             "type": 0,"health": [61,102],"attack": [[8,3],[7,3]],"defense": [[5.7,0],[5,0]],"rpg_stats": [5,7,5,5,5,5],
             "kills": 1,"deaths": 1,"skills": [[7,4,128],[8,0,55],[4,0,30],[2,3,16]],"effects": [],
             "equips": [1,241,3,4,78,6,7,8,""],"exp": [2,23,30],
             "stickers": [[0,0,0,0]], "pn": "46236",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "Byron_Inc_TBG": {
-            "un_same": true, "username": "", "css_class": "byron",
+            "un_same": true, "username": "", "css_class": "byron", "do_pad": true,
             "type": 0,"health": [81,106],"attack": [[11.2,4],[7,3]],"defense": [[13.3,2],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 5,"deaths": 2,"skills": [[1,7,169],[4,2,165],[7,3,18],[8,3,70],[10,0,20],[2,4,100],[3,1,120],[11,0,70],[6,0,60],[13,1,10],[9,0,50]],"effects": [],
-            "equips": [1,164,3,4,18,13,357,12,38],"exp": [6,34,70],
+            "kills": 5,"deaths": 2,"skills": [[1,7,279],[4,2,165],[7,3,103],[8,3,70],[10,0,20],[2,4,100],[3,1,120],[11,0,70],[6,0,60],[13,1,10],[9,0,50]],"effects": [],
+            "equips": [1,164,3,4,18,13,357,12,38],"exp": [6,38,70],
             "stickers": [[319,0,0,0]], "pn": "29766",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "cheesyfriedeggs": {
-            "un_same": true, "username": "", "css_class": "cheesy",
+            "un_same": true, "username": "", "css_class": "cheesy", "do_pad": false,
             "type": 0,"health": [88,103],"attack": [[7,4],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 0,"deaths": 1,"skills": [[4,1,14],[1,5,118],[3,1,10],[5,0,65],[8,1,45],[2,0,80]],"effects": [],
             "equips": [1,2,3,4,9,6,7,8,""],"exp": [3,9,40],
             "stickers": [[0,0,0,0]], "pn": "24379",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "solitare": {
-            "un_same": true, "username": "", "css_class": "soli",
+            "un_same": true, "username": "", "css_class": "soli", "do_pad": true,
             "type": 0,"health": [87,102],"attack": [[8,3],[7,3]],"defense": [[7,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 0,"deaths": 0,"skills": [[2,2,165],[5,0,30],[3,0,65],[1,2,148],[7,0,90],[10,0,10],[9,1,85],[13,1,125],[8,1,20],[4,0,85]],"effects": [],
             "equips": [249,2,3,4,174,127,7,8,""],"exp": [2,20,30],
             "stickers": [[0,0,0,0]], "pn": "76548",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "Faressain": {
-            "un_same": true, "username": "", "css_class": "fares",
+            "un_same": true, "username": "", "css_class": "fares", "do_pad": false,
             "type": 0,"health": [82,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 0,"deaths": 0,"skills": [],"effects": [[1,"*"]],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,0,10],
             "stickers": [[0,0,0,0]], "pn": "32737",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "LeopardyLeaf": {
-            "un_same": true, "username": "", "css_class": "leopardy",
+            "un_same": true, "username": "", "css_class": "leopardy", "do_pad": true,
             "type": 0,"health": [81,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 0,"deaths": 0,"skills": [[2,0,90]],"effects": [[1,"*"]],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,2,10],
             "stickers": [[0,0,0,0]], "pn": "53773",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "gilbert_given_TBG": {
-            "un_same": true, "username": "", "css_class": "gilbert",
+            "un_same": true, "username": "", "css_class": "gilbert", "do_pad": true,
             "type": 0,"health": [79,102],"attack": [[8,3],[7,3]],"defense": [[5.7,0],[5,0]],"rpg_stats": [5,7,5,5,5,5],
             "kills": 0,"deaths": 1,"skills": [[3,1,120],[2,1,130],[6,0,55],[8,1,75]],"effects": [],
             "equips": [1,241,3,4,24,6,7,8,""],"exp": [3,16,40],
             "stickers": [[0,0,0,0]], "pn": "45278",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "TwilightSeleneMisty": {
-            "un_same": true, "username": "", "css_class": "tsm",
+            "un_same": true, "username": "", "css_class": "tsm", "do_pad": true,
             "type": 0,"health": [18,102],"attack": [[8,3],[7,3]],"defense": [[6,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 0,"deaths": 1,"skills": [[3,0,95],[2,1,70],[1,1,69],[7,1,0],[5,2,50]],"effects": [[5,1]],
+            "kills": 0,"deaths": 1,"skills": [[3,0,95],[2,1,70],[1,1,69],[7,1,0],[5,2,50]],"effects": [],
             "equips": [1,2,3,4,30,127,7,8,""],"exp": [2,4,30],
             "stickers": [[0,0,0,0]], "pn": "89576",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "Luigis_Pizza": {
-            "un_same": true, "username": "", "css_class": "luigi",
+            "un_same": true, "username": "", "css_class": "luigi", "do_pad": false,
             "type": 0,"health": [59,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 0,"deaths": 0,"skills": [],"effects": [],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,3,10],
             "stickers": [[0,0,0,0]], "pn": "58444",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "<abbr title=\"Dark Necromancer Kitty\">D. N. Kitty</abbr>": {
-            "un_same": false, "username": "Joyous Theta", "css_class": "kitty",
-            "type": 0,"health": [70,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 1,"deaths": 1,"skills": [[14,1,55],[3,0,50],[6,0,50],[8,0,50],[11,0,50]],"effects": [],
-            "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,5,10],
+            "un_same": false, "username": "Joyous Theta", "css_class": "kitty", "do_pad": false,
+            "type": 0,"health": [69,101],"attack": [[8,2],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
+            "kills": 1,"deaths": 1,"skills": [[14,1,55],[3,0,50],[6,0,50],[8,0,50],[11,0,50]],"effects": [[36,1]],
+            "equips": [1,2,3,4,5,6,7,8,""],"exp": [1,5,20],
             "stickers": [[0,0,0,0]], "pn": "54889",
-            "summon/ally": [true, "Ally", "Slime", [10,20, [5,2],[5,2], [5,0],[5,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]] // [type, name, [hp,mhp, [atk],[batk], [def],[bdef], k/d], [[summon bonus]], [[player bonus]]]
+            "summon/ally": [true, "Ally", "Slime", [9,20, [5,2],[5,2], [5,0],[5,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []] // [type, name, [hp,mhp, [atk],[batk], [def],[bdef], k/d], [[summon bonus]], [[player bonus]], [effects]]
         },
         "SAVVYSCLUTTER": {
-            "un_same": true, "username": "", "css_class": "savvy",
+            "un_same": true, "username": "", "css_class": "savvy", "do_pad": false,
             "type": 0,"health": [100,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 0,"deaths": 0,"skills": [],"effects": [[1,"*"]],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,0,10],
             "stickers": [[0,0,0,0]], "pn": "72889",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "Bobby": {
-            "un_same": false, "username": "iwantpie21", "css_class": "bobby",
+            "un_same": false, "username": "<span style='padding-right:1px;'>iwantpie21</span>", "css_class": "bobby", "do_pad": false,
             "type": 0,"health": [100,100],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 0,"deaths": 0,"skills": [],"effects": [],
+            "kills": 0,"deaths": 0,"skills": [],"effects": [[1,"*"]],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [0,0,10],
             "stickers": [[0,0,0,0]], "pn": "26229",
-            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
+            "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
         "TonyBrown148": {
-            "un_same": true, "username": "", "css_class": "tony",
-            "type": 0,"health": [100,101],"attack": [[7,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 0,"deaths": 0,"skills": [[2,1,25],[3,1,105],[4,1,10],[6,0,50],[15,0,50],[7,0,50]],"effects": [],
-            "equips": [1,2,3,4,25,6,7,8,""],"exp": [1,0,10],
+            "un_same": true, "username": "", "css_class": "tony", "do_pad": false,
+            "type": 0,"health": [100,101],"attack": [[7.8,4.6],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
+            "kills": 0,"deaths": 0,"skills": [[2,2,5],[3,1,105],[4,1,10],[6,0,50],[15,0,50],[7,0,50]],"effects": [],
+            "equips": [1,2,3,4,513,6,7,8,""],"exp": [1,2,20],
             "stickers": [[0,0,0,0]], "pn": "82148",
             "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
         },

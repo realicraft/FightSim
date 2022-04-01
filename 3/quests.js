@@ -7,21 +7,21 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Fight another player.", "Unclaimed", "1 Iron Sword", "66"],
-    ["Go Gathering.", "Unclaimed", "1 Contact Card (Dry)", "66"],
-    ["Obtain a Sticker.", "Unclaimed", "1 Bow Sticker", "66"],
+    ["Fight a mob.", "Unclaimed", "1 Gold Sword", "67"],
+    ["Do some Pottery.", "Unclaimed", "10 Misc EXP", "67"],
+    ["Obtain a Sticker.", "Unclaimed", "1 Knife Sticker", "67"],
     ["Plant a flower.", "Unclaimed", "100% Gardening Exp", "64~67"],
-    ["Plant Wheat.", "Unclaimed", "110% Farming Exp", "64~67"],
+    ["Plant Wheat.", "Claimed by Byron", "110% Farming Exp", "64~67"],
     ["Equip a Helmet or Chestplate.", "Unclaimed", "4 Misc EXP", "64~67"],
     ["Attack a Structure.", "Unclaimed", "1 Indirect Attack"],
     ["Equip a Golden Food.", "Unclaimed", "3 Gold Bars, 150% Farming"],
     ["Recruit an ally or summon.", "Unclaimed", "1 Max HP Upgrade"],
 ]
 
-var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
+var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, div height]
     ["Harvest Crops.", "This is a repeatable quest, meaning you can complete it multiple times!<br />After the big goal is completed, the quest will be removed.",
         [
-            ["reali", "1 Crop", "1 Misc EXP", "0/1"],
+            ["reali", "1 Crop", "1 Misc EXP", "1/1"],
             ["S.&nbsp;McSaus", "1 Crop", "1 Misc EXP", "0/1"],
             ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
@@ -38,7 +38,7 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Savvy", "1 Crop", "1 Misc EXP", "0/1"],
             ["Bobby", "1 Crop", "1 Misc EXP", "0/1"],
             ["Tony", "1 Crop", "1 Misc EXP", "0/1"],
-        ], "75 Harvests (29/75)"
+        ], "75 Harvests (29/75)", 60
     ],
     ["Make Wiki edits.", "The edits need to be significant in some way; fixing a typo won't count.",
         [
@@ -59,12 +59,15 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal]
             ["Savvy", "10 Edits", "1 Skill Candy", "0/10"],
             ["Bobby", "10 Edits", "1 Skill Candy", "0/10"],
             ["Tony", "10 Edits", "1 Skill Candy", "5/10"],
-        ], "500 Edits (3/500)"
+        ], "500 Edits (3/500)", 40
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Fight another player.", "Unclaimed", "1 Iron Sword", "66"],
+        ["Go Gathering.", "Unclaimed", "1 Contact Card (Dry)", "66"],
+        ["Obtain a Sticker.", "Unclaimed", "1 Bow Sticker", "66"],
         ["Fight a mob.", "Unclaimed", "2 Meat Paste", "65"],
         ["Go Fishing.", "Unclaimed", "1 Contact Card (Wet)", "65"],
         ["Obtain a Sticker.", "Unclaimed", "1 Bow Sticker", "65"],
@@ -229,7 +232,7 @@ for (i in repquests) {
     quest_current += repquests[i][0]
     quest_current += '</div><div class="repquestmid">'
     quest_current += repquests[i][1]
-    quest_current += '</div><div style="height:40px;"></div>'
+    quest_current += '</div><div style="height:' + repquests[i][4] + 'px;"></div>'
     var l = 6
     for (var j = 0; j < Math.ceil(repquests[i][2].length/6); j++) {
         quest_current += '<table class="repquesttable"><tr><th>User</th>'

@@ -1,0 +1,42 @@
+table, th, td {
+    border-collapse: collapse;
+    font-size: 15px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+th, td {
+    max-width: 400px;
+    background-color: white;
+    border: 1px solid black;
+}
+td>img {
+    margin-top: 0px;
+    background-color: white;
+}
+.inv_item {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+    background-clip: padding-box;
+}
+.inv_space {
+    width: 6px;
+    background-color: transparent;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: relative;
+    background-clip: padding-box;
+}
+.inv_user {
+    font-family: "FightSim Body";
+    text-align: center;
+}
+td.inv_item span.icon {
+    display: block;
+}

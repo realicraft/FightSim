@@ -1,30 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../main.css"></link>
-        <link rel="stylesheet" type="text/css" href="../icons.css"></link>
-        <link rel="stylesheet" type="text/css" href="../tooltip.css"></link>
-        <link rel="stylesheet" type="text/css" href="../table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/main.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/contacts.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Contact List | FS3</title>
         <style>
-            th {
-                font-size: 10px;
-            }
-            th, td {
-                background-color: transparent;
-                border-color: #0f5f0f;
-            }
-            .contact_list {
-                min-width: min(75%, 400px);
-                color: #0f2f0f
-            }
-            .contact_menu {
-                margin-top: 0px;
-            }
-            .contact_list td:nth-child(3) {
-                padding: 3px;
-            }
         </style>
     </head>
     <body>
@@ -35,9 +19,9 @@
         <h2>Important Shops</h2>
         <table class="contact_list">
             <colgroup>
-                <col style="width:75px;background-color: #9fef9f;">
-                <col style="background-color: #cfefcf;">
-                <col style="background-color: #cfefcf;">
+                <col style="width:75px;" class="col1">
+                <col class="col2">
+                <col class="col2">
             </colgroup>
             <tbody>
                 <tr>
@@ -49,7 +33,7 @@
                     <td>Morshu's Delivery</td>
                     <td>
                         <table class="contact_menu">
-                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <colgroup><col class="col1"><col class="col2"></colgroup>
                             <tr><th>Price</th><th>Item</th></tr>
                             <tr><td>4R</td><td>Express Pack</td></tr>
                             <tr><td>1R</td><td>Lamp Oil</td></tr>
@@ -64,11 +48,11 @@
                     <td>Takeout Express</td>
                     <td>
                         <table class="contact_menu">
-                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <colgroup><col class="col1"><col class="col2"></colgroup>
                             <tr><th>Price</th><th>Item</th></tr>
                             <tr><td>C5</td><td>Value Pack</td></tr>
                             <tr><td>C7</td><td>Country Pack 3-Set</td></tr>
-                            <tr><td>C1 3¢</td><td>Bottle of Ketchup</td></tr>
+                            <tr><td>C1 3c</td><td>Bottle of Ketchup</td></tr>
                         </table>
                     </td>
                 </tr><tr>
@@ -76,12 +60,12 @@
                     <td>Mama June's Pizza</td>
                     <td>
                         <table class="contact_menu">
-                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <colgroup><col class="col1"><col class="col2"></colgroup>
                             <tr><th>Price</th><th>Item</th></tr>
                             <tr><td>C4</td><td>Pepperoni Pizza</td></tr>
-                            <tr><td>C2 8¢</td><td>Cheese Pizza</td></tr>
+                            <tr><td>C2 8c</td><td>Cheese Pizza</td></tr>
                             <tr><td>C2</td><td>Breadsticks</td></tr>
-                            <tr><td>C5 2¢</td><td>Meat-Lovers Pizza</td></tr>
+                            <tr><td>C5 2c</td><td>Meat-Lovers Pizza</td></tr>
                         </table>
                     </td>
                 </tr><tr>
@@ -89,7 +73,7 @@
                     <td>Bankin Bank</td>
                     <td>
                         <table class="contact_menu">
-                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <colgroup><col class="col1"><col class="col2"></colgroup>
                             <tr><th>Price</th><th>Item</th></tr>
                             <tr><td>C1</td><td>10 Decicoins</td></tr>
                             <tr><td>C2</td><td>Ruby</td></tr>
@@ -101,12 +85,12 @@
                     <td>Scroll Shop Stop</td>
                     <td>
                         <table class="contact_menu">
-                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <colgroup><col class="col1"><col class="col2"></colgroup>
                             <tr><th>Price</th><th>Item</th></tr>
                             <tr><td>C1</td><td>Scroll of (6) (7)</td></tr>
                             <tr><td>C2</td><td>Scroll of (1) (21)</td></tr>
                             <tr><td>C3</td><td>Scroll of (14) (11)</td></tr>
-                            <tr><td>3¢</td><td>Scroll of (15) (29)</td></tr>
+                            <tr><td>3c</td><td>Scroll of (15) (29)</td></tr>
                             <tr><td>$1</td><td>Scroll of (24) (24)</td></tr>
                         </table>
                     </td>
@@ -115,7 +99,7 @@
                     <td>Lucky Lottos Ltd.</td>
                     <td>
                         <table class="contact_menu">
-                            <colgroup><col style="background-color: #9fef9f;"><col style="background-color: #cfefcf;"></colgroup>
+                            <colgroup><col class="col1"><col class="col2"></colgroup>
                             <tr><th>Price</th><th>Item</th></tr>
                             <tr><td>$1 C1</td><td>Additonal Hint</td></tr>
                         </table>
@@ -126,8 +110,8 @@
         <h2>Important People</h2>
         <table class="contact_list">
             <colgroup>
-                <col style="width:75px;background-color: #9fef9f;">
-                <col style="background-color: #cfefcf;">
+                <col style="width:75px;" class="col1">
+                <col class="col2">
             </colgroup>
             <tbody>
                 <tr>
@@ -139,8 +123,8 @@
         <h2>Semi-Important Businesses</h2>
         <table class="contact_list">
             <colgroup>
-                <col style="width:75px;background-color: #9fef9f;">
-                <col style="background-color: #cfefcf;">
+                <col style="width:75px;" class="col1">
+                <col class="col2">
             </colgroup>
             <tbody>
                 <tr>
@@ -159,8 +143,8 @@
         <h2>Shops</h2>
         <table class="contact_list">
             <colgroup>
-                <col style="width:75px;background-color: #9fef9f;">
-                <col style="background-color: #cfefcf;">
+                <col style="width:75px;" class="col1">
+                <col class="col2">
             </colgroup>
             <tbody>
                 <tr>
@@ -172,8 +156,8 @@
         <h2>Other</h2>
         <table class="contact_list">
             <colgroup>
-                <col style="width:75px;background-color: #9fef9f;">
-                <col style="background-color: #cfefcf;">
+                <col style="width:75px;" class="col1">
+                <col class="col2">
             </colgroup>
             <tbody>
                 <tr>
@@ -195,8 +179,8 @@
         <h2>Unassigned</h2>
         <table class="contact_list">
             <colgroup>
-                <col style="width:75px;background-color: #9fef9f;">
-                <col style="background-color: #cfefcf;">
+                <col style="width:75px;" class="col1">
+                <col class="col2">
             </colgroup>
             <tbody>
                 <tr>

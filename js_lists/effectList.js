@@ -35,4 +35,6 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses, [c
     ["Leech Seed (Target)", "leech_seed", "Someone threw some seeds at you, and now they're stealing your health. Well, that's annoying.", "Unknown", "4 HP is sapped from you per turn<br />If the attacker loses Leech Seed (User), this effect immediately expires", [34, 35], 2], //33
     ["Shackles of Pain (User)", "shackles_pain", "You're making someone take the damage you take.", "Unknown", "When you take damage, target will also take damage<br />If the target loses Shackles of Pain (Target), this effect immediately expires", [34, 36, 40], 7], //34
     ["Shackles of Pain (Target)", "shackles_pain", "Someone's making you take the damage they take.", "Unknown", "When the attacker takes damage, you will also take damage<br />If the attacker loses Shackles of Pain (User), this effect immediately expires", [34, 35, 40], 7], //35
+    ["Intimidated", "intimidated", "Someone intimidated you, and now you're kinda scared.", "Unknown", "-1 Direct Attack", [34, 35], 1], //36
+    ["Defending Ally", "shield", "You're defending your Ally (or Summon.)", "Unknown", "Ally/Summon gains 2 Direct Defense<br />You take 50% of damage ally/summon would have taken", [34, 36], 1], //37
 ]

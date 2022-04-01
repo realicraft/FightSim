@@ -1,0 +1,24 @@
+th {
+    font-size: 9px;
+    font-family: "FightStack";
+}
+th, td {
+    background-color: transparent;
+    border-color: #0f5f0f;
+}
+.contact_list {
+    min-width: min(75%, 400px);
+    color: #0f2f0f
+}
+.contact_menu {
+    margin-top: 0px;
+}
+.contact_list td:nth-child(3) {
+    padding: 3px;
+}
+.col1 {
+    background-color: #9fef9f;
+}
+.col2 {
+    background-color: #cfefcf;
+}

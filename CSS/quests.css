@@ -2,8 +2,8 @@
     width: calc(80%-5px);
     height: 45px;
     text-align: left;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: "FightSim 20";
     left: 5px;
     top: 5px;
     position: absolute;
@@ -41,8 +41,8 @@
     text-align: left;
 }
 .repquesttop {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: "FightSim 20";
     position: absolute;
     top: 5px;
     margin: auto;
@@ -58,7 +58,8 @@
 }
 .repquesttable tbody, .repquesttable tr, .repquesttable th, .repquesttable td {
     font-size: 12px;
+    font-family: "FightSim 12";
 }
 .repquestbottom {
-    font-size: 14px;
+    font-size: 15px;
 }
