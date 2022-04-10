@@ -2229,7 +2229,7 @@ span.small_icon {
     background-position: -112px -32px;
 }
 /* effects */
-.enchanted {
+/*.enchanted {
     animation: enchanted_anim 2s infinite;
 }
 .ripe {
@@ -2240,4 +2240,4 @@ span.small_icon {
     0% {filter: saturate(0.8) contrast(0.9);}
     50% {filter: saturate(1.7) contrast(1.5);}
     100% {filter: saturate(0.8) contrast(0.9);}
-}
+}*/

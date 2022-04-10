@@ -12,7 +12,7 @@
 }
 .summon_div {
     width: 300px;
-    background-color: #9f9f9f;
+    background-color: white;
 }
 .summon_div_inner {
     width: 250px;
@@ -74,13 +74,13 @@
 .health_disp, .combat_disp {
     width: calc(50% - 1px);
     display: inline-block;
-    background-color: #8f8f8f;
+    background-color: white;
     height: 32px;
 }
 .kd_disp {
     width: 100%;
     display: inline-block;
-    background-color: #8f8f8f;
+    background-color: white;
     height: 32px;
 }
 .health_disp {
@@ -152,14 +152,14 @@
 }
 .col1 {
     width:32px;
-    background-color: #7f7f7f;
+    background-color: white;
 }
 .col2 {
-    width:100%; background-color: #9f9f9f;
+    width:100%; background-color: white;
 }
 .col3 {
-    width:20px; background-color: #7f7f7f;
+    width:20px; background-color: white;
 }
 .col4 {
-    width:30px; background-color: #9f9f9f;
+    width:30px; background-color: white;
 }

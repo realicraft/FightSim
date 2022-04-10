@@ -7,13 +7,13 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Fight a mob.", "Unclaimed", "1 Gold Sword", "67"],
-    ["Do some Pottery.", "Unclaimed", "10 Misc EXP", "67"],
-    ["Obtain a Sticker.", "Unclaimed", "1 Knife Sticker", "67"],
-    ["Plant a flower.", "Unclaimed", "100% Gardening Exp", "64~67"],
-    ["Plant Wheat.", "Claimed by Byron", "110% Farming Exp", "64~67"],
-    ["Equip a Helmet or Chestplate.", "Unclaimed", "4 Misc EXP", "64~67"],
-    ["Attack a Structure.", "Unclaimed", "1 Indirect Attack"],
+    ["Carve something.", "Unclaimed", "60% Carving Exp", "68"],
+    ["Craft 2 items.", "Unclaimed", "50% Crafting Exp, 1 Coal", "68"],
+    ["Obtain an item.", "Unclaimed", "1 Item Candy", "68"],
+    ["Create a Structure.", "Unclaimed", "", "68~71"],
+    ["Die twice.", "Unclaimed", "", "68~71"],
+    ["Obtain a Carrot-based item.", "Unclaimed", "", "68~71"],
+    ["Talk to Morshu.", "Unclaimed", "2 Bombs, 5 Misc EXP"],
     ["Equip a Golden Food.", "Unclaimed", "3 Gold Bars, 150% Farming"],
     ["Recruit an ally or summon.", "Unclaimed", "1 Max HP Upgrade"],
 ]
@@ -65,6 +65,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Fight a mob.", "Unclaimed", "1 Gold Sword", "67"],
+        ["Do some Pottery.", "Unclaimed", "10 Misc EXP", "67"],
+        ["Obtain a Sticker.", "Unclaimed", "1 Knife Sticker", "67"],
         ["Fight another player.", "Unclaimed", "1 Iron Sword", "66"],
         ["Go Gathering.", "Unclaimed", "1 Contact Card (Dry)", "66"],
         ["Obtain a Sticker.", "Unclaimed", "1 Bow Sticker", "66"],
@@ -142,6 +145,9 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Damage someone.", "Unclaimed", "1 Misc EXP", "42"],
     ],
     [
+        ["Plant a flower.", "Unclaimed", "100% Gardening Exp", "64~67"],
+        ["Plant Wheat.", "Claimed by Byron", "110% Farming Exp", "64~67"],
+        ["Equip a Helmet or Chestplate.", "Unclaimed", "4 Misc EXP", "64~67"],
         ["Use a Disposable Phone.", "Claimed by Byron", "1 Electrum Bar, 5 Misc EXP", "60~63"],
         ["Make an 8-Leaf Clover.", "Unclaimed", "1 Bottle o' Enchanting,", "60~63"],
         ["Cause a new item to be made.", "Unclaimed", "2 Misc EXP", "60~63"],
@@ -159,6 +165,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
+        ["Attack a Structure.", "Claimed by Theta", "1 Indirect Attack"],
         ["Reach Proficient in any skill.", "Claimed by cheesy", "4 Misc EXP"],
         ["Obtain 2 Stickers.", "Claimed by gilbert", "3 Misc EXP, 1 Sticker Pack"],
         ["Buy a scroll.", "Claimed by realicraft", "1 Dollar Bill"],

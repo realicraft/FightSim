@@ -1,13 +1,10 @@
 body {
-    background-color: white;
+    background-color: #777777;
     color: black;
     margin: 0;
     text-align: center;
     font-family: "FightSim Body";
     font-size: 15px;
-}
-::selection {
-    background-color: #55ffff;
 }
 img {
     margin-left: auto;
@@ -15,12 +12,12 @@ img {
     margin-top: 30px
 }
 .header {
-    background-color: #55ffff;
+    background-color: #afafaf;
     color: black;
     height: 25px;
     max-width: 90%;
     border-radius: 3px;
-    border: 1px solid black;
+    border: 1px solid white;
     text-align: center;
     display: inline-block;
     padding-left: 21px;
@@ -33,19 +30,12 @@ img {
     text-align: center;
     line-height: 25px;
     text-decoration: none !important;
-    color: black;
 }
 .header a:visited, .header a:hover, .header a:focus, .header a:active {
     color: black;
 }
-a {
-    color: #55ffff;
-}
-a:visited {
-    color: #ff55ff
-}
 .header a:hover {
-    background-color: #ff55ff;
+    background-color: #7f7f7f;
 }
 h3, h2 {
     font-weight: bold;
@@ -62,11 +52,11 @@ h1 {
     right: 3px;
     color: black;
     border-radius: 3px;
-    border: 2px solid black;
+    border: 2px solid #afafaf;
     text-align: left;
     width: 72px;
     height: 34px;
-    background-color: white;
+    background-color: #8f8f8f;
 }
 #time_box_turns {
     position: absolute;
@@ -105,7 +95,7 @@ h1 {
 .output {
     width: 350px;
     border-width: 2px;
-    background-color: white;
+    background-color: #afafaf;
     padding: 3px;
 }
 .struct .struct {
@@ -162,38 +152,38 @@ td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
     src: url("../fightsim-body-bold-double.ttf");
 }
 span.normal {
-    color: black;
+    color: #dfdfdf;
     font-weight: bold;
 }
 span.fire {
-    color: #ff55ff;
+    color: #df0f0f;
     font-weight: bold;
 }
 span.water {
-    color: #55ffff;
+    color: #0f0fdf;
     font-weight: bold;
 }
 span.electric {
-    color: #ff55ff;
+    color: #dfdf0f;
     font-weight: bold;
 }
 span.plant {
-    color: #ff55ff;
+    color: #0fdf0f;
     font-weight: bold;
 }
 span.ice {
-    color: #55ffff;
+    color: #0fdfdf;
     font-weight: bold;
 }
 span.light {
-    color: #55ffff;
+    color: #dfdfaf;
     font-weight: bold;
 }
 span.dark {
-    color: black;
+    color: #3f3f5f;
     font-weight: bold;
 }
 span.phone_number, span.phone_num {
-    color: #ff55ff;
+    color: #0f5f0f;
 
 }

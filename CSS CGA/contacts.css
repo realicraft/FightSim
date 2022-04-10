@@ -4,11 +4,11 @@ th {
 }
 th, td {
     background-color: transparent;
-    border-color: #0f5f0f;
+    border-color: black;
 }
 .contact_list {
     min-width: min(75%, 400px);
-    color: #0f2f0f
+    color: black
 }
 .contact_menu {
     margin-top: 0px;
@@ -17,8 +17,8 @@ th, td {
     padding: 3px;
 }
 .col1 {
-    background-color: #9fef9f;
+    background-color: #ff55ff;
 }
 .col2 {
-    background-color: #cfefcf;
+    background-color: #55ffff;
 }

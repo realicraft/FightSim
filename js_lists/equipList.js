@@ -103,7 +103,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Azure Tulip", "azure_tulip", "An azure tulip. Can be turned into cyan dye.", "Gardening", "", [14,15], 1, 5], //101
     ["Blue Tulip", "blue_tulip", "A blue tulip. Can be turned into blue dye.", "Gardening", "", [14,15], 1, 5], //102
     ["Purple Tulip", "purple_tulip", "A purple tulip. Can be turned into purple dye.", "Gardening", "", [14,15], 1, 5], //103
-    ["Pink Tulip", "pink_tulip", "A pink tulip. Can be turned into pink dye.", "Gardening", "", [14,15], 1, 5], //104
+    ["Magenta Tulip", "magenta_tulip", "A magenta tulip. Can be turned into magenta dye.", "Gardening", "", [14,15], 1, 5], //104
     ["White Dandelion", "white_dandelion", "A white dandelion. Can be turned into white dye.", "Gardening", "Potion effect: 25% chance of Regen (1 turn)", [14,15], 1, 5], //105
     ["Gray Dandelion", "gray_dandelion", "A gray dandelion. Can be turned into gray dye.", "Gardening", "Potion effect: 25% chance of Regen (1 turn)", [14,15], 1, 5], //106
     ["Yellow Dandelion", "yellow_dandelion", "A yellow dandelion. Can be turned into yellow dye.", "Gardening", "Potion effect: 25% chance of Regen (1 turn)", [14,15], 1, 5], //107
@@ -117,7 +117,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Cyan Dye", "cyan_dye", "A blob of cyan dye.", "Crafting", "", [11], 1, 7], //115
     ["Blue Dye", "blue_dye", "A blob of blue dye.", "Crafting", "", [11], 1, 7], //116
     ["Purple Dye", "purple_dye", "A blob of purple dye.", "Crafting", "", [1], 1, 7], //117
-    ["Pink Dye", "pink_dye", "A blob of pink dye.", "Crafting", "", [11], 1, 7], //118
+    ["Magenta Dye", "magenta_dye", "A blob of magenta dye.", "Crafting", "", [11], 1, 7], //118
     ["White Dye", "white_dye", "A blob of white dye.", "Crafting", "", [11], 1, 7], //119
     ["Gray Dye", "gray_dye", "A blob of gray dye.", "Crafting", "", [11], 1, 7], //120
     ["Black Dye", "black_dye", "A blob of black dye.", "Crafting", "", [11], 1, 7], //121
@@ -408,8 +408,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Golden Tomato", "gold_tomato", "A golden tomato. Shame there's no tomato sauce item.", "Farming", "+0.5 CHR", [9], 2, 15], //406
     ["Ripe Tomato", "ripe tomato", "A tomato that's riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7], //407
     ["Bomb", "bomb", "A bomb. You can light it and throw it at something to blow it up.", "Crafting", "Throw it at someone after lighting it to deal 9+<span class=fire>6</span> damage", [21,22], 1, 4], //408
-    ["Mystery Potion Y", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Oh no, there are more of them!<br /><br /><br />It smells oddly sweet.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //409
-    ["Mystery Potion AL", "mystery_potion", "A bottle filled with a strange liquid. Who knows what it does?<br /><br />Hopefully these two don't do anything stupid.<br /><br /><br />It smells oddly sour.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //410
+    ["Dragon Youth Potion", "mystery_potion", "A bottle filled with a strange liquid. When used on a dragon, it'll set their age to 1.<br /><br />What a weird potion.<br /><br /><br />It smells oddly sweet.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //409
+    ["Dragon Age Lock Potion", "mystery_potion", "A bottle filled with a strange liquid. When used on a dragon, it'll lock their age, preventing them from growing older.<br /><br />Wait, if you combined these two...!<br /><br /><br />It smells oddly sour.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0], //410
     ["Shrapnel Bomb", "shrapnel_bomb", "A bomb with cracks in it, designed to break into shrapnel after exploding.", "Crafting", "Throw it at someone after lighting it to deal 12+<span class=fire>6</span> damage<br />Will also inflict Bleeding for 2 turns", [21,22], 1, 0], //411
     ["Scroll of Gain (4)", "scroll_01_04", "A scroll with the first and fourth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //412
     ["Scroll of Gain Ore", "scroll_01_21", "A scroll that allows you to gain several ores.", "Shops", "Gain 1d3 Ore", [20,43], 2, 0], //413
@@ -430,21 +430,21 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Scroll of Gain (16)", "scroll_01_16", "A scroll with the first and sixteenth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //428
     ["Scroll of Gain (17)", "scroll_01_17", "A scroll with the first and seventeenth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //429
     ["Scroll of Gain (18)", "scroll_01_18", "A scroll with the first and eighteenth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //430
-    ["Scroll (14) Experience", "scroll_14_15", "A scroll with the fourteenth and fifteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //431
+    ["Scroll of (14) Experience", "scroll_14_15", "A scroll with the fourteenth and fifteenth runes printed on it.", "Shops", "???", [20,43], 2, 0], //431
     ["Scroll (Runes 14,20)", "scroll_14_20", "A scroll with the fourteenth and twentieth runes printed on it.", "Shops", "???", [20,43], 2, 0], //432
     ["Scroll of Learn Pi", "scroll_15_29", "A scroll that grants you the knowledge of the first 100 digits of pi.<br />Not very useful.", "Shops", "Teaches you 100 digits of Pi", [20,43], 2, 0], //433
     ["Scroll (Runes 25,31)", "scroll_25_31", "A scroll with the twenty-fifth and thirty-first runes printed on it.", "Shops", "???", [20,43], 2, 0], //434
-    ["Scroll (3) Pie", "scroll_03_29", "A scroll with the third and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //435
+    ["Scroll of (3) Pie", "scroll_03_29", "A scroll with the third and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0], //435
     ["Scroll (Runes 23,23)", "scroll_23_23", "A scroll with the twenty-third rune printed on it twice.", "Shops", "???", [20,43], 2, 0], //436
     ["Scroll (Runes 4,4)", "scroll_04_04", "A scroll with the fourth rune printed on it twice.", "Shops", "???", [20,43], 2, 0], //437
-    ["Scroll (Runes 13,24)", "scroll_13_24", "A scroll with the thirteenth and twenty-fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //438
+    ["Scroll of (13) Ally", "scroll_13_24", "A scroll with the thirteenth and twenty-fourth runes printed on it.", "Shops", "Does something to an ally", [20,43], 2, 0], //438
     ["Scroll of Gain (23)", "scroll_01_23", "A scroll with the first and twenty-third runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //439
     ["Scroll of Gain Pie", "scroll_01_29", "A scroll that gives you some nice pie.", "Shops", "Gain a random pie", [20,43], 2, 0], //440
     ["Scroll of Gain (9)", "scroll_01_09", "A scroll with the first and ninth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //441
     ["Scroll of Gain (10)", "scroll_01_10", "A scroll with the first and tenth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0], //442
     ["Scroll (Runes 22,4)", "scroll_22_04", "A scroll with the twenty-second and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //443
-    ["Scroll (Runes 24,24)", "scroll_24_24", "A scroll with the twenty-fourth rune printed on it twice.", "Shops", "???", [20,43], 2, 0], //444
-    ["Scroll (Runes 7,24)", "scroll_07_24", "A scroll with the seventh and twenty-fourth runes printed on it.", "Shops", "???", [20,43], 2, 0], //445
+    ["Scroll of Recruit Ally", "scroll_24_24", "A scroll that allows you to recruit any mob as an Ally, without needing to convince it.", "Shops", "Recruits an ally", [20,43], 3, 0], //444
+    ["Scroll of (7) Ally", "scroll_07_24", "A scroll with the seventh and twenty-fourth runes printed on it.", "Shops", "Does something to an ally", [20,43], 2, 0], //445
     ["Scroll (Runes 20,5)", "scroll_20_05", "A scroll with the twentieth and fifth runes printed on it.", "Shops", "???", [20,43], 2, 0], //446
     ["Paper", "paper", "A piece of paper.", "Crafting", "", [11], 1, 1], //447
     ["upgrades.empty_upgrade", "empty_upgrade", "desc.empty_equip", "src.empty_equip", "", [28, 44], 0, 0], //448
@@ -485,7 +485,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Automatic Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding. It differs from the regular one because it activates the filter automatically, rather than having it on all the time, so it's obviously the better choice.", "Crafting", "+1.1 Construction", [1], 2, 14], //483
     ["Knife", "knife", "Oh hey, it's the knife from the sticker.", "Crafting", "+1 Indirect Attack<br />+2 Melee Damage", [5,11,23], 1, 4], //484
     ["Weird Egg", "ice_egg", "A large, cyan egg. It's probably from a dragon or something.", "Unknown (FS1/2); Unobtainable(?) (FS3)", "Can presumably hatch", [21,32,33,38,39], 4, 0], //485
-    ["Sweet and Sour Carrot", "tainted_carrot", "A carrot covered in concerningly-colored sauce.", "Presumably Crafting (FS2); Unobtainable (FS3)", "???", [10,30,32,33,39,40], 5, 0], //486
+    ["Sweet and Sour Carrot", "tainted_carrot", "A carrot covered in what is <em>probably</em> those two mystery potions.<br /><br />Uh oh.", "Presumably Crafting (FS2); Unobtainable (FS3)", "???", [10,30,32,33,39,40], 5, 0], //486
     ["Gemmo", "idleon_gem", "A Gem, perfect for the Gem Shop. You know, the one in a different game.", "Mining", "Hold down on it to add it to your account", [20, 24], 2, 1], //487
     ["Prize", "prize", "A yellow box with orange stripes. Open it for a reward!", "Unknown", "Open for 1d2+1 random items (see Info)", [20,33,42], 3, 0], //488
     ["Smeckledorf Smurf Hat", "smurf_hat", "A hat typically worn by Smeckledorf Smurfs.", "Mobs", "+3 Max HP", [1], 2, 18], //489
@@ -539,4 +539,12 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ["Leather Pants", "leather_legs", "A pair of pants made of leather.", "Crafting", "+1.4 Direct Defense<br />+0.6 Indirect Defense", [3], 1, 10], //537
     ["Leather Shoes", "leather_boots", "A pair of shoes made of leather.", "Crafting", "+0.8 Direct Defense<br />+0.4 Indirect Defense", [4], 1, 10], //538
     ["Landmine", "mine", "A landmine. You can place it by a Structure, Crop, or Plant to make it blow up when someone goes near it.", "Crafting", "Place it somewhere", [20], 2, 14], //539
+    ["Red Rose", "red_rose", "A red rose. Can be turned into red dye.", "Gardening", "", [14,15], 1, 5], //540
+    ["Pink Rose", "pink_rose", "A pink rose. Can be turned into pink dye.", "Gardening", "", [14,15], 1, 5], //541
+    ["White Rose", "white_rose", "A white rose. Can be turned into white dye.", "Gardening", "", [14,15], 1, 5], //542
+    ["Blue Rose", "blue_rose", "A blue rose. Can be turned into blue dye.", "Gardening", "", [14,15], 1, 5], //543
+    ["Pink Dye", "pink_dye", "A blob of pink dye.", "Crafting", "", [11], 1, 7], //544
+    ["Brown Dye", "brown_dye", "A blob of brown dye.", "Crafting", "", [11], 1, 7], //545
+    ["Chains", "chains", "A string of chains.", "Crafting", "", [20], 1, 8], //546
+    ["Icy Rock", "ice_rock", "A strange rock that's cold to the touch.", "Unknown", "", [11, 20, 33], 3, 0], //547
 ]

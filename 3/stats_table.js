@@ -46,12 +46,9 @@ for (var i in user_data["3"]) { // single table
     stat_table += getPlus(user_data["3"][i]["defense"][0]) + "<br />(" + getPlus(user_data["3"][i]["defense"][1])
     stat_table += ')</span><span class="icon defense" style="position:absolute;right:0px;" title="Defense"></span></div><div class="kd_disp"><span class="icon swing" style="position:absolute;left:0px;" title="Kills"></span><span class="vat">'
     stat_table += user_data["3"][i]["kills"]
-    stat_table += '</span><span class="lh slash">/</span><span class="vab">'
+    stat_table += '</span><span class="lh slash pad1">/</span><span class="vab">'
     stat_table += user_data["3"][i]["deaths"]
     stat_table += '</span><span class="icon broken_shield" style="position:absolute;right:0px;" title="Deaths"></span></div></div>'
-/*
-<table class="rpg_stat_container"><tbody><tr><td>STR: 5</td><td>INT: 5</td><td>AGI: 5</td></tr><tr><td>CHR: 5</td><td>DEX: 5</td><td>CON: 5</td></tr></tbody></table>
-*/
     stat_table += '<table class="rpg_stat_container"><tbody>'
     stat_table += '<tr><td>STR: ' + user_data["3"][i]["rpg_stats"][0] + '</td><td>INT: ' + user_data["3"][i]["rpg_stats"][1] + '</td><td>AGI: ' + user_data["3"][i]["rpg_stats"][2] + '</td></tr>'
     stat_table += '<tr><td>CHR: ' + user_data["3"][i]["rpg_stats"][3] + '</td><td>DEX: ' + user_data["3"][i]["rpg_stats"][4] + '</td><td>CON: ' + user_data["3"][i]["rpg_stats"][5] + '</td></tr>'
@@ -100,9 +97,9 @@ for (var i in user_data["3"]) { // single table
         if (user_data["3"][i]["summon/ally"][3][0] > (user_data["3"][i]["summon/ally"][3][1]/2)) {}
         else if (user_data["3"][i]["summon/ally"][3][0] > 0) {stat_table += ' lowhp'}
         else {stat_table += ' kod'}
-        stat_table += '">' + user_data["3"][i]["summon/ally"][3][0] + '</span><span class="lh slash">/</span><span class="vab">' + user_data["3"][i]["summon/ally"][3][1] + '</span></div>'
-        stat_table += '<div class="summon_div_inner combat_summon_div_inner"><span class="icon attack" style="position:absolute;left:0px;" title="Attack"></span><span class="icon defense" style="position:absolute;right:0px;" title="Defense"></span><span class="vat">' + getPlus(user_data["3"][i]["summon/ally"][3][2]) + '<br />(' + getPlus(user_data["3"][i]["summon/ally"][3][3]) + ')</span><span class="lh slash">/</span><span class="vab">' + getPlus(user_data["3"][i]["summon/ally"][3][4]) + '<br />(' + getPlus(user_data["3"][i]["summon/ally"][3][4]) + ')</span></div>'
-        stat_table += '<div class="summon_div_inner"><span class="icon kill" style="position:absolute;left:0px;" title="Kills"></span><span class="icon death" style="position:absolute;right:0px;" title="Deaths"></span><span class="vat">' + user_data["3"][i]["summon/ally"][3][6] + '</span><span class="lh slash">/</span><span class="vab">' + user_data["3"][i]["summon/ally"][3][7] + '</span></div>'
+        stat_table += '">' + user_data["3"][i]["summon/ally"][3][0] + '</span><span class="lh slash pad1">/</span><span class="vab">' + user_data["3"][i]["summon/ally"][3][1] + '</span></div>'
+        stat_table += '<div class="summon_div_inner combat_summon_div_inner"><span class="icon attack" style="position:absolute;left:0px;" title="Attack"></span><span class="icon defense" style="position:absolute;right:0px;" title="Defense"></span><span class="vat">' + getPlus(user_data["3"][i]["summon/ally"][3][2]) + '<br />(' + getPlus(user_data["3"][i]["summon/ally"][3][3]) + ')</span><span class="lh slash pad1">/</span><span class="vab">' + getPlus(user_data["3"][i]["summon/ally"][3][4]) + '<br />(' + getPlus(user_data["3"][i]["summon/ally"][3][4]) + ')</span></div>'
+        stat_table += '<div class="summon_div_inner"><span class="icon kill" style="position:absolute;left:0px;" title="Kills"></span><span class="icon death" style="position:absolute;right:0px;" title="Deaths"></span><span class="vat">' + user_data["3"][i]["summon/ally"][3][6] + '</span><span class="lh slash pad1">/</span><span class="vab">' + user_data["3"][i]["summon/ally"][3][7] + '</span></div>'
         stat_table += '<div class="summon_div_inner table_summon_div_inner"><h4 style="margin: 0px; margin-top: 5px; padding-right: 1px;">' + user_data["3"][i]["summon/ally"][1] + ' Upgrades</h4><table style="margin-top: 0px;margin-bottom: 0px;">'
         for (var o in user_data["3"][i]["summon/ally"][4]) {
             stat_table += "<tr>"
@@ -123,7 +120,3 @@ for (var i in user_data["3"]) { // single table
 }
 var containEl = document.getElementById("stat_table_container")
 containEl.innerHTML = stat_tables
-
-/*
-<table class="rpg_stat_container"><tbody><tr><td>STR: 5</td><td>INT: 5</td><td>AGI: 5</td></tr><tr><td>CHR: 5</td><td>DEX: 5</td><td>CON: 5</td></tr></tbody></table>
-*/

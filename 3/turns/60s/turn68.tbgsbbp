@@ -1,0 +1,127 @@
+Skeledop - Turn 68
+We shall miss you, CGA color pallet. Probably.
+Also, this isn't relevant to FS3, but I might be participating in Ludum Dare 50. We'll see.
+Update: [url=https://ldjam.com/events/ludum-dare/50/bar-up]I did.[/url]
+{hr}
+[quote=gilbert_given_TBG]Holy moly, that's a lot of unused items on my inventory.
+
+Expand the chest into a triple chest, and put all of my items except the phone, the sticks, the sword, and emeralds into the chest.
+Craft a diamond pickaxe and mine some stuff.
+If I can, call Sell Us Stuff to sell my emeralds.[/quote]
+You aren't sure how to expand the Chest like that, but that's okay because consistency sets in it and it suddenly gains an entire row.
+You then put the stuff in it.
+You decide to keep both swords, instead of just one. You also decide to keep the Esolang.
+Unfortunately, you don't have enough room for everything. You could try using the Contact Card, or equipping the stickers.
+You immediately take the diamonds out of the chest, and use them for a Diamond Pickaxe.
+Except you don't, because you need a Crafting level of 1 to do that.
+You go Mining for nothing in particular.
+Skill roll: 1d20+2+1 = 5+3 = 8
+You mine 1 Stone and 1 Iron Ore. (Your Mining skill has gone up by 35%. Your Mining skill leveled up!)
+You've used up all your actions, so you are unable to call Sell us Stuff. (Yes, I'm counting the failed crafting attempt as an action.)
+{hr}
+[quote=Byron_Inc_TBG]Fix that hole.
+Fire all four turrets on BOTH Kitty and realicraft. "No, I seriously think hurting my turrets is a bad idea."
+Harvest crops.[/quote]
+You attempt to fix the hole.
+Skill roll: 1d20+6 = 14+6 = 20
+You succeed. (Your Construction skill has gone up by 80%.)
+You attempt to aim the turrets at both Reali and Kitty simultaneously, and end up aiming them at a point directly in-between them.
+Accuracy rolls: 4d20 = {red|4}, {red|5}, {green|19}, {green|16}
+Two of the turrets successfully hit the spot.
+
+
+You harvest your crops.
+Skill rolls: 4d18+12 = 8, 12, 14, 7 = 20, 24, 26, 19
+You harvest 6 Golden Carrots, 1 Enchanted Golden Carrot, 6 Cans of Beans, 2 Golden Cans of Beans, 7 Potatoes, 2 Golden Potatoes, and 6 Golden Apples. (Your Farming skill has gone up by 166%.)
+{hr}
+[quote=Byron_Inc_TBG](I've already hit max. 5 crops, how am I supposed to focus on it)
+
+Clear the water from the tank since it's still flooded.
+Use Scroll (24) (24) on Gilbert.
+Equip the golden carrots harvested.[/quote]
+I was mainly referring to other players.
+You attempt to remove the water.
+Skill roll: 1d20+6 = 5+6 = 11
+You succeed in removing one level of water. Probably.
+You attempt to use the scroll on Gilbert.
+You aren't sure what happened, if anything, but you do know that you've recieved a message:
+[code]Failed to use scroll: cannot recruit entity of type Player[/code]
+Ah, so this must be a scroll of Recruit Ally. So rune 24 must be {b|Recruit;Ally}.
+You equip the 6 Golden Carrots, bringing you up to a boost of 0.3*17.906={b|5.4} Indirect Defense. This is an increase of 0.3 Indirect Defense.
+You do not complete a quest because you already had a golden food, and didn't equip a new one; you just added to the stack. Or something.
+{hr}
+[quote=Luigis_Pizza]I pick up thing off the floor.[/quote]
+Which thing? Which floor? Be more specific.
+{hr}
+[quote=IncendiaryGaming]I'd like a list of phone numbers to call and to work on the Storage Room[/quote]
+Have you tried the Contacts page? You can also gain new contacts via the Contact Card. You can use the one in my Shed, if you want.
+You work on the Storage Room. (4/?)
+{hr}
+[quote=Joyous Theta](Post 1)
+Kitty casts a reflective shield on her new friend (realicraft) in the hopes that it'll at least reflect some of the bullets back at the turrets, then uses her ballet skills (along with normal dodging skills) to weave around the bullets headed towards her.
+
+Afterwards she decides to give the ballet upgrade back to the slime. "Hey, I'm not sure what this is exactly, but if you can use this to '+1' my ballet skills like the tooltip says, thank you. I have an idea." (equip the ballet upgrade to the slime under player upgrades)[/quote]
+Kitty attempts to cast a spell.
+Skill roll: 1d20 = 8
+She fails. (Her Alchemy skill has gone up by 35%.)
+There are no bullets heading towards Kitty. In order to Block an attack, one's post must be {i|directly} after the attacker's post; even a single post in-between will prevent a Block. Posts with no gameplay value don't count for this.
+Also I'm pretty sure the Turrets shoot mini-cannonballs or something.
+Kitty gives Slime the Ballet Upgrade. They equip it in the Player Upgrades section.
+{hr}
+[quote=Joyous Theta](Post 2)
+Kitty places the max health upgrade on the slime's head as a hat, assuming that rain and slime probably won't mix well. she then opens the prize box in case something useful might be inside and also for the free empty box.
+
+Afterwards, she stands perfectly still. Feeling the rhythm of the rain, the water dripping between her bones, she performs a rain ballet in order to upgrade this rain to a downpour.
+
+((Suggestion: Rename the Ballet skill to Dancing?))[/quote]
+Don't worry, Slime is as water-proof as you are. Meaning that the worst that can happen is that it gets Soaked.
+Kitty gives Slime the Max HP upgrade. They equip it in the Player Upgrades section.
+She then opens the Prize.
+Count roll: 1d2+1 = 1+1 = 2
+Item rolls: 2d66 = 58, 32
+Kitty obtains a Coin and 2 Dirt. The box vanishes. Aw.
+Kitty attempts to upgrade the Rain via Ballet.
+Skill roll: 1d20+2+1 = {red|4}+3 = {red|7}
+Kitty does pretty badly at the Ballet, but at least she didn't trip over a rock. (Her Ballet skill has gone up by 30%.)
+Suggestion denied. You could try making a vote, though.
+{hr}
+[quote=gilbert_given_TBG]plant another apple tree.[/quote]
+Unfortunately, you cannot plant two of the same crop.
+{hr}
+Plants grow.
+Rain rolls: 11d10 = 4, 7, 7, 9, 6, 5, 5, 6, 6, 4, 7
+No crops gain 0.1 or 0.4 growth turns.
+Byron's Beans, Potatoes, and Wheat, along with reali's Carrots, all gain 0.3 growth turns.
+All other crops gain 0.2 growth turns.
+Twilight's crops continue to rot.
+
+It's raining.
+Rain roll: 28d10 = 6, 3, 8, 4, 4, 5, 4, 2, 10, 4, 8, 6, 2, {crmiss|1}, 9, 7, {crmiss|1}, 10, {crmiss|1}, 10, 10, 8, 10, 5, 8, 10, 9, 4 (all 9 active players, Moat, Tank, Everythingproof Wall, all 6 of Byron's storage rooms, all 4 turrets, Campfire, cheesy's Storage Room, Excavator, Log Cabin, Tree House, Wooden Shed)
+The Food Storage Room and the Weaponry get rained on to the point where water leaks through the roof.
+Turret 1 also gets Soaked.
+
+Weather roll: 1d20 = 8
+It stays rainy.
+
+Mob Action rolls: 6d6 = 2, 4, 2, 2, 4, {green|6}
+The Skeleton decides to shoot someone.
+Target roll: 1d9 = 4 (cheesy)
+Accuracy roll (req >=6): 1d20 = {crmiss|2}
+It misses.
+
+Byron's bank account gains 6.174¢.
+
+{hr}
+{links}
+Sorry for the large delay, I kept getting distracted.
+Finally added some Roses, plus two new dyes.
+You've obtained a new contact: Laurie's Lore ({phone|0LORE 05673}).
+Calling this number will give you the option to pay in exchange for getting lore.
+This isn't very relevant, but I heard that Morshu now offers beatboxing lessons.
+Oh, and just so you know, if you stand by Turret 3 at the end of Turn 71, you'll get a Prize.
+As for plot items, some chains and a weird rock. Hmm.
+Also, our scientists have managed to figure out what those two mystery potions do, and {bi|oh no they're worse}
+
+(In case you actually checked the Quests page, "Carrot-based items" include the Carrot Cookie, Canned Carrots and Baby Carrots. You could also try making something else, though, like a Carrot Cake or a Carrot Salad.)
+
+{rub}

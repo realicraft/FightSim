@@ -620,7 +620,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/plant_sheet.png");
     background-position: -192px -96px;
 }
-.pink_tulip {
+.magenta_tulip {
     background-image: url("../Icons/Exported/plant_sheet.png");
     background-position: -224px -96px;
 }
@@ -676,7 +676,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/plant_sheet.png");
     background-position: -96px -224px;
 }
-.pink_dye {
+.magenta_dye {
     background-image: url("../Icons/Exported/plant_sheet.png");
     background-position: -128px -224px;
 }
@@ -1876,6 +1876,38 @@ span.small_icon {
     background-image: url("../Icons/Exported/equip_sheet.png");
     background-position: -96px -32px;
 }
+.chocolate_chips {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -96px -96px;
+}
+.red_rose {
+    background-image: url("../Icons/Exported/plant_sheet.png");
+    background-position: 0px -32px;
+}
+.pink_rose {
+    background-image: url("../Icons/Exported/plant_sheet.png");
+    background-position: -32px -32px;
+}
+.white_rose {
+    background-image: url("../Icons/Exported/plant_sheet.png");
+    background-position: -64px -32px;
+}
+.blue_rose {
+    background-image: url("../Icons/Exported/plant_sheet.png");
+    background-position: -96px -32px;
+}
+.pink_dye {
+    background-image: url("../Icons/Exported/plant_sheet.png");
+    background-position: -96px -192px;
+}
+.brown_dye {
+    background-image: url("../Icons/Exported/plant_sheet.png");
+    background-position: -128px -192px;
+}
+.tainted_carrot {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -224px -128px;
+}
 /* upgrades */
 .upgrade_none {
     background-image: url("../Icons/Exported/ally_sheet.png");
@@ -2229,7 +2261,7 @@ span.small_icon {
     background-position: -112px -32px;
 }
 /* effects */
-/*.enchanted {
+.enchanted {
     animation: enchanted_anim 2s infinite;
 }
 .ripe {
@@ -2240,4 +2272,4 @@ span.small_icon {
     0% {filter: saturate(0.8) contrast(0.9);}
     50% {filter: saturate(1.7) contrast(1.5);}
     100% {filter: saturate(0.8) contrast(0.9);}
-}*/
+}

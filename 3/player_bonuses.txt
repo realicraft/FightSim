@@ -43,10 +43,10 @@ Incendiary:
  Skills:
 Byron:
  Stats:
-  Indirect Defense: (+8.3)
+  Indirect Defense: (+8.6)
    Iron Chestplate (+1)
    Diamond Shield (+1)
-   Golden Carrots (+5.1)
+   Golden Carrots (+5.4)
    Diamond Band (+1.2)
   Direct Defense: (+2)
    Iron Chestplate (+1)
@@ -91,8 +91,10 @@ LeopardyLeaf:
  Skills:
 gilbert:
  Stats:
-  Indirect Attack: (+1)
-   Stone Pickaxe (+1)
+  Direct Attack: (+1)
+   Diamond Pickaxe (+1)
+  Indirect Attack: (+2)
+   Diamond Pickaxe (+2)
   Indirect Defense: (+0.7)
    LTT Hoodie (+0.7)
   Health: (+2)
@@ -101,8 +103,8 @@ gilbert:
   INT: (+2)
    LTT Hoodie (+2)
  Skills:
-  Mining: (+1)
-   Stone Pickaxe (+1)
+  Mining: (+3)
+   Diamond Pickaxe (+3)
 TwilightSeleneMisty:
  Stats:
   Indirect Defense: (+1)
@@ -119,13 +121,14 @@ Luigis_Pizza:
  Skills:
 Joyous Theta (D. N. Kitty):
  Stats:
-  Direct Attack: (-1)
-   Intimidated (-1)
   Indirect Attack: (+1)
    Quest Reward (+1)
-  Health: (+1)
+  Health: (+3)
    Player Level (+1)
+   Max HP Upgrade (+2)
  Skills:
+  Ballet: (+1)
+  Ballet Upgrade (+1)
 SAVVYSCLUTTER:
  Stats:
  Skills:

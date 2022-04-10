@@ -9,18 +9,18 @@ table {
 }
 th, td {
     max-width: 400px;
-    background-color: white;
+    background-color: #cfcfcf;
     border: 1px solid black;
 }
 td>img {
     margin-top: 0px;
-    background-color: white;
+    background-color: #7f7f7f;
 }
 .inv_item {
     width: 32px;
     height: 32px;
-    background-color: white;
-    border: 2px solid black;
+    background-color: #7f7f7f;
+    border: 2px ridge #3f3f3f;
     text-align: center;
     position: relative;
     background-clip: padding-box;

@@ -42,9 +42,9 @@ var user_data = {
         },
         "Byron_Inc_TBG": {
             "un_same": true, "username": "", "css_class": "byron", "do_pad": true,
-            "type": 0,"health": [81,106],"attack": [[11.2,4],[7,3]],"defense": [[13.3,2],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 5,"deaths": 2,"skills": [[1,7,279],[4,2,165],[7,3,103],[8,3,70],[10,0,20],[2,4,100],[3,1,120],[11,0,70],[6,0,60],[13,1,10],[9,0,50]],"effects": [],
-            "equips": [1,164,3,4,18,13,357,12,38],"exp": [6,38,70],
+            "type": 0,"health": [81,106],"attack": [[11.2,4],[7,3]],"defense": [[13.6,2],[5,0]],"rpg_stats": [5,5,5,5,5,5],
+            "kills": 5,"deaths": 2,"skills": [[1,7,445],[4,2,165],[7,3,183],[8,3,70],[10,0,20],[2,4,100],[3,1,120],[11,0,70],[6,0,60],[13,1,10],[9,0,50]],"effects": [],
+            "equips": [1,164,3,4,18,13,357,12,44],"exp": [6,38,70],
             "stickers": [[319,0,0,0]], "pn": "29766",
             "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
         },
@@ -59,7 +59,7 @@ var user_data = {
         "solitare": {
             "un_same": true, "username": "", "css_class": "soli", "do_pad": true,
             "type": 0,"health": [87,102],"attack": [[8,3],[7,3]],"defense": [[7,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 0,"deaths": 0,"skills": [[2,2,165],[5,0,30],[3,0,65],[1,2,148],[7,0,90],[10,0,10],[9,1,85],[13,1,125],[8,1,20],[4,0,85]],"effects": [],
+            "kills": 0,"deaths": 0,"skills": [[2,2,165],[5,0,30],[3,0,65],[1,2,148],[7,0,90],[10,0,10],[9,1,85],[13,1,125],[8,1,20],[4,0,85]],"effects": [[1, "*"]],
             "equips": [249,2,3,4,174,127,7,8,""],"exp": [2,20,30],
             "stickers": [[0,0,0,0]], "pn": "76548",
             "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
@@ -83,7 +83,7 @@ var user_data = {
         "gilbert_given_TBG": {
             "un_same": true, "username": "", "css_class": "gilbert", "do_pad": true,
             "type": 0,"health": [79,102],"attack": [[8,3],[7,3]],"defense": [[5.7,0],[5,0]],"rpg_stats": [5,7,5,5,5,5],
-            "kills": 0,"deaths": 1,"skills": [[3,1,120],[2,1,130],[6,0,55],[8,1,75]],"effects": [],
+            "kills": 0,"deaths": 1,"skills": [[3,1,120],[2,2,15],[6,0,55],[8,1,75]],"effects": [],
             "equips": [1,241,3,4,24,6,7,8,""],"exp": [3,16,40],
             "stickers": [[0,0,0,0]], "pn": "45278",
             "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []]
@@ -106,11 +106,11 @@ var user_data = {
         },
         "<abbr title=\"Dark Necromancer Kitty\">D. N. Kitty</abbr>": {
             "un_same": false, "username": "Joyous Theta", "css_class": "kitty", "do_pad": false,
-            "type": 0,"health": [69,101],"attack": [[8,2],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
-            "kills": 1,"deaths": 1,"skills": [[14,1,55],[3,0,50],[6,0,50],[8,0,50],[11,0,50]],"effects": [[36,1]],
+            "type": 0,"health": [69,103],"attack": [[8,3],[7,3]],"defense": [[5,0],[5,0]],"rpg_stats": [5,5,5,5,5,5],
+            "kills": 1,"deaths": 1,"skills": [[14,1,85],[3,0,50],[6,0,50],[8,0,50],[11,0,85]],"effects": [],
             "equips": [1,2,3,4,5,6,7,8,""],"exp": [1,5,20],
             "stickers": [[0,0,0,0]], "pn": "54889",
-            "summon/ally": [true, "Ally", "Slime", [9,20, [5,2],[5,2], [5,0],[5,0], 0,0], [[0,0,0,0]], [[0,0,0,0]], []] // [type, name, [hp,mhp, [atk],[batk], [def],[bdef], k/d], [[summon bonus]], [[player bonus]], [effects]]
+            "summon/ally": [true, "Ally", "Slime", [9,20, [5,2],[5,2], [5,0],[5,0], 0,0], [[0,0,0,0]], [[471,455,0,0]], []] // [type, name, [hp,mhp, [atk],[batk], [def],[bdef], k/d], [[summon bonus]], [[player bonus]], [effects]]
         },
         "SAVVYSCLUTTER": {
             "un_same": true, "username": "", "css_class": "savvy", "do_pad": false,

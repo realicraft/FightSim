@@ -1,6 +1,6 @@
 .tooltip_body {
-    background-color: black;
-    border: 3px solid #55ffff;
+    background-color: rgb(29, 14, 30);
+    border: 3px solid rgb(44, 10, 98);
     border-radius: 5px;
     padding: 0px 5px;
     width: 300px;
@@ -13,7 +13,7 @@
     display: none;
 }
 .tooltip_src1, .tooltip_cat1, .tooltip_price1 {
-    color: white;
+    color: #8f8f8f;
 }
 .tooltip_src1, .tooltip_src2, .tooltip_cat1, .tooltip_cat2, .tooltip_name, .tooltip_desc, .tooltip_price_cont, .tooltip_price1, .tooltip_price2 {
     display: inline;
@@ -21,7 +21,7 @@
 .tooltip_name {
     font-size: 18px;
     font-family: "FightSim 20";
-    color: #55ffff;
+    color: cyan;
     font-weight: normal;
 }
 .tooltip_src1, .tooltip_src2, .tooltip_cat1, .tooltip_cat2, .tooltip_price1, .tooltip_price2 {
@@ -32,45 +32,43 @@
 .tooltip_bonus {
     font-style: italic;
     font-weight: bold;
-    color: #55ffff
+    color: #6f6fff
 }
 .tooltip_name.common {
-    color: #55ffff;
+    color: #0fefef;
 }
 .tooltip_name.uncommon {
-    color: #55ffff;
+    color: #0f7fef;
 }
 .tooltip_name.rare {
-    color: #ff55ff;
+    color: #0fef7f;
 }
 .tooltip_name.unique {
-    color: #ff55ff;
+    color: #ef7f0f;
 }
 .tooltip_name.plot_b {
-    /*background: rgb(175,111,15);
+    background: rgb(175,111,15);
     background: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(175,111,15,1) 60%, rgba(127,15,15,1) 90%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: transparent;*/
-    color: #ff55ff;
+    color: transparent;
 }
 .tooltip_name.plot_g {
-    /*background: rgb(231,223,127);
+    background: rgb(231,223,127);
     background: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(231,223,127,1) 60%, rgba(239,239,239,1) 90%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: transparent;*/
-    color: white;
+    color: transparent;
 }
 .tooltip_name.fs2_ex {
-    color: white;
+    color: #7f7f7f;
 }
 
 .info_body {
-    background-color: white;
-    border: 3px solid #55ffff;
+    background-color: #ffffffbf;
+    border: 3px solid #ffffffdf;
     border-radius: 5px;
     padding: 0px 5px;
     width: 300px;
@@ -90,7 +88,7 @@
 }
 .info_name {
     font-size: 18px;
-    color: black;
+    color: #3f3f3f;
     font-family: "FightSim 20";
     font-weight: normal;
 }
@@ -99,5 +97,5 @@
     padding-left: 10px;
 }
 .info-hover {
-    text-decoration: underline dashed #55ffff;
+    text-decoration: underline dashed #3f3fff;
 }

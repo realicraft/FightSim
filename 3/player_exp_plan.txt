@@ -131,8 +131,8 @@ LeopardyLeaf: (2)
  Misc:
 gilbert: (76)
  Combat:
- Skill: (6)
-  Level Up: 2 (4)
+ Skill: (8)
+  Level Up: 3 (6)
   Crit: 1 (2)
  Misc: (68)
   Turn Quest: 3 (6)
