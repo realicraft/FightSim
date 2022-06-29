@@ -1,0 +1,65 @@
+Changelog for Turn 69
+
+Easter Event
+- added the easter event (look, it was close to easter when the skeledop happened)
+- go find eggs to get rewards
+- eggs give codes which you put in posts
+- if a post is edited it is disqualified to avoid cheating
+
+Mobs
+- added a new, much fancier display for mobs
+- mobs can now be buffed
+- mobs can now carry equipment
+- mobs now record kills
+- mobs now have types
+- added 4 mob slots
+- the slime is now a green slime, and is plant type
+- added 4 new slimes; red (fire), blue (water), yellow (electric), and purple (dark)
+
+Items
+- added additional colors of slime ball, to match the new slimes
+- added a poisonous potato
+- added a shuriken and tennis ball
+- added a bunch of new scrolls
+- added a vial of poison (use it to poison things)
+- added a fly (it's related to myst. skill 6)
+- added a bunch of powder
+- added an exp candy (small)
+- added three containers, which give you additional inventory space
+- added a 1d6
+- added four new crops, poisonberries, grapes, olives, and peppers
+- adjusted the descriptions of some golden foods to mention what they boost
+- adjusted the descriptions of some carrot-related items to add emphasis
+- buffed all golden foods that boost skills (0.2 -> 0.3)
+- fixed typo in the name of the raised shield sticker
+- added a shield for blocking (it was supposed to have a sprite but pikopixel does not want to export things today)
+
+Scrolls
+- 8 new runes
+- 29 new scrolls
+- finally updated what scrolls can be bought from the shop
+- scrolls with runes 11 and 14 now acknowledge that those runes have been identified
+
+Skills
+- mystery skills now have rewards for discovering them
+- added mystery skill 6
+
+Gardens
+- fixed issue where byron's golden apple tree got reset too far
+
+Quests
+- fixed issue where all the quadturn quests had no rewards
+
+Phone System
+- calling a random number now has a 33% chance to be guaranteed to be a pre-defined result
+
+Internal
+- added "<meta charset="utf-8">" to all pages
+- made all pages use one central function for generating items
+- added data values
+- moved some items (mainly potions and fuel unit indicators)
+- moved the type list to a file
+
+Misc
+- all item slots now support stack counts and nbt data
+- commented out data related to kitty, at request

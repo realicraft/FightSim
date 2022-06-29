@@ -224,36 +224,40 @@ span.small_icon {
     background-position: -480px -480px;
 }
 /* equipment */
+.unused {
+    background-image: none;
+    background-color: #5f5f5f;
+}
 .empty_helm {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: 0px 0px;
 }
 .empty_chest {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: -32px 0px;
 }
 .empty_legs {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: -64px 0px;
 }
 .empty_boots {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: -96px 0px;
 }
 .empty_sword {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: -128px 0px;
 }
 .empty_shield, .empty_sheild {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: -160px 0px;
 }
 .empty_acc {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: -192px 0px;
 }
 .empty_food {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: -224px 0px;
 }
 .diamond_helm {
@@ -1237,7 +1241,7 @@ span.small_icon {
     background-position: -0px -32px;
 }
 .empty_sticker {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: -224px -32px;
 }
 .sticker_orb {
@@ -1521,7 +1525,7 @@ span.small_icon {
     background-position: -192px -160px;
 }
 .empty_upgrade {
-    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
     background-position: -192px -32px;
 }
 .book {
@@ -1908,6 +1912,397 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -224px -128px;
 }
+.no_equip {
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
+    background-position: -160px -32px;
+}
+.ice_rock {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -64px -192px;
+}
+.red_slime_ball {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -96px -192px;
+}
+.blue_slime_ball {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -128px -192px;
+}
+.yellow_slime_ball {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -160px -192px;
+}
+.purple_slime_ball {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -0px -224px;
+}
+.shuriken {
+    background-image: url("../Icons/Exported/equip_sheet.png");
+    background-position: -480px -416px;
+}
+.poisonberry {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -64px -96px;
+}
+.gold_poisonberry {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -96px -96px;
+}
+.poison_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -128px -96px;
+}
+.fly {
+    background-image: url("../Icons/Exported/critter_sheet.png");
+    background-position: -0px -0px;
+}
+.bee {
+    background-image: url("../Icons/Exported/critter_sheet.png");
+    background-position: -32px -0px;
+}
+.froge {
+    background-image: url("../Icons/Exported/critter_sheet.png");
+    background-position: -64px -0px;
+}
+.salt {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -160px -96px;
+}
+.msg {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -192px -96px;
+}
+.electrum_dust {
+    background-image: url("../Icons/Exported/ore_sheet.png");
+    background-position: -96px -96px;
+}
+.gold_dust {
+    background-image: url("../Icons/Exported/ore_sheet.png");
+    background-position: -128px -96px;
+}
+.empty_dust {
+    background-image: url("../Icons/Exported/placeholder_sheet.png");
+    background-position: -0px -32px;
+}
+.poison_powder {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -0px -0px;
+}
+.sleep_powder {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -32px -0px;
+}
+.static_powder {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -64px -0px;
+}
+.spark_dust {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -96px -0px;
+}
+.glass_dust {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -128px -0px;
+}
+.nitro_dust {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -160px -0px;
+}
+.exp_candy_s {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -192px -0px;
+}
+.grapes {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -128px -96px;
+}
+.gold_grapes {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -160px -96px;
+}
+.tennis_ball {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -128px -32px;
+}
+.poison_potato {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -224px -160px;
+}
+.d6 {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -160px -32px;
+}
+.feather {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -192px -32px;
+}
+.olive {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -192px -96px;
+}
+.gold_olive {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -224px -96px;
+}
+.pepper {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -0px -128px;
+}
+.gold_pepper {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -32px -128px;
+}
+/* critter descriptions */
+span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
+span.cr_hp_4, span.cr_hp_5, span.cr_hp_6, span.cr_hp_7, 
+span.cr_hp_8, span.cr_hp_9, span.cr_hp_10, span.cr_hp_11, 
+span.cr_hp_12, span.cr_hp_13, span.cr_hp_14, span.cr_hp_15, 
+span.cr_atk_0, span.cr_atk_1, span.cr_atk_2, span.cr_atk_3, 
+span.cr_atk_4, span.cr_atk_5, span.cr_atk_6, span.cr_atk_7, 
+span.cr_atk_8, span.cr_atk_9, span.cr_atk_10, span.cr_atk_11, 
+span.cr_atk_12, span.cr_atk_13, span.cr_atk_14, span.cr_atk_15, 
+span.cr_def_0, span.cr_def_1, span.cr_def_2, span.cr_def_3, 
+span.cr_def_4, span.cr_def_5, span.cr_def_6, span.cr_def_7, 
+span.cr_def_8, span.cr_def_9, span.cr_def_10, span.cr_def_11, 
+span.cr_def_12, span.cr_def_13, span.cr_def_14, span.cr_def_15, 
+span.cr_type_bug, span.cr_type_bird, span.cr_type_prey, span.cr_type_pred, span.cr_type_fish, span.cr_type_sea {
+    width: 32px;
+    height: 16px;
+}
+span.cr_ab_agile,
+span.cr_of_bite,
+span.cr_df_flight {
+    width: 64px;
+    height: 48px;
+}
+.cr_hp_0 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -0px;
+}
+.cr_hp_1 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -16px;
+}
+.cr_hp_2 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -32px;
+}
+.cr_hp_3 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -48px;
+}
+.cr_hp_4 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -64px;
+}
+.cr_hp_5 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -80px;
+}
+.cr_hp_6 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -96px;
+}
+.cr_hp_7 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -112px;
+}
+.cr_hp_8 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -128px;
+}
+.cr_hp_9 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -144px;
+}
+.cr_hp_10 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -160px;
+}
+.cr_hp_11 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -176px;
+}
+.cr_hp_12 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -196px;
+}
+.cr_hp_13 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -208px;
+}
+.cr_hp_14 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -224px;
+}
+.cr_hp_15 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -0px -240px;
+}
+.cr_atk_0 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -0px;
+}
+.cr_atk_1 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -16px;
+}
+.cr_atk_2 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -32px;
+}
+.cr_atk_3 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -48px;
+}
+.cr_atk_4 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -64px;
+}
+.cr_atk_5 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -80px;
+}
+.cr_atk_6 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -96px;
+}
+.cr_atk_7 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -112px;
+}
+.cr_atk_8 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -128px;
+}
+.cr_atk_9 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -144px;
+}
+.cr_atk_10 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -160px;
+}
+.cr_atk_11 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -176px;
+}
+.cr_atk_12 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -196px;
+}
+.cr_atk_13 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -208px;
+}
+.cr_atk_14 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -224px;
+}
+.cr_atk_15 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -32px -240px;
+}
+.cr_def_0 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -0px;
+}
+.cr_def_1 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -16px;
+}
+.cr_def_2 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -32px;
+}
+.cr_def_3 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -48px;
+}
+.cr_def_4 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -64px;
+}
+.cr_def_5 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -80px;
+}
+.cr_def_6 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -96px;
+}
+.cr_def_7 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -112px;
+}
+.cr_def_8 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -128px;
+}
+.cr_def_9 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -144px;
+}
+.cr_def_10 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -160px;
+}
+.cr_def_11 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -176px;
+}
+.cr_def_12 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -196px;
+}
+.cr_def_13 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -208px;
+}
+.cr_def_14 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -224px;
+}
+.cr_def_15 {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -64px -240px;
+}
+.cr_type_bug {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -96px -0px;
+}
+.cr_type_bird {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -96px -32px;
+}
+.cr_type_prey {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -96px -64px;
+}
+.cr_type_pred {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -96px -96px;
+}
+.cr_type_fish {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -96px -128px;
+}
+.cr_type_sea {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -96px -160px;
+}
+.cr_ab_agile {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -128px -0px;
+}
+.cr_of_bite {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -192px -0px;
+}
+.cr_df_flight {
+    background-image: url("../Icons/Exported/critter_desc_sheet.png");
+    background-position: -256px -0px;
+}
 /* upgrades */
 .upgrade_none {
     background-image: url("../Icons/Exported/ally_sheet.png");
@@ -2145,6 +2540,215 @@ span.small_icon {
 .scroll_20_05 {
     background-image: url("../Icons/Exported/scroll_sheet.png");
     background-position: -64px -160px;
+}
+.scroll_32_31 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -96px -160px;
+}
+.scroll_12_12 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -128px -160px;
+}
+.scroll_13_13 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -160px -160px;
+}
+.scroll_33_21 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -192px -160px;
+}
+.scroll_01_37 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -224px -160px;
+}
+.scroll_01_36 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -0px -192px;
+}
+.scroll_34_21 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -32px -192px;
+}
+.scroll_34_17 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -64px -192px;
+}
+.scroll_35_29 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -96px -192px;
+}
+.scroll_23_37 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -128px -192px;
+}
+.scroll_17_37 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -160px -192px;
+}
+.scroll_27_12 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -192px -192px;
+}
+.scroll_13_17 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -224px -192px;
+}
+.scroll_09_36 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -0px -224px;
+}
+.scroll_33_36 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -32px -224px;
+}
+.scroll_33_04 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -64px -224px;
+}
+.scroll_03_32 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -96px -224px;
+}
+.scroll_27_02 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -128px -224px;
+}
+.scroll_29_04 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -160px -224px;
+}
+.scroll_37_36 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -192px -224px;
+}
+.scroll_09_40 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -224px -224px;
+}
+.scroll_32_02 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -256px -32px;
+}
+.scroll_32_08 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -288px -32px;
+}
+.scroll_32_24 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -320px -32px;
+}
+.scroll_01_40 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -352px -32px;
+}
+.scroll_01_34 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -256px -64px;
+}
+.scroll_01_25 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -288px -64px;
+}
+.scroll_02_07 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -320px -64px;
+}
+.scroll_09_29 {
+    background-image: url("../Icons/Exported/scroll_sheet.png");
+    background-position: -352px -64px;
+}
+/* eggs */
+.egg_plain {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -0px -0px;
+}
+.egg_red {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -32px -0px;
+}
+.egg_orange {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -64px -0px;
+}
+.egg_yellow {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -96px -0px;
+}
+.egg_green {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -128px -0px;
+}
+.egg_cyan {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -160px -0px;
+}
+.egg_blue {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -192px -0px;
+}
+.egg_purple {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -224px -0px;
+}
+.egg_white {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -0px -32px;
+}
+.egg_mono {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -32px -32px;
+}
+.egg_cga {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -64px -32px;
+}
+.egg_iron {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -96px -32px;
+}
+.egg_copper {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -128px -32px;
+}
+.egg_gold {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -160px -32px;
+}
+.egg_hardite {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -192px -32px;
+}
+.egg_smile {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -224px -32px;
+}
+.egg_broke {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -0px -64px;
+}
+.egg_spots {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -32px -64px;
+}
+.egg_fire {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -64px -64px;
+}
+.egg_blue_fire {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -96px -64px;
+}
+.egg_chocolate {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -128px -64px;
+}
+.egg_mineral {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -160px -64px;
+}
+.egg_vanish {
+    background-image: url("../Icons/Exported/egg_sheet.png");
+    background-position: -192px -64px;
 }
 /* info (large) */
 .yes, .passed {

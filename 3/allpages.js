@@ -2,8 +2,9 @@ var headerEl = document.getElementById("header_container")
 var timeboxEl = document.getElementById("time_box")
 var tooltipEl = document.getElementsByClassName("tooltip_body")[0]
 var infoEl = document.getElementsByClassName("info_body")[0]
+var bodyEl = document.body
 
-var timeboxInfo = [68, "day", "rainy", "Day", "Rainy"]
+var timeboxInfo = [69, "day", "stormy", "Day", "Thunderstorm"]
 
 var headerCont = '<div class="header"><span class="small_icon fs3" style="position:absolute;left:4px;top:4px;" title="FS3"></span>'
 for (var i in headerLinks["3"]) {headerCont += '\n<a href="' + headerLinks["3"][i][1] + '">' + headerLinks["3"][i][0] + '</a>'}
@@ -22,3 +23,56 @@ tooltipEl.innerHTML = tooltipCont
 
 var infoCont = '<h3 class="info_name">Info Topic</h3><br /><p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>'
 infoEl.innerHTML = infoCont
+
+
+var makeItem = function(id, dv, stack, nbt) {
+    var didFirstArg = false
+    var didSecondArg = false
+    var invenRow2 = "<span class='icon ";
+    if ("enchant" in nbt) {invenRow2 += "enchanted "}
+    invenRow2 += equiplist[id][dv][1];
+    if (("bools" in nbt) && (nbt["bools"][0] == true)) {invenRow2 += " dbg"}
+    invenRow2 += "' onmouseover='tt(";
+    invenRow2 += id + "," + dv;
+    for (k in nbt) { // check for first argument data (enchants)
+        if (k == "enchant") {
+            if (!didFirstArg) {invenRow2 += ",\""}
+            else {invenRow2 += "<br />"}
+            didFirstArg = true
+            invenRow2 += enchantlist[nbt["enchant"][0]][0] + " " + nbt["enchant"][1]
+        }
+        else if (k == "potion_eff") {
+            if (!didFirstArg) {invenRow2 += ",\""}
+            else {invenRow2 += "<br />"}
+            didFirstArg = true
+            invenRow2 += effectlist[nbt["potion_eff"][0]][0] + " (" + nbt["potion_eff"][1] + " turn"
+            if (nbt["potion_eff"][1] == 1) {} else {invenRow2 += "s"}
+            invenRow2 += ")"
+        }
+    }
+    if (didFirstArg) {invenRow2 += "\""}
+    else {invenRow2 += ",\"\""}
+    for (k in nbt) { // check for second argument data (description appends)
+        if (k == "desc_append") {
+            if (!didSecondArg) {invenRow2 += ",\""}
+            didSecondArg = true
+            invenRow2 += nbt["desc_append"][0]
+        }
+    }
+    if (didSecondArg) {invenRow2 += "\""}
+    else {invenRow2 += ",\"\""}
+    invenRow2 += ");' onmouseout='nt();'></span>";
+    return invenRow2
+}
+
+var egg_els = document.getElementsByClassName("easter_egg")
+for (var i of egg_els) {
+    egg_id = i.dataset.egg
+    i.innerHTML = '<span class="icon ' + egglist[egg_id][1] + '" onClick="egg(' + egg_id + ')"></span>'
+}
+
+var egg = function(id) {
+    alert(
+        "You found an egg!\n[" + egglist[id][0] + "]\n" + egglist[id][3] + "\nCode: " + egglist[id][2] + "\nReward: " + egglist[id][4]
+    )
+}

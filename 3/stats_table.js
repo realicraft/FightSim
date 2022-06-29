@@ -1,5 +1,3 @@
-var typelist = ["typeless", "normal_type", "fire_type", "water_type", "elec_type", "plant_type", "ice_type", "light_type", "dark_type", "missingtype"]
-
 var getPlus = function(input) {
     if (input[1] == 0) {return input[0].toString()}
     else {return input[0].toString() + "+" + input[1].toString()}
@@ -8,12 +6,12 @@ var getPlus = function(input) {
 var makeRestOfStickerRow = function(m,n) {
     o = user_data["3"][i]["stickers"][m][n]
     if (o == 0) {o = 330}
-    return '<td class="inv_item"><span class="icon ' + equiplist[o][1] + '" onmouseover="ttEquip(' + o + ');" onmouseout="nt();"></span></td>'
+    return '<td class="inv_item"><span class="icon ' + equiplist[o][0][1] + '" onmouseover="ttEquip(' + o + ');" onmouseout="nt();"></span></td>'
 }
 var makeRestOfUpgradeRow = function(num,o,n) {
     q = user_data["3"][i]["summon/ally"][num][o][n]
     if (q == 0) {q = 448}
-    return '<td class="inv_item"><span class="icon ' + equiplist[q][1] + '" onmouseover="ttEquip(' + q + ');" onmouseout="nt();"></span></td>'
+    return '<td class="inv_item"><span class="icon ' + equiplist[q][0][1] + '" onmouseover="ttEquip(' + q + ');" onmouseout="nt();"></span></td>'
 }
 
 var stat_tables = ""
@@ -73,14 +71,12 @@ for (var i in user_data["3"]) { // single table
         stat_table += '</tbody></table>'
     }
     stat_table += '<h3 style="margin: 0px;padding-right:1px;">Equipment</h3><span class="pt_equip">'
-    for (var l of user_data["3"][i]["equips"].slice(0,7)) {stat_table += '<span class="icon ' + equiplist[l][1] + '" onmouseover="ttEquip(' + l + ');" onmouseout="nt();"></span>'}
-    stat_table += '<span class="icon ' + equiplist[user_data["3"][i]["equips"][7]][1] + '" onmouseover="ttEquip(' + user_data["3"][i]["equips"][7] + ');" onmouseout="nt();" style="position:relative;">'
-    stat_table += '<span class="pt_stackcount">' + user_data["3"][i]["equips"][8] + '</span></span></span>'
-    stat_table += '<h3 style="margin: 0px; margin-top: 5px;">Stickers</h3><table style="margin-top: 0px;margin-bottom: 0px;">'
+    for (var l of user_data["3"][i]["equips"]) {stat_table += makeItem(l[0], l[1], l[2], l[3]).replace("tt", "ttEquip")}
+    stat_table += '</span><h3 style="margin: 0px; margin-top: 5px;">Stickers</h3><table style="margin-top: 0px;margin-bottom: 0px;">'
     for (var m in user_data["3"][i]["stickers"]) {
         stat_table += "<tr>"
-        if (m == 0) {stat_table += '<td class="inv_item"><span class="icon ' + equiplist[309][1] + '" onmouseover="ttEquip(309);" onmouseout="nt();"></span></td>'}
-        else {stat_table += '<td class="inv_item"><span class="icon ' + equiplist[310][1] + '" onmouseover="ttEquip(310);" onmouseout="nt();"></span></td>'}
+        if (m == 0) {stat_table += '<td class="inv_item"><span class="icon ' + equiplist[309][0][1] + '" onmouseover="ttEquip(309);" onmouseout="nt();"></span></td>'}
+        else {stat_table += '<td class="inv_item"><span class="icon ' + equiplist[310][0][1] + '" onmouseover="ttEquip(310);" onmouseout="nt();"></span></td>'}
         for (var n in user_data["3"][i]["stickers"][m]) {stat_table += makeRestOfStickerRow(m,n)}
         stat_table += "</tr>"
     }

@@ -7,15 +7,15 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Carve something.", "Unclaimed", "60% Carving Exp", "68"],
-    ["Craft 2 items.", "Unclaimed", "50% Crafting Exp, 1 Coal", "68"],
-    ["Obtain an item.", "Unclaimed", "1 Item Candy", "68"],
-    ["Create a Structure.", "Unclaimed", "", "68~71"],
-    ["Die twice.", "Unclaimed", "", "68~71"],
-    ["Obtain a Carrot-based item.", "Unclaimed", "", "68~71"],
+    ["Use a Disposable Phone.", "Unclaimed", "2 Disposable Phones", "69"],
+    ["Block an attack.", "Unclaimed", "+0.2 Direct Defense", "69"],
+    ["Use a current or former Mystery Skill.", "Unclaimed", "1 Random Potion, 1 Random Fish, 2 Clay", "69"],
+    ["Create a Structure.", "Byron_Inc_TBG", "Stone Hammer", "68~71"],
+    ["Die twice.", "Unclaimed", "Regen Potion", "68~71"],
+    ["Obtain a Carrot-based item.", "Unclaimed", "???", "68~71"],
     ["Talk to Morshu.", "Unclaimed", "2 Bombs, 5 Misc EXP"],
     ["Equip a Golden Food.", "Unclaimed", "3 Gold Bars, 150% Farming"],
-    ["Recruit an ally or summon.", "Unclaimed", "1 Max HP Upgrade"],
+    ["Adopt Slime.", "Unclaimed", "Slime"],
 ]
 
 var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, div height]
@@ -34,7 +34,7 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
             ["gilbert", "1 Crop", "1 Misc EXP", "0/1"],
             ["Twilight", "3 Crops", "3 Misc EXP", "0/3"],
             ["Luigi", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Kitty", "1 Crop", "1 Misc EXP", "0/1"],
+            /*["Kitty", "1 Crop", "1 Misc EXP", "0/1"],*/
             ["Savvy", "1 Crop", "1 Misc EXP", "0/1"],
             ["Bobby", "1 Crop", "1 Misc EXP", "0/1"],
             ["Tony", "1 Crop", "1 Misc EXP", "0/1"],
@@ -55,7 +55,7 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
             ["gilbert", "10 Edits", "1 Skill Candy", "0/10"],
             ["Twilight", "10 Edits", "1 Skill Candy", "0/10"],
             ["Luigi", "10 Edits", "1 Skill Candy", "0/10"],
-            ["Kitty", "10 Edits", "1 Skill Candy", "0/10"],
+            /*["Kitty", "10 Edits", "1 Skill Candy", "0/10"],*/
             ["Savvy", "10 Edits", "1 Skill Candy", "0/10"],
             ["Bobby", "10 Edits", "1 Skill Candy", "0/10"],
             ["Tony", "10 Edits", "1 Skill Candy", "5/10"],
@@ -65,6 +65,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Carve something.", "Unclaimed", "60% Carving Exp", "68"],
+        ["Craft 2 items.", "TonyBrown148", "50% Crafting Exp, 1 Coal", "68"],
+        ["Obtain an item.", "TonyBrown148", "1 Item Candy", "68"],
         ["Fight a mob.", "Unclaimed", "1 Gold Sword", "67"],
         ["Do some Pottery.", "Unclaimed", "10 Misc EXP", "67"],
         ["Obtain a Sticker.", "Unclaimed", "1 Knife Sticker", "67"],
@@ -165,6 +168,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
+        ["Recruit an ally or summon.", "Byron_Inc_TBG", "1 Max HP Upgrade"],
         ["Attack a Structure.", "Claimed by Theta", "1 Indirect Attack"],
         ["Reach Proficient in any skill.", "Claimed by cheesy", "4 Misc EXP"],
         ["Obtain 2 Stickers.", "Claimed by gilbert", "3 Misc EXP, 1 Sticker Pack"],

@@ -1,0 +1,165 @@
+.cmob {
+    height: 122px;
+    width: 677px;
+}
+
+.mob_name, .mob_health, .mob_stats, .mob_kill_acc, .mob_other, .mob_equip, .mob_effect {
+    position: absolute;
+}
+.mob_name, .mob_health, .mob_stats, .mob_kill_acc, .mob_other {
+    width: calc(33% + 1px);
+}
+.mob_health, .mob_stats, .mob_kill_acc {
+    font-size: 12px;
+    font-family: "FightSim 12";
+}
+.mob_name {
+    top: 0px;
+    left: 0px;
+    border-right: black 1px solid;
+    border-bottom: black 1px solid;
+    height: 66px;
+}
+.mob_name h2 {
+    margin: 0px;
+    line-height: 66px;
+    padding-right: 0.5px;
+    color: white;
+    background-color: black;
+}
+.mob_turn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    font-family: "FightStack";
+    font-size: 9px;
+}
+.mob_type {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.mob_health {
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    height: 32px;
+    top: 0px;
+    left: calc(33% + 2px);
+    background-color: #8f8f8f;
+}
+.mob_stats {
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    height: 32px;
+    top: 0px;
+    right: 0px;
+    background-color: #8f8f8f;
+}
+.mob_kill_acc {
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    height: 32px;
+    top: 33px;
+    left: calc(33% + 2px);
+    background-color: #8f8f8f;
+}
+.mob_other {
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    height: 32px;
+    top: 33px;
+    right: 0px;
+    font-family: "FightStack";
+    font-size: 9px;
+    background-color: #8f8f8f;
+}
+.mob_equip {
+    width: calc(50%);
+    bottom: 0px;
+    left: 0px;
+    border-right: black 1px solid;
+    border-top: black 1px solid;
+    height: 54px;
+}
+.mob_effect {
+    width: calc(50%);
+    bottom: 0px;
+    right: 0px;
+    border-left: black 1px solid;
+    border-top: black 1px solid;
+    height: 54px;
+}
+.mob_equip h3, .mob_effect h3 {
+    margin: 0px;
+    font-size: 12px;
+    font-family: "FightSim 12";
+    font-weight: normal;
+}
+.mob_equip h3 {
+    padding-right: 0.5px;
+}
+.mob_effect h3 {
+    padding-right: 1.5px;
+}
+.pt_stackcount {
+    padding-right: 0.2px;
+}
+
+.overheal { 
+    color: green;
+}
+.lowhp { 
+    color: darkred;
+}
+.kod { 
+    color: darkred; font-weight: bold;
+}
+.vat { 
+    right: 121.4px;
+}
+.vab { 
+    left: 121px;
+}
+.vat, .vab { 
+    position: absolute;
+    top: 10px;
+}
+.mob_stats .vat, .mob_stats .vab {
+    top: 2px;
+}
+.mob_stats .lh {
+    padding-right: 1.5px;
+}
+.lh { 
+    position: relative;
+    line-height: 32px;
+    top: 2px;
+    padding-right: 1px;
+}
+th { 
+    font-size: 9px;
+    font-family: "FightStack";
+    text-align: left;
+    font-weight: normal;
+}
+table { 
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "FightSim 20";
+}
+.slash {
+    font-size: 30px;
+    font-family: "FightSim Body Double";
+}
+.pad1 {
+    padding-right: 1px;
+}

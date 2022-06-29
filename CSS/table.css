@@ -24,6 +24,7 @@ td>img {
     text-align: center;
     position: relative;
     background-clip: padding-box;
+    padding: 0px;
 }
 .inv_space {
     width: 6px;
@@ -39,4 +40,12 @@ td>img {
 }
 td.inv_item span.icon {
     display: block;
+    margin: 1px;
 }
+span.icon.dbg {
+    background-color: #3f3f3f;
+}
+
+/*td.inv_item:has(.dbg) {
+    background-color: #3f3f3f;
+}*/

@@ -44,4 +44,8 @@ var categorylist = [ // [name]
     ["Grab Bag"], //42
     ["Scroll"], //43
     ["Upgrade"], //44
+    ["Critter"], //45
+    ["Powder"], //46
+    ["Explosive"], //47
+    ["Container"], //48
 ]

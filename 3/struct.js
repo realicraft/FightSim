@@ -13,16 +13,12 @@ for (var i of inven_els) {
             invenRow += "<td class='inv_item'>";
             if (k[0] == 0) {}
             else {
-                invenRow += "<span class='icon ";
-                invenRow += equiplist[k[0]][1];
-                invenRow += "' onmouseover='tt(";
-                invenRow += k[0];
-                invenRow += ");' onmouseout='nt();'></span>";
+                invenRow += makeItem(k[0], k[1], k[2], k[3])
             };
-            if (k[1] == 1) {}
+            if (k[2] == 1) {}
             else {
                 invenRow += "<span>"
-                invenRow += k[1]
+                invenRow += k[2]
                 invenRow += "</span>"
             };
             invenRow += "</td>"

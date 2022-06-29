@@ -1,31 +1,42 @@
 var creativeRows = "";
-var creativeRow = "";
-var rowCount = Math.ceil(equiplist.length/9)
-var currentRow = 0
+var creativeRow = "<tr>";
+var numItems = 0
+
+for (i in equiplist) {
+    for (j in equiplist[i]) {
+        numItems++;
+    }
+}
+console.log(numItems)
+
+var rowCount = Math.ceil(numItems/9)
 var currentCol = 0
-var remainItems = equiplist.length - ((rowCount-1)*9)
-while (currentRow < rowCount) {
-    creativeRow = "<tr>"
-    currentCol = 0
-    while (currentCol < 9) {
+for (k in equiplist) {
+    for (l in equiplist[k]) {
         creativeRow += "<td class='inv_item'>";
-        if ((currentRow*9)+currentCol >= equiplist.length) {}
-        else {
-            creativeRow += "<span class='icon ";
-            creativeRow += equiplist[(currentRow*9)+currentCol][1];
-            creativeRow += "' onmouseover='tt(";
-            creativeRow += (currentRow*9)+currentCol;
-            creativeRow += ");' onmouseout='nt();'></span>";
-            creativeRow += "<span>"
-            creativeRow += (currentRow*9)+currentCol
-            creativeRow += "</span>"
-        }
-        creativeRow += "</td>"
-        currentCol++
+        creativeRow += makeItem(k, l, "", {})
+        creativeRow += "<span>";
+        if (equiplist[k].length == 1) {creativeRow += k}
+        else {creativeRow += k + ":" + l};
+        creativeRow += "</span>";
+        creativeRow += "</td>";
+        currentCol++;
+        if (currentCol == 9) {
+            currentCol = 0;
+            creativeRow += "</tr>";
+            creativeRows += creativeRow;
+            creativeRow = "<tr>";
+        };
     };
-    creativeRow += "</tr>"
-    creativeRows += creativeRow
-    currentRow++
+};
+if (currentCol != 0) {
+    while (currentCol < 9) {
+        creativeRow += "<td class='inv_item'></td>";
+        currentCol++;
+    }
+    creativeRow += "</tr>";
+    creativeRows += creativeRow;
+    creativeRow = "<tr>";
 };
 
 var invenListEl = document.getElementById("creative_inv");

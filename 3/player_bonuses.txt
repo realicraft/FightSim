@@ -1,6 +1,6 @@
-INT boosts Alchemy and Crafting
+INT boosts Alchemy, Crafting, and Golf
 STR boosts Mining, Chopping, and Digging
-AGI boosts Ballet and Gathering
+AGI boosts Ballet, Gathering, and Catching
 CHR boosts Rapping
 DEX boosts Pottery and Construction
 CON boosts Farming and Digging
@@ -137,12 +137,12 @@ iwantpie21 (Bobby):
  Skills:
 TonyBrown148:
  Stats:
-  Direct Attack: (+1.6)
-   Emerald Pickaxe (+1.6)
-  Indirect Attack: (+0.8)
-   Emerald Pickaxe (+0.8)
+  Direct Attack: (+1.8)
+   Emerald Hammer (+1.8)
+  Indirect Attack: (+0.7)
+   Emerald Hammer (+0.7)
   Health: (+1)
    Player Level (+1)
  Skills:
-  Mining: (+2.9)
-   Emerald Pickaxe (+2.9)
+  Construction: (+2.9)
+   Emerald Hammer (+2.9)

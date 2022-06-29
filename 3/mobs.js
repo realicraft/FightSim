@@ -1,7 +1,14 @@
-var mobbox = document.getElementById("mob-box")
+var mobbox = document.getElementById("mob_box")
+var curr_mobs = document.getElementById("current_mobs")
 var mobs_all = ""
 var mobs_group = ""
-var k = 0
+var cmobs_all = ""
+var cmobs_group = ""
+
+var getPlus = function(input) {
+    if (input[1] == 0) {return input[0].toString()}
+    else {return input[0].toString() + "+" + input[1].toString()}
+}
 
 for (var i of moblist) {
     mobs_group = '<div class="struct collapse" id="'
@@ -12,14 +19,14 @@ for (var i of moblist) {
     mobs_group += i[0]
     mobs_group += '</h3><div class="collapse_body" style="display:none;">'
     mobs_group += '<p>Health: ' + i[1] + '<br />'
-    mobs_group += 'Attack: ' + i[2][0] + '+' + i[2][1] + " (" + i[4][0] + '+' + i[4][1] + ')<br />'
-    mobs_group += 'Defense: ' + i[3][0] + '+' + i[3][1] + " (" + i[5][0] + '+' + i[5][1] + ')</p><p style="margin-bottom:2px;">Drops:</p><table style="margin-top:2px;"><tr>'
+    mobs_group += 'Attack: ' + getPlus(i[2]) + " (" + getPlus(i[4]) + ')<br />'
+    mobs_group += 'Defense: ' + getPlus(i[3]) + " (" + getPlus(i[5]) + ')</p><p style="margin-bottom:2px;">Drops:</p><table style="margin-top:2px;"><tr>'
     for (j of i[6]) {
         mobs_group += "<td class='inv_item'>";
         if (j[0] == 0) {}
         else {
             mobs_group += "<span class='icon ";
-            mobs_group += equiplist[j[0]][1];
+            mobs_group += equiplist[j[0]][0][1];
             mobs_group += "' onmouseover='tt(";
             mobs_group += j[0];
             mobs_group += ");' onmouseout='nt();'></span>";
@@ -41,39 +48,65 @@ for (var i of moblist) {
     mobs_group += '</tr></table></div></div>'
     mobs_all += mobs_group
 }
-
 mobbox.innerHTML = mobs_all
 
-// <div class="struct collapse" id="cow">
-//     <span class="small_icon collapse_button collapse_closed" onclick="collapse('cow');"></span>
-//     <h3 class="collapse_header">Cow</h3>
-//     <div class="collapse_body">
-//         <p>Health: 15</p>
-//         <p>Attack: 0+0</p>
-//         <p>Defense: 1+0</p>
-//         <p>Drops:</p>
-//         <table>
-//             <tr>
-//                 <td class="inv_item">item&count</td>
-//                 <td class="inv_item"></td>
-//                 <td class="inv_item"></td>
-//                 <td class="inv_item"></td>
-//                 <td class="inv_item"></td>
-//                 <td class="inv_item"></td>
-//                 <td class="inv_item"></td>
-//                 <td class="inv_item"></td>
-//                 <td class="inv_item"></td>
-//             </tr><tr>
-//                 <td>chance</td>
-//                 <td></td>
-//                 <td></td>
-//                 <td></td>
-//                 <td></td>
-//                 <td></td>
-//                 <td></td>
-//                 <td></td>
-//                 <td></td>
-//             </tr>
-//         </table>
-//     </div>
-// </div>
+for (var l of activeMobs) {
+    cmobs_group = '<div class="struct cmob">'
+
+    cmobs_group += '<div class="mob_name"><h2>' + l[0] + '</h2><span class="mob_turn">' + l[1] + '</span><span class="mob_type"><span class="icon ' + typelist[l[9]] + ' type_icon" title="Type"></span></span></div>'
+
+
+    cmobs_group += '<div class="mob_health"><span class="icon '
+    if (l[2][0] > (l[2][1]/2)) {cmobs_group += 'health'}
+    else if (l[2][0] > 0) {cmobs_group += 'heart2'}
+    else {cmobs_group += 'ko'}
+    cmobs_group += '" style="position:absolute;left:0px;" title="Health"></span><span class="vat">' + l[2][0] + '</span><span class="lh slash">/</span><span class="vab">' + l[2][1] + '</span></div>'
+
+    cmobs_group += '<div class="mob_stats"><span class="icon attack" style="position:absolute;left:0px;" title="Attack"></span><span class="vat">'
+    cmobs_group += getPlus(l[3][0]) + "<br />(" + getPlus(l[3][1])
+    cmobs_group += ')</span><span class="lh slash">/</span><span class="vab">'
+    cmobs_group += getPlus(l[4][0]) + "<br />(" + getPlus(l[4][1])
+    cmobs_group += ')</span><span class="icon defense" style="position:absolute;right:0px;" title="Defense"></span></div>'
+
+    cmobs_group += '<div class="mob_kill_acc"><span class="icon swing" style="position:absolute;left:0px;" title="Kills"></span><span class="vat">'
+    cmobs_group += l[5]
+    cmobs_group += '</span><span class="lh slash pad1">/</span><span class="vab">'
+    cmobs_group += l[6]
+    cmobs_group += '</span><span class="icon accuracy" style="position:absolute;right:0px;" title="Deaths"></span></div>'
+
+    cmobs_group += '<div class="mob_other">This section intentionally left blank.</div>'
+
+    cmobs_group += '<div class="mob_equip">'
+    cmobs_group += '<h3>Equipment</h3><table style="margin-top: 0px;margin-bottom: 0px;"><tr>'
+    for (var m of l[7]) {
+        cmobs_group += '<td class="inv_item">'
+        cmobs_group += makeItem(m[0],m[1],m[2],m[3])
+        cmobs_group += '</td>'
+    }
+    cmobs_group += '</tr></table></div>'
+
+    cmobs_group += '<div class="mob_effect">'
+    cmobs_group += '<h3>Effects</h3><table style="margin-top: 0px;margin-bottom: 0px;"><tr>'
+    for (var n of l[8]) {
+        if (n[0] != 0) {cmobs_group += '<td class="inv_item"><span class="icon ' + effectlist[n[0]][0][1] + '" onmouseover="ttEquip(' + n[0] + ');" onmouseout="nt();"></span><span class="pt_stackcount">' + n[1] + '</span></td>'}
+        else {cmobs_group += '<td class="inv_item"></td>'}
+    }
+    cmobs_group += '</tr></table></div>'
+
+    cmobs_group += '</div>'
+    cmobs_all += cmobs_group
+
+}
+curr_mobs.innerHTML = cmobs_all
+
+/*
+<div class="struct cmob">
+    <div class="mob_name"><h2>Mob Name</h2></div>
+    <div class="mob_health"><span class="icon health" style="position:absolute;left:0px;" title="Health"></span><span class="vat">hp</span><span class="lh slash">/</span><span class="vab">mhp</span></div>
+    <div class="mob_stats">place/holder</div>
+    <div class="mob_kill_acc">place/holder</div>
+    <div class="mob_other">This section intentionally left blank.</div>
+    <div class="mob_equip">[place][hold][er]</div>
+    <div class="mob_effect">[place][hold][er]</div>
+</div>
+*/

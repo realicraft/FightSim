@@ -46,9 +46,9 @@ var tooltip = function(name, desc, source, cats, bonus, name_class, price) { // 
     else {tooltipPriceContEl.setAttribute("style", "")}
     tooltipBodyEl.setAttribute("style", "display: block;")
 }
-var ttEquip = function(id=0, nbt="", dnbt="") { // on the stats page, don't display tooltips for placeholders
-    if (((id >= 1) & (id <= 8)) | (id == 330) | (id == 448)) {}
-    else {tt(id,nbt,dnbt)}
+var ttEquip = function(id=0, dv=0, nbt="", dnbt="") { // on the stats page, don't display tooltips for placeholders
+    if (((id >= 1) & (id <= 8)) | (id == 330) | (id == 448) | (id == 548)) {}
+    else {tt(id,dv,nbt,dnbt)}
 }
 var ttEffect = function(id=0) { // tooltip wrapper for effects
     var as_cats = ""
@@ -63,25 +63,25 @@ var ttEffect = function(id=0) { // tooltip wrapper for effects
     }
     tooltip(effectlist[id][0], effectlist[id][2], effectlist[id][3], as_cats, effectlist[id][4], name_class_list[effectlist[id][6]], 0)
 }
-var tt = function(id=0, nbt="", dnbt="") { // tooltip wrapper for items
+var tt = function(id=0, dv=0, nbt="", dnbt="") { // tooltip wrapper for items
     var as_cats = ""
     var initial_cat = true
-    if (equiplist[id][5].length == 0) {} // create category list
+    if (equiplist[id][dv][5].length == 0) {} // create category list
     else {
-        for (var i in equiplist[id][5]) {
+        for (var i in equiplist[id][dv][5]) {
             if (initial_cat) {initial_cat = false}
             else {as_cats += ", "}
-            as_cats += categorylist[equiplist[id][5][i]]
+            as_cats += categorylist[equiplist[id][dv][5][i]]
         }
     }
-    if (nbt == "" && dnbt == "") {tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], as_cats, equiplist[id][4], name_class_list[equiplist[id][6]], equiplist[id][7])} // no nbt data
-    else if (nbt == "") {tooltip(equiplist[id][0], equiplist[id][2]+dnbt, equiplist[id][3], as_cats, equiplist[id][4], name_class_list[equiplist[id][6]], equiplist[id][7])} // only discription nbt data
+    if (nbt == "" && dnbt == "") {tooltip(equiplist[id][dv][0], equiplist[id][dv][2], equiplist[id][dv][3], as_cats, equiplist[id][dv][4], name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // no nbt data
+    else if (nbt == "") {tooltip(equiplist[id][dv][0], equiplist[id][dv][2]+dnbt, equiplist[id][dv][3], as_cats, equiplist[id][dv][4], name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // only discription nbt data
     else if (dnbt == "") {
-        if (equiplist[id][4] == "") {tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], as_cats, (nbt), name_class_list[equiplist[id][6]], equiplist[id][7])} // only effect nbt data, no effects
-        else {tooltip(equiplist[id][0], equiplist[id][2], equiplist[id][3], as_cats, (equiplist[id][4]+"<br />"+nbt), name_class_list[equiplist[id][6]], equiplist[id][7])} // only effect nbt data, original has effects
+        if (equiplist[id][dv][4] == "") {tooltip(equiplist[id][dv][0], equiplist[id][dv][2], equiplist[id][dv][3], as_cats, (nbt), name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // only effect nbt data, no effects
+        else {tooltip(equiplist[id][dv][0], equiplist[id][dv][2], equiplist[id][dv][3], as_cats, (equiplist[id][dv][4]+"<br />"+nbt), name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // only effect nbt data, original has effects
     } else {
-        if (equiplist[id][4] == "") {tooltip(equiplist[id][0], equiplist[id][2]+dnbt, equiplist[id][3], as_cats, (nbt), name_class_list[equiplist[id][6]], equiplist[id][7])} // both nbt datas, no effects
-        else {tooltip(equiplist[id][0], equiplist[id][2]+dnbt, equiplist[id][3], as_cats, (equiplist[id][4]+"<br />"+nbt), name_class_list[equiplist[id][6]], equiplist[id][7])} // both nbt datas, original has effects
+        if (equiplist[id][dv][4] == "") {tooltip(equiplist[id][dv][0], equiplist[id][dv][2]+dnbt, equiplist[id][dv][3], as_cats, (nbt), name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // both nbt datas, no effects
+        else {tooltip(equiplist[id][dv][0], equiplist[id][dv][2]+dnbt, equiplist[id][dv][3], as_cats, (equiplist[id][dv][4]+"<br />"+nbt), name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // both nbt datas, original has effects
     }
 }
 var nt = function() { // function to clear tooltips
