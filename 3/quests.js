@@ -15,7 +15,7 @@ var quests = [ // [quest, claimed, reward, turn]
     ["Obtain a Carrot-based item.", "Unclaimed", "???", "68~71"],
     ["Talk to Morshu.", "Unclaimed", "2 Bombs, 5 Misc EXP"],
     ["Equip a Golden Food.", "Unclaimed", "3 Gold Bars, 150% Farming"],
-    ["Adopt Slime.", "Unclaimed", "Slime"],
+    ["Equip a Sticker.", "Unclaimed", "Orb Sticker"],
 ]
 
 var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, div height]
