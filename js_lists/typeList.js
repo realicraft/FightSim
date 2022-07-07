@@ -8,5 +8,5 @@ var typelist = [
     "ice_type", //6
     "light_type", //7
     "dark_type", //8
-    "missingtype" //9
+    "missingtype", //9
 ]

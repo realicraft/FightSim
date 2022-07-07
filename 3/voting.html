@@ -26,17 +26,109 @@
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
-        <h1>Ongoing Votings</h1>
-        <a href="https://forms.gle/FYL3w41pYdXtbuf28">Treasure Chest</a>
+        <h1>Voting</h1>
+        <p>In FS3, you are capable of voting on features to be added to the game.<br />
+        While this is not the <em>only</em> way to add features, it is the easiest one for players to use.<br />
+        Votes end two turns after they start.<br />
+        Usually, a vote will require a majority, or over half, of votes to be yes votes in order to pass, but some votes require a <em>supermajority</em>, or over two-thirds, of yes votes to pass.
+        </p>
+        <h1>Ongoing Votes</h1>
+        <div class="struct">
+            <span class="icon time" title="In progress."></span>
+            <h2><span class="info-hover" data-info-title="Change Blocking" data-info-desc="We should make blocking based on time rather than post count, because I <em>totally</em> record when posts were made.<br /><br />I don't do that, by the way." id="info-changeblock" onmouseover="info('info-changeblock');" onmouseout="noinfo();">Change Blocking</span></h2>
+            <b><em>Requires supermajority</em></b>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Vote</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr><tr>
+                    <td>realicraft</td>
+                    <td>No</td>
+                    <td>06/30/22</td>
+                    <td>03:41 PDT</td>
+                    <td>70</td>
+                </tr><tr>
+                    <td>TonyBrown148</td>
+                    <td>Yes (1 Day)</td>
+                    <td>06/30/22</td>
+                    <td>03:52 PDT</td>
+                    <td>70</td>
+                </tr>
+            </table>
+        </div>
         <!--<p>None right now.</p>-->
-        <h1>Past Votings</h1>
+        <h1>Past Votes</h1>
+        <a href="https://forms.gle/FYL3w41pYdXtbuf28">Treasure Chest</a>
         <a href="https://forms.gle/4v9agrnpKiNWYX1u5">Garden UI</a>
         <a href="https://forms.gle/Zymzg6YZoHEMmLFs7">Pet/Summon System</a>
         <p>(These will be given tables soon.)</p>
         <div class="struct">
+            <span class="icon time" title="Table to be completed."></span>
+            <h2><span class="info-hover" data-info-title="Treasure Chest" data-info-desc="Man, finding ways to get all these items is <em>complicated</em>! If only I could just reach into a chest and get an item..." id="info-chest" onmouseover="info('info-chest');" onmouseout="noinfo();">Treasure Chest</span></h2>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Vote</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr>
+            </table>
+        </div><div class="struct">
+            <span class="icon passed_multi" title="Multiple parts of this vote passed. (B, C, E)"></span>
+            <h2><span class="info-hover" data-info-title="'Garden' Page UI" data-info-desc="The UI on the Garden page could probably be better.<br />Hmmm..." id="info-gardenui" onmouseover="info('info-gardenui');" onmouseout="noinfo();">Garden UI</span></h2>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th><span class="info-hover" data-info-title="Option A (No change)" data-info-desc="Don't change the UI. Plain and simple." id="info-guiA" onmouseover="info('info-guiA');" onmouseout="noinfo();">A</span></th>
+                    <th><span class="info-hover" data-info-title="Option B (Add spacing)" data-info-desc="Add spacing between the sections in the tables for different players, to improve clarity." id="info-guiB" onmouseover="info('info-guiB');" onmouseout="noinfo();">B</span></th>
+                    <th><span class="info-hover" data-info-title="Option C (Display obtainable items)" data-info-desc="Show what items you can obtain from your crops. This'll have the side effect of making it so that all crops will gain item forms when added." id="info-guiC" onmouseover="info('info-guiC');" onmouseout="noinfo();">C</span></th>
+                    <th><span class="info-hover" data-info-title="Option D (Display loose items as images)" data-info-desc="Currently, the loose crops you've harvested are displayed as numbers on the rightmost column. If this option passes, those numbers will be replaced with item slots containing the items.<br />Incompatible with option E." id="info-guiD" onmouseover="info('info-guiD');" onmouseout="noinfo();">D</span></th>
+                    <th><span class="info-hover" data-info-title="Option E (Move harvested crops to inventory.)" data-info-desc="Just move the crops you've harvested to your inventory. Makes it easy to remember you have them.<br />Incompatible with option D." id="info-guiE" onmouseover="info('info-guiE');" onmouseout="noinfo();">E</span></th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr><tr>
+                    <td>Byron_Inc_TBG</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>03/06/22</td>
+                    <td>04:20 PST</td>
+                    <td>61</td>
+                </tr><!--<tr>
+                    <td>Joyous Theta</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>03/07/22</td>
+                    <td>12:43 PST</td>
+                    <td>61</td>
+                </tr>-->
+            </table>
+        </div><div class="struct">
+            <span class="icon time" title="Table to be completed."></span>
+            <h2><span class="info-hover" data-info-title="Pet/Summon System" data-info-desc="You know what would be cool? Having a pet. Or a summon. Or an ally. Any of them, really." id="info-petsummon" onmouseover="info('info-petsummon');" onmouseout="noinfo();">Pet/Summon System</span></h2>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>Vote</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Turn</th>
+                </tr>
+            </table>
+        </div><div class="struct">
             <span class="icon passed" title="Passed."></span>
             <h2><span class="info-hover" data-info-title="More Inventory Space" data-info-desc="9 is a small number. 12 is a bigger number. Therefore, we should have 12 inventory spacs." id="info-invenbig" onmouseover="info('info-invenbig');" onmouseout="noinfo();">+3 Inventory Spaces</span></h2>
-            <b><em class="pad1">Requires supermajority</em></b>
+            <b><em>Requires supermajority</em></b>
             <table>
                 <tr>
                     <th>Username</th>
@@ -61,7 +153,7 @@
         </div><div class="struct">
             <span class="icon passed" title="Passed."></span>
             <h2><span class="info-hover" data-info-title="Mob Spawning" data-info-desc="Other games have automatically spawning mobs, why not this one?" id="info-mobspawn" onmouseover="info('info-mobspawn');" onmouseout="noinfo();">Automatic Mob Spawning</span></h2>
-            <b><em class="pad1">Requires supermajority</em></b>
+            <b><em>Requires supermajority</em></b>
             <table>
                 <tr>
                     <th>Username</th>
@@ -92,7 +184,7 @@
         </div><div class="struct">
             <span class="icon failed" title="Failed to pass."></span>
             <h2><span class="info-hover" data-info-title="Auto-Acting Structures" data-info-desc='"Gee, it sure is annoying having to do things. Hey, what if I built a structure to do things for me?"' id="info-actonown" onmouseover="info('info-actonown');" onmouseout="noinfo();">Structures that can act on their own</span></h2>
-            <b><em class="pad1">Requires supermajority</em></b>
+            <b><em>Requires supermajority</em></b>
             <table>
                 <tr>
                     <th>Username</th>
@@ -245,7 +337,7 @@
                     <td>TT</td>
                 </tr>-->
             </table>
-        </div><span class="easter_egg" data-egg="4"></span><div class="struct">
+        </div><div class="struct">
             <span class="icon passed" title="Passed."></span>
             <h2><span class="info-hover" data-info-title="Structures" data-info-desc="Tired of not having a house? Make your own house!" id="info-struct" onmouseover="info('info-struct');" onmouseout="noinfo();">Buildable Structures</span></h2>
             <table>
@@ -293,7 +385,6 @@
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
         <script src="../js_lists/headerLinks.js"></script>
-        <script src="../js_lists/eggList.js"></script>
         <script src="allpages.js"></script>
         <script src="info.js"></script>
     </body>

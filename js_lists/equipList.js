@@ -88,7 +88,11 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Flint", "flint", "A piece of flint.", "Crafting", "Potion effect: 50% chance of Attack Up (1 turn)", [11], 1, 3]], //86
     [["String", "string", "A piece of string.", "Gathering", "", [11], 1, 3]], //87
     [["Bow", "bow", "A bow. You can shoot arrows with it.", "Crafting", "+1 Indirect Attack<br />Consume 1 Arrow for +1 Direct Attack", [5,22], 2, 9]], //88
-    [["Arrow", "arrow", "An arrow.", "Crafting", "Use it with a bow", [22], 1, 4]], //89
+    [
+        ["Arrow", "arrow", "An arrow.", "Crafting", "Use it with a bow", [22], 1, 4], //0
+        ["Poisoned Arrow", "poison_arrow", "An arrow that's been poisoned.", "Crafting", "Use it with a bow<br />Inflicts Poisoned for one turn", [22], 1, 6], //1
+        ["Flame Arrow", "fire_arrow", "An arrow that's been set on fire.", "Crafting", "Use it with a bow<br />Inflicts On Fire for one turn", [22], 1, 0], //2
+    ], //89
     [["Empty Can", "can", "A can with nothing in it.", "Crafting", "Fill it with stuff", [11], 1, 1]], //90
     [["Canned Water", "can", "A can with water in it. You can drink it.", "Crafting", "Drink for 3 HP", [30], 1, 2]], //91
     [["Can of Beans", "can", "A can with beans in it.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //92
@@ -218,7 +222,15 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Blue Potion", "potion_blue", "A bottle filled with a blue liquid. Who knows what it does?", "Alchemy", "", [16], 1, 0], //5
         ["Purple Potion", "potion_purple", "A bottle filled with a purple liquid. Who knows what it does?", "Alchemy", "", [16], 1, 0], //6
     ], //207
-    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Orange Potion; 208 -> 207:1)", "", "", [], 0, 0]], //208
+    [
+        ["Red Splash Potion", "splash_potion_red", "A bottle filled with a red liquid, meant to be thrown. Who knows what it does?", "Alchemy", "", [16,21], 1, 0], //0
+        ["Orange Splash Potion", "splash_potion_orange", "A bottle filled with an orange liquid, meant to be thrown. Who knows what it does?", "Alchemy", "", [16,21], 1, 0], //1
+        ["Yellow Splash Potion", "splash_potion_yellow", "A bottle filled with a yellow liquid, meant to be thrown. Who knows what it does?", "Alchemy", "", [16,21], 1, 0], //2
+        ["Green Splash Potion", "splash_potion_green", "A bottle filled with a green liquid, meant to be thrown. Who knows what it does?", "Alchemy", "", [16,21], 1, 0], //3
+        ["Cyan Splash Potion", "splash_potion_cyan", "A bottle filled with a cyan liquid, meant to be thrown. Who knows what it does?", "Alchemy", "", [16,21], 1, 0], //4
+        ["Blue Splash Potion", "splash_potion_blue", "A bottle filled with a blue liquid, meant to be thrown. Who knows what it does?", "Alchemy", "", [16,21], 1, 0], //5
+        ["Purple Splash Potion", "splash_potion_purple", "A bottle filled with a purple liquid, meant to be thrown. Who knows what it does?", "Alchemy", "", [16,21], 1, 0], //6
+    ], //208
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Yellow Potion; 209 -> 207:2)", "", "", [], 0, 0]], //209
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Green Potion; 210 -> 207:3)", "", "", [], 0, 0]], //210
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Cyan Potion; 211 -> 207:4)", "", "", [], 0, 0]], //211
@@ -416,7 +428,12 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Used Disposable Phone", "used_disp_phone", "A cheap phone, which was broken, tossed into the sea, and then fished back up again.", "Fishing", "", [26], 1, 0]], //385
     [["Morshu's Express Pack", "crate", "A crate from Morshu, containing lamp oil, rope, and bombs.", "Phone", "Open it", [20], 1, 0]], //386
     [["Takeout Express Variety Pack", "crate", "A cardboard box with a crate-like pattern, filled with various food.", "Phone", "Open it and eat the food", [20], 1, 0]], //387
-    [["Mama June's Pepperoni Pizza", "pizza", "A pizza from the \"local\" Mama June's Pizza.", "Phone", "+12 HP on consume", [10], 1, 0]], //388
+    [
+        ["Mama June's Pepperoni Pizza", "pizza", "A pepperoni pizza from the \"local\" Mama June's Pizza.", "Phone", "+12 HP on consume", [10], 1, 0], //0
+        ["Mama June's Cheese Pizza", "cheese_pizza", "A cheese pizza from the \"local\" Mama June's Pizza.", "Phone", "+8 HP on consume", [10], 1, 0], //1
+        ["Mama June's Meatlovers Pizza", "meat_pizza", "A pizza from the \"local\" Mama June's Pizza with three different kinds of meat on it.", "Phone", "+15 HP on consume", [10], 2, 0], //2
+        ["Mama June's Hawaiian Pizza", "pineapple_pizza", "A hawaiian pizza from the \"local\" Mama June's Pizza. Did you know that hawaiian pizza <em>isn't</em> named after the state?", "Phone", "+10 HP on consume", [10], 1, 0], //3
+    ], //388
     [["Coin", "coin", "A coin that you minted yourself. It's obviously counterfeit, since you just swirled the gold and copper together, but for some reason all the stores you call will take it anyway?", "Crafting", "", [20], 1, 0]], //389
     [["Cod", "cod", "A small cod.", "Fishing", "Cook it to make it edible", [26], 1, 4]], //390
     [["Cooked Cod", "cooked_cod", "A small cod, cooked to perfection.", "Cooking", "Consume for +7 HP.", [10,30], 1, 6]], //391
@@ -593,7 +610,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Electrum Dust", "electrum_dust", "A pile of electrum dust. It's like redstone, but green, and also made redundant by the Wire String.", "Crafting", "Potion effect: Makes a Splash Potion", [11,46], 1, 3]], //562
     [["Gold Dust", "gold_dust", "A pile of gold dust. May or may not be edible.", "Crafting", "Potion effect: 30% chance to make mobs drop money for two turns", [11,46], 1, 4]], //563
     [["Poison Powder", "poison_powder", "A pile of poisonous powder. Be careful not to breath it in.", "Crafting", "Blow it at someone to Poison them<br />If it's windy, 20% chance to poison yourself instead", [46], 1, 4]], //564
-    [["Sleep Powder", "sleep_powder", "A pile of sleep-inducing powder. It's smells like chloroform.", "Crafting", "Blow it at someone to inflict Asleep<br />If it's windy, 20% chance to inflict Asleep on yourself instead", [46], 1, 5]], //565
+    [["Sleep Powder", "sleep_powder", "A pile of sleep-inducing powder. It smells like chloroform.", "Crafting", "Blow it at someone to inflict Asleep<br />If it's windy, 20% chance to inflict Asleep on yourself instead", [46], 1, 5]], //565
     [["Static Powder", "static_powder", "A pile of paralytic powder. Be careful not to swallow it.", "Crafting", "Blow it at someone to Paralyze them<br />If it's windy, 20% chance to paralyze yourself instead", [46], 1, 4]], //566
     [["Spark Dust", "spark_dust", "A pile of warm dust. It's quite flammable, and can be ignited using only pressure.", "Crafting", "Blow it at someone to set them On Fire<br />If it's windy, 20% chance to ignite yourself instead<br />If you take over 25 damage at once, this will ignite and set you On Fire", [11,46], 2, 7]], //567
     [["Glass Dust", "glass_dust", "A pile of glass, in dust form. This hurts your hands just touching it.", "Crafting", "Blow it at someone to make them Itchy<br />If it's windy, 30% chance to make yourself itchy instead<br />If you are not wearing gloves when throwing this, 50% chance to make yourself itchy", [46], 1, 3]], //568
@@ -639,8 +656,14 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Olive", "olive", "A single olive. Goes well on pizza.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //608
     [["Ripe Olive", "ripe olive", "A single olive that's riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7]], //609
     [["Golden Olive", "gold_olive", "A single golden olive. Not sure how olives make you smart, but it's worth a shot.", "Farming", "+0.5 INT", [9], 2, 15]], //610
-    [["Pepper", "pepper", "A pepper. It's spicy.", "Farming", "+3 HP on consume<br />Inflicts one turn of Spicy!", [10,30], 1, 5]], //608
-    [["Ripe Pepper", "ripe pepper", "A pepper that's riper than usual. It's even spicier.", "Farming", "+7 HP on consume<br />Inflicts one turn of Spicy!<br />50% chance to inflict a second turn of Spicy!", [10,30], 1, 7]], //609
-    [["Golden Pepper", "gold_pepper", "A golden pepper. Now <em>you're</em> spicy!", "Farming", "+0.7 <span class='fire'>Fire</span> damage", [9], 2, 15]], //610
-    [["Blocking Shield", "blocking_shield", "A wooden shield reinforced with an iron cross. Unlike other shields, this one increases Block Range.", "Crafting", "+1 Block Range", [7], 2, 13]], //611
+    [["Pepper", "pepper", "A pepper. It's spicy.", "Farming", "+3 HP on consume<br />Inflicts one turn of Spicy!", [10,30], 1, 5]], //611
+    [["Ripe Pepper", "ripe pepper", "A pepper that's riper than usual. It's even spicier.", "Farming", "+7 HP on consume<br />Inflicts one turn of Spicy!<br />50% chance to inflict a second turn of Spicy!", [10,30], 1, 7]], //612
+    [["Golden Pepper", "gold_pepper", "A golden pepper. Now <em>you're</em> spicy!", "Farming", "+0.7 <span class='fire'>Fire</span> damage", [9], 2, 15]], //613
+    [["Blocking Shield", "blocking_shield", "A wooden shield reinforced with an iron cross. Unlike other shields, this one increases Block Range.", "Crafting", "+1 Block Range", [7], 2, 13]], //614
+    [["Coconut", "coconut", "A coconut. It has water in it.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //615
+    [["Ripe Coconut", "ripe coconut", "A coconut that's riper than usual. It has more water in it.", "Farming", "+9 HP on consume<br />50% chance to remove one turn of a random <span class='fire'>Fire</span> debuff, if you have one", [10,30], 1, 7]], //616
+    [["Golden Coconut", "gold_coconut", "A golden coconut. Now <em>you</em> have water!", "Farming", "+0.7 <span class='water'>Water</span> damage", [9], 2, 15]], //617
+    [["White Tulip", "white_tulip", "A white tulip. Can be turned into white dye.", "Gardening", "", [14,15], 1, 5]], //618
+    [["Sunflower", "sunflower", "A sunflower. Can be turned into yellow dye.", "Gardening", "Potion effect: +1 <span class='light'>Light</span> damage", [14,15], 1, 7]], //619
+    [["Chocolate Egg", "egg_chocolate", "A small chocolate in the shape of an egg. What could be inside it?", "Easter", "+1 HP on consume<br />Filled with something random", [10,30], 3, 0]], //620
 ]

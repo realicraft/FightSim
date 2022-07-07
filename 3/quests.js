@@ -7,10 +7,10 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Use a Disposable Phone.", "Unclaimed", "2 Disposable Phones", "69"],
-    ["Block an attack.", "Unclaimed", "+0.2 Direct Defense", "69"],
-    ["Use a current or former Mystery Skill.", "Unclaimed", "1 Random Potion, 1 Random Fish, 2 Clay", "69"],
-    ["Create a Structure.", "Byron_Inc_TBG", "Stone Hammer", "68~71"],
+    ["Use a Disposable Phone.", "Unclaimed", "2 Disposable Phones", "70"],
+    ["Cook something.", "Unclaimed", "Tray of Cookies", "70"],
+    ["Use a current or former Mystery Skill.", "Unclaimed", "1 Random Potion, 1 Random Fish, 2 Clay", "70"],
+    ["Create a Structure.", "Claimed by Byron_Inc_TBG", "Stone Hammer", "68~71"],
     ["Die twice.", "Unclaimed", "Regen Potion", "68~71"],
     ["Obtain a Carrot-based item.", "Unclaimed", "???", "68~71"],
     ["Talk to Morshu.", "Unclaimed", "2 Bombs, 5 Misc EXP"],
@@ -65,9 +65,12 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Use a Disposable Phone.", "Claimed by realicraft", "2 Disposable Phones", "69"],
+        ["Block an attack.", "Claimed by realicraft", "+0.2 Direct Defense", "69"],
+        ["Use a current or former Mystery Skill.", "Unclaimed", "1 Random Potion, 1 Random Fish, 2 Clay", "69"],
         ["Carve something.", "Unclaimed", "60% Carving Exp", "68"],
-        ["Craft 2 items.", "TonyBrown148", "50% Crafting Exp, 1 Coal", "68"],
-        ["Obtain an item.", "TonyBrown148", "1 Item Candy", "68"],
+        ["Craft 2 items.", "Claimed by TonyBrown148", "50% Crafting Exp, 1 Coal", "68"],
+        ["Obtain an item.", "Claimed by TonyBrown148", "1 Item Candy", "68"],
         ["Fight a mob.", "Unclaimed", "1 Gold Sword", "67"],
         ["Do some Pottery.", "Unclaimed", "10 Misc EXP", "67"],
         ["Obtain a Sticker.", "Unclaimed", "1 Knife Sticker", "67"],

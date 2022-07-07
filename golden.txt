@@ -1,14 +1,11 @@
 - Stats
 Ind. Atk     | Corn Cob (0.4)
 Dir. Atk     | Cabbage (0.2)
-Ind. Def     | Carrot (0.3)
-|            | Golden Carrot (0.7)
+Ind. Def     | Carrot (0.3), Golden Carrot (0.7)
 Dir. Def     | Can of Beans (0.2)
-Max HP       | Apple (0.5)
-|            | Golden Apple (1.2)
+Max HP       | Apple (0.5), Golden Apple (1.2)
 HP/Turn      | Flesh (0.3)
-DA/Sour!     | Lemon (1)
-|            | Lime (1.1)
+DA/Sour!     | Lemon (1), Lime (1.1)
 IA&STR/PSN   | Poisonberry (1/1)
 - Skills
 Mining       | Radish (0.2)
@@ -29,3 +26,4 @@ DEX          | Grapes (0.5)
 INT          | Olive (0.5)
 - Damage
 Fire         | Pepper (0.7)
+Water        | Coconut (0.7)

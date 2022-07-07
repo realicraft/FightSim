@@ -48,4 +48,11 @@ var categorylist = [ // [name]
     ["Powder"], //46
     ["Explosive"], //47
     ["Container"], //48
+    ["<span class='fire2'>Fire</span>"], //49
+    ["<span class='water2'>Water</span>"], //50
+    ["<span class='electric2'>Electric</span>"], //51
+    ["<span class='plant2'>Plant</span>"], //52
+    ["<span class='ice2'>Ice</span>"], //53
+    ["<span class='light2'>Light</span>"], //54
+    ["<span class='dark2'>Dark</span>"], //55
 ]

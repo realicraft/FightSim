@@ -37,14 +37,15 @@ and so on
 --------------
 GAIN RECORD
 
-reali: (37)
- Combat: (1)
+reali: (42)
+ Combat: (2)
   Kill: 1 (1)
+  Block an Attack: 1 (1)
  Skill: (12)
   Level Up: 5 (10)
   Crit: 1 (2)
- Misc: (23)
-  Turn Quest: 4 (8)
+ Misc: (27)
+  Turn Quest: 6 (12)
   Full Quest: 1 (10)
   Quest Bonus: (5)
 SausageMcSauce: (9)
@@ -129,8 +130,9 @@ LeopardyLeaf: (2)
  Skill: (2)
   Crit: 1 (2)
  Misc:
-gilbert: (78)
+gilbert: (80)
  Combat:
+  Deal Damage: 1 (2)
  Skill: (10)
   Level Up: 4 (8)
   Crit: 1 (2)
@@ -170,10 +172,10 @@ iwantpie21 (Bobby):
  Combat:
  Skill:
  Misc:
-TonyBrown148: (20)
+TonyBrown148: (22)
  Combat:
- Skill: (14)
-  Level Up: 6 (12)
+ Skill: (16)
+  Level Up: 7 (14)
   Crit: 1 (2)
  Misc: (6)
   Turn Quest: 3 (6)

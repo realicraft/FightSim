@@ -13,11 +13,17 @@ reali:
    Player Level (+2)
   Indirect Attack: (+1)
    Santa Hat (+1)
+  Direct Attack: (-1)
+   Bleeding (-1)
   Indirect Defense: (+1.7)
    Santa Hat (+1)
    LTT Hoodie (+0.7)
+  Direct Defense: (+0.2)
+   Quest Bonus (+0.2)
   INT: (+2)
    LTT Hoodie (+2)
+  HP/Turn: (-5)
+   Bleeding (-5)
  Skills:
   Fishing: (+0.7)
    Goldfish Sticker (+0.7)
@@ -43,10 +49,10 @@ Incendiary:
  Skills:
 Byron:
  Stats:
-  Indirect Defense: (+8.6)
+  Indirect Defense: (+8.7)
    Iron Chestplate (+1)
    Diamond Shield (+1)
-   Golden Carrots (+5.4)
+   Golden Carrots (+5.5)
    Diamond Band (+1.2)
   Direct Defense: (+2)
    Iron Chestplate (+1)
@@ -137,12 +143,12 @@ iwantpie21 (Bobby):
  Skills:
 TonyBrown148:
  Stats:
-  Direct Attack: (+1.8)
-   Emerald Hammer (+1.8)
-  Indirect Attack: (+0.7)
-   Emerald Hammer (+0.7)
+  Direct Attack: (+1.6)
+   Emerald Pickaxe (+1.6)
+  Indirect Attack: (+0.8)
+   Emerald Pickaxe (+0.8)
   Health: (+1)
    Player Level (+1)
  Skills:
-  Construction: (+2.9)
-   Emerald Hammer (+2.9)
+  Mining: (+2.9)
+   Emerald Pickaxe (+2.9)

@@ -22,15 +22,3 @@ tooltipEl.innerHTML = tooltipCont
 
 var infoCont = '<h3 class="info_name">Info Topic</h3><br /><p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>'
 infoEl.innerHTML = infoCont
-
-var egg_els = document.getElementsByClassName("easter_egg")
-for (var i of egg_els) {
-    egg_id = i.dataset.egg
-    i.innerHTML = '<span class="icon ' + egglist[egg_id][1] + '" onClick="egg(' + egg_id + ')"></span>'
-}
-
-var egg = function(id) {
-    alert(
-        "You found an egg!\n[" + egglist[id][0] + "]\n" + egglist[id][3] + "\nCode: " + egglist[id][2] + "\nReward: " + egglist[id][4]
-    )
-}

@@ -28,10 +28,12 @@
 .kd_disp .vab{ 
     left: 208px;
 }
-.lh { 
-    position: relative; line-height: 32px;
-}
 .combat_disp .vat, .combat_disp .vab, .lh, .combat_summon_div_inner .vat, .combat_summon_div_inner .vab { 
+    top: 4px;
+}
+.lh { 
+    position: relative;
+    line-height: 32px;
     top: 2px;
 }
 .health_disp, .combat_disp, .kd_disp { 

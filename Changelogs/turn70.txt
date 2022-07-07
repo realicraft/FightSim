@@ -1,0 +1,70 @@
+Changelog for Turn 70
+
+Easter Event
+- event ended
+- removed eggs and calls to eggList.js from pages
+
+Mobs
+-
+
+Items
+- added icon for blocking shield (i had to reinstall debian to get pikopixel to even run)
+- added coconuts
+- added poisoned and flame arrows
+- added a white tulip and a sunflower
+- added a chocolate egg
+- added three new types of pizza, available from your "local" mama june's pizza
+- added splash potions
+
+Effcts
+- nerfed regen effects
+- added element categories to a few effects
+- reduced time to be marked afk by one turn
+- added very afk effect
+- added night vision effect
+- added an icon for the blind effect
+- new effects for being charged with fire/water/electricity
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- 
+
+Quests
+- replaced third full quest
+
+Phone System
+- added a new buisness based on a submission i somehow missed (has three phone numbers)
+
+Helpers
+- added a new helper for golden food bonuses
+
+Votes
+- started on tables for the form-based votes
+- added icons for votes passing with options c through g, plus multiple options
+
+Internal
+- removed a small message from the structures page
+- removed some really old data from a previous player
+- removed the old copy of the mob table
+- removed an unused css instruction from the crafting page
+
+Misc
+- fixed issue where the scroll of recruit ally wasn't removed from byron's inventory
+- changed the color of the text for the water element to provide more contrast with dark backgrounds
+- updated the main body font:
+  - increased decender length by one pixel
+  - added two pixels for ascenders
+  - reduced x-height by one pixel
+  - greatly improved italic/bold-italic versions
+  - added cent sign
+- body-bold-double has not been updated yet
+- moved the text in the attack/defense portion of the player table down 2 pixels
+- fixed a typo in the description for sleep powder
+- added a lead paragraph to the votes page
+- adjusted the position of the turn count in the timebox up 2 pixels
+- fixed issue where stack counts on the stats page were not present

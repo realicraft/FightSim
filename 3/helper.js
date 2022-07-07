@@ -37,7 +37,6 @@ var run_conv = function() {
     var inEl = document.getElementById("conv_in")
     var outEl = document.getElementById("conv_out")
     var cont = inEl.value
-    //var cont = "abc"
     var outCont = ""
     var semiCont = ""
     var partA = ""
@@ -67,4 +66,17 @@ var run_conv = function() {
         cont = cont.slice(k+1)
     }
     outEl.value = outCont
+}
+
+/* Golden Food Bonus Calc */
+var run_gfood = function() {
+    var bonusEl = document.getElementById("gfood_bonus")
+    var countEl = document.getElementById("gfood_count")
+    var outputEl = document.getElementById("gfood_output")
+    var multi = 0
+    for (var i = 0; i < countEl.value; i++) {
+        multi += 0.95 ** (i)
+        console.log(multi)
+    }
+    outputEl.innerText = bonusEl.value * multi
 }

@@ -1,6 +1,6 @@
 var replaceSingleList = { // keyword: replacement
     "hr": "[img=Horizontal rule]https://realicraft.github.io/FightSim/Icons/Exported/hr.png[/img]",
-    "links": "[url=https://realicraft.github.io/FightSim/3/]Website[/url] [url=https://fightsim.miraheze.org/wiki/Main_Page]Wiki[/url]",
+    "links": "[url=https://realicraft.github.io/FightSim/3/]Website[/url] [url=https://fightsim.miraheze.org/wiki/Main_Page]Wiki[/url] [url=https://forms.gle/VtpwBew9qHj1NcUt9]Disp. Phone Submission Form[/url]",
     "coi": "[img=Coin]https://realicraft.github.io/FightSim/Icons/Text/coin.png[/img]",
     "dec": "[img=Decicoin]https://realicraft.github.io/FightSim/Icons/Text/decicoin.png[/img]",
     "dol": "[img=Dollar Bill]https://realicraft.github.io/FightSim/Icons/Text/dollar_bill.png[/img]",
@@ -21,4 +21,12 @@ var replaceDoubleList = { // keyword: "replacement before", "replacement after"
     "phone": ["[img=Phone]https://realicraft.github.io/FightSim/Icons/Text/phone.png[/img][color=#0f5f0f]", "[/color]"],
     "comment": ["([color=transparent]","[/color])"],
     "quote": ["[quote]","[/quote]"],
+    "normal": ["[color=#5f5f5f]","[/color]"],
+    "fire": ["[color=#4f0f0f]","[/color]"],
+    "water": ["[color=#0f0f5f]","[/color]"],
+    "elec": ["[color=#4f4f0f]","[/color]"],
+    "plant": ["[color=#0f4f0f]","[/color]"],
+    "ice": ["[color=#0f4f4f]","[/color]"],
+    "light": ["[color=#5f5f1f]","[/color]"],
+    "dark": ["[color=#1f1f4f]","[/color]"],
 }
