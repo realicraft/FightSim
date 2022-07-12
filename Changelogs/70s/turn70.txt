@@ -4,9 +4,6 @@ Easter Event
 - event ended
 - removed eggs and calls to eggList.js from pages
 
-Mobs
--
-
 Items
 - added icon for blocking shield (i had to reinstall debian to get pikopixel to even run)
 - added coconuts
@@ -16,7 +13,7 @@ Items
 - added three new types of pizza, available from your "local" mama june's pizza
 - added splash potions
 
-Effcts
+Effects
 - nerfed regen effects
 - added element categories to a few effects
 - reduced time to be marked afk by one turn
@@ -24,15 +21,6 @@ Effcts
 - added night vision effect
 - added an icon for the blind effect
 - new effects for being charged with fire/water/electricity
-
-Scrolls
-- 
-
-Skills
-- 
-
-Gardens
-- 
 
 Quests
 - replaced third full quest

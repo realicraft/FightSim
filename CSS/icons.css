@@ -2140,6 +2140,67 @@ span.small_icon {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -64px -128px;
 }
+.iron_nugget {
+    background-image: url("../Icons/Exported/ore_sheet.png");
+    background-position: -160px -96px;
+}
+.copper_nugget {
+    background-image: url("../Icons/Exported/ore_sheet.png");
+    background-position: -192px -96px;
+}
+.gold_nugget {
+    background-image: url("../Icons/Exported/ore_sheet.png");
+    background-position: -224px -96px;
+}
+.hardite_nugget {
+    background-image: url("../Icons/Exported/ore_sheet.png");
+    background-position: -0px -128px;
+}
+.red_sand {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -0px -128px;
+}
+.red_sandstone {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -32px -128px;
+}
+.red_sandstone_bricks {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -64px -128px;
+}
+.red_carved_sandstone {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -96px -128px;
+}
+.red_sandstone_brick_wall {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -128px -128px;
+}
+.snow_block {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -160px -128px;
+}
+.cookie_tray {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -96px -128px;
+}
+.banana {
+    background-image: url("../3/banana.gif");
+    background-repeat: no-repeat;
+    background-position: 9px 7px;
+}
+.bun {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -128px -128px;
+}
+.bread {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -160px -128px;
+}
+.wire {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -224px -32px;
+}
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
 span.cr_hp_4, span.cr_hp_5, span.cr_hp_6, span.cr_hp_7, 
@@ -2924,6 +2985,18 @@ span.cr_df_flight {
     background-image: url("../Icons/Exported/info_sheet.png");
     background-position: -208px -32px;
 }
+.thunder, .lightning {
+    background-image: url("../Icons/Exported/info_sheet.png");
+    background-position: -192px -48px;
+}
+.temp_hot {
+    background-image: url("../Icons/Exported/info_sheet.png");
+    background-position: -176px -32px;
+}
+.temp_cold {
+    background-image: url("../Icons/Exported/info_sheet.png");
+    background-position: -176px -48px;
+}
 .day {
     background-image: url("../Icons/Exported/info_sheet.png");
     background-position: -128px 0px;
@@ -2975,6 +3048,10 @@ span.cr_df_flight {
 .phone_small {
     background-image: url("../Icons/Exported/info_sheet.png");
     background-position: -112px -32px;
+}
+.craft_meatpaste {
+    background-image: url("../Icons/Exported/info_sheet.png");
+    background-position: -208px -48px;
 }
 /* effects */
 .enchanted {

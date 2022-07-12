@@ -7,12 +7,12 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Use a Disposable Phone.", "Unclaimed", "2 Disposable Phones", "70"],
-    ["Cook something.", "Unclaimed", "Tray of Cookies", "70"],
-    ["Use a current or former Mystery Skill.", "Unclaimed", "1 Random Potion, 1 Random Fish, 2 Clay", "70"],
+    ["Plant a crop or flower.", "Unclaimed", "2 Fertilizer", "71"],
+    ["Cook something.", "Unclaimed", "Tray of Cookies", "71"],
+    ["Use a current or former Mystery Skill.", "Unclaimed", "500% in that skill", "71"],
     ["Create a Structure.", "Claimed by Byron_Inc_TBG", "Stone Hammer", "68~71"],
     ["Die twice.", "Unclaimed", "Regen Potion", "68~71"],
-    ["Obtain a Carrot-based item.", "Unclaimed", "???", "68~71"],
+    ["Obtain a Carrot-based item.", "Claimed by realicraft", "200% Farming, 200% Cooking, 200% Gathering, 3 Iron Bars", "68~71"],
     ["Talk to Morshu.", "Unclaimed", "2 Bombs, 5 Misc EXP"],
     ["Equip a Golden Food.", "Unclaimed", "3 Gold Bars, 150% Farming"],
     ["Equip a Sticker.", "Unclaimed", "Orb Sticker"],
@@ -65,6 +65,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Use a Disposable Phone.", "Claimed by realicraft", "2 Disposable Phones", "70"],
+        ["Cook something.", "Unclaimed", "Tray of Cookies", "70"],
+        ["Use a current or former Mystery Skill.", "Unclaimed", "1 Random Potion, 1 Random Fish, 2 Clay", "70"],
         ["Use a Disposable Phone.", "Claimed by realicraft", "2 Disposable Phones", "69"],
         ["Block an attack.", "Claimed by realicraft", "+0.2 Direct Defense", "69"],
         ["Use a current or former Mystery Skill.", "Unclaimed", "1 Random Potion, 1 Random Fish, 2 Clay", "69"],

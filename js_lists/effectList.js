@@ -18,7 +18,7 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses, [c
     ["Defense Up", "def_up", "You feel sturdier, and take less damage.", "Potions", "+1 Direct Defense", [34, 36], 1], //16
     ["Defense Up+", "def_up", "You feel sturdier, and take less damage.", "Potions", "+2 Direct Defense", [34, 36], 1], //17
     ["Defense Up++", "def_up", "You feel significantly sturdier, and take less damage.", "Potions", "+3 Direct Defense", [34, 36], 2], //18
-    ["Blind", "blind", "Hey, who turned the lights out?", "Potions/Sand", "40% chance of missing an attack", [34, 35], 1], //19
+    ["Blind", "blind", "Hey, who turned the lights out?", "Potions/Sand", "40% chance of missing an attack", [34, 35, 55], 1], //19
     ["Badly Poisoned", "poisoned", "Okay, maybe <i>avoid</i> the purple stuff.", "Poison", "-9 to 6 HP each turn, depending on remaining duration", [34, 35], 2], //20
     ["Asleep", "sleep", "The ground isn't a very good place to sleep, you know.", "Sleeping", "Can't do anything<br />Can attempt to wake up, 75% success rate<br />Getting hit removes this effect", [34, 35], 1], //21
     ["Deep Sleep", "deep_sleep", "Hey, wake up already!", "Sleeping", "Can't do anything<br />Can attempt to wake up, 45% success rate<br />Getting hit replaces this effect with Asleep", [34, 35], 2], //22
@@ -38,7 +38,7 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses, [c
     ["Intimidated", "intimidated", "Someone intimidated you, and now you're kinda scared.", "Unknown", "-1 Direct Attack", [34, 35], 1], //36
     ["Defending Ally", "shield", "You're defending your Ally (or Summon.)", "Unknown", "Ally/Summon gains 2 Direct Defense<br />You take 50% of damage ally/summon would have taken", [34, 36], 1], //37
     ["Very AFK", "very_afk", "You ever gonna, like, start playing again? No? Then I call dibs on your inventory.", "Not playing for 8 turns", "Can't be interacted with, except for theft", [34], 3], //38
-    ["Night Vision", "night_vision", "You are better at seeing at night.<br /><br />Since your sight during the night is basically the same as during the day, this is just a night-locked sight boost.", "Potions", "Does nothing during daytime or dawn<br />+1 All Accuracy<br />+2 AGI/DEX<br />+1 to all Skills"], //39
+    ["Night Vision", "night_vision", "You are better at seeing at night.<br /><br />Since your sight during the night is basically the same as during the day, this is just a night-locked sight boost.", "Potions", "Does nothing during daytime or dawn<br />+1 All Accuracy<br />+2 AGI/DEX<br />+1 to all Skills", [34, 35], 2], //39
     ["Fire-charged", "on_fire", "You're engulfed in a surprisingly harmless layer of fire. You should put it somewhere.", "Unknown", "Expended on melee attack to deal 10 <span class='fire'>Fire</span> damage<br />Auto-expended when melee attacked<br />Can be turned into 3 Fire", [34, 35, 49], 3], //40
     ["Water-charged", "soaked", "You're covered in a layer of water (yet you can still breathe). You should put it somewhere.", "Unknown", "Expended on melee attack to deal 10 <span class='water'>Water</span> damage<br />Auto-expended when melee attacked<br />Can be turned into 3 Water", [34, 35, 50], 3], //41
     ["Thunder-charged", "paralyzed", "You're brimming with electricity. You should put it somewhere.", "Lighting", "Expended on melee attack to deal 10 <span class='electric'>Electric</span> damage<br />Auto-expended when melee attacked<br />Can be turned into 3 Batteries", [34, 35, 51], 3], //42

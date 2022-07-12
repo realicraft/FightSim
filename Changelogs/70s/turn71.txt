@@ -1,0 +1,57 @@
+Changelog for Turn 71
+
+Mobs
+-
+
+Items
+- the tray of cookies is now a grab bag which gives 1d4+4 random cookies
+- bread now heals 10 hp but counts as two food
+- added four more nuggets
+- added icons for a lot of items
+- added red sand, plus sandstone and associated items
+- added hotdog
+- added a little bun of bread
+- reimplemented the banana icon
+
+Crafting
+- you can now craft butter
+- made some cooking recipes require cooking levels
+- buffed the returns of the cookie recipes
+
+Effects
+- marked blind as dark-aligned
+- fixed issue where night vision did not have a defined category list or rarity
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- 
+
+Quests
+- 
+
+Phone System
+- fixed some text alignment on the contacts page
+- fixed issue where the phones thrown into the ocean last turn weren't acknowledged by fishing
+
+Helpers
+- 
+
+Votes
+- 
+
+Internal
+- 
+
+Misc
+- removed several empty fields from the turn 70 changelog
+- organized changelogs into folders, like turns
+- changed the color of the text for the dark element to provide more contrast with dark backgrounds
+- changed the icon for sunny weather
+- added icons for lightning without rain, plus unusually high/low temperatures
+- implemented the icon for meatpasting
+- if you're reading this, mention sticks in your post for a prize

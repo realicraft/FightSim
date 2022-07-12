@@ -42,20 +42,32 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Flint & Steel", "flint_and_steel", "Sets things on fire.", "Crafting", "+30% chance to inflict On Fire on hit for 1 turn<br />+1 <span class=\"fire\">Fire</span> damage", [5,20], 1, 7]], //40
     [["TNT", "tnt", "Explodes after being ignited.", "Unknown", "", [17,47], 2, 0]], //41
     [["Icicle", "icicle", "It's cold, and kinda pointy.", "Gathering", "+10% chance to inflict Frozen on hit for 1 turn<br />+1 <span class=\"ice\">Ice</span> damage", [5,23], 1, 5]], //42
-    [["Tray of Cookies", "cookie_tray", "A tray filled with cookies.", "Cooking", "", [20], 1, 0]], //43
+    [["Tray of Cookies", "cookie_tray", "A tray filled with cookies.", "Cooking", "Gain 1d4+4 random cookies", [20, 42], 1, 0]], //43
     [["Log", "log", "A log.", "Chopping", "", [17], 1, 8]], //44
     [["Stick", "stick_item", "It's a stick. You can use it in a bunch of different things.", "Chopping", "Counts as 1 fuel unit", [11,27], 1, 1]], //45
     [["Planks", "planks", "Some planks.", "Chopping", "Counts as 2 fuel units", [17,11,27], 1, 2]], //46
     [["Rotting Mush", "crop_mush", "Eww, why did you keep this?", "Farming", "Make it into fertilizer, or just get rid of it<br />Potion effect: Nausea (1 turn)", [30,14,11], 1, 0]], //47
     [["Banana", "banana", "Potassium", "Unknown", "Eat it for potassium", [14,10,30], 3, 12]], //48
-    [["Sand", "sand", "A cube of sand. Carful, or it'll get everywhere.", "Digging", "Throw it at someone to Blind them for a turn", [17,21], 1, 3]], //49
+    [
+        ["Sand", "sand", "A cube of sand. Carful, or it'll get everywhere.", "Digging", "Throw it at someone to Blind them for a turn", [17,21], 1, 3],
+        ["Red Sand", "red_sand", "A cube of red sand. It's red because of iron. I think.", "Digging", "Throw it at someone to Blind them for a turn", [17,21], 1, 4],
+    ], //49
     [["Gravel", "gravel", "A cube of gravel. Maybe there's some flint in there?", "Digging", "", [17], 1, 4]], //50
     [["Stone", "stone", "A cube of stone. Finally, some decent tools!", "Mining", "", [17,24,11], 1, 5]], //51
-    [["Sandstone", "sandstone", "A cube of sandstone.", "Crafting", "", [17], 1, 5]], //52
+    [
+        ["Sandstone", "sandstone", "A cube of sandstone.", "Crafting", "", [17], 1, 5],
+        ["Red Sandstone", "red_sandstone", "A cube of red sandstone.", "Crafting", "", [17], 1, 6],
+    ], //52
     [["Bricks", "bricks", "A cube of bricks. You could make a wall out of this.", "Crafting", "", [17], 1, 6]], //53
     [["Stone Bricks", "stone_bricks", "A cube of stone bricks. You could make a wall out of this.", "Crafting", "", [17], 1, 8]], //54
-    [["Sandstone Bricks", "sandstone_bricks", "A cube of sandstone bricks. You could make a wall out of this.", "Crafting", "", [17], 1, 8]], //55
-    [["Carved Sandstone", "carved_sandstone", "A cube of carved sandstone. Nice carvings.", "Carving", "", [17], 1, 9]], //56
+    [
+        ["Sandstone Bricks", "sandstone_bricks", "A cube of sandstone bricks. You could make a wall out of this.", "Crafting", "", [17], 1, 8],
+        ["Red Sandstone Bricks", "red_sandstone_bricks", "A cube of red sandstone bricks. You could make a wall out of this.", "Crafting", "", [17], 1, 9],
+    ], //55
+    [
+        ["Carved Sandstone", "carved_sandstone", "A cube of carved sandstone. Nice carvings.", "Carving", "", [17], 1, 9],
+        ["Red Carved Sandstone", "red_carved_sandstone", "A cube of carved red sandstone. What, exactly, are those carvings supposed to represent?", "Carving", "", [17], 1, 10],
+    ], //56
     [["Glass", "glass_block", "A cube of glass. See-through, which makes up for its fragility.", "Crafting", "", [17,11], 1, 4]], //57
     [["Diamond Helmet", "diamond_helm", "A helmet made of diamond.", "Crafting", "+1 Direct Defense", [1], 2, 20]], //58
     [["Diamond Chestplate", "diamond_chest", "A chestplate made of diamond.", "Crafting", "+2 Direct Defense", [2], 2, 22]], //59
@@ -78,7 +90,10 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Hardite Ore", "hardite_ore", "Some hardite ore. Can be crafted into bars, requiring 3 ore per bar.", "Mining", "", [24], 3, 18]], //76
     [["Hardite Bar", "hardite_bar", "A bar of solid hardite, named after both how hard it is to get, and how hard it is as a material. This stuff can cut diamond!", "Crafting", "", [11,25], 3, 21]], //77
     [["Rock-on-a-Stick", "rock_on_stick", "A rock fastened to a stick with more rock. Better than just using tape.", "Crafting", "20% Chance of breaking on hit<br />+1 Indirect Attack", [5,23], 1, 3]], //78
-    [["Sandstone Brick Wall", "sandstone_brick_wall", "A wall made of Sandstone Bricks.", "Crafting", "40 HP<br />3+1 Defense", [19,20], 1, 8]], //79
+    [
+        ["Sandstone Brick Wall", "sandstone_brick_wall", "A wall made of Sandstone Bricks.", "Crafting", "40 HP<br />3+1 Defense", [19,20], 1, 8],
+        ["Red Sandstone Brick Wall", "red_sandstone_brick_wall", "A wall made of Red Sandstone Bricks.", "Crafting", "45 HP<br />4+1 Defense", [19,20], 1, 9],
+    ], //79
     [["Brick Wall", "brick_wall", "A wall made of Bricks.", "Crafting", "50 HP<br />3+1 Defense", [19,20], 1, 8]], //80
     [["Stone Brick Wall", "stone_brick_wall", "A wall made of Stone Bricks.", "Crafting", "50 HP<br />4+1 Defense", [19,20], 1, 8]], //81
     [["Stone Wall", "stone_wall", "A wall made of Stone.", "Crafting", "50 HP<br />4+1 Defense", [19,20], 1, 8]], //82
@@ -159,7 +174,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Golden Dough", "gold_dough", "A ball of golden dough.", "Cooking", "Equip for +0.3 Cooking", [11], 2, 15]], //150
     [["Apple Pie", "pie", "A pie with apples in it.", "Cooking", "+10 HP on consume", [10,30], 1, 11]], //151
     [["Golden Apple Pie", "gold_pie", "A golden pie with golden apples in it.", "Cooking", "+17 HP on consume<br />Gain Regen+ and Defense Up+ (1 turn) on consume<br />Can't be equipped", [9,30], 3, 30]], //152
-    [["Bread", "bread", "A loaf of bread.", "Cooking", "+6 HP on consume<br />Potion effect: +3 HP<br />Potion effect: 50% chance to add 1 turn to one effect", [10,30], 1, 5]], //153
+    [["Bread", "bread", "An entire loaf of bread. You could probably slice it.", "Cooking", "+10 HP on consume<br />Counts as two food items<br />Potion effect: +3 HP<br />Potion effect: 50% chance to add 1 turn to one effect", [10,30], 1, 8]], //153
     [["Wooden Hoe", "wood_hoe", "A hoe made out of wood. There isn't much of a point for this.", "Crafting", "+1 Indirect Attack<br />+1 Farming", [6], 1, 5]], //154
     [["Stone Hoe", "stone_hoe", "A hoe made out of stone. There isn't much of a point for this.", "Crafting", "+1 Indirect Attack<br />+1 Farming", [6], 1, 7]], //155
     [["Gold Hoe", "gold_hoe", "A hoe made out of gold. There isn't much of a point for this.", "Crafting", "+1 Indirect Attack<br />+2 Farming<br />10% chance of breaking per hit or harvest", [6], 1, 9]], //156
@@ -666,4 +681,10 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["White Tulip", "white_tulip", "A white tulip. Can be turned into white dye.", "Gardening", "", [14,15], 1, 5]], //618
     [["Sunflower", "sunflower", "A sunflower. Can be turned into yellow dye.", "Gardening", "Potion effect: +1 <span class='light'>Light</span> damage", [14,15], 1, 7]], //619
     [["Chocolate Egg", "egg_chocolate", "A small chocolate in the shape of an egg. What could be inside it?", "Easter", "+1 HP on consume<br />Filled with something random", [10,30], 3, 0]], //620
+    [["Iron Nugget", "iron_nugget", "A nugget of iron. It's like a rock, but iron.", "Crafting", "", [11,41], 1, 2]], //621
+    [["Copper Nugget", "copper_nugget", "A nugget of copp- oh great, it's already started oxidizing.", "Crafting", "", [11,41], 1, 2]], //622
+    [["Gold Nugget", "gold_nugget", "A nugget of gold. It's like a hundred-dollar bill, except curse-made gold isn't worth much.", "Crafting", "", [11,41], 1, 1]], //623
+    [["Hardite Nugget", "hardite_nugget", "A nugget of hardite. It's like a nugget of power.<br /><br />Wait, why are you trying to eat it?", "Crafting", "Potion effect: 25% chance for +1 Direct Attack (1 turn)", [11,41], 1, 4]], //624
+    [["Hank's Hotdog", "hotdog_wrapped", "A hotdog, wrapped in foil. Looks like it has ketchup and mustard.", "Stores", "+6 HP on consume", [], 1, 0]], //625
+    [["Bun", "bun", "A little bun with some butter on it.", "Cooking", "+6 HP on consume<br />Potion effect: +2 HP", [10,30], 1, 4]], //626
 ]

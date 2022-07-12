@@ -13,10 +13,10 @@ var inventoryList = {
     "<span class='pad1'>realicraft</span>": [
         [
             [43,0,1,{}],[184,0,1,{}],[89,0,3,{}],[51,0,20,{}],[68,0,8,{}],[44,0,2,{}],
-            [371,0,2,{}],[76,0,4,{}],[238,0,1,{}],[72,0,1,{}],[370,0,1,{}],[398,0,2,{}]
+            [371,0,4,{}],[76,0,4,{}],[238,0,1,{}],[72,0,4,{}],[370,0,1,{}],[398,0,1,{}]
         ],[
-            [369,0,5,{}],[404,0,5,{}],[620,0,1,{}],[383,0,2,{}],[37,0,3,{}],[392,0,2,{}],
-            [75,0,1,{}],[400,0,2,{}],[0,0,1,{}],[385,0,1,{}],[70,0,1,{}],[47,0,3,{}]
+            [369,0,5,{}],[404,0,3,{}],[66,0,2,{}],[492,0,1,{}],[37,0,3,{}],[392,0,2,{}],
+            [75,0,1,{}],[400,0,2,{}],[625,0,1,{}],[385,0,1,{}],[70,0,1,{}],[47,0,3,{}]
         ]
     ],
     "<span class='pad1'>SausageMcSauce</span>": [[
@@ -144,7 +144,7 @@ var inventoryList = {
             [45,0,3,{}],[44,0,10,{}],[46,0,19,{}],[224,0,6,{}],[30,0,1,{}],[143,0,2,{}],
         ],[
             [361,0,1,{}],[364,0,2,{}],[367,0,1,{}],[70,0,3,{}],[68,0,12,{}],[400,0,8,{}],
-            [516,0,1,{}],[29,0,1,{}],[75,0,4,{}],[36,0,1,{}],[236,0,1,{}],[243,0,1,{"desc_append": ["<br />1 random Critter, determined when removed<br />1 Egg<br />2 Purple Dye, 2 Grapes<br />2 White Dye, 3 Bones<br />2 Green Dye, 2 Cabbage<br />2 Geodes<br />2 Yellow Dye, 2 Wheat<br />2 Cyan Dye, 3 Water<br />3 Copper Bars<br />1 Splash Potion of Ignition<br />1 Chocolate Egg<br />3 Hardite Bars<br />2 Orange Dye, 2 Oranges<br />2 Red Dye, 2 Tomatoes<br />3 Gold Bars<br />3 Iron Bars<br />1 Splash Potion of Flash Freeze<br />2 Prizes"]}]
+            [513,0,1,{}],[29,0,1,{}],[75,0,4,{}],[36,0,1,{}],[236,0,1,{}],[243,0,1,{"desc_append": ["<br />1 random Critter, determined when removed<br />1 Egg<br />2 Purple Dye, 2 Grapes<br />2 White Dye, 3 Bones<br />2 Green Dye, 2 Cabbage<br />2 Geodes<br />2 Yellow Dye, 2 Wheat<br />2 Cyan Dye, 3 Water<br />3 Copper Bars<br />1 Splash Potion of Ignition<br />1 Chocolate Egg<br />3 Hardite Bars<br />2 Orange Dye, 2 Oranges<br />2 Red Dye, 2 Tomatoes<br />3 Gold Bars<br />3 Iron Bars<br />1 Splash Potion of Flash Freeze<br />2 Prizes"]}]
         ]
     ],
 };

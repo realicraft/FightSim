@@ -9,8 +9,9 @@ every 1 stat grants a +0.1 skill boost, capped at 30 of the stat (+3 skill boost
 
 reali:
  Stats:
-  Health: (+2)
+  Health: (+3)
    Player Level (+2)
+   Overheal Potion (+1)
   Indirect Attack: (+1)
    Santa Hat (+1)
   Direct Attack: (-1)
@@ -143,12 +144,12 @@ iwantpie21 (Bobby):
  Skills:
 TonyBrown148:
  Stats:
-  Direct Attack: (+1.6)
-   Emerald Pickaxe (+1.6)
-  Indirect Attack: (+0.8)
-   Emerald Pickaxe (+0.8)
+  Direct Attack: (+1.8)
+   Emerald Hammer (+1.8)
+  Indirect Attack: (+0.7)
+   Emerald Hammer (+0.7)
   Health: (+1)
    Player Level (+1)
  Skills:
-  Mining: (+2.9)
-   Emerald Pickaxe (+2.9)
+  Construction: (+2.9)
+   Emerald Hammer (+2.9)
