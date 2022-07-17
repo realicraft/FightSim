@@ -5,7 +5,8 @@
     color: darkred;
 }
 .kod { 
-    color: darkred; font-weight: bold;
+    color: darkred;
+    text-shadow: 1px 0px darkred;
 }
 .vat { 
     right: 108px;

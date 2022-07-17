@@ -7,13 +7,13 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Plant a crop or flower.", "Unclaimed", "2 Fertilizer", "71"],
-    ["Cook something.", "Unclaimed", "Tray of Cookies", "71"],
-    ["Use a current or former Mystery Skill.", "Unclaimed", "500% in that skill", "71"],
-    ["Create a Structure.", "Claimed by Byron_Inc_TBG", "Stone Hammer", "68~71"],
-    ["Die twice.", "Unclaimed", "Regen Potion", "68~71"],
-    ["Obtain a Carrot-based item.", "Claimed by realicraft", "200% Farming, 200% Cooking, 200% Gathering, 3 Iron Bars", "68~71"],
-    ["Talk to Morshu.", "Unclaimed", "2 Bombs, 5 Misc EXP"],
+    ["Be at Turret 3 by the end of the Turn.", "Unclaimed (can be claimed by multiple people)", "A Prize", "72"],
+    ["Deal type-aligned damage.", "Unclaimed", "", "72"],
+    ["Interact with an NPC.", "Unclaimed", "", "72"],
+    ["Cause a new item to be added to the data.", "Unclaimed", "2 of that item", "72~75"],
+    ["Equip any armor.", "Unclaimed", "0.8 Indirect Defense", "72~75"],
+    ["Craft 5 unique items.", "Unclaimed", "350% Crafting", "72~75"],
+    ["Talk to Morshu.", "Unclaimed", "2 Bombs, 7 Misc EXP"],
     ["Equip a Golden Food.", "Unclaimed", "3 Gold Bars, 150% Farming"],
     ["Equip a Sticker.", "Unclaimed", "Orb Sticker"],
 ]
@@ -65,6 +65,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Plant a crop or flower.", "Unclaimed", "2 Fertilizer", "71"],
+        ["Cook something.", "Claimed by Byron", "Tray of Cookies", "71"],
+        ["Use a current or former Mystery Skill.", "Claimed by Byron", "500% in that skill", "71"],
         ["Use a Disposable Phone.", "Claimed by realicraft", "2 Disposable Phones", "70"],
         ["Cook something.", "Unclaimed", "Tray of Cookies", "70"],
         ["Use a current or former Mystery Skill.", "Unclaimed", "1 Random Potion, 1 Random Fish, 2 Clay", "70"],
@@ -154,6 +157,9 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Damage someone.", "Unclaimed", "1 Misc EXP", "42"],
     ],
     [
+        ["Create a Structure.", "Claimed by Byron", "Stone Hammer", "68~71"],
+        ["Die twice.", "Unclaimed", "Regen Potion", "68~71"],
+        ["Obtain a Carrot-based item.", "Claimed by realicraft", "200% Farming, 200% Cooking, 200% Gathering, 3 Iron Bars", "68~71"],
         ["Plant a flower.", "Unclaimed", "100% Gardening Exp", "64~67"],
         ["Plant Wheat.", "Claimed by Byron", "110% Farming Exp", "64~67"],
         ["Equip a Helmet or Chestplate.", "Unclaimed", "4 Misc EXP", "64~67"],

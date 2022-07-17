@@ -1,7 +1,5 @@
 Changelog for Turn 71
 
-Mobs
--
 
 Items
 - the tray of cookies is now a grab bag which gives 1d4+4 random cookies
@@ -22,30 +20,9 @@ Effects
 - marked blind as dark-aligned
 - fixed issue where night vision did not have a defined category list or rarity
 
-Scrolls
-- 
-
-Skills
-- 
-
-Gardens
-- 
-
-Quests
-- 
-
 Phone System
 - fixed some text alignment on the contacts page
 - fixed issue where the phones thrown into the ocean last turn weren't acknowledged by fishing
-
-Helpers
-- 
-
-Votes
-- 
-
-Internal
-- 
 
 Misc
 - removed several empty fields from the turn 70 changelog

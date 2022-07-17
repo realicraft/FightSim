@@ -29,10 +29,10 @@ for (var l = 0, cell; cell = table.getElementsByTagName('td')[l]; l++) {
 String(remain_class);
 
 
-'slingshot,crop_mush,rock_on_stick,corn,gold_corn,corn,fold_chair,
-string_wad,spinach,gold_spinach,ripe corn,ripe spinach,rotten_flesh,cooked_flesh,gold_flesh,bobm,cannon,
-raw_chicken,cooked_chicken,raw_mutton,cooked_mutton,meat_paste,blackberries,gold_blackberries,peach,gold_peach,
-ripe blackberries,ripe peach,lemonade,limeade,hfcs,popcorn,
+'slingshot,crop_mush,rock_on_stick,butter_corn,fold_chair,
+string_wad,spinach,gold_spinach,ripe spinach,rotten_flesh,cooked_flesh,gold_flesh,bobm,cannon,
+raw_chicken,cooked_chicken,raw_mutton,cooked_mutton,meat_paste,blackberries,gold_blackberries,
+ripe blackberries,lemonade,limeade,hfcs,popcorn,
 lever,wood_button,stone_button,iron_button,wire,cod,cooked_cod,seaweed,red_herring,spin_fish,paper,wizard_hat,chef_apron,fabric,gloves,
 const_shirt,welding_helmet,welding_helmet,smurf_hat,sticker_basket,sticker_basket_rare,mine,chains,
 anchovy,backpack,wallet,dust_pouch,hotdog_wrapped'

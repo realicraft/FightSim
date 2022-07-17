@@ -73,7 +73,7 @@ for (var i in user_data["3"]) { // single table
     stat_table += '<h3 style="margin: 0px;padding-right:1px;">Equipment</h3><span class="pt_equip">'
     for (var l of user_data["3"][i]["equips"]) {
         stat_table += "<div style='position:relative;display:inline-block;'>"
-        stat_table += makeItem(l[0], l[1], l[2], l[3]).replace("tt", "ttEquip")
+        stat_table += makeItem(l[0], l[1], l[2], l[3]).replace("tt(", "ttEquip(")
         if (l[2] == 1) {stat_table += "</div>"}
         else {stat_table += "<span class='pt_stackcount'>" + l[2] + "</span></div>"};
     }

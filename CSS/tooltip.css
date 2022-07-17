@@ -47,6 +47,9 @@
 .tooltip_name.unique {
     color: #ef7f0f;
 }
+.tooltip_name.moss {
+    color: #2f7f1f;
+}
 .tooltip_name.plot_b {
     background: rgb(175,111,15);
     background: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(175,111,15,1) 60%, rgba(127,15,15,1) 90%);

@@ -7,6 +7,7 @@ var name_class_list = [
     "plot_b", //5
     "plot_g", //6
     "fs2_ex", //7
+    "moss", //8
 ]
 var get_pretty_price = function(price) { // function to convert a sell price in centicents form to a form displaying all units
     price2 = price

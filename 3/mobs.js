@@ -18,23 +18,28 @@ for (var i of moblist) {
     mobs_group += '\');"></span><h3 class="collapse_header">'
     mobs_group += i[0]
     mobs_group += '</h3><div class="collapse_body" style="display:none;">'
-    mobs_group += '<p>Health: ' + i[1] + '<br />'
-    mobs_group += 'Attack: ' + getPlus(i[2]) + " (" + getPlus(i[4]) + ')<br />'
-    mobs_group += 'Defense: ' + getPlus(i[3]) + " (" + getPlus(i[5]) + ')</p><p style="margin-bottom:2px;">Drops:</p><table style="margin-top:2px;"><tr>'
+    mobs_group += '<div style="height:33px;"><div class="mob_health2"><span class="icon health" style="position:absolute;left:0px;" title="Health"></span><span class="vat">' + i[1] + '</span></div>'
+    mobs_group += '<span class="mob_type2"><span class="icon ' + typelist[i[7]] + ' type_icon" title="Type"></span></span>'
+    mobs_group += '<div class="mob_stats2"><span class="icon attack" style="position:absolute;left:0px;" title="Attack"></span><span class="vat">'
+    mobs_group += getPlus(i[2]) + "<br />(" + getPlus(i[4])
+    mobs_group += ')</span><span class="lh slash">/</span><span class="vab">'
+    mobs_group += getPlus(i[3]) + "<br />(" + getPlus(i[5])
+    mobs_group += ')</span><span class="icon defense" style="position:absolute;right:0px;" title="Defense"></span></div></div>'
+    mobs_group += '<p style="margin-bottom:2px;margin-top:2px;">Drops:</p><table style="margin-top:2px;"><tr>'
     for (j of i[6]) {
         mobs_group += "<td class='inv_item'>";
         if (j[0] == 0) {}
         else {
             mobs_group += "<span class='icon ";
-            mobs_group += equiplist[j[0]][0][1];
+            mobs_group += equiplist[j[0]][j[1]][1];
             mobs_group += "' onmouseover='tt(";
-            mobs_group += j[0];
+            mobs_group += j[0] + "," + j[1];
             mobs_group += ");' onmouseout='nt();'></span>";
         };
-        if (j[1] == 1) {}
+        if (j[2] == 1) {}
         else {
             mobs_group += "<span>"
-            mobs_group += j[1]
+            mobs_group += j[2]
             mobs_group += "</span>"
         };
         mobs_group += "</td>"
@@ -42,7 +47,7 @@ for (var i of moblist) {
     mobs_group += '</tr><tr>'
     for (k of i[6]) {
         mobs_group += '<td>'
-        mobs_group += k[2]
+        mobs_group += k[3]
         mobs_group += '</td>'
     }
     mobs_group += '</tr></table></div></div>'

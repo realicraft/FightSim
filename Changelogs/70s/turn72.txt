@@ -1,0 +1,31 @@
+Changelog for Turn 72
+- use the word "chest" in your post for a reward (i am putting this at the top so you see it)
+
+Mobs
+- improved the display for the list of mobs
+- the list of mobs now displays type
+- fixed issue where the mob drop list did not support data values
+- fixed issue where the non-green variants of slime used the old ids of non-green slime balls
+
+Items
+- added icons for corn and peaches, plus their golden and ripe variants
+- moved the icons for the candies and heart-shaped chocolate
+- fixed issue where the ltt hoodie did not display properly on the stats page
+
+Crafting
+- the coin and decicoin recipes now use the hammer icon rather than the generic crafting icon
+
+Quests
+- buffed the reward of the first full quest slightly
+
+Internal
+- changed the classes for the lightning weather icon to avoid a conflict with the paralyzed icon
+- changed the class for buttered corn, as it would probably have been shelled
+- new item name color, will be used soon
+- added myst. skills 5 and 6 to skillList
+- added position:relative; to .collapse_body
+
+Misc
+- removed several empty entries from the turn 71 changelog
+- added a default icon for small icons
+- the hp counter, when kod, now fakes bold using a text shadow rather than using real bold (as the font used does not support being bold)

@@ -161,7 +161,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Golden Corn Cob", "gold_corn", "A golden cob of corn. No, it's not butter.", "Farming", "Equip for +0.4 Indirect Attack", [9], 2, 15]], //137
     [["Beetroot", "beetroot", "A beetroot.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //138
     [["Golden Beetroot", "gold_beetroot", "A golden beetroot.", "Farming", "Equip for +0.3 Digging", [9], 2, 15]], //139
-    [["Buttered Corn Cob", "corn", "A cob of corn, covered in butter.", "Crafting", "+7 HP on consume", [10,30], 1, 8]], //140
+    [["Buttered Corn Cob", "butter_corn", "A cob of corn, covered in butter.", "Crafting", "+7 HP on consume", [10,30], 1, 8]], //140
     [["Baked Potato", "baked_potato", "A baked potato.", "Cooking", "+7 HP on consume", [10,30], 1, 8]], //141
     [["Butter", "butter", "A bar of butter. No, it's not golden.", "Unknown", "-1 HP on consume<br />Potion effect: 30% chance to upgrade one effect", [10,11], 1, 2]], //142
     [["Wooden Bowl", "wood_bowl", "A bowl made of wood.", "Carving", "", [11], 1, 3]], //143

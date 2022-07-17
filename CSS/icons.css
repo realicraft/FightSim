@@ -13,6 +13,10 @@ span.small_icon {
     background-image: url("../Icons/Exported/equip_sheet.png");
     background-position: -608px -608px;
 }
+.small_icon {
+    background-image: url("../Icons/Exported/info_sheet.png");
+    background-position: -240px -240px;
+}
 /* hud */
 .heart, .health {
     background-image: url("../Icons/Exported/icons_sheet.png");
@@ -953,24 +957,24 @@ span.small_icon {
     background-position: -64px -64px;
 }
 .blue_candy {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -96px -64px;
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -192px -128px;
 }
 .green_candy {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -128px -64px;
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -224px -128px;
 }
 .red_candy {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -160px -64px;
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -0px -160px;
 }
 .black_candy {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -192px -64px;
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -32px -160px;
 }
 .gray_candy {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -224px -64px;
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -64px -160px;
 }
 .gift_box {
     background-image: url("../Icons/Exported/misc_sheet.png");
@@ -1277,8 +1281,8 @@ span.small_icon {
     background-position: -192px -160px;
 }
 .heart_chocolate {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -224px -96px;
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -96px -160px;
 }
 .you_tried {
     background-image: url("../Icons/Exported/equip_sheet.png");
@@ -2201,6 +2205,22 @@ span.small_icon {
     background-image: url("../Icons/Exported/misc_sheet.png");
     background-position: -224px -32px;
 }
+.corn {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -0px -192px;
+}
+.gold_corn {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -32px -192px;
+}
+.peach {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -64px -192px;
+}
+.gold_peach {
+    background-image: url("../Icons/Exported/crop_sheet.png");
+    background-position: -96px -192px;
+}
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
 span.cr_hp_4, span.cr_hp_5, span.cr_hp_6, span.cr_hp_7, 
@@ -2985,7 +3005,7 @@ span.cr_df_flight {
     background-image: url("../Icons/Exported/info_sheet.png");
     background-position: -208px -32px;
 }
-.thunder, .lightning {
+.thunder, .lightning_weather {
     background-image: url("../Icons/Exported/info_sheet.png");
     background-position: -192px -48px;
 }

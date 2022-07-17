@@ -1,0 +1,156 @@
+Skeledop - Turn 72
+sooner or later i'm just going to put prize words all over the place and like half of you will miss all of them
+also how did you all forget about the "2 prizes at turret 3" thing {i|again}
+{hr}
+[quote=gilbert_given_TBG]as probably my last two posts on this RP:
+• store my hardites and electrums on my double chest
+• craft a Reusable Phone, if possible[/quote]
+You move your Hardite Ore, Electrum Ore, and Elctrum Nugget into the Chest, which I'm assuming is what you meant by double chest.
+You need Crafting 2 to make a Reusable Phone, but you don't have {i|any} Crafting Exp!
+This is the only thing stopping you though, as you have the rest of the components (including the necessary fuel).
+{hr}
+[quote=gilbert_given_TBG]Also, use the Esolang three times.[/quote]
+You use the Esolang three times.
+Skill roll: 1d70+5 = 35+5 = 40
+[quote][color=green]global/func/def/incr.count <= [plr-row-slot-num[
+    global/fs3/players/((plr))/inventory/rows/((row))/items/((slot))/item.count +<- ((num)):
+]]:
+temp/vars/row <- global/func/random.randint<{0}-{1}>:
+temp/vars/slot <- global/func/random.randint<{0}-{11}>:
+temp/vars/num <- global/func/random.randint<{1}-{5}>:
+global/func/def/incr.count<{10}-((temp/vars/row))-((temp/vars/slot))-((temp/vars/num))>:
+[/color][/quote]
+RandInt rolls: 1d2-1, 1d12-1, 1d5 = 2-1, 3-1, {green|5} = 1, 2, {green|5}
+It looks like you've managed to define a function that makes it easy to increment the count of an abrbitrary inventory slot, and then used it on your own inventory randomly.
+You've gained 5... uh... Looks like that slot was empty. Hopefully that doesn't cause problems... (Your skill with the esolang increases by 5.)
+Skill roll: 1d65+10 = 41+10 = 51
+[quote][color=green]global/func/def/incr.count<{10}-{0}-{0}-{5}>:
+global/func/def/incr.count<{10}-{0}-{9}-{5}>:
+global/func/def/incr.count<{10}-{1}-{6}-{5}>:
+global/func/def/incr.count<{10}-{1}-{11}-{5}>:
+[/color][/quote]
+(You aquire 5 Diamonds, 5 Dollar Bills, 5 Disposable Phones, and 5 Sticker Packs (All).)
+Oh boy, free money! Oh, and some other stuff. If only you could figure out how to modify structure inventories... (Your skill with the esolang increases by 2.)
+Skill roll: 1d63+12 = 43+12 = 55
+[quote][color=green]forloop[plr<-{0}[
+    global/fs3/players/((plr))/stats/hp.current -<- {15}:
+    loop/plr +<- {1}
+]plr>){15}]:
+global/fs3/players/{10}/stats/hp.current +<- {25}:
+[/color]
+[color=red]warn] fs3/players/{1} is AFK and cannot be modified
+warn] fs3/players/{2} is AFK and cannot be modified
+warn] fs3/players/{3} is AFK and cannot be modified
+warn] fs3/players/{7} is AFK and cannot be modified
+warn] fs3/players/{8} is AFK and cannot be modified
+warn] fs3/players/{9} is AFK and cannot be modified
+warn] fs3/players/{13} is AFK and cannot be modified
+warn] fs3/players/{14} is AFK and cannot be modified
+[/color][/quote]
+Ah, you've discovered the for loop, and also warnings. Looks like you can't affect AFK players.
+The net effect of this is that everyone but you lost 15 HP, while you gained 10.
+Also, you KOd Twilight. Whoops.
+You gained 2*8={b|16} Combat EXP for dealing damage, plus 1*8={b|8} for dealing over 10 damage, plus 20 for KOing someone, for a total of 16+8+20={b|44} Combat EXP.
+{bi|You levled up!} You gained 1 Max HP.
+...man, this thing is {i|strong}!
+{hr}
+[quote=TonyBrown148]Pick up a stone and throw it as far as possible.[/quote]
+Skill roll: 1d20 = 9
+You find a rock and throw it.
+Accuracy roll: 1d20 = {red|10}
+You don't hit anything. (Your Gathering skill has gone up by 40%)
+{hr}
+[quote=IncendiaryGaming]I work on the outer walls because idk[/quote]
+You work on the walls. (3/6)
+{hr}
+[quote=Byron_Inc_TBG]I work on the ore room.
+Then fix the shelter. 
+Then harvest crops.[/quote]
+You work on the Ore Room. (2/5)
+You attempt to fix the shelter.
+Skill roll: 1d20+8 = {green|17}+8 = {green|25}
+You succeed. (Your Construction skill has gone up by 90%.)
+You harvest your crops.
+Skill rolls: 2d18+12 = 7, {green|17} = 19, {green|29}
+You harvest 6 Cans of Beans, 8 Potatoes, and 2 Golden Potatoes. (Your Farming skill has gone up by 113%.)
+Luck rolls: 8d10 = 3, 3, 2, 10, 2, 4, 5, 6, 4, 3
+None of the Potatoes are poisonous.
+{hr}
+[quote=Byron_Inc_TBG]Then grab the disposable phone.
+Then cook fish.
+Then fish.[/quote]
+You pick up one of the Disposable Phones lying on the ground.
+Unfortunately, you only have 3 Fuel Units (3 Sticks), so you only cook one of the Goldfish.
+You go Fishing.
+Skill roll: 1d20+2 = 7+2 = 9
+You catch 2 fish.
+Category rolls: 2d20 = 15, 8
+You catch one Great Fish and one Mediocre Fish.
+Fish rolls: 1d3, 1d4 = 3, 3
+You catch 1 Cod and 1 Fish 4. (Your Fishing skill has gone up by 40%.)
+Your inventory is full. Might want to deal with that.
+You've completed a quest! (Cook something.) You earned a Tray of Cookies, plus 2 Misc EXP.
+But you don't have room for the Tray of Cookies, so you throw the Stick out to make room.
+You've completed a quest! (Use a current or former Mystery Skill.) You earned 500% Fishing, plus 2 Misc EXP. (Your Fishing Skill levled up twice!)
+{hr}
+Plants grow.
+Byron's Golden Carrots are harvestable.
+All of Twilight's crops have rotted away.
+
+Lightning strikes!
+Count roll: 1d4+2 = 4+2 = 6
+Target roll: 6d29 = 14, 22, 4, 2, 10, 7 (all 8 active players, Moat, Tank, Everythingproof Wall, all 7 of Byron's storage rooms, all 4 turrets, Campfire, cheesy's Storage Room, Excavator, Log Cabin, Tree House, Wooden Shed, Tony's Storage Room)
+Lightning strikes Byron's Explosives Room yet again! Good thing there's still nothing in it. The room is still pretty damaged, though.
+Lightning strikes Turret 4!
+Damage roll: 1d15+10 = 6+10 = 16
+Defense roll: 1d1 = 1
+Turret 4 takes 16-1={b|15} {elec|Electric} damage, and has its internals fried. There's probably some circuitry in there.
+Lightning strikes Cheesy yet again!
+Cheesy's Thunder-Charged absorbes the strike.*
+Lightning strikes Incendiary!
+Damage roll: 1d15+10 = 4+10 = 14
+Defense roll: 1d6 = {crmiss|1}
+Incendiary takes 14*2={b|28} {elec|Electric} damage.**
+Effect roll: 1d10 = {red|6}
+Incendiary is also Paralyzed for one turn.
+Lightning strikes Byron's Tank!
+Damage roll: 1d15+10 = 6+10 = 16
+Defense roll: 1d2+1 = 1+1 = 2
+The Tank takes 16-2={b|14} {elec|Electric} damage is has its internals fried. So many fried internals this turn! (Also, in case you're curious, the War Tank is immune to lightning due to being underground.)
+Lightning strikes Luigis_Pizza!
+Damage roll: 1d15+10 = 11+10 = 21
+Defense roll: 1d5 = 2
+Luigi takes 21-2={b|19} {elec|Electric} damage.**
+Effect roll: 1d10 = {red|1}
+Luigi is also Paralyzed for two turns.
+
+Weather roll: 1d20 = 9
+The weather stays the same.
+
+Mob Action rolls: 7d6 = 5, 2, 1, 6, 2, 6, 5
+The Chicken clucks.
+The Sheep spontainously sheds a block of Wool. Huh.
+The Blue Slime remembers that Reali attacked it last turn and retaliates.
+Attack roll: 1d5+1 = 2+1 = 3
+Defense roll: 1d7+0 = {crmiss|1}
+Reali takes 3*2={b|6} damage.
+The Zombie groans.
+
+Mob Spawn rolls: 2d13 = 10, 3
+A Zombie and a Sheep spawn.
+
+Byron's bank account gains 7.505{dec}.
+{hr}
+{links}
+Um... oops.
+Hopefully I can avoid accidentally skipping a turn again.
+This turn also has a changelog, at [url]https://realicraft.github.io/FightSim/Changelogs/70s/turn72.txt[/url].
+Here's the notable stuff:
+- the list of mobs that can exist looks a bit nicer, and also displays type
+- corn and peaches now have icons
+-
+-
+- not much happened this turn, huh?
+
+*An asterisk in place of a turn count for an effect means the effect won't disappear unless something specific happens. An "x" followed by a number after either the turn count or asterisk indicates charges of the effect, which usually makes the effect act like it's present multiple times.
+**I'm {i|fairly} certain that a critical miss on defense doubles damage taken. At the very least, that's what it does now.
