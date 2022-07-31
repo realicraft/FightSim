@@ -1172,10 +1172,6 @@ span.small_icon {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -96px -64px;
 }
-.egg {
-    background-image: url("../Icons/Exported/food_sheet.png");
-    background-position: -128px -64px;
-}
 .sticker_book {
     background-image: url("../Icons/Exported/sticker_sheet.png");
     background-position: -0px -0px;
@@ -2221,6 +2217,42 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -96px -192px;
 }
+.paper {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -96px -64px;
+}
+.fabric {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -128px -64px;
+}
+.crop_mush {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -128px -64px;
+}
+.butter_corn {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -128px -160px;
+}
+.wallet {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -160px -64px;
+}
+.moss_block {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -192px -160px;
+}
+.moss_carpet {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -224px -160px;
+}
+.cobblestone {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -0px -192px;
+}
+.moss_cobblestone {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -32px -192px;
+}
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
 span.cr_hp_4, span.cr_hp_5, span.cr_hp_6, span.cr_hp_7, 
@@ -2827,7 +2859,7 @@ span.cr_df_flight {
     background-position: -352px -64px;
 }
 /* eggs */
-.egg_plain {
+.egg_plain, .egg {
     background-image: url("../Icons/Exported/egg_sheet.png");
     background-position: -0px -0px;
 }

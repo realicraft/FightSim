@@ -4,7 +4,7 @@ var effectlist = [ //[name, css class for icon, description, source, bonuses, [c
     ["On Fire", "on_fire", "It burns, like fire normally does.", "Fire", "-4 HP each turn<br />Items have a small chance of burning up", [34, 35, 49], 1], //2
     ["Frozen", "frozen", "Where'd all this ice come from, anyway?", "Ice", "Can't move", [34, 35, 53], 1], //3
     ["KOd", "ko", "Maybe pay more attention to your HP next time?", "Reaching 0 HP", "Can't interact with anything<br />Can't be interacted with", [34, 35], 3], //4
-    ["Paralyzed", "paralyzed", "Bzzzt!", "Electricity", "Actions have a 1/3 chance of failing<br />If an action fails due to this, you take 3 damage", [34, 35, 51], 1], //5
+    ["Paralyzed", "paralyzed", "Bzzzt!", "Electricity", "Actions have a 1/4 chance of failing<br />If an action fails due to this, you take 4 damage", [34, 35, 51], 1], //5
     ["Poisoned", "poisoned", "\"Oooh, what's this purple stuff do?\"", "Poison", "-6 to 3 HP each turn, depending on remaining duration", [34, 35], 1], //6
     ["Soaked", "soaked", "You stayed in the rain too long and now you're all soggy.", "Rain", "You keep tracking water everywhere", [34, 35, 50], 1], //7
     ["Bleeding", "bleeding", "owie", "Taking damage", "-5 HP per turn<br />-1 Direct Attack", [34, 35], 1], //8

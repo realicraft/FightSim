@@ -7,12 +7,12 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Be at Turret 3 by the end of the Turn.", "Unclaimed (can be claimed by multiple people)", "A Prize", "72"],
-    ["Deal type-aligned damage.", "Unclaimed", "", "72"],
-    ["Interact with an NPC.", "Unclaimed", "", "72"],
+    ["Deal at least 10 damage at once.", "Unclaimed", "2 Rocks", "73"],
+    ["Go Gathering.", "Unclaimed", "150% Gathering", "73"],
+    ["Interact with an enemy.", "Unclaimed", "5 Misc EXP", "73"],
     ["Cause a new item to be added to the data.", "Unclaimed", "2 of that item", "72~75"],
     ["Equip any armor.", "Unclaimed", "0.8 Indirect Defense", "72~75"],
-    ["Craft 5 unique items.", "Unclaimed", "350% Crafting", "72~75"],
+    ["Craft 5 unique items.", "Unclaimed", "350% Crafting", "72~75"], //reali 2
     ["Talk to Morshu.", "Unclaimed", "2 Bombs, 7 Misc EXP"],
     ["Equip a Golden Food.", "Unclaimed", "3 Gold Bars, 150% Farming"],
     ["Equip a Sticker.", "Unclaimed", "Orb Sticker"],
@@ -21,13 +21,13 @@ var quests = [ // [quest, claimed, reward, turn]
 var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, div height]
     ["Harvest Crops.", "This is a repeatable quest, meaning you can complete it multiple times!<br />After the big goal is completed, the quest will be removed.",
         [
-            ["reali", "1 Crop", "1 Misc EXP", "1/1"],
+            ["reali", "2 Crops", "2 Misc EXP", "0/2"],
             ["S.&nbsp;McSaus", "1 Crop", "1 Misc EXP", "0/1"],
             ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
             ["Incendiary", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Byron", "5 Crops", "5 Misc EXP", "0/6"],
-            ["cheesy", "6 Crops", "6 Misc EXP", "1/6"],
+            ["Byron", "7 Crops", "7 Misc EXP", "2/7"],
+            ["cheesy", "6 Crops", "6 Misc EXP", "4/6"],
             ["solitare", "2 Crops", "2 Misc EXP", "0/2"],
             ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
             ["Leopardy", "1 Crop", "1 Misc EXP", "0/1"],
@@ -38,7 +38,8 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
             ["Savvy", "1 Crop", "1 Misc EXP", "0/1"],
             ["Bobby", "1 Crop", "1 Misc EXP", "0/1"],
             ["Tony", "1 Crop", "1 Misc EXP", "0/1"],
-        ], "75 Harvests (29/75)", 60
+            ["Landon", "1 Crop", "1 Misc EXP", "0/1"],
+        ], "75 Harvests (40/75)", 60
     ],
     ["Make Wiki edits.", "The edits need to be significant in some way; fixing a typo won't count.",
         [
@@ -59,12 +60,16 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
             ["Savvy", "10 Edits", "1 Skill Candy", "0/10"],
             ["Bobby", "10 Edits", "1 Skill Candy", "0/10"],
             ["Tony", "10 Edits", "1 Skill Candy", "5/10"],
+            ["Landon", "10 Edits", "1 Skill Candy", "0/10"],
         ], "500 Edits (3/500)", 40
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Be at Turret 3 by the end of the Turn.", "Claimed by Landon, gilbert", "A Prize (can be claimed by multiple people)", "72"],
+        ["Deal type-aligned damage.", "Unclaimed", "3 Snowballs", "72"],
+        ["Interact with an NPC.", "Unclaimed", "1 Disposable Phone", "72"],
         ["Plant a crop or flower.", "Unclaimed", "2 Fertilizer", "71"],
         ["Cook something.", "Claimed by Byron", "Tray of Cookies", "71"],
         ["Use a current or former Mystery Skill.", "Claimed by Byron", "500% in that skill", "71"],

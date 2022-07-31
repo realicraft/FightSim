@@ -14,8 +14,6 @@ reali:
    Overheal Potion (+1)
   Indirect Attack: (+1)
    Santa Hat (+1)
-  Direct Attack: (-1)
-   Bleeding (-1)
   Indirect Defense: (+1.7)
    Santa Hat (+1)
    LTT Hoodie (+0.7)
@@ -23,8 +21,6 @@ reali:
    Quest Bonus (+0.2)
   INT: (+2)
    LTT Hoodie (+2)
-  HP/Turn: (-5)
-   Bleeding (-5)
  Skills:
   Fishing: (+0.7)
    Goldfish Sticker (+0.7)

@@ -1,0 +1,53 @@
+Changelog for Turn 73
+
+Mobs
+- 
+
+Items
+- paper, fabric, and rotting mush now have sprites
+- added an icon for the wallet
+- added an icon for buttered corn
+- nerfed the sell prices for a few fish slightly
+- buffed the sell prices of cod and cooked cod
+- added cobblestone from minecraft
+- added [moss], in block and carpet form
+- added mossy cobblestone
+
+Crafting
+- the wallet, backpack, and dust pouch now have crafting recipes
+
+Effects
+- nerfed paralysis; it now only has a 25% chance to occur rather than 33%
+- buffed paralysis; it now deals 4 damage instead of 3
+
+Structures
+- made it so that structures with low health have red numbers and damaged icons
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- 
+
+Quests
+- 
+
+Phone System
+- 
+
+Helpers
+- 
+
+Votes
+- 
+
+Internal
+- made the egg item use the copy of its sprite in eggSheet
+
+Misc
+- adjusted the brightness of the item name color added last turn, used for moss
+- added more items to the item candy/prize pool
+- adjusted the color palette of stone

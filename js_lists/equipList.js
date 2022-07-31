@@ -209,9 +209,9 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Pair of Old Boots", "old_boot_pair", "A pair of old boots you fished up. Surprisingly effective at defending you.", "Crafting", "+1 Direct Defense<br />+1 Fishing", [4], 1, 7]], //185
     [["Wad of String", "string_wad", "A wad of String you fished up.", "Fishing", "", [20], 1, 0]], //186
     [["Goldfish", "goldfish", "A small goldfish.", "Fishing", "Potion effect: 30% chance of Water Resistance (1 turn)<br />Cook it to make it edible", [26], 1, 3]], //187
-    [["Jellyfish", "jellyfish", "A small jellyfish. Packs a mean sting.", "Fishing", "Throw it at someone to deal 5 damage<br />Throw Effect: 20% chance of Paralysis (1 turn)", [26], 1, 6]], //188
-    [["Bloach", "fish_3", "{placeholder}", "Fishing", "", [0,26], 1, 9]], //189
-    [["Salmon", "fish_4", "{placeholder}", "Fishing", "", [0,26], 2, 12]], //190
+    [["Jellyfish", "jellyfish", "A small jellyfish. Packs a mean sting.", "Fishing", "Throw it at someone to deal 5 damage<br />Throw Effect: 20% chance of Paralysis (1 turn)", [26], 1, 5]], //188
+    [["Bloach", "fish_3", "{placeholder}", "Fishing", "", [0,26], 1, 8]], //189
+    [["Salmon", "fish_4", "{placeholder}", "Fishing", "", [0,26], 2, 10]], //190
     [["Solid Goldfish", "gold_goldfish", "Like a goldfish, but actually gold.", "Fishing", "Cook it to make it equippable", [26], 2, 15]], //191
     [["Spinach", "spinach", "A bunch of spinach. Supposedly makes you stronger.", "Farming", "+5 HP on consume<br />Potion effect: 25% chance of Attack Up (1 turn)", [10,30], 1, 5]], //192
     [["Golden Spinach", "gold_spinach", "A bunch of gold spinach. <i>Actually</i> makes you stronger.", "Farming", "Equip for 0.5 STR", [9], 2, 19]], //193
@@ -450,8 +450,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Mama June's Hawaiian Pizza", "pineapple_pizza", "A hawaiian pizza from the \"local\" Mama June's Pizza. Did you know that hawaiian pizza <em>isn't</em> named after the state?", "Phone", "+10 HP on consume", [10], 1, 0], //3
     ], //388
     [["Coin", "coin", "A coin that you minted yourself. It's obviously counterfeit, since you just swirled the gold and copper together, but for some reason all the stores you call will take it anyway?", "Crafting", "", [20], 1, 0]], //389
-    [["Cod", "cod", "A small cod.", "Fishing", "Cook it to make it edible", [26], 1, 4]], //390
-    [["Cooked Cod", "cooked_cod", "A small cod, cooked to perfection.", "Cooking", "Consume for +7 HP.", [10,30], 1, 6]], //391
+    [["Cod", "cod", "A small cod.", "Fishing", "Cook it to make it edible", [26], 1, 6]], //390
+    [["Cooked Cod", "cooked_cod", "A small cod, cooked to perfection.", "Cooking", "Consume for +7 HP.", [10,30], 1, 8]], //391
     [["Seaweed", "seaweed", "A square of raw seaweed. Probably not that useful.", "Fishing", "Cook it to make it edible", [11], 1, 3]], //392
     [["Red Herring", "red_herring", "This is clearly the most important item in the entire game.", "Fishing", "+0.7 Direct Attack", [26,5], 2, 13]], //393
     [["Spin Fish", "spin_fish", "A really large fish. It's too large to eat, but you could spin it to knock people off of things.", "Fishing", "+1.3 Direct Attack<br />Causes knockback", [26,5], 2, 18]], //394
@@ -687,4 +687,10 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Hardite Nugget", "hardite_nugget", "A nugget of hardite. It's like a nugget of power.<br /><br />Wait, why are you trying to eat it?", "Crafting", "Potion effect: 25% chance for +1 Direct Attack (1 turn)", [11,41], 1, 4]], //624
     [["Hank's Hotdog", "hotdog_wrapped", "A hotdog, wrapped in foil. Looks like it has ketchup and mustard.", "Stores", "+6 HP on consume", [], 1, 0]], //625
     [["Bun", "bun", "A little bun with some butter on it.", "Cooking", "+6 HP on consume<br />Potion effect: +2 HP", [10,30], 1, 4]], //626
+    [["[Moss] Block", "moss_block", "A block of <span style='color:#3f9f2f'>[Moss]</span>. It's too big to eat.", "Digging", "", [17], 8, 9]], //627
+    [["[Moss] Carpet", "moss_carpet", "A thin layer of <span style='color:#3f9f2f'>[Moss]</span>, that you can put on other blocks. It's basically nature's carpet.", "Digging", "", [17], 8, 3]], //628
+    [
+        ["Cobblestone", "cobblestone", "<em>Finally</em>, some cobblestone!<br /><br />wait why do the tools still use regular stone", "Mining", "", [17,11], 1, 4], //0
+        ["[Mossy] Cobblestone", "moss_cobblestone", "A cube of cobblestone with some <span style='color:#3f9f2f'>[Moss]</span> on it.", "Crafting", "", [17], 8, 5], //1
+    ], //629
 ]
