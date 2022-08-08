@@ -1,0 +1,50 @@
+Changelog for Turn 74
+
+Mobs
+- added an accurately sized spider
+
+Items
+- added dispensers, droppers, shooters, blocks of iron, gold, diamond, and emerald, and lucky blocks
+- added the sleep shroom, used to craft sleep powder
+- updated the descriptions for red and brown mushrooms
+- added two plot weapons
+
+Crafting
+- added recipies for electrum and gold dust, plus sleep powder
+- added recipies for the new blocks
+- added dye recipies using the white tulip and sunflower
+- the furnace now requires 6 stone instead of 8
+- added recipies for the plot weapons
+
+Effects
+- 
+
+Structures
+- 
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- 
+
+Quests
+- 
+
+Phone System
+- 
+
+Helpers
+- 
+
+Votes
+- 
+
+Internal
+- added an icon for drowning
+
+Misc
+- added a sheet for items that exist in Minecraft but not in fightsim, for use in my texture pack

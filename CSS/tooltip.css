@@ -60,7 +60,7 @@
 }
 .tooltip_name.plot_g {
     background: rgb(231,223,127);
-    background: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(231,223,127,1) 60%, rgba(239,239,239,1) 90%);
+    background: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(231,223,127,1) 50%, rgba(239,239,239,1) 80%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -1,8 +1,5 @@
 Changelog for Turn 73
 
-Mobs
-- 
-
 Items
 - paper, fabric, and rotting mush now have sprites
 - added an icon for the wallet
@@ -22,27 +19,6 @@ Effects
 
 Structures
 - made it so that structures with low health have red numbers and damaged icons
-
-Scrolls
-- 
-
-Skills
-- 
-
-Gardens
-- 
-
-Quests
-- 
-
-Phone System
-- 
-
-Helpers
-- 
-
-Votes
-- 
 
 Internal
 - made the egg item use the copy of its sprite in eggSheet

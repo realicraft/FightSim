@@ -189,6 +189,10 @@ span.small_icon {
     background-image: url("../Icons/Exported/icons_sheet.png");
     background-position: -416px -128px;
 }
+.drowning {
+    background-image: url("../Icons/Exported/icons_sheet.png");
+    background-position: -448px -128px;
+}
 /* skills */
 .mining {
     background-image: url("../Icons/Exported/icons_sheet.png");
@@ -1564,6 +1568,10 @@ span.small_icon {
     background-image: url("../Icons/Exported/equip_sheet.png");
     background-position: -224px -416px;
 }
+.thunder_staff {
+    background-image: url("../Icons/Exported/equip_sheet.png");
+    background-position: -256px -416px;
+}
 .idleon_gem {
     background-image: url("../Icons/Exported/ore_sheet.png");
     background-position: -0px -96px;
@@ -2252,6 +2260,46 @@ span.small_icon {
 .moss_cobblestone {
     background-image: url("../Icons/Exported/block_sheet.png");
     background-position: -32px -192px;
+}
+.dispenser {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -64px -192px;
+}
+.dropper {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -96px -192px;
+}
+.shooter {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -128px -192px;
+}
+.iron_block {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -224px -96px;
+}
+.gold_block {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -160px -192px;
+}
+.diamond_block {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -192px -192px;
+}
+.emerald_block {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -224px -192px;
+}
+.lucky_block {
+    background-image: url("../Icons/Exported/block_sheet.png");
+    background-position: -0px -224px;
+}
+.sleep_shroom {
+    background-image: url("../Icons/Exported/plant_sheet.png");
+    background-position: -224px -32px;
+}
+.gold_sleep_shroom {
+    background-image: url("../Icons/Exported/plant_sheet.png");
+    background-position: -192px -32px;
 }
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 

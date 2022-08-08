@@ -39,8 +39,9 @@ Incendiary:
    Rock on a Stick (+1)
   Indirect Defense: (+0.7)
    LTT Hoodie (+0.7)
-  Health: (+2)
+  Health: (+3)
    Player Level (+2)
+   Overheal Potion (+1)
   INT: (+2)
    LTT Hoodie (+2)
  Skills:
@@ -149,3 +150,14 @@ TonyBrown148:
  Skills:
   Construction: (+2.9)
    Emerald Hammer (+2.9)
+TonyBrown148:
+ Stats:
+  Direct Attack: (-1)
+   Bleeding (-1)
+  Direct Defense: (+1)
+   Clay Shield (+1)
+  Indirect Defense: (+1)
+   Clay Shield (+1)
+  HP/Turn: (-5)
+   Bleeding (-5)
+ Skills:

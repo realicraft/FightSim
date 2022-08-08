@@ -7,10 +7,10 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Deal at least 10 damage at once.", "Unclaimed", "2 Rocks", "73"],
-    ["Go Gathering.", "Unclaimed", "150% Gathering", "73"],
-    ["Interact with an enemy.", "Unclaimed", "5 Misc EXP", "73"],
-    ["Cause a new item to be added to the data.", "Unclaimed", "2 of that item", "72~75"],
+    ["Use a Skill.", "Unclaimed", "2 Lucky Blocks", "74"],
+    ["Consume an item.", "Unclaimed", "2 Lucky Blocks", "74"],
+    ["Deal damage.", "Unclaimed", "2 Lucky Blocks", "74"],
+    ["Cause a new item to be added to the data.", "Claimed by Landon", "2 of that item", "72~75"],
     ["Equip any armor.", "Unclaimed", "0.8 Indirect Defense", "72~75"],
     ["Craft 5 unique items.", "Unclaimed", "350% Crafting", "72~75"], //reali 2
     ["Talk to Morshu.", "Unclaimed", "2 Bombs, 7 Misc EXP"],
@@ -61,12 +61,15 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
             ["Bobby", "10 Edits", "1 Skill Candy", "0/10"],
             ["Tony", "10 Edits", "1 Skill Candy", "5/10"],
             ["Landon", "10 Edits", "1 Skill Candy", "0/10"],
-        ], "500 Edits (3/500)", 40
+        ], "500 Edits (10/500)", 40
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Deal at least 10 damage at once.", "Unclaimed", "2 Rocks", "73"],
+        ["Go Gathering.", "Unclaimed", "150% Gathering", "73"],
+        ["Interact with an enemy.", "Claimed by Landon", "5 Misc EXP", "73"],
         ["Be at Turret 3 by the end of the Turn.", "Claimed by Landon, gilbert", "A Prize (can be claimed by multiple people)", "72"],
         ["Deal type-aligned damage.", "Unclaimed", "3 Snowballs", "72"],
         ["Interact with an NPC.", "Unclaimed", "1 Disposable Phone", "72"],

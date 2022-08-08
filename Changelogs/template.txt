@@ -12,6 +12,9 @@ Crafting
 Effects
 - 
 
+Structures
+- 
+
 Scrolls
 - 
 

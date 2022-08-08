@@ -188,8 +188,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Iron Chestplate", "iron_chest", "A chestplate made of iron.", "Crafting", "+1 Direct Defense<br />+1 Indirect Defense", [2], 1, 15]], //164
     [["Iron Leggings", "iron_legs", "A pair of leggings made of iron.", "Crafting", "+1 Direct Defense<br />+1 Indirect Defense", [3], 1, 14]], //165
     [["Iron Boots", "iron_boots", "A pair of boots made of iron.", "Crafting", "+1 Indirect Defense", [4], 1, 14]], //166
-    [["Red Mushroom", "red_mushroom", "A mushroom with a spotted red cap.", "Gathering", "Eat for Poison (1 turn)<br />Potion effect: Poison (1 turn)", [10,30], 1, 4]], //167
-    [["Brown Mushroom", "brown_mushroom", "A mushroom with a brown cap.", "Gathering", "Eat for +2 HP<br />Potion effect: 50% chance to add 1 turn to one effect", [10,30], 1, 3]], //168
+    [["Red Mushroom", "red_mushroom", "A mushroom with a spotted red cap.", "Gathering", "Inflicts Poisoned for 1 turn on consume<br />Potion effect: Poison (1 turn)", [10,30], 1, 4]], //167
+    [["Brown Mushroom", "brown_mushroom", "A mushroom with a brown cap.", "Gathering", "+2 HP on consume<br />Potion effect: 50% chance to add 1 turn to one effect", [10,30], 1, 3]], //168
     [["Wooden Hammer", "wood_hammer", "A hammer made of wood.", "Crafting", "(has not been assigned attack values yet)<br />+1 Construction", [6], 1, 5]], //169
     [["Wooden Trowel", "wood_trowel", "A trowel made of wood.", "Crafting", "(has not been assigned attack values yet)<br />+1 Gardening", [6], 1, 5]], //170
     [["Wooden Fishing Rod", "wood_fish_rod", "A fishing rod made of wood.", "Crafting", "(has not been assigned attack values yet)<br />+1 Fishing", [6], 1, 5]], //171
@@ -693,4 +693,18 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Cobblestone", "cobblestone", "<em>Finally</em>, some cobblestone!<br /><br />wait why do the tools still use regular stone", "Mining", "", [17,11], 1, 4], //0
         ["[Mossy] Cobblestone", "moss_cobblestone", "A cube of cobblestone with some <span style='color:#3f9f2f'>[Moss]</span> on it.", "Crafting", "", [17], 8, 5], //1
     ], //629
+    [["Iron Block", "iron_block", "A block of solid iron. Hopefully it won't rust.", "Crafting", "", [17], 2, 83]], //630
+    [["Gold Block", "gold_block", "A block of solid gold. At least it looks pretty.", "Crafting", "", [17], 2, 65]], //631
+    [["Diamond Block", "diamond_block", "A block of solid diamond. Wow, this will sell for a <em>lot</em>!", "Crafting", "", [17], 3, 122]], //632
+    [["Emerald Block", "emerald_block", "A block of solid emerald. Wow, this will sell for a <em>lot</em>!", "Crafting", "", [17], 3, 122]], //633
+    [
+        ["Dispenser", "dispenser", "A dispenser. If you activate it, it'll shoot out what's inside if it can, or drop it if it can't.", "Crafting", "", [17,48], 1, 13], //0
+        ["Dropper", "dropper", "A dropper. If you activate it, it'll drop what's inside, right onto the ground.", "Crafting", "", [17,48], 1, 11], //1
+        ["Shooter", "shooter", "A shooter. If you activate it, it'll shoot out what's inside, no matter what.", "Crafting", "", [17,48], 2, 15], //2
+    ], //634
+    [["Lucky Block", "lucky_block", "A block made of what seems to be solid gold. When you break it, something interesting will happen!<br />Luck: ", "Crafting", "Break it to cause stuff to happen", [17, 20], 2, 0]], //635
+    [["Sleep Shroom", "sleep_shroom", "A azure mushroom with pale yellow spots. It has the unique property of its toxins inducing sleep and doing nothing else.<br />Can be crafted into Sleep Powder.", "Gathering", "+2 HP on consume<br />Inflicts 1 turn of Asleep<br />Potion effect: 50% chance into inflict Asleep (1 turn)", [10,30], 1, 3]], //636
+    [["Gold Sleep Shroom", "gold_sleep_shroom", "A golden mushroom with golden spots. It makes you feel drowsy just by looking at it.", "Gathering", "All Sleep types restore an additional +2 HP/turn<br />All Sleep types have their chance of waking up manually reduced by 10%", [10,30], 2, 9]], //637
+    [["Thunder Knife", "thunder_knife", "<em>Uh oh.</em><br /><br />No, really, where's all this bonus damage coming from?", "Presumably Crafting", "+5 Attack<br />+5 <span class='electric'>Electric</span> Damage<br />+5 Melee Damage<br />+10 Damage vs. Dragons<br />+5 Damage vs. <span class='ice'>Ice</span>-aligned", [5,23,29,32,33,40,51], 5, 0]], //638
+    [["Thunder Staff", "thunder_staff", "Oh, good; a good counterpart.", "Crafting", "+5 <span class='electric'>Electric</span> Damage<br />+2 Magic Damage<br />+3 Damage vs. <span class='electric'>Electric</span>-aligned", [5,22,29,32,33,51], 6, 0]], //639
 ]
