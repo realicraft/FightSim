@@ -1,0 +1,43 @@
+Changelog for Turn 75
+
+Mobs
+- 
+
+Items
+- 
+
+Crafting
+- 
+
+Effects
+- 
+
+Structures
+- fixed issue with stack counts on items with nbt data
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- 
+
+Quests
+- 
+
+Phone System
+- 
+
+Helpers
+- 
+
+Votes
+- 
+
+Internal
+- fixed landon having an incorrect css id
+
+Misc
+- 

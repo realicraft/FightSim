@@ -137,7 +137,7 @@ var user_data = {
             "summon/ally": [false, "none", "null", [0,0, [0,0],[0,0], [0,0],[0,0], 0,0], [[0,0,0,0]], [[0,0,0,0]]]
         },
         "Landon": {
-            "un_same": false, "username": "Orb Fish", "css_class": "bobby", "do_pad": false,
+            "un_same": false, "username": "Orb Fish", "css_class": "landon", "do_pad": false,
             "type": 0,"health": [91,101],"attack": [[7,2],[7,3]],"defense": [[6,1],[5,0]],"rpg_stats": [5,5,5,5,5,5],
             "kills": 0,"deaths": 0,"skills": [[2,0,35],[3,0,30],[9,0,40],[8,1,144]],"effects": [[8,1]],
             "equips": [[1,0,1,{}],[2,0,1,{}],[3,0,1,{}],[4,0,1,{}],[5,0,1,{}],[67,0,1,{}],[7,0,1,{}],[8,0,1,{}]],"exp": [1,9,20],

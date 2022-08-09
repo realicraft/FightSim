@@ -9,16 +9,16 @@ for (var i of inven_els) {
     inven = inven["items"]
     for (var j in inven) {
         invenRow = "<tr>";
-        for (var k of inven[j]) {
+        for (var l of inven[j]) {
             invenRow += "<td class='inv_item'>";
-            if (k[0] == 0) {}
+            if (l[0] == 0) {}
             else {
-                invenRow += makeItem(k[0], k[1], k[2], k[3])
+                invenRow += makeItem(l[0], l[1], l[2], l[3])
             };
-            if (k[2] == 1) {}
+            if (l[2] == 1) {}
             else {
                 invenRow += "<span>"
-                invenRow += k[2]
+                invenRow += l[2]
                 invenRow += "</span>"
             };
             invenRow += "</td>"
