@@ -1,0 +1,50 @@
+Skeledop - Turn 22
+how did i forget this
+[quote=Byron_Inc_TBG]I rebuild the fireproof/explosionproof wall, and make it waterproof, electroproof (wait what), and most importantly, shockwave-proof.
+I also repair my barrier wall.[/quote]
+That's a lot of proofs. This might take a while. (1/3)
+[quote=solitare]i somehow end up in the north pole
+the only things that can be used for resources are fish, ice, polar bears, and seals
+probably
+i find a sharp icicle to use for hunting stuff and fishing[/quote]
+Skill roll: 1d20-5(No tool) = {crhit|20}-5 = {crhit|15}
+Somehow you end up at the North Pole?!?!?
+Unfortunately you spawn above the ground.
+Fall damage roll: 1d5+10 = {crmiss|1}+10 = {crmiss|11}
+You stick the landing. {comment|It was a Critical Miss.}
+Skill roll: 1d20 = {green|16}
+You find an {i|Icicle}.
+
+{b|Bold text.}
+{i|Italic text.}
+{s|Struckthrough text.}
+[del]Deleted text.[/del]
+[em]Emphasized text.[/em]
+[ins]Inserted text.[/ins]
+{b|{u|Nested tags.}}
+[quote=quote]A quote, which can contain {u|more tags}.[/quote]
+{quote|An empty quote.}
+{code|Code, which can't contain {b|more tags}.}
+{b|Can't nest {code|these}}
+{i|Nor can {quote|you nest {b|these}}}
+{red|Red text.}
+{green|Green text.}
+{comment|Hidden text, {u|usually}.}
+{list|
+{*|A list,}
+{*|With bullet points.}
+{*|Some contain {b|more tags}.}
+}
+[list=*]
+{*|A list with different syntax.}
+[/list]
+[list=1]
+{*|A list with numbers.}
+[/list]
+[list=A]
+{*|A list with letters.}
+[/list]
+[img=An image]https://tbgforums.com/forums/img/test.png[/img]
+[topic=5465]FightSim 3's topic[/topic]
+[url=file:///home/pi/git/FightSim/3/index.html]A URL with a number in it.[/url]
+[url=file:///home/pi/git/FightSim/index.html]A URL without a number in it.[/url]

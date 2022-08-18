@@ -17,10 +17,12 @@ reali:
   Indirect Defense: (+1.7)
    Santa Hat (+1)
    LTT Hoodie (+0.7)
-  Direct Defense: (+0.2)
-   Quest Bonus (+0.2)
+  Direct Defense: (+0.2 perm)
+   Quest Reward (+0.2 perm)
   INT: (+2)
    LTT Hoodie (+2)
+  XP from Monsters: (+5%)
+   Santa Hat (+5%)
  Skills:
   Fishing: (+0.7)
    Goldfish Sticker (+0.7)
@@ -70,6 +72,14 @@ cheesy:
  Stats:
   Direct Attack: (+1)
    Wooden Sword (+1)
+  Indirect Attack: (+1)
+   Santa Hat (+1)
+  Indirect Defense: (+2 +0.8 perm)
+   Santa Hat (+1)
+   Wooden Shield (+1)
+   Quest Reward (+0.8 perm)
+  XP from Monsters: (+5%)
+   Santa Hat (+5%)
   Health: (+3)
    Player Level (+3)
  Skills:
@@ -125,8 +135,8 @@ Luigis_Pizza:
  Skills:
 Joyous Theta (D. N. Kitty):
  Stats:
-  Indirect Attack: (+1)
-   Quest Reward (+1)
+  Indirect Attack: (+1 perm)
+   Quest Reward (+1 perm)
   Health: (+3)
    Player Level (+1)
    Max HP Upgrade (+2)
@@ -150,10 +160,13 @@ TonyBrown148:
  Skills:
   Construction: (+2.9)
    Emerald Hammer (+2.9)
-TonyBrown148:
+Landon:
  Stats:
-  Direct Attack: (-1)
+  Direct Attack: (+0.6)
    Bleeding (-1)
+   Emerald Pickaxe (+1.6)
+  Indirect Attack: (+0.8)
+   Emerald Pickaxe (+0.8)
   Direct Defense: (+1)
    Clay Shield (+1)
   Indirect Defense: (+1)
@@ -161,3 +174,5 @@ TonyBrown148:
   HP/Turn: (-5)
    Bleeding (-5)
  Skills:
+  Mining: (+2.9)
+   Emerald Pickaxe (+2.9)

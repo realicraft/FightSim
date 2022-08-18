@@ -16,33 +16,6 @@ Crafting
 - the furnace now requires 6 stone instead of 8
 - added recipies for the plot weapons
 
-Effects
-- 
-
-Structures
-- 
-
-Scrolls
-- 
-
-Skills
-- 
-
-Gardens
-- 
-
-Quests
-- 
-
-Phone System
-- 
-
-Helpers
-- 
-
-Votes
-- 
-
 Internal
 - added an icon for drowning
 

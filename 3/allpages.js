@@ -4,7 +4,7 @@ var tooltipEl = document.getElementsByClassName("tooltip_body")[0]
 var infoEl = document.getElementsByClassName("info_body")[0]
 var bodyEl = document.body
 
-var timeboxInfo = [74, "dusk", "sunny", "Dusk", "Clear"]
+var timeboxInfo = [75, "dusk", "sunny", "Dusk", "Clear"]
 
 var headerCont = '<div class="header"><span class="small_icon fs3" style="position:absolute;left:4px;top:4px;" title="FS3"></span>'
 for (var i in headerLinks["3"]) {headerCont += '\n<a href="' + headerLinks["3"][i][1] + '">' + headerLinks["3"][i][0] + '</a>'}
@@ -26,8 +26,10 @@ infoEl.innerHTML = infoCont
 
 
 var makeItem = function(id, dv, stack, nbt) {
-    var didFirstArg = false
-    var didSecondArg = false
+    var didFirstArg = false;
+    var didSecondArg = false;
+    var didThirdArg = false;
+    var startedMini = false;
     var invenRow2 = "<span class='icon ";
     if ("enchant" in nbt) {invenRow2 += "enchanted "}
     invenRow2 += equiplist[id][dv][1];
@@ -61,7 +63,40 @@ var makeItem = function(id, dv, stack, nbt) {
     }
     if (didSecondArg) {invenRow2 += "\""}
     else {invenRow2 += ",\"\""}
-    invenRow2 += ");' onmouseout='nt();'></span>";
+    for (k in nbt) { // check for third argument data (custom name)
+        if (k == "cname") {
+            if (!didThirdArg) {invenRow2 += ",\""}
+            didThirdArg = true
+            invenRow2 += nbt["cname"]
+        }
+    }
+    if (didThirdArg) {invenRow2 += "\""}
+    else {invenRow2 += ",\"\""}
+    invenRow2 += ");' onmouseout='nt();'>"
+    invenRow2 += "</span>";
+    for (k in nbt) { // check for mini icons (tags)
+        if (k == "tag") {
+            if (!startedMini) {invenRow2 += "<span class='mini_cont'>"}
+            startedMini = true
+            invenRow2 += "<span class='mini_icon mini_tag_" + nbt["tag"] + "'></span>"
+        }
+    }
+    for (m of equiplist[id][dv][1].split(" ")) { // check for mini icons (classes)
+        if (m == "enchanted") {
+            if (!startedMini) {invenRow2 += "<span class='mini_cont'>"}
+            startedMini = true
+            invenRow2 += "<span class='mini_icon mini_ench'></span>"
+        } else if (m == "golden") {
+            if (!startedMini) {invenRow2 += "<span class='mini_cont'>"}
+            startedMini = true
+            invenRow2 += "<span class='mini_icon mini_golden'></span>"
+        } else if (m == "ripe") {
+            if (!startedMini) {invenRow2 += "<span class='mini_cont'>"}
+            startedMini = true
+            invenRow2 += "<span class='mini_icon mini_ripe'></span>"
+        }
+    }
+    if (startedMini) {invenRow2 += "</span>"}
     return invenRow2
 }
 

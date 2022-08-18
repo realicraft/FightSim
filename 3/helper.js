@@ -33,10 +33,7 @@ var loop_until_char = function(string, char) {
     }
     return i
 }
-var run_conv = function() {
-    var inEl = document.getElementById("conv_in")
-    var outEl = document.getElementById("conv_out")
-    var cont = inEl.value
+var comp_conv = function(conv) {
     var outCont = ""
     var semiCont = ""
     var partA = ""
@@ -46,15 +43,16 @@ var run_conv = function() {
     var l = 0
     var done = false
     while (!done) {
-        j = loop_until_char(cont, "{")
-        outCont += cont.slice(0, j)
-        if (j == cont.length) {
+        j = loop_until_char(conv, "{")
+        outCont += conv.slice(0, j)
+        if (j == conv.length) {
             done = true
             continue
         }
-        cont = cont.slice(j+1)
-        k = loop_until_char(cont, "}")
-        semiCont = cont.slice(0, k)
+        conv = conv.slice(j+1)
+        conv = comp_conv(conv)
+        k = loop_until_char(conv, "}")
+        semiCont = conv.slice(0, k)
         l = loop_until_char(semiCont, "|")
         if (l == semiCont.length) {
             if (semiCont in replaceSingleList) {outCont += replaceSingleList[semiCont]}
@@ -63,9 +61,15 @@ var run_conv = function() {
             partB = semiCont.slice(l+1)
             if (partA in replaceDoubleList) {outCont += replaceDoubleList[partA][0] + partB + replaceDoubleList[partA][1]}
         }
-        cont = cont.slice(k+1)
+        conv = conv.slice(k+1)
     }
-    outEl.value = outCont
+    return outCont
+}
+var run_conv = function() {
+    var inEl = document.getElementById("conv_in")
+    var outEl = document.getElementById("conv_out")
+    var cont = inEl.value;
+    outEl.value = comp_conv(cont)
 }
 
 /* Golden Food Bonus Calc */
@@ -79,4 +83,14 @@ var run_gfood = function() {
         console.log(multi)
     }
     outputEl.innerText = bonusEl.value * multi
+}
+
+/* Random Number Generator */
+var run_rand = function() {
+    var minEl = document.getElementById("rand_min")
+    var maxEl = document.getElementById("rand_max")
+    var outputEl = document.getElementById("rand_output")
+    var min = parseInt(minEl.value)
+    var max = parseInt(maxEl.value)
+    outputEl.innerText = Math.ceil((Math.random()*(max-min+1)))+(min-1)
 }

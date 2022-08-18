@@ -1,0 +1,59 @@
+Changelog for Turn 75
+
+Mobs
+- mobs page now uses makeItem()
+- mob drops now support nbt data
+
+Items
+- added torches
+- added a quiver, a ruler, and a crown
+- added an ammo category
+- items can now have custom names
+- lamp oil can now be partially used
+- buffed lamp oils sell price
+- added juices for several crops
+- nerfed lemon and lime juice to account for you getting more of them
+- adjusted the description of the carrot cookie to make it not seem more important that it actually was
+- adjusted the description of the golden carrot to account for the fact that a dragon would probably not understand what it's for
+- adjusted the description of the can of carrots to account for the fact that it has carrots in it, and dragons like carrots
+- added magic scraps, obtained by destroying a scroll
+- added tags, which can be used to tag items
+- added name, description, and attribute tags
+- added icons to golden and ripe crops, plus enchanted items, to account for colorblindness
+
+Crafting
+- added recipes for the torch, ruler, and crown
+- added recipes for poisoned and flame arrows
+- added recipes for dyes from ripe crops
+- chocolate chip recipe now gives three handfulls of chips
+- added a section for juices
+- the recipes for lemon/lime juice now give two juices
+- added recipes for juicing ripe lemons/limes
+- added recipes for juicing a bunch of other crops
+- moved the recipes for the dispenser, dropper, and lucky block
+
+Structures
+- fixed issue with stack counts on items with nbt data
+
+Gardens
+- added a display to show what crops you can get
+
+Quests
+- added a new repeatable quest
+
+Helpers
+- tbgsbb+ parser can now parse nested tags
+- added code and list tags
+- added emergency rng
+
+Internal
+- fixed landon having an incorrect css id
+- tt() can now take a custom name
+
+Misc
+- added a gray background to the inside of the level bar
+- added a new font, an italic variant of the 20px font
+- added a new font, a 6px tall font used when an item has a large number of data values
+- fixed permanent quest reward stat buffs not being acknowledged as increasing the base value
+- added mini icons
+- fixed the raised sword sticker having a sell price

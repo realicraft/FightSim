@@ -13,11 +13,15 @@ var rowCount = Math.ceil(numItems/9)
 var currentCol = 0
 for (k in equiplist) {
     for (l in equiplist[k]) {
+        var compId = "0";
         creativeRow += "<td class='inv_item'>";
-        creativeRow += makeItem(k, l, "", {})
-        creativeRow += "<span>";
-        if (equiplist[k].length == 1) {creativeRow += k}
-        else {creativeRow += k + ":" + l};
+        creativeRow += makeItem(k, l, "", {});
+        creativeRow += "<span";
+        if (equiplist[k].length == 1) {compId = k}
+        else {compId = k + ":" + l};
+        if (parseInt(compId.length) >= 6) {creativeRow += " style='font-family:\"FightSim 6\";font-size:6px;bottom:1px;'"};
+        creativeRow += ">";
+        creativeRow += compId;
         creativeRow += "</span>";
         creativeRow += "</td>";
         currentCol++;

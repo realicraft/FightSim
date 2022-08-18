@@ -9,6 +9,19 @@ span.small_icon {
     width: 16px;
     height: 16px;
 }
+span.mini_icon {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+}
+span.mini_cont {
+    position: absolute;
+    left: 1px;
+    text-align: left;
+}
+span.mini_cont span.mini_icon {
+    position: relative;
+}
 .icon {
     background-image: url("../Icons/Exported/equip_sheet.png");
     background-position: -608px -608px;
@@ -16,6 +29,10 @@ span.small_icon {
 .small_icon {
     background-image: url("../Icons/Exported/info_sheet.png");
     background-position: -240px -240px;
+}
+.mini_icon {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -0px -0px;
 }
 /* hud */
 .heart, .health {
@@ -304,7 +321,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/equip_sheet.png");
     background-position: -192px -160px;
 }
-.gold_burger {
+.golden.burger {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -0px -0px;
 }
@@ -332,7 +349,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/misc_sheet.png");
     background-position: -96px -32px;
 }
-.gold_carrot {
+.golden.carrot {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -224px -0px;
 }
@@ -524,7 +541,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -0px -0px;
 }
-.golden_apple {
+.golden.apple {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -32px -0px;
 }
@@ -532,7 +549,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -64px -0px;
 }
-.golden_orange {
+.golden.orange {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -96px -0px;
 }
@@ -585,8 +602,8 @@ span.small_icon {
     background-position: -64px -32px;
 }
 .string {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -32px -32px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -64px -0px;
 }
 .arrow {
     background-image: url("../Icons/Exported/equip_sheet.png");
@@ -600,7 +617,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -0px -32px;
 }
-.gold_can {
+.golden.can {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -32px -32px;
 }
@@ -768,7 +785,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -128px -0px;
 }
-.gold_cabbage {
+.golden.cabbage {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -160px -0px;
 }
@@ -788,7 +805,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -32px -0px;
 }
-.gold_dough {
+.golden.dough {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -64px -0px;
 }
@@ -908,7 +925,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/fish_sheet.png");
     background-position: -96px -0px;
 }
-.gold_goldfish {
+.golden.goldfish {
     background-image: url("../Icons/Exported/fish_sheet.png");
     background-position: -128px -0px;
 }
@@ -921,12 +938,12 @@ span.small_icon {
     background-position: -192px -0px;
 }
 .leather {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -0px -64px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -0px -0px;
 }
 .bone {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -32px -64px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -32px -0px;
 }
 .wood_fish_rod {
     background-image: url("../Icons/Exported/equip_sheet.png");
@@ -958,7 +975,7 @@ span.small_icon {
 }
 .stocking {
     background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -64px -64px;
+    background-position: -0px -64px;
 }
 .blue_candy {
     background-image: url("../Icons/Exported/food_sheet.png");
@@ -1005,14 +1022,14 @@ span.small_icon {
     background-position: -160px -96px;
 }
 .slime_ball {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -192px -96px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -160px -0px;
 }
 .radish {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -64px -32px;
 }
-.gold_radish {
+.golden.radish {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -96px -32px;
 }
@@ -1040,7 +1057,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -128px -32px;
 }
-.gold_beetroot {
+.golden.beetroot {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -160px -32px;
 }
@@ -1060,7 +1077,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -192px -32px;
 }
-.gold_cocoa_bean {
+.golden.cocoa_bean {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -224px -32px;
 }
@@ -1088,7 +1105,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -128px -128px;
 }
-.gold_potato {
+.golden.potato {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -160px -128px;
 }
@@ -1116,7 +1133,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -0px -32px;
 }
-.gold_pie {
+.golden.pie {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -32px -32px;
 }
@@ -1144,7 +1161,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -0px -160px;
 }
-.gold_blueberries {
+.golden.blueberries {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -32px -160px;
 }
@@ -1152,7 +1169,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -64px -160px;
 }
-.gold_cherries {
+.golden.cherries {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -96px -160px;
 }
@@ -1272,7 +1289,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -128px -160px;
 }
-.gold_lemon, .gold_lime {
+.golden.lemon, .golden.lime {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -160px -160px;
 }
@@ -1316,7 +1333,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -0px -64px;
 }
-.gold_pear {
+.golden.pear {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -32px -64px;
 }
@@ -1344,7 +1361,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -64px -64px;
 }
-.gold_wheat {
+.golden.wheat {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -96px -64px;
 }
@@ -1437,8 +1454,8 @@ span.small_icon {
     background-position: -224px -64px;
 }
 .gunpowder {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -64px -128px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -96px -0px;
 }
 .snowball, .snowball_with_rock {
     background-image: url("../Icons/Exported/misc_sheet.png");
@@ -1520,7 +1537,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -0px -96px;
 }
-.golden_pizza {
+.golden.pizza {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -32px -96px;
 }
@@ -1528,7 +1545,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -128px -64px;
 }
-.gold_tomato {
+.golden.tomato {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -160px -64px;
 }
@@ -1938,23 +1955,23 @@ span.small_icon {
 }
 .ice_rock {
     background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -64px -192px;
+    background-position: -64px -128px;
 }
 .red_slime_ball {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -96px -192px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -192px -0px;
 }
 .blue_slime_ball {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -128px -192px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -224px -0px;
 }
 .yellow_slime_ball {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -160px -192px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -0px -32px;
 }
 .purple_slime_ball {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -0px -224px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -32px -32px;
 }
 .shuriken {
     background-image: url("../Icons/Exported/equip_sheet.png");
@@ -1964,7 +1981,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -64px -96px;
 }
-.gold_poisonberry {
+.golden.poisonberry {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -96px -96px;
 }
@@ -2036,7 +2053,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -128px -96px;
 }
-.gold_grapes {
+.golden.grapes {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -160px -96px;
 }
@@ -2053,14 +2070,14 @@ span.small_icon {
     background-position: -160px -32px;
 }
 .feather {
-    background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -192px -32px;
+    background-image: url("../Icons/Exported/mob_sheet.png");
+    background-position: -128px -0px;
 }
 .olive {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -192px -96px;
 }
-.gold_olive {
+.golden.olive {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -224px -96px;
 }
@@ -2068,7 +2085,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -0px -128px;
 }
-.gold_pepper {
+.golden.pepper {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -32px -128px;
 }
@@ -2080,7 +2097,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -64px -128px;
 }
-.gold_coconut {
+.golden.coconut {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -96px -128px;
 }
@@ -2132,7 +2149,7 @@ span.small_icon {
     background-image: url("../Icons/Exported/alchemy_sheet.png");
     background-position: -224px -64px;
 }
-.gold_cookie {
+.golden.cookie {
     background-image: url("../Icons/Exported/food_sheet.png");
     background-position: -224px -96px;
 }
@@ -2207,13 +2224,13 @@ span.small_icon {
 }
 .wire {
     background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -224px -32px;
+    background-position: -32px -32px;
 }
 .corn {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -0px -192px;
 }
-.gold_corn {
+.golden.corn {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -32px -192px;
 }
@@ -2221,17 +2238,17 @@ span.small_icon {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -64px -192px;
 }
-.gold_peach {
+.golden.peach {
     background-image: url("../Icons/Exported/crop_sheet.png");
     background-position: -96px -192px;
 }
 .paper {
     background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -96px -64px;
+    background-position: -32px -64px;
 }
 .fabric {
     background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -128px -64px;
+    background-position: -64px -64px;
 }
 .crop_mush {
     background-image: url("../Icons/Exported/food_sheet.png");
@@ -2243,7 +2260,7 @@ span.small_icon {
 }
 .wallet {
     background-image: url("../Icons/Exported/misc_sheet.png");
-    background-position: -160px -64px;
+    background-position: -96px -64px;
 }
 .moss_block {
     background-image: url("../Icons/Exported/block_sheet.png");
@@ -2297,9 +2314,49 @@ span.small_icon {
     background-image: url("../Icons/Exported/plant_sheet.png");
     background-position: -224px -32px;
 }
-.gold_sleep_shroom {
+.golden.sleep_shroom {
     background-image: url("../Icons/Exported/plant_sheet.png");
     background-position: -192px -32px;
+}
+.apple_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -160px -160px;
+}
+.orange_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -192px -160px;
+}
+.carrot_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -224px -160px;
+}
+.tomato_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -0px -192px;
+}
+.cherry_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -32px -192px;
+}
+.peach_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -64px -192px;
+}
+.pear_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -96px -192px;
+}
+.grape_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -128px -192px;
+}
+.coconut_juice {
+    background-image: url("../Icons/Exported/food_sheet.png");
+    background-position: -160px -192px;
+}
+.torch {
+    background-image: url("../Icons/Exported/misc_sheet.png");
+    background-position: -128px -64px;
 }
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
@@ -2648,6 +2705,34 @@ span.cr_df_flight {
 .upgrade_rapping {
     background-image: url("../Icons/Exported/ally_sheet.png");
     background-position: -224px -64px;
+}
+.upgrade_strength {
+    background-image: url("../Icons/Exported/ally_sheet.png");
+    background-position: -0px -96px;
+}
+.upgrade_intelligence {
+    background-image: url("../Icons/Exported/ally_sheet.png");
+    background-position: -32px -96px;
+}
+.upgrade_agility {
+    background-image: url("../Icons/Exported/ally_sheet.png");
+    background-position: -64px -96px;
+}
+.upgrade_constitution {
+    background-image: url("../Icons/Exported/ally_sheet.png");
+    background-position: -96px -96px;
+}
+.upgrade_dexterity {
+    background-image: url("../Icons/Exported/ally_sheet.png");
+    background-position: -128px -96px;
+}
+.upgrade_charisma {
+    background-image: url("../Icons/Exported/ally_sheet.png");
+    background-position: -160px -96px;
+}
+.upgrade_slot {
+    background-image: url("../Icons/Exported/ally_sheet.png");
+    background-position: -192px -96px;
 }
 /* scrolls */
 .scroll_01_04 {
@@ -3152,6 +3237,83 @@ span.cr_df_flight {
 .craft_meatpaste {
     background-image: url("../Icons/Exported/info_sheet.png");
     background-position: -208px -48px;
+}
+/* mini icons */
+.mini_tag_plain {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -8px -0px;
+}
+.mini_golden {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -16px -0px;
+}
+.mini_ench {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -24px -0px;
+}
+.mini_plot_b {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -32px -0px;
+}
+.mini_plot_g {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -40px -0px;
+}
+.mini_ripe {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -48px -0px;
+}
+.mini_tag_pink {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -56px -0px;
+}
+.mini_tag_red {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -0px -8px;
+}
+.mini_tag_orange {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -8px -8px;
+}
+.mini_tag_brown {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -16px -8px;
+}
+.mini_tag_yellow {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -24px -8px;
+}
+.mini_tag_green {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -32px -8px;
+}
+.mini_tag_cyan {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -40px -8px;
+}
+.mini_tag_blue {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -48px -8px;
+}
+.mini_tag_purple {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -56px -8px;
+}
+.mini_tag_magenta {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -0px -16px;
+}
+.mini_tag_white {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -8px -16px;
+}
+.mini_tag_gray {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -16px -16px;
+}
+.mini_tag_black {
+    background-image: url("../Icons/Exported/mini_sheet.png");
+    background-position: -24px -16px;
 }
 /* effects */
 .enchanted {

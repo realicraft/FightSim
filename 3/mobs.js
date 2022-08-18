@@ -30,11 +30,7 @@ for (var i of moblist) {
         mobs_group += "<td class='inv_item'>";
         if (j[0] == 0) {}
         else {
-            mobs_group += "<span class='icon ";
-            mobs_group += equiplist[j[0]][j[1]][1];
-            mobs_group += "' onmouseover='tt(";
-            mobs_group += j[0] + "," + j[1];
-            mobs_group += ");' onmouseout='nt();'></span>";
+            mobs_group += makeItem(j[0], j[1], j[2], j[3]);
         };
         if (j[2] == 1) {}
         else {
@@ -47,7 +43,7 @@ for (var i of moblist) {
     mobs_group += '</tr><tr>'
     for (k of i[6]) {
         mobs_group += '<td>'
-        mobs_group += k[3]
+        mobs_group += k[4]
         mobs_group += '</td>'
     }
     mobs_group += '</tr></table></div></div>'
