@@ -1,3 +1,6 @@
+Skeledop - Turn 75
+wait i was supposed to do this yesterday, wasn't i
+oh well
 {hr}
 [quote=TonyBrown148][b]This is my final post in this game.[/b]
 
@@ -21,6 +24,8 @@ You finish the Well.
 You attempt to craft.
 Skill roll: 1d20-2 = 14-2 = 12
 You succeed.
+You've completed a quest! (Use a Skill.) You've obtained 2 Lucky Blocks, plus 2 Misc EXP.
+You've completed a quest! (Consume an item.) You've obtained 2 Lucky Blocks, plus 2 Misc EXP.*
 {hr}
 [quote=Orb Fish]POST #2
 
@@ -29,6 +34,12 @@ The Well doesn't exactly function like a well. Instead, it collects whatever's f
 Throw the Dirt and Sand out of my inventory to make room for more items.
 Use the Emerald Pickaxe to go mining for Coal.
 Smelt 4 of the Iron Ores into 2 Iron Bars using the resulting Coal.[/quote]
+I see.
+You throw out the items.
+You equip the Emerald Pickaxe and go Mining.
+Skill roll: 1d20+3 = {red|5}+3 = {red|8}
+You mine 1 Stone, 1 Coal, and 1 Iron Ore. (Your Mining skill has gone up by 35%.)
+Unfortunately, you do not have enough coal to smelt 2 Iron Bars, only one. (Your Crafting skill has gone up by 15%.)
 {hr}
 [quote=Byron_Inc_TBG]Collect the golden carrot mush and replant it with new golden carrots if necessary.
 Also, harvest the wheat.
@@ -36,9 +47,78 @@ Also, harvest the wheat.
 Fix up all the damage caused by the thunderstorm. (Construction roll)
 
 Keep creating the ore room. (4/5)[/quote]
+Crops are replanted automatically; the only reason that they wouldn't be is if you rolled a critical miss while under skill level 5.
+Skill rolls: 2d20+12 = {red|3}, 8 = {red|15}, 20
+You harvest 5 Rotting Mush, 6 Ripe Wheat, and 1 Golden Wheat, ignoring the Golden Apple Tree.
+You only have room for the Golden Wheat, so you drop the rest on the ground. (Your Farming skill has gone up by 109%. Your Farming skill leveled up!)
+You attempt to repair the Explosives Room, Shelter, and the first and fourth Turrets.
+Skill rolls: 4d18+8 = 17, {red|3}, 15, 5 = 25, {red|11}, 23, 13
+The Explosives Room is mostly repaired.
+The Shelter is repaired.
+The first Turret gains 23/2={b|11} HP.
+The fourth Turret gains 13/2={b|6} HP. (Your Construction skill has gone up by 175%.)
+You've completed a quest! (Deal damage.) You've obtained 2 Lucky Blocks, plus 2 Misc EXP.**
+You don't have room for the Lucky Blocks, so you throw out the Stone Hammer to make room.
+You work on the Ore Room. (4/5)
 {hr}
 [quote=cheesyfriedeggs]Put on the Santa Hat and continue working on the storage room.[/quote]
+You equip the Santa Hat.
+You've completed a quest! ({i|Equip any armor.}) You've permanently gained 0.8 Indirect Defense, plus 4 Misc EXP.
+You continue working on the Storage Room. (2/3)
 {hr}
 [quote=IncendiaryGaming]Well my luck sucks
 Go mining again[/quote]
+You go Mining.
+Skill roll: 1d20+6 = 8+6 = 14
+You mine 3 Stone, 2 Iron Ore, 1 Electrum Ore, 1 Diamond, 1 Emerald, and 1 Geode. (Your Mining skill had gone up by 60%.)
 {hr}
+Plants grow.
+Byron's Beans and Potatoes are harvestable. Remember to make room.
+Byron's Golden Apple Tree has started rotting. Hurry, before the rots spreads to the tree!
+Reali's Carrots are ripe.
+
+Mob Action rolls: 10d6 = 2, 6, 1, 2, 4, 5, 1, 6, 5, 3
+The Pig digs around in the ground and finds a Carrot.
+The first Sheep trips and takes {b|2} damage.
+The Blue Slime jumps around.
+The first Zombie trips and takes {b|2} damage.
+The second Zombie attacks a random target.
+Target roll: 1d7 = 6
+The Zombie targets Tony.
+Attack roll: 1d6+3 = {red|2}+3 = {red|5}
+Defense roll: 1d5 = 4
+Tony takes 5-4={b|1} damage and retaliates!
+Attack roll: 1d9+4 = {red|3}+4 = {red|7}
+Defense roll: 1d2+2 = 1+2 = 3
+The Zombie takes 7-3={b|4} damage.
+The third Sheep bleats.
+
+Weather roll: 1d20 = {green|18}
+The weather stays nice and sunny. Well, as sunny as you can get during sunset.
+
+Byron's bank account gains 8.687{dec}.
+
+{hr}
+Oh hey, remember this game?
+Don't worry; this break was intentional.
+Like as usual at this point, there's a changelog: [url]https://realicraft.github.io/FightSim/Changelogs/70s/turn75.txt[/url].
+The important changes are as follows:
+- added a bajillion items
+- items can have custom names
+- items can now be tagged, with tags
+- sugar cookies
+- the gardens page now shows what crops you can get, meaning i've now implemented everything that was voted on
+- added two new fonts
+- golden crops, ripe crops, and enchanted items now have small icons in the bottom-left corner
+- these icons are meant to help disambiguate between items that may look similar to those that are colorblind
+- they're also supposed to be toggleable but i don't know how cookies work so that will come next update
+Also, some elaboration on this turn's quests:
+- it should be fairly obvious what counts as juice, though coconut waters and vials of poison also count
+- you don't need a lucky block to open one; you can open a thin-air lucky block, but you're limited to neutral rewards (some of which are nerfed)
+- the blue and yellow slime mobs can be pet for the quest, but slime also counts
+
+* Using items in crafting counts as consuming them.
+** Healing is just negative damage.***
+
+
+*** (no it is not)

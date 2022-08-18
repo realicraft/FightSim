@@ -61,3 +61,6 @@ h2 {
 .pad1 {
     padding-right: 1px;
 }
+span.mini_cont {
+    bottom: 0px;
+}

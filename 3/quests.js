@@ -7,12 +7,12 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Use a Skill.", "Unclaimed", "2 Lucky Blocks", "74"],
-    ["Consume an item.", "Unclaimed", "2 Lucky Blocks", "74"],
-    ["Deal damage.", "Unclaimed", "2 Lucky Blocks", "74"],
+    ["Craft some form of juice.", "Unclaimed", "2 Apple Juices, 2 Orange Juices", "75"],
+    ["Open a Lucky Block.", "Unclaimed", "2 Lucky Blocks", "75"],
+    ["Pet a Slime.", "Unclaimed", "5 Misc EXP", "75"],
     ["Cause a new item to be added to the data.", "Claimed by Landon", "2 of that item", "72~75"],
-    ["Equip any armor.", "Unclaimed", "0.8 Indirect Defense", "72~75"],
-    ["Craft 5 unique items.", "Unclaimed", "350% Crafting", "72~75"], //reali 2
+    ["Equip any armor.", "Claimed by cheesy", "0.8 Indirect Defense", "72~75"],
+    ["Craft 5 unique items.", "Unclaimed", "350% Crafting", "72~75"], //reali 2, landon 2
     ["Talk to Morshu.", "Unclaimed", "2 Bombs, 7 Misc EXP"],
     ["Equip a Golden Food.", "Unclaimed", "3 Gold Bars, 150% Farming"],
     ["Equip a Sticker.", "Unclaimed", "Orb Sticker"],
@@ -26,8 +26,8 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
             ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
             ["Incendiary", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Byron", "7 Crops", "7 Misc EXP", "2/7"],
-            ["cheesy", "6 Crops", "6 Misc EXP", "4/6"],
+            ["Byron", "7 Crops", "7 Misc EXP", "4/7"],
+            ["cheesy", "6 Crops", "6 Misc EXP", "7/6"],
             ["solitare", "2 Crops", "2 Misc EXP", "0/2"],
             ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
             ["Leopardy", "1 Crop", "1 Misc EXP", "0/1"],
@@ -39,7 +39,7 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
             ["Bobby", "1 Crop", "1 Misc EXP", "0/1"],
             ["Tony", "1 Crop", "1 Misc EXP", "0/1"],
             ["Landon", "1 Crop", "1 Misc EXP", "0/1"],
-        ], "75 Harvests (40/75)", 60
+        ], "75 Harvests (45/75)", 60
     ],
     ["Make Wiki edits.", "The edits need to be significant in some way; fixing a typo won't count.",
         [
@@ -63,10 +63,35 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
             ["Landon", "10 Edits", "1 Skill Candy", "0/10"],
         ], "500 Edits (10/500)", 40
     ],
+    ["Use/Equip Scrolls, Upgrades, Stickers, Chocolates, or Lucky Blocks.", "Go on.<br />Use the features.",
+        [
+            ["reali", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["S.&nbsp;McSause", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Cats.", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Squirrelflight", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Incendiary", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Byron", "1 Use/Equip", "1 Lucky Block", "5/10"],
+            ["cheesy", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["solitare", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Fares", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Leopardy", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["gilbert", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Twilight", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Luigi", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            /*["Kitty", "1 Use/Equip", "1 Lucky Block", "0/1"],*/
+            ["Savvy", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Bobby", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Tony", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Landon", "1 Use/Equip", "1 Lucky Block", "0/1"],
+        ], "75 Uses or Equips (0/75)", 60
+    ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Use a Skill.", "Claimed by Landon", "2 Lucky Blocks", "74"],
+        ["Consume an item.", "Claimed by Landon", "2 Lucky Blocks", "74"],
+        ["Deal damage.", "Claimed by Byron", "2 Lucky Blocks", "74"],
         ["Deal at least 10 damage at once.", "Unclaimed", "2 Rocks", "73"],
         ["Go Gathering.", "Unclaimed", "150% Gathering", "73"],
         ["Interact with an enemy.", "Claimed by Landon", "5 Misc EXP", "73"],

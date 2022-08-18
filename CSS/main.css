@@ -115,6 +115,10 @@ td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
     src: url("FightSim-Num.ttf");
 }*/ /* font was made with fontforge and for some reason doesn't want to work (everything but .notdef is empty)*/
 @font-face {
+    font-family: "FightSim 6";
+    src: url("../fightsim-6px.ttf");
+}
+@font-face {
     font-family: "FightStack";
     src: url("../fightstack.ttf");
 }
@@ -145,6 +149,11 @@ td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
 @font-face {
     font-family: "FightSim 20";
     src: url("../fightsim-20px.ttf");
+}
+@font-face {
+    font-family: "FightSim 20";
+    src: url("../fightsim-20px-italic.ttf");
+    font-style: italic;
 }
 @font-face {
     font-family: "FightSim Body Double";

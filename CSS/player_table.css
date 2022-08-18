@@ -145,6 +145,7 @@
     height: 6px;
     border: 1px solid white;
     border-radius: 5px;
+    background-color: #2f2f2f;
 }
 .pt_level_bar_inner {
     background-color: white;

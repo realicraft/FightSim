@@ -55,4 +55,5 @@ var categorylist = [ // [name]
     ["<span class='ice2'>Ice</span>"], //53
     ["<span class='light2'>Light</span>"], //54
     ["<span class='dark2'>Dark</span>"], //55
+    ["Ammo"], //56
 ]

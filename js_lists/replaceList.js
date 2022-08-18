@@ -21,6 +21,8 @@ var replaceDoubleList = { // keyword: "replacement before", "replacement after"
     "phone": ["[img=Phone]https://realicraft.github.io/FightSim/Icons/Text/phone.png[/img][color=#0f5f0f]", "[/color]"],
     "comment": ["([color=transparent]","[/color])"],
     "quote": ["[quote]","[/quote]"],
+    "code": ["[code]","[/code]"],
+    "list": ["[list]","[/list]"],
     "normal": ["[color=#5f5f5f]","[/color]"],
     "fire": ["[color=#4f0f0f]","[/color]"],
     "water": ["[color=#0f0f5f]","[/color]"],
