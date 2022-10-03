@@ -36,6 +36,12 @@ Helpers
 Votes
 - 
 
+Translations
+- 
+
+Settings
+- 
+
 Internal
 - 
 

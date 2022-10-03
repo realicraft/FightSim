@@ -162,17 +162,18 @@ TonyBrown148:
    Emerald Hammer (+2.9)
 Landon:
  Stats:
-  Direct Attack: (+0.6)
-   Bleeding (-1)
+  Direct Attack: (+1.6 -0.3 perm)
    Emerald Pickaxe (+1.6)
+   Lucky Block (-0.3 perm)
   Indirect Attack: (+0.8)
    Emerald Pickaxe (+0.8)
   Direct Defense: (+1)
    Clay Shield (+1)
-  Indirect Defense: (+1)
+  Indirect Defense: (+1.1)
    Clay Shield (+1)
-  HP/Turn: (-5)
-   Bleeding (-5)
+   4 Leaf Clover (+0.1)
+  Luck: (+1)
+   4 Leaf Clover (+1)
  Skills:
   Mining: (+2.9)
    Emerald Pickaxe (+2.9)

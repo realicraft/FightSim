@@ -89,7 +89,7 @@ for (var l of activeMobs) {
     cmobs_group += '<div class="mob_effect">'
     cmobs_group += '<h3>Effects</h3><table style="margin-top: 0px;margin-bottom: 0px;"><tr>'
     for (var n of l[8]) {
-        if (n[0] != 0) {cmobs_group += '<td class="inv_item"><span class="icon ' + effectlist[n[0]][0][1] + '" onmouseover="ttEquip(' + n[0] + ');" onmouseout="nt();"></span><span class="pt_stackcount">' + n[1] + '</span></td>'}
+        if (n[0] != 0) {cmobs_group += '<td class="inv_item"><span class="icon ' + effectlist[n[0]][1] + '" onmouseover="ttEffect(' + n[0] + ');" onmouseout="nt();"></span><span class="pt_stackcount">' + n[1] + '</span></td>'}
         else {cmobs_group += '<td class="inv_item"></td>'}
     }
     cmobs_group += '</tr></table></div>'

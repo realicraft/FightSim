@@ -10,7 +10,7 @@ var name_class_list = [
     "moss", //8
 ]
 var get_pretty_price = function(price) { // function to convert a sell price in centicents form to a form displaying all units
-    price2 = price
+    var price2 = price
     dollars = 0
     cents = 0
     decicents = 0

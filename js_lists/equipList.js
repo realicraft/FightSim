@@ -43,9 +43,15 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["TNT", "tnt", "Explodes after being ignited.", "Unknown", "", [17,47], 2, 0]], //41
     [["Icicle", "icicle", "It's cold, and kinda pointy.", "Gathering", "+10% chance to inflict Frozen on hit for 1 turn<br />+1 <span class=\"ice\">Ice</span> damage", [5,23], 1, 5]], //42
     [["Tray of Cookies", "cookie_tray", "A tray filled with cookies.", "Cooking", "Gain 1d4+4 random cookies", [20, 42], 1, 0]], //43
-    [["Log", "log", "A log.", "Chopping", "", [17], 1, 8]], //44
+    [
+        ["Oak Log", "oak_log", "An oak log.", "Chopping", "", [17], 1, 8], //0
+        ["Birch Log", "birch_log", "A birch log.", "Chopping", "", [17], 1, 8], //1
+    ], //44
     [["Stick", "stick_item", "It's a stick. You can use it in a bunch of different things.", "Chopping", "Counts as 1 fuel unit", [11,27], 1, 1]], //45
-    [["Planks", "planks", "Some planks.", "Chopping", "Counts as 2 fuel units", [17,11,27], 1, 2]], //46
+    [
+        ["Oak Planks", "oak_planks", "Some oak planks.", "Chopping", "Counts as 2 fuel units", [17,11,27], 1, 2], //0
+        ["Birch Planks", "birch_planks", "Some birch planks.", "Chopping", "Counts as 2 fuel units", [17,11,27], 1, 2], //1
+    ], //46
     [["Rotting Mush", "crop_mush", "Eww, why did you keep this?", "Farming", "Make it into fertilizer, or just get rid of it<br />Potion effect: Nausea (1 turn)", [30,14,11], 1, 0]], //47
     [["Banana", "banana", "Potassium", "Unknown", "Eat it for potassium", [14,10,30], 3, 12]], //48
     [
@@ -99,7 +105,10 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Stone Wall", "stone_wall", "A wall made of Stone.", "Crafting", "50 HP<br />4+1 Defense", [19,20], 1, 8]], //82
     [["Iron Wall", "iron_wall", "A wall made of Iron.", "Crafting", "75 HP<br />4+2 Defense", [19,20], 2, 13]], //83
     [["Hardite Wall", "hardite_wall", "A wall made of Hardite.", "Crafting", "125 HP<br />5+2 Defense", [19,20], 3, 26]], //84
-    [["Plank Wall", "plank_wall", "A wall made of Planks.", "Crafting", "25 HP<br />2 Defense", [19,20], 1, 6]], //85
+    [
+        ["Oak Plank Wall", "oak_wall", "A wall made of Oak Planks.", "Crafting", "25 HP<br />2 Defense", [19,20], 1, 6], //0
+        ["Birch Plank Wall", "birch_wall", "A wall made of Birch Planks.", "Crafting", "25 HP<br />2 Defense", [19,20], 1, 6], //1
+    ], //85
     [["Flint", "flint", "A piece of flint.", "Crafting", "Potion effect: 50% chance of Attack Up (1 turn)", [11], 1, 3]], //86
     [["String", "string", "A piece of string.", "Gathering", "", [11], 1, 3]], //87
     [["Bow", "bow", "A bow. You can shoot arrows with it.", "Crafting", "+1 Indirect Attack<br />Consume 1 Arrow for +1 Direct Attack", [5,22], 2, 9]], //88
@@ -129,19 +138,36 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Leaf", "leaf", "A single leaf.", "Gathering", "", [11], 1, 2]], //108
     [["Blade of Grass", "grass_blade", "A single blade of grass.", "Gathering", "", [11], 1, 1]], //109
     [["Block of Leaves", "leaf_block", "A block of leaves.", "Gathering", "", [17], 1, 6]], //110
-    [["Red Dye", "red_dye", "A blob of red dye.", "Crafting", "", [11], 1, 7]], //111
-    [["Orange Dye", "orange_dye", "A blob of orange dye.", "Crafting", "", [11], 1, 7]], //112
-    [["Yellow Dye", "yellow_dye", "A blob of yellow dye.", "Crafting", "", [11], 1, 7]], //113
-    [["Green Dye", "green_dye", "A blob of green dye.", "Crafting", "", [11], 1, 7]], //114
-    [["Cyan Dye", "cyan_dye", "A blob of cyan dye.", "Crafting", "", [11], 1, 7]], //115
-    [["Blue Dye", "blue_dye", "A blob of blue dye.", "Crafting", "", [11], 1, 7]], //116
-    [["Purple Dye", "purple_dye", "A blob of purple dye.", "Crafting", "", [1], 1, 7]], //117
-    [["Magenta Dye", "magenta_dye", "A blob of magenta dye.", "Crafting", "", [11], 1, 7]], //118
-    [["White Dye", "white_dye", "A blob of white dye.", "Crafting", "", [11], 1, 7]], //119
-    [["Gray Dye", "gray_dye", "A blob of gray dye.", "Crafting", "", [11], 1, 7]], //120
-    [["Black Dye", "black_dye", "A blob of black dye.", "Crafting", "", [11], 1, 7]], //121
+    [
+        ["White Dye", "white_dye", "A blob of white dye.", "Crafting", "", [11], 1, 7], //0
+        ["Light Gray Dye", "light_gray_dye", "A blob of light gray dye.", "Crafting", "", [11], 1, 7], //1
+        ["Gray Dye", "gray_dye", "A blob of gray dye.", "Crafting", "", [11], 1, 7], //2
+        ["Black Dye", "black_dye", "A blob of black dye.", "Crafting", "", [11], 1, 7], //3
+        ["Pink Dye", "pink_dye", "A blob of pink dye.", "Crafting", "", [11], 1, 7], //4
+        ["Red Dye", "red_dye", "A blob of red dye.", "Crafting", "", [11], 1, 7], //5
+        ["Orange Dye", "orange_dye", "A blob of orange dye.", "Crafting", "", [11], 1, 7], //6
+        ["Brown Dye", "brown_dye", "A blob of brown dye.", "Crafting", "", [11], 1, 7], //7
+        ["Yellow Dye", "yellow_dye", "A blob of yellow dye.", "Crafting", "", [11], 1, 7], //8
+        ["Green Dye", "green_dye", "A blob of green dye.", "Crafting", "", [11], 1, 7], //9
+        ["Dark Green Dye", "dark_green_dye", "A blob of dark green dye.<br /><br />Lime? What's that?", "Crafting", "", [11], 1, 7], //10
+        ["Cyan Dye", "cyan_dye", "A blob of cyan dye.", "Crafting", "", [11], 1, 7], //11
+        ["Light Blue Dye", "light_blue_dye", "A blob of light blue dye.", "Crafting", "", [11], 1, 7], //12
+        ["Blue Dye", "blue_dye", "A blob of blue dye.", "Crafting", "", [11], 1, 7], //13
+        ["Purple Dye", "purple_dye", "A blob of purple dye.", "Crafting", "", [11], 1, 7], //14
+        ["Magenta Dye", "magenta_dye", "A blob of magenta dye.", "Crafting", "", [11], 1, 7], //15
+    ], //111
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Orange Dye; 112 -> 111:6)", "", "", [], 0, 0]], //112
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Yellow Dye; 113 -> 111:8)", "", "", [], 0, 0]], //113
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Green Dye; 114 -> 111:9)", "", "", [], 0, 0]], //114
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Cyan Dye; 115 -> 111:11)", "", "", [], 0, 0]], //115
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Blue Dye; 116 -> 111:13)", "", "", [], 0, 0]], //116
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Purple Dye; 117 -> 111:14)", "", "", [], 0, 0]], //117
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Magenta Dye; 118 -> 111:15)", "", "", [], 0, 0]], //118
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (White Dye; 119 -> 111:0)", "", "", [], 0, 0]], //119
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Gray Dye; 120 -> 111:2)", "", "", [], 0, 0]], //120
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Black Dye; 121 -> 111:3)", "", "", [], 0, 0]], //121
     [["Glass Bottle", "glass_bottle", "A bottle made of glass.", "Crafting", "Fill it with stuff", [11], 1, 3]], //122
-    [["Water Bottle", "potion_blue", "A bottle filled with water.", "Crafting", "Drink for 3 HP<br />Or fill it with more stuff and cook it", [30,11], 1, 5]], //123
+    [["Water Bottle", "water_bottle", "A bottle filled with water.", "Crafting", "Drink for 3 HP<br />Or fill it with more stuff and cook it", [30,11], 1, 5]], //123
     [["Fertilizer", "fertilizer", "Some fertilizer.", "Crafting", "Use on a plant for +1 growth turn", [20], 2, 9]], //124
     [["Dirt", "dirt", "A block of dirt. Not the best material to make a house out of, but you do you.", "Digging", "", [17], 1, 0]], //125
     [["Grass", "grass", "A block of dirt with some grass on it.", "Unknown", "", [17], 2, 0]], //126
@@ -165,8 +191,14 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Baked Potato", "baked_potato", "A baked potato.", "Cooking", "+7 HP on consume", [10,30], 1, 8]], //141
     [["Butter", "butter", "A bar of butter. No, it's not golden.", "Unknown", "-1 HP on consume<br />Potion effect: 30% chance to upgrade one effect", [10,11], 1, 2]], //142
     [["Wooden Bowl", "wood_bowl", "A bowl made of wood.", "Carving", "", [11], 1, 3]], //143
-    [["Wooden Table", "wood_table", "A table made of wood. You can put things on it.", "Crafting", "Place it down as a Structure", [18], 1, 3]], //144
-    [["Wooden Chair", "wood_chair", "A chair made of wood. You can sit on it.", "Crafting", "", [18], 1, 2]], //145
+    [
+        ["Oak Table", "oak_table", "A table made of oak planks. You can put things on it.", "Crafting", "Place it down as a Structure", [18], 1, 3], //0
+        ["Birch Table", "birch_table", "A table made of birch planks. You can put things on it.", "Crafting", "Place it down as a Structure", [18], 1, 3], //1
+    ], //144
+    [
+        ["Oak Chair", "oak_chair", "A chair made of oak planks. You can sit on it.", "Crafting", "", [18], 1, 2], //0
+        ["Birch Chair", "birch_chair", "A chair made of birch planks. You can sit on it.", "Crafting", "", [18], 1, 2], //0
+    ], //145
     [["Folding Chair", "fold_chair", "A chair made of iron. It can fold into a smaller form.", "Crafting", "", [18], 2, 8]], //146
     [["Wheat Bundle", "wheat_bundle", "A bundle of wheat. You can't eat it raw, but you can make it into dough.", "Farming", "", [11,13], 1, 5]], //147
     [["Golden Wheat Bundle", "golden wheat", "A bundle of golden wheat. You can make it into dough, or equip it.", "Farming", "Equip for +0.3 Farming", [11,13], 2, 15]], //148
@@ -415,9 +447,9 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Diamond Band", "diamond_band", "A band made of diamond, to go around your wrist.", "Crafting", "+1.2 Indirect Defense<br />+1.2 Indirect Attack", [8], 2, 17]], //357
     [["Chalk", "chalk", "A block of chalk. It's dusty.", "Mining", "", [11,17], 1, 3]], //358
     [
-        ["Lamp Oil", "lamp_oil", "A container of lamp oil. It's very flammable.", "Gathering", "Counts as 3 fuel units<br />Throw it at someone to inflict Oiled for 2 turns", [11,20,21,27], 1, 7], //0
-        ["Lamp Oil (used)", "lamp_oil", "A container with some lamp oil in it. It's very flammable.", "Gathering", "Counts as 2 fuel units<br />Throw it at someone to inflict Oiled for 1 turn", [11,20,21,27], 1, 5], //1
-        ["Lamp Oil (near-empty)", "lamp_oil", "A container with a little bit of lamp oil in it. It's very flammable.", "Gathering", "Counts as 1 fuel unit", [11,20,21,27], 1, 3] //2
+        ["Lamp Oil", "lamp_oil_full", "A container of lamp oil. It's very flammable.", "Gathering", "Counts as 3 fuel units<br />Throw it at someone to inflict Oiled for 2 turns", [11,20,21,27], 1, 7], //0
+        ["Lamp Oil (used)", "lamp_oil_two_thirds", "A container with some lamp oil in it. It's very flammable.", "Gathering", "Counts as 2 fuel units<br />Throw it at someone to inflict Oiled for 1 turn", [11,20,21,27], 1, 5], //1
+        ["Lamp Oil (near-empty)", "lamp_oil_one_third", "A container with a little bit of lamp oil in it. It's very flammable.", "Gathering", "Counts as 1 fuel unit", [11,20,21,27], 1, 3] //2
     ], //359
     [["Pearl", "pearl", "A small, spherical pearl. Pearls that are naturally spherical are pretty rare.", "Fishing", "", [11], 2, 13]], //360
     [["Amethyst Shard", "amethyst", "A shard of amethyst.", "Mining", "", [24,11], 2, 10]], //361
@@ -436,10 +468,16 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Snowball", "snowball", "A ball of snow.", "Crafting", "Throw it at someone to deal 1 <span class=\"ice\">Ice</span> damage", [11,21], 1, 1]], //374
     [["Snowball with a rock in it", "snowball_with_rock", "A ball of snow with a rock in it.", "Crafting", "Throw it at someone to deal 2 <span class=\"ice\">Ice</span> damage and 4 Typeless damage", [21], 1, 0]], //375
     [["Lever", "lever", "A lever. You can push it to make electricity flow.", "Crafting", "", [17], 1, 4]], //376
-    [["Wooden Button", "wood_button", "A button made of wood. You can push it to make electricity flow.", "Crafting", "", [17], 1, 3]], //377
+    [
+        ["Oak Button", "oak_button", "A button made of oak planks. You can push it to make electricity flow.", "Crafting", "", [17], 1, 3], //0
+        ["Birch Button", "birch_button", "A button made of birch planks. You can push it to make electricity flow.", "Crafting", "", [17], 1, 3], //1
+    ], //377
     [["Stone Button", "stone_button", "A button made of stone. You can push it to make electricity flow.", "Crafting", "", [17], 1, 4]], //378
     [["Iron Button", "iron_button", "A button made of iron. You can push it to make electricity flow.", "Crafting", "", [17], 1, 6]], //379
-    [["Wooden Pressure Plate", "wood_plate", "A pressure plate made of wood. You can push it to make electricity flow.", "Crafting", "", [17], 1, 4]], //380
+    [
+        ["Oak Pressure Plate", "oak_plate", "A pressure plate made of oak planks. You can push it to make electricity flow.", "Crafting", "", [17], 1, 4], //0
+        ["Birch Pressure Plate", "birch_plate", "A pressure plate made of birch planks. You can push it to make electricity flow.", "Crafting", "", [17], 1, 4], //0
+    ], //380
     [["Stone Pressure Plate", "stone_plate", "A pressure plate made of stone. You can push it to make electricity flow.", "Crafting", "", [17], 1, 5]], //381
     [["Wire String", "wire", "A string of wire. Electricity can flow through it.", "Crafting", "", [11], 1, 3]], //382
     [["Disposable Phone", "disp_phone", "A cheap phone. You can make calls on it, but it's so poorly made that it breaks when hung up.", "Crafting", "Call people on it<br />Can also call other players", [11,20], 2, 8]], //383
@@ -611,8 +649,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Pink Rose", "pink_rose", "A pink rose. Can be turned into pink dye.", "Gardening", "", [14,15], 1, 5]], //541
     [["White Rose", "white_rose", "A white rose. Can be turned into white dye.", "Gardening", "", [14,15], 1, 5]], //542
     [["Blue Rose", "blue_rose", "A blue rose. Can be turned into blue dye.", "Gardening", "", [14,15], 1, 5]], //543
-    [["Pink Dye", "pink_dye", "A blob of pink dye.", "Crafting", "", [11], 1, 7]], //544
-    [["Brown Dye", "brown_dye", "A blob of brown dye.", "Crafting", "", [11], 1, 7]], //545
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Pink Dye; 544 -> 111:4)", "", "", [], 0, 0]], //544
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Brown Dye; 545 -> 111:7)", "", "", [], 0, 0]], //545
     [["Chains", "chains", "A string of chains.", "Crafting", "", [20], 1, 8]], //546
     [["Icy Rock", "ice_rock", "A strange rock that's cold to the touch.", "Unknown", "", [11, 20, 33], 3, 0]], //547
     [
@@ -737,7 +775,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Mango Juice", "mango_juice", "The juice from a mango.", "Crafting", "+2 HP on consume", [10,30,11], 1, 3]], //654
     [["Pineapple", "pineapple", "A pineapple. It's somewhat acidic.", "Farming", "+4 HP on consume", [10,30], 1, 6]], //655
     [["Ripe Pineapple", "ripe pineapple", "A pineapple that's riper than usual. It's more acidic.", "Farming", "+8 HP on consume", [10,30], 1, 8]], //656
-    [["Golden Pineapple", "golden pineapple", "A golden pineapple. Now <em>you're</em> acidic!", "Farming", "+0.7 <span class='plant'>Plant</span> damage", [9], 2, 17]], //657
+    [["Golden Pineapple", "golden pineapple", "A golden pineapple. Now <em>you're</em> acidic!<br />No, I don't know how that translates to Plant-aligned damage.", "Farming", "+0.7 <span class='plant'>Plant</span> damage", [9], 2, 17]], //657
     [["Mango", "mango", "A mango.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //658
     [["Ripe Mango", "ripe mango", "A mango that's riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7]], //659
     [["Golden Mango", "golden mango", "A golden mango. I guess you could <em>try</em> to sculpt it.", "Farming", "+0.2 Pottery", [9], 2, 15]], //660
@@ -759,11 +797,22 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ], //661
     [["Magic Scraps", "scraps", "A pile of scraps with some sort of magical power. What'd you do, rip up a scroll?", "Crafting", "Combine 4 of them to cast a random scroll effect", [11,43], 2, 0]], //662
     [
-        ["Name Tag", "name_tag", "A name tag. You can use it on an item to give it a custom name.", "Crafting", "Use it on an item to name it", [20,33], 2, 7], //0
-        ["Description Tag", "desc_tag", "A description tag. You can use it on an items to give it a custom description.", "Crafting", "Use it on an item to give it a description", [20,33], 2, 7], //1
-        ["Attribute Tag", "attr_tag", "An attribute tag. You can use it on an items to give it (non-functional) custom attributes.", "Crafting", "Use it on an item to give it new attributes", [20,33], 2, 7], //2
+        ["Name Tag", "enchanted name_tag", "A name tag. You can use it on an item to give it a custom name.", "Crafting", "Use it on an item to name it", [20,33], 2, 7], //0
+        ["Description Tag", "enchanted desc_tag", "A description tag. You can use it on an items to give it a custom description.", "Crafting", "Use it on an item to give it a description", [20,33], 2, 7], //1
+        ["Attribute Tag", "enchanted attr_tag", "An attribute tag. You can use it on an items to give it (non-functional) custom attributes.", "Crafting", "Use it on an item to give it new attributes", [20,33], 2, 7], //2
     ], //663
     [["Fire Charge", "fire_charge", "A fire charge. You can use it to light things on fire.", "Crafting", "Can be used to light something On Fire", [20], 1, 6]], //664
     [["Crown", "crown", "A crown made of gold, with gems embedded within it. It's not very good at defense, but it makes you look important.", "Crafting", "+1 Indirect Defense<br />+3 CHR", [1], 2, 17]], //665
     [["Calculator", "calculator", "A small pocket calculator. It can't do much, but at least it's cheap.", "Crafting", "+1 INT", [8,20], 1, 8]], //666
+    [
+        ["Hamburger", "burger", "A hamburger. It has some lettuce and tomato on it.", "Cooking", "+8 HP on consume", [10,30], 2, 10], //0
+        ["Cheeseburger", "cheese_burger", "A cheeseburger. It has some lettuce and tomato on it. Plus cheese", "Cooking", "+10 HP on consume", [10,30], 2, 12], //1
+    ], //667
+    [["Golden Hamburger", "golden burger", "A hamburger made of gold. It has some golden lettuce and golden tomato on it.", "Cooking", "+15 HP on consume<br />Gain Regen+ and Attack Up+ on consume (1 turn)<br />Can't be equipped", [9,30], 3, 30]], //668
+    [["Tomato Slices", "tomato_slices", "Some tomato slices.", "Cooking", "+4 HP on consume", [10,30], 1, 4]], //669
+    [["Iceberg Lettuce", "lettuce", "A head of lettuce. It's name comes from the fact that if you put it in crushed ice, it looks like an iceberg.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //670
+    [["Ripe Iceberg Lettuce", "ripe lettuce", "A head of lettuce that's riper than usual.", "Farming", "+10 HP on Consume", [10,30], 1, 7]], //671
+    [["Golden Iceberg Lettuce", "golden lettuce", "A golden head of lettuce. Go on, guess what it boosts.", "Farming", "+0.7 <span class='ice'>Ice</span> damage", [9], 2, 15]], //672
+    [["Bacon", "bacon", "Some strips of raw bacon.", "Cooking", "Consume for +3 HP<br />50% chance to give Nausea (1 turn)", [10,30], 1, 7]], //667
+    [["Cooked Bacon", "cooked_bacon", "Some strips of cooked bacon.", "Cooking", "+6 HP on consume", [10,30], 1, 9]], //668
 ]

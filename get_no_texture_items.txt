@@ -7,7 +7,7 @@ for (var i = 0, cell; cell = table.getElementsByTagName('td')[i]; i++) {
     style = icon.currentStyle || window.getComputedStyle(icon, false);
     bi = style.backgroundImage.slice(4, -1).replace(/"/g, "");
     pos = window.getComputedStyle(icon,null).backgroundPosition.trim().split(/\s+/)[0]
-    if (bi != "file:///D:/Personal/TBGs/Websites/FightSim/Icons/Exported/equip_sheet.png") {
+    if (bi != "http://192.168.99.2/Icons/Exported/equip_sheet.png") {
         cells_to_remove.push(cell);
     } else if (pos != "-608px") {
         cells_to_remove.push(cell);
@@ -29,10 +29,12 @@ for (var l = 0, cell; cell = table.getElementsByTagName('td')[l]; l++) {
 String(remain_class);
 
 
-'slingshot,crop_mush,rock_on_stick,butter_corn,fold_chair,
-string_wad,spinach,gold_spinach,ripe spinach,rotten_flesh,cooked_flesh,gold_flesh,bobm,cannon,
-raw_chicken,cooked_chicken,raw_mutton,cooked_mutton,meat_paste,blackberries,gold_blackberries,
+'slingshot,rock_on_stick,fold_chair,
+string_wad,spinach,golden spinach,ripe spinach,rotten_flesh,cooked_flesh,golden flesh,bobm,cannon,
+raw_chicken,cooked_chicken,raw_mutton,cooked_mutton,blackberries,golden blackberries,
 ripe blackberries,lemonade,limeade,hfcs,popcorn,
-lever,wood_button,stone_button,iron_button,wire,cod,cooked_cod,seaweed,red_herring,spin_fish,paper,wizard_hat,chef_apron,fabric,gloves,
+lever,oak_button,birch_button,stone_button,iron_button,cod,cooked_cod,seaweed,red_herring,spin_fish,five_dollar_bill,wizard_hat,chef_apron,gloves,
 const_shirt,welding_helmet,welding_helmet,smurf_hat,sticker_basket,sticker_basket_rare,mine,chains,
-anchovy,backpack,wallet,dust_pouch,hotdog_wrapped'
+anchovy,backpack,dust_pouch,hotdog_wrapped,
+quiver,ruler,pineapple_juice,mango_juice,mango,ripe mango,golden mango,scraps,fire_charge,
+crown,tomato_slices,lettuce,ripe lettuce,golden lettuce'

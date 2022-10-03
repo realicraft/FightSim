@@ -1,0 +1,90 @@
+Changelog for Turn 76
+
+Mobs
+- fixed issue where the tooltips for equipment placeholders were being displayed
+- fixed issue where effect tooltips and icons were broken
+
+Items
+- added icons for every tag
+- added icons for sliced bread, toast, and pineapples
+- added a hamburger, a cheeseburger, and a golden hamburger
+- updated the previously-unused golden hamburger icon to match the hamburger icon
+- adjusted the golden pineapples description
+- made the name, description, and attribute tags enchanted
+- added tomato slices and iceburg lettuce
+- replaced the enchanted animation with a new one
+  - only a few items are fully compatable: all swords, any items that can be enchanted by default
+- logs, planks, plank walls/pressure plates/buttons, and wooden chairs and tables are now oak
+- added birch variants of all of the oak blocks
+- oak planks now look more like minecraft oak planks
+- adjusted the sprites of most items made with iron to account for the new color palette, notably iron ore and bars
+- made a new sprite for the wooden bowl
+- mini icons are no longer displayed by default
+- gave the bottle of water its own icon
+- added 3 new dyes
+- merged all dyes into one id slot (111)
+
+Crafting
+- fixed issue where the blocking shield recipe displayed an iron shield as its result
+- added a crafting recipe for sleep powder
+
+Effects
+- added three new effects
+- fixed some buffs being labeled as debuffs
+
+Structures
+- 
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- fixed issue where an enchanted golden apple was shown when an enchanted golden carrot should have been shown
+- all crops display now uses the translation system
+
+Quests
+- 
+
+Phone System
+- 
+
+Helpers
+- 
+
+Votes
+- 
+
+Translations
+- added the base of the translation system
+- weather/time box now uses the translation system
+
+Settings
+- added the setting page
+- added a setting for the mini icons displayed by certain items
+- added a setting to make all the fonts comic sans
+- added a call to the settings list to every page
+
+Internal
+- made the mini icon sheet taller to accommodate more icons
+- logs, planks, and things made with planks are now on a seperate sheet
+- dyes and wool are now on a seperate sheet
+- removed the call to the easter egg list from the mobs page
+- added a few comments to allpages.js
+
+Misc
+- removed the unused golden cookie sprite
+- added a sheet for items from minecraft mods, to go with the sheet added in turn 74
+  - currently it has sprites for 7 different books for Patchouli
+  - along with sprites for 3 different books for Cooking for Blockheads
+  - and 3 different candy sprites for Cozy
+- added a sheet for a jukebox, note block, and various music disks; whether this'll be used in fightsim is yet to be known
+- added currently-unused icons for a raw/cooked burger patty, plus a fried egg
+- added currently-unsued icons for bottles of lava, milk, chocolate milk, honey, various jams, and peanut butter
+- added currently-unused icons for peanuts
+- added currently-unused icons for a cake and a carrot cake, plus slices
+- added currently-unused icons for various colors of wool, carpet, sweater, and golf ball
+- added currently-unused icons for two plates and a bowl of batter
+- i would have added some of these, but i didn't want to have to keep copy-pasting things into en_us.json
