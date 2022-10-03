@@ -7,12 +7,12 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [quest, claimed, reward, turn]
-    ["Craft some form of juice.", "Unclaimed", "2 Apple Juices, 2 Orange Juices", "75"],
-    ["Open a Lucky Block.", "Unclaimed", "2 Lucky Blocks", "75"],
-    ["Pet a Slime.", "Unclaimed", "5 Misc EXP", "75"],
-    ["Cause a new item to be added to the data.", "Claimed by Landon", "2 of that item", "72~75"],
-    ["Equip any armor.", "Claimed by cheesy", "0.8 Indirect Defense", "72~75"],
-    ["Craft 5 unique items.", "Unclaimed", "350% Crafting", "72~75"], //reali 2, landon 2
+    ["Acquire a Hamburger.", "Unclaimed", "1 Cheeseburger", "76"],
+    ["Go Fishing.", "Unclaimed", "150% Fishing", "76"],
+    ["Chop a Birch tree.", "Unclaimed", "150% Chopping", "76"],
+    ["Make a Carrot Cake.", "Unclaimed", "250% Cooking", "76~79"],
+    ["Discover a Mystery Skill.", "Unclaimed", "20 Misc EXP", "76~79"],
+    ["Kill three things.", "Unclaimed", "+0.2 Direct Attack", "76~79"],
     ["Talk to Morshu.", "Unclaimed", "2 Bombs, 7 Misc EXP"],
     ["Equip a Golden Food.", "Unclaimed", "3 Gold Bars, 150% Farming"],
     ["Equip a Sticker.", "Unclaimed", "Orb Sticker"],
@@ -89,6 +89,9 @@ var repquests = [ // [quest, note, [[username, req, rewards, comp], ...], goal, 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Craft some form of juice.", "Unclaimed", "2 Apple Juices, 2 Orange Juices", "75"],
+        ["Open a Lucky Block.", "Claimed by Orb Fish", "2 Lucky Blocks", "75"],
+        ["Pet a Slime.", "Unclaimed", "5 Misc EXP", "75"],
         ["Use a Skill.", "Claimed by Landon", "2 Lucky Blocks", "74"],
         ["Consume an item.", "Claimed by Landon", "2 Lucky Blocks", "74"],
         ["Deal damage.", "Claimed by Byron", "2 Lucky Blocks", "74"],
@@ -190,6 +193,9 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Damage someone.", "Unclaimed", "1 Misc EXP", "42"],
     ],
     [
+        ["Cause a new item to be added to the data.", "Claimed by Landon", "2 of that item", "72~75"],
+        ["Equip any armor.", "Claimed by cheesy", "0.8 Indirect Defense", "72~75"],
+        ["Craft 5 unique items.", "Unclaimed", "350% Crafting", "72~75"],
         ["Create a Structure.", "Claimed by Byron", "Stone Hammer", "68~71"],
         ["Die twice.", "Unclaimed", "Regen Potion", "68~71"],
         ["Obtain a Carrot-based item.", "Claimed by realicraft", "200% Farming, 200% Cooking, 200% Gathering, 3 Iron Bars", "68~71"],
@@ -213,7 +219,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", "Unclaimed", "30% Mining Exp", "40~43"],
     ],
     [
-        ["Recruit an ally or summon.", "Byron_Inc_TBG", "1 Max HP Upgrade"],
+        ["Recruit an ally or summon.", "Claimed by Byron", "1 Max HP Upgrade"],
         ["Attack a Structure.", "Claimed by Theta", "1 Indirect Attack"],
         ["Reach Proficient in any skill.", "Claimed by cheesy", "4 Misc EXP"],
         ["Obtain 2 Stickers.", "Claimed by gilbert", "3 Misc EXP, 1 Sticker Pack"],
