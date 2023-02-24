@@ -32,30 +32,9 @@ Effects
 - added three new effects
 - fixed some buffs being labeled as debuffs
 
-Structures
-- 
-
-Scrolls
-- 
-
-Skills
-- 
-
 Gardens
 - fixed issue where an enchanted golden apple was shown when an enchanted golden carrot should have been shown
 - all crops display now uses the translation system
-
-Quests
-- 
-
-Phone System
-- 
-
-Helpers
-- 
-
-Votes
-- 
 
 Translations
 - added the base of the translation system

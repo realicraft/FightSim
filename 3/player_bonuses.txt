@@ -37,10 +37,14 @@ Squirrelflight:
  Skills:
 Incendiary:
  Stats:
-  Indirect Attack: (+1)
+  Indirect Attack: (+2)
    Rock on a Stick (+1)
-  Indirect Defense: (+0.7)
+   Santa Hat (+1)
+  Indirect Defense: (+1.7)
    LTT Hoodie (+0.7)
+   Santa Hat (+1)
+  XP from Monsters: (+5%)
+   Santa Hat (+5%)
   Health: (+3)
    Player Level (+2)
    Overheal Potion (+1)
@@ -107,12 +111,13 @@ gilbert:
  Stats:
   Direct Attack: (+1)
    Diamond Pickaxe (+1)
-  Indirect Attack: (+2)
+  Indirect Attack: (+3)
+   Player Level (+1)
    Diamond Pickaxe (+2)
   Indirect Defense: (+0.7)
    LTT Hoodie (+0.7)
-  Health: (+3)
-   Player Level (+4)
+  Health: (+4)
+   Player Level (+5)
    Liquid Radiation (-1)
   INT: (+2)
    LTT Hoodie (+2)

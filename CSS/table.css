@@ -9,18 +9,18 @@ table {
 }
 th, td {
     max-width: 400px;
-    background-color: #cfcfcf;
-    border: 1px solid black;
+    background-color: var(--table_bg);
+    border: 1px solid var(--table_border);
 }
 td>img {
     margin-top: 0px;
-    background-color: #7f7f7f;
+    background-color: var(--inv_table_bg);
 }
 .inv_item {
     width: 32px;
     height: 32px;
-    background-color: #7f7f7f;
-    border: 2px ridge #3f3f3f;
+    background-color: var(--inv_table_bg);
+    border: 2px ridge var(--inv_table_border);
     text-align: center;
     position: relative;
     background-clip: padding-box;
@@ -43,7 +43,7 @@ td.inv_item span.icon {
     margin: 1px;
 }
 span.icon.dbg {
-    background-color: #3f3f3f;
+    background-color: var(--inv_table_dbg);
 }
 
 /*td.inv_item:has(.dbg) {

@@ -8,21 +8,25 @@ var replaceSingleList = { // keyword: replacement
     "pho": "[img=Phone]https://realicraft.github.io/FightSim/Icons/Text/phone.png[/img]",
 }
 var replaceDoubleList = { // keyword: "replacement before", "replacement after"
+    // bbcode tags
     "b": ["[b]", "[/b]"],
     "i": ["[i]", "[/i]"],
     "u": ["[u]", "[/u]"],
     "s": ["[s]", "[/s]"],
     "*": ["[*]", "[/*]"],
     "bi": ["[b][i]", "[/i][/b]"],
+    // specific tags
     "green": ["[color=green]", "[/color]"],
     "red": ["[color=red]", "[/color]"],
     "crhit": ["[color=green][b]", "[/b][/color]"],
     "crmiss": ["[color=red][b]", "[/b][/color]"],
     "phone": ["[img=Phone]https://realicraft.github.io/FightSim/Icons/Text/phone.png[/img][color=#0f5f0f]", "[/color]"],
     "comment": ["([color=transparent]","[/color])"],
+    // bbcode tags 2
     "quote": ["[quote]","[/quote]"],
     "code": ["[code]","[/code]"],
     "list": ["[list]","[/list]"],
+    // types
     "normal": ["[color=#5f5f5f]","[/color]"],
     "fire": ["[color=#4f0f0f]","[/color]"],
     "water": ["[color=#0f0f5f]","[/color]"],
@@ -31,4 +35,22 @@ var replaceDoubleList = { // keyword: "replacement before", "replacement after"
     "ice": ["[color=#0f4f4f]","[/color]"],
     "light": ["[color=#5f5f1f]","[/color]"],
     "dark": ["[color=#1f1f4f]","[/color]"],
+    // players
+    "reali": ["[color=#5f4f0f][b]reali[/b]: ","[/color]"],
+    "incend": ["[color=#5f2f0f][b]Incendiary[/b]: ","[/color]"],
+    "byron": ["[color=#3f1f0f][b]Byron[/b]: ","[/color]"],
+    "cheesy": ["[color=#6f5f0f][b]Cheesy[/b]: ","[/color]"],
+    "soli": ["[color][b]Solitare[/b]: ","[/color]"],
+    "fares": ["[color=#0f3f0f][b]Faressain[/b]: ","[/color]"],
+    "gilb": ["[color][b]gilbert[/b]: ","[/color]"],
+    "twi": ["[color=#4f0f4f][b]Twilight[/b]: ","[/color]"],
+    "luigi": ["[color=#0f5f0f][b]Luigi[/b]: ","[/color]"],
+    "kitty": ["[color=#3f0f3f][b]Kitty[/b]: ","[/color]"],
+    "savvy": ["[color][b]Savvy[/b]: ","[/color]"],
+    "bobby": ["[color][b]bobby[/b]: ","[/color]"],
+    "tony": ["[color=#2f1f00][b]Tony[/b]: ","[/color]"],
+    "landon": ["[color][b]Landon[/b]: ","[/color]"],
+    // npcs
+    "morshu": ["[color=#5f2f0f][b]Morshu[/b]: ","[/color]"],
+    "hank": ["[color=#5f0f0f][b]Hank[/b]: ","[/color]"],
 }

@@ -1,6 +1,6 @@
 var headerLinks = {
-    "1": [["Info", "info.html"],["Inventories", "inventories.html"],["Stats", "stats.html"],["Dragons", "dragons.html"]],
-    "2": [["Info", "info.html"],["Inventories", "inventories.html"],["Stats", "stats.html"],["Dragons", "dragons.html"],["Enemies", "enemies.html"]],
-    "3": [["Info", "info.html"],["Inventories", "inventories.html"],["Stats", "stats.html"],["Structures", "structures.html"],["Voting", "voting.html"],["Gardens", "gardens.html"],["Quests","quests.html"],["Mobs","mobs.html"],["Contacts","contacts.html"],["Map","map.html"]],
-    "i": [["All Items", "../3/creative.html"],["Crafting", "../3/crafting.html"],["Helpers", "../3/helpers.html"],["Settings", "../3/settings.html"],["Wiki", "https://fightsim.miraheze.org/wiki/Main_Page"]],
+    "1": [["info", "info.html"],["inventories", "inventories.html"],["stats", "stats.html"],["dragons", "dragons.html"]],
+    "2": [["info", "info.html"],["inventories", "inventories.html"],["stats", "stats.html"],["dragons", "dragons.html"],["Enemies", "enemies.html"]],
+    "3": [["info", "info.html"],["inventories", "inventories.html"],["stats", "stats.html"],["structures", "structures.html"],["voting", "voting.html"],["gardens", "gardens.html"],["quests","quests.html"],["mobs","mobs.html"],["contacts","contacts.html"],["map","map.html"]],
+    "i": [["creative", "../3/creative.html"],["crafting", "../3/crafting.html"],["helpers", "../3/helpers.html"],["settings", "../3/settings.html"],["wiki", "https://fightsim.miraheze.org/wiki/Main_Page"]],
 }

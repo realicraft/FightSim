@@ -1,12 +1,12 @@
 .overheal { 
-    color: green;
+    color: var(--health_over);
 }
 .lowhp { 
-    color: darkred;
+    color: var(--health_low);
 }
 .kod { 
-    color: darkred;
-    text-shadow: 1px 0px darkred;
+    color: var(--health_low);
+    text-shadow: 1px 0px var(--health_low);
 }
 .vat { 
     right: 108px;
@@ -35,7 +35,7 @@
 .lh { 
     position: relative;
     line-height: 32px;
-    top: 2px;
+    top: 0px;
 }
 .health_disp, .combat_disp, .kd_disp { 
     position: relative;
@@ -55,7 +55,7 @@ h2 {
     font-family: "FightSim 20";
 }
 .slash {
-    font-size: 30px;
+    font-size: 32px;
     font-family: "FightSim Body Double";
 }
 .pad1 {

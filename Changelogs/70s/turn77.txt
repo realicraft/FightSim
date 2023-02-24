@@ -1,0 +1,111 @@
+Changelog for Turn 77
+
+Mobs
+- removed some duplicate data from the current mobs list
+- mob names are now translatable
+- adjusted the colors for low/high health
+
+Items
+- categories are now translatable
+- item id 548 (slot unusable/no ripe item) now displays a tooltip
+- fixed issue where items that displayed no tooltip on other pages also didn't display a tooltip on the all items page
+- added icons for the mine, wad of string, dust pouch, lemonade/limeade, crown, ruler, quiver, and slingshot
+- added bottles of milk, icing, lava, chocolate milk, and honey
+- added cake batter
+- added cake and carrot cake, along with associated slices
+- added raw and cooked patties
+- added pumpkin and watermelons, plus ripe, gold, and half versions
+- added carved pumpkins and jack o'lanterns
+- added obsidian
+- added a mop and shears
+- added a halloween bucket, for halloween
+- added two doorbells; one for halloween, one not
+- added unused icons for acacia/dark oak items
+- added a gold carving knife icon
+- added an icon for a wooden version of ms4's tool
+- added an icon for a block of clay
+- added an icon for a pencil
+- added icons for strawberries and golden strawberries (the regular strawberry sprite is taken from harvester)
+- nerfed the chest and geode
+- added a gem category
+- corrected a few instances of categories not being sorted properly
+- corrected a few instances of incorrect sources
+- fixed the iron staff being mis-aligned
+- the box now specifies that it is removed when emptied
+- added an "any raw meat" item, for the meat paste recipe
+- moved all the spritesheet urls out of icons.css and into theme files
+
+Crafting
+- header is now translatable
+- category headers are also now translatable
+- so are recipe descriptions
+- fixed issue where the carrot juice recipes gave more than intended
+- making juice with ripe crops now gives extra exp
+- nerfed the coin recipes
+- nerfed the fuel requirement of some bar recipes
+- added a bunch of recipies for items that are marked as being obtained from crafting/cooking/etc.
+- sorted the dye recipies with the new dye order
+- recipies can now be filtered with a console command
+
+Effects
+- effect names and descriptions are now translatable
+
+Structures
+- added a bunch of doorbells
+- fixed a typo in the excavator description
+
+Gardens
+- added some semi-colons
+- fixed issue where byron's golden apple tree went too far back
+
+Quests
+- current quests are now translated
+- "claimed by" text is now translated
+- repquests are now translatable
+- rearranged repquests so that they display properly on mobile
+
+Phone System
+- 
+
+Helpers
+- added bbcode+ tags for player dialogue (plus a few npcs)
+
+Translations
+- functions can now wait for language files to be loaded, rather than hope they've loaded after 100ms
+- langstrings can now call nbt data or other langstrings
+- added some spanish translations
+- added more entries to en_us.json
+- corrected a few entry ids
+
+Themes
+- added a theme system
+- moved basically every color out of css files and into theme files
+- added a CGA theme, based off of turn 67
+- added placeholders for light and dark themes, though they don't work yet
+
+Icon Sets
+- added this too
+- allows you to mix and match icons and themes
+- added a CGA iconset, also based off of turn 67
+- added a plastic iconset, based off of non-raised stickers
+
+Settings
+- you can now select a language
+- you can now select a theme
+- you can now select an icon set
+- removed errant <br />
+
+Misc
+- player stats tables are now translatable
+- reorganized some functions to accomodate this
+- the page headers are now translatable
+- added an inner border to the exp bar in player tables
+- updated the body font to added accented glyphs
+- updated the large header font to account for the latest body font update
+- fixed a typo in the info popup for electrum on the info page
+- the fish item pools section of the info page is now auto-generated
+- it is also now somewhat translatable
+- split the food and misc sheets into two new sheets; one for meat-based items, one for candy
+- added two new spritesheets for modded ores and equipment
+- updated the cga spritesheets to match the regular ones
+- added a new sprite sheet

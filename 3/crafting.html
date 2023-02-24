@@ -25,14 +25,14 @@
                 left: -2px;
                 top: -2px;
                 border-radius: 5px;
-                border: 2px solid black;
+                border: 2px solid var(--struct_border);
             }
             hr {
-                border-top-color: black;
+                border-top-color: var(--struct_border);
                 border-bottom-color: transparent;
             }
             .recipe_inner {
-                border: 1px solid black;
+                border: 1px solid var(--struct_border);
                 border-collapse: collapse;
                 padding-top: 2px;
                 padding-bottom: 2px;
@@ -45,7 +45,7 @@
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
-        <h1>Crafting Recipies</h1>
+        <h1 id="header_el">Crafting Recipies</h1>
         <div class="struct" id="recipe-box"></div>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>

@@ -1,7 +1,7 @@
 .collapse_header {
     width: 100%;
-    color: white;
-    background-color: black;
+    color: var(--struct_header_color);
+    background-color: var(--struct_border);
     height: 40px;
     line-height: 40px;
     margin: 0px;

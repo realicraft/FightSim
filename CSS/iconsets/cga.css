@@ -1,0 +1,35 @@
+:root {
+    --icn_equip: url("../Icons/Exported CGA/equip_sheet.png");
+    --icn_info: url("../Icons/Exported CGA/info_sheet.png");
+    --icn_mini: url("../Icons/Exported CGA/mini_sheet.png");
+    --icn_icons: url("../Icons/Exported CGA/icons_sheet.png");
+    --icn_ph: url("../Icons/Exported CGA/placeholder_sheet.png");
+    --icn_meat: url("../Icons/Exported CGA/meat_sheet.png");
+    --icn_misc: url("../Icons/Exported CGA/misc_sheet.png");
+    --icn_crop: url("../Icons/Exported CGA/crop_sheet.png");
+    --icn_ore: url("../Icons/Exported CGA/ore_sheet.png");
+    --icn_wood: url("../Icons/Exported CGA/wood_sheet.png");
+    --icn_block: url("../Icons/Exported CGA/block_sheet.png");
+    --icn_mob: url("../Icons/Exported CGA/mob_sheet.png");
+    --icn_decor: url("../Icons/Exported CGA/decor_sheet.png");
+    --icn_plant: url("../Icons/Exported CGA/plant_sheet.png");
+    --icn_color: url("../Icons/Exported CGA/color_sheet.png");
+    --icn_alch: url("../Icons/Exported CGA/alchemy_sheet.png");
+    --icn_food: url("../Icons/Exported CGA/food_sheet.png");
+    --icn_fish: url("../Icons/Exported CGA/fish_sheet.png");
+    --icn_candy: url("../Icons/Exported CGA/candy_sheet.png");
+    --icn_sticker: url("../Icons/Exported CGA/sticker_sheet.png");
+    --icn_critter: url("../Icons/Exported CGA/critter_sheet.png");
+    --icn_tags: url("../Icons/Exported CGA/tags_sheet.png");
+    --icn_cake: url("../Icons/Exported CGA/cake_sheet.png");
+    --icn_c_desc: url("../Icons/Exported CGA/critter_desc_sheet.png");
+    --icn_ally: url("../Icons/Exported CGA/ally_sheet.png");
+    --icn_scroll: url("../Icons/Exported CGA/scroll_sheet.png");
+    --icn_egg: url("../Icons/Exported CGA/egg_sheet.png");
+    --icn_banana: url("../3/banana.gif");
+
+    --icn_bg: url("../3/Items/Exported/equip_back_mono.png");
+
+    --icn_unused: #000000;
+    --icn_ench: #ff55ff;
+}

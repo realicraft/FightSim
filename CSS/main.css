@@ -1,6 +1,9 @@
+body img:first-child {
+    content: var(--top_image);
+}
 body {
-    background-color: #777777;
-    color: black;
+    background-color: var(--background);
+    color: var(--font);
     margin: 0;
     text-align: center;
     font-family: "FightSim Body";
@@ -12,12 +15,12 @@ img {
     margin-top: 30px
 }
 .header {
-    background-color: #afafaf;
-    color: black;
+    background-color: var(--header_bg);
+    color: var(--font);
     height: 25px;
     max-width: 90%;
     border-radius: 3px;
-    border: 1px solid white;
+    border: 1px solid var(--header_border);
     text-align: center;
     display: inline-block;
     padding-left: 21px;
@@ -32,17 +35,17 @@ img {
     text-decoration: none !important;
 }
 .header a:visited, .header a:hover, .header a:focus, .header a:active {
-    color: black;
+    color: var(--font);
 }
 .header a:hover {
-    background-color: #7f7f7f;
+    background-color: var(--header_hover);
 }
 h3, h2 {
     font-weight: bold;
     font-size: 16px;
 }
 h1 {
-    font-size: 30px;
+    font-size: 32px;
     font-family: "FightSim Body Double";
     font-weight: normal;
 }
@@ -50,13 +53,13 @@ h1 {
     position: absolute;
     top: 3px;
     right: 3px;
-    color: black;
+    color: var(--font);
     border-radius: 3px;
-    border: 2px solid #afafaf;
+    border: 2px solid var(--timebox_border);
     text-align: left;
     width: 72px;
     height: 34px;
-    background-color: #8f8f8f;
+    background-color: var(--timebox_bg);
 }
 #time_box_turns {
     position: absolute;
@@ -83,7 +86,8 @@ h1 {
     left: 2px;
 }
 .struct, .output {
-    border: 5px solid black;
+    border: 5px solid var(--struct_border);
+    background-color: var(--struct_bg);
     border-radius: 5px;
     width: 50%;
     margin: auto;
@@ -94,19 +98,19 @@ h1 {
 .output {
     width: 350px;
     border-width: 2px;
-    background-color: #afafaf;
+    background-color: var(--header_bg);
     padding: 3px;
 }
 .struct .struct {
     width: 90%
 }
 td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
-    color: white;
+    color: var(--stack_color);
     position: absolute;
     right: 0px;
     bottom: 0px;
     /*From https://stackoverflow.com/a/4919231 */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0px 1px 0 #000, 1px 0px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000;
+    text-shadow: -1px -1px 0 var(--stack_border), 1px -1px 0 var(--stack_border), -1px 1px 0 var(--stack_border), 1px 1px 0 var(--stack_border), 0px 1px 0 var(--stack_border), 1px 0px 0 var(--stack_border), 0px -1px 0 var(--stack_border), -1px 0px 0 var(--stack_border);
     font-size: 9px;
     font-family: "FightStack";
 }
@@ -160,62 +164,62 @@ td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
     src: url("../fightsim-body-bold-double.ttf");
 }
 span.normal {
-    color: #dfdfdf;
+    color: var(--ele_normal);
     font-weight: bold;
 }
 span.fire {
-    color: #df0f0f;
+    color: var(--ele_fire);
     font-weight: bold;
 }
 span.water {
-    color: #2f2fef;
+    color: var(--ele_water);
     font-weight: bold;
 }
 span.electric {
-    color: #dfdf0f;
+    color: var(--ele_elec);
     font-weight: bold;
 }
 span.plant {
-    color: #0fdf0f;
+    color: var(--ele_plant);
     font-weight: bold;
 }
 span.ice {
-    color: #0fdfdf;
+    color: var(--ele_ice);
     font-weight: bold;
 }
 span.light {
-    color: #dfdfaf;
+    color: var(--ele_light);
     font-weight: bold;
 }
 span.dark {
-    color: #3f3f5f;
+    color: var(--ele_dark);
     font-weight: bold;
 }
 span.normal2 {
-    color: #dfdfdf;
+    color: var(--ele_normal);
 }
 span.fire2 {
-    color: #df0f0f;
+    color: var(--ele_fire);
 }
 span.water2 {
-    color: #2f2fef;
+    color: var(--ele_water);
 }
 span.electric2 {
-    color: #dfdf0f;
+    color: var(--ele_elec);
 }
 span.plant2 {
-    color: #0fdf0f;
+    color: var(--ele_plant);
 }
 span.ice2 {
-    color: #0fdfdf;
+    color: var(--ele_ice);
 }
 span.light2 {
-    color: #dfdfaf;
+    color: var(--ele_light);
 }
 span.dark2 {
-    color: #3f4f6f;
+    color: var(--ele_dark);
 }
 span.phone_number, span.phone_num {
-    color: #0f5f0f;
+    color: var(--phone_number);
 
 }

@@ -13,6 +13,33 @@ var settingFunc = function() {
                     if (getCookie("set_"+j[0]) == "true") {currentBox += ' checked'}
                     currentBox += '><span class="toggle_inner"></span></label>';
                     break;
+                case "lang":
+                    currentBox += '<select id="lang_sel">';
+                    for (k in langlist) {
+                        currentBox += '<option value="' + langlist[k][0] + '"'
+                        if (getCookie("set_lang") == langlist[k][0]) {currentBox += ' selected'}
+                        currentBox += '>' + getTranslatedString("langs." + langlist[k][0] + ".name") + ' [' + langlist[k][1] + ']</option>'
+                    }
+                    currentBox += '</select>'
+                    break;
+                case "theme":
+                    currentBox += '<select id="theme_sel">';
+                    for (k in themelist) {
+                        currentBox += '<option value="' + themelist[k][0] + '"'
+                        if (getCookie("set_theme") == themelist[k][0]) {currentBox += ' selected'}
+                        currentBox += '>' + getTranslatedString("themes." + themelist[k][0] + ".name") + '</option>'
+                    }
+                    currentBox += '</select>'
+                    break;
+                case "iconset":
+                    currentBox += '<select id="iconset_sel">';
+                    for (k in iconsetlist) {
+                        currentBox += '<option value="' + iconsetlist[k][0] + '"'
+                        if (getCookie("set_iconset") == iconsetlist[k][0]) {currentBox += ' selected'}
+                        currentBox += '>' + getTranslatedString("iconsets." + iconsetlist[k][0] + ".name") + '</option>'
+                    }
+                    currentBox += '</select>'
+                    break;
             };
             currentBox += '</span>';
             if (j[2]) {
@@ -20,6 +47,7 @@ var settingFunc = function() {
             };
             currentBox += '</div>';
         };
+        currentBox += '</div><br /><br />'
         settingsComp += currentBox;
     };
 
@@ -37,6 +65,15 @@ var save_settings = function() {
                 case "bool":
                     setCookie("set_" + j[0], document.getElementById(j[0]).checked, 365);
                     break;
+                case "lang":
+                    setCookie("set_lang", document.getElementById("lang_sel").value, 365);
+                    break;
+                case "theme":
+                    setCookie("set_theme", document.getElementById("theme_sel").value, 365);
+                    break;
+                case "iconset":
+                    setCookie("set_iconset", document.getElementById("iconset_sel").value, 365);
+                    break;
             };
         };
     };
@@ -44,7 +81,7 @@ var save_settings = function() {
     setTimeout(resetButton, 1000);
 };
 
-setTimeout(settingFunc, 100);
+waitForLang(settingFunc);
 /*
 <div class="settings_box">
     <div class="settings_title">Placeholders</div>

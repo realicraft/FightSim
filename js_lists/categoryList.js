@@ -1,59 +1,60 @@
 var categorylist = [ // [name]
-    ["null"], //0
-    ["Helmet"], //1
-    ["Chestplate"], //2
-    ["Leggings"], //3
-    ["Boots"], //4
-    ["Weapon"], //5
-    ["Tool"], //6
-    ["Shield"], //7
-    ["Accessory"], //8
-    ["Golden Food"], //9
-    ["Food"], //10
-    ["Material"], //11
-    ["Event"], //12
-    ["Crop"], //13
-    ["Plant"], //14
-    ["Flower"], //15
-    ["Potion"], //16
-    ["Block"], //17
-    ["Furniture"], //18
-    ["Wall"], //19
-    ["Usable"], //20
-    ["Throwable"], //21
-    ["Ranged"], //22
-    ["Melee"], //23
-    ["Ore"], //24
-    ["Bar"], //25
-    ["Fish"], //26
-    ["Fuel"], //27
-    ["Meta"], //28
-    ["Unique"], //29
-    ["Consumable"], //30
-    ["Candy"], //31
-    ["Plot"], //32
-    ["Special"], //33
-    ["Effect"], //34
-    ["Debuff"], //35
-    ["Buff"], //36
-    ["Sticker"], //37
-    ["FS1"], //38
-    ["FS2"], //39
-    ["Unobtainable"], //40
-    ["Nugget"], //41
-    ["Grab Bag"], //42
-    ["Scroll"], //43
-    ["Upgrade"], //44
-    ["Critter"], //45
-    ["Powder"], //46
-    ["Explosive"], //47
-    ["Container"], //48
-    ["<span class='fire2'>Fire</span>"], //49
-    ["<span class='water2'>Water</span>"], //50
-    ["<span class='electric2'>Electric</span>"], //51
-    ["<span class='plant2'>Plant</span>"], //52
-    ["<span class='ice2'>Ice</span>"], //53
-    ["<span class='light2'>Light</span>"], //54
-    ["<span class='dark2'>Dark</span>"], //55
-    ["Ammo"], //56
+    ["category.null.name"], //0
+    ["category.helmet.name"], //1
+    ["category.chestplate.name"], //2
+    ["category.leggings.name"], //3
+    ["category.boots.name"], //4
+    ["category.weapon.name"], //5
+    ["category.tool.name"], //6
+    ["category.shield.name"], //7
+    ["category.accessory.name"], //8
+    ["category.gold_food.name"], //9
+    ["category.food.name"], //10
+    ["category.material.name"], //11
+    ["category.event.name"], //12
+    ["category.crop.name"], //13
+    ["category.plant.name"], //14
+    ["category.flower.name"], //15
+    ["category.potion.name"], //16
+    ["category.block.name"], //17
+    ["category.furniture.name"], //18
+    ["category.wall.name"], //19
+    ["category.usable.name"], //20
+    ["category.throwable.name"], //21
+    ["category.ranged.name"], //22
+    ["category.melee.name"], //23
+    ["category.ore.name"], //24
+    ["category.bar.name"], //25
+    ["category.fish.name"], //26
+    ["category.fuel.name"], //27
+    ["category.meta.name"], //28
+    ["category.unique.name"], //29
+    ["category.consumable.name"], //30
+    ["category.candy.name"], //31
+    ["category.plot.name"], //32
+    ["category.special.name"], //33
+    ["category.effect.name"], //34
+    ["category.debuff.name"], //35
+    ["category.buff.name"], //36
+    ["category.sticker.name"], //37
+    ["category.fs1.name"], //38
+    ["category.fs2.name"], //39
+    ["category.unobtainable.name"], //40
+    ["category.nugget.name"], //41
+    ["category.grab_bag.name"], //42
+    ["category.scroll.name"], //43
+    ["category.upgrade.name"], //44
+    ["category.critter.name"], //45
+    ["category.powder.name"], //46
+    ["category.explosive.name"], //47
+    ["category.container.name"], //48
+    ["category.fire_type.name"], //49
+    ["category.water_type.name"], //50
+    ["category.electric_type.name"], //51
+    ["category.plant_type.name"], //52
+    ["category.ice_type.name"], //53
+    ["category.light_type.name"], //54
+    ["category.dark_type.name"], //55
+    ["category.ammo.name"], //56
+    ["category.gem.name"], //57
 ]

@@ -6,10 +6,11 @@ for (var i = 0, cell; cell = table.getElementsByTagName('td')[i]; i++) {
     icon = cell.getElementsByTagName('span')[0];
     style = icon.currentStyle || window.getComputedStyle(icon, false);
     bi = style.backgroundImage.slice(4, -1).replace(/"/g, "");
-    pos = window.getComputedStyle(icon,null).backgroundPosition.trim().split(/\s+/)[0]
+    posx = window.getComputedStyle(icon,null).backgroundPosition.trim().split(/\s+/)[0]
+    posy = window.getComputedStyle(icon,null).backgroundPosition.trim().split(/\s+/)[1]
     if (bi != "http://192.168.99.2/Icons/Exported/equip_sheet.png") {
         cells_to_remove.push(cell);
-    } else if (pos != "-608px") {
+    } else if ((posx != "-608px") || (posy != "-608px")) {
         cells_to_remove.push(cell);
     };
 };
@@ -28,13 +29,122 @@ for (var l = 0, cell; cell = table.getElementsByTagName('td')[l]; l++) {
 
 String(remain_class);
 
-
-'slingshot,rock_on_stick,fold_chair,
-string_wad,spinach,golden spinach,ripe spinach,rotten_flesh,cooked_flesh,golden flesh,bobm,cannon,
+'rock_on_stick,fold_chair,
+spinach,golden spinach,ripe spinach,rotten_flesh,cooked_flesh,golden flesh,bobm,cannon,
 raw_chicken,cooked_chicken,raw_mutton,cooked_mutton,blackberries,golden blackberries,
-ripe blackberries,lemonade,limeade,hfcs,popcorn,
+ripe blackberries,hfcs,popcorn,
 lever,oak_button,birch_button,stone_button,iron_button,cod,cooked_cod,seaweed,red_herring,spin_fish,five_dollar_bill,wizard_hat,chef_apron,gloves,
-const_shirt,welding_helmet,welding_helmet,smurf_hat,sticker_basket,sticker_basket_rare,mine,chains,
-anchovy,backpack,dust_pouch,hotdog_wrapped,
-quiver,ruler,pineapple_juice,mango_juice,mango,ripe mango,golden mango,scraps,fire_charge,
-crown,tomato_slices,lettuce,ripe lettuce,golden lettuce'
+const_shirt,welding_helmet,welding_helmet,smurf_hat,sticker_basket,sticker_basket_rare,chains,
+anchovy,backpack,hotdog_wrapped,
+pineapple_juice,mango_juice,mango,ripe mango,golden mango,scraps,
+tomato_slices,lettuce,ripe lettuce,golden lettuce'
+
+----
+
+for (var i = 697; i < equiplist.length; i++) {
+    for (var j = 0; j < equiplist[i].length; j++) {
+        console.log('"item.' + equiplist[i][j][1] + '.name": "' + equiplist[i][j][0] + '",')
+    }
+}
+
+for (var i = 697; i < equiplist.length; i++) {
+    for (var j = 0; j < equiplist[i].length; j++) {
+        console.log('"item.' + equiplist[i][j][1] + '.desc": "' + equiplist[i][j][2] + '",')
+    }
+}
+
+----
+
+var sourcecraft = [];
+var fromcraft = [];
+for (var i in equiplist) {
+    for (var j in equiplist[i]) {
+        if ((equiplist[i][j][3] == "Crafting") || (equiplist[i][j][3] == "Cooking") || (equiplist[i][j][3] == "Alchemy") || (equiplist[i][j][3] == "Carving") || (equiplist[i][j][3] == "Pottery")) {
+            sourcecraft.push(i+":"+j)
+        }
+    }
+}
+for (var k in recipelist) {
+    for (var l in recipelist[k]) {
+        fromcraft.push(recipelist[k][l][9][0]+":"+recipelist[k][l][9][1])
+    }
+}
+
+console.log(String( sourcecraft.filter(x => !fromcraft.includes(x)) ));
+console.log( sourcecraft.filter(x => !fromcraft.includes(x)).length );
+
+(65)
+'43:0,53:0,67:0,94:0,95:0,111:3,111:9,207:0,207:1,207:2,207:3,207:4,207:5,207:6,
+208:0,208:1,208:2,208:3,208:4,208:5,208:6,520:0,521:0,522:0,523:0,524:0,525:0,526:0,527:0,528:0,529:0,530:0,
+531:0,532:0,533:0,534:0,559:0,566:0,634:2,661:1,661:2,661:3,661:4,661:5,661:6,
+661:7,661:8,661:9,661:10,661:11,661:12,661:13,662:0,666:0,667:0,667:1,668:0,669:0,678:1,678:2,678:3,680:1,680:2,680:3,
+684:0'
+
+
+var attribs = new Set();
+for (var i in equiplist) {
+    for (var j in equiplist[i]) {
+        for (var k of equiplist[i][j][4].split("<br />")) {
+            attribs.add(k.replace(/[0-9][0-9]?[.]?[0-9]?/g, "X"));
+        }
+    }
+}
+
+Grants two random stickers
+Sour! does not reduce Accuracy
+Sour! only reduces Accuracy by X
+Filled with something random
+Can only be obtained once per game, ever
+Combine with a specific weapon to strengthen it
+Open it and eat the food
+Open to gain XdX+X fish from any non-Junk/non-Treasure item pool
+Throw it on someone (can be yourself) to give them X% Exp to X random skills
+Stores X items
+Open to gain XdX+X gems
+Use it to add the number to your contact list
+Gain... something
+Gain XdX Ore
+Gain X~X% in a random skill
+Grants XdX+X Misc EXP
+Teaches you X digits of Pi
+Does something to an ally
+Gain a random pie
+Recruits an ally
+Hold down on it to add it to your account
+Open for XdX+X random items (see Info)
+Place it somewhere
+Poisoned gives +X Indirect Attack and +X STR
+Badly Poisoned gives +X Direct Attack and +X STR
+Poison effects deal X more HP/turn
+Not sure yet
+Use on a food item to increase its health gain by X
+Use on a food item to make it count as only X% as many food items for the purpose of Nausea
+Potion effect: Makes a Splash Potion
+Potion effect: X% chance to make mobs drop money for two turns
+If you take over X damage at once, this will ignite and set you On Fire
+If you are not wearing gloves when throwing this, X% chance to make yourself itchy
+Blow it at someone to blow them up
+If it's windy, X% chance to blow yourself up instead
+If you are set On Fire, are Paralyzed, or take over X damage at once, this will explode in your inventory
+Grants X% Exp in a random skill
+Can store any non-Container item
+Can only store Dollar Bills, Coins, Official Coins, Decicoins, and Official Decicoins
+Can store any Powder item
+Roll it and see what happens!
+X% chance to remove one turn of a random <span class='fire'>Fire</span> debuff, if you have one
+Potion effect: X% chance for +X Direct Attack (X turn)
+Break it to cause stuff to happen
+All Sleep types restore an additional +X HP/turn
+All Sleep types have their chance of waking up manually reduced by X%
+Can be used to light something On Fire
+Can store any Ammo item
+Use it on an item stack to tag it
+Combine X of them to cast a random scroll effect
+Use it on an item to name it
+Use it on an item to give it a description
+Use it on an item to give it new attributes
+Grab a slice
+Use it on something to clean it
+Use it on something to clean it and make it wet
+Can store any candy
+After Halloween, will disappear when empty

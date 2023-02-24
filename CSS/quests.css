@@ -43,15 +43,12 @@
 .repquesttop {
     font-size: 18px;
     font-family: "FightSim 20";
-    position: absolute;
-    top: 5px;
     margin: auto;
+    margin-top: 5px;
     width: 100%;
 }
 .repquestmid {
-    position: absolute;
     width: 100%;
-    top: 30px;
 }
 .repquesttable {
     margin-bottom: 5px;

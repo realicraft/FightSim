@@ -48,7 +48,7 @@ var tooltip = function(name, desc, source, cats, bonus, name_class, price) { // 
     tooltipBodyEl.setAttribute("style", "display: block;")
 }
 var ttEquip = function(id=0, dv=0, nbt="", dnbt="") { // on the stats page, don't display tooltips for placeholders
-    if (((id >= 1) & (id <= 8)) | (id == 330) | (id == 448) | (id == 548)) {}
+    if (((id >= 1) & (id <= 8)) | (id == 112) | (id == 330) | (id == 448)) {}
     else {tt(id,dv,nbt,dnbt)}
 }
 var ttEffect = function(id=0) { // tooltip wrapper for effects
@@ -59,10 +59,10 @@ var ttEffect = function(id=0) { // tooltip wrapper for effects
         for (var i in effectlist[id][5]) {
             if (initial_cat) {initial_cat = false}
             else {as_cats += ", "}
-            as_cats += categorylist[effectlist[id][5][i]]
+            as_cats += getTranslatedString(categorylist[effectlist[id][5][i]])
         }
     }
-    tooltip(effectlist[id][0], effectlist[id][2], effectlist[id][3], as_cats, effectlist[id][4], name_class_list[effectlist[id][6]], 0)
+    tooltip(getTranslatedString(effectlist[id][0]), getTranslatedString(effectlist[id][2]), effectlist[id][3], as_cats, effectlist[id][4], name_class_list[effectlist[id][6]], 0)
 }
 var tt = function(id=0, dv=0, nbt="", dnbt="", cname="") { // tooltip wrapper for items
     var as_cats = ""
@@ -72,7 +72,7 @@ var tt = function(id=0, dv=0, nbt="", dnbt="", cname="") { // tooltip wrapper fo
         for (var i in equiplist[id][dv][5]) {
             if (initial_cat) {initial_cat = false}
             else {as_cats += ", "}
-            as_cats += categorylist[equiplist[id][dv][5][i]]
+            as_cats += getTranslatedString(categorylist[equiplist[id][dv][5][i]])
         }
     }
     if (cname == "") {var uname = equiplist[id][dv][0]}

@@ -1,5 +1,5 @@
 .player_table, .summon_div, .summon_div_inner {
-    border: 2px solid black;
+    border: 2px solid var(--struct_border);
     border-radius: 5px;
     display: inline-block;
     margin: 2px;
@@ -12,11 +12,13 @@
 }
 .summon_div {
     width: 300px;
-    background-color: #9f9f9f;
+    background-color: var(--summon_bg);
+    border-color: var(--summon_border);
 }
 .summon_div_inner {
     width: 250px;
     padding: 0px;
+    border-color: var(--summon_border);
 }
 .summon_div_inner:not(.table_summon_div_inner) {
     height: 32px;
@@ -39,8 +41,8 @@
     font-family: "FightSim 12";
 }
 .username {
-    color: white;
-    background-color: black;
+    color: var(--struct_header_color);
+    background-color: var(--struct_border);
     margin: 0px;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -74,13 +76,13 @@
 .health_disp, .combat_disp {
     width: calc(50% - 1px);
     display: inline-block;
-    background-color: #8f8f8f;
+    background-color: var(--struct_bg2);
     height: 32px;
 }
 .kd_disp {
     width: 100%;
     display: inline-block;
-    background-color: #8f8f8f;
+    background-color: var(--struct_bg2);
     height: 32px;
 }
 .health_disp {
@@ -98,7 +100,7 @@
 }
 .meter_container {
     height: 68px;
-    background-color: black;
+    background-color: var(--struct_border);
     font-size: 12px;
     font-family: "FightSim 12";
 }
@@ -113,7 +115,7 @@
     margin-top: 0px;
     width: 272px;
     height: 32px;
-    background-image: url("../3/Items/Exported/equip_back.png");
+    background-image: var(--icn_bg);
     display: block;
     margin: auto;
     padding: 2px 0px 2px 2px;
@@ -135,7 +137,7 @@
     position: absolute;
     right: 2px;
     top: 2px;
-    color: white;
+    color: var(--struct_header_color);
     z-index: 1;
 }
 .pt_level_contain p {
@@ -143,24 +145,26 @@
 }
 .pt_level_bar_outer {
     height: 6px;
-    border: 1px solid white;
+    border: 1px solid var(--level_outer);
     border-radius: 5px;
-    background-color: #2f2f2f;
+    background-color: var(--level_bg);
 }
 .pt_level_bar_inner {
-    background-color: white;
-    height: 100%;
+    background-color: var(--level_inner);
+    height: 4px;
+    border: 1px solid var(--level_bg);
+    border-radius: 5px;
 }
 .col1 {
     width:32px;
-    background-color: #7f7f7f;
+    background-color: var(--struct_col1);
 }
 .col2 {
-    width:100%; background-color: #9f9f9f;
+    width:100%; background-color: var(--struct_col2);
 }
 .col3 {
-    width:20px; background-color: #7f7f7f;
+    width:20px; background-color: var(--struct_col1);
 }
 .col4 {
-    width:30px; background-color: #9f9f9f;
+    width:30px; background-color: var(--struct_col2);
 }

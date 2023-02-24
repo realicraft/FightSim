@@ -26,22 +26,22 @@
 .mob_name {
     top: 0px;
     left: 0px;
-    border-right: black 1px solid;
-    border-bottom: black 1px solid;
+    border-right: var(--struct_border) 1px solid;
+    border-bottom: var(--struct_border) 1px solid;
     height: 66px;
 }
 .mob_name h2 {
     margin: 0px;
     line-height: 66px;
     padding-right: 0.5px;
-    color: white;
-    background-color: black;
+    color: var(--struct_header_color);
+    background-color: var(--struct_border);
 }
 .mob_turn {
     position: absolute;
     top: 0px;
     right: 0px;
-    color: white;
+    color: var(--struct_header_color);
     font-family: "FightStack";
     font-size: 9px;
 }
@@ -52,57 +52,57 @@
     left: 0px;
 }
 .mob_health {
-    border-bottom: black 1px solid;
-    border-left: black 1px solid;
-    border-right: black 1px solid;
+    border-bottom: var(--struct_border) 1px solid;
+    border-left: var(--struct_border) 1px solid;
+    border-right: var(--struct_border) 1px solid;
     height: 32px;
     top: 0px;
     left: calc(33% + 2px);
-    background-color: #8f8f8f;
+    background-color: var(--struct_bg2);
 }
 .mob_stats {
-    border-bottom: black 1px solid;
-    border-left: black 1px solid;
+    border-bottom: var(--struct_border) 1px solid;
+    border-left: var(--struct_border) 1px solid;
     height: 32px;
     top: 0px;
     right: 0px;
-    background-color: #8f8f8f;
+    background-color: var(--struct_bg2);
 }
 .mob_kill_acc {
-    border-top: black 1px solid;
-    border-bottom: black 1px solid;
-    border-left: black 1px solid;
-    border-right: black 1px solid;
+    border-top: var(--struct_border) 1px solid;
+    border-bottom: var(--struct_border) 1px solid;
+    border-left: var(--struct_border) 1px solid;
+    border-right: var(--struct_border) 1px solid;
     height: 32px;
     top: 33px;
     left: calc(33% + 2px);
-    background-color: #8f8f8f;
+    background-color: var(--struct_bg2);
 }
 .mob_other {
-    border-top: black 1px solid;
-    border-bottom: black 1px solid;
-    border-left: black 1px solid;
+    border-top: var(--struct_border) 1px solid;
+    border-bottom: var(--struct_border) 1px solid;
+    border-left: var(--struct_border) 1px solid;
     height: 32px;
     top: 33px;
     right: 0px;
     font-family: "FightStack";
     font-size: 9px;
-    background-color: #8f8f8f;
+    background-color: var(--struct_bg2);
 }
 .mob_equip {
     width: calc(50%);
     bottom: 0px;
     left: 0px;
-    border-right: black 1px solid;
-    border-top: black 1px solid;
+    border-right: var(--struct_border) 1px solid;
+    border-top: var(--struct_border) 1px solid;
     height: 54px;
 }
 .mob_effect {
     width: calc(50%);
     bottom: 0px;
     right: 0px;
-    border-left: black 1px solid;
-    border-top: black 1px solid;
+    border-left: var(--struct_border) 1px solid;
+    border-top: var(--struct_border) 1px solid;
     height: 54px;
 }
 .mob_equip h3, .mob_effect h3 {
@@ -124,34 +124,34 @@
 }
 
 .mob_health2 {
-    border-bottom: black 1px solid;
-    border-left: black 1px solid;
-    border-right: black 1px solid;
+    border-bottom: var(--struct_border) 1px solid;
+    border-left: var(--struct_border) 1px solid;
+    border-right: var(--struct_border) 1px solid;
     height: 32px;
     top: 0px;
     left: -1px;
-    background-color: #8f8f8f;
+    background-color: var(--struct_bg2);
 }
 .mob_health2 .vat {
     right: initial;
 }
 .mob_stats2 {
-    border-bottom: black 1px solid;
-    border-left: black 1px solid;
+    border-bottom: var(--struct_border) 1px solid;
+    border-left: var(--struct_border) 1px solid;
     height: 32px;
     top: 0px;
     right: 0px;
-    background-color: #8f8f8f;
+    background-color: var(--struct_bg2);
 }
 
 .overheal { 
-    color: green;
+    color: var(--health_over);
 }
 .lowhp { 
-    color: darkred;
+    color: var(--health_low);
 }
 .kod { 
-    color: darkred; font-weight: bold;
+    color: var(--health_low); font-weight: bold;
 }
 .vat { 
     right: 121.4px;

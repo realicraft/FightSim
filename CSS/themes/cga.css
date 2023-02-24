@@ -1,0 +1,106 @@
+:root {
+    --top_image: url("../3/logos/fs3_logo_cga.png");
+    --background: #ffffff;
+    --text: #000000;
+
+    --header_bg: #ffffff;
+    --header_border: #000000;
+    --header_hover: #55ffff;
+
+    --timebox_bg: #ffffff;
+    --timebox_border: #000000;
+
+    --struct_bg: transparent;
+    --struct_bg2: #ffffff;
+    --struct_border: #000000;
+    --struct_header_color: #ffffff;
+    --struct_col1: #ffffff;
+    --struct_col2: #ffffff;
+
+    --table_bg: #ffffff;
+    --table_border: #000000;
+    --table_dbg: #ffffff;
+
+    --inv_table_bg: #ffffff;
+    --inv_table_border: #000000;
+    --inv_table_dbg: #ff55ff;
+
+    --summon_bg: #ffffff;
+    --summon_border: var(--struct_border);
+
+    --stack_color: #ffffff;
+    --stack_border: #000000;
+
+    --sstack_color: #000000;
+    --sstack_border: #ffffff;
+    --sstack_color_inv: var(--sstack_border);
+    --sstack_border_inv: var(--sstack_color);
+    --sstack_color_low: #000000;
+    --sstack_border_low: #ff77ff;
+    --sstack_color_out: #000000;
+    --sstack_border_out: #ff77ff;
+
+    --health_over: #55ffff;
+    --health_low: #ff77ff;
+
+    --level_outer: #ffffff;
+    --level_bg: #000000;
+    --level_inner: #ffffff;
+
+    --tooltip_bg: #000000;
+    --tooltip_border: #000000;
+    --tooltip_text: #ffffff;
+    --tooltip_dark: #ff55ff;
+    --tooltip_bonus: #55ffff;
+
+    --rarity_null: #ffffff;
+    --rarity_common: #55ffff;
+    --rarity_uncommon: #55ffff;
+    --rarity_rare: #ff55ff;
+    --rarity_unique: #ff55ff;
+    --rarity_moss: #ff55ff;
+    --rarity_unob: #ffffff;
+
+    --idesc_dragon: #ff55ff;
+    --idesc_moss: var(--rarity_moss);
+
+    --rarity_pbad_fallback: #ff55ff;
+    --rarity_pbad: linear-gradient(180deg, #55ffff 0%, #55ffff 50%, #ff55ff 50%, #ff55ff 100%);
+    --rarity_pgood_fallback: #ffffff;
+    --rarity_pgood: linear-gradient(180deg, #55ffff 0%, #55ffff 50%, #ffffff 50%, #ffffff 100%);
+
+    --info_bg: #ffffff;
+    --info_border: #000000;
+    --info_hover: #55ffff;
+    --info_name: #000000;
+    --info_text: #000000;
+
+    --settings_desc_color: #000000;
+
+    --toggle_bg: #ffffff;
+    --toggle_border: #000000;
+    --toggle_checked_bg: #55ffff;
+    --toggle_checked_border: #000000;
+    --toggle_unchecked_bg: #ff55ff;
+    --toggle_unchecked_border: #000000;
+    --toggle_highlight: #55ffff;
+
+    --ele_normal: #000000;
+    --ele_fire: #ff55ff;
+    --ele_water: #55ffff;
+    --ele_elec: #ff55ff;
+    --ele_plant: #ff55ff;
+    --ele_ice: #55ffff;
+    --ele_light: #55ffff;
+    --ele_dark: #000000;
+
+    --phone_number: #000000;
+
+    --cont_border: #000000;
+    --cont_color: #000000;
+    --cont_bg1: #ff55ff;
+    --cont_bg2: #55ffff;
+
+    --vote_passed: #55ffff;
+    --vote_failed: #ff55ff;
+}

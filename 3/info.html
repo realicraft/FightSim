@@ -15,7 +15,7 @@
                 font-weight: normal;
             }
             .fish_pool_table th {
-                font-size: 15px;
+                font-size: 16px;
                 font-family: "FightSim Body";
             }
             .fish_pool_table td{
@@ -65,7 +65,7 @@
                 <th><span class="info-hover" data-info-title="Copper" data-info-desc="How much copper you gain from Mining, if you're looking for copper." id="info-copper-gain" onmouseover="info('info-copper-gain');" onmouseout="noinfo();">Copper</span></th>
                 <th><span class="info-hover" data-info-title="Iron" data-info-desc="How much iron you gain from Mining." id="info-iron-gain" onmouseover="info('info-iron-gain');" onmouseout="noinfo();">Iron</span></th>
                 <th><span class="info-hover" data-info-title="Gold" data-info-desc="How much gold you gain from Mining, if you're looking for gold." id="info-gold-gain" onmouseover="info('info-gold-gain');" onmouseout="noinfo();">Gold</span></th>
-                <th><span class="info-hover" data-info-title="ELectrum" data-info-desc="How much electrum you gain from Mining." id="info-electrum-gain" onmouseover="info('info-electrum-gain');" onmouseout="noinfo();">Electrum</span></th>
+                <th><span class="info-hover" data-info-title="Electrum" data-info-desc="How much electrum you gain from Mining." id="info-electrum-gain" onmouseover="info('info-electrum-gain');" onmouseout="noinfo();">Electrum</span></th>
                 <th><span class="info-hover" data-info-title="Diamond" data-info-desc="How many diamonds you gain from Mining." id="info-diamond-gain" onmouseover="info('info-diamond-gain');" onmouseout="noinfo();">Diamond</span></th>
                 <th><span class="info-hover" data-info-title="Emerald" data-info-desc="How many emeralds you gain from Mining." id="info-emerald-gain" onmouseover="info('info-emerald-gain');" onmouseout="noinfo();">Emerald</span></th>
                 <th><span class="info-hover" data-info-title="Hardite" data-info-desc="How much hardite you gain from Mining." id="info-hardite-gain" onmouseover="info('info-hardite-gain');" onmouseout="noinfo();">Hardite</span></th>
@@ -183,7 +183,7 @@
                 <td rowspan="2">1</td>
                 <td>21</td>
                 <td rowspan="5">5</td>
-                <td rowspan="20" style="background-color:#afafaf;">N/A</td>
+                <td rowspan="20" style="background-color:var(--table_dbg);">N/A</td>
                 <td rowspan="4">5</td>
             </tr><tr>
                 <td>22</td>
@@ -562,9 +562,9 @@
                 <td>Nothing</td>
             </tr>
         </table>
-        <h2>Fishing Item Pools</h2>
-        <p>When you go Fishing, the outcome of the luck roll(s) determines what item pool you get an item from.<br />The first part is the item and its ID, the second part is how likely you are to get it.</p>
-        <table class="fish_pool_table">
+        <h2 id="fishing_header">Fishing Item Pools</h2>
+        <p id="fishing_text">When you go Fishing, the outcome of the luck roll(s) determines what item pool you get an item from.<br />The first part is the item and its ID, the second part is how likely you are to get it.</p>
+        <table class="fish_pool_table" id="fish_pool_table">
             <tr><th colspan="6">Junk</th></tr>
             <tr>
                 <td>Old Boot (184)<br />1/7 (14.3%)</td>
@@ -640,6 +640,12 @@
         <script src="../js_lists/headerLinks.js"></script>
         <script src="../js_lists/settingsList.js"></script>
         <script src="allpages.js"></script>
+        <script src="../js_lists/equipList.js"></script>
+        <script src="../js_lists/effectList.js"></script>
+        <script src="../js_lists/categoryList.js"></script>
+        <script src="../js_lists/skillRewards.js"></script>
+        <script src="tooltip.js"></script>
         <script src="info.js"></script>
+        <script src="info_page.js"></script>
     </body>
 </html>
