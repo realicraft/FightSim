@@ -4,7 +4,7 @@ var tooltipEl = document.getElementsByClassName("tooltip_body")[0]
 var infoEl = document.getElementsByClassName("info_body")[0]
 var bodyEl = document.body
 
-var timeboxInfo = [77, "dusk", "cloudy"]
+var timeboxInfo = [78, "night", "cloudy"]
 
 // cookies
 // from https://www.w3schools.com/js/js_cookies.asp
@@ -18,7 +18,7 @@ function getCookie(cname) {
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');
-    for(let i = 0; i <ca.length; i++) {
+    for(let i = 0; i < ca.length; i++) {
       let c = ca[i];
       while (c.charAt(0) == ' ') {
         c = c.substring(1);
@@ -161,7 +161,7 @@ var makeItem = function(id, dv, stack, nbt, donoequip) {
             if (!didFirstArg) {invenRow2 += ",\""}
             else {invenRow2 += "<br />"}
             didFirstArg = true
-            invenRow2 += effectlist[nbt["potion_eff"][0]][0] + " (" + nbt["potion_eff"][1] + " turn"
+            invenRow2 += getTranslatedString(effectlist[nbt["potion_eff"][0]][0]) + " (" + nbt["potion_eff"][1] + " turn"
             if (nbt["potion_eff"][1] == 1) {} else {invenRow2 += "s"}
             invenRow2 += ")"
         }

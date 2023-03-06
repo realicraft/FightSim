@@ -36,4 +36,5 @@ var iconsetlist = [ // [id]
     //["cga4"],
     //["lowcolor"],
     ["plastic"],
+    ["resprite"],
 ]

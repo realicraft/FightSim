@@ -7,9 +7,9 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [[quest lang_id, number], [claimed], reward, turn]
-    [["damage_player", 1], [], "3 Misc EXP", "77"],
-    [["mine_electrum", 2], [], "175% Mining", "77"],
-    [["plant_crop_flower", 1], [], "2 Fertilizer", "77"],
+    [["be_at_turret_3", 1], [], "3 Prizes", "78"],
+    [["make_potion", 1], [], "1 Bottle of Honey", "78"],
+    [["consume_item", 1], [], "3 Misc EXP", "78"],
     [["make_carrot_cake", 1], [], "250% Cooking", "76~79"],
     [["discover_mystery_skill", 1], [], "20 Misc EXP", "76~79"],
     [["kill_something", 3], [], "+0.2 Direct Attack", "76~79"], //gilbert 1
@@ -69,13 +69,13 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["S.&nbsp;McSause", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Cats.", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Squirrelflight", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["Incendiary", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Incendiary", "1 Use/Equip", "1 Lucky Block", "1/1"],
             ["Byron", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["cheesy", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["solitare", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Fares", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Leopardy", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["gilbert", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["gilbert", "1 Use/Equip", "1 Lucky Block", "1/1"],
             ["Twilight", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Luigi", "1 Use/Equip", "1 Lucky Block", "0/1"],
             /*["Kitty", "1 Use/Equip", "1 Lucky Block", "0/1"],*/
@@ -89,11 +89,14 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Deal damage to a player.", [], "3 Misc EXP", "77"],
+        ["Mine 2 Electrum Ore.", [], "175% Mining", "77"],
+        ["Plant a crop or flower", [], "2 Fertilizer", "77"],
         ["Acquire a Hamburger.", [], "1 Cheeseburger", "76"],
         ["Go Fishing.", [], "150% Fishing", "76"],
         ["Chop a Birch tree.", [], "150% Chopping", "76"],
         ["Craft some form of juice.", [], "2 Apple Juices, 2 Orange Juices", "75"],
-        ["Open a Lucky Block.", ["Orb Fish"], "2 Lucky Blocks", "75"],
+        ["Open a Lucky Block.", ["Landon"], "2 Lucky Blocks", "75"],
         ["Pet a Slime.", [], "5 Misc EXP", "75"],
         ["Use a Skill.", ["Landon"], "2 Lucky Blocks", "74"],
         ["Consume an item.", ["Landon"], "2 Lucky Blocks", "74"],

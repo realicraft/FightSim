@@ -2793,6 +2793,86 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_misc);
     background-position: -160px -32px;
 }
+.strawberries {
+    background-image: var(--icn_crop);
+    background-position: -64px -224px;
+}
+.golden.strawberries {
+    background-image: var(--icn_crop);
+    background-position: -96px -224px;
+}
+.clay_block {
+    background-image: var(--icn_block);
+    background-position: -32px -0px;
+}
+.pumpkin_chocolate {
+    background-image:var(--icn_candy);
+    background-position: -0px -32px;
+}
+.gumdrop {
+    background-image:var(--icn_candy);
+    background-position: -32px -32px;
+}
+.lollipop_small {
+    background-image:var(--icn_candy);
+    background-position: -64px -32px;
+}
+.lollipop_large {
+    background-image:var(--icn_candy);
+    background-position: -96px -32px;
+}
+.gumdrop_box {
+    background-image:var(--icn_candy);
+    background-position: -128px -32px;
+}
+.ring_mint {
+    background-image:var(--icn_candy);
+    background-position: -160px -32px;
+}
+.fish_chocolate {
+    background-image:var(--icn_candy);
+    background-position: -192px -32px;
+}
+.candy_cane {
+    background-image:var(--icn_candy);
+    background-position: -224px -32px;
+}
+.small_chocolate {
+    background-image:var(--icn_candy);
+    background-position: -0px -64px;
+}
+.pocky {
+    background-image:var(--icn_candy);
+    background-position: -32px -64px;
+}
+.chocolate_bag {
+    background-image:var(--icn_candy);
+    background-position: -64px -64px;
+}
+.peanut_chocolate_bag {
+    background-image:var(--icn_candy);
+    background-position: -96px -64px;
+}
+.small_candy {
+    background-image:var(--icn_candy);
+    background-position: -128px -64px;
+}
+.medium_candy {
+    background-image:var(--icn_candy);
+    background-position: -160px -64px;
+}
+.large_candy {
+    background-image:var(--icn_candy);
+    background-position: -192px -64px;
+}
+.peanut_butter_cup {
+    background-image:var(--icn_candy);
+    background-position: -224px -64px;
+}
+.fruit_candy_bag {
+    background-image:var(--icn_candy);
+    background-position: -0px -96px;
+}
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
 span.cr_hp_4, span.cr_hp_5, span.cr_hp_6, span.cr_hp_7, 
@@ -3518,6 +3598,63 @@ span.cr_df_flight {
 .egg_vanish {
     background-image: var(--icn_egg);
     background-position: -192px -64px;
+}
+/* file icons */
+.folder {
+    background-image: var(--icn_file);
+    background-position: -0px -0px;
+}
+.file {
+    background-image: var(--icn_file);
+    background-position: -16px -0px;
+}
+.html, .web {
+    background-image: var(--icn_file);
+    background-position: -32px -0px;
+}
+.ttf, .woff, .fon, .font {
+    background-image: var(--icn_file);
+    background-position: -48px -0px;
+}
+.txt, .text {
+    background-image: var(--icn_file);
+    background-position: -64px -0px;
+}
+.gitignore, .settings {
+    background-image: var(--icn_file);
+    background-position: -80px -0px;
+}
+.js {
+    background-image: var(--icn_file);
+    background-position: -96px -0px;
+}
+.css {
+    background-image: var(--icn_file);
+    background-position: -112px -0px;
+}
+.png, .jpeg, .jpg, .gif, .ico, .image {
+    background-image: var(--icn_file);
+    background-position: -0px -16px;
+}
+.piskel {
+    background-image: var(--icn_file);
+    background-position: -16px -16px;
+}
+.piko, .pikopixel {
+    background-image: var(--icn_file);
+    background-position: -32px -16px;
+}
+.tbgsbb {
+    background-image: var(--icn_file);
+    background-position: -48px -16px;
+}
+.tbgsbbp {
+    background-image: var(--icn_file);
+    background-position: -64px -16px;
+}
+.json {
+    background-image: var(--icn_file);
+    background-position: -80px -16px;
 }
 /* info (large) */
 .yes, .passed {

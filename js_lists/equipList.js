@@ -320,14 +320,17 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (6 Fuel Units; 230 -> 225:6)", "", "", [], 0, 0]], //230
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (7 Fuel Units; 231 -> 225:7)", "", "", [], 0, 0]], //231
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (8 Fuel Units; 232 -> 225:8)", "", "", [], 0, 0]], //232
-    [["Christmas Stocking", "stocking", "A stocking for Christmas. Hang it up during your turn to get extra rewards!", "Christmas", "Hang it up<br />Can be used while KOd", [12,20], 3, 0]], //233
+    [
+        ["Christmas Stocking", "stocking", "A stocking for Christmas. Hang it up during your turn to get extra rewards!", "Christmas", "Hang it up<br />Can be used while KOd", [12,20], 4, 0], //0
+        ["Filled Christmas Stocking", "stocking", "A stocking for Christmas with some goodies in it.", "Christmas", "You can take items out of it<br />Disappears when empty", [12,48], 4, 0], //1
+    ], //233
     [["Effect Candy", "blue_candy", "A small piece of candy, wrapped in a blue wrapper. Eat it to gain a random positive effect!", "Events", "Consume for one of the following: Regen, Attack Up, Defense Up", [12,30,31], 2, 0]], //234
     [["Skill Candy", "green_candy", "A small piece of candy, wrapped in a green wrapper. Eat it to gain 300% in a random skill!", "Events", "Consume for 300% in a random skill you have that is below level 5", [12,30,31], 2, 0]], //235
     [["Item Candy", "red_candy", "A small piece of candy, wrapped in a red wrapper. Eat it to gain a random item!", "Events", "Consume for a random item (see Info)", [12,30,31], 2, 0]], //236
     [["Mystery Gift", "gift_box", "A gift in a box. It could be anything!", "Item Candy", "Open it to gain a random item out of all the items currently in the game", [12,20], 3, 0]], //237
     [["Time Candy", "black_candy", "A small piece of candy, wrapped in a black and yellow wrapper. If you have this in your inventory, you'll be allowed three posts in a turn, instead of two!", "Unknown", "Holding this item allows one extra post in a turn (consumed during extra post)", [12,30,31], 3, 0]], //238
     [["Old Candy", "gray_candy", "A small piece of old candy. The color on the wrapper has faded away, so you can't tell what kind of candy this was.", "Old Stocking", "Consume for a reduced version of a different candy's effect", [12,30,31], 1, 0]], //239
-    [["Old Christmas Stocking", "old_stocking", "An old stocking for Christmas. It's too late to hang it up, but there might still be something inside...", "Post-Christmas", "Look inside", [12,20], 1, 0]], //240
+    [["Old Christmas Stocking", "old_stocking", "An old stocking for Christmas. It's too late to hang it up, but there might still be something inside...", "Post-Christmas", "Look inside", [12,20], 3, 0]], //240
     [["LTT Hoodie", "ltt_hoodie", "Uh... thanks, Incendiary?", "Unknown", "+0.7 Indirect Defense<br />+2 Intelligence", [12,2], 2, 0]], //241
     [["Furnace", "furnace", "A furnace. Having this in your inventory will passively reduce fuel requirements in recipies by 1.", "Crafting", "Reduces recipe fuel requirements by one", [17], 1, 7]], //242
     [["Box", "box", "A box. It has the following items in it:", "Unknown", "You can take items out of it<br />Disappears when empty", [20], 1, 0]], //243
@@ -527,7 +530,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Scroll of Large (10)", "scroll_14_10", "A scroll with the fourteenth and tenth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //419
     [["Scroll of Large (4)", "scroll_14_04", "A scroll with the fourteenth and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //420
     [["Scroll of Large (30)", "scroll_14_30", "A scroll with the fourteenth and thirtieth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //421
-    [["Scroll of Thunderstorm", "scroll_14_11", "A scroll that", "Shops", "Deals 1d15+10 <span class='electric'>Electric</span> damage and inflicts Paralyzed for one turn", [20,43], 2, 0]], //422
+    [["Scroll of Thunderstorm", "scroll_14_11", "A scroll that summons a lightning bolt.", "Shops", "Deals 1d15+10 <span class='electric'>Electric</span> damage and inflicts Paralyzed for one turn", [20,43], 2, 0]], //422
     [["Scroll of Large (12)", "scroll_14_12", "A scroll with the fourteenth and twelfth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //423
     [["Scroll of Large (13)", "scroll_14_13", "A scroll with the fourteenth and thirteenth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //424
     [["Scroll of Gain (2)", "scroll_01_02", "A scroll with the first and second runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //425
@@ -693,7 +696,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Scroll of (33) Metal", "scroll_33_21", "A scroll with the thirty-third and twenty-first runes printed on it.", "Shops", "???", [20,43], 2, 0]], //582
     [["Scroll of Gain (37)", "scroll_01_37", "A scroll with the first and thirty-seventh runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //583
     [["Scroll of Gain (36)", "scroll_01_36", "A scroll with the first and thirty-sixth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //584
-    [["Scroll of (34) Ore", "scroll_34_21", "A scroll with the thirty-fourth and twenty-first runes printGoldened on it.", "Shops", "???", [20,43], 2, 0]], //585
+    [["Scroll of (34) Ore", "scroll_34_21", "A scroll with the thirty-fourth and twenty-first runes printed on it.", "Shops", "???", [20,43], 2, 0]], //585
     [["Scroll (Runes 34,17)", "scroll_34_17", "A scroll with the thirty-fourth and seventeenth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //586
     [["Scroll of (35) Pie", "scroll_35_29", "A scroll with the thirty-fifth and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //587
     [["Scroll (Runes 23,37)", "scroll_23_37", "A scroll with the twenty-third and thirty-seventh runes printed on it.", "Shops", "???", [20,43], 2, 0]], //588
@@ -806,7 +809,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Calculator", "calculator", "A small pocket calculator. It can't do much, but at least it's cheap.", "Crafting", "+1 INT", [8,20], 1, 8]], //666
     [
         ["Hamburger", "burger", "A hamburger. It has some lettuce and tomato on it.", "Cooking", "+8 HP on consume", [10,30], 2, 10], //0
-        ["Cheeseburger", "cheese_burger", "A cheeseburger. It has some lettuce and tomato on it. Plus cheese", "Cooking", "+10 HP on consume", [10,30], 2, 12], //1
+        ["Cheeseburger", "cheese_burger", "A cheeseburger. It has some lettuce and tomato on it. Plus cheese.", "Cooking", "+10 HP on consume", [10,30], 2, 12], //1
     ], //667
     [["Golden Hamburger", "golden burger", "A hamburger made of gold. It has some golden lettuce and golden tomato on it.", "Cooking", "+15 HP on consume<br />Gain Regen+ and Attack Up+ on consume (1 turn)<br />Can't be equipped", [9,30], 3, 30]], //668
     [["Tomato Slices", "tomato_slices", "Some tomato slices.", "Cooking", "+4 HP on consume", [10,30], 1, 4]], //669
@@ -865,9 +868,37 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Wet Mop", "mop_wet", "A wet mop. It can clean things, but right now it'll probably just make them wet.", "Using a Mop", "Use it on something to clean it and make it wet", [6,23], 1, 0], //1
     ], //695
     [["Shears", "shears", "A pair of shears. You can use them to shear things, like wool, grass, and people.", "Crafting", "+1 Direct Attack<br />+25% chance to inflict Bleeding on hit for 1 turn", [5,6,23], 1, 7]], //696
-    [["Halloween Bucket", "halloween_bucket", "A pumpkin-shaped bucket. You put candy in it during Halloween, and then you can take then candy out afterward.", "Crafting", "Hold it to access the 7 item slots it has<br />Can store any candy<br />After Halloween, will disappear when empty", [29,48], 4, 0]], //697
+    [["Halloween Bucket", "halloween_bucket", "A pumpkin-shaped bucket. You put candy in it during Halloween, and then you can take then candy out afterward.", "Halloween", "Hold it to access the 7 item slots it has<br />Can store any candy<br />After Halloween, will disappear when empty", [12,29,48], 4, 0]], //697
     [
         ["Doorbell", "doorbell", "A doorbell. You push the button, and it makes a noise. You can also hook it up to other things.", "Crafting", "", [17], 2, 6], //0
-        ["Halloween Doorbell", "halloween_doorbell", "A doorbell, but Halloween themed. You push the button, it makes noise, and you get candy. It'll also dissappear after Halloween.", "Halloween", "", [17], 4, 0], //1
+        ["Halloween Doorbell", "halloween_doorbell", "A doorbell, but Halloween themed. You push the button, it makes noise, and you get candy. It'll also dissappear after Halloween.", "Halloween", "", [12,17], 4, 0], //1
     ], //698
+    [
+        ["Small Candy", "small_candy", "To save inventory space, some candy items are taking up the same slot.<br />Contains:", "Halloween", "", [12,30,31], 1, 0], //0
+        ["Medium Candy", "medium_candy", "To save inventory space, some candy items are taking up the same slot.<br />Contains:", "Halloween", "", [12,30,31], 1, 0], //1
+        ["Large Candy", "large_candy", "To save inventory space, some candy items are taking up the same slot.<br />Contains:", "Halloween", "", [12,30,31], 2, 0], //2
+    ], //699
+    [["Pumpkin-Shaped Chocolate", "pumpkin_chocolate", "A small chocolate in the shape of a pumpkin. What could be inside it?", "Halloween", "+1 HP on consume<br />Filled with something random", [10,30], 3, 0]], //700
+    [["Strawberries", "strawberries", "Some strawberries.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //701
+    [["Ripe Strawberries", "ripe strawberries", "Some strawberries that are riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7]], //702
+    [["Golden Strawberries", "golden strawberries", "Some golden strawberries. They boost speed because reference.", "Farming", "+0.5 Speed", [9], 2, 15]], //703
+    [["Gumdrop", "gumdrop", "Really? A <em>single</em> gumdrop?", "Halloween", "+1.5 HP<br />Counts as 0.3 servings", [10,12,30,31], 1, 0]], //704
+    [["Piece of Chocolate", "small_chocolate", "A small piece of chocolate, shaped like a pumpkin. It's not filled with anything. Except chocolate.", "Halloween", "+1.5 HP<br />Counts as 0.3 servings", [10,12,30,31], 1, 0]], //705
+    [["Ring-shaped Mint", "ring_mint", "A mint-flavored candy, shaped like a ring.", "Halloween", "Inflicts 1 turn of Minty Breath", [10,12,30,31], 1, 0]], //706
+    [["Jelly Bean", "jelly_bean", "A single jelly bean. Who knows what its flavor is?", "Halloween", "Consume for a random effect<br />Counts as 0.2 servings", [10,12,30,31], 1, 0]], //707
+    [["Taffy", "taffy", "A small thing of taffy.", "Halloween", "+1.5 HP<br />Counts as 0.3 servings", [10,12,30,31], 1, 0]], //708
+    [["Chocolate Coin", "coin_chocolate", "A piece of chocolate shaped like a coin, with foil around it.", "Halloween", "+2 HP<br />Counts as 0.4 servings", [10,12,30,31], 1, 0]], //709
+    [["Fish-shaped Chocolate", "fish_chocolate", "A small chocolate, shaped like a fish. It's filled with marshmallow.", "Halloween", "+2 HP<br />Counts as 0.4 servings", [10,12,30,31], 1, 0]], //710
+    [["Candy Cane", "candy_cane", "A candy cane.", "Holidays", "+1.5 HP<br />Counts as 0.3 servings", [10,12,30,31], 1, 0]], //711
+    [["Small Lollipop", "lollipop_small", "A small lollipop. You're supposed to put it in your mouth and then leave it there, but you could also just crunch it.", "Halloween", "+2 HP<br />Counts as 0.4 servings", [10,12,30,31], 1, 0]], //712
+    [["Bag of Chocolates", "chocolate_bag", "A small bag of some candy-coated chocolates. The colors are just to look nice.", "Halloween", "+2.5 HP<br />Counts as 0.5 servings", [10,12,30,31], 1, 3]], //713
+    [["Box of Gumdrops", "gumdrop_box", "A box with some gumdrops in it.", "Halloween", "Open for 2~4 Gumdrops", [20,42], 1, 2]], //714
+    [["Bag of Sour Gummies", "sour_gummies", "A bag of some gummies with sour coating on them.", "Halloween", "+1 HP<br />Inflicts 1 turn of Sour!", [10,12,30,31], 1, 3]], //715
+    [["Chocolate-covered Coconut Bar", "coconut_chocolate_bar", "Some shredded coconut covered in chocolate. There might be some nuts inside, I'm not sure.", "Halloween", "+2~2.5 HP<br />Counts as 0.4 servings", [10,12,30,31], 1, 0]], //716
+    [["Bag of Peanut Butter Candies", "peanut_butter_bag", "A small bag of some candy-coated peanut butter circles. The colors are just to look nice.", "Halloween", "+2.5 HP<br />Counts as 0.5 servings", [10,12,30,31], 1, 3]], //717
+    [["Bag of Fruit-flavored Candies", "fruit_candy_bag", "A small bag of some candy-coated fruit-flavored circles. The colors tell you which flavor they are.", "Halloween", "+2.5 HP<br />Counts as 0.5 servings", [10,12,30,31], 1, 3]], //718
+    [["Peanut Butter Cup", "peanut_butter_cup", "A cup of chocolate, with peanut butter inside. It's more of a plate, really.", "Halloween", "+3 HP<br />Counts as 0.6 servings", [10,12,30,31], 1, 0]], //719
+    [["Large Lollipop", "lollipop_large", "A lollipop. You're supposed to lick it, but you could also just crunch it.", "Halloween", "+3.5 HP<br />Counts as 0.7 servings", [10,12,30,31], 2, 0]], //720
+    [["Bag of Peanut Chocolates", "peanut_chocolate_bag", "A small bag of some candy-coated chocolates with peanuts inside. The colors are just to look nice.", "Halloween", "+3.5 HP<br />Counts as 0.7 servings", [10,12,30,31], 2, 4]], //721
+    [["Box of Chocolate-coated Sticks", "pocky", "A box of stick-shaped biscuits, partially covered in chocolate.", "Halloween", "+5 HP", [10,12,30,31], 2, 8]], //722
 ]

@@ -1,0 +1,73 @@
+Changelog for Turn 78
+
+Mobs
+- fixed issue where i forgot about a pig being poisoned
+
+Items
+- added a filled version of the christmas stocking
+- the stockings are now considered unique instead of rare (except the old stocking, which is now rare)
+- fixed the halloween bucket claiming to be obtained by crafting
+- added the event category to the halloween doorbell
+- fixed a typo on the cheeseburger
+- fixed the scroll of thunderstorm having an incomplete description
+- fixed a typo on the scroll of (34) ore
+- added various sizes of candy piles
+- added a pumpkin chocolate
+- added strawberries
+- added /19/ different candies, 13 of which have icons
+- added icons for various vials, in case you ever feel like disecting a shaped chocolate
+- added an icon to diambiguate between the wiki not having a local copy of an icon, and an item not having an icon
+- resprite exclusive: added icons meant to be used for dynamically colored potions (not sure if i'll use them, though)
+- fixed potion effects being broken
+
+Crafting
+- cake recipies now use the cooking icon rather than the generic icon
+
+Effects
+- added two new effects
+
+Structures
+- now wait for the language jsons before making inventories
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- 
+
+Quests
+- fixed a misnaming on a completed quest
+
+Phone System
+- 
+
+Helpers
+- added a helper to convert the internal recipe format into the wiki format
+
+Votes
+- 
+
+Translations
+- 
+
+Themes
+- 
+
+Icon Sets
+- added a resprite iconset
+- it's being used to test out a planned resprite of various icons
+- currently has changes to parts of block_sheet, ore_sheet, and icons_sheet
+- also has changes to parts of alchemy_sheet, but the rest are intentionally unchanged
+- unchanged icons in modified sheets are made translucent
+
+Settings
+- 
+
+Internal
+- 
+
+Misc
+- added a sitemap to aid in archiving the site

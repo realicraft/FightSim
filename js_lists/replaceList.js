@@ -51,6 +51,7 @@ var replaceDoubleList = { // keyword: "replacement before", "replacement after"
     "tony": ["[color=#2f1f00][b]Tony[/b]: ","[/color]"],
     "landon": ["[color][b]Landon[/b]: ","[/color]"],
     // npcs
+    "laurie": ["[color=#5f0f5f][b]Laurie[/b]: ","[/color]"],
     "morshu": ["[color=#5f2f0f][b]Morshu[/b]: ","[/color]"],
     "hank": ["[color=#5f0f0f][b]Hank[/b]: ","[/color]"],
 }

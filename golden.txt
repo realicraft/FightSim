@@ -8,6 +8,7 @@ HP/Turn      | Flesh (0.3)
 DA/Sour!     | Lemon (1), Lime (1.1)
 IA&STR/PSN   | Poisonberry (1/1)
 HP/Sleep     | Sleep Shroom (2)
+Speed        | Strawberries (0.5)
 - Skills
 Farming      | Wheat Bundle (0.2)
 Mining       | Radish (0.2)

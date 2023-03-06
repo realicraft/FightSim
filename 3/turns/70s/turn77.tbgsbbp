@@ -16,7 +16,7 @@ You eat the Skill and Item Candies.
 Skill roll: 1d6 = 2
 (Your Chopping skill has gone up by 300%. Your Chopping skill leveled up twice!)
 Item roll: 1d81 = 78
-You aquire 7 Cobblestone.
+You acquire 7 Cobblestone.
 You throw out some junk and some definitely-not-junk.
 You use your three Copper Bars and Gold Bars to make 12 Coins.* (Your Crafting skill has gone up by 45%.)
 You call {phone|05673 0LORE}.
@@ -28,7 +28,7 @@ You call {phone|05673 0LORE}.
 {laurie|This lore is gathered from several places; there's stuff gathered from some satellites, a couple of telescopes... scraping the website, stuff like that.}
 {laurie|You'll get the lore when you call me, but you do, uh, need to pay. I... don't really have much of a job.}
 {laurie|Oh, but don't worry about the money you make not being usable. Our government is, like, weirdly superstitious? And they passed a bunch of laws based on old stories from, like, medieval time about some cursed islands.}
-{laurie|But then the curse turned out to be real, so... I guess it's convienient?}
+{laurie|But then the curse turned out to be real, so... I guess it's convenient?}
 {laurie|Anyway, you do also get a bit of lore for free when you call. Like... did you know that... baby dragons are {i|kind of cute?}}
 {laurie|...I guess that's not really useful to you. Although the other stuff I've said also probably counts as lore...}
 {laurie|...so, that's basically it. I guess... call me later? Maybe?}
@@ -168,7 +168,7 @@ Also also also I've adjusted the pool of chocolate fillings slightly. Just so yo
 
 Oh, and we're doing that "get prizes for being at Turret 3 at the end of the Turn" thing again during turn 79. Just wanted to warn you.
 
-* On second thought, getting C5 from metal worth only C1 5¢	is probably not a good idea, so I've nerfed the recipes slightly.
+* On second thought, getting C5 from metal worth only C1 5¢ is probably not a good idea, so I've nerfed the recipes slightly.
 ** This means that you rolled ten 1s, three 2s, and seven 3s.
 † This means that you have Regen twice. Think of how Cheesy has Thunder-Charged twice.
 †* Treasure Chest, Moat, Byron's Tank, the four Turrets, Portal to the North Pole, Incendiary's War Tank, solitare's Oven, Excavator, Well

@@ -49,6 +49,7 @@
     "iconsets.cga4.name": "CGA4",
     "iconsets.lowcolor.name": "Low Color Palette",
     "iconsets.plastic.name": "Plastic",
+    "iconsets.resprite.name": "Resprite",
 
     "category.null.name": "null",
     "category.helmet.name": "Helmet",
@@ -1841,6 +1842,8 @@
     "effect.slight_regen.name": "Slight Healing",
     "effect.slight_atk_up.name": "Slight Strength",
     "effect.slight_def_up.name": "Slight Resistance",
+    "effect.itchy.name": "Itchy",
+    "effect.minty.name": "Minty Breath",
 
     "effect.none.desc": "Looks like someone forgot to clear the slot.",
     "effect.afk.desc": "Hey, where'd you go?",
@@ -1888,6 +1891,8 @@
     "effect.slight_regen.desc": "You're recovering a little bit of health.",
     "effect.slight_atk_up.desc": "You feel just a bit stronger.",
     "effect.slight_def_up.desc": "You feel just a bit sturdier.",
+    "effect.itchy.desc": "You feel really itchy, and it's distracting you.",
+    "effect.minty.desc": "Your breath smells like mint. I guess it's better than whatever it smelled like before?",
 
     "type.typeless.name": "Typeless",
     "type.normal.name": "Normal",

@@ -94,3 +94,49 @@ var run_rand = function() {
     var max = parseInt(maxEl.value)
     outputEl.innerText = Math.ceil((Math.random()*(max-min+1)))+(min-1)
 }
+
+/* Recipe Converter */
+var generate_recipe = function(recipe) {
+    var output = "|-\n| "
+    for (var i=0; i < 6; i++) {
+        if (recipe[i+2][0] == 0) {
+            i = 6;
+            continue;
+        }
+        if (i != 0) {output += ", "}
+        output += recipe[i+2][2];
+        output += " [[" + equiplist[recipe[i+2][0]][recipe[i+2][1]][0] + "]]"
+    }
+    output += " || {{Recipe"
+    for (var i=0; i < 6; i++) {
+        if (recipe[i+2][0] == 0) {
+            i = 6;
+            continue;
+        }
+        output += "|item" + (i+1) + "=" + recipe[i+2][0];
+        if (recipe[i+2][2] != 1) {output += "|count" + (i+1) + "=" + recipe[i+2][2];}
+        if (recipe[i+2][1] != 0) {output += "|dv" + (i+1) + "=" + recipe[i+2][1];}
+    }
+    output += "|item7=" + recipe[9][0];
+    if (recipe[9][2] != 1) {output += "|count7=" + recipe[9][2];}
+    if (recipe[9][1] != 0) {output += "|dv7=" + recipe[9][1];}
+    output += "|type=" + recipe[8];
+    output += "}} || "
+    output += recipe[9][2];
+    output += " [[" + equiplist[recipe[9][0]][recipe[9][1]][0] + "]]";
+    return output;
+}
+var run_recipe = function() {
+    var idEl = document.getElementById("recipe_id");
+    var outputEl = document.getElementById("recipe_out");
+    var id = parseInt(idEl.value);
+    var outputCont = ""
+    for (var i in recipelist) {
+        for (var j in recipelist[i]) {
+            if ((recipelist[i][j][2][0] == id) || (recipelist[i][j][3][0] == id) || (recipelist[i][j][4][0] == id) || (recipelist[i][j][5][0] == id) || (recipelist[i][j][6][0] == id) || (recipelist[i][j][7][0] == id) || (recipelist[i][j][9][0] == id)) {
+                outputCont += generate_recipe(recipelist[i][j]) + "\n";
+            }
+        }
+    }
+    outputEl.value = outputCont;
+}
