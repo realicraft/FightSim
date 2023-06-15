@@ -29,32 +29,11 @@ Effects
 Structures
 - now wait for the language jsons before making inventories
 
-Scrolls
-- 
-
-Skills
-- 
-
-Gardens
-- 
-
 Quests
 - fixed a misnaming on a completed quest
 
-Phone System
-- 
-
 Helpers
 - added a helper to convert the internal recipe format into the wiki format
-
-Votes
-- 
-
-Translations
-- 
-
-Themes
-- 
 
 Icon Sets
 - added a resprite iconset
@@ -62,12 +41,6 @@ Icon Sets
 - currently has changes to parts of block_sheet, ore_sheet, and icons_sheet
 - also has changes to parts of alchemy_sheet, but the rest are intentionally unchanged
 - unchanged icons in modified sheets are made translucent
-
-Settings
-- 
-
-Internal
-- 
 
 Misc
 - added a sitemap to aid in archiving the site

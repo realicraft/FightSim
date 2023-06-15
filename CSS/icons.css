@@ -23,8 +23,8 @@ span.mini_cont span.mini_icon {
     position: relative;
 }
 .icon {
-    background-image: var(--icn_equip);
-    background-position: -608px -608px;
+    background-image: var(--icn_armormisc);
+    background-position: -192px -224px;
 }
 .small_icon {
     background-image: var(--icn_info);
@@ -298,31 +298,31 @@ span.mini_cont span.mini_icon {
     background-position: -224px 0px;
 }
 .diamond_helm {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: 0px -160px;
 }
 .diamond_chest {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -32px -160px;
 }
 .diamond_legs {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -64px -160px;
 }
 .diamond_boots {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -96px -160px;
 }
 .diamond_sword {
-    background-image: var(--icn_equip);
-    background-position: -224px -160px;
-    -webkit-mask-image: var(--icn_equip);
-    -webkit-mask-position: -224px -160px;
-    mask-image: var(--icn_equip);
-    mask-position: -224px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -0px -160px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -0px -160px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -0px -160px;
 }
 .diamond_shield, .diamond_sheild {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -160px;
 }
 .golden.burger {
@@ -330,32 +330,32 @@ span.mini_cont span.mini_icon {
     background-position: -64px -32px;
 }
 .wood_sword {
-    background-image: var(--icn_equip);
-    background-position: -224px -32px;
-    -webkit-mask-image: var(--icn_equip);
-    -webkit-mask-position: -224px -32px;
-    mask-image: var(--icn_equip);
-    mask-position: -224px -32px;
+    background-image: var(--icn_weapontier);
+    background-position: -0px -32px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -0px -32px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -0px -32px;
 }
 .stick {
     background-image: var(--icn_misc);
     background-position: 0px -32px;
 }
 .wood_shovel {
-    background-image: var(--icn_equip);
-    background-position: -256px -32px;
+    background-image: var(--icn_weapontier);
+    background-position: -32px -32px;
 }
 .stick_rock {
-    background-image: var(--icn_equip);
-    background-position: -0px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -0px -0px;
 }
 .decent_hammer {
-    background-image: var(--icn_equip);
-    background-position: -32px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -32px -0px;
 }
 .icicle {
-    background-image: var(--icn_equip);
-    background-position: -96px -448px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -96px -64px;
 }
 .golden.carrot {
     background-image: var(--icn_crop);
@@ -366,84 +366,84 @@ span.mini_cont span.mini_icon {
     mask-position: -224px -0px;
 }
 .gold_sword {
-    background-image: var(--icn_equip);
-    background-position: -224px -96px;
-    -webkit-mask-image: var(--icn_equip);
-    -webkit-mask-position: -224px -96px;
-    mask-image: var(--icn_equip);
-    mask-position: -224px -96px;
+    background-image: var(--icn_weapontier);
+    background-position: -0px -96px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -0px -96px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -0px -96px;
 }
 .gold_shovel {
-    background-image: var(--icn_equip);
-    background-position: -256px -96px;
+    background-image: var(--icn_weapontier);
+    background-position: -32px -96px;
 }
 .gold_pickaxe {
-    background-image: var(--icn_equip);
-    background-position: -288px -96px;
+    background-image: var(--icn_weapontier);
+    background-position: -64px -96px;
 }
 .gold_axe {
-    background-image: var(--icn_equip);
-    background-position: -320px -96px;
+    background-image: var(--icn_weapontier);
+    background-position: -96px -96px;
 }
 .stone_sword {
-    background-image: var(--icn_equip);
-    background-position: -224px -64px;
-    -webkit-mask-image: var(--icn_equip);
-    -webkit-mask-position: -224px -64px;
-    mask-image: var(--icn_equip);
-    mask-position: -224px -64px;
+    background-image: var(--icn_weapontier);
+    background-position: -0px -64px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -0px -64px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -0px -64px;
 }
 .stone_shovel {
-    background-image: var(--icn_equip);
-    background-position: -256px -64px;
+    background-image: var(--icn_weapontier);
+    background-position: -32px -64px;
 }
 .stone_pickaxe {
-    background-image: var(--icn_equip);
-    background-position: -288px -64px;
+    background-image: var(--icn_weapontier);
+    background-position: -64px -64px;
 }
 .stone_axe {
-    background-image: var(--icn_equip);
-    background-position: -320px -64px;
+    background-image: var(--icn_weapontier);
+    background-position: -96px -64px;
 }
 .iron_sword {
-    background-image: var(--icn_equip);
-    background-position: -224px -128px;
-    -webkit-mask-image: var(--icn_equip);
-    -webkit-mask-position: -224px -128px;
-    mask-image: var(--icn_equip);
-    mask-position: -224px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -0px -128px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -0px -128px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -0px -160px;
 }
 .iron_shovel {
-    background-image: var(--icn_equip);
-    background-position: -256px -128px;
+    background-image: var(--icn_weapontier);
+    background-position: -32px -128px;
 }
 .iron_pickaxe {
-    background-image: var(--icn_equip);
-    background-position: -288px -128px;
+    background-image: var(--icn_weapontier);
+    background-position: -64px -128px;
 }
 .iron_axe {
-    background-image: var(--icn_equip);
-    background-position: -320px -128px;
+    background-image: var(--icn_weapontier);
+    background-position: -96px -128px;
 }
 .diamond_shovel {
-    background-image: var(--icn_equip);
-    background-position: -256px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -32px -160px;
 }
 .diamond_pickaxe {
-    background-image: var(--icn_equip);
-    background-position: -288px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -64px -160px;
 }
 .diamond_axe {
-    background-image: var(--icn_equip);
-    background-position: -320px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -96px -160px;
 }
 .wood_pickaxe {
-    background-image: var(--icn_equip);
-    background-position: -288px -32px;
+    background-image: var(--icn_weapontier);
+    background-position: -64px -32px;
 }
 .wood_axe {
-    background-image: var(--icn_equip);
-    background-position: -320px -32px;
+    background-image: var(--icn_weapontier);
+    background-position: -96px -32px;
 }
 .stick_item {
     background-image: var(--icn_misc);
@@ -454,8 +454,8 @@ span.mini_cont span.mini_icon {
     background-position: -32px -32px;
 }
 .flint_and_steel {
-    background-image: var(--icn_equip);
-    background-position: -64px -448px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -64px -64px;
 }
 .oak_log {
     background-image: var(--icn_wood);
@@ -582,7 +582,7 @@ span.mini_cont span.mini_icon {
     background-position: -96px -0px;
 }
 .clay_sheild, .clay_shield {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -256px;
 }
 .hardite_ore {
@@ -634,12 +634,12 @@ span.mini_cont span.mini_icon {
     background-position: -64px -0px;
 }
 .arrow {
-    background-image: var(--icn_equip);
-    background-position: -64px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -64px -0px;
 }
 .bow {
-    background-image: var(--icn_equip);
-    background-position: -96px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -96px -0px;
 }
 .can {
     background-image: var(--icn_crop);
@@ -727,27 +727,27 @@ span.mini_cont span.mini_icon {
 }
 .yellow_dye {
     background-image: var(--icn_color);
-    background-position: -256px -0px;
+    background-position: -0px -32px;
 }
 .green_dye {
     background-image: var(--icn_color);
-    background-position: -288px -0px;
+    background-position: -32px -32px;
 }
 .cyan_dye {
     background-image: var(--icn_color);
-    background-position: -352px -0px;
+    background-position: -96px -32px;
 }
 .blue_dye {
     background-image: var(--icn_color);
-    background-position: -416px -0px;
+    background-position: -160px -32px;
 }
 .purple_dye {
     background-image: var(--icn_color);
-    background-position: -448px -0px;
+    background-position: -192px -32px;
 }
 .magenta_dye {
     background-image: var(--icn_color);
-    background-position: -480px -0px;
+    background-position: -224px -32px;
 }
 .white_dye {
     background-image: var(--icn_color);
@@ -794,15 +794,15 @@ span.mini_cont span.mini_icon {
     background-position: -224px -0px;
 }
 .wood_sheild, .wood_shield {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -32px;
 }
 .iron_sheild, .iron_shield {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -128px;
 }
 .gold_sheild, .gold_shield {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -96px;
 }
 .butter {
@@ -838,56 +838,56 @@ span.mini_cont span.mini_icon {
     background-position: -32px -0px;
 }
 .gold_helm {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -0px -96px;
 }
 .gold_chest {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -32px -96px;
 }
 .gold_legs {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -64px -96px;
 }
 .gold_boots {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -96px -96px;
 }
 .iron_helm {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -0px -128px;
 }
 .iron_chest {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -32px -128px;
 }
 .iron_legs {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -64px -128px;
 }
 .iron_boots {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -96px -128px;
 }
 .wood_hoe {
-    background-image: var(--icn_equip);
-    background-position: -352px -32px;
+    background-image: var(--icn_weapontier);
+    background-position: -128px -32px;
 }
 .stone_hoe {
-    background-image: var(--icn_equip);
-    background-position: -352px -64px;
+    background-image: var(--icn_weapontier);
+    background-position: -128px -64px;
 }
 .gold_hoe {
-    background-image: var(--icn_equip);
-    background-position: -352px -96px;
+    background-image: var(--icn_weapontier);
+    background-position: -128px -96px;
 }
 .iron_hoe {
-    background-image: var(--icn_equip);
-    background-position: -352px -128px;
+    background-image: var(--icn_weapontier);
+    background-position: -128px -128px;
 }
 .diamond_hoe {
-    background-image: var(--icn_equip);
-    background-position: -352px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -128px -160px;
 }
 .red_mushroom {
     background-image: var(--icn_plant);
@@ -898,44 +898,44 @@ span.mini_cont span.mini_icon {
     background-position: -224px -64px;
 }
 .wood_hammer {
-    background-image: var(--icn_equip);
-    background-position: -384px -32px;
+    background-image: var(--icn_weapontier);
+    background-position: -160px -32px;
 }
 .stone_hammer {
-    background-image: var(--icn_equip);
-    background-position: -384px -64px;
+    background-image: var(--icn_weapontier);
+    background-position: -160px -64px;
 }
 .gold_hammer {
-    background-image: var(--icn_equip);
-    background-position: -384px -96px;
+    background-image: var(--icn_weapontier);
+    background-position: -160px -96px;
 }
 .iron_hammer {
-    background-image: var(--icn_equip);
-    background-position: -384px -128px;
+    background-image: var(--icn_weapontier);
+    background-position: -160px -128px;
 }
 .diamond_hammer {
-    background-image: var(--icn_equip);
-    background-position: -384px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -160px -160px;
 }
 .wood_trowel {
-    background-image: var(--icn_equip);
-    background-position: -416px -32px;
+    background-image: var(--icn_weapontier);
+    background-position: -192px -32px;
 }
 .stone_trowel {
-    background-image: var(--icn_equip);
-    background-position: -416px -64px;
+    background-image: var(--icn_weapontier);
+    background-position: -192px -64px;
 }
 .gold_trowel {
-    background-image: var(--icn_equip);
-    background-position: -416px -96px;
+    background-image: var(--icn_weapontier);
+    background-position: -192px -96px;
 }
 .iron_trowel {
-    background-image: var(--icn_equip);
-    background-position: -416px -128px;
+    background-image: var(--icn_weapontier);
+    background-position: -192px -128px;
 }
 .diamond_trowel {
-    background-image: var(--icn_equip);
-    background-position: -416px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -192px -160px;
 }
 .goldfish {
     background-image: var(--icn_fish);
@@ -974,24 +974,24 @@ span.mini_cont span.mini_icon {
     background-position: -32px -0px;
 }
 .wood_fish_rod {
-    background-image: var(--icn_equip);
-    background-position: -448px -32px;
+    background-image: var(--icn_weapontier);
+    background-position: -224px -32px;
 }
 .stone_fish_rod {
-    background-image: var(--icn_equip);
-    background-position: -448px -64px;
+    background-image: var(--icn_weapontier);
+    background-position: -224px -64px;
 }
 .gold_fish_rod {
-    background-image: var(--icn_equip);
-    background-position: -448px -96px;
+    background-image: var(--icn_weapontier);
+    background-position: -224px -96px;
 }
 .iron_fish_rod {
-    background-image: var(--icn_equip);
-    background-position: -448px -128px;
+    background-image: var(--icn_weapontier);
+    background-position: -224px -128px;
 }
 .diamond_fish_rod {
-    background-image: var(--icn_equip);
-    background-position: -448px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -224px -160px;
 }
 .sap {
     background-image: var(--icn_plant);
@@ -1034,8 +1034,8 @@ span.mini_cont span.mini_icon {
     background-position: -32px -96px;
 }
 .ltt_hoodie {
-    background-image: var(--icn_equip);
-    background-position: -128px -448px;
+    background-image: var(--icn_armormisc);
+    background-position: -224px -0px;
 }
 .box {
     background-image: var(--icn_misc);
@@ -1062,23 +1062,23 @@ span.mini_cont span.mini_icon {
     background-position: -96px -32px;
 }
 .hammer {
-    background-image: var(--icn_equip);
-    background-position: -128px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -128px -0px;
 }
 .chain_helm {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -0px -64px;
 }
 .chain_chest {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -32px -64px;
 }
 .chain_legs {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -64px -64px;
 }
 .chain_boots {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -96px -64px;
 }
 .beetroot {
@@ -1110,24 +1110,24 @@ span.mini_cont span.mini_icon {
     background-position: -224px -32px;
 }
 .wood_staff {
-    background-image: var(--icn_equip);
-    background-position: -480px -32px;
+    background-image: var(--icn_weapontier);
+    background-position: -256px -32px;
 }
 .stone_staff {
-    background-image: var(--icn_equip);
-    background-position: -480px -64px;
+    background-image: var(--icn_weapontier);
+    background-position: -256px -64px;
 }
 .gold_staff {
-    background-image: var(--icn_equip);
-    background-position: -480px -96px;
+    background-image: var(--icn_weapontier);
+    background-position: -256px -96px;
 }
 .iron_staff {
-    background-image: var(--icn_equip);
-    background-position: -480px -128px;
+    background-image: var(--icn_weapontier);
+    background-position: -256px -128px;
 }
 .diamond_staff {
-    background-image: var(--icn_equip);
-    background-position: -480px -160px;
+    background-image: var(--icn_weapontier);
+    background-position: -256px -160px;
 }
 .potato {
     background-image: var(--icn_crop);
@@ -1294,7 +1294,7 @@ span.mini_cont span.mini_icon {
     background-position: -32px -64px;
 }
 .stone_sheild, .stone_shield {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -64px;
 }
 .mystery_potion {
@@ -1330,31 +1330,31 @@ span.mini_cont span.mini_icon {
     background-position: -160px -0px;
 }
 .you_tried {
-    background-image: var(--icn_equip);
-    background-position: -288px -416px;
+    background-image: var(--icn_armormisc);
+    background-position: -0px -0px;
 }
 .wood_band {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -32px;
 }
 .stone_band {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -64px;
 }
 .gold_band {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -96px;
 }
 .iron_band {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -128px;
 }
 .diamond_band {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -160px;
 }
 .diamond_pendant {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -128px -160px;
 }
 .pear {
@@ -1371,7 +1371,7 @@ span.mini_cont span.mini_icon {
 }
 .wool {
     background-image: var(--icn_color);
-    background-position: -0px -32px;
+    background-position: -0px -64px;
 }
 .sugar, .sugar_rush {
     background-image: var(--icn_food);
@@ -1394,8 +1394,8 @@ span.mini_cont span.mini_icon {
     background-position: -96px -64px;
 }
 .santa_hat {
-    background-image: var(--icn_equip);
-    background-position: -320px -416px;
+    background-image: var(--icn_armormisc);
+    background-position: -32px -0px;
 }
 .lamp_oil_two_thirds, .oiled {
     background-image: var(--icn_misc);
@@ -1594,28 +1594,32 @@ span.mini_cont span.mini_icon {
     background-position: -224px -160px;
 }
 .plain_shirt {
-    background-image: var(--icn_equip);
-    background-position: -352px -416px;
+    background-image: var(--icn_armormisc);
+    background-position: -64px -0px;
+    -webkit-mask-image: var(--icn_armormisc);
+    -webkit-mask-position: -64px -0px;
+    mask-image: var(--icn_armormisc);
+    mask-position: -64px -0px;
 }
 .abs_shirt {
-    background-image: var(--icn_equip);
-    background-position: -384px -416px;
+    background-image: var(--icn_armormisc);
+    background-position: -96px -0px;
 }
 .knife {
-    background-image: var(--icn_equip);
-    background-position: -160px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -160px -0px;
 }
 .real_knife {
-    background-image: var(--icn_equip);
-    background-position: -192px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -192px -0px;
 }
 .thunder_knife {
-    background-image: var(--icn_equip);
-    background-position: -224px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -224px -0px;
 }
 .thunder_staff {
-    background-image: var(--icn_equip);
-    background-position: -256px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -0px -32px;
 }
 .idleon_gem {
     background-image: var(--icn_ore);
@@ -1674,287 +1678,287 @@ span.mini_cont span.mini_icon {
     background-position: -192px -0px;
 }
 .emerald_helm {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: 0px -192px;
 }
 .emerald_chest {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -32px -192px;
 }
 .emerald_legs {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -64px -192px;
 }
 .emerald_boots {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -96px -192px;
 }
 .emerald_sword {
-    background-image: var(--icn_equip);
-    background-position: -224px -192px;
-    -webkit-mask-image: var(--icn_equip);
-    -webkit-mask-position: -224px -192px;
-    mask-image: var(--icn_equip);
-    mask-position: -224px -192px;
+    background-image: var(--icn_weapontier);
+    background-position: -0px -192px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -0px -192px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -0px -192px;
 }
 .emerald_shield, .emerald_sheild {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -192px;
 }
 .emerald_pendant {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -192px;
 }
 .emerald_shovel {
-    background-image: var(--icn_equip);
-    background-position: -256px -192px;
+    background-image: var(--icn_weapontier);
+    background-position: -32px -192px;
 }
 .emerald_pickaxe {
-    background-image: var(--icn_equip);
-    background-position: -288px -192px;
+    background-image: var(--icn_weapontier);
+    background-position: -64px -192px;
 }
 .emerald_axe {
-    background-image: var(--icn_equip);
-    background-position: -320px -192px;
+    background-image: var(--icn_weapontier);
+    background-position: -96px -192px;
 }
 .emerald_hoe {
-    background-image: var(--icn_equip);
-    background-position: -352px -192px;
+    background-image: var(--icn_weapontier);
+    background-position: -128px -192px;
 }
 .emerald_hammer {
-    background-image: var(--icn_equip);
-    background-position: -384px -192px;
+    background-image: var(--icn_weapontier);
+    background-position: -160px -192px;
 }
 .emerald_trowel {
-    background-image: var(--icn_equip);
-    background-position: -416px -192px;
+    background-image: var(--icn_weapontier);
+    background-position: -192px -192px;
 }
 .emerald_fish_rod {
-    background-image: var(--icn_equip);
-    background-position: -448px -192px;
+    background-image: var(--icn_weapontier);
+    background-position: -224px -192px;
 }
 .emerald_staff {
-    background-image: var(--icn_equip);
-    background-position: -480px -192px;
+    background-image: var(--icn_weapontier);
+    background-position: -256px -192px;
 }
 .emerald_band {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -192px;
 }
 .hardite_helm {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: 0px -224px;
 }
 .hardite_chest {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -32px -224px;
 }
 .hardite_legs {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -64px -224px;
 }
 .hardite_boots {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -96px -224px;
 }
 .hardite_sword {
-    background-image: var(--icn_equip);
-    background-position: -224px -224px;
-    -webkit-mask-image: var(--icn_equip);
-    -webkit-mask-position: -224px -224px;
-    mask-image: var(--icn_equip);
-    mask-position: -224px -224px;
+    background-image: var(--icn_weapontier);
+    background-position: -0px -224px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -0px -224px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -0px -224px;
 }
 .hardite_shield, .hardite_sheild {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -224px;
 }
 .hardite_pendant {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -224px;
 }
 .hardite_shovel {
-    background-image: var(--icn_equip);
-    background-position: -256px -224px;
+    background-image: var(--icn_weapontier);
+    background-position: -32px -224px;
 }
 .hardite_pickaxe {
-    background-image: var(--icn_equip);
-    background-position: -288px -224px;
+    background-image: var(--icn_weapontier);
+    background-position: -64px -224px;
 }
 .hardite_axe {
-    background-image: var(--icn_equip);
-    background-position: -320px -224px;
+    background-image: var(--icn_weapontier);
+    background-position: -96px -224px;
 }
 .hardite_hoe {
-    background-image: var(--icn_equip);
-    background-position: -352px -224px;
+    background-image: var(--icn_weapontier);
+    background-position: -128px -224px;
 }
 .hardite_hammer {
-    background-image: var(--icn_equip);
-    background-position: -384px -224px;
+    background-image: var(--icn_weapontier);
+    background-position: -160px -224px;
 }
 .hardite_trowel {
-    background-image: var(--icn_equip);
-    background-position: -416px -224px;
+    background-image: var(--icn_weapontier);
+    background-position: -192px -224px;
 }
 .hardite_fish_rod {
-    background-image: var(--icn_equip);
-    background-position: -448px -224px;
+    background-image: var(--icn_weapontier);
+    background-position: -224px -224px;
 }
 .hardite_staff {
-    background-image: var(--icn_equip);
-    background-position: -480px -224px;
+    background-image: var(--icn_weapontier);
+    background-position: -256px -224px;
 }
 .hardite_band {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -224px;
 }
 .ruby-sapphire_helm {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: 0px -288px;
 }
 .ruby-sapphire_chest {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -32px -288px;
 }
 .ruby-sapphire_legs {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -64px -288px;
 }
 .ruby-sapphire_boots {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -96px -288px;
 }
 .ruby-sapphire_sword {
-    background-image: var(--icn_equip);
-    background-position: -224px -288px;
-    -webkit-mask-image: var(--icn_equip);
-    -webkit-mask-position: -224px -288px;
-    mask-image: var(--icn_equip);
-    mask-position: -224px -288px;
+    background-image: var(--icn_weapontier);
+    background-position: -0px -288px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -0px -288px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -0px -288px;
 }
 .ruby-sapphire_shield, .ruby-sapphire_sheild {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -288px;
 }
 .ruby-sapphire_pendant {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -288px;
 }
 .ruby-sapphire_shovel {
-    background-image: var(--icn_equip);
-    background-position: -256px -288px;
+    background-image: var(--icn_weapontier);
+    background-position: -32px -288px;
 }
 .ruby-sapphire_pickaxe {
-    background-image: var(--icn_equip);
-    background-position: -288px -288px;
+    background-image: var(--icn_weapontier);
+    background-position: -64px -288px;
 }
 .ruby-sapphire_axe {
-    background-image: var(--icn_equip);
-    background-position: -320px -288px;
+    background-image: var(--icn_weapontier);
+    background-position: -96px -288px;
 }
 .ruby-sapphire_hoe {
-    background-image: var(--icn_equip);
-    background-position: -352px -288px;
+    background-image: var(--icn_weapontier);
+    background-position: -128px -288px;
 }
 .ruby-sapphire_hammer {
-    background-image: var(--icn_equip);
-    background-position: -384px -288px;
+    background-image: var(--icn_weapontier);
+    background-position: -160px -288px;
 }
 .ruby-sapphire_trowel {
-    background-image: var(--icn_equip);
-    background-position: -416px -288px;
+    background-image: var(--icn_weapontier);
+    background-position: -196px -288px;
 }
 .ruby-sapphire_fish_rod {
-    background-image: var(--icn_equip);
-    background-position: -448px -288px;
+    background-image: var(--icn_weapontier);
+    background-position: -224px -288px;
 }
 .ruby-sapphire_staff {
-    background-image: var(--icn_equip);
-    background-position: -480px -288px;
+    background-image: var(--icn_weapontier);
+    background-position: -256px -288px;
 }
 .ruby-sapphire_band {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -128px;
 }
 .depleted-electrum_helm {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: 0px -320px;
 }
 .depleted-electrum_chest {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -32px -320px;
 }
 .depleted-electrum_legs {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -64px -320px;
 }
 .depleted-electrum_boots {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -96px -320px;
 }
 .depleted-electrum_sword {
-    background-image: var(--icn_equip);
-    background-position: -224px -320px;
+    background-image: var(--icn_weapontier);
+    background-position: -0px -320px;
 }
 .depleted-electrum_shield, .depleted-electrum_sheild {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -192px -320px;
 }
 .depleted-electrum_pendant {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -320px;
 }
 .depleted-electrum_shovel {
-    background-image: var(--icn_equip);
-    background-position: -256px -320px;
+    background-image: var(--icn_weapontier);
+    background-position: -32px -320px;
 }
 .depleted-electrum_pickaxe {
-    background-image: var(--icn_equip);
-    background-position: -288px -320px;
+    background-image: var(--icn_weapontier);
+    background-position: -64px -320px;
 }
 .depleted-electrum_axe {
-    background-image: var(--icn_equip);
-    background-position: -320px -320px;
+    background-image: var(--icn_weapontier);
+    background-position: -96px -320px;
 }
 .depleted-electrum_hoe {
-    background-image: var(--icn_equip);
-    background-position: -352px -320px;
+    background-image: var(--icn_weapontier);
+    background-position: -128px -320px;
 }
 .depleted-electrum_hammer {
-    background-image: var(--icn_equip);
-    background-position: -384px -320px;
+    background-image: var(--icn_weapontier);
+    background-position: -160px -320px;
 }
 .depleted-electrum_trowel {
-    background-image: var(--icn_equip);
-    background-position: -416px -320px;
+    background-image: var(--icn_weapontier);
+    background-position: -192px -320px;
 }
 .depleted-electrum_fish_rod {
-    background-image: var(--icn_equip);
-    background-position: -448px -320px;
+    background-image: var(--icn_weapontier);
+    background-position: -224px -320px;
 }
 .depleted-electrum_staff {
-    background-image: var(--icn_equip);
-    background-position: -480px -320px;
+    background-image: var(--icn_weapontier);
+    background-position: -256px -320px;
 }
 .depleted-electrum_band {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -160px -320px;
 }
 .leather_helm {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -0px -32px;
 }
 .leather_chest {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -32px -32px;
 }
 .leather_legs {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -64px -32px;
 }
 .leather_boots {
-    background-image: var(--icn_equip);
+    background-image: var(--icn_armortier);
     background-position: -96px -32px;
 }
 .chocolate_chips {
@@ -2014,8 +2018,8 @@ span.mini_cont span.mini_icon {
     background-position: -32px -32px;
 }
 .shuriken {
-    background-image: var(--icn_equip);
-    background-position: -480px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -96px -32px;
 }
 .poisonberry {
     background-image: var(--icn_crop);
@@ -2134,8 +2138,8 @@ span.mini_cont span.mini_icon {
     background-position: -32px -128px;
 }
 .blocking_shield {
-    background-image: var(--icn_equip);
-    background-position: -512px -416px;
+    background-image: var(--icn_armormisc);
+    background-position: -128px -0px;
 }
 .coconut {
     background-image: var(--icn_crop);
@@ -2154,12 +2158,12 @@ span.mini_cont span.mini_icon {
     background-position: -160px -128px;
 }
 .poison_arrow {
-    background-image: var(--icn_equip);
-    background-position: -544px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -128px -32px;
 }
 .fire_arrow {
-    background-image: var(--icn_equip);
-    background-position: -576px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -160px -32px;
 }
 .splash_bottle {
     background-image: var(--icn_alch);
@@ -2544,11 +2548,11 @@ span.mini_cont span.mini_icon {
 }
 .dark_green_dye {
     background-image: var(--icn_color);
-    background-position: -320px -0px;
+    background-position: -64px -32px;
 }
 .light_blue_dye {
     background-image: var(--icn_color);
-    background-position: -384px -0px;
+    background-position: -128px -32px;
 }
 .raw_patty {
     background-image: var(--icn_meat);
@@ -2615,16 +2619,16 @@ span.mini_cont span.mini_icon {
     background-position: -224px -96px;
 }
 .calculator {
-    background-image: var(--icn_equip);
-    background-position: -192px -448px;
+    background-image: var(--icn_armormisc);
+    background-position: -32px -32px;
 }
 .mine {
     background-image: var(--icn_misc);
     background-position: -160px -192px;
 }
 .dust_pouch {
-    background-image: var(--icn_equip);
-    background-position: -160px -448px;
+    background-image: var(--icn_armormisc);
+    background-position: -0px -32px;
 }
 .lemonade {
     background-image: var(--icn_food);
@@ -2639,16 +2643,16 @@ span.mini_cont span.mini_icon {
     background-position: -0px -224px;
 }
 .crown {
-    background-image: var(--icn_equip);
-    background-position: -608px -416px;
+    background-image: var(--icn_armormisc);
+    background-position: -160px -0px;
 }
 .ruler {
-    background-image: var(--icn_equip);
-    background-position: -640px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -192px -32px;
 }
 .quiver {
-    background-image: var(--icn_equip);
-    background-position: -672px -416px;
+    background-image: var(--icn_armormisc);
+    background-position: -192px -0px;
 }
 .cake_batter {
     background-image: var(--icn_decor);
@@ -2759,16 +2763,16 @@ span.mini_cont span.mini_icon {
     background-position: -0px -0px;
 }
 .mop {
-    background-image: var(--icn_equip);
-    background-position: -704px -416px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -224px -32px;
 }
 .mop_wet {
-    background-image: var(--icn_equip);
-    background-position: -0px -448px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -0px -64px;
 }
 .shears {
-    background-image: var(--icn_equip);
-    background-position: -32px -448px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -32px -64px;
 }
 .fire_charge {
     background-image: var(--icn_misc);
@@ -2783,8 +2787,8 @@ span.mini_cont span.mini_icon {
     background-position: -96px -224px;
 }
 .slingshot {
-    background-image: var(--icn_equip);
-    background-position: -288px -448px;
+    background-image: var(--icn_weaponmisc);
+    background-position: -160px -64px;
 }
 .no_bg {
     background-image: none;
@@ -2872,6 +2876,50 @@ span.mini_cont span.mini_icon {
 .fruit_candy_bag {
     background-image:var(--icn_candy);
     background-position: -0px -96px;
+}
+.stone_chest {
+    background-image: var(--icn_block);
+    background-position: -32px -96px;
+}
+.bullet {
+    background-image: var(--icn_weaponmisc);
+    background-position: -224px -64px;
+}
+.pencil {
+    background-image: var(--icn_misc);
+    background-position: -128px -32px;
+}
+.sticker_clover {
+    background-image: var(--icn_sticker);
+    background-position: -128px -128px;
+}
+.sticker_clover_rare {
+    background-image: var(--icn_sticker);
+    background-position: -160px -128px;
+}
+.sticker_chevron {
+    background-image: var(--icn_sticker);
+    background-position: -192px -128px;
+}
+.sticker_chevron_rare {
+    background-image: var(--icn_sticker);
+    background-position: -224px -128px;
+}
+.dagger {
+    background-image: var(--icn_weaponmisc);
+    background-position: -192px -64px;
+}
+.glass_table {
+    background-image: var(--icn_decor);
+    background-position: -224px -0px;
+}
+.beetroot_soup {
+    background-image: var(--icn_food);
+    background-position: -160px -0px;
+}
+.beetroot_soup_half {
+    background-image: var(--icn_food);
+    background-position: -192px -0px;
 }
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
@@ -3718,6 +3766,10 @@ span.cr_df_flight {
     background-image: var(--icn_info);
     background-position: -192px -16px;
 }
+.fsnap {
+    background-image: var(--icn_info);
+    background-position: -160px -32px;
+}
 .sun, .sunny {
     background-image: var(--icn_info);
     background-position: -224px 0px;
@@ -3918,4 +3970,60 @@ span.cr_df_flight {
     50% {background-position-y: 16px;}
     75% {background-position-y: 24px;}
     100% {background-position-y: 32px;}
+}
+
+/* tints */
+.tint_white, .tint_light_gray, .tint_gray, .tint_black,
+.tint_pink, .tint_red, .tint_orange, .tint_brown,
+.tint_yellow, .tint_green, .tint_dark_green, .tint_cyan,
+.tint_light_blue, .tint_blue, .tint_purple, .tint_magenta {
+    background-blend-mode: multiply;
+}
+.tint_white {
+    background-color: #ffffff;
+}
+.tint_light_gray {
+    background-color: #d9d9d9;
+}
+.tint_gray {
+    background-color: #b3b3b3;
+}
+.tint_black {
+    background-color: #333333;
+}
+.tint_pink {
+    background-color: #ff9999;
+}
+.tint_red {
+    background-color: #ff0000;
+}
+.tint_orange {
+    background-color: #ff8000;
+}
+.tint_brown {
+    background-color: #994c00;
+}
+.tint_yellow {
+    background-color: #ffff00;
+}
+.tint_green {
+    background-color: #00ff00;
+}
+.tint_dark_green {
+    background-color: #009900;
+}
+.tint_cyan {
+    background-color: #00ffff;
+}
+.tint_light_blue {
+    background-color: #9999ff;
+}
+.tint_blue {
+    background-color: #0000ff;
+}
+.tint_purple {
+    background-color: #8000ff;
+}
+.tint_magenta {
+    background-color: #ff00ff;
 }

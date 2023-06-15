@@ -109,6 +109,7 @@
     "category.dark_type.name": "<span class='dark2'>Dark</span>",
     "category.ammo.name": "Ammo",
     "category.gem.name": "Gem",
+    "category.electrum.name": "Electrum",
 
     "crop.wheat.name": "Wheat",
     "crop.apple.name": "Apple",
@@ -2132,6 +2133,7 @@
     "attributes.on.placed": "When placed:",
     "attributes.on.a_plant": "When used on a plant:",
     "attributes.on.fs2": "In FS2:",
+    "attributes.on.cast": "When cast:",
 
     "attributes.plus.ind_attack": "+{n1} Indirect Attack",
     "attributes.plus.dir_attack": "+{n1} Direct Defense",
@@ -2272,6 +2274,12 @@
     "attributes.misc.put_stickers": "Put stickers in it",
     "attributes.misc.put_in_book": "Put it in your Sticker Book",
     "attributes.misc.read_it": "Read it",
+    
+    "attributes.elec.capacity": "Contains {eu_stored}/{eu_cap} EU",
+    "attributes.elec.input": "Maximum Input: {eu_in} EU/t",
+    "attributes.elec.output": "Maximum Output: {eu_out} EU/t",
+    "attributes.elec.throughput": "Maximum Throughput: {eu_through} EU/t",
+    "attributes.elec.discharge": "Discharge: {eu_discharge} EU/t",
 
     "info.header.formatting": "Formatting",
     "info.header.various_gains": "Various Gains",
@@ -2290,6 +2298,7 @@
     "info.paragraph.gains_info.1": "(Values above 20 can only be obtained by having a sufficent level and/or bonus in the skill.)",
     "info.paragraph.level_info.1": "This table includes various information about levels themselves.",
     "info.paragraph.skill_bonuses.1": "Reaching levels 5 and 10 of a skill will grant bonuses based on the skill.",
+    "info.paragraph.skill_bonuses.2": "Some skills also grant bonuses at other levels.",
     "info.paragraph.weather.1": "Occasionally, the weather will change, resulting in various effects.",
     "info.paragraph.weather.2": "Things that rely on the sun will have reduced effectiveness when it's not Day.",
     "info.paragraph.weather.3": "This does not apply to plants, and both Night and Partly Cloudy reduce effectiveness less than other weather types.",
@@ -2303,5 +2312,7 @@
     "info.fishing.good": "Good Fish",
     "info.fishing.great": "Great Fish",
     "info.fishing.excellent": "Excellent Fish",
-    "info.fishing.treasure": "Treasure"
+    "info.fishing.treasure": "Treasure",
+
+    "info.skill_bonus.all.5": "Critical Misses no longer destroy or damage what's being worked on."
 }

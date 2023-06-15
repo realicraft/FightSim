@@ -1,19 +1,19 @@
 :root {
     --icn_equip: url("../Icons/Exported/equip_sheet.png");
     --icn_info: url("../Icons/Exported/info_sheet.png");
-    --icn_mini: url("../Icons/Exported/mini_sheet.png");
+    --icn_mini: url("../Icons/Exported/mini_sheet.png"); /* unchanged */
     --icn_icons: url("../Icons/Resprite/icons_sheet.png");
-    --icn_ph: url("../Icons/Exported/placeholder_sheet.png"); /* unchanged */
+    --icn_ph: url("../Icons/Resprite/placeholder_sheet.png");
     --icn_meat: url("../Icons/Exported/meat_sheet.png");
-    --icn_misc: url("../Icons/Exported/misc_sheet.png");
-    --icn_crop: url("../Icons/Exported/crop_sheet.png");
+    --icn_misc: url("../Icons/Resprite/misc_sheet.png");
+    --icn_crop: url("../Icons/Resprite/crop_sheet.png");
     --icn_ore: url("../Icons/Resprite/ore_sheet.png");
-    --icn_wood: url("../Icons/Exported/wood_sheet.png");
+    --icn_wood: url("../Icons/Resprite/wood_sheet.png");
     --icn_block: url("../Icons/Resprite/block_sheet.png");
     --icn_mob: url("../Icons/Exported/mob_sheet.png");
     --icn_decor: url("../Icons/Exported/decor_sheet.png");
     --icn_plant: url("../Icons/Exported/plant_sheet.png");
-    --icn_color: url("../Icons/Exported/color_sheet.png");
+    --icn_color: url("../Icons/Exported/colorable_sheet.png");
     --icn_alch: url("../Icons/Resprite/alchemy_sheet.png");
     --icn_food: url("../Icons/Exported/food_sheet.png");
     --icn_fish: url("../Icons/Exported/fish_sheet.png");
@@ -21,12 +21,16 @@
     --icn_sticker: url("../Icons/Exported/sticker_sheet.png");
     --icn_critter: url("../Icons/Exported/critter_sheet.png");
     --icn_tags: url("../Icons/Exported/tags_sheet.png");
-    --icn_cake: url("../Icons/Exported/cake_sheet.png"); /* unchanged */
+    --icn_cake: url("../Icons/Exported/cake_sheet.png");
     --icn_c_desc: url("../Icons/Exported/critter_desc_sheet.png");
     --icn_ally: url("../Icons/Exported/ally_sheet.png");
     --icn_scroll: url("../Icons/Exported/scroll_sheet.png"); /* unchanged */
     --icn_egg: url("../Icons/Exported/egg_sheet.png");
     --icn_file: url("../Icons/Exported/file_sheet.png"); /* unchanged */
+    --icn_armortier: url("../Icons/Exported/armor_tiered_sheet.png");
+    --icn_armormisc: url("../Icons/Exported/armor_misc_sheet.png");
+    --icn_weapontier: url("../Icons/Exported/weapons_tiered_sheet.png");
+    --icn_weaponmisc: url("../Icons/Exported/weapons_misc_sheet.png");
     --icn_banana: url("../3/banana.gif");
 
     --icn_bg: url("../3/Items/Exported/equip_back.png");

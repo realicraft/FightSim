@@ -1,5 +1,6 @@
 var getPlus = function(input) {
     if (input[1] == 0) {return input[0].toString()}
+    else if (input[1] < 0) {return input[0].toString() + "-" + Math.abs(input[1]).toString()}
     else {return input[0].toString() + "+" + input[1].toString()}
 }
 

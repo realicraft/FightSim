@@ -7,9 +7,9 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [[quest lang_id, number], [claimed], reward, turn]
-    [["be_at_turret_3", 1], [], "3 Prizes", "78"],
-    [["make_potion", 1], [], "1 Bottle of Honey", "78"],
-    [["consume_item", 1], [], "3 Misc EXP", "78"],
+    [["go_fish", 1], [], "150% Fishing", "79"],
+    [["fight_player", 1], [], "4 Misc EXP", "79"],
+    [["damage_at_once", 10], [], "5 HP, 3 Misc EXP", "79"],
     [["make_carrot_cake", 1], [], "250% Cooking", "76~79"],
     [["discover_mystery_skill", 1], [], "20 Misc EXP", "76~79"],
     [["kill_something", 3], [], "+0.2 Direct Attack", "76~79"], //gilbert 1
@@ -82,13 +82,16 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["Savvy", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Bobby", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Tony", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["Landon", "2 Use/Equips", "2 Lucky Blocks", "0/2"],
+            ["Landon", "2 Use/Equips", "2 Lucky Blocks", "1/2"],
         ], "75 Uses or Equips (1/75)"
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Be at Turret 3 by the end of the Turn.", ["Byron", "Gilbert", "Landon"], "3 Prizes", "78"],
+        ["Brew a potion.", [], "1 Bottle of Honey", "78"],
+        ["Consume an item.", [], "3 Misc EXP", "78"],
         ["Deal damage to a player.", [], "3 Misc EXP", "77"],
         ["Mine 2 Electrum Ore.", [], "175% Mining", "77"],
         ["Plant a crop or flower", [], "2 Fertilizer", "77"],

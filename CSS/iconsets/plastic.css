@@ -13,7 +13,7 @@
     --icn_mob: url("../Icons/Plastic/mob_sheet.png");
     --icn_decor: url("../Icons/Plastic/decor_sheet.png");
     --icn_plant: url("../Icons/Plastic/plant_sheet.png");
-    --icn_color: url("../Icons/Plastic/color_sheet.png");
+    --icn_color: url("../Icons/Plastic/colorable_sheet.png");
     --icn_alch: url("../Icons/Plastic/alchemy_sheet.png");
     --icn_food: url("../Icons/Plastic/food_sheet.png");
     --icn_fish: url("../Icons/Plastic/fish_sheet.png");
@@ -27,6 +27,10 @@
     --icn_scroll: url("../Icons/Plastic/scroll_sheet.png");
     --icn_egg: url("../Icons/Plastic/egg_sheet.png");
     --icn_file: url("../Icons/Plastic/file_sheet.png");
+    --icn_armortier: url("../Icons/Plastic/armor_tiered_sheet.png");
+    --icn_armormisc: url("../Icons/Plastic/armor_misc_sheet.png");
+    --icn_weapontier: url("../Icons/Plastic/weapons_tiered_sheet.png");
+    --icn_weaponmisc: url("../Icons/Plastic/weapons_misc_sheet.png");
     --icn_banana: url("../3/banana.gif");
 
     --icn_bg: url("../3/Items/Exported/equip_back.png");

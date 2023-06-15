@@ -1,0 +1,98 @@
+Changelog for Turn 79
+
+
+Items
+- the slingshot is now ranged
+- reordered the categories of a few items
+- fixed the lava bottle having the unique category
+- added elemental categories to a few items (which i thought i already did?)
+- reworded the attributes of raw bacon to match cooked bacon
+- added a stone chest
+- added a metal triangle
+- added beetroot soup
+- added 15 colors of plain shirt
+- added an icon for bullet
+- added an icon for a dagger
+- added an icon for an led
+- added an icon for a glass table
+- added icons for silicon, graphite, and a graphite nugget
+- added icons for the planned stickers
+- added small icons for all skills with icons
+- added an icon for a spin-off i'm making (for school)
+- adjusted the tennis ball icon slightly
+- removed an unused duplicate of the dust pouch icon
+- added an electrum category
+- implemented a tinting system
+
+Future Items
+- planned a bunch of items for the revamp
+- none of these items are in the game yet
+- gun
+  - added bullet
+- items for skills
+  - added a crafting table and brewing stand
+  - added silt
+- stickers
+  - added a clover sticker (luck), chevron sticker (speed), 8 stickers to cover the skills that don't yet have stickers, and raised variants
+- upgrades
+  - added an upgrade for speed
+  - added upgrades for all the other rpg stats
+- electrum revamp
+  - added graphite, with nugget
+  - added silicon, without nugget
+  - added a battery
+  - electrum nugget now has stats
+- other stuff
+  - added a pencil
+  - added a glass table
+  - added cheese
+
+Crafting
+- added a recipe for the stone chest
+- cake batter now requires two bowls
+- added a recipe for the metal triangle
+- added a recipe for beetroot soup
+
+Structures
+- removed halloween doorbells (which i was supposed to do last turn)
+- fixed a layering issue on structure stat displays
+
+Skills
+- adjusted the header for the skill level bonus table, to prepare for the table being redesigned
+
+Phone System
+- added a few new phone numbers
+
+Helpers
+- the recipe generator now handles fuel better
+
+Translations
+- added a few new entries to en_us
+
+Themes
+- added a light theme
+- split the element colors into two sets, to allow for better contrast
+
+Icon Sets
+- resprite: started work on crop_sheet (mainly updating golden crops so far; new apple; adjusted carrots)
+- resprite: started work on wood_sheet (oak/birch planks; items made from those planks, along with stairs, slabs, doors, and buttons; also plank textures for minecraft; resized sheet)
+- resprite: started work on misc_sheet (d6, stick, water/lava bucket)
+- resprite: completed placeholder_sheet for now
+- resprite: continued working on icons_sheet (ko'd, attack (up/down), accuracy, kills, mining, chopping, crafting)
+- resprite: continued working on block_sheet (iron wall, cobblestones)
+- resprite: continued working on ore_sheet (sapphire, old diamond)
+- resprite: made a new sheet for icons from equip_sheet (helmet, chestplate, leggings, boots, sword, pickaxe, axe, shovel, all in gold/iron/copper/diamond/emerald, armor also in chain, tools also in wood/stone)
+- cga: added colorable_sheet and the four equipment sheets, updated candy_sheet
+- plastic: added colorable_sheet and the four equipment sheets
+
+Internal
+- adjusted eggList.js slightly to prepare for the easter event next turn
+- resized and rearranged classic:wood_sheet.png for parity with the resprite version
+
+Misc
+- the stats page now supports negative direct attack/defense values
+- attack/defense from player level is now considered permanent
+- made a text file for plans on a revamp to the electrum system
+- updated sitemap
+- depreciated color_sheet in favor of colorable_sheet
+- split equip_sheet into armor_tiered_sheet, armor_misc_sheet, weapons_tiered_sheet, and weapons_misc_sheet

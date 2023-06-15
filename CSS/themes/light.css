@@ -1,0 +1,115 @@
+:root {
+    --top_image: url(../3/CurrentLogo/logo.png);
+    --background: #dfdfdf;
+    --text: #000000;
+
+    --header_bg: #ffffff;
+    --header_border: #2f2f2f;
+    --header_hover: #bfbfbf;
+
+    --timebox_bg: #cfcfcf;
+    --timebox_border: #3f3f3f;
+
+    --struct_bg: #cfcfcf;
+    --struct_bg2: #efefef;
+    --struct_border: #1f1f1f;
+    --struct_header_color: #ffffff;
+    --struct_col1: #cfcfcf;
+    --struct_col2: #bfbfbf;
+
+    --table_bg: #cfcfcf;
+    --table_border: #1f1f1f;
+    --table_dbg: #afafaf;
+
+    --inv_table_bg: #afafaf;
+    --inv_table_border: #6f6f6f;
+    --inv_table_dbg: #3f3f3f;
+
+    --summon_bg: #efefef;
+    --summon_border: var(--struct_border);
+
+    --stack_color: #ffffff;
+    --stack_border: #000000;
+
+    --sstack_color: #000000;
+    --sstack_border: #ffffff;
+    --sstack_color_inv: var(--sstack_border);
+    --sstack_border_inv: var(--sstack_color);
+    --sstack_color_low: #3f0000;
+    --sstack_border_low: #ffdfdf;
+    --sstack_color_out: #6f0f0f;
+    --sstack_border_out: #ffbfbf;
+
+    --health_over: #007f00;
+    --health_low: #7f0000;
+
+    --level_outer: #ffffff;
+    --level_bg: #2f2f2f;
+    --level_inner: #ffffff;
+
+    --tooltip_bg: #462247;
+    --tooltip_border: #4d248f;
+    --tooltip_text: #ffffff;
+    --tooltip_dark: #8f8f8f;
+    --tooltip_bonus: #6f6fff;
+
+    --rarity_null: #00ffff;
+    --rarity_common: #29ffff;
+    --rarity_uncommon: #2994ff;
+    --rarity_rare: #29ff94;
+    --rarity_unique: #ff9429;
+    --rarity_moss: #57b846;
+    --rarity_unob: #7f7f7f;
+
+    --idesc_dragon: #ffffcc;
+    --idesc_moss: var(--rarity_moss);
+
+    --rarity_pbad_fallback: rgb(175,111,15);
+    --rarity_pbad: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(175,111,15,1) 60%, rgba(127,15,15,1) 90%);
+    --rarity_pgood_fallback: rgb(231,223,127);
+    --rarity_pgood: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(231,223,127,1) 50%, rgba(239,239,239,1) 80%);
+
+    --info_bg: #ffffffbf;
+    --info_border: #ffffffdf;
+    --info_hover: #3f3fff;
+    --info_name: #3f3f3f;
+    --info_text: #000000;
+
+    --settings_desc_color: #3f3f3f;
+
+    --toggle_bg: #dfdfdf;
+    --toggle_border: #2f2f2f;
+    --toggle_checked_bg: #2fff2f;
+    --toggle_checked_border: #1f7f1f;
+    --toggle_unchecked_bg: #ff2f2f;
+    --toggle_unchecked_border: #7f1f1f;
+    --toggle_highlight: #3f4fdf;
+
+    --ele_normal: #dfdfdf;
+    --ele_fire: #df0f0f;
+    --ele_water: #2f2fef;
+    --ele_elec: #6f5f0f;
+    --ele_plant: #0fdf0f;
+    --ele_ice: #0fdfdf;
+    --ele_light: #dfdfaf;
+    --ele_dark: #3f4f6f;
+
+    --ele_normal2: #dfdfdf;
+    --ele_fire2: #ff6f3f;
+    --ele_water2: #3f9fff;
+    --ele_elec2: #dfdf0f;
+    --ele_plant2: #0fdf0f;
+    --ele_ice2: #0fdfdf;
+    --ele_light2: #dfdfaf;
+    --ele_dark2: #8f9faf;
+
+    --phone_number: #0f6f0f;
+
+    --cont_border: #0f7f0f;
+    --cont_color: #0f4f0f;
+    --cont_bg1: #afffaf;
+    --cont_bg2: #dfffdf;
+
+    --vote_passed: #005f00;
+    --vote_failed: #7f0000;
+}

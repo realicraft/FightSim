@@ -1,0 +1,14 @@
+notes on the Electrum Unit (EU) system
+
+- if something receives more power than it can handle, it will overheat
+
+- resolution of 0.01 EU
+
+- output only: produces power using a non-power input
+- input only: uses all power given to it
+- output and input: uses power and something else to make more power
+- throughput only: sends all input power back out; may be conditional
+- input and throughput: uses some power and sends the excess back out
+- charge and input: charges using input
+- charge and output: discharges to output
+- charge, input, and output: above two combined

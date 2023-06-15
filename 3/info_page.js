@@ -37,18 +37,13 @@ var fishTable = function() {
     tableEl.innerHTML = fishTableCont;
 }
 
-waitForLang(fishTable);
+var levelBonusTable = function() {
+    var headerEl = document.getElementById("skill_level_header");
+    var textEl = document.getElementById("skill_level_text");
+    var tableEl = document.getElementById("skill_level_table");
+    headerEl.innerHTML = getTranslatedString("info.header.skill_bonuses");
+    textEl.innerHTML = getTranslatedString("info.paragraph.skill_bonuses.1") + "<br />" + getTranslatedString("info.paragraph.skill_bonuses.2");
+}
 
-/*
-<table class="fish_pool_table" id="fish_pool_table">
-    <tr><th colspan="6">Junk</th></tr>
-    <tr>
-        <td>Old Boot (184)<br />1/7 (14.3%)</td>
-        <td>Wad of String<br />(186)<br />1/7 (14.3%)</td>
-        <td>Seaweed (392)<br />2/7 (28.6%)</td>
-        <td><span class="info-hover" data-info-title="Used Disposable Phone Count" data-info-desc="The chance of catching a phone goes up the more phones are used (and down the more are caught.) The formula for this is floor(sqrt(phones_used)).<br /><br />The current value is as follows:<br />floor(sqrt(<b>11</b>))<br />floor(<b>3.317</b>)<br /><b>3</b>" id="info-used-phone" onmouseover="info('info-used-phone');" onmouseout="noinfo();">Used Disp. Phone</span><br />(385)<br />3/7 (42.9%)</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr style="background-color: transparent;height: 10px;border: none;"></tr>
-*/
+waitForLang(fishTable);
+waitForLang(levelBonusTable);

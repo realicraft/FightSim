@@ -57,4 +57,5 @@ var categorylist = [ // [name]
     ["category.dark_type.name"], //55
     ["category.ammo.name"], //56
     ["category.gem.name"], //57
+    ["category.electrum.name"], //58
 ]

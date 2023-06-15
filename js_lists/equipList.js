@@ -38,11 +38,11 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Coal", "coal", "It's a piece of coal.", "Mining", "Counts as 4 fuel units", [24,27], 1, 7]], //36
     [["Diamond", "diamond", "It's a diamond. These things are rare!", "Mining", "", [11,24,57], 2, 13]], //37
     [["Decent Hammer", "decent_hammer", "Bonk.", "Crafting", "+1 Direct Attack", [5,23], 1, 4]], //38
-    [["Slingshot", "slingshot", "You shoot things with it.", "Crafting", "+1 Indirect Attack<br />Can be used with ammo to deal more damage", [5], 2, 9]], //39
-    [["Flint & Steel", "flint_and_steel", "Sets things on fire.", "Crafting", "+30% chance to inflict On Fire on hit for 1 turn<br />+1 <span class=\"fire\">Fire</span> damage", [5,20], 1, 7]], //40
+    [["Slingshot", "slingshot", "You shoot things with it.", "Crafting", "+1 Indirect Attack<br />Can be used with ammo to deal more damage", [5,21], 2, 9]], //39
+    [["Flint & Steel", "flint_and_steel", "Sets things on fire.", "Crafting", "+30% chance to inflict On Fire on hit for 1 turn<br />+1 <span class=\"fire\">Fire</span> damage", [5,20,49], 1, 7]], //40
     [["TNT", "tnt", "Explodes after being ignited.", "Unknown", "", [17,47], 2, 0]], //41
-    [["Icicle", "icicle", "It's cold, and kinda pointy.", "Gathering", "+10% chance to inflict Frozen on hit for 1 turn<br />+1 <span class=\"ice\">Ice</span> damage", [5,23], 1, 5]], //42
-    [["Tray of Cookies", "cookie_tray", "A tray filled with cookies.", "Cooking", "Gain 1d4+4 random cookies", [20, 42], 1, 0]], //43
+    [["Icicle", "icicle", "It's cold, and kinda pointy.", "Gathering", "+10% chance to inflict Frozen on hit for 1 turn<br />+1 <span class=\"ice\">Ice</span> damage", [5,23,53], 1, 5]], //42
+    [["Tray of Cookies", "cookie_tray", "A tray filled with cookies.", "Cooking", "Gain 1d4+4 random cookies", [20,42], 1, 0]], //43
     [
         ["Oak Log", "oak_log", "An oak log.", "Chopping", "", [17], 1, 8], //0
         ["Birch Log", "birch_log", "A birch log.", "Chopping", "", [17], 1, 8], //1
@@ -91,7 +91,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Gold Bar", "gold_bar", "A bar of solid gold. Actually kind of soft for a metal.", "Crafting", "", [11,25], 1, 7]], //71
     [["Iron Bar", "iron_bar", "A bar of solid iron. It's pretty sturdy.", "Crafting", "", [11,25], 1, 9]], //72
     [["Copper Bar", "copper_bar", "A bar of solid copper. Try to avoid getting it oxidized.", "Crafting", "", [11,25], 1, 8]], //73
-    [["Water", "water_drop", "One (1) level of water. Good for 0.5 turns of plant growth.", "Gathering", "", [11], 1, 0]], //74
+    [["Water", "water_drop", "One (1) level of water. Good for 0.5 turns of plant growth.", "Gathering", "", [11,50], 1, 0]], //74
     [["Emerald", "emerald", "It's an emerald. These things are rare!", "Mining", "", [11,24,57], 2, 13]], //75
     [["Hardite Ore", "hardite_ore", "Some hardite ore. Can be crafted into bars, requiring 3 ore per bar.", "Mining", "", [24], 3, 18]], //76
     [["Hardite Bar", "hardite_bar", "A bar of solid hardite, named after both how hard it is to get, and how hard it is as a material. This stuff can cut diamond!", "Crafting", "", [11,25], 3, 21]], //77
@@ -331,15 +331,15 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Time Candy", "black_candy", "A small piece of candy, wrapped in a black and yellow wrapper. If you have this in your inventory, you'll be allowed three posts in a turn, instead of two!", "Unknown", "Holding this item allows one extra post in a turn (consumed during extra post)", [12,30,31], 3, 0]], //238
     [["Old Candy", "gray_candy", "A small piece of old candy. The color on the wrapper has faded away, so you can't tell what kind of candy this was.", "Old Stocking", "Consume for a reduced version of a different candy's effect", [12,30,31], 1, 0]], //239
     [["Old Christmas Stocking", "old_stocking", "An old stocking for Christmas. It's too late to hang it up, but there might still be something inside...", "Post-Christmas", "Look inside", [12,20], 3, 0]], //240
-    [["LTT Hoodie", "ltt_hoodie", "Uh... thanks, Incendiary?", "Unknown", "+0.7 Indirect Defense<br />+2 Intelligence", [12,2], 2, 0]], //241
+    [["LTT Hoodie", "ltt_hoodie", "Uh... thanks, Incendiary?", "Unknown", "+0.7 Indirect Defense<br />+2 Intelligence", [2,12], 2, 0]], //241
     [["Furnace", "furnace", "A furnace. Having this in your inventory will passively reduce fuel requirements in recipies by 1.", "Crafting", "Reduces recipe fuel requirements by one", [17], 1, 7]], //242
     [["Box", "box", "A box. It has the following items in it:", "Unknown", "You can take items out of it<br />Disappears when empty", [20], 1, 0]], //243
-    [["Hammer", "hammer", "A hammer capable of messing with Structures.", "Unknown", "Use it to mess with a Structure somehow (not consumed)<br />Equip for +0.7 Direct Attack and +4 damage vs. Structures", [29,6], 4, 0]], //244
-    [["bobm", "bobm", "it goes boom", "Unknown", "Use it near someone to Die and deal 1d40+40 to everyone in the nearby area (including you)", [29,20,23,47], 4, 0]], //245
-    [["Deployable Cannon", "cannon", "A cannon, ready for deploying.", "Unknown", "Deploy it to create a Cannon", [29,20], 4, 0]], //246
-    [["Sponge", "sponge", "A sponge. It can absorb water, and the abrasive side is kinda scratchy.", "Unknown", "Use it to remove water from something (not consumed)<br />Equip for +0.7 Direct Attack and 15% chance to inflict Soaked (1 turn)<br />+1 <span class=\"water\">Water</span> damage", [29,6], 4, 0]], //247
-    [["Esolang", "esolang", "An \"esoteric language\". You're not sure what it does, or how to use it, but that's the fun part!<br />Skill level: ", "Unknown", "Does something random on use<br />Usually fails, chance of failure decreases with higher Skill level<br />Using it increases Skill level", [29,20], 4, 0]], //248
-    [["Santa Hat", "santa_hat", "A traditional(-ish) Christmas hat.", "Christmas", "+1 Indirect Defense<br />+1 Indirect Attack<br />+5% XP from Monsters", [12,1], 1, 6]], //249
+    [["Hammer", "hammer", "A hammer capable of messing with Structures.", "Unknown", "Use it to mess with a Structure somehow (not consumed)<br />Equip for +0.7 Direct Attack and +4 damage vs. Structures", [6,29], 4, 0]], //244
+    [["bobm", "bobm", "it goes boom", "Unknown", "Use it near someone to Die and deal 1d40+40 to everyone in the nearby area (including you)", [20,23,29,47], 4, 0]], //245
+    [["Deployable Cannon", "cannon", "A cannon, ready for deploying.", "Unknown", "Deploy it to create a Cannon", [20,29], 4, 0]], //246
+    [["Sponge", "sponge", "A sponge. It can absorb water, and the abrasive side is kinda scratchy.", "Unknown", "Use it to remove water from something (not consumed)<br />Equip for +0.7 Direct Attack and 15% chance to inflict Soaked (1 turn)<br />+1 <span class=\"water\">Water</span> damage", [6,29], 4, 0]], //247
+    [["Esolang", "esolang", "An \"esoteric language\". You're not sure what it does, or how to use it, but that's the fun part!<br />Skill level: ", "Unknown", "Does something random on use<br />Usually fails, chance of failure decreases with higher Skill level<br />Using it increases Skill level", [20,29], 4, 0]], //248
+    [["Santa Hat", "santa_hat", "A traditional(-ish) Christmas hat.", "Christmas", "+1 Indirect Defense<br />+1 Indirect Attack<br />+5% XP from Monsters", [1,12], 1, 6]], //249
     [["Chain Helmet", "chain_helm", "A helmet made of chainmail.", "Crafting", "+1 Indirect Defense", [1], 1, 11]], //250
     [["Chain Chestplate", "chain_chest", "A chestplate made of chainmail.", "Crafting", "+1 Direct Defense<br />+1 Indirect Defense", [2], 1, 12]], //251
     [["Chain Leggings", "chain_legs", "A pair of leggings made of chainmail.", "Crafting", "+1 Direct Defense", [3], 1, 11]], //252
@@ -400,29 +400,29 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Lava Bucket", "lava_bucket", "A bucket filled with lava. Somehow, it's not melting.", "Bucket", "", [20], 2, 20]], //307
     [["Egg", "egg", "An egg.", "Mobs", "", [11,21], 1, 2]], //308
     [["Sticker Book", "sticker_book", "A book for you to put stickers in.", "Free", "Put stickers in it", [33], 4, 0]], //309
-    [["Sticker Page", "sticker_page", "An extra page for your sticker book. Fits 4 stickers.", "Crafting", "Put it in your Sticker Book", [33, 20], 3, 0]], //310
-    [["Sword Sticker", "sticker_sword", "A sticker of a diamond sword.<br />[St1, 1, C]", "Unknown", "Put it in your Sticker Book for +0.5 Direct Attack", [37, 20], 1, 0]], //311
-    [["Raised Sword Sticker", "sticker_sword_rare", "A raised sticker of a diamond sword. It's too bad you can't take the sword off and attack people with it.<br />[St1, 2, R]", "Unknown", "Put it in your Sticker Book for +1.1 Direct Attack", [37, 20], 3, 0]], //312
-    [["Shield Sticker", "sticker_shield", "A sticker of a diamond shield.<br />[St1, 3, C]", "Unknown", "Put it in your Sticker Book for +0.5 Direct Defense", [37, 20], 1, 0]], //313
-    [["Raised Shield Sticker", "sticker_shield_rare", "A raised sticker of a diamond shield. Too bad the diamond's fake.<br />[St1, 4, R]", "Unknown", "Put it in your Sticker Book for +1.1 Direct Defense", [37, 20], 3, 0]], //314
-    [["Knife Sticker", "sticker_knife", "A sticker of a knife. How'd this get in the game before an actual knife?<br />[St1, 5, C]", "Unknown", "Put it in your Sticker Book for +2 Damage to Melee attacks", [37, 20], 1, 0]], //315
-    [["Raised Knife Sticker", "sticker_knife_rare", "A raised sticker of a knife.<br />[St1, 6, R]", "Unknown", "Put it in your Sticker Book for +5 Damage to Melee attacks", [37, 20], 3, 0]], //316
-    [["Bow Sticker", "sticker_bow", "A sticker of a bow.<br />[St1, 7, C]", "Unknown", "Put it in your Sticker Book for +2 Damage to Ranged attacks", [37, 20], 1, 0]], //317
-    [["Raised Bow Sticker", "sticker_bow_rare", "A raised sticker of a bow. The string is made of actual string.<br />[St1, 8, R]", "Unknown", "Put it in your Sticker Book for +5 Damage to Ranged attacks", [37, 20], 3, 0]], //318
-    [["Iron Ore Sticker", "sticker_iron", "A sticker of a lump of iron ore.<br />[St1, 9, C]", "Unknown", "Put it in your Sticker Book for +0.7 Mining", [37, 20], 1, 0]], //319
-    [["Raised Iron Ore Sticker", "sticker_iron_rare", "A raised sticker of a lump of iron ore.<br />[St1, 10, R]", "Unknown", "Put it in your Sticker Book for +2 Mining", [37, 20], 3, 0]], //320
-    [["Apple Sticker", "sticker_apple", "A sticker of an apple. The fruit, not the cat.<br />[St1, 11, C]", "Unknown", "Put it in your Sticker Book for +0.9 HP/turn", [37, 20], 1, 0]], //321
-    [["Raised Apple Sticker", "sticker_apple_rare", "A raised sticker of an apple.<br />[St1, 12, R]", "Unknown", "Put it in your Sticker Book for +2.5 HP/turn", [37, 20], 3, 0]], //322
-    [["Carrot Sticker", "sticker_carrot", "A sticker of a carrot.<br />[St1, 13, C]", "Unknown", "Put it in your Sticker Book for +0.7 Farming", [37, 20], 1, 0]], //323
-    [["Raised Carrot Sticker", "sticker_carrot_rare", "A raised sticker of a carrot. It smells like a carrot.<br />[St1, 14, R]", "Unknown", "Put it in your Sticker Book for +2 Farming", [37, 20], 3, 0]], //324
-    [["Sap Sticker", "sticker_sap", "A sticker of some sap.<br />[St1, 15, C]", "Unknown", "Put it in your Sticker Book for +0.7 Chopping", [37, 20], 1, 0]], //325
-    [["Raised Sap Sticker", "sticker_sap_rare", "A raised sticker of some sap. The sap isn't sticky, but the sticker is.<br />[St1, 16, R]", "Unknown", "Put it in your Sticker Book for +2 Chopping", [37, 20], 3, 0]], //326
+    [["Sticker Page", "sticker_page", "An extra page for your sticker book. Fits 4 stickers.", "Crafting", "Put it in your Sticker Book", [20,33], 3, 0]], //310
+    [["Sword Sticker", "sticker_sword", "A sticker of a diamond sword.<br />[St1, 1, C]", "Unknown", "Put it in your Sticker Book for +0.5 Direct Attack", [20,37], 1, 0]], //311
+    [["Raised Sword Sticker", "sticker_sword_rare", "A raised sticker of a diamond sword. It's too bad you can't take the sword off and attack people with it.<br />[St1, 2, R]", "Unknown", "Put it in your Sticker Book for +1.1 Direct Attack", [20,37], 3, 0]], //312
+    [["Shield Sticker", "sticker_shield", "A sticker of a diamond shield.<br />[St1, 3, C]", "Unknown", "Put it in your Sticker Book for +0.5 Direct Defense", [20,37], 1, 0]], //313
+    [["Raised Shield Sticker", "sticker_shield_rare", "A raised sticker of a diamond shield. Too bad the diamond's fake.<br />[St1, 4, R]", "Unknown", "Put it in your Sticker Book for +1.1 Direct Defense", [20,37], 3, 0]], //314
+    [["Knife Sticker", "sticker_knife", "A sticker of a knife. How'd this get in the game before an actual knife?<br />[St1, 5, C]", "Unknown", "Put it in your Sticker Book for +2 Damage to Melee attacks", [20,37], 1, 0]], //315
+    [["Raised Knife Sticker", "sticker_knife_rare", "A raised sticker of a knife.<br />[St1, 6, R]", "Unknown", "Put it in your Sticker Book for +5 Damage to Melee attacks", [20,37], 3, 0]], //316
+    [["Bow Sticker", "sticker_bow", "A sticker of a bow.<br />[St1, 7, C]", "Unknown", "Put it in your Sticker Book for +2 Damage to Ranged attacks", [20,37], 1, 0]], //317
+    [["Raised Bow Sticker", "sticker_bow_rare", "A raised sticker of a bow. The string is made of actual string.<br />[St1, 8, R]", "Unknown", "Put it in your Sticker Book for +5 Damage to Ranged attacks", [20,37], 3, 0]], //318
+    [["Iron Ore Sticker", "sticker_iron", "A sticker of a lump of iron ore.<br />[St1, 9, C]", "Unknown", "Put it in your Sticker Book for +0.7 Mining", [20,37], 1, 0]], //319
+    [["Raised Iron Ore Sticker", "sticker_iron_rare", "A raised sticker of a lump of iron ore.<br />[St1, 10, R]", "Unknown", "Put it in your Sticker Book for +2 Mining", [20,37], 3, 0]], //320
+    [["Apple Sticker", "sticker_apple", "A sticker of an apple. The fruit, not the cat.<br />[St1, 11, C]", "Unknown", "Put it in your Sticker Book for +0.9 HP/turn", [20,37], 1, 0]], //321
+    [["Raised Apple Sticker", "sticker_apple_rare", "A raised sticker of an apple.<br />[St1, 12, R]", "Unknown", "Put it in your Sticker Book for +2.5 HP/turn", [20,37], 3, 0]], //322
+    [["Carrot Sticker", "sticker_carrot", "A sticker of a carrot.<br />[St1, 13, C]", "Unknown", "Put it in your Sticker Book for +0.7 Farming", [20,37], 1, 0]], //323
+    [["Raised Carrot Sticker", "sticker_carrot_rare", "A raised sticker of a carrot. It smells like a carrot.<br />[St1, 14, R]", "Unknown", "Put it in your Sticker Book for +2 Farming", [20,37], 3, 0]], //324
+    [["Sap Sticker", "sticker_sap", "A sticker of some sap.<br />[St1, 15, C]", "Unknown", "Put it in your Sticker Book for +0.7 Chopping", [20,37], 1, 0]], //325
+    [["Raised Sap Sticker", "sticker_sap_rare", "A raised sticker of some sap. The sap isn't sticky, but the sticker is.<br />[St1, 16, R]", "Unknown", "Put it in your Sticker Book for +2 Chopping", [20,37], 3, 0]], //326
     [["Stone Shield", "stone_shield", "A shield made out of wood, with a stone core.", "Crafting", "+0.5 Indirect Defense<br />+0.5 Direct Defense", [7], 1, 7]], //327
     [["Sticker Pack (St1)", "sticker_pack_cyan", "A pack of two stickers. Open it and see what you get!", "Unknown", "Grants two random stickers", [20], 2, 16]], //328
-    [["Dragon Transformation Potion", "mystery_potion", "A bottle filled with a strange liquid. It... turns you into a dragon, apparently.<br /><br />What on <i>earth</i> is going on over there?!", "Unknown", "?!?!?!", [16, 32, 29, 33, 40], 5, 0]], //329
+    [["Dragon Transformation Potion", "mystery_potion", "A bottle filled with a strange liquid. It... turns you into a dragon, apparently.<br /><br />What on <i>earth</i> is going on over there?!", "Unknown", "?!?!?!", [16,29,32,33,40], 5, 0]], //329
     [["stickers.empty_sticker", "empty_sticker", "desc.empty_equip", "src.empty_equip", "", [28, 37], 0, 0]], //330
-    [["Orb Sticker", "sticker_orb", "A sticker of an orb. Looks more like a circle to me.<br />[St1, 17, UC]", "Unknown", "Put it in your Sticker Book for +0.2 Direct Attack, +0.2 Direct Defense, +0.4 Max HP, and +0.1 to all Skills", [37, 20], 2, 0]], //331
-    [["Raised Orb Sticker", "sticker_orb_rare", "A raised sticker of an orb. Kind of an \"all-rounder\", if you catch my drift.<br />[St1, 18, VR]", "Unknown", "Put it in your Sticker Book for +0.7 Direct Attack, +0.7 Direct Defense, +1.5 Max HP, +0.3 Luck, and +0.5 to all Skills", [37, 20], 3, 0]], //332
+    [["Orb Sticker", "sticker_orb", "A sticker of an orb. Looks more like a circle to me.<br />[St1, 17, UC]", "Unknown", "Put it in your Sticker Book for +0.2 Direct Attack, +0.2 Direct Defense, +0.4 Max HP, and +0.1 to all Skills", [20,37], 2, 0]], //331
+    [["Raised Orb Sticker", "sticker_orb_rare", "A raised sticker of an orb. Kind of an \"all-rounder\", if you catch my drift.<br />[St1, 18, VR]", "Unknown", "Put it in your Sticker Book for +0.7 Direct Attack, +0.7 Direct Defense, +1.5 Max HP, +0.3 Luck, and +0.5 to all Skills", [20,37], 3, 0]], //332
     [["Ripe Blueberries", "ripe blueberries", "A handful of blueberries that are riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7]], //333
     [["Ripe Cherries", "ripe cherries", "A handful of cherries that are riper than usual. Can be turned into red dye.", "Farming", "+10 HP on consume", [10,30], 1, 7]], //334
     [["Ripe Blackberries", "ripe blackberries", "A handful of blackberries that are riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7]], //335
@@ -459,7 +459,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Quartz Shard", "quartz", "A shard of white quartz. Sometimes, it comes in different colors, but then it has a different name.", "Mining", "", [11,24,57], 2, 9]], //362
     [["Sapphire", "sapphire", "A sapphire. Why do these end up teardrop-shaped so often?", "Mining", "", [11,24,57], 2, 17]], //363
     [["Ruby", "ruby", "A small ruby. Aren't these normally square, rather than... I think that's an octagon?", "Mining", "", [11,24,57], 2, 18]], //364
-    [["Thunder Stone", "thunder_stone", "It's brimming with electricity. One of these could probably power up a weapon signifcantly.<br />...if you have the right weapon.", "Unknown (FS2); Gathering with an 8-Leaf Clover (FS3)", "Can only be obtained once per game, ever<br />Combine with a specific weapon to strengthen it", [11, 29, 32, 33], 4, 0]], //365
+    [["Thunder Stone", "thunder_stone", "It's brimming with electricity. One of these could probably power up a weapon signifcantly.<br />...if you have the right weapon.", "Unknown (FS2); Gathering with an 8-Leaf Clover (FS3)", "Can only be obtained once per game, ever<br />Combine with a specific weapon to strengthen it", [11,29,32,33], 4, 0]], //365
     [["Rope", "rope", "A coil of rope. You can climb it, if it's hung off of something.", "Crafting", "", [20,21], 1, 4]], //366
     [["Topaz", "topaz", "A single topaz. At least, it's shaped like a topaz. The color's weird.", "Mining", "", [11,24,57], 2, 13]], //367
     [["Ruby-Sapphire Bar", "ruby_sapphire_bar", "Look, I know that rubies and sapphires are just different colors of the same mineral, but that doesn't mean this makes sense.", "Crafting", "", [11,25], 2, 19]], //368
@@ -468,8 +468,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Electrum Nugget", "electrum_nugget", "A nugget of electrum. It's like a weak battery.", "Crafting", "", [11,41], 1, 2]], //371
     [["Gunpowder", "gunpowder", "Some black powder. Careful, it's flammable. And explosive.", "Mobs", "", [11,46], 1, 3]], //372
     [["Snow", "snow_block", "A block of snow.", "Digging", "", [11], 1, 4]], //373
-    [["Snowball", "snowball", "A ball of snow.", "Crafting", "Throw it at someone to deal 1 <span class=\"ice\">Ice</span> damage", [11,21], 1, 1]], //374
-    [["Snowball with a rock in it", "snowball_with_rock", "A ball of snow with a rock in it.", "Crafting", "Throw it at someone to deal 2 <span class=\"ice\">Ice</span> damage and 4 Typeless damage", [21], 1, 0]], //375
+    [["Snowball", "snowball", "A ball of snow.", "Crafting", "Throw it at someone to deal 1 <span class=\"ice\">Ice</span> damage", [11,21,53], 1, 1]], //374
+    [["Snowball with a rock in it", "snowball_with_rock", "A ball of snow with a rock in it.", "Crafting", "Throw it at someone to deal 2 <span class=\"ice\">Ice</span> damage and 4 Typeless damage", [21,53], 1, 0]], //375
     [["Lever", "lever", "A lever. You can push it to make electricity flow.", "Crafting", "", [17], 1, 4]], //376
     [
         ["Oak Button", "oak_button", "A button made of oak planks. You can push it to make electricity flow.", "Crafting", "", [17], 1, 3], //0
@@ -502,7 +502,10 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Spin Fish", "spin_fish", "A really large fish. It's too large to eat, but you could spin it to knock people off of things.", "Fishing", "+1.3 Direct Attack<br />Causes knockback", [26,5], 2, 18]], //394
     [["Bag of Fish", "fish_bag", "A bag containing a number of fish.", "Fishing", "Open to gain 1d3+1 fish from any non-Junk/non-Treasure item pool", [20,42], 2, 14]], //395
     [["Bottle o' Enchanting", "potion_enchant", "A bottle filled with a bunch of skill experience.", "Fishing", "Throw it on someone (can be yourself) to give them 50% Exp to 4 random skills", [16,21], 3, 0]], //396
-    [["Chest", "chest", "A chest. You can put it in a structure.", "Crafting", "Stores 9 items", [17], 1, 7]], //397
+    [
+        ["Chest", "chest", "A chest. You can put it in a structure.", "Crafting", "Stores 9 items", [17], 1, 7], //0
+        ["Stone Chest", "stone_chest", "A chest made of stone. You can put it in a structure.", "Crafting", "Stores 9 items", [17], 1, 6], //1
+    ], //397
     [["Official Coin", "coin_good", "An official coin from the Isles of Fighting.<br /><br />You know, the country that Trisland is technically in.", "Unknown", "", [20], 1, 0]], //398
     [
         ["Dollar Bill", "dollar_bill", "An official dollar bill from the Isles of Fighting. Valued at 4 coins.", "Unknown", "", [20], 1, 0], //0
@@ -517,8 +520,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Golden Tomato", "golden tomato", "A golden tomato. See, it boosts Charisma because of people throwing tomatoes at comedians. Makes total sense, doesn't it?", "Farming", "+0.5 CHR", [9], 2, 15]], //406
     [["Ripe Tomato", "ripe tomato", "A tomato that's riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7]], //407
     [["Bomb", "bomb", "A bomb. You can light it and throw it at something to blow it up.", "Crafting", "Throw it at someone after lighting it to deal 9+<span class=fire>6</span> damage", [21,22,47], 1, 4]], //408
-    [["Dragon Youth Potion", "mystery_potion", "A bottle filled with a strange liquid. When used on a dragon, it'll set their age to 1.<br /><br />What a weird potion.<br /><br /><br />It smells oddly sweet.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0]], //409
-    [["Dragon Age Lock Potion", "mystery_potion", "A bottle filled with a strange liquid. When used on a dragon, it'll lock their age, preventing them from growing older.<br /><br />Wait, if you combined these two...!<br /><br /><br />It smells oddly sour.", "Unknown", "???", [16, 32, 29, 33, 40], 5, 0]], //410
+    [["Dragon Youth Potion", "mystery_potion", "A bottle filled with a strange liquid. When used on a dragon, it'll set their age to 1.<br /><br />What a weird potion.<br /><br /><br />It smells oddly sweet.", "Unknown", "???", [16,29,32,33,40], 5, 0]], //409
+    [["Dragon Age Lock Potion", "mystery_potion", "A bottle filled with a strange liquid. When used on a dragon, it'll lock their age, preventing them from growing older.<br /><br />Wait, if you combined these two...!<br /><br /><br />It smells oddly sour.", "Unknown", "???", [16,29,32,33,40], 5, 0]], //410
     [["Shrapnel Bomb", "shrapnel_bomb", "A bomb with cracks in it, designed to break into shrapnel after exploding.", "Crafting", "Throw it at someone after lighting it to deal 12+<span class=fire>6</span> damage<br />Will also inflict Bleeding for 2 turns", [21,22,47], 1, 0]], //411
     [["Scroll of Gain (4)", "scroll_01_04", "A scroll with the first and fourth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //412
     [["Scroll of Gain Ore", "scroll_01_21", "A scroll that allows you to gain several ores.", "Shops", "Gain 1d3 Ore", [20,43], 2, 0]], //413
@@ -589,7 +592,24 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Thin Gloves", "gloves", "A pair of gloves which make you better at handling things.", "Crafting", "+1 DEX", [8], 2, 8]], //478
     [["U.S. Constitution Shirt", "const_shirt", "A shirt with the Constitution of the United States on it. No points for guessing what it boosts.", "Crafting", "+1 CON", [2], 2, 13]], //479
     [["Fake Abs Shirt", "abs_shirt", "A shirt with some fake abs drawn on it.", "Crafting", "+1 STR", [2], 2, 5]], //480
-    [["Plain Shirt", "plain_shirt", "A plain shirt, made with cotton.", "Crafting", "", [2,11], 1, 7]], //481
+    [
+        ["Plain White Shirt", "plain_shirt tint_white", "A plain white shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //0
+        ["Plain Light Gray Shirt", "plain_shirt tint_light_gray", "A plain light gray shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //1
+        ["Plain Gray Shirt", "plain_shirt tint_gray", "A plain gray shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //2
+        ["Plain Black Shirt", "plain_shirt tint_black", "A plain black shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //3
+        ["Plain Pink Shirt", "plain_shirt tint_pink", "A plain pink shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //4
+        ["Plain Red Shirt", "plain_shirt tint_red", "A plain red shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //5
+        ["Plain Orange Shirt", "plain_shirt tint_orange", "A plain orange shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //6
+        ["Plain Brown Shirt", "plain_shirt tint_brown", "A plain brown shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //7
+        ["Plain Yellow Shirt", "plain_shirt tint_yellow", "A plain yellow shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //8
+        ["Plain Green Shirt", "plain_shirt tint_green", "A plain green shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //9
+        ["Plain Dark Green Shirt", "plain_shirt tint_dark_green", "A plain dark green shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //10
+        ["Plain Cyan Shirt", "plain_shirt tint_cyan", "A plain cyan shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //11
+        ["Plain Light Blue Shirt", "plain_shirt tint_light_blue", "A plain light blue shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //12
+        ["Plain Blue Shirt", "plain_shirt tint_blue", "A plain blue shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //13
+        ["Plain Purple Shirt", "plain_shirt tint_purple", "A plain purple shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //14
+        ["Plain Magenta Shirt", "plain_shirt tint_magenta", "A plain magenta shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //15
+    ], //481
     [["Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding.", "Crafting", "+0.4 Construction", [1,11], 1, 7]], //482
     [["Automatic Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding. It differs from the regular one because it activates the filter automatically, rather than having it on all the time, so it's obviously the better choice.", "Crafting", "+1.1 Construction", [1], 2, 14]], //483
     [["Knife", "knife", "Oh hey, it's the knife from the sticker.", "Crafting", "+1 Indirect Attack<br />+2 Melee Damage", [5,11,23], 1, 4]], //484
@@ -598,16 +618,16 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Gemmo", "idleon_gem", "A Gem, perfect for the Gem Shop. You know, the one in a different game.", "Mining", "Hold down on it to add it to your account", [20,24,57], 2, 1]], //487
     [["Prize", "prize", "A yellow box with orange stripes. Open it for a reward!", "Unknown", "Open for 1d2+1 random items (see Info)", [20,33,42], 3, 0]], //488
     [["Smeckledorf Smurf Hat", "smurf_hat", "A hat typically worn by Smeckledorf Smurfs.", "Mobs", "+3 Max HP", [1], 2, 18]], //489
-    [["Goldfish Sticker", "sticker_goldfish", "A sticker of a goldfish.<br />[St2, 1, C]", "Unknown", "Put it in your Sticker Book for +0.7 Fishing", [37, 20], 1, 0]], //490
-    [["Raised Goldfish Sticker", "sticker_goldfish_rare", "A raised sticker of a goldfish. Smells fishy.<br />[St2, 2, R]", "Unknown", "Put it in your Sticker Book for +2 Fishing", [37, 20], 3, 30]], //491
-    [["Hand Basket Sticker", "sticker_basket", "A sticker of a hand basket.<br />[St2, 3, C]", "Unknown", "Put it in your Sticker Book for +0.7 Gathering", [37, 20], 1, 0]], //492
-    [["Raised Hand Basket Sticker", "sticker_basket_rare", "A raised sticker of a hand basket.<br />[St2, 4, R]", "Unknown", "Put it in your Sticker Book for +2 Gathering", [37, 20], 3, 30]], //493
-    [["Bottle Sticker", "sticker_bottle", "A sticker of a glass bottle.<br />[St2, 5, C]", "Unknown", "Put it in your Sticker Book for +0.7 Alchemy", [37, 20], 1, 0]], //494
-    [["Raised Bottle Sticker", "sticker_bottle_rare", "A raised sticker of a glass bottle. Not actually made of glass.<br />[St2, 6, R]", "Unknown", "Put it in your Sticker Book for +2 Alchemy", [37, 20], 3, 30]], //495
-    [["Hammer Sticker", "sticker_hammer", "A sticker of a hammer.<br />[St2, 7, C]", "Unknown", "Put it in your Sticker Book for +0.7 Crafting", [37, 20], 1, 0]], //496
-    [["Raised Hammer Sticker", "sticker_hammer_rare", "A raised sticker of a hammer.<br />[St2, 8, R]", "Unknown", "Put it in your Sticker Book for +2 Crafting", [37, 20], 3, 30]], //497
-    [["Dirt Sticker", "sticker_dirt", "A sticker of a block of dirt.<br />[St2, 9, C]", "Unknown", "Put it in your Sticker Book for +0.7 Digging", [37, 20], 1, 0]], //498
-    [["Raised Dirt Sticker", "sticker_dirt_rare", "A raised sticker of a block of dirt. Ooh, scratch n' sniff!<br />[St2, 10, R]", "Unknown", "Put it in your Sticker Book for +2 Digging", [37, 20], 3, 30]], //499
+    [["Goldfish Sticker", "sticker_goldfish", "A sticker of a goldfish.<br />[St2, 1, C]", "Unknown", "Put it in your Sticker Book for +0.7 Fishing", [20,37], 1, 0]], //490
+    [["Raised Goldfish Sticker", "sticker_goldfish_rare", "A raised sticker of a goldfish. Smells fishy.<br />[St2, 2, R]", "Unknown", "Put it in your Sticker Book for +2 Fishing", [20,37], 3, 30]], //491
+    [["Hand Basket Sticker", "sticker_basket", "A sticker of a hand basket.<br />[St2, 3, C]", "Unknown", "Put it in your Sticker Book for +0.7 Gathering", [20,37], 1, 0]], //492
+    [["Raised Hand Basket Sticker", "sticker_basket_rare", "A raised sticker of a hand basket.<br />[St2, 4, R]", "Unknown", "Put it in your Sticker Book for +2 Gathering", [20,37], 3, 30]], //493
+    [["Bottle Sticker", "sticker_bottle", "A sticker of a glass bottle.<br />[St2, 5, C]", "Unknown", "Put it in your Sticker Book for +0.7 Alchemy", [20,37], 1, 0]], //494
+    [["Raised Bottle Sticker", "sticker_bottle_rare", "A raised sticker of a glass bottle. Not actually made of glass.<br />[St2, 6, R]", "Unknown", "Put it in your Sticker Book for +2 Alchemy", [20,37], 3, 30]], //495
+    [["Hammer Sticker", "sticker_hammer", "A sticker of a hammer.<br />[St2, 7, C]", "Unknown", "Put it in your Sticker Book for +0.7 Crafting", [20,37], 1, 0]], //496
+    [["Raised Hammer Sticker", "sticker_hammer_rare", "A raised sticker of a hammer.<br />[St2, 8, R]", "Unknown", "Put it in your Sticker Book for +2 Crafting", [20,37], 3, 30]], //497
+    [["Dirt Sticker", "sticker_dirt", "A sticker of a block of dirt.<br />[St2, 9, C]", "Unknown", "Put it in your Sticker Book for +0.7 Digging", [20,37], 1, 0]], //498
+    [["Raised Dirt Sticker", "sticker_dirt_rare", "A raised sticker of a block of dirt. Ooh, scratch n' sniff!<br />[St2, 10, R]", "Unknown", "Put it in your Sticker Book for +2 Digging", [20,37], 3, 30]], //499
     [["Depleted Electrum Nugget", "depleted_electrum_nugget", "A depleted nugget of electrum. It's like a dead battery.", "Reusable Phone", "", [11,41], 2, 1]], //500
     [["Sticker Pack (St2)", "sticker_pack_red", "A pack of two stickers. Open it and see what you get!", "Unknown", "Grants two random stickers", [20], 2, 16]], //501
     [["Sticker Pack (All)", "sticker_pack_gray", "A pack of two stickers. Open it and see what you get!", "Unknown", "Grants two random stickers", [20], 2, 18]], //502
@@ -655,7 +675,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Pink Dye; 544 -> 111:4)", "", "", [], 0, 0]], //544
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Brown Dye; 545 -> 111:7)", "", "", [], 0, 0]], //545
     [["Chains", "chains", "A string of chains.", "Crafting", "", [20], 1, 8]], //546
-    [["Icy Rock", "ice_rock", "A strange rock that's cold to the touch.", "Unknown", "", [11, 20, 33], 3, 0]], //547
+    [["Icy Rock", "ice_rock", "A strange rock that's cold to the touch.", "Unknown", "", [11,20,33], 3, 0]], //547
     [
         ["Can't use this slot", "no_equip", "For whatever reason, this mob can't use this equipment slot.", "", "", [28], 0, 0], //0
         ["No ripe item", "no_equip", "This crop does not have a ripe form.", "", "", [28], 0, 0], //1
@@ -758,7 +778,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Gold Sleep Shroom", "golden sleep_shroom", "A golden mushroom with golden spots. It makes you feel drowsy just by looking at it.", "Gathering", "All Sleep types restore an additional +2 HP/turn<br />All Sleep types have their chance of waking up manually reduced by 10%", [10,30], 2, 9]], //637
     [["Thunder Knife", "thunder_knife", "<em>Uh oh.</em><br /><br />No, really, where's all this bonus damage coming from?", "Presumably Crafting", "+5 Attack<br />+5 <span class='electric'>Electric</span> Damage<br />+5 Melee Damage<br />+10 Damage vs. Dragons<br />+5 Damage vs. <span class='ice'>Ice</span>-aligned", [5,23,29,32,33,40,51], 5, 0]], //638
     [["Thunder Staff", "thunder_staff", "Oh, good; a good counterpart.", "Crafting", "+5 <span class='electric'>Electric</span> Damage<br />+2 Magic Damage<br />+3 Damage vs. <span class='electric'>Electric</span>-aligned", [5,22,29,32,33,51], 6, 0]], //639
-    [["Torch", "torch", "A torch. It emits light.", "Crafting", "Can be used to light something On Fire", [11,20], 1, 4]], //640
+    [["Torch", "torch", "A torch. It emits light.", "Crafting", "Can be used to light something On Fire", [11,20,49], 1, 4]], //640
     [["Quiver", "quiver", "A quiver. It can store arrows.", "Crafting", "Equip it to access the 5 item slots it has<br />Can store any Ammo item", [8, 48], 2, 18]], //641
     [
         ["Slice of Bread", "bread_slice", "A single slice of bread. You could make a sandwich, or toast it.", "Cooking", "+2.5 HP on consume<br />Counts as half a food item", [10,30], 1, 2], //0
@@ -804,7 +824,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Description Tag", "enchanted desc_tag", "A description tag. You can use it on an items to give it a custom description.", "Crafting", "Use it on an item to give it a description", [20,33], 2, 7], //1
         ["Attribute Tag", "enchanted attr_tag", "An attribute tag. You can use it on an items to give it (non-functional) custom attributes.", "Crafting", "Use it on an item to give it new attributes", [20,33], 2, 7], //2
     ], //663
-    [["Fire Charge", "fire_charge", "A fire charge. You can use it to light things on fire.", "Crafting", "Can be used to light something On Fire", [20], 1, 6]], //664
+    [["Fire Charge", "fire_charge", "A fire charge. You can use it to light things on fire.", "Crafting", "Can be used to light something On Fire", [20,49], 1, 6]], //664
     [["Crown", "crown", "A crown made of gold, with gems embedded within it. It's not very good at defense, but it makes you look important.", "Crafting", "+1 Indirect Defense<br />+3 CHR", [1], 2, 17]], //665
     [["Calculator", "calculator", "A small pocket calculator. It can't do much, but at least it's cheap.", "Crafting", "+1 INT", [8,20], 1, 8]], //666
     [
@@ -816,7 +836,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Iceberg Lettuce", "lettuce", "A head of lettuce. It's name comes from the fact that if you put it in crushed ice, it looks like an iceberg.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //670
     [["Ripe Iceberg Lettuce", "ripe lettuce", "A head of lettuce that's riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7]], //671
     [["Golden Iceberg Lettuce", "golden lettuce", "A golden head of lettuce. Go on, guess what it boosts.", "Farming", "+0.7 <span class='ice'>Ice</span> damage", [9], 2, 15]], //672
-    [["Bacon", "bacon", "Some strips of raw bacon.", "Cooking", "Consume for +3 HP<br />50% chance to give Nausea (1 turn)", [10,30], 1, 7]], //673
+    [["Bacon", "bacon", "Some strips of raw bacon.", "Cooking", "+3 HP on consume<br />50% chance to give Nausea (1 turn)", [10,30], 1, 7]], //673
     [["Cooked Bacon", "cooked_bacon", "Some strips of cooked bacon.", "Cooking", "+6 HP on consume", [10,30], 1, 9]], //674
     [["Milk Bottle", "milk_bottle", "A bottle filled with milk.", "Crafting", "Drink for 2 HP", [10,11,30], 1, 2]], //675
     [["Icing", "icing_bottle", "A bottle of icing. Isn't icing normally stored in pipets or something?", "Cooking", "Consume for +3 HP", [10,11,30], 1, 4]], //676
@@ -835,7 +855,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Carrot Cake (1/4)", "carrot_cake_quarter", "A quarter of a cake with ribbons of carrot in it.<br /><br /><span style='color:var(--idesc_dragon);'>A dragon would probably like this.</span>", "Cooking", "Grab a slice<br />Counts as 1 serving<br />+6.5 HP per serving", [10,17,30], 2, 8], //3
     ], //680
     [["Slice of Carrot Cake", "carrot_cake_slice", "A slice of carrot cake. Wasn't the carrot on top bigger than that, and also centered?<br /><br /><span style='color:var(--idesc_dragon);'>A dragon would probably like this.</span>", "Carrot Cake", "Consume for +6.5 HP", [10,30], 2, 8]], //681
-    [["Lava Bottle", "lava_bottle", "A bottle filled with lava. I mean, I <em>guess</em> glass is more heat-resistant than iron.", "Crafting", "", [29,30], 2, 6]], //682
+    [["Lava Bottle", "lava_bottle", "A bottle filled with lava. I mean, I <em>guess</em> glass is more heat-resistant than iron.", "Crafting", "", [30], 2, 6]], //682
     [["Chocolate Milk Bottle", "chocolate_milk_bottle", "A bottle filled with milk.", "Crafting", "Drink for 2 HP", [10,30], 1, 4]], //683
     [["Honey Bottle", "honey_bottle", "A bottle filled with honey.", "Crafting", "Drink for 3 HP<br />Cures Poisoned", [10,20], 2, 5]], //684
     [
@@ -865,7 +885,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Obsidian", "obsidian", "A block of solid obsidian. Did you know that obsidian is actually a type of glass?", "Mining (Req. Diamond Pick)", "", [11,17], 2, 13]], //694
     [
         ["Mop", "mop", "A mop. It can clean things.", "Crafting", "Use it on something to clean it", [6,23], 1, 8], //0
-        ["Wet Mop", "mop_wet", "A wet mop. It can clean things, but right now it'll probably just make them wet.", "Using a Mop", "Use it on something to clean it and make it wet", [6,23], 1, 0], //1
+        ["Wet Mop", "mop_wet", "A wet mop. It can clean things, but right now it'll probably just make them wet.", "Using a Mop", "Use it on something to clean it and make it wet", [6,23,50], 1, 0], //1
     ], //695
     [["Shears", "shears", "A pair of shears. You can use them to shear things, like wool, grass, and people.", "Crafting", "+1 Direct Attack<br />+25% chance to inflict Bleeding on hit for 1 turn", [5,6,23], 1, 7]], //696
     [["Halloween Bucket", "halloween_bucket", "A pumpkin-shaped bucket. You put candy in it during Halloween, and then you can take then candy out afterward.", "Halloween", "Hold it to access the 7 item slots it has<br />Can store any candy<br />After Halloween, will disappear when empty", [12,29,48], 4, 0]], //697
@@ -901,4 +921,9 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Large Lollipop", "lollipop_large", "A lollipop. You're supposed to lick it, but you could also just crunch it.", "Halloween", "+3.5 HP<br />Counts as 0.7 servings", [10,12,30,31], 2, 0]], //720
     [["Bag of Peanut Chocolates", "peanut_chocolate_bag", "A small bag of some candy-coated chocolates with peanuts inside. The colors are just to look nice.", "Halloween", "+3.5 HP<br />Counts as 0.7 servings", [10,12,30,31], 2, 4]], //721
     [["Box of Chocolate-coated Sticks", "pocky", "A box of stick-shaped biscuits, partially covered in chocolate.", "Halloween", "+5 HP", [10,12,30,31], 2, 8]], //722
+    [["Metal Triangle", "metal_triangle", "A triangle made out of metal.", "Crafting", "+1.2 Direct Attack<br />+2.4 Indirect Attack", [5,23], 1, 8]], //723
+    [
+        ["Bowl of Beetroot Soup", "beetroot_soup", "A bowl of soup, made with beetroot.", "Cooking", "Counts as 2 servings<br />+7 HP per serving", [10,30], 1, 14], //0
+        ["Half-Empty Bowl of Beetroot Soup", "beetroot_soup_half", "A half-empty bowl of soup, made with beetroot.", "Cooking", "Counts as 1 serving<br />+7 HP per serving", [10,30], 1, 6], //1
+    ], //724
 ]

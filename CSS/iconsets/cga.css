@@ -13,7 +13,7 @@
     --icn_mob: url("../Icons/Exported CGA/mob_sheet.png");
     --icn_decor: url("../Icons/Exported CGA/decor_sheet.png");
     --icn_plant: url("../Icons/Exported CGA/plant_sheet.png");
-    --icn_color: url("../Icons/Exported CGA/color_sheet.png");
+    --icn_color: url("../Icons/Exported CGA/colorable_sheet.png");
     --icn_alch: url("../Icons/Exported CGA/alchemy_sheet.png");
     --icn_food: url("../Icons/Exported CGA/food_sheet.png");
     --icn_fish: url("../Icons/Exported CGA/fish_sheet.png");
@@ -27,6 +27,10 @@
     --icn_scroll: url("../Icons/Exported CGA/scroll_sheet.png");
     --icn_egg: url("../Icons/Exported CGA/egg_sheet.png");
     --icn_file: url("../Icons/Exported CGA/file_sheet.png");
+    --icn_armortier: url("../Icons/Exported CGA/armor_tiered_sheet.png");
+    --icn_armormisc: url("../Icons/Exported CGA/armor_misc_sheet.png");
+    --icn_weapontier: url("../Icons/Exported CGA/weapons_tiered_sheet.png");
+    --icn_weaponmisc: url("../Icons/Exported CGA/weapons_misc_sheet.png");
     --icn_banana: url("../3/banana.gif");
 
     --icn_bg: url("../3/Items/Exported/equip_back_mono.png");

@@ -196,28 +196,28 @@ span.dark {
     font-weight: bold;
 }
 span.normal2 {
-    color: var(--ele_normal);
+    color: var(--ele_normal2);
 }
 span.fire2 {
-    color: var(--ele_fire);
+    color: var(--ele_fire2);
 }
 span.water2 {
-    color: var(--ele_water);
+    color: var(--ele_water2);
 }
 span.electric2 {
-    color: var(--ele_elec);
+    color: var(--ele_elec2);
 }
 span.plant2 {
-    color: var(--ele_plant);
+    color: var(--ele_plant2);
 }
 span.ice2 {
-    color: var(--ele_ice);
+    color: var(--ele_ice2);
 }
 span.light2 {
-    color: var(--ele_light);
+    color: var(--ele_light2);
 }
 span.dark2 {
-    color: var(--ele_dark);
+    color: var(--ele_dark2);
 }
 span.phone_number, span.phone_num {
     color: var(--phone_number);

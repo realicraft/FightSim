@@ -105,7 +105,8 @@ var generate_recipe = function(recipe) {
         }
         if (i != 0) {output += ", "}
         output += recipe[i+2][2];
-        output += " [[" + equiplist[recipe[i+2][0]][recipe[i+2][1]][0] + "]]"
+        if (recipe[i+2][0] == 225) {output += " [[Fuel]]"}
+        else {output += " [[" + equiplist[recipe[i+2][0]][recipe[i+2][1]][0] + "]]"}
     }
     output += " || {{Recipe"
     for (var i=0; i < 6; i++) {
