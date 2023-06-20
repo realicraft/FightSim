@@ -158,7 +158,7 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_icons);
     background-position: -192px -128px;
 }
-.lightning, .paralyzed {
+.paralyzed {
     background-image: var(--icn_icons);
     background-position: -224px -128px;
 }
@@ -3778,7 +3778,7 @@ span.cr_df_flight {
     background-image: var(--icn_info);
     background-position: -240px 0px;
 }
-.storm, .stormy {
+.storm, .stormy, .thunderstorm {
     background-image: var(--icn_info);
     background-position: -208px -16px;
 }
@@ -3794,7 +3794,7 @@ span.cr_df_flight {
     background-image: var(--icn_info);
     background-position: -208px -32px;
 }
-.thunder, .lightning_weather {
+.thunder, .lightning {
     background-image: var(--icn_info);
     background-position: -192px -48px;
 }

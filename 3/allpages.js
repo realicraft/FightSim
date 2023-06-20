@@ -4,7 +4,7 @@ var tooltipEl = document.getElementsByClassName("tooltip_body")[0]
 var infoEl = document.getElementsByClassName("info_body")[0]
 var bodyEl = document.body
 
-var timeboxInfo = [79, "night", "thunder"]
+var timeboxInfo = [80, "night", "lightning"]
 
 // cookies
 // from https://www.w3schools.com/js/js_cookies.asp

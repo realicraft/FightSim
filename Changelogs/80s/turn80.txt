@@ -1,0 +1,31 @@
+Changelog for Turn 80
+
+Items
+- gave everyone a third inventory row
+- added sprites for two new easter eggs
+- this required my to export egg_sheet, thus revealing sprites for dragon eggs
+
+Crafting
+- redesigned the crafting page; recipies are now split into categories
+- categories can be implemented differently than other categories
+- added a cooking category, which is currently implemented the same way as crafting
+- added a dyeing category
+
+Translations
+- en_us: added a few new entries for the crafting redesign, plus dyed shirts
+- es_es: translated the new crafting entries, plus other crafting strings
+
+Icon Sets
+- adjusted the css classes for lightning/thunder weather
+- resprite: continued working on wood_sheet (acacia and dark oak)
+- resprite: continued working on equip_sheet_plan (removed stick, added hardite armor/tools)
+- resprite: continued working on ore_sheet (hardite bar)
+
+Spin-offs
+- oh, yeah, there's a spin-off now
+- updated the local copy of fightsnap! to Build 0
+- added five songs to fightsnap!'s soundtrack
+
+Misc
+- fixed an issue where the translation key and icon class for thunderstorms weren't the same
+- accounted for a username change

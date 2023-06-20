@@ -40,6 +40,7 @@ var replaceDoubleList = { // keyword: "replacement before", "replacement after"
     "incend": ["[color=#5f2f0f][b]Incendiary[/b]: ","[/color]"],
     "byron": ["[color=#3f1f0f][b]Byron[/b]: ","[/color]"],
     "cheesy": ["[color=#6f5f0f][b]Cheesy[/b]: ","[/color]"],
+    "sparky": ["[color=#6f5f0f][b]Sparky[/b]: ","[/color]"],
     "soli": ["[color][b]Solitare[/b]: ","[/color]"],
     "fares": ["[color=#0f3f0f][b]Faressain[/b]: ","[/color]"],
     "gilb": ["[color][b]gilbert[/b]: ","[/color]"],

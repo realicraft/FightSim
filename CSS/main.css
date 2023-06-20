@@ -1,6 +1,9 @@
 body img:first-child {
     content: var(--top_image);
 }
+body img.fsnap_logo:first-child {
+    content: var(--snap_top_image);
+}
 body {
     background-color: var(--background);
     color: var(--font);

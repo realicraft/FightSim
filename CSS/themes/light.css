@@ -1,5 +1,6 @@
 :root {
-    --top_image: url(../3/CurrentLogo/logo.png);
+    --top_image: url("../3/CurrentLogo/logo.png");
+    --snap_top_image: url("../Snap!/logos/logo.png");
     --background: #dfdfdf;
     --text: #000000;
 

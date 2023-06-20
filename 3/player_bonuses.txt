@@ -51,6 +51,8 @@ Incendiary:
   INT: (+2)
    LTT Hoodie (+2)
  Skills:
+  Crafting: (+0.7)
+   Hammer Sticker (+0.7)
 Byron:
  Stats:
   Indirect Defense: (+10.7)
@@ -73,7 +75,7 @@ Byron:
  Skills:
   Mining: (+0.7)
    Iron Ore Sticker (+0.7)
-cheesy:
+sparky:
  Stats:
   Direct Attack: (+1)
    Wooden Sword (+1)
