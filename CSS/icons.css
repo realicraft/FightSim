@@ -3656,7 +3656,7 @@ span.cr_df_flight {
     background-image: var(--icn_file);
     background-position: -16px -0px;
 }
-.html, .web {
+.html, .php, .web {
     background-image: var(--icn_file);
     background-position: -32px -0px;
 }
@@ -3668,7 +3668,7 @@ span.cr_df_flight {
     background-image: var(--icn_file);
     background-position: -64px -0px;
 }
-.gitignore, .settings {
+.gitignore, .ini, .dll, .settings {
     background-image: var(--icn_file);
     background-position: -80px -0px;
 }
@@ -3680,7 +3680,7 @@ span.cr_df_flight {
     background-image: var(--icn_file);
     background-position: -112px -0px;
 }
-.png, .jpeg, .jpg, .gif, .ico, .image {
+.png, .jpeg, .jpg, .gif, .ico, .webp, .bmp, .image {
     background-image: var(--icn_file);
     background-position: -0px -16px;
 }
@@ -3703,6 +3703,34 @@ span.cr_df_flight {
 .json {
     background-image: var(--icn_file);
     background-position: -80px -16px;
+}
+.wav, .mp3, .flp, .flac, .m4a, .ogg, .wma, .audio {
+    background-image: var(--icn_file);
+    background-position: -96px -16px;
+}
+.xml {
+    background-image: var(--icn_file);
+    background-position: -112px -16px;
+}
+.zip, .rar, .tar, .jar, .cab, .archive  {
+    background-image: var(--icn_file);
+    background-position: -0px -32px;
+}
+.mp4, .mov, .webm, .avi, .gifv, .wmv, .video {
+    background-image: var(--icn_file);
+    background-position: -16px -32px;
+}
+.vocals {
+    background-image: var(--icn_file);
+    background-position: -32px -32px;
+}
+.bat, .com, .sh, .vbs, .cmd, .command_line {
+    background-image: var(--icn_file);
+    background-position: -48px -32px;
+}
+.exe, .app, .apk, .application {
+    background-image: var(--icn_file);
+    background-position: -64px -32px;
 }
 /* info (large) */
 .yes, .passed {
