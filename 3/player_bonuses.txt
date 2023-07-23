@@ -66,8 +66,8 @@ Byron:
    Diamond Shield (+1)
   Indirect Attack: (+3.2 +1 perm)
    Iron Sword (+2)
-   Player Level (+1 perm)
    Diamond Band (+1.2)
+   Player Level (+1 perm)
   Direct Attack: (+1)
    Iron Sword (+1)
   Health: (+7)
@@ -112,21 +112,17 @@ LeopardyLeaf:
  Skills:
 gilbert:
  Stats:
-  Direct Attack: (+1)
-   Diamond Pickaxe (+1)
-  Indirect Attack: (+2 +1 perm)
+  Indirect Attack: (+1 +1 perm)
+   Stone Pickaxe (+1)
    Player Level (+1 perm)
-   Diamond Pickaxe (+2)
-  Indirect Defense: (+0.7)
-   LTT Hoodie (+0.7)
+  Direct Defense: (+2)
+   Diamond Chestplate (+2)
   Health: (+4)
    Player Level (+5)
    Liquid Radiation (-1)
-  INT: (+2)
-   LTT Hoodie (+2)
  Skills:
-  Mining: (+3)
-   Diamond Pickaxe (+3)
+  Mining: (+1)
+   Stone Pickaxe (+1)
 TwilightSeleneMisty:
  Stats:
   Indirect Defense: (+1)
@@ -170,15 +166,17 @@ TonyBrown148:
    Emerald Hammer (+2.9)
 Landon:
  Stats:
-  Direct Attack: (+2.1 -0.3 perm)
+  Direct Attack: (+3.1 -0.3 perm)
    Emerald Pickaxe (+1.6)
-   Lucky Block (-0.3 perm)
    Sword Sticker (+0.5)
+   Attack Up (+1)
+   Lucky Block (-0.3 perm)
   Indirect Attack: (+1.8)
    Emerald Pickaxe (+0.8)
    Santa Hat (+1)
-  Direct Defense: (+1 -0.2 perm)
+  Direct Defense: (+2 -0.2 perm)
    Clay Shield (+1)
+   Defense Up (+1)
    Lucky Block (-0.2 perm)
   Indirect Defense: (+2.1)
    Clay Shield (+1)

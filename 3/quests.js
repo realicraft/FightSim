@@ -7,11 +7,11 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [[quest lang_id, number], [claimed], reward, turn]
-    [["chop_birch", 1], [], "75% Chopping", "80"],
-    [["damage_mob", 1], [], "5 HP", "80"],
-    [["die", 1], [], "0.4 Direct Attack", "80"],
+    [["go_chop", 1], [], "75% Chopping, 3 Birch Logs", "81"],
+    [["go_gather", 1], [], "75% Gathering, 1 Item Candy", "81"],
+    [["go_fish", 1], [], "75% Fishing, 1 Old Boot", "81"],
     [["deal_type_damage", 1], [], "10 HP", "80~83"],
-    [["use_skill", 5], [], "3 Bottles o' Enchanting", "80~83"],
+    [["use_skill", 5], [], "3 Bottles o' Enchanting", "80~83"], // byron 1, gilbert 1, solitare 1, landon 2, incendiary 1
     [["interact_enemy", 1], [], "5 Misc EXP", "80~83"],
     [["talk_to_morshu", 1], [], "2 Bombs, 7 Misc EXP"],
     [["equip_gold_food", 1], [], "3 Gold Bars, 150% Farming"],
@@ -26,8 +26,8 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
             ["Incendiary", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Byron", "7 Crops", "7 Misc EXP", "4/7"],
-            ["sparky", "6 Crops", "6 Misc EXP", "7/6"],
+            ["Byron", "8 Crops", "8 Misc EXP", "0/8"],
+            ["sparky", "7 Crops", "7 Misc EXP", "1/6"],
             ["solitare", "2 Crops", "2 Misc EXP", "0/2"],
             ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
             ["Leopardy", "1 Crop", "1 Misc EXP", "0/1"],
@@ -39,7 +39,7 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["Bobby", "1 Crop", "1 Misc EXP", "0/1"],
             ["Tony", "1 Crop", "1 Misc EXP", "0/1"],
             ["Landon", "1 Crop", "1 Misc EXP", "0/1"],
-        ], "75 Harvests (45/75)"
+        ], "75 Harvests (55/75)"
     ],
     ["wiki",
         [
@@ -82,13 +82,16 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["Savvy", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Bobby", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Tony", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["Landon", "2 Use/Equips", "2 Lucky Blocks", "1/2"],
-        ], "75 Uses or Equips (1/75)"
+            ["Landon", "3 Use/Equips", "3 Lucky Blocks", "2/3"],
+        ], "75 Uses or Equips (7/75)"
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Chop a Birch tree.", [], "75% Chopping", "80"],
+        ["Deal damage to a mob.", [], "5 HP", "80"],
+        ["Die.", [], "0.4 Direct Attack", "80"],
         ["Go Fishing.", [], "150% Fishing", "79"],
         ["Fight another player.", [], "4 Misc EXP", "79"],
         ["Deal at least 10 damage at once.", [], "5 HP, 3 Misc EXP", "79"],

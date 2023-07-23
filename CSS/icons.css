@@ -1449,11 +1449,11 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_sticker);
     background-position: -96px -224px;
 }
-.sticker_pack_blue {
+.sticker_pack_cyan {
     background-image: var(--icn_sticker);
     background-position: -128px -224px;
 }
-.sticker_pack_cyan {
+.sticker_pack_blue {
     background-image: var(--icn_sticker);
     background-position: -160px -224px;
 }
@@ -1670,8 +1670,8 @@ span.mini_cont span.mini_icon {
     background-position: -64px -96px;
 }
 .ice_egg {
-    background-image: var(--icn_misc);
-    background-position: -32px -192px;
+    background-image: var(--icn_egg);
+    background-position: -160px -224px;
 }
 .chocolate_bar {
     background-image:var(--icn_candy);
@@ -2921,6 +2921,14 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_food);
     background-position: -192px -0px;
 }
+.firework {
+    background-image: var(--icn_misc);
+    background-position: -128px -224px;
+}
+.ice_cream_cake_slice {
+    background-image: var(--icn_cake);
+    background-position: -160px -0px;
+}
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
 span.cr_hp_4, span.cr_hp_5, span.cr_hp_6, span.cr_hp_7, 
@@ -3664,7 +3672,7 @@ span.cr_df_flight {
     background-image: var(--icn_file);
     background-position: -48px -0px;
 }
-.txt, .text {
+.txt, .csv, .rtf, .text {
     background-image: var(--icn_file);
     background-position: -64px -0px;
 }
@@ -3731,6 +3739,10 @@ span.cr_df_flight {
 .exe, .app, .apk, .application {
     background-image: var(--icn_file);
     background-position: -64px -32px;
+}
+.lnk, .desktop, .shortcut {
+    background-image: var(--icn_file);
+    background-position: -80px -32px;
 }
 /* info (large) */
 .yes, .passed {

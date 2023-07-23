@@ -2355,5 +2355,26 @@
     "info.fishing.excellent": "Excellent Fish",
     "info.fishing.treasure": "Treasure",
 
-    "info.skill_bonus.all.5": "Critical Misses no longer destroy or damage what's being worked on."
+    "info.skill_bonus.all.5": "Critical Misses no longer destroy or damage what's being worked on.",
+
+    "glyphs.1.verb1": "gain",
+    "glyphs.1.noun1": "gaining",
+    "glyphs.11.verb1": "shock",
+    "glyphs.11.verb2": "charge",
+    "glyphs.11.noun1": "electricity",
+    "glyphs.11.noun2": "Electric",
+    "glyphs.14.adjective1": "large",
+    "glyphs.14.verb1": "enlarge",
+    "glyphs.15.verb1": "learn",
+    "glyphs.15.noun1": "experience",
+    "glyphs.21.verb1": "encase",
+    "glyphs.21.noun1": "rocks",
+    "glyphs.21.noun2": "ores",
+    "glyphs.24.verb1": "recruit",
+    "glyphs.24.noun1": "ally",
+    "glyphs.29.verb1": "pie",
+    "glyphs.29.noun1": "pie",
+    "glyphs.29.noun2": "pi",
+
+    "glyphbook.page_missing.text": "The pages for this glyph appear to be missing."
 }

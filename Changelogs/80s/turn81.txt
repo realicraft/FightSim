@@ -1,0 +1,47 @@
+Changelog for Turn 
+
+Items
+- weird egg now uses the icon in egg_sheet instead of misc_sheet
+- added a slice of ice cream cake
+- added a firework
+- fixed a few transparent pixels in the apple sticker icons
+- finished the sticker pack icons
+- swapped the positions of the icons for the blue and cyan sticker packs
+
+Crafting
+- added a firework recipe
+
+Structures
+- removed the "experience" category from the treasure chest
+- added a purple slime ball to the mob drops category of the treasure chest
+
+Scrolls
+- added a new glyph (39)
+- exported a new glyph (38)
+- adjusted glyph 34
+- redid glyph 37
+
+Helpers
+- updated the wiki recipe generator slightly to account for the recipe redesign
+
+Translations
+- added a few unused strings to en_us
+
+Icon Sets
+- respirte: started working on food_sheet (empty/milk bucket, butter, powders, kept fried egg and beetroot soup)
+- resprite: started working on mc_vanilla_sheet (added an enchanted book)
+- resprite: started working on armor_tiered_sheet (moved icons from equip_sheet_plan)
+- resprite: continued working on block_sheet (dirt, grass, sand, gravel)
+- resprite: continued working on icons_sheet (paralyzed)
+- resprite: continued working on misc_sheet (book, firework, paper, fabric, all powders except nitro dust)
+- resprite: continued working on ore_sheet (gold dust)
+- resprite: continued working on wood_sheet (spruce and jungle)
+- cga: updated cake_sheet (chocolate cake, ice cream cake)
+- cga: updated crop_sheet (strawberries)
+- cga: updated egg_sheet (new easter eggs, ice egg)
+- cga: continued working on food_sheet (all remaining icons except pumpkins)
+
+Misc
+- cake_sheet now has a seperate layer for decor
+- removed the now-unused copy of the ice egg icon from misc_sheet
+- added a shortcut icon to file_sheet

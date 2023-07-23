@@ -926,4 +926,6 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Bowl of Beetroot Soup", "beetroot_soup", "A bowl of soup, made with beetroot.", "Cooking", "Counts as 2 servings<br />+7 HP per serving", [10,30], 1, 14], //0
         ["Half-Empty Bowl of Beetroot Soup", "beetroot_soup_half", "A half-empty bowl of soup, made with beetroot.", "Cooking", "Counts as 1 serving<br />+7 HP per serving", [10,30], 1, 6], //1
     ], //724
+    [["Slice of Ice Cream Cake", "ice_cream_cake_slice", "A slice of cookies-and-cream ice cream cake. Was it someone's birthday or something?", "Birthday", "Consume for +5 HP", [10,12,29,30], 4, 0]], //725
+    [["Firework", "firework", "A firework. You can light it up to make it explode in the sky. Or you could put it in a crossbow.", "Crafting", "Can be lit up<br />Use it with a Crossbow", [20,49,54], 1, 8]], //726
 ]

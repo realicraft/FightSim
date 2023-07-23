@@ -96,7 +96,7 @@ var run_rand = function() {
 }
 
 /* Recipe Converter */
-var generate_recipe = function(recipe) {
+var generate_craft_recipe = function(recipe) {
     var output = "|-\n| "
     for (var i=0; i < 6; i++) {
         if (recipe[i+2][0] == 0) {
@@ -108,7 +108,7 @@ var generate_recipe = function(recipe) {
         if (recipe[i+2][0] == 225) {output += " [[Fuel]]"}
         else {output += " [[" + equiplist[recipe[i+2][0]][recipe[i+2][1]][0] + "]]"}
     }
-    output += " || {{Recipe"
+    output += " || {{Craft Recipe"
     for (var i=0; i < 6; i++) {
         if (recipe[i+2][0] == 0) {
             i = 6;
@@ -132,12 +132,27 @@ var run_recipe = function() {
     var outputEl = document.getElementById("recipe_out");
     var id = parseInt(idEl.value);
     var outputCont = ""
-    for (var i in recipelist) {
-        for (var j in recipelist[i]) {
-            if ((recipelist[i][j][2][0] == id) || (recipelist[i][j][3][0] == id) || (recipelist[i][j][4][0] == id) || (recipelist[i][j][5][0] == id) || (recipelist[i][j][6][0] == id) || (recipelist[i][j][7][0] == id) || (recipelist[i][j][9][0] == id)) {
-                outputCont += generate_recipe(recipelist[i][j]) + "\n";
+    // crafting
+    var outputPart = ""
+    var cat = "crafting"
+    for (var i in recipelist[cat]) {
+        for (var j in recipelist[cat][i]) {
+            if ((recipelist[cat][i][j][2][0] == id) || (recipelist[cat][i][j][3][0] == id) || (recipelist[cat][i][j][4][0] == id) || (recipelist[cat][i][j][5][0] == id) || (recipelist[cat][i][j][6][0] == id) || (recipelist[cat][i][j][7][0] == id) || (recipelist[cat][i][j][9][0] == id)) {
+                outputPart += generate_craft_recipe(recipelist[cat][i][j]) + "\n";
             }
         }
     }
+    if (outputPart != "") {outputCont += "[Crafting]\n\n" + outputPart + "\n\n\n"}
+    // cooking
+    var outputPart = ""
+    var cat = "cooking"
+    for (var i in recipelist[cat]) {
+        for (var j in recipelist[cat][i]) {
+            if ((recipelist[cat][i][j][2][0] == id) || (recipelist[cat][i][j][3][0] == id) || (recipelist[cat][i][j][4][0] == id) || (recipelist[cat][i][j][5][0] == id) || (recipelist[cat][i][j][6][0] == id) || (recipelist[cat][i][j][7][0] == id) || (recipelist[cat][i][j][9][0] == id)) {
+                outputPart += generate_craft_recipe(recipelist[cat][i][j]) + "\n";
+            }
+        }
+    }
+    if (outputPart != "") {outputCont += "[Cooking]\n\n" + outputPart + "\n\n\n"}
     outputEl.value = outputCont;
 }

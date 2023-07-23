@@ -15,7 +15,7 @@
     --icn_plant: url("../Icons/Exported/plant_sheet.png");
     --icn_color: url("../Icons/Exported/colorable_sheet.png");
     --icn_alch: url("../Icons/Resprite/alchemy_sheet.png");
-    --icn_food: url("../Icons/Exported/food_sheet.png");
+    --icn_food: url("../Icons/Resprite/food_sheet.png");
     --icn_fish: url("../Icons/Exported/fish_sheet.png");
     --icn_candy: url("../Icons/Exported/candy_sheet.png");
     --icn_sticker: url("../Icons/Exported/sticker_sheet.png");
@@ -27,7 +27,7 @@
     --icn_scroll: url("../Icons/Exported/scroll_sheet.png"); /* unchanged */
     --icn_egg: url("../Icons/Exported/egg_sheet.png");
     --icn_file: url("../Icons/Exported/file_sheet.png"); /* unchanged */
-    --icn_armortier: url("../Icons/Exported/armor_tiered_sheet.png");
+    --icn_armortier: url("../Icons/Resprite/armor_tiered_sheet.png");
     --icn_armormisc: url("../Icons/Exported/armor_misc_sheet.png");
     --icn_weapontier: url("../Icons/Exported/weapons_tiered_sheet.png");
     --icn_weaponmisc: url("../Icons/Exported/weapons_misc_sheet.png");
