@@ -2304,7 +2304,7 @@ span.mini_cont span.mini_icon {
 }
 .butter_corn {
     background-image: var(--icn_food);
-    background-position: -128px -160px;
+    background-position: -224px -0px;
 }
 .wallet {
     background-image: var(--icn_misc);
@@ -2929,11 +2929,75 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_cake);
     background-position: -160px -0px;
 }
+.oak_button {
+    background-image: var(--icn_wood);
+    background-position: -0px -320px;
+}
+.birch_button {
+    background-image: var(--icn_wood);
+    background-position: -32px -320px;
+}
+.spruce_button {
+    background-image: var(--icn_wood);
+    background-position: -64px -320px;
+}
+.acacia_button {
+    background-image: var(--icn_wood);
+    background-position: -128px -320px;
+}
+.dark_oak_button {
+    background-image: var(--icn_wood);
+    background-position: -192px -320px;
+}
+.jungle_button {
+    background-image: var(--icn_wood);
+    background-position: -224px -320px;
+}
+.golden.apple_juice {
+    background-image: var(--icn_food);
+    background-position: -128px -160px;
+}
+.melon_juice {
+    background-image: var(--icn_food);
+    background-position: -96px -160px;
+}
+.pumpkin_juice {
+    background-image: var(--icn_food);
+    background-position: -64px -160px;
+}
+.melon_slice {
+    background-image: var(--icn_food);
+    background-position: -64px -64px;
+}
+.bandage {
+    background-image: var(--icn_armormisc);
+    background-position: -64px -32px;
+}
+.sunglasses {
+    background-image: var(--icn_armormisc);
+    background-position: -128px -32px;
+}
+.eyepatch {
+    background-image: var(--icn_armormisc);
+    background-position: -160px -32px;
+}
+.miners_helmet {
+    background-image: var(--icn_armormisc);
+    background-position: -192px -32px;
+}
+.led {
+    background-image: var(--icn_misc);
+    background-position: -64px -96px;
+}
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
 span.cr_hp_4, span.cr_hp_5, span.cr_hp_6, span.cr_hp_7, 
 span.cr_hp_8, span.cr_hp_9, span.cr_hp_10, span.cr_hp_11, 
 span.cr_hp_12, span.cr_hp_13, span.cr_hp_14, span.cr_hp_15, 
+span.cr_mhp_0, span.cr_mhp_1, span.cr_mhp_2, span.cr_mhp_3, 
+span.cr_mhp_4, span.cr_mhp_5, span.cr_mhp_6, span.cr_mhp_7, 
+span.cr_mhp_8, span.cr_mhp_9, span.cr_mhp_10, span.cr_mhp_11, 
+span.cr_mhp_12, span.cr_mhp_13, span.cr_mhp_14, span.cr_mhp_15, 
 span.cr_atk_0, span.cr_atk_1, span.cr_atk_2, span.cr_atk_3, 
 span.cr_atk_4, span.cr_atk_5, span.cr_atk_6, span.cr_atk_7, 
 span.cr_atk_8, span.cr_atk_9, span.cr_atk_10, span.cr_atk_11, 
@@ -2942,243 +3006,353 @@ span.cr_def_0, span.cr_def_1, span.cr_def_2, span.cr_def_3,
 span.cr_def_4, span.cr_def_5, span.cr_def_6, span.cr_def_7, 
 span.cr_def_8, span.cr_def_9, span.cr_def_10, span.cr_def_11, 
 span.cr_def_12, span.cr_def_13, span.cr_def_14, span.cr_def_15, 
-span.cr_type_bug, span.cr_type_bird, span.cr_type_prey, span.cr_type_pred, span.cr_type_fish, span.cr_type_sea {
+span.cr_type_bug, span.cr_type_bird, span.cr_type_prey, span.cr_type_pred, span.cr_type_fish, span.cr_type_sea,
+span.cr_align_normal, span.cr_align_fire, span.cr_align_water, span.cr_align_electric, 
+span.cr_align_plant, span.cr_align_ice, span.cr_align_light, span.cr_align_dark, span.cr_align_none {
     width: 32px;
     height: 16px;
 }
 span.cr_ab_agile,
 span.cr_of_bite,
 span.cr_df_flight {
-    width: 64px;
+    width: 96px;
     height: 48px;
 }
+span.cr_colouric {
+    width: 16px;
+    height: 16px;
+}
 .cr_hp_0 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -0px;
 }
 .cr_hp_1 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -16px;
 }
 .cr_hp_2 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -32px;
 }
 .cr_hp_3 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -48px;
 }
 .cr_hp_4 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -64px;
 }
 .cr_hp_5 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -80px;
 }
 .cr_hp_6 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -96px;
 }
 .cr_hp_7 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -112px;
 }
 .cr_hp_8 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -128px;
 }
 .cr_hp_9 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -144px;
 }
 .cr_hp_10 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -160px;
 }
 .cr_hp_11 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -176px;
 }
 .cr_hp_12 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -196px;
 }
 .cr_hp_13 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -208px;
 }
 .cr_hp_14 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -224px;
 }
 .cr_hp_15 {
-    background-image: var(--icn_c_desc);
+    background-image: var(--icn_cd_small);
     background-position: -0px -240px;
 }
-.cr_atk_0 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_0 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -0px;
 }
-.cr_atk_1 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_1 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -16px;
 }
-.cr_atk_2 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_2 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -32px;
 }
-.cr_atk_3 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_3 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -48px;
 }
-.cr_atk_4 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_4 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -64px;
 }
-.cr_atk_5 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_5 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -80px;
 }
-.cr_atk_6 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_6 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -96px;
 }
-.cr_atk_7 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_7 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -112px;
 }
-.cr_atk_8 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_8 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -128px;
 }
-.cr_atk_9 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_9 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -144px;
 }
-.cr_atk_10 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_10 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -160px;
 }
-.cr_atk_11 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_11 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -176px;
 }
-.cr_atk_12 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_12 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -196px;
 }
-.cr_atk_13 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_13 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -208px;
 }
-.cr_atk_14 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_14 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -224px;
 }
-.cr_atk_15 {
-    background-image: var(--icn_c_desc);
+.cr_mhp_15 {
+    background-image: var(--icn_cd_small);
     background-position: -32px -240px;
 }
-.cr_def_0 {
-    background-image: var(--icn_c_desc);
+.cr_atk_0 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -0px;
 }
-.cr_def_1 {
-    background-image: var(--icn_c_desc);
+.cr_atk_1 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -16px;
 }
-.cr_def_2 {
-    background-image: var(--icn_c_desc);
+.cr_atk_2 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -32px;
 }
-.cr_def_3 {
-    background-image: var(--icn_c_desc);
+.cr_atk_3 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -48px;
 }
-.cr_def_4 {
-    background-image: var(--icn_c_desc);
+.cr_atk_4 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -64px;
 }
-.cr_def_5 {
-    background-image: var(--icn_c_desc);
+.cr_atk_5 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -80px;
 }
-.cr_def_6 {
-    background-image: var(--icn_c_desc);
+.cr_atk_6 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -96px;
 }
-.cr_def_7 {
-    background-image: var(--icn_c_desc);
+.cr_atk_7 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -112px;
 }
-.cr_def_8 {
-    background-image: var(--icn_c_desc);
+.cr_atk_8 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -128px;
 }
-.cr_def_9 {
-    background-image: var(--icn_c_desc);
+.cr_atk_9 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -144px;
 }
-.cr_def_10 {
-    background-image: var(--icn_c_desc);
+.cr_atk_10 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -160px;
 }
-.cr_def_11 {
-    background-image: var(--icn_c_desc);
+.cr_atk_11 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -176px;
 }
-.cr_def_12 {
-    background-image: var(--icn_c_desc);
+.cr_atk_12 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -196px;
 }
-.cr_def_13 {
-    background-image: var(--icn_c_desc);
+.cr_atk_13 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -208px;
 }
-.cr_def_14 {
-    background-image: var(--icn_c_desc);
+.cr_atk_14 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -224px;
 }
-.cr_def_15 {
-    background-image: var(--icn_c_desc);
+.cr_atk_15 {
+    background-image: var(--icn_cd_small);
     background-position: -64px -240px;
 }
-.cr_type_bug {
-    background-image: var(--icn_c_desc);
+.cr_def_0 {
+    background-image: var(--icn_cd_small);
     background-position: -96px -0px;
 }
-.cr_type_bird {
-    background-image: var(--icn_c_desc);
+.cr_def_1 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -16px;
+}
+.cr_def_2 {
+    background-image: var(--icn_cd_small);
     background-position: -96px -32px;
 }
-.cr_type_prey {
-    background-image: var(--icn_c_desc);
+.cr_def_3 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -48px;
+}
+.cr_def_4 {
+    background-image: var(--icn_cd_small);
     background-position: -96px -64px;
 }
-.cr_type_pred {
-    background-image: var(--icn_c_desc);
+.cr_def_5 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -80px;
+}
+.cr_def_6 {
+    background-image: var(--icn_cd_small);
     background-position: -96px -96px;
 }
-.cr_type_fish {
-    background-image: var(--icn_c_desc);
+.cr_def_7 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -112px;
+}
+.cr_def_8 {
+    background-image: var(--icn_cd_small);
     background-position: -96px -128px;
 }
-.cr_type_sea {
-    background-image: var(--icn_c_desc);
+.cr_def_9 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -144px;
+}
+.cr_def_10 {
+    background-image: var(--icn_cd_small);
     background-position: -96px -160px;
 }
-.cr_ab_agile {
-    background-image: var(--icn_c_desc);
+.cr_def_11 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -176px;
+}
+.cr_def_12 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -196px;
+}
+.cr_def_13 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -208px;
+}
+.cr_def_14 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -224px;
+}
+.cr_def_15 {
+    background-image: var(--icn_cd_small);
+    background-position: -96px -240px;
+}
+.cr_type_bug {
+    background-image: var(--icn_cd_small);
     background-position: -128px -0px;
 }
+.cr_type_bird {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -16px;
+}
+.cr_type_prey {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -32px;
+}
+.cr_type_pred {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -48px;
+}
+.cr_type_fish {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -64px;
+}
+.cr_type_sea {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -80px;
+}
+.cr_align_normal {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -96px;
+}
+.cr_align_fire {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -112px;
+}
+.cr_align_water {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -128px;
+}
+.cr_align_electric {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -144px;
+}
+.cr_align_plant {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -160px;
+}
+.cr_align_ice {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -176px;
+}
+.cr_align_light {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -192px;
+}
+.cr_align_dark {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -208px;
+}
+.cr_align_none {
+    background-image: var(--icn_cd_small);
+    background-position: -128px -224px;
+}
+.cr_colouric {
+    background-image: var(--icn_cd_small);
+    background-position: -144px -240px;
+}
+.cr_ab_agile {
+    background-image: var(--icn_cd_large);
+    background-position: -0px -32px;
+}
 .cr_of_bite {
-    background-image: var(--icn_c_desc);
-    background-position: -192px -0px;
+    background-image: var(--icn_cd_large);
+    background-position: -96px -32px;
 }
 .cr_df_flight {
-    background-image: var(--icn_c_desc);
-    background-position: -256px -0px;
+    background-image: var(--icn_cd_large);
+    background-position: -192px -32px;
 }
 /* upgrades */
 .upgrade_none {

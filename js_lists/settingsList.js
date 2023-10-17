@@ -1,8 +1,14 @@
 var settingslist = [ // [section lang_str, [cookie id, lang_str id, has_desc, type, default, values]]
     [
         "settings.headers.general", [
-            ["min_ico", "settings.mini_icons_item", true, "bool", false, ""],
             ["sans", "settings.comic_sans", true, "bool", false, ""],
+            ["splashes", "settings.splashes_anywhere", true, "bool", false, ""],
+        ]
+    ],
+    [
+        "settings.headers.access", [
+            ["min_ico", "settings.mini_icons_item", true, "bool", false, ""],
+            /*["critter_plain", "settings.plain_critter_descs", true, "bool", false, ""],*/
         ]
     ],
     [
@@ -33,7 +39,7 @@ var themelist = [ // [id]
 var iconsetlist = [ // [id]
     ["default"],
     ["cga"],
-    //["cga4"],
+    //["ega"],
     //["lowcolor"],
     ["plastic"],
     ["resprite"],

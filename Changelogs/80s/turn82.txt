@@ -1,0 +1,107 @@
+Changelog for Turn 82
+
+Mobs
+- 
+
+Items
+- items can now use functions in place of raw strings
+- critters now show max hp as well as current hp
+- critters now have elemental alignments
+- critters now display whether they are colouric
+- widened the boxes for critter moves, and added icons in the upper-right corners
+- the fuel units item now uses functions for its name and description, allowing for an arbitrary number of fuel units
+- removed the food and consumable categories from carved pumpkins and jack o'lanterns
+- pineapple juice now heals 1.5 hp
+- melons and pumpkins now heal 4/8 hp per serving (normal/ripe)
+- added melon slices
+- added juices for golden apples, melons, and pumpkins
+- added a rubber chunk
+- added an old tire and a chunk of tire
+- added an eyepatch, a pair of sunglasses, and a miner helmet
+- added an led
+- changed the icons for some juices so that they all have taller lables (except lemon/lime juice)
+- the icon for cherry juice now shows two cherries
+- adjusted the icon for tomato juice
+- redid the icon for apple juice
+- wooden buttons now have icons
+- added icons for a silverfish and a yellow jellyfish
+
+Crafting
+- added recipes for the eyepatch, sunglasses, and miner's helmet
+- added a recipe for leds
+- added recipes for golden apple juice, pumpkin juice, and melon juice
+- added a rubber section
+
+Effects
+- 
+
+Structures
+- 
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- the gardens page now passes stack counts of 1 to items in the crop display, rather than an empty string
+
+Quests
+- 
+
+Phone System
+- 
+
+Helpers
+- replace double list entries can now specify whether to parse their contents or not (this is not fully functional)
+
+Votes
+- 
+
+Translations
+- added strings for critters
+- removed the fly strings from the item strings
+- added strings for the new settings
+- added strings for the root header
+- replaced the fuel unit strings
+- es_es: changed the translation of the peach crop to "Melocotón"
+- es_es: added strings for elements and critter types
+
+Splashes
+- added splashes
+- there are currently 105 splashes, plus 8 commented out splashes
+- some splashes only occur on certain weekdays or holidays
+- some splashes are just rarer
+
+Themes
+- 
+
+Icon Sets
+- split critter_desc_sheet into two seperate sheets
+- widened the boxes used for critter abilities, offensives, and defensives
+- cga: updated fish_sheet (silverfish, yellow jellyfish)
+- classic: continued working on wood_sheet (spruce and jungle, buttons and minecraft plank textures)
+- resprite: continued working on crop_sheet (adjusted the leaf of the apple and golden apple)
+- resprite: continued working on mc_vanilla_sheet (blaze powder, kept glow berries and sweer berries)
+
+Settings
+- split the general section into a general section and an accessibility section
+- added a setting for displaying splashes anywhere
+
+Internal
+- simplified how tt() picks what to pass into tooltip()
+- renamed the as_cats variable in tt() to assembled_cats
+- split allpages.js into three files; common_allpages.js, stored in the root folder and used across the site, 3/allpages.js, only used for the fs3 pages, and allpages.js, only used for the root index
+- edited every html file to account for this
+- added a small text class
+
+Misc
+- fixed some lucky blocks not having defined luck values
+- added icons to mc_vanilla_sheet for glow berries and sweet berries
+- added icons to mc_modded_sheet1 for glow berry juice and sweet berry juice
+- the creative inventory page now passes a stack count of 1 to items, rather than an empty string
+- moved the icon for buttered corn to a different spot of food_sheet
+- added a dedicated logo image for the root index
+- added an image of a tree to the icons folder (i liked it and wanted to save it)
+- added new entries to replaceList to account for the move to SMF

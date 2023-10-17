@@ -7,11 +7,11 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [[quest lang_id, number], [claimed], reward, turn]
-    [["go_chop", 1], [], "75% Chopping, 3 Birch Logs", "81"],
-    [["go_gather", 1], [], "75% Gathering, 1 Item Candy", "81"],
-    [["go_fish", 1], [], "75% Fishing, 1 Old Boot", "81"],
+    [["obtain_sticker", 1], [], "Sword Sticker, 2 Misc EXP", "82"],
+    [["go_dig", 1], [], "3 Gravel, 125% Digging", "82"],
+    [["consume_item", 1], [], "1 Item Candy, 3 Misc EXP", "82"],
     [["deal_type_damage", 1], [], "10 HP", "80~83"],
-    [["use_skill", 5], [], "3 Bottles o' Enchanting", "80~83"], // byron 1, gilbert 1, solitare 1, landon 2, incendiary 1
+    [["use_skill", 5], [], "3 Bottles o' Enchanting", "80~83"], // byron 1, gilbert 3, solitare 1, landon 4, incendiary 4, sparky 1
     [["interact_enemy", 1], [], "5 Misc EXP", "80~83"],
     [["talk_to_morshu", 1], [], "2 Bombs, 7 Misc EXP"],
     [["equip_gold_food", 1], [], "3 Gold Bars, 150% Farming"],
@@ -35,7 +35,7 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["Twilight", "3 Crops", "3 Misc EXP", "0/3"],
             ["Luigi", "1 Crop", "1 Misc EXP", "0/1"],
             /*["Kitty", "1 Crop", "1 Misc EXP", "0/1"],*/
-            ["Savvy", "1 Crop", "1 Misc EXP", "0/1"],
+            /*["Savvy", "1 Crop", "1 Misc EXP", "0/1"],*/
             ["Bobby", "1 Crop", "1 Misc EXP", "0/1"],
             ["Tony", "1 Crop", "1 Misc EXP", "0/1"],
             ["Landon", "1 Crop", "1 Misc EXP", "0/1"],
@@ -47,7 +47,7 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["S.&nbsp;McSause", "10 Edits", "1 Skill Candy", "0/10"],
             ["Cats.", "10 Edits", "1 Skill Candy", "0/10"],
             ["Squirrelflight", "10 Edits", "1 Skill Candy", "0/10"],
-            ["Incendiary", "10 Edits", "1 Skill Candy", "0/10"],
+            ["Incendiary", "10 Edits", "1 Skill Candy", "3/10"],
             ["Byron", "10 Edits", "1 Skill Candy", "5/10"],
             ["sparky", "10 Edits", "1 Skill Candy", "0/10"],
             ["solitare", "10 Edits", "1 Skill Candy", "0/10"],
@@ -57,11 +57,11 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["Twilight", "10 Edits", "1 Skill Candy", "0/10"],
             ["Luigi", "10 Edits", "1 Skill Candy", "0/10"],
             /*["Kitty", "10 Edits", "1 Skill Candy", "0/10"],*/
-            ["Savvy", "10 Edits", "1 Skill Candy", "0/10"],
+            /*["Savvy", "10 Edits", "1 Skill Candy", "0/10"],*/
             ["Bobby", "10 Edits", "1 Skill Candy", "0/10"],
             ["Tony", "10 Edits", "1 Skill Candy", "5/10"],
             ["Landon", "10 Edits", "1 Skill Candy", "0/10"],
-        ], "500 Edits (10/500)"
+        ], "500 Edits (13/500)"
     ],
     ["use",
         [
@@ -79,7 +79,7 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["Twilight", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Luigi", "1 Use/Equip", "1 Lucky Block", "0/1"],
             /*["Kitty", "1 Use/Equip", "1 Lucky Block", "0/1"],*/
-            ["Savvy", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            /*["Savvy", "1 Use/Equip", "1 Lucky Block", "0/1"],*/
             ["Bobby", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Tony", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Landon", "3 Use/Equips", "3 Lucky Blocks", "2/3"],
@@ -89,6 +89,9 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go Chopping.", ["Incendiary"], "75% Chopping, 3 Birch Logs", "81"],
+        ["Go Gathering.", ["Landon"], "75% Gathering, 1 Item Candy", "81"],
+        ["Go Fishing.", [], "75% Fishing, 1 Old Boot", "81"],
         ["Chop a Birch tree.", [], "75% Chopping", "80"],
         ["Deal damage to a mob.", [], "5 HP", "80"],
         ["Die.", [], "0.4 Direct Attack", "80"],

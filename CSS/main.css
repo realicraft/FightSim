@@ -226,3 +226,23 @@ span.phone_number, span.phone_num {
     color: var(--phone_number);
 
 }
+.small_text {
+    font-family: "FightStack";
+    font-size: 9px;
+}
+.small_text h3, .small_text h2 {
+    font-weight: bold;
+    font-size: 9px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.small_text h1 {
+    font-family: "FightSim 12";
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+#splash_span {
+    color: var(--splash_text);
+}

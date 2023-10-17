@@ -1,0 +1,188 @@
+Turn 82 - skeledop
+this post looks like it'll be long
+{hr2}
+Luigi is no longer considered AFK.
+{hr2}
+[quote=Orb Fish][quote=realicraft]† You should really figure out what MS4 is. I suggest peeking through files and calling people.[/quote]
+[img] https://assets.scratch.mit.edu/get_image/.%2E/86636bc392e21a5754e64c4f1838b177.png [/img]
+This has been happening for a few turns. Besides, I've long figured out what all three of the mystery skills are.
+
+POST #1
+
+Who left a diamond on the floor? Pick up the Diamond, Emerald and Carrot.
+Drop the Feathers and Sunflowers.
+Harvest my carrots, I guess. I might need them.[/quote]
+{s|(editor's note: i cannot see that image)}
+(later editor's note: i had to embed the image in html to see it (via using devtools on about:blank), and i don't know what's going on in that image; where is that from?)
+(later editor's note 2: i wrote the first note before bbcode was reenabled, and i did not think about viewing your post on the new forum until after i started writing the first later note)
+Are you sure you've figured out the mystery skills? Maybe try using one to see if you're right.
+You pick up some items.
+You drop some items.
+You harvest your carrots.
+Skill roll: 1d20 = {red|2}
+You fail to harvest any Carrots. You still replant them, though. (Your Farming skill has gone up by 15%.)
+{hr2}
+[quote=gilbert_given_TBG]With my diamond sword, [i]lightly[/i] poke 3 random players.
+
+For fun :D[/quote]
+You lightly poke three players.
+Target rolls: 3d6 = 1, 5, 5
+You poke Reali, then solitaire, and then solitaire again, dealing 1 damage each time.
+{hr2}
+[quote=gilbert_given_TBG]I just realized there's a freaking dragon now.
+
+Anyway, it's been a while since I used the Esolang so I guess I'll use it again.
+
+Then I do some mining. Then I do some mining.[/quote]
+Why yes, there is in fact a dragon on this island.
+You use the Esolang.
+Skill roll: 1d65+10 = 39+10 = 49
+{esocode|global/func/output/print.dict<((global/fs3/npcs/trisland/{{2}}))>:}{esowarn|warn] global/fs3/npcs/trisland/{{2}}.name is protected and cannot be accessed (protection comment is 'figure it out yourself")}{esooutput|[
+    'name";'";;
+    'species";'Dragon";;
+    'gender";'male";;
+    'align";((global/fs2/types.normal));;
+    'age";{0};;
+    'agelocked";Yes;;
+    'hp";['current";{7};;'max";{30};;];;
+    'atk";['current";{3};;'base";{3};;];;
+    'def";['current";{3};;'base";{3};;];;
+    'kills";{8};;
+    'deaths";{3};;
+    'skills";();;
+    'effects";();;
+    'inven";(
+        ({0},{0},{0},[]),
+        ({0},{0},{0},[]),
+        ({0},{0},{0},[]),
+        ({0},{0},{0},[]),
+        ({0},{0},{0},[]),
+        ({0},{0},{0},[]),
+        ({0},{0},{0},[]),
+    );;
+    'phone";{84278};;
+]}
+...huh. So that's what dictionaries and lists look like.
+Other than that, there doesn't seem to be much here that's helpful, especially since you aren't allowed to get his name for some reason. Maybe you could decode the phone number mnemonic?*
+...also, {i|wow}, how'd this guy get {i|eight} kills? (Your skill with the esolang increases by 4.)
+You go Mining twice.
+Skill roll: 2d20+4 = {red|3}, 10 = {red|7}, 14
+You mine 3+1={b|4} Stone, 2 Iron Ore, 1 Electrum Ore, 1 Diamond, 1 Emerald, and 1 Geode. (Your Mining skill has gone up by 60%.)
+{hr2}
+[quote=Incendiary]Maybe be a little nicer with your action suggestions? You come across as quite passive-aggressive. 
+
+POST #1
+
+I can probably claim that chopping one from last turn, if not I'll go chopping again and claim it. Once I return home, I craft 4 oak planks, use those to make sticks, and craft a full set of diamond armour, a diamond sword, a diamond pickaxe, a diamond axe, a diamond trowel and a diamond hammer. If my math is right, which it is, I should have enough diamonds for everything. Ignore the diamond band, I'll make one of emerald instead.[/quote]
+Could you be more specific about that? It's late September as I'm writing the results of this post**, so I don't really know what this could be referring to.
+You went Chopping for oak wood (the default) last turn, but the quest asked for {i|birch} wood.
+You go Chopping.
+Skill roll: 1d20+2 = {red|3}+2 = {red|5}
+You get a Birch Log and 2 sticks. (Your Chopping skill has gone up by 25%.)
+You've completed a quest! (Go Chopping.) You've obtained 75% Chopping, 3 Birch Logs, and 2 Misc EXP.
+You craft 1 Oak Log into 4 Oak Planks, which you then craft into 8 Sticks.
+You then use 24 Diamonds and 8 Sticks to craft a whole bunch of stuff.
+You also use 2 Emeralds to make an Emerald Band. (Your Crafting level has gone up by 291%. Your Crafting skill leveled up!)
+{hr2}
+[quote=Luigis_Pizza]Post #1
+
+I take a random item from the chest[/quote]
+You take an item from the Treasure Chest.
+Category roll: 1d8 = 5
+Item roll: 1d81 = 38
+You get a Carrot Sticker.
+{hr2}
+[quote=Orb Fish]I'm leaving the dragon nameless for now. If Farosh and Naydra show up on the scene without a Fire-type dropping by, I know what I'm naming him.
+
+POST #2
+
+Go gathering for even more Sleep Shrooms. Please don't ask why.
+Craft more Sleep Powder.[/quote]
+Huh??
+You go gathering for some Sleep Shrooms to use for a {i|mysterious} process that I won't ask about, as per your request.
+Paralysis roll: 1d4 = 2
+Skill roll: 1d20+4 = 9+4 = 13
+You find two Sleep Shrooms. (Your Gathering skill has gone up by 55%.)
+You've completed a quest! (Go Gathering.) You've obtained 75% Gathering, 1 Item Candy, and 2 Misc EXP.
+You craft the two Sleep Shrooms into 4 Sleep Powder. (Your Crafting skill has gone up by 18%.)
+{hr2}
+[quote=Incendiary]POST #2
+
+I plant some wheat and apples, then finish off any remaining progress for my fortress's outer walls.[/quote]
+You plant some Wheat and an Apple Tree.
+You work on the Outer Walls.
+Skill roll: 1d20+8 = 14+8 = 22
+You finish the Outer Walls. (7/7) (Your Construction skill has gone up by 80%.)
+{hr2}
+[quote=sparkycinnamon]Harvest my corn, cabbage, and radishes.[/quote]
+You harvest your crops.
+Skill rolls: 3d20+11 = 11, 9, 10 = 22, 20, 21
+You harvest 6 Cobs of Corn, 1 Golden Cob of Corn, 6 Ripe Cabbages, 1 Golden Cabbage, 6 Ripe Radishes, and 1 Golden Radish. (Your Farming skill has gone up by 120%.)
+{hr2}
+[quote=Luigis_Pizza]Post #2
+
+I pick up a Stone Axe from the Dropped Items[/quote]
+You pick up the Stone Axe.
+{hr2}
+Plants grow.
+Byron's Golden Apple Tree is ripe, not that that matters much, given that golden crops can't be ripe.
+Byron's Wheat is also ripe.
+Reali's Carrots continue to mush.
+
+Mob action rolls: 10d6 = 3, 3, 3, {crhit|6}, {crhit|6}, {crmiss|1}, {crmiss|1}, 4, 3, 2
+The second Sheep emits a block of Wool.
+The second Pig digs up a Red Mushroom.
+The Blue Slime falls into a random hole, and takes 3 damage.
+The first Zombie falls into the same random hole, and takes 5 damage.
+
+There are no free mob slots, so no mobs spawn.
+
+Lightning strikes!
+Count roll: 1d4+2 = 1+2 = 3
+Target roll: 3d31 = 8, 17, 6 (all 8 active players, Moat, Tank, Everythingproof Wall, all 7 of Byron's storage rooms, all 3 turrets, Campfire, sparky's Storage Room, the Roof of Incendiary's House, solitare's House, Excavator, Log Cabin, Tree House, Wooden Shed, Tony's Storage Room, Well)
+Lightning strikes Landon again!
+Damage roll: 1d15+10 = 6+10 = 16
+Defense roll: 1d7+2 = {crmiss|1}
+Landon takes {b|16} {elec|Electric} damage.
+Effect roll: 1d10 = 9
+Landon does not gain any additional paralysis.
+Lightning strikes the Weaponry again!
+Effect roll: 1d10 = 4
+And now there's a hole in the roof.
+Lightning strikes Gilbert!
+Damage roll: 1d15+10 = 9+10 = 19
+Defense roll: 1d5+2 = {crmiss|1}
+Gilbert takes {b|19} {elec|Electric} damage.
+Effect roll: 1d10 = 2
+Gilbert is also Paralyzed for two turns.
+The moral of the story is that lightning {i|can} and {i|will} strike twice, apparently.
+
+Weather roll: 1d20 = 10
+It continues to lightning. Again.
+
+Byron's bank account gains 13.095{dec}.
+Gilbert's bank account gains 16.106{dec}.
+
+Landon no longer has increased Attack and Defense, and his paralysis ticks down a turn.
+{hr2}
+The dragon wakes up. He stands up on the pile of rubble he was on, and looks around, confused.
+{i|Perhaps you can help him somehow?}
+{hr2}
+{links}
+Changelog: [url]https://realicraft.github.io/FightSim/Changelogs/80s/turn82.txt[/url].
+Okay, I'm not sure if you've noticed, but there's {i|clearly} a problem regarding the several-month delays between turns. I made a chart, and, since Turn 7, there have been {bi|nine} months with no turns in them whatsoever, with an additional 5 months only having one turn.
+This is quite bad, considering that FS3 is supposed to update {i|twice a week}.
+I'm going to try to get a handle on this, but you will likely {i|also} need to help, such as by reminding me to work on the update if it's overdue.
+...also, I just noticed that I haven't been linking the changelogs for the past few turns. Whoops. Well, here they are now:
+Changelog (Turn 79): [url]https://realicraft.github.io/FightSim/Changelogs/70s/turn79.txt[/url].
+Changelog (Turn 80): [url]https://realicraft.github.io/FightSim/Changelogs/80s/turn80.txt[/url].
+Changelog (Turn 81): [url]https://realicraft.github.io/FightSim/Changelogs/80s/turn81.txt[/url].
+Here's some of the more important things from this Turn's changelog:
+- a bunch of internal changes
+- added several new items, including juices and equipment
+- added rubber; there's not much you can do with it right now, but it's there
+- added a splash mechanic, similar to minecraft's splashes, and a setting to make splashes appear on any page
+
+
+* Well, okay, {i|maybe} the age and agelock parameters are a surprise, but you probably could've figured that out from the Sweet and Sour Carrot, so it's not a {i|total} surprise.
+** Correction: when I wrote the {i|beginning} of the results. The rest was written in mid-October.

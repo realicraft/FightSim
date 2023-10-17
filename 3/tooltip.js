@@ -9,7 +9,7 @@ var name_class_list = [
     "fs2_ex", //7
     "moss", //8
 ]
-var get_pretty_price = function(price) { // function to convert a sell price in centicents form to a form displaying all units
+var get_pretty_price = function(price) { // function to convert a sell price in decicents form to a form displaying all units
     var price2 = price
     dollars = 0
     cents = 0
@@ -27,6 +27,12 @@ var get_pretty_price = function(price) { // function to convert a sell price in 
     else if (cents >= 1) {return "C" + cents.toString() + " " + decicents.toString() + "¢"}
     else {return decicents.toString() + "¢"}
 }
+var func_or_str = function(data, inputs) { // takes a variable containing unknown data; if it is a function, it calls the function with the given inputs, otherwise, it passes the value through
+    if (typeof data == "function") {
+        return data(...inputs);
+    } else {return data};
+};
+
 var tooltip = function(name, desc, source, cats, bonus, name_class, price) { // base tooltip function
     var tooltipBodyEl = document.getElementsByClassName("tooltip_body")[0];
     var tooltipNameEl = document.getElementsByClassName("tooltip_name")[0];
@@ -47,9 +53,9 @@ var tooltip = function(name, desc, source, cats, bonus, name_class, price) { // 
     else {tooltipPriceContEl.setAttribute("style", "")}
     tooltipBodyEl.setAttribute("style", "display: block;")
 }
-var ttEquip = function(id=0, dv=0, nbt="", dnbt="", cname="") { // on the stats page, don't display tooltips for placeholders
+var ttEquip = function(id=0, dv=0, stack=1, nbt="", dnbt="", cname="") { // on the stats page, don't display tooltips for placeholders
     if (((id >= 1) & (id <= 8)) | (id == 112) | (id == 330) | (id == 448)) {}
-    else {tt(id,dv,nbt,dnbt,cname)}
+    else {tt(id,dv,stack,nbt,dnbt,cname)}
 }
 var ttEffect = function(id=0) { // tooltip wrapper for effects
     var as_cats = ""
@@ -64,27 +70,36 @@ var ttEffect = function(id=0) { // tooltip wrapper for effects
     }
     tooltip(getTranslatedString(effectlist[id][0]), getTranslatedString(effectlist[id][2]), effectlist[id][3], as_cats, effectlist[id][4], name_class_list[effectlist[id][6]], 0)
 }
-var tt = function(id=0, dv=0, nbt="", dnbt="", cname="") { // tooltip wrapper for items
-    var as_cats = ""
-    var initial_cat = true
-    if (equiplist[id][dv][5].length == 0) {} // create category list
+var tt = function(id=0, dv=0, stack=1, nbt={}, anbt="", dnbt="", cname="") { // tooltip wrapper for items
+    var assembled_cats = "";
+    var initial_cat = true;
+    var dvs_of_id = equiplist[id].length;
+    mdv = dv%dvs_of_id;
+    if (equiplist[id][mdv][5].length == 0) {} // create category list
     else {
-        for (var i in equiplist[id][dv][5]) {
+        for (var i in equiplist[id][mdv][5]) {
             if (initial_cat) {initial_cat = false}
-            else {as_cats += ", "}
-            as_cats += getTranslatedString(categorylist[equiplist[id][dv][5][i]])
+            else {assembled_cats += ", "}
+            assembled_cats += getTranslatedString(categorylist[equiplist[id][mdv][5][i]])
         }
     }
-    if (cname == "") {var uname = equiplist[id][dv][0]}
+
+    if (cname == "") {var uname = func_or_str(equiplist[id][mdv][0], [id, dv, stack, nbt])}
     else {var uname = "<i>" + cname + "</i>"}
-    if (nbt == "" && dnbt == "") {tooltip(uname, equiplist[id][dv][2], equiplist[id][dv][3], as_cats, equiplist[id][dv][4], name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // no nbt data
-    else if (nbt == "") {tooltip(uname, equiplist[id][dv][2]+dnbt, equiplist[id][dv][3], as_cats, equiplist[id][dv][4], name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // only discription nbt data
-    else if (dnbt == "") {
-        if (equiplist[id][dv][4] == "") {tooltip(uname, equiplist[id][dv][2], equiplist[id][dv][3], as_cats, (nbt), name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // only effect nbt data, no effects
-        else {tooltip(uname, equiplist[id][dv][2], equiplist[id][dv][3], as_cats, (equiplist[id][dv][4]+"<br />"+nbt), name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // only effect nbt data, original has effects
-    } else {
-        if (equiplist[id][dv][4] == "") {tooltip(uname, equiplist[id][dv][2]+dnbt, equiplist[id][dv][3], as_cats, (nbt), name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // both nbt datas, no effects
-        else {tooltip(uname, equiplist[id][dv][2]+dnbt, equiplist[id][dv][3], as_cats, (equiplist[id][dv][4]+"<br />"+nbt), name_class_list[equiplist[id][dv][6]], equiplist[id][dv][7])} // both nbt datas, original has effects
+
+    if (dnbt == "") {var desc = func_or_str(equiplist[id][mdv][2], [id, dv, stack, nbt])} //dnbt is depreciated, but currently still used
+    else {var desc = func_or_str(equiplist[id][mdv][2], [id, dv, stack, nbt])+dnbt}
+
+    if (anbt == "") {
+        tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, equiplist[id][mdv][4], name_class_list[equiplist[id][mdv][6]], equiplist[id][mdv][7])
+    } // no nbt data
+    else {
+        if (equiplist[id][mdv][4] == "") {
+            tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, (anbt), name_class_list[equiplist[id][mdv][6]], equiplist[id][mdv][7])
+        } // has nbt datas, no effects
+        else {
+            tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, (equiplist[id][mdv][4]+"<br />"+anbt), name_class_list[equiplist[id][mdv][6]], equiplist[id][mdv][7])
+        } // has nbt datas, original has effects
     }
 }
 var nt = function() { // function to clear tooltips

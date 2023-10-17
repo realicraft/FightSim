@@ -41,6 +41,7 @@ var comp_conv = function(conv) {
     var j = 0
     var k = 0
     var l = 0
+    var braces = 0
     var done = false
     while (!done) {
         j = loop_until_char(conv, "{")
@@ -50,18 +51,54 @@ var comp_conv = function(conv) {
             continue
         }
         conv = conv.slice(j+1)
-        conv = comp_conv(conv)
         k = loop_until_char(conv, "}")
         semiCont = conv.slice(0, k)
+        l = loop_until_char(semiCont, "|")
+        if (l != semiCont.length) {
+            partA = semiCont.slice(0, l)
+        } else {
+            partA = ""
+        }
+        //console.log("conv: " + conv)
+        //console.log("semicont: " + semiCont)
+        //console.log("partA: " + partA)
+        if ((partA in replaceDoubleList) && !(replaceDoubleList[partA][2])) { // skip until the closing }
+            outCont += replaceDoubleList[partA][0]
+            conv = conv.slice(l+1)
+            k = 0
+            braces = 0
+            while (braces > -1) {
+                if (conv.slice(k, k+1) == "{") {
+                    braces += 1
+                } else if (conv.slice(k, k+1) == "}") {
+                    braces -= 1
+                }
+                if (braces == -1) {break}
+                outCont += conv.slice(k, k+1)
+                k++
+            }
+            outCont += replaceDoubleList[partA][1]
+            conv = conv.slice(k+1)
+            continue
+        }
+        conv = comp_conv(conv)
+        //console.log("conv2: " + conv)
+        k = loop_until_char(conv, "}")
+        semiCont = conv.slice(0, k)
+        //console.log("semicont2: " + semiCont)
         l = loop_until_char(semiCont, "|")
         if (l == semiCont.length) {
             if (semiCont in replaceSingleList) {outCont += replaceSingleList[semiCont]}
         } else {
             partA = semiCont.slice(0, l)
             partB = semiCont.slice(l+1)
-            if (partA in replaceDoubleList) {outCont += replaceDoubleList[partA][0] + partB + replaceDoubleList[partA][1]}
+            if (partA in replaceDoubleList) {
+                if (replaceDoubleList[partA][2]) {outCont += replaceDoubleList[partA][0] + partB + replaceDoubleList[partA][1]}
+                else (outCont += "{" + partA + partB + "}")
+            }
         }
         conv = conv.slice(k+1)
+        //console.log("conv3: " + conv)
     }
     return outCont
 }

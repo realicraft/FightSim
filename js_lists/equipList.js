@@ -1,3 +1,70 @@
+/* helper functions */
+var addDefaults = function(nbt, defaults) { //adds default values to passed in nbt data
+    for (var item in defaults) {
+        if (item in nbt) {}
+        else {nbt[item] = defaults[item]};
+    }
+    return nbt;
+}
+
+/* functions */
+// function inputs: id, dv, stack count, nbt
+
+ // [name, desc, type, element, colouric?, hp, atk, def, ability id, offensive id, defensive id]
+var critter_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    var itemToCritter = {558: 0};
+    if (id in itemToCritter) {
+        var ctypes = ["bug", "bird", "prey", "pred", "fish", "sea"];
+        var caligns = ["none", "normal", "fire", "water", "electric", "plant", "ice", "light", "dark"];
+        var cid = itemToCritter[id];
+        nbt = addDefaults(nbt, {"hp": critter_data[cid][5]})
+        var desc = getTranslatedString(critter_data[cid][1]) + "<br />"; // description
+        if (getCookie("set_critter_plain") == "true") { // plain descriptions
+            desc += "<span class='small_text'>"
+            desc += "<span class='icon cr_type_" + ctypes[critter_data[cid][2]] + "'></span><span class='icon cr_align_" + caligns[critter_data[cid][3]] + "'></span>" // type and alignment
+            desc += "<span class='icon cr_hp_" + nbt["hp"] + "'></span>" // current hp
+            if (critter_data[cid][4]) {desc += "<span class='icon cr_colouric'></span>"} // colouric?
+            desc += "<br /><span class='icon cr_atk_" + critter_data[cid][6] + "'></span><span class='icon cr_def_" + critter_data[cid][7] + "'></span>" // attack/defense
+            desc += "<span class='icon cr_mhp_" + critter_data[cid][5] + "'></span><br />" // max hp
+            desc += "<span class='icon cr_ab_" + critter_opt_data["ability"][critter_data[cid][8]][2] + "'></span><br />" // ability
+            desc += "<span class='icon cr_of_" + critter_opt_data["offense"][critter_data[cid][9]][2] + "'></span><br />" // offensive
+            desc += "<span class='icon cr_df_" + critter_opt_data["defense"][critter_data[cid][10]][2] + "'></span>" // defensive
+        } else { // non-plain descriptions
+            desc += "<span class='icon cr_type_" + ctypes[critter_data[cid][2]] + "'></span><span class='icon cr_align_" + caligns[critter_data[cid][3]] + "'></span>" // type and alignment
+            desc += "<span class='icon cr_hp_" + nbt["hp"] + "'></span>" // current hp
+            if (critter_data[cid][4]) {desc += "<span class='icon cr_colouric'></span>"} // colouric?
+            desc += "<br /><span class='icon cr_atk_" + critter_data[cid][6] + "'></span><span class='icon cr_def_" + critter_data[cid][7] + "'></span>" // attack/defense
+            desc += "<span class='icon cr_mhp_" + critter_data[cid][5] + "'></span><br />" // max hp
+            desc += "<span class='icon cr_ab_" + critter_opt_data["ability"][critter_data[cid][8]][2] + "'></span><br />" // ability
+            desc += "<span class='icon cr_of_" + critter_opt_data["offense"][critter_data[cid][9]][2] + "'></span><br />" // offensive
+            desc += "<span class='icon cr_df_" + critter_opt_data["defense"][critter_data[cid][10]][2] + "'></span>" // defensive
+            desc += "</span>"
+        }
+        return desc;
+    } else {
+        return getTranslatedString("critter.invalid_id.desc", {"id": id});
+    }
+}
+
+var fuel_unit_name_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (dv == 1) {
+        return getTranslatedString("item.fuel_unit.name");
+    } else {
+        return getTranslatedString("item.fuel_units.name", {"units": dv});
+    }
+}
+
+var fuel_unit_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (dv == 0) {
+        return getTranslatedString("item.fuel_units_none.desc");
+    } else if (dv == 1) {
+        return getTranslatedString("item.fuel_unit.desc");
+    } else {
+        return getTranslatedString("item.fuel_units.desc", {"units": dv});
+    }
+}
+
+/* lists */
 var equiplist = [ //[name, css class for icon, description, source, bonuses, [categories], name class id, sell price]
     [["null", "iconless", "Whoops, forgot to put something here.", "An error", "", [0],0, 0]], //0
     [["armor.empty_helm", "empty_helm", "desc.empty_equip", "src.empty_equip", "", [1,28], 0, 0]], //1
@@ -300,19 +367,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Purple Slime Ball", "purple_slime_ball", "A ball of purple slime. It's poisonous.", "Mobs", "", [11], 2, 11] //4
     ], //223
     [["Sap", "sap", "Some sap from a tree.", "Gathering", "Counts as 2 fuel units<br />Consume for -1 HP", [11], 1, 1]], //224
-    [
-        ["0 Fuel Units", "fuel_outline", "This recipe requires <b>0</b> units of fuel, somehow.", "", "", [28], 1, 0], //0
-        ["1 Fuel Unit", "fuel_outline", "This recipe requires <b>1</b> unit of fuel.", "", "", [28], 1, 0], //1
-        ["2 Fuel Units", "fuel_outline", "This recipe requires <b>2</b> units of fuel.", "", "", [28], 1, 0], //2
-        ["3 Fuel Units", "fuel_outline", "This recipe requires <b>3</b> units of fuel.", "", "", [28], 1, 0], //3
-        ["4 Fuel Units", "fuel_outline", "This recipe requires <b>4</b> units of fuel.", "", "", [28], 1, 0], //4
-        ["5 Fuel Units", "fuel_outline", "This recipe requires <b>5</b> units of fuel.", "", "", [28], 2, 0], //5
-        ["6 Fuel Units", "fuel_outline", "This recipe requires <b>6</b> units of fuel.", "", "", [28], 2, 0], //6
-        ["7 Fuel Units", "fuel_outline", "This recipe requires <b>7</b> units of fuel.", "", "", [28], 2, 0], //7
-        ["8 Fuel Units", "fuel_outline", "This recipe requires <b>8</b> units of fuel.", "", "", [28], 3, 0], //8
-        ["9 Fuel Units", "fuel_outline", "This recipe requires <b>9</b> units of fuel.", "", "", [28], 3, 0], //9
-        ["10 Fuel Units", "fuel_outline", "This recipe requires <b>10</b> units of fuel.", "", "", [28], 3, 0], //10
-    ], //225
+    [[fuel_unit_name_gen, "fuel_outline", fuel_unit_desc_gen, "", "", [], 0, 0]], //225
     [["Any Raw Meat", "any_raw_meat", "You can use any raw meat for this.", "", "", [], 0, 0]], //226
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (3 Fuel Units; 227 -> 225:3)", "", "", [], 0, 0]], //227
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (4 Fuel Units; 228 -> 225:4)", "", "", [], 0, 0]], //228
@@ -689,7 +744,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Ripe Poisonberry", "ripe poisonberry", "A poisonberry that's riper than usual.<br />Can be crafted into a Vial of Poison.", "Farming", "+10 HP on consume<br />Inflicts Poisoned for 1 turn on consume<br />50% chance to inflict a second turn of Poisoned on consume", [10,30], 1, 7]], //555
     [["Golden Poisonberry", "golden poisonberry", "A golden poisonberry. It channels the poison into your muscles, which is more beneficial than you'd think. Still hurts, though.", "Farming", "Poisoned gives +1 Indirect Attack and +1 STR<br />Badly Poisoned gives +1 Direct Attack and +2 STR<br />Poison effects deal 1 more HP/turn", [9], 2, 15]], //556
     [["Vial of Poison", "poison_juice", "A vial of poison. You can put it on stuff.", "Crafting", "Inflicts one turn of Poisoned on consume", [30,11], 1, 5]], //557
-    [["Fly", "fly", "I'm still not sure why she caught it, but I do know why <em>you</em> caught it.<br><span class='icon cr_type_bug'></span><span class='icon cr_hp_5'></span><br /><span class='icon cr_atk_1'></span><span class='icon cr_def_1'></span><br /><span class='icon cr_ab_agile'></span><br /><span class='icon cr_of_bite'></span><br /><span class='icon cr_df_flight'></span>", "Unknown", "Not sure yet", [45], 1, 0]], //558
+    [["Fly", "fly", critter_desc_gen, "Unknown", "Not sure yet", [45], 1, 0]], //558
     [["Salt", "salt", "A pile of salt. It's salty.", "Crafting", "+1 HP on consume<br />Use on a food item to increase its health gain by 1", [10,30,11,46], 1, 2]], //559
     [["Homemade MSG", "msg", "Yes, you <em>did</em> in fact make this using seaweed and an anchovy. It's a real recipe; why else would it have been used in the Krabby Patty episode of <i>Binging with Babish</i>?", "Crafting", "Use on a food item to make it count as only 80% as many food items for the purpose of Nausea", [10,11,46], 1, 3]], //560
     [["Anchovy", "anchovy", "A small anchovy. You probably don't need to cook it.", "Fishing", "Consume for +3 HP", [26,10,30], 1, 3]], //561
@@ -794,7 +849,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Peach Juice", "peach_juice", "The juice from a peach.", "Crafting", "+2 HP on consume", [10,30,11], 1, 3]], //650
     [["Pear Juice", "pear_juice", "The juice from a pear.", "Crafting", "+2 HP on consume", [10,30,11], 1, 3]], //651
     [["Grape Juice", "grape_juice", "The juice from a bunch of grapes.", "Crafting", "+2 HP on consume", [10,30,11], 1, 3]], //652
-    [["Pineapple Juice", "pineapple_juice", "The juice from a pineapple. It's somewhat acidic.", "Crafting", "+1 HP on consume", [10,30,11], 1, 4]], //653
+    [["Pineapple Juice", "pineapple_juice", "The juice from a pineapple. It's somewhat acidic.", "Crafting", "+1.5 HP on consume", [10,30,11], 1, 4]], //653
     [["Mango Juice", "mango_juice", "The juice from a mango.", "Crafting", "+2 HP on consume", [10,30,11], 1, 3]], //654
     [["Pineapple", "pineapple", "A pineapple. It's somewhat acidic.", "Farming", "+4 HP on consume", [10,30], 1, 6]], //655
     [["Ripe Pineapple", "ripe pineapple", "A pineapple that's riper than usual. It's more acidic.", "Farming", "+8 HP on consume", [10,30], 1, 8]], //656
@@ -863,25 +918,25 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Cooked Patty", "cooked_patty", "A cooked burger patty. You can still tell that it's hockey puck-shaped.", "Cooking", "Consume for +3 HP", [10,11,30], 1, 4], //1
     ], //685
     [
-        ["Pumpkin", "pumpkin", "A pumpkin. These are normally not cubic.", "Farming", "+5 HP per serving<br />Counts as 2 servings", [10,17,30], 1, 7], //0
-        ["Half Pumpkin", "pumpkin_half", "Half of a pumpkin. ...Did you just... eat it raw?", "Farming", "+5 HP per serving<br />Counts as 1 serving", [10,17,30], 1, 3], //1
+        ["Pumpkin", "pumpkin", "A pumpkin. These are normally not cubic.", "Farming", "+4 HP per serving<br />Counts as 2 servings", [10,17,30], 1, 7], //0
+        ["Half Pumpkin", "pumpkin_half", "Half of a pumpkin. ...Did you just... eat it raw?", "Farming", "+4 HP per serving<br />Counts as 1 serving", [10,17,30], 1, 3], //1
     ], //686
     [
-        ["Ripe Pumpkin", "ripe pumpkin", "A pumpkin that's riper than usual.", "Farming", "+5 HP per serving<br />Counts as 2 servings", [10,17,30], 1, 9], //0
-        ["Ripe Half Pumpkin", "ripe pumpkin_half", "Half of a pumpkin that's riper than usual.", "Farming", "+5 HP per serving<br />Counts as 1 serving", [10,17,30], 1, 4], //1
+        ["Ripe Pumpkin", "ripe pumpkin", "A pumpkin that's riper than usual.", "Farming", "+8 HP per serving<br />Counts as 2 servings", [10,17,30], 1, 9], //0
+        ["Ripe Half Pumpkin", "ripe pumpkin_half", "Half of a pumpkin that's riper than usual.", "Farming", "+8 HP per serving<br />Counts as 1 serving", [10,17,30], 1, 4], //1
     ], //687
     [["Golden Pumpkin", "golden pumpkin", "A golden pumpkin. See, it boosts Dark-aligned damage because Halloween.", "Farming", "+0.7 <span class='dark'>Dark</span> damage", [9,17], 2, 15]], //688
     [
-        ["Watermelon", "watermelon", "A watermelon. How'd you make it cubic <em>and</em> edible?", "Farming", "+5 HP per serving<br />Counts as 2 servings", [10,17,30], 1, 7], //0
-        ["Half Watermelon", "watermelon_half", "Half of a watermelon. I guess you could eat it like that.", "Farming", "+5 HP per serving<br />Counts as 1 serving", [10,17,30], 1, 3], //1
+        ["Watermelon", "watermelon", "A watermelon. How'd you make it cubic <em>and</em> edible?", "Farming", "+4 HP per serving<br />Counts as 2 servings", [10,17,30], 1, 7], //0
+        ["Half Watermelon", "watermelon_half", "Half of a watermelon. I guess you could eat it like that.", "Farming", "+4 HP per serving<br />Counts as 1 serving", [10,17,30], 1, 3], //1
     ], //689
     [
-        ["Ripe Watermelon", "ripe watermelon", "A watermelon that's riper than usual.", "Farming", "+5 HP per serving<br />Counts as 2 servings", [10,17,30], 1, 9], //0
-        ["Ripe Half Watermelon", "ripe watermelon_half", "Half of a watermelon that's riper than usual.", "Farming", "+5 HP per serving<br />Counts as 1 serving", [10,17,30], 1, 4], //1
+        ["Ripe Watermelon", "ripe watermelon", "A watermelon that's riper than usual.", "Farming", "+8 HP per serving<br />Counts as 2 servings", [10,17,30], 1, 9], //0
+        ["Ripe Half Watermelon", "ripe watermelon_half", "Half of a watermelon that's riper than usual.", "Farming", "+8 HP per serving<br />Counts as 1 serving", [10,17,30], 1, 4], //1
     ], //690
     [["Golden Watermelon", "golden watermelon", "A golden watermelon. I mean, you <em>could</em> use the rind as a bottle or something.", "Farming", "+0.2 Alchemy", [9,17], 2, 15]], //691
-    [["Carved Pumpkin", "carved_pumpkin", "A pumpkin that's been carved and had it's insides removed.", "Crafting", "", [10,17,30], 1, 5]], //692
-    [["Jack o'Lantern", "jack_o_lantern", "A pumpkin that's been carved and had a torch placed inside.", "Crafting", "", [10,17,30], 2, 11]], //693
+    [["Carved Pumpkin", "carved_pumpkin", "A pumpkin that's been carved and had it's insides removed.", "Crafting", "", [17], 1, 5]], //692
+    [["Jack o'Lantern", "jack_o_lantern", "A pumpkin that's been carved and had a torch placed inside.", "Crafting", "", [17], 2, 11]], //693
     [["Obsidian", "obsidian", "A block of solid obsidian. Did you know that obsidian is actually a type of glass?", "Mining (Req. Diamond Pick)", "", [11,17], 2, 13]], //694
     [
         ["Mop", "mop", "A mop. It can clean things.", "Crafting", "Use it on something to clean it", [6,23], 1, 8], //0
@@ -928,4 +983,35 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     ], //724
     [["Slice of Ice Cream Cake", "ice_cream_cake_slice", "A slice of cookies-and-cream ice cream cake. Was it someone's birthday or something?", "Birthday", "Consume for +5 HP", [10,12,29,30], 4, 0]], //725
     [["Firework", "firework", "A firework. You can light it up to make it explode in the sky. Or you could put it in a crossbow.", "Crafting", "Can be lit up<br />Use it with a Crossbow", [20,49,54], 1, 8]], //726
+    [["Melon Slice", "melon_slice", "A slice of a watermelon. If the melon was a cube, then why is the slice round?", "Crafting", "+2 HP<br />Counts as half a serving", [10,30], 1, 7]], //727
+    [["Ripe Melon Slice", "ripe melon_slice", "A slice of a watermelon that was riper than usual.", "Crafting", "+4 HP<br />Counts as half a serving", [10,30], 1, 7]], //728
+    [["Golden Apple Juice", "golden apple_juice", "The juice from a golden apple.", "Crafting", "Drink for Regen and Defense Up (1 turn)<br />Can't be equipped", [10,30,11], 2, 8]], //729
+    [["Melon Juice", "melon_juice", "Some of the juice from a watermelon.", "Crafting", "+1 HP on consume", [10,30,11], 1, 2]], //730
+    [["Pumpkin Juice", "pumpkin_juice", "The juice from a pumpkin. No, I don't know how you juiced it, and to be honest I'm not even sure if pumpkins <em>have</em> juice.", "Crafting", "+2 HP on consume", [10,30,11], 1, 4]], //731
+    [["Rubber Chunk", "rubber_chunk", "A chunk of rubber.", "Crafting", "", [11], 1, 3]], //732
+    [["Old Tire", "tire", "A tire that you fished up. How'd this get into the <em>ocean</em>?", "Crafting", "", [11], 1, 10]], //733
+    [["Tire Chunk", "tire_chunk", "A chunk of a tire that you fished up.", "Fishing", "", [11], 1, 5]], //734
+    [["Sunglasses", "sunglasses", "A pair of sunglasses.", "Crafting", "+1 <span class='light'>Light</span> Resist<br />-1 Accuracy<br />+0.3 Direct Defense", [8], 1, 7]], //735
+    [["Eyepatch", "eyepatch", "An eyepatch, like the kind worn by pirates.", "Crafting", "+0.3 Direct Defense<br />+0.6 Indirect Defense<br />+1 Fishing<br />-2 Accuracy", [8], 1, 5]], //736
+    [["Miner's Helmet", "miners_helmet", "A helmet with a flashlight, used by miners.", "Crafting", "+1.3 Direct Defense<br />+2 Mining<br />+1 <span class='dark'>Dark</span> Resist", [1], 2, 16]], //737
+    [["LED", "led", "A small LED.", "Crafting", "", [11], 1, 0]], //738
 ]
+
+var critter_data = [ // [name, desc, type, element, colouric?, hp, atk, def, ability id, offensive id, defensive id]
+    ["critter.fly.name", "critter.fly.desc", 0, 0, false, 5, 1, 1, 1, 1, 1], //0
+]
+
+var critter_opt_data = { // [name, desc, css]
+    "ability": [
+        ["critter.ability.none.name", "critter.ability.none.desc", "none"], //0
+        ["critter.ability.agile.name", "critter.ability.agile.desc", "agile"], //1
+    ],
+    "offense": [
+        ["critter.offense.none.name", "critter.offense.none.desc", "none"], //0
+        ["critter.offense.bite.name", "critter.offense.bite.desc", "bite"], //1
+    ],
+    "defense": [
+        ["critter.defense.none.name", "critter.defense.none.desc", "none"], //0
+        ["critter.defense.flight.name", "critter.defense.flight.desc", "flight"], //1
+    ],
+}

@@ -26,7 +26,7 @@
     "crop.blueberry.name": "Blueberries",
     "crop.cherry.name": "Cerezas",
     "crop.blackberry.name": "Blackberries",
-    "crop.peach.name": "Durazno",
+    "crop.peach.name": "Melocotón",
     "crop.pear.name": "Pera",
     "crop.lemon.name": "Limón",
     "crop.lime.name": "Lime",
@@ -129,5 +129,24 @@
 
     "item.apple.desc": "Una manzana.",
     "item.iron_bar.desc": "Un barra de hierro sólido. Es bastante fuerte.",
-    "item.egg.desc": "Un huevo."
+    "item.egg.desc": "Un huevo.",
+
+    "element.none.name": "No elemento",
+    "element.normal.name": "Normal",
+    "element.fire.name": "Fuego",
+    "element.water.name": "Agua",
+    "element.electric.name": "Electricidad",
+    "element.plant.name": "Plantas",
+    "element.ice.name": "Hielo",
+    "element.light.name": "Luz",
+    "element.dark.name": "Oscuridad",
+    "element.alignment.upper": "Alineado a {type}",
+    "element.alignment.lower": "alineado a {type}",
+
+    "type.bug.name": "Insecto",
+    "type.bird.name": "Pájaro",
+    "type.prey.name": "Presa",
+    "type.pred.name": "Depredador",
+    "type.fish.name": "Pez",
+    "type.sea.name": "Marino"
 }

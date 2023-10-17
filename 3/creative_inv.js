@@ -15,7 +15,7 @@ for (k in equiplist) {
     for (l in equiplist[k]) {
         var compId = "0";
         creativeRow += "<td class='inv_item'>";
-        creativeRow += makeItem(k, l, "", {}, true);
+        creativeRow += makeItem(k, l, 1, {}, true);
         creativeRow += "<span";
         if (equiplist[k].length == 1) {compId = k}
         else {compId = k + ":" + l};

@@ -22,7 +22,8 @@
     --icn_critter: url("../Icons/Exported/critter_sheet.png");
     --icn_tags: url("../Icons/Exported/tags_sheet.png");
     --icn_cake: url("../Icons/Exported/cake_sheet.png");
-    --icn_c_desc: url("../Icons/Exported/critter_desc_sheet.png");
+    --icn_cd_small: url("../Icons/Exported/critter_desc_small_sheet.png");
+    --icn_cd_large: url("../Icons/Exported/critter_desc_large_sheet.png");
     --icn_ally: url("../Icons/Exported/ally_sheet.png");
     --icn_scroll: url("../Icons/Exported/scroll_sheet.png"); /* unchanged */
     --icn_egg: url("../Icons/Exported/egg_sheet.png");

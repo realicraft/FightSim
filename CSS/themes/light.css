@@ -1,5 +1,6 @@
 :root {
     --top_image: url("../3/CurrentLogo/logo.png");
+    --fs_top_image: url("fs_logo.png");
     --snap_top_image: url("../Snap!/logos/logo.png");
     --background: #dfdfdf;
     --text: #000000;
@@ -113,4 +114,6 @@
 
     --vote_passed: #005f00;
     --vote_failed: #7f0000;
+    
+    --splash_text: #6f5f0f;
 }
