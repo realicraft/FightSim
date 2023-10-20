@@ -1,0 +1,65 @@
+Changelog for Turn 83
+
+Mobs
+- 
+
+Items
+- severely nerfed the tray of cookies
+- also nerfed the cookies
+- buffed the cooked solid goldfish, mango, and pumpkin slightly to be consistent with other skill buffing golden foods
+- buffed the golden cabbage and can of beans slightly
+- added small swords
+
+Crafting
+- added recipes for small swords
+
+Effects
+- added Spicy!
+- KOd now lasts only two turns, down from three
+
+Structures
+- you can now build structures out of items
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- 
+
+Quests
+- 
+
+Phone System
+- 
+
+Helpers
+- 
+
+Votes
+- 
+
+Translations
+- added translation strings for Spicy!
+- fixed the Badly Poisoned description using <i> instead of <em>
+
+Splashes
+- 
+
+Themes
+- 
+
+Icon Sets
+- resprite: started working on weapons_tiered_sheet (moved icons from equip_sheet_plan)
+
+Settings
+- 
+
+Internal
+- 
+
+Misc
+- added a quick [citation needed] entry to replaceList
+- added a entry to make a representation of a wiki page to replaceList

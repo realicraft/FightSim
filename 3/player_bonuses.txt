@@ -14,16 +14,22 @@ reali:
    Overheal Potion (+1)
   Indirect Attack: (+1)
    Santa Hat (+1)
-  Indirect Defense: (+1.7)
+  Indirect Defense: (+2.7)
    Santa Hat (+1)
    LTT Hoodie (+0.7)
-  Direct Defense: (+0.2 perm)
+   Diamond Boots (+1)
+  Direct Defense: (-0.7 +0.2 perm)
    Quest Reward (+0.2 perm)
+   Sour! (-0.7)
   INT: (+2)
    LTT Hoodie (+2)
   XP from Monsters: (+5%)
    Santa Hat (+5%)
+  Accuracy: (-2)
+   Sour! (-2)
  Skills:
+  All Skills (-0.7)
+   Sour! (-0.7)
   Fishing: (+0.7)
    Goldfish Sticker (+0.7)
 SausageMcSauce:
@@ -39,17 +45,16 @@ Incendiary:
  Stats:
   Indirect Attack: (+2)
    Rock on a Stick (+1)
-   Santa Hat (+1)
-  Indirect Defense: (+1.7)
-   LTT Hoodie (+0.7)
-   Santa Hat (+1)
-  XP from Monsters: (+5%)
-   Santa Hat (+5%)
+  Indirect Defense: (+2)
+   Diamond Leggings (+1)
+   Diamond Boots (+1)
+  Direct Defense: (+4)
+   Diamond Helmet (+1)
+   Diamond Chestplate (+2)
+   Diamond Leggings (+1)
   Health: (+4)
    Player Level (+3)
    Overheal Potion (+1)
-  INT: (+2)
-   LTT Hoodie (+2)
  Skills:
   Crafting: (+0.7)
    Hammer Sticker (+0.7)
@@ -136,7 +141,13 @@ TwilightSeleneMisty:
    Wooden Pickaxe (+1)
 Luigis_Pizza:
  Stats:
+  Direct Attack: (+1)
+   Stone Axe (+1)
  Skills:
+  Farming: (+0.7)
+   Carrot Sticker (+0.7)
+  Chopping: (+1)
+   Stone Axe (+1)
 Joyous Theta (D. N. Kitty):
  Stats:
   Indirect Attack: (+1 perm)

@@ -7,11 +7,11 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [[quest lang_id, number], [claimed], reward, turn]
-    [["obtain_sticker", 1], [], "Sword Sticker, 2 Misc EXP", "82"],
-    [["go_dig", 1], [], "3 Gravel, 125% Digging", "82"],
-    [["consume_item", 1], [], "1 Item Candy, 3 Misc EXP", "82"],
-    [["deal_type_damage", 1], [], "10 HP", "80~83"],
-    [["use_skill", 5], [], "3 Bottles o' Enchanting", "80~83"], // byron 1, gilbert 3, solitare 1, landon 4, incendiary 4, sparky 1
+    [["go_mine_electrum", 1], [], "80% Mining, 2 Electrum Bars", "83"],
+    [["chop_tree", 1], [], "80% Chopping, 20 Oak Planks", "83"],
+    [["go_fish", 1], [], "100% Fishing, 1 Bag of Fish", "83"],
+    [["deal_type_damage", 1], ["Sparky"], "10 HP", "80~83"],
+    [["use_skill", 5], ["Incendiary"], "3 Bottles o' Enchanting", "80~83"], // byron 1, gilbert 3, solitare 1, landon 4, incendiary 5, sparky 1
     [["interact_enemy", 1], [], "5 Misc EXP", "80~83"],
     [["talk_to_morshu", 1], [], "2 Bombs, 7 Misc EXP"],
     [["equip_gold_food", 1], [], "3 Gold Bars, 150% Farming"],
@@ -89,6 +89,9 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Obtain a Sticker.", ["Incendiary"], "Sword Sticker, 2 Misc EXP", "82"],
+        ["Go Digging.", [], "3 Gravel, 125% Digging", "82"],
+        ["Consume an item.", [], "1 Item Candy, 3 Misc EXP", "82"],
         ["Go Chopping.", ["Incendiary"], "75% Chopping, 3 Birch Logs", "81"],
         ["Go Gathering.", ["Landon"], "75% Gathering, 1 Item Candy", "81"],
         ["Go Fishing.", [], "75% Fishing, 1 Old Boot", "81"],

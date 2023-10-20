@@ -1860,6 +1860,7 @@
     "effect.slight_def_up.name": "Slight Resistance",
     "effect.itchy.name": "Itchy",
     "effect.minty.name": "Minty Breath",
+    "effect.spicy.name": "Spicy!",
 
     "effect.none.desc": "Looks like someone forgot to clear the slot.",
     "effect.afk.desc": "Hey, where'd you go?",
@@ -1881,7 +1882,7 @@
     "effect.def_up+.desc": "You feel sturdier, and take less damage.",
     "effect.def_up++.desc": "You feel significantly sturdier, and take less damage.",
     "effect.blind.desc": "Hey, who turned the lights out?",
-    "effect.badly_poisoned.desc": "Okay, maybe <i>avoid</i> the purple stuff.",
+    "effect.badly_poisoned.desc": "Okay, maybe <em>avoid</em> the purple stuff.",
     "effect.sleep.desc": "The ground isn't a very good place to sleep, you know.",
     "effect.deep_sleep.desc": "Hey, wake up already!",
     "effect.restful_sleep.desc": "That's a nice bed you got there.",
@@ -1909,6 +1910,7 @@
     "effect.slight_def_up.desc": "You feel just a bit sturdier.",
     "effect.itchy.desc": "You feel really itchy, and it's distracting you.",
     "effect.minty.desc": "Your breath smells like mint. I guess it's better than whatever it smelled like before?",
+    "effect.spicy.desc": "You ate something spicy and now your mouth feels like it's on fire. It isn't, but it <em>feels</em> like it is.",
 
     "critter.invalid_id.name": "Unknown Critter ({id})",
     "critter.fly.name" : "Fly",

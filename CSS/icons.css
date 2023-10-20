@@ -2129,7 +2129,7 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_crop);
     background-position: -224px -96px;
 }
-.pepper {
+.pepper, .spicy {
     background-image: var(--icn_crop);
     background-position: -0px -128px;
 }
@@ -2988,6 +2988,78 @@ span.mini_cont span.mini_icon {
 .led {
     background-image: var(--icn_misc);
     background-position: -64px -96px;
+}
+.wood_smallsword {
+    background-image: var(--icn_weapontier);
+    background-position: -448px -32px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -448px -32px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -448px -32px;
+}
+.stone_smallsword {
+    background-image: var(--icn_weapontier);
+    background-position: -448px -64px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -448px -64px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -448px -64px;
+}
+.gold_smallsword {
+    background-image: var(--icn_weapontier);
+    background-position: -448px -96px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -448px -96px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -448px -96px;
+}
+.iron_smallsword {
+    background-image: var(--icn_weapontier);
+    background-position: -448px -128px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -448px -128px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -448px -128px;
+}
+.diamond_smallsword {
+    background-image: var(--icn_weapontier);
+    background-position: -448px -160px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -448px -160px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -448px -160px;
+}
+.emerald_smallsword {
+    background-image: var(--icn_weapontier);
+    background-position: -448px -192px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -448px -192px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -448px -192px;
+}
+.hardite_smallsword {
+    background-image: var(--icn_weapontier);
+    background-position: -448px -224px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -448px -224px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -448px -224px;
+}
+.ruby-sapphire_smallsword {
+    background-image: var(--icn_weapontier);
+    background-position: -448px -288px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -448px -288px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -448px -288px;
+}
+.depleted-electrum_smallsword {
+    background-image: var(--icn_weapontier);
+    background-position: -448px -320px;
+    -webkit-mask-image: var(--icn_weapontier);
+    -webkit-mask-position: -448px -320px;
+    mask-image: var(--icn_weapontier);
+    mask-position: -448px -320px;
 }
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 

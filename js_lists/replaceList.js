@@ -8,6 +8,7 @@ var replaceSingleList = { // keyword: replacement
     "dol": "[img alt=Dollar Bill]https://realicraft.github.io/FightSim/Icons/Text/dollar_bill.png[/img]",
     "rub": "[img alt=Ruby]https://realicraft.github.io/FightSim/Icons/Text/ruby.png[/img]",
     "pho": "[img alt=Phone]https://realicraft.github.io/FightSim/Icons/Text/phone.png[/img]",
+    "needcite": "[sup][[i][url=\"https://en.wikipedia.org/wiki/Wikipedia:Citation_needed\"]citation needed[/url][/i]][/sup]",
 }
 var replaceDoubleList = { // keyword: "replacement before", "replacement after", parse inside?
     // bbcode tags
@@ -52,6 +53,8 @@ var replaceDoubleList = { // keyword: "replacement before", "replacement after",
     "table": ["[table]","[/table]", true],
     "tr": ["[tr]","[/tr]", true],
     "td": ["[td]","[/td]", true],
+    // wiki links
+    "wiki": ["[i][[", "]][/i]", true],
     // esolang output
     "esocode": ["[pre][color=green]", "[/color][/pre]", false],
     "esooutput": ["[pre][color=#002f00]", "[/color][/pre]", false],

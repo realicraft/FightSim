@@ -1,8 +1,5 @@
 Changelog for Turn 82
 
-Mobs
-- 
-
 Items
 - items can now use functions in place of raw strings
 - critters now show max hp as well as current hp
@@ -32,32 +29,11 @@ Crafting
 - added recipes for golden apple juice, pumpkin juice, and melon juice
 - added a rubber section
 
-Effects
-- 
-
-Structures
-- 
-
-Scrolls
-- 
-
-Skills
-- 
-
 Gardens
 - the gardens page now passes stack counts of 1 to items in the crop display, rather than an empty string
 
-Quests
-- 
-
-Phone System
-- 
-
 Helpers
 - replace double list entries can now specify whether to parse their contents or not (this is not fully functional)
-
-Votes
-- 
 
 Translations
 - added strings for critters
@@ -73,9 +49,6 @@ Splashes
 - there are currently 105 splashes, plus 8 commented out splashes
 - some splashes only occur on certain weekdays or holidays
 - some splashes are just rarer
-
-Themes
-- 
 
 Icon Sets
 - split critter_desc_sheet into two seperate sheets
