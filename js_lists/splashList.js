@@ -140,12 +140,12 @@ var splashesList = { // "type": [splash, ...]
         "No TVTropes page! (yet)",
         "Check out <a href='https://fightsim.miraheze.org/wiki/Main_Page'>the wiki</a>!",
         "Check out <a href='https://shefwerld.github.io/shefnews/index.html'>SKNN</a>!",
-        /*"Try out Nihonium!", // this is a real backwards-incompatibility moment
+        // "Try out Nihonium!", // this is a real backwards-incompatibility moment
         "Try out Lithium!",
-        "Try out Flerovium!",
+        /* "Try out Flerovium!",
         "Try out Nickel!",
         "Try out Platinum!",*/
         "Try out Trendy!",
-        /*"Try out CABS!",*/
+        /* "Try out CABS!",*/
     ],
 }

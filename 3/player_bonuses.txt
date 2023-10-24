@@ -1,6 +1,6 @@
 INT boosts Alchemy, Crafting, and Golf
 STR boosts Mining, Chopping, and Digging
-AGI boosts Ballet, Gathering, and Catching
+AGI boosts Dancing, Gathering, and Catching
 CHR boosts Rapping
 DEX boosts Pottery and Construction
 CON boosts Farming and Digging
@@ -43,11 +43,14 @@ Squirrelflight:
  Skills:
 Incendiary:
  Stats:
-  Indirect Attack: (+2)
-   Rock on a Stick (+1)
-  Indirect Defense: (+2)
+  Indirect Attack: (+1.1)
+   Emerald Band (+1.1)
+  Indirect Defense: (+3.1)
    Diamond Leggings (+1)
    Diamond Boots (+1)
+   Emerald Band (+1.1)
+  Direct Attack: (+2)
+   Diamond Axe (+2)
   Direct Defense: (+4)
    Diamond Helmet (+1)
    Diamond Chestplate (+2)
@@ -120,6 +123,10 @@ gilbert:
   Indirect Attack: (+1 +1 perm)
    Stone Pickaxe (+1)
    Player Level (+1 perm)
+  Direct Attack: (+2.6)
+   Attack Up (+1)
+   Sword Sticker (+0.5)
+   Raised Sword Sticker (+1.1)
   Direct Defense: (+2)
    Diamond Chestplate (+2)
   Health: (+4)
@@ -156,8 +163,8 @@ Joyous Theta (D. N. Kitty):
    Player Level (+1)
    Max HP Upgrade (+2)
  Skills:
-  Ballet: (+1)
-  Ballet Upgrade (+1)
+  Dancing: (+1)
+  Dancing Upgrade (+1)
 SAVVYSCLUTTER:
  Stats:
  Skills:
@@ -197,6 +204,8 @@ Landon:
    Santa Hat (+5%)
   Health: (+2)
    Player Level (+2)
+  Health per Turn: (+2.5)
+   Raised Apple Sticker (+2.5)
  Skills:
   Mining: (+2.9)
    Emerald Pickaxe (+2.9)

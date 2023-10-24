@@ -255,6 +255,14 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_icons);
     background-position: -320px -192px;
 }
+.rapping {
+    background-image: var(--icn_icons);
+    background-position: -352px -192px;
+}
+.dancing {
+    background-image: var(--icn_icons);
+    background-position: -384px -192px;
+}
 /* misc */
 .missing, .iconless, .missingno {
     background-image: var(--icn_icons);
@@ -3515,7 +3523,7 @@ span.cr_colouric {
     background-image: var(--icn_ally);
     background-position: -160px -64px;
 }
-.upgrade_ballet {
+.upgrade_dancing {
     background-image: var(--icn_ally);
     background-position: -192px -64px;
 }
@@ -4083,6 +4091,10 @@ span.cr_colouric {
 .thunder, .lightning {
     background-image: var(--icn_info);
     background-position: -192px -48px;
+}
+.fog, .foggy {
+    background-image: var(--icn_info);
+    background-position: -176px -64px;
 }
 .temp_hot {
     background-image: var(--icn_info);

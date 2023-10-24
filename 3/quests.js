@@ -7,21 +7,21 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [[quest lang_id, number], [claimed], reward, turn]
-    [["go_mine_electrum", 1], [], "80% Mining, 2 Electrum Bars", "83"],
-    [["chop_tree", 1], [], "80% Chopping, 20 Oak Planks", "83"],
-    [["go_fish", 1], [], "100% Fishing, 1 Bag of Fish", "83"],
-    [["deal_type_damage", 1], ["Sparky"], "10 HP", "80~83"],
-    [["use_skill", 5], ["Incendiary"], "3 Bottles o' Enchanting", "80~83"], // byron 1, gilbert 3, solitare 1, landon 4, incendiary 5, sparky 1
-    [["interact_enemy", 1], [], "5 Misc EXP", "80~83"],
+    [["make_shield", 1], [], "3 Misc EXP", "84"],
+    [["go_mine_electrum", 1], [], "2 Disposable Phones, 4 Misc EXP", "84"],
+    [["equip_accessory", 1], [], "4 Fabric, 4 Leather, 4 String", "84"],
+    [["damage_total", 30], [], "1 Diamond Sword", "84~87"],
+    [["make_new_item", 1], [], "2 Sleep Shrooms, 1 Metal Triangle", "84~87"],
+    [["use_scroll", 1], [], "2 Random Scrolls", "84~87"],
     [["talk_to_morshu", 1], [], "2 Bombs, 7 Misc EXP"],
     [["equip_gold_food", 1], [], "3 Gold Bars, 150% Farming"],
-    [["equip_sticker", 1], [], "Orb Sticker"],
+    [["level_up_skill", 8], [], "40 Misc EXP, 0.5 Direct Attack"], // incendiary 1
 ]
 
 var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div height]
     ["crops",
         [
-            ["reali", "2 Crops", "2 Misc EXP", "0/2"],
+            ["reali", "2 Crops", "2 Misc EXP", "1/2"],
             ["S.&nbsp;McSaus", "1 Crop", "1 Misc EXP", "0/1"],
             ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
@@ -65,7 +65,7 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
     ],
     ["use",
         [
-            ["reali", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["reali", "1 Use/Equip", "1 Lucky Block", "1/1"],
             ["S.&nbsp;McSause", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Cats.", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Squirrelflight", "1 Use/Equip", "1 Lucky Block", "0/1"],
@@ -77,18 +77,21 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["Leopardy", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["gilbert", "1 Use/Equip", "1 Lucky Block", "1/1"],
             ["Twilight", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["Luigi", "1 Use/Equip", "1 Lucky Block", "0/1"],
+            ["Luigi", "1 Use/Equip", "1 Lucky Block", "1/1"],
             /*["Kitty", "1 Use/Equip", "1 Lucky Block", "0/1"],*/
             /*["Savvy", "1 Use/Equip", "1 Lucky Block", "0/1"],*/
             ["Bobby", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Tony", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["Landon", "3 Use/Equips", "3 Lucky Blocks", "2/3"],
+            ["Landon", "3 Use/Equips", "3 Lucky Blocks", "7/3"],
         ], "75 Uses or Equips (7/75)"
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go Mining for Electrum Ore.", [], "80% Mining, 2 Electrum Bars", "83"],
+        ["Chop a tree.", ["Incendiary"], "80% Chopping, 20 Oak Planks", "83"],
+        ["Go Fishing.", [], "100% Fishing, 1 Bag of Fish", "83"],
         ["Obtain a Sticker.", ["Incendiary"], "Sword Sticker, 2 Misc EXP", "82"],
         ["Go Digging.", [], "3 Gravel, 125% Digging", "82"],
         ["Consume an item.", [], "1 Item Candy, 3 Misc EXP", "82"],
@@ -155,7 +158,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Go Mining for Electrum.", ["gilbert"], "2 Disposable Phones, 4 Misc EXP", "61"],
         ["Go Fishing.", [], "1 Contact Card (Wet)", "61"],
         ["Mint a coin or decicoin.", [], "1 Coin", "61"],
-        ["Go Mining for Electrum.", ["sparky"], "2 Disposable Phones, 5 Misc EXP", "60"],
+        ["Go Mining for Electrum.", ["Sparky"], "2 Disposable Phones, 5 Misc EXP", "60"],
         ["Go Mining for Electrum.", ["Reali"], "2 Disposable Phones, 5 Misc EXP", "60"],
         ["Go Mining for Electrum.", [], "2 Disposable Phones, 5 Misc EXP", "60"],
         ["Go Fishing.", ["Reali"], "40% Fishing Exp", "59"],
@@ -214,11 +217,14 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Damage someone.", [], "1 Misc EXP", "42"],
     ],
     [
+        ["Deal type-aligned damage.", ["Sparky"], "10 HP", "80~83"],
+        ["Use 5 Skills.", ["Incendiary"], "3 Bottles o' Enchanting", "80~83"],
+        ["Interact with an enemy.", ["Reali"], "5 Misc EXP", "80~83"],
         ["Make a Carrot Cake.", [], "250% Cooking", "76~79"],
         ["Discover a Mystery Skill.", [], "20 Misc EXP", "76~79"],
         ["Kill 3 things.", [], "+0.2 Direct Attack", "76~79"],
         ["Cause a new item to be added to the data.", ["Landon"], "2 of that item", "72~75"],
-        ["Equip any armor.", ["sparky"], "0.8 Indirect Defense", "72~75"],
+        ["Equip any armor.", ["Sparky"], "0.8 Indirect Defense", "72~75"],
         ["Craft 5 unique items.", [], "350% Crafting", "72~75"],
         ["Create a Structure.", ["Byron"], "Stone Hammer", "68~71"],
         ["Die twice.", [], "Regen Potion", "68~71"],
@@ -239,10 +245,11 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Harvest a flower.", [], "15% Gardening Exp", "44~47"],
         ["Mine 5 Stone.", [], "20% Mining Exp", "44~47"],
         ["Take 20 damage total.", ["TwilightSeleneMisty"], "10 HP, 1 Iron Bar, 2 Misc EXP", "40~43"],
-        ["Harvest a crop.", ["sparky"], "15% Farming Exp", "40~43"],
+        ["Harvest a crop.", ["Sparky"], "15% Farming Exp", "40~43"],
         ["Mine 3 Iron Ore.", [], "30% Mining Exp", "40~43"],
     ],
     [
+        ["Equip a Sticker.", ["Gilbert"], "Orb Sticker"],
         ["Recruit an ally or summon.", ["Byron"], "1 Max HP Upgrade"],
         ["Attack a Structure.", ["Theta"], "1 Indirect Attack"],
         ["Reach Proficient in any skill.", ["sparky"], "4 Misc EXP"],
@@ -400,7 +407,7 @@ var quest_func = function() {
         quest_current = '<div class="struct questbox"><div class="questleft">'
         quest_current += pastquests[2][i][0]
         quest_current += '</div><div class="questright">'
-        quest_current += make_claimed(pastquests[1][i][1])
+        quest_current += make_claimed(pastquests[2][i][1])
         quest_current += '</div><div class="questbottom">Reward: '
         quest_current += pastquests[2][i][2]
         quest_current += '</div></div>'

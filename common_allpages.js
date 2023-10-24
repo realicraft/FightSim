@@ -141,29 +141,29 @@ var splashFunc = function() {
         splashes = splashes.concat(splashesList["rare"]);
         console.log("[Splashes] Added rare splashes");
     }
-    if (((cdate.getMonth == 11) && (cdate.getDate == 31)) || ((cdate.getMonth == 0) && (cdate.getDate == 1)) || ((cdate.getMonth == 0) && (cdate.getDate == 2))) { // new years splashes
+    if (((cdate.getMonth() == 11) && (cdate.getDate() == 31)) || ((cdate.getMonth() == 0) && (cdate.getDate() == 1)) || ((cdate.getMonth() == 0) && (cdate.getDate() == 2))) { // new years splashes
         splashes = splashes.concat(splashesList["new years"])
         console.log("[Splashes] Added New Year's splashes");
     }
-    if (((cdate.getMonth == 1) && (cdate.getDate == 13)) || ((cdate.getMonth == 1) && (cdate.getDate == 14)) || ((cdate.getMonth == 1) && (cdate.getDate == 15))) { // valentines splashes
+    if (((cdate.getMonth() == 1) && (cdate.getDate() == 13)) || ((cdate.getMonth() == 1) && (cdate.getDate() == 14)) || ((cdate.getMonth() == 1) && (cdate.getDate() == 15))) { // valentines splashes
         splashes = splashes.concat(splashesList["valentines"])
         console.log("[Splashes] Added Valentine's Day splashes");
     }
     // easter splashes?
-    if (((cdate.getMonth == 5) && (cdate.getDate == 23))) { // birthday splashes
+    if (((cdate.getMonth() == 5) && (cdate.getDate() == 23))) { // birthday splashes
         splashes = splashes.concat(splashesList["birthday"])
         console.log("[Splashes] Added birthday splashes");
     }
-    if (((cdate.getMonth == 9) && (cdate.getDate == 30)) || ((cdate.getMonth == 9) && (cdate.getDate == 31)) || ((cdate.getMonth == 10) && (cdate.getDate == 1))) { // halloween splashes
+    if (((cdate.getMonth() == 9) && (cdate.getDate() == 30)) || ((cdate.getMonth() == 9) && (cdate.getDate() == 31)) || ((cdate.getMonth() == 10) && (cdate.getDate() == 1))) { // halloween splashes
         splashes = splashes.concat(splashesList["halloween"])
         console.log("[Splashes] Added Halloween splashes");
     }
-    if (((cdate.getMonth == 11) && (21 <= cdate.getDate <= 27) && (cdate.getDay == 3)) || ((cdate.getMonth == 11) && (22 <= cdate.getDate <= 28) && (cdate.getDay == 4)) || ((cdate.getMonth == 11) && (23 <= cdate.getDate <= 29) && (cdate.getDay == 5))) {
+    if (((cdate.getMonth() == 11) && (21 <= cdate.getDate() <= 27) && (cdate.getDay() == 3)) || ((cdate.getMonth() == 11) && (22 <= cdate.getDate() <= 28) && (cdate.getDay() == 4)) || ((cdate.getMonth() == 11) && (23 <= cdate.getDate() <= 29) && (cdate.getDay() == 5))) {
         // thanksgiving splashes
         splashes = splashes.concat(splashesList["thanksgiving"])
         console.log("[Splashes] Added Thanksgiving splashes");
     }
-    if (((cdate.getMonth == 11) && (cdate.getDate == 24)) || ((cdate.getMonth == 11) && (cdate.getDate == 25)) || ((cdate.getMonth == 11) && (cdate.getDate == 26))) { // christmas splashes
+    if (((cdate.getMonth() == 11) && (cdate.getDate() == 24)) || ((cdate.getMonth() == 11) && (cdate.getDate() == 25)) || ((cdate.getMonth() == 11) && (cdate.getDate() == 26))) { // christmas splashes
         splashes = splashes.concat(splashesList["christmas"])
         console.log("[Splashes] Added Christmas splashes");
     }
@@ -171,7 +171,7 @@ var splashFunc = function() {
         splashes = splashes.concat(splashesList["also try"])
         console.log("[Splashes] Added \"Also try...\" splashes");
     }
-    if (((cdate.getMonth == 3) && (cdate.getDate == 1) && (cdate.getHours >= 18))) { // april fools splashes, replace all other splashes
+    if (((cdate.getMonth() == 3) && (cdate.getDate() == 1) && (cdate.getHours() >= 18))) { // april fools splashes, replace all other splashes
         splashes = splashesList["april fools"]
         console.log("[Splashes] Replaced all splashes with April Fool's Day splashes");
     }

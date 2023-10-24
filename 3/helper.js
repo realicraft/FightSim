@@ -24,6 +24,30 @@ var run_mine = function() {
     else {outputEl.innerText = "That target doesn't make sense."}
 }
 
+/* chopping rewards */
+var run_chop = function() {
+    var rollEl = document.getElementById("chop_roll")
+    var treeEl = document.getElementById("chop_tree")
+    var outputEl = document.getElementById("chop_output")
+    var rollNum = rollEl.value;
+    var tree = treeEl.value;
+    if ((rollNum < 1) | (rollNum > 40) | (Math.floor(rollNum) != rollNum)) {
+        outputEl.innerText = "That roll doesn't make sense."
+        return
+    }
+    var crl = chopRewardList[rollNum-1]
+    var logs = {"oak": "Oak Log", "birch": "Birch Log", "spruce": "Spruce Log", "palm": "Palm Log", "acacia": "Acacia Log", "mangrove": "Mangrove Log", "dark_oak": "Dark Oak Log", "jungle": "Jungle Log", "warped": "Warped Stem", "crimson": "Crimson Stem", "bamboo": "Bamboo Log", "cherry": "Cherry Log", "charred": "Charred Log"}
+    if (tree in logs) {
+        if (rollNum <= 2) {
+            outputEl.innerText = "No items obtained. (l)"
+        } else {
+            outputEl.innerText = ((crl[0] > 0) ? (crl[0] + " " + logs[tree] + ((crl[0] != 1) ? "s, " : ", ")) : "") + (crl[1] + " Stick" + ((crl[1] != 1) ? "s" : "")) + ((crl[2] > 0) ? (", " + crl[2] + " Sap") : "")
+        }
+    } else {
+        outputEl.innerText = "That target doesn't make sense."
+    }
+}
+
 /* TBGSBB+ to TBGSBB converter */
 var loop_until_char = function(string, char) {
     var i = 0
@@ -59,9 +83,6 @@ var comp_conv = function(conv) {
         } else {
             partA = ""
         }
-        //console.log("conv: " + conv)
-        //console.log("semicont: " + semiCont)
-        //console.log("partA: " + partA)
         if ((partA in replaceDoubleList) && !(replaceDoubleList[partA][2])) { // skip until the closing }
             outCont += replaceDoubleList[partA][0]
             conv = conv.slice(l+1)
@@ -82,10 +103,8 @@ var comp_conv = function(conv) {
             continue
         }
         conv = comp_conv(conv)
-        //console.log("conv2: " + conv)
         k = loop_until_char(conv, "}")
         semiCont = conv.slice(0, k)
-        //console.log("semicont2: " + semiCont)
         l = loop_until_char(semiCont, "|")
         if (l == semiCont.length) {
             if (semiCont in replaceSingleList) {outCont += replaceSingleList[semiCont]}
@@ -98,15 +117,82 @@ var comp_conv = function(conv) {
             }
         }
         conv = conv.slice(k+1)
-        //console.log("conv3: " + conv)
     }
     return outCont
+}
+var comp_conv2 = function(conv) {
+    var outCont = "";
+    var semiCont = "";
+    var sections = [""];
+    var outTag = "";
+    var done = false;
+    var j = 0;
+    var k = 0;
+    var lastK = 0;
+    var braces = 0;
+    while (!done) {
+        j = loop_until_char(conv, "{"); // find the beginning of the next tag
+        outCont += conv.slice(0, j);
+        if (j == conv.length) { // if the end's been reached, we're done
+            done = true;
+            continue;
+        }
+        conv = conv.slice(j+1);
+        braces = 1;
+        k = 0;
+        while (braces > 0) { // find the end of the tag
+            if (conv.charAt(k) == "{") {
+                braces += 1;
+            } else if (conv.charAt(k) == "}") {
+                braces -= 1;
+            }
+            k++;
+            if (k > conv.length) { // tag does not end properly
+                done = true;
+                outCont = "Failed to parse; unclosed tag"
+                return outCont;
+            }
+        }
+        semiCont = conv.slice(0, k-1); // get contents of tag
+        conv = conv.slice(k);
+        braces = 0;
+        k = 0;
+        lastK = 0;
+        sections = [];
+        while (k <= semiCont.length) {
+            if (semiCont.charAt(k) == "{") {
+                braces += 1;
+            } else if (semiCont.charAt(k) == "}") {
+                braces -= 1;
+            } else if (semiCont.charAt(k) == "|") { // if we're at a pipe...
+                if (braces == 0) { // ...and not in a nested tag, add what's before it to sections
+                    sections.push(semiCont.slice(lastK, k));
+                    lastK = k+1;
+                } else {} // ...and in a nested tag, do nothing; we'll get to it later
+            }
+            k++;
+        }
+        sections.push(semiCont.slice(lastK, k-1)); // add the last section
+        if (sections[0] in replaceList) { // if the given tag exists...
+            if (replaceList[sections[0]][1]) { // ...if the inside should be parsed...
+                for (sect = 1; sect < sections.length; sect++) {
+                    sections[sect] = comp_conv2(sections[sect]); // ...parse each section indiviually, then...
+                }
+            }
+            outTag = replaceList[sections[0]][2]; // ...parse the tag contents...
+            for (part = 1; part <= replaceList[sections[0]][0]; part++) {
+                outTag = outTag.replace("%"+part, sections[part]);
+            }
+            outCont += outTag; // ...and add the tag contents
+        }
+    }
+    return outCont;
 }
 var run_conv = function() {
     var inEl = document.getElementById("conv_in")
     var outEl = document.getElementById("conv_out")
     var cont = inEl.value;
-    outEl.value = comp_conv(cont)
+    outEl.value = comp_conv2(cont)
 }
 
 /* Golden Food Bonus Calc */

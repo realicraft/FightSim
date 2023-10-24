@@ -51,10 +51,11 @@
             <tr>
                 <th colspan="4"></th>
                 <th colspan="2" style="font-size: 12px;font-family: 'FightSim 12';">Fishing</th>
-                <th colspan="10" style="font-size: 12px;font-family: 'FightSim 12';">Mining Gains</th>
+                <th colspan="10" style="font-size: 12px;font-family: 'FightSim 12';">Mining</th>
+                <th colspan="3" style="font-size: 12px;font-family: 'FightSim 12';">Chopping</th>
             </tr>
             <tr>
-                <th>Max Level Req.</th>
+                <th style="padding-left: 2px;">Max Level Req.</th> <!-- use style to control subpixel spacing -->
                 <th>Roll</th>
                 <th><span class="info-hover" data-info-title="Skill Exp" data-info-desc="When you make a skill roll, you'll gain exp in that skill, based on how high you rolled (after bonuses)." id="info-skill" onmouseover="info('info-skill');" onmouseout="noinfo();">Skill Exp</span></th>
                 <th><span class="info-hover" data-info-title="Harvest Gains" data-info-desc="When you harvest a crop, the amount of the crop you gain is dependent on what you roll.<br />The first number indicates how many of the standard variety of the crop you get, and the second number indicates how many of the golden variety.<br />(If you aren't Proficient or higher in Gardening, then getting a Critical Miss will destroy the crop.)" id="info-crop" onmouseover="info('info-crop');" onmouseout="noinfo();">Crop Gain</span></th>
@@ -70,6 +71,9 @@
                 <th><span class="info-hover" data-info-title="Emerald" data-info-desc="How many emeralds you gain from Mining." id="info-emerald-gain" onmouseover="info('info-emerald-gain');" onmouseout="noinfo();">Emerald</span></th>
                 <th><span class="info-hover" data-info-title="Hardite" data-info-desc="How much hardite you gain from Mining." id="info-hardite-gain" onmouseover="info('info-hardite-gain');" onmouseout="noinfo();">Hardite</span></th>
                 <th><span class="info-hover" data-info-title="Geodes" data-info-desc="How many geodes you gain from Mining." id="info-geode-gain" onmouseover="info('info-geode-gain');" onmouseout="noinfo();">Geodes</span></th>
+                <th><span class="info-hover" data-info-title="Logs" data-info-desc="How many logs you gain from Chopping." id="info-log-gain" onmouseover="info('info-log-gain');" onmouseout="noinfo();">Logs</span></th>
+                <th><span class="info-hover" data-info-title="Sticks" data-info-desc="How many sticks you gain from Chopping." id="info-stick-gain" onmouseover="info('info-stick-gain');" onmouseout="noinfo();">Sticks</span></th>
+                <th><span class="info-hover" data-info-title="Sap" data-info-desc="How much sap you gain from Chopping." id="info-sap-gain" onmouseover="info('info-sap-gain');" onmouseout="noinfo();">Sap</span></th>
             </tr><tr>
                 <td rowspan="20">0</td>
                 <td>1</td>
@@ -87,12 +91,16 @@
                 <td rowspan="12">0</td>
                 <td rowspan="15">0</td>
                 <td rowspan="8">0</td>
+                <td rowspan="4">0</td>
+                <td rowspan="2">0</td>
+                <td rowspan="6">0</td>
             </tr><tr>
                 <td>2</td>
                 <td>15%</td>
             </tr><tr>
                 <td>3</td>
                 <td rowspan="2">20%</td>
+                <td rowspan="4">1</td>
             </tr><tr>
                 <td>4</td>
                 <td rowspan="2">1,0</td>
@@ -102,6 +110,7 @@
                 <td rowspan="2">25%</td>
                 <td rowspan="4">1</td>
                 <td rowspan="4">1</td>
+                <td rowspan="4">1</td>
             </tr><tr>
                 <td>6</td>
                 <td rowspan="3">2,0</td>
@@ -109,6 +118,8 @@
             </tr><tr>
                 <td>7</td>
                 <td>30%</td>
+                <td rowspan="7">1</td>
+                <td rowspan="3">2</td>
                 <td rowspan="7">1</td>
             </tr><tr>
                 <td>8</td>
@@ -123,10 +134,12 @@
                 <td rowspan="4">2</td>
                 <td rowspan="7">1</td>
                 <td rowspan="8">1</td>
+                <td rowspan="4">2</td>
             </tr><tr>
                 <td>10</td>
                 <td>45%</td>
                 <td rowspan="7">1</td>
+                <td rowspan="4">3</td>
             </tr><tr>
                 <td>11</td>
                 <td>50%</td>
@@ -142,12 +155,15 @@
                 <td rowspan="4">3</td>
                 <td rowspan="4">3</td>
                 <td rowspan="7">1</td>
+                <td rowspan="4">3</td>
             </tr><tr>
                 <td>14</td>
                 <td>60%</td>
                 <td rowspan="3" style="font-size: 12px;font-family: 'FightSim 12';">Great<br />Fish</td>
                 <td rowspan="8">2</td>
                 <td rowspan="6">2</td>
+                <td rowspan="3">4</td>
+                <td rowspan="7">2</td>
             </tr><tr>
                 <td>15</td>
                 <td rowspan="2">65%</td>
@@ -164,6 +180,8 @@
                 <td rowspan="4">4</td>
                 <td rowspan="6">2</td>
                 <td rowspan="8">2</td>
+                <td rowspan="4">4</td>
+                <td rowspan="4">5</td>
             </tr><tr>
                 <td>18</td>
                 <td rowspan="2">6,0</td>
@@ -185,6 +203,9 @@
                 <td rowspan="5">5</td>
                 <td rowspan="20" style="background-color:var(--table_dbg);">N/A</td>
                 <td rowspan="4">5</td>
+                <td rowspan="4">5</td>
+                <td rowspan="3">6</td>
+                <td rowspan="6">3</td>
             </tr><tr>
                 <td>22</td>
                 <td rowspan="9">3</td>
@@ -198,12 +219,14 @@
             </tr><tr>
                 <td>24</td>
                 <td rowspan="7">2</td>
+                <td rowspan="4">7</td>
             </tr><tr>
                 <td rowspan="2">3</td>
                 <td>25</td>
                 <td rowspan="3">90%</td>
                 <td rowspan="4">6</td>
                 <td rowspan="8">3</td>
+                <td rowspan="4">6</td>
             </tr><tr>
                 <td>26</td>
                 <td rowspan="3">7,2</td>
@@ -215,15 +238,18 @@
                 <td>27</td>
                 <td rowspan="9">4</td>
                 <td rowspan="8">3</td>
+                <td rowspan="7">4</td>
             </tr><tr>
                 <td>28</td>
                 <td rowspan="2">95%</td>
+                <td rowspan="3">8</td>
             </tr><tr>
                 <td rowspan="2">5</td>
                 <td>29</td>
                 <td>8,2</td>
                 <td rowspan="4">7</td>
                 <td rowspan="6">4</td>
+                <td rowspan="4">7</td>
             </tr><tr>
                 <td>30</td>
                 <td rowspan="11">100%</td>
@@ -235,6 +261,7 @@
                 <td rowspan="5">7</td>
                 <td rowspan="10">4</td>
                 <td rowspan="6">3</td>
+                <td rowspan="4">9</td>
             </tr><tr>
                 <td>7</td>
                 <td>32</td>
@@ -245,16 +272,19 @@
                 <td rowspan="2">9,3</td>
                 <td rowspan="4">8</td>
                 <td rowspan="8">4</td>
+                <td rowspan="4">8</td>
             </tr><tr>
                 <td>9</td>
                 <td>34</td>
                 <td rowspan="7">4</td>
+                <td rowspan="7">5</td>
             </tr><tr>
                 <td rowspan="6">10</td>
                 <td>35</td>
                 <td rowspan="4">9,4</td>
                 <td rowspan="6">5</td>
                 <td rowspan="6">4</td>
+                <td rowspan="3">10</td>
             </tr><tr>
                 <td>36</td>
                 <td rowspan="5">8</td>
@@ -265,8 +295,10 @@
                 <td rowspan="4">9</td>
                 <td rowspan="4">6</td>
                 <td rowspan="4">4</td>
+                <td rowspan="4">9</td>
             </tr><tr>
                 <td>38</td>
+                <td rowspan="3">11</td>
             </tr><tr>
                 <td>39</td>
                 <td rowspan="2">10,4</td>
@@ -431,36 +463,51 @@
         <p>Things that rely on the sun will have reduced effectiveness when it's not Day. This does not apply to plants, and both Night and Partly Cloudy reduce effectiveness less than other weather types.</p>
         <table>
             <tr>
+                <th>Icon</th>
                 <th>Type</th>
                 <th>Effect</th>
             </tr><tr>
+                <td><span class="small_icon sunny"></span></td>
                 <td>Day</td>
                 <td>No special effects.</td>
             </tr><tr>
+                <td><span class="small_icon moon"></span></td>
                 <td>Night</td>
                 <td>No special effects.</td>
             </tr><tr>
+                <td><span class="small_icon rainy"></span></td>
                 <td>Rain</td>
                 <td>Crops grow slightly faster, fires are extinguished quicker, and items and structures might get soaked.</td>
             </tr><tr>
+                <td><span class="small_icon rainy"></span></td>
                 <td>Downpour</td>
                 <td>Like rain, but worse. Crops and Structures have a chance to get buffeted by the rain, damaging them, and exposed fires are put out immediately. Additionally, Structures can be Flooded.</td>
             </tr><tr>
+                <td><span class="small_icon cloudy"></span></td>
                 <td>Cloudy</td>
                 <td>No special effects.</td>
             </tr><tr>
+                <td><span class="small_icon cloudy"></span></td>
                 <td>Partly Cloudy</td>
                 <td>No special effects.</td>
             </tr><tr>
+                <td><span class="small_icon foggy"></span></td>
+                <td>Foggy</td>
+                <td>Accuracy is decreased, and it's a bit hard to see distant stuff in general</td>
+            </tr><tr>
+                <td><span class="small_icon thunderstorm"></span></td>
                 <td>Thunderstorm</td>
                 <td>Similar to rain, with the added effect of structures occasionally getting hit by lightning.</td>
             </tr><tr>
+                <td><span class="small_icon lightning"></span></td>
                 <td>Lightning</td>
                 <td>Similar to a thunderstorm, but without the rain.</td>
             </tr><tr>
+                <td><span class="small_icon snow"></span></td>
                 <td>Snow</td>
                 <td>It's colder, crops grow slower, and structures might get covered in snow.</td>
             </tr><tr>
+                <td><span class="small_icon snow"></span></td>
                 <td>Hail</td>
                 <td>Similar to snow, except instead of stuff getting covered in snow, structures, crops, mobs, and players might get buffeted by hail.</td>
             </tr>

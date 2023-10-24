@@ -1,8 +1,5 @@
 Changelog for Turn 83
 
-Mobs
-- 
-
 Items
 - severely nerfed the tray of cookies
 - also nerfed the cookies
@@ -20,45 +17,15 @@ Effects
 Structures
 - you can now build structures out of items
 
-Scrolls
-- 
-
-Skills
-- 
-
-Gardens
-- 
-
-Quests
-- 
-
-Phone System
-- 
-
-Helpers
-- 
-
-Votes
-- 
-
 Translations
 - added translation strings for Spicy!
 - fixed the Badly Poisoned description using <i> instead of <em>
 
-Splashes
-- 
-
-Themes
-- 
-
 Icon Sets
 - resprite: started working on weapons_tiered_sheet (moved icons from equip_sheet_plan)
 
-Settings
-- 
-
 Internal
-- 
+- fixed several slightly-off numbers in golden.txt
 
 Misc
 - added a quick [citation needed] entry to replaceList

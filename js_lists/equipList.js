@@ -164,17 +164,17 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Hardite Bar", "hardite_bar", "A bar of solid hardite, named after both how hard it is to get, and how hard it is as a material. This stuff can cut diamond!", "Crafting", "", [11,25], 3, 21]], //77
     [["Rock-on-a-Stick", "rock_on_stick", "A rock fastened to a stick with more rock. Better than just using tape.", "Crafting", "20% Chance of breaking on hit<br />+1 Indirect Attack", [5,23], 1, 3]], //78
     [
-        ["Sandstone Brick Wall", "sandstone_brick_wall", "A wall made of Sandstone Bricks.", "Crafting", "40 HP<br />3+1 Defense", [19,20], 1, 8],
-        ["Red Sandstone Brick Wall", "red_sandstone_brick_wall", "A wall made of Red Sandstone Bricks.", "Crafting", "45 HP<br />4+1 Defense", [19,20], 1, 9],
+        ["Sandstone Brick Wall", "sandstone_brick_wall", "A wall made of Sandstone Bricks.", "Crafting", "", [19,20], 1, 10],
+        ["Red Sandstone Brick Wall", "red_sandstone_brick_wall", "A wall made of Red Sandstone Bricks.", "Crafting", "", [19,20], 1, 11],
     ], //79
-    [["Brick Wall", "brick_wall", "A wall made of Bricks.", "Crafting", "50 HP<br />3+1 Defense", [19,20], 1, 8]], //80
-    [["Stone Brick Wall", "stone_brick_wall", "A wall made of Stone Bricks.", "Crafting", "50 HP<br />4+1 Defense", [19,20], 1, 8]], //81
-    [["Stone Wall", "stone_wall", "A wall made of Stone.", "Crafting", "50 HP<br />4+1 Defense", [19,20], 1, 8]], //82
-    [["Iron Wall", "iron_wall", "A wall made of Iron.", "Crafting", "75 HP<br />4+2 Defense", [19,20], 2, 13]], //83
-    [["Hardite Wall", "hardite_wall", "A wall made of Hardite.", "Crafting", "125 HP<br />5+2 Defense", [19,20], 3, 26]], //84
+    [["Brick Wall", "brick_wall", "A wall made of Bricks.", "Crafting", "", [19,20], 1, 7]], //80
+    [["Stone Brick Wall", "stone_brick_wall", "A wall made of Stone Bricks.", "Crafting", "", [19,20], 1, 10]], //81
+    [["Stone Wall", "stone_wall", "A wall made of Stone.", "Crafting", "", [19,20], 1, 6]], //82
+    [["Iron Wall", "iron_wall", "A wall made of Iron.", "Crafting", "", [19,20], 2, 11]], //83
+    [["Hardite Wall", "hardite_wall", "A wall made of Hardite.", "Crafting", "", [19,20], 3, 24]], //84
     [
-        ["Oak Plank Wall", "oak_wall", "A wall made of Oak Planks.", "Crafting", "25 HP<br />2 Defense", [19,20], 1, 6], //0
-        ["Birch Plank Wall", "birch_wall", "A wall made of Birch Planks.", "Crafting", "25 HP<br />2 Defense", [19,20], 1, 6], //1
+        ["Oak Plank Wall", "oak_wall", "A wall made of Oak Planks.", "Crafting", "", [19,20], 1, 3], //0
+        ["Birch Plank Wall", "birch_wall", "A wall made of Birch Planks.", "Crafting", "", [19,20], 1, 3], //1
     ], //85
     [["Flint", "flint", "A piece of flint.", "Crafting", "Potion effect: 50% chance of Attack Up (1 turn)", [11], 1, 3]], //86
     [["String", "string", "A piece of string.", "Gathering", "", [11], 1, 3]], //87
@@ -427,7 +427,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Blueberries", "blueberries", "A handful of blueberries.", "Farming", "+4 HP on consume", [10,30], 1, 5]], //279
     [["Golden Blueberries", "golden blueberries", "A handful of golden blueberries.", "Farming", "Equip for +0.3 Gathering", [9], 2, 15]], //280
     [["Cherries", "cherries", "A handful of cherries.", "Farming", "+4 HP on consume", [10,30], 1, 5]], //281
-    [["Golden Cherries", "golden cherries", "A handful of golden cherries. Not sure what they have to do with ballet, but ok.", "Farming", "Equip for +0.3 Ballet", [9], 2, 15]], //282
+    [["Golden Cherries", "golden cherries", "A handful of golden cherries. Not sure what they have to do with dancing, but ok.", "Farming", "Equip for +0.3 Dancing", [9], 2, 15]], //282
     [["Blackberries", "blackberries", "A handful of blackberries.", "Farming", "+4 HP on consume", [10,30], 1, 5]], //283
     [["Golden Blackberries", "golden blackberries", "A handful of golden blackberries. What, exactly, could you craft with these?", "Farming", "Equip for +0.3 Crafting", [9], 2, 15]], //284
     [["Peach", "peach", "A peach.", "Farming", "+4 HP on consume", [10,30], 1, 5]], //285
@@ -637,7 +637,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Alchemy Upgrade", "upgrade_alchemy", "An upgrade square that upgrades Alchemy.", "Summon/Ally", "+1 Alchemy", [44], 1, 0]], //468
     [["Pottery Upgrade", "upgrade_pottery", "An upgrade square that upgrades Pottery.", "Summon/Ally", "+1 Pottery", [44], 1, 0]], //469
     [["Fishing Upgrade", "upgrade_fishing", "An upgrade square that upgrades Fishing.", "Summon/Ally", "+1 Fishing", [44], 1, 0]], //470
-    [["Ballet Upgrade", "upgrade_ballet", "An upgrade square that upgrades Ballet.", "Summon/Ally", "+1 Ballet", [44], 1, 0]], //471
+    [["Dancing Upgrade", "upgrade_dancing", "An upgrade square that upgrades Dancing.", "Summon/Ally", "+1 Dancing", [44], 1, 0]], //471
     [["Wizard Hat", "wizard_hat", "A hat with stars on it, fit for a wizard.", "Crafting", "+1 INT", [1], 2, 12]], //472
     [["Head Apple", "apple", "An apple you place on your head. Somehow this makes you more agile?", "Crafting", "+1 AGI", [1], 2, 7]], //473
     [["\"Kiss the Chef\" Apron", "chef_apron", "An apron with a funny message.", "Crafting", "+1 CHR<br />+0.5 Cooking", [2], 2, 9]], //474
@@ -1002,6 +1002,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Small Diamond Sword", "diamond_smallsword", "A small sword made out of diamond.", "Crafting", "+1 Direct Attack<br />+0.5 Indirect Attack", [5,23], 2, 9]], //743
     [["Small Emerald Sword", "emerald_smallsword", "A small sword made out of emerald.", "Crafting", "+1.4 Direct Attack<br />+0.6 Indirect Attack", [5,23], 2, 8]], //744
     [["Small Hardite Sword", "hardite_smallsword", "A small sword made out of hardite.", "Crafting", "+2 Direct Attack<br />+0.8 Indirect Attack", [5,23], 3, 11]], //745
+    [["Pencil", "pencil", "A pencil. You don't really have a use for this, so you should just sell it.", "Crafting", "", [20], 1, 2]], //746
 ]
 
 var critter_data = [ // [name, desc, type, element, colouric?, hp, atk, def, ability id, offensive id, defensive id]

@@ -1,0 +1,37 @@
+Changelog for Turn 84
+
+Items
+- fixed custom names being broken
+- wall are now just blocks, like minecraft's walls and fences
+- adjusted the sell prices of walls slightly
+- walls no longer have stats
+- adjusted the icon for the dancing upgrade slightly to match its new name
+- implemented the pencil
+
+Crafting
+- wall recipes now give 4 walls instead of just 1
+
+Structures
+- structures with material costs now show a completion percentage
+
+Skills
+- standardized chopping gains
+- renamed ballet to dancing and added an icon for it
+
+Quests
+- fixed the past full quest display using the claim data for past quadturn quests
+
+Helpers
+- rewrote the tbgsbbp to tbgsbb converter; it now supports infinite arguments for tags, along with actual parse-disabling
+- added a helper for chopping gains
+
+Splashes
+- fixed holiday splashes not working at all
+- uncommented out the splash about lithium
+
+Internal
+- reworked the way player exp is stored; instead of ([level, current exp to next, need exp]), it uses (total exp)
+
+Misc
+- added fog
+- the list of weathers now shows icons

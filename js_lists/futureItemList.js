@@ -26,8 +26,8 @@ var futureitemlist =  [ //[name, css class for icon, description, source, bonuse
     [["Raised Ladle Sticker", "sticker_ladle_rare", "A raised sticker of a ladle. The water's fake.<br />[St3, 10, R]", "Unknown", "Put it in your Sticker Book for +2 Cooking", [20,37], 3, 0]], //?
     [["Pot Sticker", "sticker_pot", "A sticker of a pot.<br />[St3, 11, C]", "Unknown", "Put it in your Sticker Book for +0.7 Pottery", [20,37], 1, 0]], //?
     [["Raised Pot Sticker", "sticker_pot_rare", "A raised sticker of a pot. It might be hollow?<br />[St3, 12, R]", "Unknown", "Put it in your Sticker Book for +2 Pottery", [20,37], 3, 0]], //?
-    [["Ballet Shoes Sticker", "sticker_ballet", "A sticker of a pair of ballet shoes.<br />[St3, 13, C]", "Unknown", "Put it in your Sticker Book for +0.7 Ballet", [20,37], 1, 0]], //?
-    [["Raised Ballet Shoes Sticker", "sticker_ballet_rare", "A raised sticker of a pair of ballet shoes. The ribbons are made of real ribbon.<br />[St3, 14, R]", "Unknown", "Put it in your Sticker Book for +2 Ballet", [20,37], 3, 0]], //?
+    [["Ballet Shoes Sticker", "sticker_ballet", "A sticker of a pair of ballet shoes.<br />[St3, 13, C]", "Unknown", "Put it in your Sticker Book for +0.7 Dancing", [20,37], 1, 0]], //?
+    [["Raised Ballet Shoes Sticker", "sticker_ballet_rare", "A raised sticker of a pair of ballet shoes. The ribbons are made of real ribbon.<br />[St3, 14, R]", "Unknown", "Put it in your Sticker Book for +2 Dancing", [20,37], 3, 0]], //?
     [["Microphone Sticker", "sticker_microphone", "A sticker of a microphone.<br />[St3, 15, C]", "Unknown", "Put it in your Sticker Book for +0.7 MS4", [20,37], 1, 0]], //?
     [["Raised Microphone Sticker", "sticker_microphone_rare", "A raised sticker of a microphone.<br />[St3, 16, R]", "Unknown", "Put it in your Sticker Book for +2 MS4", [20,37], 3, 0]], //?
     [["Golf Ball Sticker", "sticker_golf_ball", "A sticker of a golf ball.<br />[St3, 17, C]", "Unknown", "Put it in your Sticker Book for +0.7 MS5", [20,37], 1, 0]], //?

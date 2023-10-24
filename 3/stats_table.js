@@ -15,16 +15,28 @@ var makeRestOfUpgradeRow = function(num,i,o,n) {
     return '<td class="inv_item"><span class="icon ' + equiplist[q][0][1] + '" onmouseover="ttEquip(' + q + ');" onmouseout="nt();"></span></td>'
 }
 
+var getLevelData = function(exp) {
+    var expNext = 10;
+    var level = 0;
+    while (exp >= expNext) {
+        level++;
+        exp -= expNext;
+        expNext += 10 * (Math.floor(level/10) + 1);
+    }
+    return [level, exp, expNext];
+}
+
 var tableFunc = function() {
     var stat_tables = ""
     var stat_table = ""
     for (var i in user_data["3"]) { // single table
+        levelData = getLevelData(user_data["3"][i]["exp"])
         stat_table = '<div class="player_table user_' + user_data["3"][i]["css_class"].toLowerCase() + '">' // setup
-        stat_table += '<span class="pt_level_contain"><p class="pt_level_upper">Level ' + user_data["3"][i]["exp"][0] + '</p>' // level bar
+        stat_table += '<span class="pt_level_contain"><p class="pt_level_upper">Level ' + levelData[0] + '</p>' // level bar
         stat_table += '<div class="pt_level_bar_outer"><div class="pt_level_bar_inner" style="width:calc(calc(100% * ('
-        stat_table += user_data["3"][i]["exp"][1] + ' / ' + user_data["3"][i]["exp"][2]
+        stat_table += levelData[1] + ' / ' + levelData[2]
         stat_table += ')) - 2px);"></div></div><p class="pt_level_lower">'
-        stat_table += user_data["3"][i]["exp"][1] + '/' + user_data["3"][i]["exp"][2]
+        stat_table += levelData[1] + '/' + levelData[2]
         stat_table += '</p></span><span class="type_icon_contain"><span class="icon ' + typelist[user_data["3"][i]["type"]] + ' type_icon" title="Type">' // type
         stat_table += '</span></span><h2 class="username"'
         if (user_data["3"][i]["do_pad"]) {stat_table += ' style="padding-right:1px;"'}

@@ -22,7 +22,7 @@ Digging      | Beetroot (0.3)
 Alchemy      | Watermelon (0.3)
 Pottery      | Mango (0.3)
 Fishing      | Goldfish (0.3)
-Ballet       | Cherries (0.3)
+Dancing      | Cherries (0.3)
 - RPG Stats
 AGI          | Orange (0.5)
 STR          | Spinach (0.5)

@@ -28,6 +28,20 @@
         </select>
         <button id="mine_button" onclick="run_mine();">Get Result</button>
         <br /><div class="output" id="mine_output">&nbsp;</div>
+        <h2>Chopping Gains</h2>
+        <input placeholder="Roll" type="number" min="1" max="40" step="1" id="chop_roll" style="width:50px;">
+        <label for="chop_tree">Tree:</label>
+        <select id="chop_tree">
+            <option value="oak">Oak</option><option value="birch">Birch</option>
+            <option value="spruce">Spruce</option><option value="palm">Palm</option>
+            <option value="acacia">Acacia</option><option value="mangrove">Mangrove</option>
+            <option value="dark_oak">Dark Oak</option><option value="jungle">Jungle</option>
+            <option value="warped">Warped</option><option value="crimson">Crimson</option>
+            <option value="bamboo">Bamboo</option><option value="cherry">Cherry</option>
+            <option value="charred">Charred</option>
+        </select>
+        <button id="chop_button" onclick="run_chop();">Get Result</button>
+        <br /><div class="output" id="chop_output">&nbsp;</div>
         <h2>TBGSBB+ to TBGSBB converter</h2>
         <textarea rows="15" cols="80" id="conv_in"></textarea>
         <textarea rows="15" cols="80" id="conv_out" disabled></textarea>
