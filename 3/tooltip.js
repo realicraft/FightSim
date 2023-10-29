@@ -90,15 +90,18 @@ var tt = function(id=0, dv=0, stack=1, nbt={}, anbt="", dnbt="", cname="") { // 
     if (dnbt == "") {var desc = func_or_str(equiplist[id][mdv][2], [id, dv, stack, nbt])} //dnbt is depreciated, but currently still used
     else {var desc = func_or_str(equiplist[id][mdv][2], [id, dv, stack, nbt])+dnbt}
 
+    var nameclass = name_class_list[func_or_str(equiplist[id][mdv][6], [id, dv, stack, nbt])];
+    var price = func_or_str(equiplist[id][mdv][7], [id, dv, stack, nbt]);
+
     if (anbt == "") {
-        tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, equiplist[id][mdv][4], name_class_list[equiplist[id][mdv][6]], equiplist[id][mdv][7])
+        tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, equiplist[id][mdv][4], nameclass, price)
     } // no nbt data
     else {
         if (equiplist[id][mdv][4] == "") {
-            tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, (anbt), name_class_list[equiplist[id][mdv][6]], equiplist[id][mdv][7])
+            tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, (anbt), nameclass, price)
         } // has nbt datas, no effects
         else {
-            tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, (equiplist[id][mdv][4]+"<br />"+anbt), name_class_list[equiplist[id][mdv][6]], equiplist[id][mdv][7])
+            tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, (equiplist[id][mdv][4]+"<br />"+anbt), nameclass, price)
         } // has nbt datas, original has effects
     }
 }

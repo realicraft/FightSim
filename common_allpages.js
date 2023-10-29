@@ -129,6 +129,7 @@ var waitForLang = function(func) {
     }
 }
 
+// splashes
 var splashFunc = function() {
     var splashEl = document.getElementById("splash_span")
     var splashes = splashesList["always"]; // constant splashes
@@ -171,6 +172,10 @@ var splashFunc = function() {
         splashes = splashes.concat(splashesList["also try"])
         console.log("[Splashes] Added \"Also try...\" splashes");
     }
+    if (Math.floor(Math.random() * 3) != 2) { // "ideas" splashes
+        splashes = splashes.concat(splashesList["ideas"])
+        console.log("[Splashes] Added \"If you need ideas...\" splashes");
+    }
     if (((cdate.getMonth() == 3) && (cdate.getDate() == 1) && (cdate.getHours() >= 18))) { // april fools splashes, replace all other splashes
         splashes = splashesList["april fools"]
         console.log("[Splashes] Replaced all splashes with April Fool's Day splashes");
@@ -186,7 +191,13 @@ tooltipEl.innerHTML = tooltipCont
 var infoCont = '<h3 class="info_name">Info Topic</h3><br /><p class="info_desc">This is the description of an info topic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>'
 infoEl.innerHTML = infoCont
 
-// function to make item elements
+// functions for making item elements
+var func_or_str = function(data, inputs) { // takes a variable containing unknown data; if it is a function, it calls the function with the given inputs, otherwise, it passes the value through
+    if (typeof data == "function") {
+        return data(...inputs);
+    } else {return data};
+};
+
 var makeItem = function(id, dv, stack, nbt, donoequip) {
     var edv = dv;
     if (equiplist[id] == undefined) {throw Error("Invalid item ID: "+id)};
@@ -198,7 +209,7 @@ var makeItem = function(id, dv, stack, nbt, donoequip) {
     var startedMini = false;
     var invenRow2 = "<span class='icon ";
     if ("enchant" in nbt) {invenRow2 += "enchanted "}
-    invenRow2 += equiplist[id][edv][1];
+    invenRow2 += func_or_str(equiplist[id][edv][1], [id, dv, stack, nbt]);
     if (("bools" in nbt) && (nbt["bools"][0] == true)) {invenRow2 += " dbg"}
     if (donoequip) {invenRow2 += "' onmouseover='tt(";}
     else {invenRow2 += "' onmouseover='ttEquip(";}
@@ -248,7 +259,7 @@ var makeItem = function(id, dv, stack, nbt, donoequip) {
             invenRow2 += "<span class='mini_icon mini_tag_" + nbt["tag"] + "'></span>"
         }
     }
-    for (m of equiplist[id][edv][1].split(" ")) { // check for mini icons (classes)
+    for (m of func_or_str(equiplist[id][edv][1], [id, dv, stack, nbt]).split(" ")) { // check for mini icons (classes)
         if (m == "enchanted") {
             if (!startedMini) {invenRow2 += "<span class='mini_cont'>"}
             startedMini = true

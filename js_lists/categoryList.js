@@ -58,4 +58,5 @@ var categorylist = [ // [name]
     ["category.ammo.name"], //56
     ["category.gem.name"], //57
     ["category.electrum.name"], //58
+    ["category.unremovable.name"], //59
 ]

@@ -7,15 +7,15 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [[quest lang_id, number], [claimed], reward, turn]
-    [["make_shield", 1], [], "3 Misc EXP", "84"],
-    [["go_mine_electrum", 1], [], "2 Disposable Phones, 4 Misc EXP", "84"],
-    [["equip_accessory", 1], [], "4 Fabric, 4 Leather, 4 String", "84"],
-    [["damage_total", 30], [], "1 Diamond Sword", "84~87"],
-    [["make_new_item", 1], [], "2 Sleep Shrooms, 1 Metal Triangle", "84~87"],
+    [["obtain_time_candy", 1], [], "2 Pumpkin-Shaped Chocolates, 1 Mystery Gift", "85"],
+    [["go_gather", 1], [], "120% Gathering, 20 Sticks", "85"],
+    [["plant_flower", 1], [], "130% Gardening, 4 Sunflowers", "85"],
+    [["damage_total", 30], [], "1 Diamond Sword", "84~87"], // gilbert 3
+    [["make_new_item", 1], ["Faressain"], "2 Sleep Shrooms, 1 Metal Triangle", "84~87"],
     [["use_scroll", 1], [], "2 Random Scrolls", "84~87"],
     [["talk_to_morshu", 1], [], "2 Bombs, 7 Misc EXP"],
     [["equip_gold_food", 1], [], "3 Gold Bars, 150% Farming"],
-    [["level_up_skill", 8], [], "40 Misc EXP, 0.5 Direct Attack"], // incendiary 1
+    [["level_up_skill", 8], [], "40 Misc EXP, 0.5 Direct Attack"], // incendiary 1, landon 1, reali 3
 ]
 
 var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div height]
@@ -25,8 +25,8 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["S.&nbsp;McSaus", "1 Crop", "1 Misc EXP", "0/1"],
             ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Incendiary", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Byron", "8 Crops", "8 Misc EXP", "0/8"],
+            ["Incendiary", "1 Crop", "1 Misc EXP", "1/1"],
+            ["Byron", "8 Crops", "8 Misc EXP", "4/8"],
             ["sparky", "7 Crops", "7 Misc EXP", "1/6"],
             ["solitare", "2 Crops", "2 Misc EXP", "0/2"],
             ["Fares", "1 Crop", "1 Misc EXP", "0/1"],
@@ -89,6 +89,9 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Make a shield.", [], "3 Misc EXP", "84"],
+        ["Go Mining for Electrum Ore.", [], "2 Disposable Phones, 4 Misc EXP", "84"],
+        ["Equip any accessory.", [], "4 Fabric, 4 Leather, 4 String", "84"],
         ["Go Mining for Electrum Ore.", [], "80% Mining, 2 Electrum Bars", "83"],
         ["Chop a tree.", ["Incendiary"], "80% Chopping, 20 Oak Planks", "83"],
         ["Go Fishing.", [], "100% Fishing, 1 Bag of Fish", "83"],

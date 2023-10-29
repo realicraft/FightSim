@@ -1,0 +1,41 @@
+Changelog for Turn 85
+
+Items
+- fixed a typo in the effects list for the construction upgrade
+- certain items are now Unremovable, and cannot be removed by normal means
+- time candies can only be used once per turn
+- increased the sell price of the furnace
+- renamed the Metal Triangle to "Metallic Triangle", since it seemed like it was causing SMF to reject the post, but it was actually fares's fault
+- added a fax machine, as (accidentally?) suggested by MiniKiwiGeek (see https://tbgforums.com/forums/index.php?topic-5693.msg691418)
+- added spruce, acacia, dark oak, and jungle variants of wood-based items
+- added a crafting table
+- sort of added a bunch of halloween candy (you can obtain them, but they'll be put into the condensing items and don't have items forms)
+
+Item Revamp
+- started working on reworking items
+- duplicated equipList into equipList2
+- equipList2: added a warning for if the beta list is enabled
+- equipList2: merged slimeballs into a single data value, using the "color" tag in nbt data as a replacement
+
+Crafting
+- added a recipe for the fax machine
+- added a recipe for crafting tables
+- added recipes for the new wood items
+
+Votes
+- added a new vote
+- slightly reworded the lead
+
+Translations
+- en_us: added an entry for the new unremovable category
+
+Splashes
+- fixed a typo in one of the rare splashes
+- added a new category of splashes, containing 16 new splashes
+
+Internal
+- made the end of tt() a bit more concise
+- the function for making items now supports functions that return strings for css classes
+
+Misc
+- added a screenshot of a spyglass platform

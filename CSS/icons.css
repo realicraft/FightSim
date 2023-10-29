@@ -1057,7 +1057,7 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_misc);
     background-position: -160px -96px;
 }
-.slime_ball {
+.slime_ball, .green_slime_ball {
     background-image: var(--icn_mob);
     background-position: -160px -0px;
 }
@@ -2684,27 +2684,27 @@ span.mini_cont span.mini_icon {
 }
 .acacia_log {
     background-image: var(--icn_wood);
-    background-position: -160px -0px;
+    background-position: -128px -0px;
 }
 .acacia_plank, .acacia_planks {
     background-image: var(--icn_wood);
-    background-position: -160px -32px;
+    background-position: -128px -32px;
 }
 .acacia_wall {
     background-image: var(--icn_wood);
-    background-position: -160px -64px;
+    background-position: -128px -64px;
 }
 .acacia_table {
     background-image: var(--icn_wood);
-    background-position: -160px -96px;
+    background-position: -128px -96px;
 }
 .acacia_chair {
     background-image: var(--icn_wood);
-    background-position: -160px -128px;
+    background-position: -128px -128px;
 }
 .acacia_plate {
     background-image: var(--icn_wood);
-    background-position: -160px -160px;
+    background-position: -128px -160px;
 }
 .dark_oak_log {
     background-image: var(--icn_wood);
@@ -2729,6 +2729,54 @@ span.mini_cont span.mini_icon {
 .dark_oak_plate {
     background-image: var(--icn_wood);
     background-position: -192px -160px;
+}
+/*.spruce_log {
+    background-image: var(--icn_wood);
+    background-position: -64px -0px;
+}*/
+.spruce_plank, .spruce_planks {
+    background-image: var(--icn_wood);
+    background-position: -64px -32px;
+}
+.spruce_wall {
+    background-image: var(--icn_wood);
+    background-position: -64px -64px;
+}
+.spruce_table {
+    background-image: var(--icn_wood);
+    background-position: -64px -96px;
+}
+.spruce_chair {
+    background-image: var(--icn_wood);
+    background-position: -64px -128px;
+}
+.spruce_plate {
+    background-image: var(--icn_wood);
+    background-position: -64px -160px;
+}
+/*.jungle_log {
+    background-image: var(--icn_wood);
+    background-position: -224px -0px;
+}*/
+.jungle_plank, .jungle_planks {
+    background-image: var(--icn_wood);
+    background-position: -224px -32px;
+}
+.jungle_wall {
+    background-image: var(--icn_wood);
+    background-position: -224px -64px;
+}
+.jungle_table {
+    background-image: var(--icn_wood);
+    background-position: -224px -96px;
+}
+.jungle_chair {
+    background-image: var(--icn_wood);
+    background-position: -224px -128px;
+}
+.jungle_plate {
+    background-image: var(--icn_wood);
+    background-position: -224px -160px;
 }
 .any_raw_meat {
     background-image: var(--icn_meat);

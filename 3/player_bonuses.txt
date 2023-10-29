@@ -9,8 +9,8 @@ every 1 stat grants a +0.1 skill boost, capped at 30 of the stat (+3 skill boost
 
 reali:
  Stats:
-  Health: (+3)
-   Player Level (+2)
+  Health: (+5)
+   Player Level (+4)
    Overheal Potion (+1)
   Indirect Attack: (+1)
    Santa Hat (+1)

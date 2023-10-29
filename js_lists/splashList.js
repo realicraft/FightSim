@@ -82,7 +82,7 @@ var splashesList = { // "type": [splash, ...]
         "Funny splash text.",
         "missingno.",
         "<span class='icon night_vision'></span> <span class='icon night_vision'></span>",
-        "Aw, what a cure baby drag- <b>oh.</b>",
+        "Aw, what a cute baby drag- <b>oh.</b>",
         "No one is dead! Let's <a href='https://tbgforums.com/forums/index.php?topic=6518.0'>keep it</a> that way, alright?<br /><br />Unless you count Luigi.",
         "furfrou",
         "Very quiet birdwatcher",
@@ -148,4 +148,22 @@ var splashesList = { // "type": [splash, ...]
         "Try out Trendy!",
         /* "Try out CABS!",*/
     ],
+    "ideas": [
+        "If you need ideas, have you tried casting a spell you don't know?",
+        "If you need ideas, have you tried blowing something up?",
+        "If you need ideas, have you tried punching someone?",
+        "If you need ideas, have you tried stealing someone's chocolate?",
+        "If you need ideas, have you tried reading the Quests page?",
+        "If you need ideas, have you tried looking at your Inventory?",
+        "If you need ideas, have you tried rereading the thread?",
+        "If you need ideas, have you tried reading the wiki?",
+        "If you need ideas, have you tried proceeding?",
+        "If you need ideas, have you tried commiting murder?",
+        "If you need ideas, have you tried spading?",
+        "If you need ideas, have you tried trying to figure out what that scroll does?",
+        "If you need ideas, have you tried doing something random?",
+        "If you need ideas, have you tried doing something stupid?",
+        "If you need ideas, have you tried making funny beeping noises?",
+        "If you need ideas, have you tried playing Minecraft?",
+    ]
 }

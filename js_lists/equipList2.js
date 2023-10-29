@@ -1,3 +1,8 @@
+// This is a duplicate of equipList, meant for working on various refactors to the way items are stored.
+
+/* add warning */
+document.body.innerHTML += '<span style="position:fixed;left:0px;bottom:0px;background-color:var(--background);border:1px solid black;font-weight:bold;padding-left:1px;padding-bottom:1px;">If you can see this, an in-development version of the item list is being used.</span>'
+
 /* helper functions */
 var addDefaults = function(nbt, defaults) { //adds default values to passed in nbt data
     for (var item in defaults) {
@@ -53,7 +58,6 @@ var fuel_unit_name_gen = function(id, dv=0, stack=1, nbt={}) {
         return getTranslatedString("item.fuel_units.name", {"units": dv});
     }
 }
-
 var fuel_unit_desc_gen = function(id, dv=0, stack=1, nbt={}) {
     if (dv == 0) {
         return getTranslatedString("item.fuel_units_none.desc");
@@ -61,6 +65,55 @@ var fuel_unit_desc_gen = function(id, dv=0, stack=1, nbt={}) {
         return getTranslatedString("item.fuel_unit.desc");
     } else {
         return getTranslatedString("item.fuel_units.desc", {"units": dv});
+    }
+}
+
+var slimeball_name_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color;
+    if (!("color" in nbt) || !(["green","red","blue","yellow","purple"].includes(nbt["color"]))) {
+        color = "green";
+    } else {
+        color = nbt["color"];
+    }
+    console.log(nbt)
+    return getTranslatedString("item." + color + "_slime_ball.name");
+}
+var slimeball_class_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color;
+    if (!("color" in nbt) || !(["green","red","blue","yellow","purple"].includes(nbt["color"]))) {
+        color = "green";
+    } else {
+        color = nbt["color"];
+    }
+    return color + "_slime_ball";
+}
+var slimeball_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color;
+    if (!("color" in nbt) || !(["green","red","blue","yellow","purple"].includes(nbt["color"]))) {
+        color = "green";
+    } else {
+        color = nbt["color"];
+    }
+    return getTranslatedString("item." + color + "_slime_ball.desc");
+}
+var slimeball_rarity_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("color" in nbt) && (nbt["color"] == "purple")) {
+        return 2;
+    } else {
+        return 1;
+    }
+}
+var slimeball_sell_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("color" in nbt) && (nbt["color"] == "purple")) {
+        return 11;
+    } else if (("color" in nbt) && (nbt["color"] == "yellow")) {
+        return 5;
+    } else if (("color" in nbt) && (nbt["color"] == "blue")) {
+        return 4;
+    } else if (("color" in nbt) && (nbt["color"] == "red")) {
+        return 4;
+    } else { // green or default
+        return 3;
     }
 }
 
@@ -379,13 +432,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Rotten Flesh", "rotten_flesh", "Some rotting flesh from a zombie. I guess you could eat it?", "Mobs", "+3 HP on consume<br />Eat for Hunger (1 turn, 80% chance)", [10,30,11], 1, 0]], //220
     [["Cooked Flesh", "cooked_flesh", "Some rotting flesh that's been cooked. Probably safer to eat now.", "Cooking", "+4 HP on consume", [10,30], 1, 0]], //221
     [["Golden Flesh", "golden flesh", "Some golden flesh. Yes, this is a thing that exists.", "Mobs", "Equip for +0.3 HP per turn", [9], 2, 0]], //222
-    [
-        ["Green Slime Ball", "slime_ball", "A ball of green slime. It's somewhat sweet.", "Mobs", "", [11], 1, 3], //0
-        ["Red Slime Ball", "red_slime_ball", "A ball of red slime. It's somewhat spicy.", "Mobs", "", [11], 1, 4], //1
-        ["Blue Slime Ball", "blue_slime_ball", "A ball of blue slime. It's somewhat salty.", "Mobs", "", [11], 1, 4], //2
-        ["Yellow Slime Ball", "yellow_slime_ball", "A ball of yellow slime. It's somewhat bitter.", "Mobs", "", [11], 1, 5], //3
-        ["Purple Slime Ball", "purple_slime_ball", "A ball of purple slime. It's poisonous.", "Mobs", "", [11], 2, 11] //4
-    ], //223
+    [[slimeball_name_gen, slimeball_class_gen, slimeball_desc_gen, "Mobs", "", [11], slimeball_rarity_gen, slimeball_sell_gen]], //223
     [["Sap", "sap", "Some sap from a tree.", "Gathering", "Counts as 2 fuel units<br />Consume for -1 HP", [11], 1, 1]], //224
     [[fuel_unit_name_gen, "fuel_outline", fuel_unit_desc_gen, "", "", [], 0, 0]], //225
     [["Any Raw Meat", "any_raw_meat", "You can use any raw meat for this.", "", "", [], 0, 0]], //226
