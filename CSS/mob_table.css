@@ -191,8 +191,9 @@ h2 {
     font-family: "FightSim 20";
 }
 .slash {
-    font-size: 30px;
+    font-size: 32px;
     font-family: "FightSim Body Double";
+    top: 0px;
 }
 .pad1 {
     padding-right: 1px;

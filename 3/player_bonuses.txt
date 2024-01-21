@@ -43,14 +43,15 @@ Squirrelflight:
  Skills:
 Incendiary:
  Stats:
-  Indirect Attack: (+1.1)
+  Indirect Attack: (+2.1)
    Emerald Band (+1.1)
+   Diamond Sword (+1)
   Indirect Defense: (+3.1)
    Diamond Leggings (+1)
    Diamond Boots (+1)
    Emerald Band (+1.1)
   Direct Attack: (+2)
-   Diamond Axe (+2)
+   Diamond Sword (+2)
   Direct Defense: (+4)
    Diamond Helmet (+1)
    Diamond Chestplate (+2)
@@ -114,27 +115,29 @@ solitare:
     Stone Fishing Rod (+1)
 Faressain:
  Stats:
+  Indirect Attack: (+1)
+   Wooden Pickaxe (+1)
  Skills:
+  Mining: (+1)
+   Wooden Pickaxe (+1)
 LeopardyLeaf:
  Stats:
  Skills:
 gilbert:
  Stats:
   Indirect Attack: (+1 +1 perm)
-   Stone Pickaxe (+1)
+   Diamond Sword (+1)
    Player Level (+1 perm)
-  Direct Attack: (+2.6)
-   Attack Up (+1)
+  Direct Attack: (+3.6)
    Sword Sticker (+0.5)
    Raised Sword Sticker (+1.1)
+   Diamond Sword (+2)
   Direct Defense: (+2)
    Diamond Chestplate (+2)
   Health: (+4)
    Player Level (+5)
    Liquid Radiation (-1)
  Skills:
-  Mining: (+1)
-   Stone Pickaxe (+1)
 TwilightSeleneMisty:
  Stats:
   Indirect Defense: (+1)

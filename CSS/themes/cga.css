@@ -42,8 +42,16 @@
     --sstack_color_out: #000000;
     --sstack_border_out: #ff77ff;
 
+    --popup_border: #000000;
+    --popup_title_color: #ffffff;
+    --popup_bg: #ffffff;
+    --popup_close_bg: var(--popup_border);
+    --popup_close_color: var(--popup_title_color);
+    --popup_close_bg_hover: #ff55ff;
+    --popup_close_color_hover: #000000;
+
     --health_over: #55ffff;
-    --health_low: #ff77ff;
+    --health_low: #ff55ff;
 
     --level_outer: #ffffff;
     --level_bg: #000000;

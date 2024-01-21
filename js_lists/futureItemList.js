@@ -1,16 +1,23 @@
 var futureitemlist =  [ //[name, css class for icon, description, source, bonuses, [categories], name class id, sell price]
     // gun
     [["Bullet", "bullet", "A bullet. You know, for a gun.", "Crafting", "Use it with a gun", [22,56], 2, 0]], //? (2 iron bars + 1 copper bar = 8 bullet)
+
     // carving/cooking tools
 
     // ms4/5/6 tools
 
     // new equipment tiers (copper/clay, depleted electrum, ruby-sapphire)
 
+    // dusts
+    [["Sawdust", "sawdust", "A pile of sawdust.", "Crafting", "", [11,46], 1, 2]], //? (2 sticks) or (1 planks)
+    [["Pile of Dirt", "dirt_pile", "A pile of dirt.", "Crafting", "", [11,46], 1, 1]], //? (1 dirt = 4 piles of dirt)
+    [["Pile of Gravel", "gravel_pile", "A pile of gravel.", "Crafting", "", [11,46], 1, 1]], //? (1 gravel = 4 piles of gravel)
+    [["Pile of Sand", "sand_pile", "A pile of sand.", "Crafting", "", [11,46], 1, 1]], //? (1 sand = 4 piles of sand)
+
     // skill items
-    [["Crafting Table", "crafting_table", "A crafting table.", "Crafting", "+2 Crafting", [17], 1, 5]], //? (4 planks)
     [["Brewing Stand", "brewing_stand", "A brewing stand.", "Crafting", "+1 Alchemy<br />+1 max potion brewed at once", [17], 2, 11]], //? (3 glass bottles + 3 stone + 1 iron bar)
     [["Silt", "silt", "A cube of silt. There might be some stuff inside!", "Digging", "", [17], 1, 2]], //? (from digging)
+
     // shop items
 
     // stickers
@@ -52,9 +59,9 @@ var futureitemlist =  [ //[name, css class for icon, description, source, bonuse
     [["Battery", "battery", "A battery.", "Crafting", "Contains {eu_stored}/10 EU<br />Maximum Output: 5 EU/t", [11,58], 1, 4]], //? (1 iron bar + 3 electrum bars = 2 batteries)
 
     // other
-    [["Pencil", "pencil", "A pencil. You don't really have a use for this, so you should just sell it.", "Crafting", "", [20], 1, 2]], //? (5 sticks + 1 graphite = 5 pencils) or (1 stick + 1 graphite nugget = 1 pencil)
     [["Glass Table", "glass_table", "A table with an iron frame and glass top. You can put things on it.", "Crafting", "Place it down as a Structure", [18], 1, 6]], //? (2 iron bars + 1 glass, req. const 2)
     [["Cheese", "cheese", "A wedge of generic cheese. If you added holes, then it would be more obvious that it's cheese, but you'd also have less cheese.", "Cooking", "+4 HP on consume", [10,30], 1, 4]], //? (1 milk bucket = 2 cheese, returns bucket)
+    
     // dagger
     // stool, wool chairs, wood bench, pebbles, bookshelf, lamps, table lamps
     // punching bag (leather and sand)

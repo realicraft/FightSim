@@ -7,15 +7,15 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [[quest lang_id, number], [claimed], reward, turn]
-    [["obtain_time_candy", 1], [], "2 Pumpkin-Shaped Chocolates, 1 Mystery Gift", "85"],
-    [["go_gather", 1], [], "120% Gathering, 20 Sticks", "85"],
-    [["plant_flower", 1], [], "130% Gardening, 4 Sunflowers", "85"],
-    [["damage_total", 30], [], "1 Diamond Sword", "84~87"], // gilbert 3
+    [["obtain_sticker", 1], [], "10 Paper, 4 Misc EXP", "86"],
+    [["open_lucky_block", 1], [], "1 Lucky Block, 5 Misc EXP", "86"],
+    [["go_dig", 1], [], "10 Dirt, 150% Digging", "86"],
+    [["damage_total", 30], ["Gilbert"], "1 Diamond Sword", "84~87"], // gilbert 38
     [["make_new_item", 1], ["Faressain"], "2 Sleep Shrooms, 1 Metal Triangle", "84~87"],
     [["use_scroll", 1], [], "2 Random Scrolls", "84~87"],
     [["talk_to_morshu", 1], [], "2 Bombs, 7 Misc EXP"],
     [["equip_gold_food", 1], [], "3 Gold Bars, 150% Farming"],
-    [["level_up_skill", 8], [], "40 Misc EXP, 0.5 Direct Attack"], // incendiary 1, landon 1, reali 3
+    [["level_up_skill", 8], [], "40 Misc EXP, 0.5 Direct Attack"], // incendiary 1, landon 2, reali 4, byron 1, fares 1, luigi 2
 ]
 
 var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div height]
@@ -89,6 +89,9 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Obtain a Time Candy.", ["Landon"], "2 Pumpkin-Shaped Chocolates, 1 Mystery Gift", "85"],
+        ["Go Gathering.", ["Byron"], "120% Gathering, 20 Sticks", "85"],
+        ["Plant a flower.", [], "130% Gardening, 4 Sunflowers", "85"],
         ["Make a shield.", [], "3 Misc EXP", "84"],
         ["Go Mining for Electrum Ore.", [], "2 Disposable Phones, 4 Misc EXP", "84"],
         ["Equip any accessory.", [], "4 Fabric, 4 Leather, 4 String", "84"],

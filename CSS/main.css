@@ -166,6 +166,10 @@ td.inv_item span:not(.icon), .pt_stackcount, span.icon > span:not(.icon) {
     font-family: "FightSim Body Double";
     src: url("../fightsim-body-bold-double.ttf");
 }
+@font-face {
+    font-family: "FightSim Body Mono";
+    src: url("../fightsim-body-mono.ttf");
+}
 span.normal {
     color: var(--ele_normal);
     font-weight: bold;

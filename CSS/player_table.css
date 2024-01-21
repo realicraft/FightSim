@@ -67,6 +67,15 @@
     bottom: 0px;
     font-family: "FightStack";
 }
+.locate_contain {
+    font-size: 9px;
+    font-weight: initial;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-family: "FightStack";
+}
 .type_icon_contain {
     position: relative;
     width: 100%;

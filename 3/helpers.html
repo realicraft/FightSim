@@ -42,7 +42,13 @@
         </select>
         <button id="chop_button" onclick="run_chop();">Get Result</button>
         <br /><div class="output" id="chop_output">&nbsp;</div>
-        <h2>TBGSBB+ to TBGSBB converter</h2>
+        <h2>TBGSBB+ compiler</h2>
+        <label for="conv_type">Target Language</label>
+        <select id="conv_type">
+            <option value="0">BBCode</option><option value="1">Markdown</option>
+            <option value="2">HTML</option>
+        </select><br/>
+        <p>Non-BBCode output may need to be adjusted further.</p>
         <textarea rows="15" cols="80" id="conv_in"></textarea>
         <textarea rows="15" cols="80" id="conv_out" disabled></textarea>
         <br /><button id="conv_button" onclick="run_conv();">Convert</button>

@@ -90,20 +90,18 @@ var tt = function(id=0, dv=0, stack=1, nbt={}, anbt="", dnbt="", cname="") { // 
     if (dnbt == "") {var desc = func_or_str(equiplist[id][mdv][2], [id, dv, stack, nbt])} //dnbt is depreciated, but currently still used
     else {var desc = func_or_str(equiplist[id][mdv][2], [id, dv, stack, nbt])+dnbt}
 
+    var source = func_or_str(equiplist[id][mdv][3], [id, dv, stack, nbt]);
+
+    if (anbt == "") {var effects = equiplist[id][mdv][4];} // no nbt data
+    else {
+        if (equiplist[id][mdv][4] == "") {var effects = anbt;} // has nbt datas, no effects
+        else {var effects = equiplist[id][mdv][4]+"<br />"+anbt;} // has nbt datas, original has effects
+    }
+
     var nameclass = name_class_list[func_or_str(equiplist[id][mdv][6], [id, dv, stack, nbt])];
     var price = func_or_str(equiplist[id][mdv][7], [id, dv, stack, nbt]);
 
-    if (anbt == "") {
-        tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, equiplist[id][mdv][4], nameclass, price)
-    } // no nbt data
-    else {
-        if (equiplist[id][mdv][4] == "") {
-            tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, (anbt), nameclass, price)
-        } // has nbt datas, no effects
-        else {
-            tooltip(uname, desc, equiplist[id][mdv][3], assembled_cats, (equiplist[id][mdv][4]+"<br />"+anbt), nameclass, price)
-        } // has nbt datas, original has effects
-    }
+    tooltip(uname, desc, source, assembled_cats, effects, nameclass, price)
 }
 var nt = function() { // function to clear tooltips
     var tooltipBodyEl = document.getElementsByClassName("tooltip_body")[0];

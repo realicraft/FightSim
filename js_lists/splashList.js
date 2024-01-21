@@ -86,6 +86,8 @@ var splashesList = { // "type": [splash, ...]
         "No one is dead! Let's <a href='https://tbgforums.com/forums/index.php?topic=6518.0'>keep it</a> that way, alright?<br /><br />Unless you count Luigi.",
         "furfrou",
         "Very quiet birdwatcher",
+        "Cheeeeeese *-*",
+        "43.250.142.151       tbgforums.com",
     ],
     "new years": [
         "Happy New Year's!",
@@ -141,7 +143,7 @@ var splashesList = { // "type": [splash, ...]
         "Check out <a href='https://fightsim.miraheze.org/wiki/Main_Page'>the wiki</a>!",
         "Check out <a href='https://shefwerld.github.io/shefnews/index.html'>SKNN</a>!",
         // "Try out Nihonium!", // this is a real backwards-incompatibility moment
-        "Try out Lithium!",
+        // "Try out Lithium!", // rip
         /* "Try out Flerovium!",
         "Try out Nickel!",
         "Try out Platinum!",*/
@@ -158,12 +160,13 @@ var splashesList = { // "type": [splash, ...]
         "If you need ideas, have you tried rereading the thread?",
         "If you need ideas, have you tried reading the wiki?",
         "If you need ideas, have you tried proceeding?",
-        "If you need ideas, have you tried commiting murder?",
+        "If you need ideas, have you tried committing murder?",
         "If you need ideas, have you tried spading?",
         "If you need ideas, have you tried trying to figure out what that scroll does?",
         "If you need ideas, have you tried doing something random?",
         "If you need ideas, have you tried doing something stupid?",
         "If you need ideas, have you tried making funny beeping noises?",
         "If you need ideas, have you tried playing Minecraft?",
+        "If you need ideas, have you tried making a machine to thrash your own ass?",
     ]
 }

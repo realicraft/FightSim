@@ -1,7 +1,7 @@
 // This is a duplicate of equipList, meant for working on various refactors to the way items are stored.
 
 /* add warning */
-document.body.innerHTML += '<span style="position:fixed;left:0px;bottom:0px;background-color:var(--background);border:1px solid black;font-weight:bold;padding-left:1px;padding-bottom:1px;">If you can see this, an in-development version of the item list is being used.</span>'
+document.body.innerHTML += '<span style="position:fixed;left:0px;bottom:0px;background-color:var(--background);border:1px solid black;font-weight:bold;padding-left:1px;padding-bottom:1px;">If you can see this, an in-development version of the item list is being used.</span>';
 
 /* helper functions */
 var addDefaults = function(nbt, defaults) { //adds default values to passed in nbt data
@@ -15,7 +15,7 @@ var addDefaults = function(nbt, defaults) { //adds default values to passed in n
 /* functions */
 // function inputs: id, dv, stack count, nbt
 
- // [name, desc, type, element, colouric?, hp, atk, def, ability id, offensive id, defensive id]
+// [name, desc, type, element, colouric?, hp, atk, def, ability id, offensive id, defensive id]
 var critter_desc_gen = function(id, dv=0, stack=1, nbt={}) {
     var itemToCritter = {558: 0};
     if (id in itemToCritter) {
@@ -117,6 +117,111 @@ var slimeball_sell_gen = function(id, dv=0, stack=1, nbt={}) {
     }
 }
 
+var dye_name_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color = color_list[("color" in nbt) ? nbt["color"] : 0];
+    return getTranslatedString("item.dye.name", {"color": getTranslatedString("color." + color + ".cap")});
+}
+var dye_class_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color = color_list[("color" in nbt) ? nbt["color"] : 0];
+    return color + "_dye";
+}
+var dye_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color = color_list[("color" in nbt) ? nbt["color"] : 0];
+    if (color == "dark_green") {
+        return getTranslatedString("item.dark_green_dye.desc");
+    } else {
+        return getTranslatedString("item.dye.desc", {"color": getTranslatedString("color." + color + ".lower")});
+    }
+}
+
+var wool_name_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color = color_list[("color" in nbt) ? nbt["color"] : 0];
+    return getTranslatedString("item.wool.name", {"color": getTranslatedString("color." + color + ".cap")});
+}
+var wool_class_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color = color_list[("color" in nbt) ? nbt["color"] : 0];
+    return "wool tint_" + color;
+}
+var wool_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color = color_list[("color" in nbt) ? nbt["color"] : 0];
+    return getTranslatedString("item.wool.desc", {"color": getTranslatedString("color." + color + ".lower")});
+}
+
+var plainshirt_name_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color = color_list[("color" in nbt) ? nbt["color"] : 0];
+    return getTranslatedString("item.plain_shirt.name", {"color": getTranslatedString("color." + color + ".cap")});
+}
+var plainshirt_class_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color = color_list[("color" in nbt) ? nbt["color"] : 0];
+    return "plain_shirt tint_" + color;
+}
+var plainshirt_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    var color = color_list[("color" in nbt) ? nbt["color"] : 0];
+    return getTranslatedString("item.plain_shirt.desc", {"color": getTranslatedString("color." + color + ".lower")});
+}
+
+// TODO: tag functions
+var tag_name_gen = function(id, dv=0, stack=1, nbt={}) {
+    if ("color" in nbt) {
+        var color = color_list[nbt["color"]]
+        return getTranslatedString("item.tag_color.name", {"color": getTranslatedString("color." + color + ".cap")});
+    } else {
+        return getTranslatedString("item.tag.name");
+    }
+}
+var tag_class_gen = function(id, dv=0, stack=1, nbt={}) {
+    if ("color" in nbt) {
+        var color = color_list[nbt["color"]]
+        return "tag2 tint_" + color + "_back";
+    } else {
+        return "tag";
+    }
+}
+var tag_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    if ("color" in nbt) {
+        var color = color_list[nbt["color"]]
+        return getTranslatedString("item.tag_color.desc", {"color": getTranslatedString("color." + color + ".lower")});
+    } else {
+        return getTranslatedString("item.tag.desc");
+    }
+}
+var tag_sell_gen = function(id, dv=0, stack=1, nbt={}) {
+    if ("color" in nbt) {
+        return 4;
+    } else {
+        return 3;
+    }
+}
+
+var contcard_name_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("soaked" in nbt) && (nbt["soaked"] == true)) {
+        return getTranslatedString("item.contact_card_wet.name");
+    } else {
+        return getTranslatedString("item.contact_card_dry.name");
+    }
+}
+var contcard_class_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("soaked" in nbt) && (nbt["soaked"] == true)) {
+        return "contact_card_wet";
+    } else {
+        return "contact_card_dry";
+    }
+}
+var contcard_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("soaked" in nbt) && (nbt["soaked"] == true)) {
+        return getTranslatedString("item.contact_card_wet.desc");
+    } else {
+        return getTranslatedString("item.contact_card_dry.desc");
+    }
+}
+var contcard_source_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("soaked" in nbt) && (nbt["soaked"] == true)) {
+        return "Fishing";
+    } else {
+        return "Unknown";
+    }
+}
+
 /* lists */
 var equiplist = [ //[name, css class for icon, description, source, bonuses, [categories], name class id, sell price]
     [["null", "iconless", "Whoops, forgot to put something here.", "An error", "", [0],0, 0]], //0
@@ -183,7 +288,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Rotting Mush", "crop_mush", "Eww, why did you keep this?", "Farming", "Make it into fertilizer, or just get rid of it<br />Potion effect: Nausea (1 turn)", [11,14,30], 1, 0]], //47
     [["Banana", "banana", "Potassium", "Unknown", "Eat it for potassium", [10,14,30], 3, 12]], //48
     [
-        ["Sand", "sand", "A cube of sand. Carful, or it'll get everywhere.", "Digging", "Throw it at someone to Blind them for a turn", [17,21], 1, 3],
+        ["Sand", "sand", "A cube of sand. Careful, or it'll get everywhere.", "Digging", "Throw it at someone to Blind them for a turn", [17,21], 1, 3],
         ["Red Sand", "red_sand", "A cube of red sand. It's red because of iron. I think.", "Digging", "Throw it at someone to Blind them for a turn", [17,21], 1, 4],
     ], //49
     [["Gravel", "gravel", "A cube of gravel. Maybe there's some flint in there?", "Digging", "", [17], 1, 4]], //50
@@ -270,24 +375,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Leaf", "leaf", "A single leaf.", "Gathering", "", [11], 1, 2]], //108
     [["Blade of Grass", "grass_blade", "A single blade of grass.", "Gathering", "", [11], 1, 1]], //109
     [["Block of Leaves", "leaf_block", "A block of leaves.", "Gathering", "", [17], 1, 6]], //110
-    [
-        ["White Dye", "white_dye", "A blob of white dye.", "Crafting", "", [11], 1, 7], //0
-        ["Light Gray Dye", "light_gray_dye", "A blob of light gray dye.", "Crafting", "", [11], 1, 7], //1
-        ["Gray Dye", "gray_dye", "A blob of gray dye.", "Crafting", "", [11], 1, 7], //2
-        ["Black Dye", "black_dye", "A blob of black dye.", "Crafting", "", [11], 1, 7], //3
-        ["Pink Dye", "pink_dye", "A blob of pink dye.", "Crafting", "", [11], 1, 7], //4
-        ["Red Dye", "red_dye", "A blob of red dye.", "Crafting", "", [11], 1, 7], //5
-        ["Orange Dye", "orange_dye", "A blob of orange dye.", "Crafting", "", [11], 1, 7], //6
-        ["Brown Dye", "brown_dye", "A blob of brown dye.", "Crafting", "", [11], 1, 7], //7
-        ["Yellow Dye", "yellow_dye", "A blob of yellow dye.", "Crafting", "", [11], 1, 7], //8
-        ["Green Dye", "green_dye", "A blob of green dye.", "Crafting", "", [11], 1, 7], //9
-        ["Dark Green Dye", "dark_green_dye", "A blob of dark green dye.<br /><br />Lime? What's that?", "Crafting", "", [11], 1, 7], //10
-        ["Cyan Dye", "cyan_dye", "A blob of cyan dye.", "Crafting", "", [11], 1, 7], //11
-        ["Light Blue Dye", "light_blue_dye", "A blob of light blue dye.", "Crafting", "", [11], 1, 7], //12
-        ["Blue Dye", "blue_dye", "A blob of blue dye.", "Crafting", "", [11], 1, 7], //13
-        ["Purple Dye", "purple_dye", "A blob of purple dye.", "Crafting", "", [11], 1, 7], //14
-        ["Magenta Dye", "magenta_dye", "A blob of magenta dye.", "Crafting", "", [11], 1, 7], //15
-    ], //111
+    [[dye_name_gen, dye_class_gen, dye_desc_gen, "Crafting", "", [11], 1, 7]], //111
     [["Empty Slot", "no_bg", "This slot is inaccessible.", "", "", [], 0, 0]], //112
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Yellow Dye; 113 -> 111:8)", "", "", [], 0, 0]], //113
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Green Dye; 114 -> 111:9)", "", "", [], 0, 0]], //114
@@ -301,8 +389,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Glass Bottle", "glass_bottle", "A bottle made of glass.", "Crafting", "Fill it with stuff", [11], 1, 3]], //122
     [["Water Bottle", "water_bottle", "A bottle filled with water.", "Crafting", "Drink for 3 HP<br />Or fill it with more stuff and cook it", [30,11], 1, 5]], //123
     [["Fertilizer", "fertilizer", "Some fertilizer.", "Crafting", "Use on a plant for +1 growth turn", [20], 2, 9]], //124
-    [["Dirt", "dirt", "A block of dirt. Not the best material to make a house out of, but you do you.", "Digging", "", [17], 1, 0]], //125
-    [["Grass", "grass", "A block of dirt with some grass on it.", "Unknown", "", [17], 2, 0]], //126
+    [["Dirt", "dirt", "A block of dirt. Not the best material to make a house out of, but you do you.", "Digging", "", [17], 1, 4]], //125
+    [["Grass", "grass", "A block of dirt with some grass on it.", "Unknown", "", [17], 2, 7]], //126
     [["Wooden Shield", "wood_shield", "A shield made out of wood.", "Crafting", "+1 Indirect Defense", [7], 1, 5]], //127
     [["Iron Shield", "iron_shield", "A shield made out of wood, with an iron core.", "Crafting", "+1 Direct Defense", [7], 1, 12]], //128
     [["Gold Shield", "gold_shield", "A shield made out of wood, with a golden core.", "Crafting", "+1 Indirect Defense", [7], 1, 9]], //129
@@ -427,7 +515,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Cooked Goldfish", "goldfish", "A small goldfish, cooked to perfection.", "Cooking", "Consume for +7 HP", [10,30], 1, 5]], //215
     [["Leather", "leather", "A piece of leather, probably from a cow.", "Mobs", "", [11], 1, 3]], //216
     [["Bone", "bone", "A single bone. Why <i>do</i> bones always look like that, anyway?", "Mobs", "", [11], 1, 2]], //217
-    [["Wool", "wool", "A block of wool from a sheep.", "Mobs", "", [11,17], 1, 4]], //218
+    [[wool_name_gen, wool_class_gen, wool_desc_gen, "Mobs", "", [11,17], 1, 4]], //218
     [["Feather", "feather", "A single feather.", "Mobs", "", [11], 1, 2]], //219
     [["Rotten Flesh", "rotten_flesh", "Some rotting flesh from a zombie. I guess you could eat it?", "Mobs", "+3 HP on consume<br />Eat for Hunger (1 turn, 80% chance)", [10,30,11], 1, 0]], //220
     [["Cooked Flesh", "cooked_flesh", "Some rotting flesh that's been cooked. Probably safer to eat now.", "Cooking", "+4 HP on consume", [10,30], 1, 0]], //221
@@ -642,8 +730,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
         ["Five Dollar Bill", "five_dollar_bill", "An official five dollar bill from the Isles of Fighting. Valued at 20 coins.", "Unknown", "", [20], 2, 0], //1
     ], //399
     [["Geode", "geode", "It may look like an ordinary rock, but it actually contains several gems.", "Mining", "Open to gain 1d3+1 gems<br />Opening it will deal 1 damage", [20,42], 2, 13]], //400
-    [["Contact Card (Wet)", "contact_card_wet", "A small card with a phone number and a name on it. It's soaked from being underwater, but is still legible.", "Fishing", "Use it to add the number to your contact list", [20], 1, 0]], //401
-    [["Contact Card (Dry)", "contact_card_dry", "A small card with a phone number and a name on it.", "Unknown", "Use it to add the number to your contact list", [20], 1, 0]], //402
+    [[contcard_name_gen, contcard_class_gen, contcard_desc_gen, contcard_source_gen, "Use it to add the number to your contact list", [20], 1, 0]], //401
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Contact Card (Dry); 402 -> 401{\"soaked\": true})", "", "", [], 0, 0]], //402
     [["Decicoin", "penny", "A decicoin that you minted yourself. It's clearly counterfeit, given all the dents, but for some reason all the stores you call will take it anyway? Valued at 1/10th of a coin.", "Crafting", "", [20], 1, 0]], //403
     [["Official Decicoin", "penny_good", "An official decicoin from the Isles of Fighting. Valued at 1/10th of a coin.", "Unknown", "", [20], 1, 0]], //404
     [["Tomato", "tomato", "A tomato.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //405
@@ -722,24 +810,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Thin Gloves", "gloves", "A pair of gloves which make you better at handling things.", "Crafting", "+1 DEX", [8], 2, 8]], //478
     [["U.S. Constitution Shirt", "const_shirt", "A shirt with the Constitution of the United States on it. No points for guessing what it boosts.", "Crafting", "+1 CON", [2], 2, 13]], //479
     [["Fake Abs Shirt", "abs_shirt", "A shirt with some fake abs drawn on it.", "Crafting", "+1 STR", [2], 2, 5]], //480
-    [
-        ["Plain White Shirt", "plain_shirt tint_white", "A plain white shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //0
-        ["Plain Light Gray Shirt", "plain_shirt tint_light_gray", "A plain light gray shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //1
-        ["Plain Gray Shirt", "plain_shirt tint_gray", "A plain gray shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //2
-        ["Plain Black Shirt", "plain_shirt tint_black", "A plain black shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //3
-        ["Plain Pink Shirt", "plain_shirt tint_pink", "A plain pink shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //4
-        ["Plain Red Shirt", "plain_shirt tint_red", "A plain red shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //5
-        ["Plain Orange Shirt", "plain_shirt tint_orange", "A plain orange shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //6
-        ["Plain Brown Shirt", "plain_shirt tint_brown", "A plain brown shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //7
-        ["Plain Yellow Shirt", "plain_shirt tint_yellow", "A plain yellow shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //8
-        ["Plain Green Shirt", "plain_shirt tint_green", "A plain green shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //9
-        ["Plain Dark Green Shirt", "plain_shirt tint_dark_green", "A plain dark green shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //10
-        ["Plain Cyan Shirt", "plain_shirt tint_cyan", "A plain cyan shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //11
-        ["Plain Light Blue Shirt", "plain_shirt tint_light_blue", "A plain light blue shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //12
-        ["Plain Blue Shirt", "plain_shirt tint_blue", "A plain blue shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //13
-        ["Plain Purple Shirt", "plain_shirt tint_purple", "A plain purple shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //14
-        ["Plain Magenta Shirt", "plain_shirt tint_magenta", "A plain magenta shirt, made with cotton.", "Crafting", "", [2,11], 1, 7], //15
-    ], //481
+    [[plainshirt_name_gen, plainshirt_class_gen, plainshirt_desc_gen, "Crafting", "", [2,11], 1, 7]], //481
     [["Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding.", "Crafting", "+0.4 Construction", [1,11], 1, 7]], //482
     [["Automatic Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding. It differs from the regular one because it activates the filter automatically, rather than having it on all the time, so it's obviously the better choice.", "Crafting", "+1.1 Construction", [1], 2, 14]], //483
     [["Knife", "knife", "Oh hey, it's the knife from the sticker.", "Crafting", "+1 Indirect Attack<br />+2 Melee Damage", [5,11,23], 1, 4]], //484
@@ -932,22 +1003,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Mango", "mango", "A mango.", "Farming", "+5 HP on consume", [10,30], 1, 5]], //658
     [["Ripe Mango", "ripe mango", "A mango that's riper than usual.", "Farming", "+10 HP on consume", [10,30], 1, 7]], //659
     [["Golden Mango", "golden mango", "A golden mango. I guess you could <em>try</em> to sculpt it.", "Farming", "+0.3 Pottery", [9], 2, 15]], //660
-    [
-        ["Tag", "tag", "A tag. You can put it on an item to put a little icon in the corner.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 3], //0
-        ["Pink Tag", "pink_tag", "A tag that's been dyed pink.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //1
-        ["Red Tag", "red_tag", "A tag that's been dyed red.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //2
-        ["Orange Tag", "orange_tag", "A tag that's been dyed orange.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //3
-        ["Brown Tag", "brown_tag", "A tag that's been dyed brown.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //4
-        ["Yellow Tag", "yellow_tag", "A tag that's been dyed yellow.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //5
-        ["Green Tag", "green_tag", "A tag that's been dyed green.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //6
-        ["Cyan Tag", "cyan_tag", "A tag that's been dyed cyan.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //7
-        ["Blue Tag", "blue_tag", "A tag that's been dyed blue.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //8
-        ["Purple Tag", "purple_tag", "A tag that's been dyed purple.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //9
-        ["Magenta Tag", "magenta_tag", "A tag that's been dyed magenta.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //10
-        ["White Tag", "white_tag", "A tag that's been dyed white.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //11
-        ["Gray Tag", "gray_tag", "A tag that's been dyed gray.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //12
-        ["Black Tag", "black_tag", "A tag that's been dyed black.", "Crafting", "Use it on an item stack to tag it", [11,20], 1, 4], //13
-    ], //661
+    [[tag_name_gen, tag_class_gen, tag_desc_gen, "Crafting", "Use it on an item stack to tag it", [11,20], 1, tag_sell_gen]], //661
     [["Magic Scraps", "scraps", "A pile of scraps with some sort of magical power. What'd you do, rip up a scroll?", "Crafting", "Combine 4 of them to cast a random scroll effect", [11,43], 2, 0]], //662
     [
         ["Name Tag", "enchanted name_tag", "A name tag. You can use it on an item to give it a custom name.", "Crafting", "Use it on an item to name it", [20,33], 2, 7], //0
@@ -1082,6 +1138,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Crafting Table", "crafting_table", "A crafting table.", "Crafting", "Place it down as a Structure<br />Craft at it to temporarily have +1 Crafting", [18], 1, 10]], //748
 ]
 
+/* helper lists */
+
 var critter_data = [ // [name, desc, type, element, colouric?, hp, atk, def, ability id, offensive id, defensive id]
     ["critter.fly.name", "critter.fly.desc", 0, 0, false, 5, 1, 1, 1, 1, 1], //0
 ]
@@ -1100,3 +1158,22 @@ var critter_opt_data = { // [name, desc, css]
         ["critter.defense.flight.name", "critter.defense.flight.desc", "flight"], //1
     ],
 }
+
+var color_list = [ // color
+    "white", //0
+    "light_gray", //1
+    "gray", //2
+    "black", //3
+    "pink", //4
+    "red", //5
+    "orange", //6
+    "brown", //7
+    "yellow", //8
+    "green", //9
+    "dark_green", //10
+    "cyan", //11
+    "light_blue", //12
+    "blue", //13
+    "purple", //14
+    "magenta", //15
+]

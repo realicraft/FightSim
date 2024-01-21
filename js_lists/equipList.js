@@ -130,7 +130,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Rotting Mush", "crop_mush", "Eww, why did you keep this?", "Farming", "Make it into fertilizer, or just get rid of it<br />Potion effect: Nausea (1 turn)", [11,14,30], 1, 0]], //47
     [["Banana", "banana", "Potassium", "Unknown", "Eat it for potassium", [10,14,30], 3, 12]], //48
     [
-        ["Sand", "sand", "A cube of sand. Carful, or it'll get everywhere.", "Digging", "Throw it at someone to Blind them for a turn", [17,21], 1, 3],
+        ["Sand", "sand", "A cube of sand. Careful, or it'll get everywhere.", "Digging", "Throw it at someone to Blind them for a turn", [17,21], 1, 3],
         ["Red Sand", "red_sand", "A cube of red sand. It's red because of iron. I think.", "Digging", "Throw it at someone to Blind them for a turn", [17,21], 1, 4],
     ], //49
     [["Gravel", "gravel", "A cube of gravel. Maybe there's some flint in there?", "Digging", "", [17], 1, 4]], //50
@@ -248,8 +248,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Glass Bottle", "glass_bottle", "A bottle made of glass.", "Crafting", "Fill it with stuff", [11], 1, 3]], //122
     [["Water Bottle", "water_bottle", "A bottle filled with water.", "Crafting", "Drink for 3 HP<br />Or fill it with more stuff and cook it", [30,11], 1, 5]], //123
     [["Fertilizer", "fertilizer", "Some fertilizer.", "Crafting", "Use on a plant for +1 growth turn", [20], 2, 9]], //124
-    [["Dirt", "dirt", "A block of dirt. Not the best material to make a house out of, but you do you.", "Digging", "", [17], 1, 0]], //125
-    [["Grass", "grass", "A block of dirt with some grass on it.", "Unknown", "", [17], 2, 0]], //126
+    [["Dirt", "dirt", "A block of dirt. Not the best material to make a house out of, but you do you.", "Digging", "", [17], 1, 4]], //125
+    [["Grass", "grass", "A block of dirt with some grass on it.", "Unknown", "", [17], 2, 7]], //126
     [["Wooden Shield", "wood_shield", "A shield made out of wood.", "Crafting", "+1 Indirect Defense", [7], 1, 5]], //127
     [["Iron Shield", "iron_shield", "A shield made out of wood, with an iron core.", "Crafting", "+1 Direct Defense", [7], 1, 12]], //128
     [["Gold Shield", "gold_shield", "A shield made out of wood, with a golden core.", "Crafting", "+1 Indirect Defense", [7], 1, 9]], //129

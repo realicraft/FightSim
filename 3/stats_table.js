@@ -42,7 +42,8 @@ var tableFunc = function() {
         if (user_data["3"][i]["do_pad"]) {stat_table += ' style="padding-right:1px;"'}
         stat_table += '>' + i
         if (!(user_data["3"][i]["un_same"])) {stat_table += '<p class="lower_username">' + user_data["3"][i]["username"] + '</p>'} // character name and username
-        stat_table += '<span class="pn_contain"><span class="small_icon phone_small" style="vertical-align:middle;"></span>' + user_data["3"][i]["pn"] + '</span></h2>' // phone number
+        stat_table += '<span class="pn_contain"><span class="small_icon phone_small" style="vertical-align:middle;"></span>' + user_data["3"][i]["pn"] + '</span>' // phone number
+        stat_table += '<span class="locate_contain">' + user_data["3"][i]["location"] + '<span class="small_icon location" style="vertical-align:middle;"></span></span></h2>' // location
         stat_table += '<div class="meter_container"><div class="health_disp"><span class="icon '
         if (user_data["3"][i]["health"][0] > 50) {stat_table += 'health'} // health
         else if (user_data["3"][i]["health"][0] > 0) {stat_table += 'heart2'}

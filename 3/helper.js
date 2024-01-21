@@ -120,7 +120,7 @@ var comp_conv = function(conv) {
     }
     return outCont
 }
-var comp_conv2 = function(conv) {
+var comp_conv2 = function(conv, otype, outer) {
     var outCont = "";
     var semiCont = "";
     var sections = [""];
@@ -130,6 +130,11 @@ var comp_conv2 = function(conv) {
     var k = 0;
     var lastK = 0;
     var braces = 0;
+    if (outer) { // if this is the outer-most call...
+        if (otype == 2) { // ...and the output type is HTML...
+            conv = conv.replaceAll("\n", "<br/>") // ...convert all line breaks to <br/>
+        }
+    }
     while (!done) {
         j = loop_until_char(conv, "{"); // find the beginning of the next tag
         outCont += conv.slice(0, j);
@@ -176,10 +181,10 @@ var comp_conv2 = function(conv) {
         if (sections[0] in replaceList) { // if the given tag exists...
             if (replaceList[sections[0]][1]) { // ...if the inside should be parsed...
                 for (sect = 1; sect < sections.length; sect++) {
-                    sections[sect] = comp_conv2(sections[sect]); // ...parse each section indiviually, then...
+                    sections[sect] = comp_conv2(sections[sect], otype, false); // ...parse each section indiviually, then...
                 }
             }
-            outTag = replaceList[sections[0]][2]; // ...parse the tag contents...
+            outTag = replaceList[sections[0]][2][otype]; // ...parse the tag contents...
             for (part = 1; part <= replaceList[sections[0]][0]; part++) {
                 outTag = outTag.replace("%"+part, sections[part]);
             }
@@ -191,8 +196,10 @@ var comp_conv2 = function(conv) {
 var run_conv = function() {
     var inEl = document.getElementById("conv_in")
     var outEl = document.getElementById("conv_out")
+    var typeEl = document.getElementById("conv_type")
     var cont = inEl.value;
-    outEl.value = comp_conv2(cont)
+    var outType = parseInt(typeEl.value, 10);
+    outEl.value = comp_conv2(cont, outType, true);
 }
 
 /* Golden Food Bonus Calc */

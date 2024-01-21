@@ -1,0 +1,31 @@
+.popup {
+    border: 5px solid var(--popup_border);
+    background-color: var(--popup_bg);
+    border-radius: 5px;
+    position: absolute;
+}
+
+.popup_title {
+    width: 100%;
+    color: var(--popup_title_color);
+    background-color: var(--popup_border);
+    height: 40px;
+    line-height: 40px;
+    margin: 0px;
+}
+
+.popup_close {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background-color: var(--popup_close_bg);
+    color: var(--popup_close_color);
+    cursor: pointer;
+}
+
+.popup_close:hover {
+    background-color: var(--popup_close_bg_hover);
+    color: var(--popup_close_color_hover);
+}

@@ -210,6 +210,10 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_icons);
     background-position: -448px -128px;
 }
+.obsessed {
+    background-image: var(--icn_icons);
+    background-position: -448px -480px;
+}
 /* skills */
 .mining {
     background-image: var(--icn_icons);
@@ -1380,10 +1384,14 @@ span.mini_cont span.mini_icon {
 .wool {
     background-image: var(--icn_color);
     background-position: -0px -64px;
+    -webkit-mask-image: var(--icn_color);
+    -webkit-mask-position: -0px -64px;
+    mask-image: var(--icn_color);
+    mask-position: -0px -64px;
 }
 .sugar, .sugar_rush {
-    background-image: var(--icn_food);
-    background-position: -160px -64px;
+    background-image: var(--icn_dust);
+    background-position: -192px -0px;
 }
 .lemon_juice {
     background-image: var(--icn_food);
@@ -1490,8 +1498,8 @@ span.mini_cont span.mini_icon {
     background-position: -224px -64px;
 }
 .gunpowder {
-    background-image: var(--icn_mob);
-    background-position: -96px -0px;
+    background-image: var(--icn_dust);
+    background-position: -32px -32px;
 }
 .snowball, .snowball_with_rock {
     background-image: var(--icn_misc);
@@ -2054,51 +2062,51 @@ span.mini_cont span.mini_icon {
     background-position: -64px -0px;
 }
 .salt {
-    background-image: var(--icn_food);
-    background-position: -160px -96px;
+    background-image: var(--icn_dust);
+    background-position: -224px -0px;
 }
 .msg {
-    background-image: var(--icn_food);
-    background-position: -192px -96px;
+    background-image: var(--icn_dust);
+    background-position: -0px -32px;
 }
 .electrum_dust {
-    background-image: var(--icn_ore);
-    background-position: -96px -96px;
+    background-image: var(--icn_dust);
+    background-position: -64px -32px;
 }
 .gold_dust {
-    background-image: var(--icn_ore);
-    background-position: -128px -96px;
+    background-image: var(--icn_dust);
+    background-position: -96px -32px;
 }
 .empty_dust {
     background-image: var(--icn_ph);
     background-position: -0px -32px;
 }
 .poison_powder {
-    background-image: var(--icn_misc);
+    background-image: var(--icn_dust);
     background-position: -0px -0px;
 }
 .sleep_powder {
-    background-image: var(--icn_misc);
+    background-image: var(--icn_dust);
     background-position: -32px -0px;
 }
 .static_powder {
-    background-image: var(--icn_misc);
+    background-image: var(--icn_dust);
     background-position: -64px -0px;
 }
 .spark_dust {
-    background-image: var(--icn_misc);
+    background-image: var(--icn_dust);
     background-position: -96px -0px;
 }
 .glass_dust {
-    background-image: var(--icn_misc);
+    background-image: var(--icn_dust);
     background-position: -128px -0px;
 }
 .nitro_dust {
-    background-image: var(--icn_misc);
+    background-image: var(--icn_dust);
     background-position: -160px -0px;
-    -webkit-mask-image: var(--icn_misc);
+    -webkit-mask-image: var(--icn_dust);
     -webkit-mask-position: -160px -0px;
-    mask-image: var(--icn_misc);
+    mask-image: var(--icn_dust);
     mask-position: -160px -0px;
 }
 .exp_candy_s {
@@ -3116,6 +3124,22 @@ span.mini_cont span.mini_icon {
     -webkit-mask-position: -448px -320px;
     mask-image: var(--icn_weapontier);
     mask-position: -448px -320px;
+}
+.tag2::before {
+    content: " ";
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-image: var(--icn_color);
+    background-position: -128px -64px;
+    -webkit-mask-image: var(--icn_color);
+    -webkit-mask-position: -128px -64px;
+    mask-image: var(--icn_color);
+    mask-position: -128px -64px;
+}
+.tag2 {
+    background-image: var(--icn_color);
+    background-position: -160px -64px;
 }
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
@@ -4204,6 +4228,10 @@ span.cr_colouric {
     background-image: var(--icn_info);
     background-position: -112px -32px;
 }
+.location {
+    background-image: var(--icn_info);
+    background-position: -128px -32px;
+}
 .craft_meatpaste {
     background-image: var(--icn_info);
     background-position: -208px -48px;
@@ -4322,54 +4350,58 @@ span.cr_colouric {
 .tint_white, .tint_light_gray, .tint_gray, .tint_black,
 .tint_pink, .tint_red, .tint_orange, .tint_brown,
 .tint_yellow, .tint_green, .tint_dark_green, .tint_cyan,
-.tint_light_blue, .tint_blue, .tint_purple, .tint_magenta {
+.tint_light_blue, .tint_blue, .tint_purple, .tint_magenta,
+.tint_white_back::before, .tint_light_gray_back::before, .tint_gray_back::before, .tint_black_back::before,
+.tint_pink_back::before, .tint_red_back::before, .tint_orange_back::before, .tint_brown_back::before,
+.tint_yellow_back::before, .tint_green_back::before, .tint_dark_green_back::before, .tint_cyan_back::before,
+.tint_light_blue_back::before, .tint_blue_back::before, .tint_purple_back::before, .tint_magenta_back::before {
     background-blend-mode: multiply;
 }
-.tint_white {
+.tint_white, .tint_white_back::before {
     background-color: #ffffff;
 }
-.tint_light_gray {
+.tint_light_gray, .tint_light_gray_back::before {
     background-color: #d9d9d9;
 }
-.tint_gray {
+.tint_gray, .tint_gray_back::before {
     background-color: #b3b3b3;
 }
-.tint_black {
+.tint_black, .tint_black_back::before {
     background-color: #333333;
 }
-.tint_pink {
+.tint_pink, .tint_pink_back::before {
     background-color: #ff9999;
 }
-.tint_red {
+.tint_red, .tint_red_back::before {
     background-color: #ff0000;
 }
-.tint_orange {
+.tint_orange, .tint_orange_back::before {
     background-color: #ff8000;
 }
-.tint_brown {
+.tint_brown, .tint_brown_back::before {
     background-color: #994c00;
 }
-.tint_yellow {
+.tint_yellow, .tint_yellow_back::before {
     background-color: #ffff00;
 }
-.tint_green {
+.tint_green, .tint_green_back::before {
     background-color: #00ff00;
 }
-.tint_dark_green {
+.tint_dark_green, .tint_dark_green_back::before {
     background-color: #009900;
 }
-.tint_cyan {
+.tint_cyan, .tint_cyan_back::before {
     background-color: #00ffff;
 }
-.tint_light_blue {
+.tint_light_blue, .tint_light_blue_back::before {
     background-color: #9999ff;
 }
-.tint_blue {
+.tint_blue, .tint_blue_back::before {
     background-color: #0000ff;
 }
-.tint_purple {
-    background-color: #8000ff;
+.tint_purple, .tint_purple_back::before {
+    background-color: #7f00ff;
 }
-.tint_magenta {
+.tint_magenta, .tint_magenta_back::before {
     background-color: #ff00ff;
 }

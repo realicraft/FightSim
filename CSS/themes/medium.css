@@ -42,6 +42,14 @@
     --sstack_color_out: #6f0f0f;
     --sstack_border_out: #ffbfbf;
 
+    --popup_border: #000000;
+    --popup_title_color: #ffffff;
+    --popup_bg: #7f7f7f;
+    --popup_close_bg: #1f1f1f;
+    --popup_close_color: var(--popup_title_color);
+    --popup_close_bg_hover: #df0000;
+    --popup_close_color_hover: #000000;
+
     --health_over: #007f00;
     --health_low: #7f0000;
 

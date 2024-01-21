@@ -177,7 +177,6 @@ Plan Start A New (2)
 or
 -> [✗]A pickaxe (assuming previous turn crafting attempt failed). Should be a priority first.
 [/quote]
-{hr2}
 You go Digging for some Cobblestone, without equipping your Wooden Pickaxe first (Not that it would of helped, though.)
 Skill roll: 1d20 = {green|18}
 You manage to find a single block of Cobblestone. (Your Digging skill has gone up by 70%.)
@@ -187,6 +186,7 @@ You go Digging for some Electrum Ore.
 Skill roll: 1d18 = {red|3}
 Unsurprisingly, you do not find any. (Your Digging skill has gone up by 20%.)
 You can't afford a Furnace. You need 6 Stone, but have no Stone.
+{hr2}
 [quote author=realicraft link=msg=691401 date=1698169618]
 Oh.
 Okay, guess that's happening.

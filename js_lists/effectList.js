@@ -48,4 +48,5 @@ var effectlist = [ //[name lang_id, css class for icon, description, source, bon
     ["effect.itchy.name", "itchy", "effect.itchy.desc", "Glass Dust", "-2 to all Skills", [34, 35], 1], //46
     ["effect.minty.name", "minty", "effect.minty.desc", "Mint", "+1 CHR", [34, 36], 1], //47
     ["effect.spicy.name", "spicy", "effect.spicy.desc", "Peppers", "-1 Fire Resistance<br />-2 HP each turn", [34, 35], 1], //48
+    ["effect.obsessed.name", "obsessed", "effect.obsessed.desc", "?????", "?????????????????", [32, 34, 35, 39, 40], 5], //49
 ]
