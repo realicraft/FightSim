@@ -1,7 +1,10 @@
 // This is a duplicate of equipList, meant for working on various refactors to the way items are stored.
 
 /* add warning */
-document.body.innerHTML += '<span style="position:fixed;left:0px;bottom:0px;background-color:var(--background);border:1px solid black;font-weight:bold;padding-left:1px;padding-bottom:1px;">If you can see this, an in-development version of the item list is being used.</span>';
+// delayed to prevent a race condition that breaks the header links and timebox
+setTimeout(function() {
+    document.body.innerHTML += '<span style="position:fixed;left:0px;bottom:0px;background-color:var(--background);border:1px solid black;font-weight:bold;padding-left:1px;padding-bottom:1px;">If you can see this, an in-development version of the item list is being used.</span>';
+}, 500);
 
 /* helper functions */
 var addDefaults = function(nbt, defaults) { //adds default values to passed in nbt data
@@ -51,6 +54,7 @@ var critter_desc_gen = function(id, dv=0, stack=1, nbt={}) {
     }
 }
 
+/* fuel units */
 var fuel_unit_name_gen = function(id, dv=0, stack=1, nbt={}) {
     if (dv == 1) {
         return getTranslatedString("item.fuel_unit.name");
@@ -68,6 +72,7 @@ var fuel_unit_desc_gen = function(id, dv=0, stack=1, nbt={}) {
     }
 }
 
+/* slimeballs */
 var slimeball_name_gen = function(id, dv=0, stack=1, nbt={}) {
     var color;
     if (!("color" in nbt) || !(["green","red","blue","yellow","purple"].includes(nbt["color"]))) {
@@ -117,6 +122,7 @@ var slimeball_sell_gen = function(id, dv=0, stack=1, nbt={}) {
     }
 }
 
+/* dyes */
 var dye_name_gen = function(id, dv=0, stack=1, nbt={}) {
     var color = color_list[("color" in nbt) ? nbt["color"] : 0];
     return getTranslatedString("item.dye.name", {"color": getTranslatedString("color." + color + ".cap")});
@@ -134,6 +140,7 @@ var dye_desc_gen = function(id, dv=0, stack=1, nbt={}) {
     }
 }
 
+/* wool */
 var wool_name_gen = function(id, dv=0, stack=1, nbt={}) {
     var color = color_list[("color" in nbt) ? nbt["color"] : 0];
     return getTranslatedString("item.wool.name", {"color": getTranslatedString("color." + color + ".cap")});
@@ -147,6 +154,7 @@ var wool_desc_gen = function(id, dv=0, stack=1, nbt={}) {
     return getTranslatedString("item.wool.desc", {"color": getTranslatedString("color." + color + ".lower")});
 }
 
+/* plain shirts */
 var plainshirt_name_gen = function(id, dv=0, stack=1, nbt={}) {
     var color = color_list[("color" in nbt) ? nbt["color"] : 0];
     return getTranslatedString("item.plain_shirt.name", {"color": getTranslatedString("color." + color + ".cap")});
@@ -160,7 +168,7 @@ var plainshirt_desc_gen = function(id, dv=0, stack=1, nbt={}) {
     return getTranslatedString("item.plain_shirt.desc", {"color": getTranslatedString("color." + color + ".lower")});
 }
 
-// TODO: tag functions
+/* tags */
 var tag_name_gen = function(id, dv=0, stack=1, nbt={}) {
     if ("color" in nbt) {
         var color = color_list[nbt["color"]]
@@ -193,6 +201,7 @@ var tag_sell_gen = function(id, dv=0, stack=1, nbt={}) {
     }
 }
 
+/* contact cards */
 var contcard_name_gen = function(id, dv=0, stack=1, nbt={}) {
     if (("soaked" in nbt) && (nbt["soaked"] == true)) {
         return getTranslatedString("item.contact_card_wet.name");
@@ -221,6 +230,98 @@ var contcard_source_gen = function(id, dv=0, stack=1, nbt={}) {
         return "Unknown";
     }
 }
+
+/* christmas stockings */
+// if old is true, stocking is old; else if filled is true, stocking is filled; else stocking is normal
+var stocking_name_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("old" in nbt) && (nbt["old"] == true)) {
+        return getTranslatedString("item.old_stocking.name");
+    } else if (("filled" in nbt) && (nbt["filled"] == true)) {
+        return getTranslatedString("item.filled_stocking.name");
+    } else {
+        return getTranslatedString("item.stocking.name");
+    }
+}
+var stocking_class_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("old" in nbt) && (nbt["old"] == true)) {
+        return "old_stocking";
+    } else {
+        return "stocking";
+    }
+}
+var stocking_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("old" in nbt) && (nbt["old"] == true)) {
+        return getTranslatedString("item.old_stocking.desc");
+    } else if (("filled" in nbt) && (nbt["filled"] == true)) {
+        return getTranslatedString("item.filled_stocking.desc");
+    } else {
+        return getTranslatedString("item.stocking.desc");
+    }
+}
+var stocking_source_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("old" in nbt) && (nbt["old"] == true)) {
+        return "Post-Christmas";
+    } else {
+        return "Christmas";
+    }
+}
+var stocking_cats_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("old" in nbt) && (nbt["old"] == true)) {
+        return [12,20,59];
+    } else if (("filled" in nbt) && (nbt["filled"] == true)) {
+        return [12,48,59];
+    } else {
+        return [12,20,59];
+    }
+}
+var stocking_rarity_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("old" in nbt) && (nbt["old"] == true)) {
+        return 3;
+    } else {
+        return 4;
+    }
+}
+
+/* welding helmets */
+// name, desc, *attribs, cats, rarity, sell
+var weld_helmet_name_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("auto" in nbt) && (nbt["auto"] == true)) {
+        return getTranslatedString("item.auto_welding_helmet.name");
+    } else {
+        return getTranslatedString("item.welding_helmet.name");
+    }
+}
+var weld_helmet_desc_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("auto" in nbt) && (nbt["auto"] == true)) {
+        return getTranslatedString("item.auto_welding_helmet.desc");
+    } else {
+        return getTranslatedString("item.welding_helmet.desc");
+    }
+}
+var weld_helmet_cats_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("auto" in nbt) && (nbt["auto"] == true)) {
+        return [1];
+    } else {
+        return [1,11];
+    }
+}
+var weld_helmet_rarity_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("auto" in nbt) && (nbt["auto"] == true)) {
+        return 2;
+    } else {
+        return 1;
+    }
+}
+var weld_helmet_sell_gen = function(id, dv=0, stack=1, nbt={}) {
+    if (("auto" in nbt) && (nbt["auto"] == true)) {
+        return 14;
+    } else {
+        return 7;
+    }
+}
+
+/* snowballs */
+// name, desc, *attribs, cats, sell
 
 /* lists */
 var equiplist = [ //[name, css class for icon, description, source, bonuses, [categories], name class id, sell price]
@@ -387,7 +488,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Gray Dye; 120 -> 111:2)", "", "", [], 0, 0]], //120
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Black Dye; 121 -> 111:3)", "", "", [], 0, 0]], //121
     [["Glass Bottle", "glass_bottle", "A bottle made of glass.", "Crafting", "Fill it with stuff", [11], 1, 3]], //122
-    [["Water Bottle", "water_bottle", "A bottle filled with water.", "Crafting", "Drink for 3 HP<br />Or fill it with more stuff and cook it", [30,11], 1, 5]], //123
+    [["Water Bottle", "water_bottle", "A bottle filled with water.", "Crafting", "Drink for 2 HP<br />Or fill it with more stuff and cook it", [30,11], 1, 5]], //123
     [["Fertilizer", "fertilizer", "Some fertilizer.", "Crafting", "Use on a plant for +1 growth turn", [20], 2, 9]], //124
     [["Dirt", "dirt", "A block of dirt. Not the best material to make a house out of, but you do you.", "Digging", "", [17], 1, 4]], //125
     [["Grass", "grass", "A block of dirt with some grass on it.", "Unknown", "", [17], 2, 7]], //126
@@ -530,18 +631,15 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (6 Fuel Units; 230 -> 225:6)", "", "", [], 0, 0]], //230
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (7 Fuel Units; 231 -> 225:7)", "", "", [], 0, 0]], //231
     [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (8 Fuel Units; 232 -> 225:8)", "", "", [], 0, 0]], //232
-    [
-        ["Christmas Stocking", "stocking", "A stocking for Christmas. Hang it up during your turn to get extra rewards!", "Christmas", "Hang it up<br />Can be used while KOd", [12,20,59], 4, 0], //0
-        ["Filled Christmas Stocking", "stocking", "A stocking for Christmas with some goodies in it.", "Christmas", "You can take items out of it<br />Disappears when empty", [12,48,59], 4, 0], //1
-    ], //233
+    [[stocking_name_gen, stocking_class_gen, stocking_desc_gen, stocking_source_gen, "Hang it up (free action)<br />Can be used while KOd", stocking_cats_gen, stocking_rarity_gen, 0]], //233
     [["Effect Candy", "blue_candy", "A small piece of candy, wrapped in a blue wrapper. Eat it to gain a random positive effect!", "Events", "Consume for one of the following: Regen, Attack Up, Defense Up", [12,30,31], 2, 0]], //234
     [["Skill Candy", "green_candy", "A small piece of candy, wrapped in a green wrapper. Eat it to gain 300% in a random skill!", "Events", "Consume for 300% in a random skill you have that is below level 5", [12,30,31], 2, 0]], //235
     [["Item Candy", "red_candy", "A small piece of candy, wrapped in a red wrapper. Eat it to gain a random item!", "Events", "Consume for a random item (see Info)", [12,30,31], 2, 0]], //236
     [["Mystery Gift", "gift_box", "A gift in a box. It could be anything!", "Item Candy", "Open it to gain a random item out of all the items currently in the game", [12,20], 3, 0]], //237
     [["Time Candy", "black_candy", "A small piece of candy, wrapped in a black and yellow wrapper. If you have this in your inventory, you'll be allowed three posts in a turn, instead of two!", "Unknown", "Holding this item allows one extra post in a turn (consumed during extra post)<br />Can only be used once per turn", [12,30,31], 3, 0]], //238
     [["Old Candy", "gray_candy", "A small piece of old candy. The color on the wrapper has faded away, so you can't tell what kind of candy this was.", "Old Stocking", "Consume for a reduced version of a different candy's effect", [12,30,31], 1, 0]], //239
-    [["Old Christmas Stocking", "old_stocking", "An old stocking for Christmas. It's too late to hang it up, but there might still be something inside...", "Post-Christmas", "Look inside", [12,20,59], 3, 0]], //240
-    [["LTT Hoodie", "ltt_hoodie", "Uh... thanks, Incendiary?", "Unknown", "+0.7 Indirect Defense<br />+2 Intelligence", [2,12], 2, 0]], //241
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (Old Christmas Stocking; 240 -> 233{\"old: true\"})", "", "", [], 0, 0]], //240
+    [["LTT Hoodie", "ltt_hoodie", "Uh... thanks, Incendiary?", "Unknown", "+0.7 Indirect Defense<br />+2 Intelligence", [2,12], 4, 0]], //241
     [["Furnace", "furnace", "A furnace. Having this in your inventory will passively reduce fuel requirements in recipies by 1.", "Crafting", "Reduces recipe fuel requirements by one", [17], 1, 16]], //242
     [["Box", "box", "A box. It has the following items in it:", "Unknown", "You can take items out of it<br />Disappears when empty", [20], 1, 0]], //243
     [["Hammer", "hammer", "A hammer capable of messing with Structures.", "Unknown", "Use it to mess with a Structure somehow (not consumed)<br />Equip for +0.7 Direct Attack and +4 damage vs. Structures", [6,29], 4, 0]], //244
@@ -811,8 +909,8 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["U.S. Constitution Shirt", "const_shirt", "A shirt with the Constitution of the United States on it. No points for guessing what it boosts.", "Crafting", "+1 CON", [2], 2, 13]], //479
     [["Fake Abs Shirt", "abs_shirt", "A shirt with some fake abs drawn on it.", "Crafting", "+1 STR", [2], 2, 5]], //480
     [[plainshirt_name_gen, plainshirt_class_gen, plainshirt_desc_gen, "Crafting", "", [2,11], 1, 7]], //481
-    [["Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding.", "Crafting", "+0.4 Construction", [1,11], 1, 7]], //482
-    [["Automatic Welding Helmet", "welding_helmet", "A helmet meant to protect your eyes while welding. It differs from the regular one because it activates the filter automatically, rather than having it on all the time, so it's obviously the better choice.", "Crafting", "+1.1 Construction", [1], 2, 14]], //483
+    [[weld_helmet_name_gen, "welding_helmet", weld_helmet_desc_gen, "Crafting", "+0.4 Construction", weld_helmet_cats_gen, weld_helmet_rarity_gen, weld_helmet_sell_gen]], //482
+    [["Empty Slot", "unused", "This slot used to have an item, but now it doesn't. (automatic Welding Helmet; 483 -> 482{\"auto\": true})", "", "", [], 0, 0]], //483
     [["Knife", "knife", "Oh hey, it's the knife from the sticker.", "Crafting", "+1 Indirect Attack<br />+2 Melee Damage", [5,11,23], 1, 4]], //484
     [["Weird Egg", "ice_egg", "A large, cyan egg. It's probably from a dragon or something.", "Unknown (FS1/2); Unobtainable(?) (FS3)", "Can presumably hatch", [21,32,33,38,39], 4, 0]], //485
     [["Sweet and Sour Carrot", "tainted_carrot", "A carrot covered in what is <em>probably</em> those two mystery potions.<br /><br />Uh oh.", "Presumably Crafting (FS2); Unobtainable (FS3)", "???", [10,30,32,33,39,40], 5, 0]], //486
@@ -1136,6 +1234,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Pencil", "pencil", "A pencil. You don't really have a use for this, so you should just sell it.", "Crafting", "", [20], 1, 2]], //746
     [["Fax Machine", "fax_machine", "A fax machine. It can send and receive faxes.", "Crafting", "Place it down as a Structure", [18,20,58], 2, 113]], //747
     [["Crafting Table", "crafting_table", "A crafting table.", "Crafting", "Place it down as a Structure<br />Craft at it to temporarily have +1 Crafting", [18], 1, 10]], //748
+    [["Reimu Hakurei Fumo", "reimu_hakurei_fumo", "Gee, Incendiary, how... uh, thoughtful of you?", "Unknown", "-0.8 Direct Defense<br/>33% chance to dodge ranged attacks", [8,12,20,29], 4, 13]], //759
 ]
 
 /* helper lists */

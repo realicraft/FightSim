@@ -1,0 +1,91 @@
+Changelog for Turn 87
+
+Easter Event
+- added the easter event again
+- easter eggs now use popups instead of alert()
+- added elements for relevant data to almost every html file
+- added icons for five new easter eggs
+
+Mobs
+- 
+
+Items
+- the ltt hoodie is now Unique instead of Uncommon
+- added the Reimu Hakurei Fumo, courtesy of incendiary
+- hanging a stocking is now a free action
+- water bottles only heal 2 hp
+- added an icon for the five dollar bill
+
+Future Items
+- 
+
+Item Revamp
+- equipList2: ported over the changes to the ltt hoodie, christmas stocking, and water bottle
+- equipList2: ported over the Reimu Hakurei Fumo
+- equipList2: merged stockings, using the "old" and "filled" nbt tags (the attribute list is shared for now)
+- tt(): added support for functions in place of categories
+
+Crafting
+- added recipies for hardite equipment
+
+Effects
+- fixed nausea's description being identical to poisoned's description
+- adjusted severe nausea's description to be less severe
+
+Structures
+- 
+
+Scrolls
+- 
+
+Skills
+- 
+
+Gardens
+- 
+
+Quests
+- 
+
+Phone System
+- 
+
+Helpers
+- the tbgsbbp compliler can now properly handle an argument being used multiple times
+
+Votes
+- 
+
+Translations
+- 
+
+Splashes
+- added two new splashes to the 'ideas' section
+
+Themes
+- hid dark theme from the theme list, as it is still not actually a thing
+- added a neon theme; this was planned to be the april fools joke this year but it doesn't really feel like a good idea to do that /now/ because of the plot :(
+
+Icon Sets
+- resprite: continued working on food_sheet (all cookies, plus a new one)
+- plastic: continued working on egg_sheet (new icons)
+
+Settings
+- removed the commented out plan from the settings page
+
+Internal
+- added comments to the stat table function to organize it better
+- removed two unused variables from the inventory function
+- fixed main.css using var(--font) when it should have been using var(--text)
+- removed the (previously commented out) old effects table from stats.html
+- added popup.js to every page under 3/
+- removed the old data for the fishing table, as it's now auto-generated
+- redid the way that the logo image is chosen slightly
+
+Misc
+- fixed a typo causing the "Excellent Fish" header in the info page's fishing table to not get translated
+- fixed a bug where the percentile drop rates in the fishing table were displayed as being from 0% to 1%, instead of 0% to 100%
+- skills that a player has reached proficiency in now have a background behind the icon
+- removed Icons\Gem.png, since it isn't needed
+- popups now stick even when the page is scrolled, and properly display above everything in the page
+- added icons for various services, which are used in the links section of updates; two of these are currently unused

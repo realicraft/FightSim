@@ -1,8 +1,7 @@
 var headerEl = document.getElementById("header_container")
 var timeboxEl = document.getElementById("time_box")
 
-var timeboxInfo = [86, "night", "cloudy"]
-
+var timeboxInfo = [87, "night", "moony"]
 
 // page elements
 var headerFunc = function() {

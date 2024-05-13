@@ -2,7 +2,8 @@
     border: 5px solid var(--popup_border);
     background-color: var(--popup_bg);
     border-radius: 5px;
-    position: absolute;
+    position: fixed;
+    z-index: 2;
 }
 
 .popup_title {

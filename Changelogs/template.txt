@@ -6,6 +6,12 @@ Mobs
 Items
 - 
 
+Future Items
+- 
+
+Item Revamp
+- 
+
 Crafting
 - 
 

@@ -9,11 +9,10 @@ every 1 stat grants a +0.1 skill boost, capped at 30 of the stat (+3 skill boost
 
 reali:
  Stats:
-  Health: (+5)
-   Player Level (+4)
-   Overheal Potion (+1)
   Indirect Attack: (+1)
    Santa Hat (+1)
+  Direct Atack: (-1)
+   Bleeding (-1)
   Indirect Defense: (+2.7)
    Santa Hat (+1)
    LTT Hoodie (+0.7)
@@ -21,6 +20,11 @@ reali:
   Direct Defense: (-0.7 +0.2 perm)
    Quest Reward (+0.2 perm)
    Sour! (-0.7)
+  Health: (+5)
+   Player Level (+4)
+   Overheal Potion (+1)
+  Health per Turn: (-5)
+   Bleeding (-5)
   INT: (+2)
    LTT Hoodie (+2)
   XP from Monsters: (+5%)
@@ -46,16 +50,19 @@ Incendiary:
   Indirect Attack: (+2.1)
    Emerald Band (+1.1)
    Diamond Sword (+1)
-  Indirect Defense: (+3.1)
+  Indirect Defense: (+5.1)
    Diamond Leggings (+1)
    Diamond Boots (+1)
    Emerald Band (+1.1)
-  Direct Attack: (+2)
+   Construction Proficiency (+2)
+  Direct Attack: (+3)
    Diamond Sword (+2)
-  Direct Defense: (+4)
+   Attack Up (+1)
+  Direct Defense: (+5)
    Diamond Helmet (+1)
    Diamond Chestplate (+2)
    Diamond Leggings (+1)
+   Defense Up (+1)
   Health: (+4)
    Player Level (+3)
    Overheal Potion (+1)
@@ -101,13 +108,13 @@ sparky:
  Skills:
 solitare:
  Stats:
-  Health: (+2)
-   Player Level (+2)
   Indirect Attack: (+1)
    Santa Hat (+1)
   Indirect Defense: (+2)
    Santa Hat (+1)
    Wooden Shield (+1)
+  Health: (+2)
+   Player Level (+2)
   XP from Monsters: (+5%)
    Santa Hat (+5%)
  Skills:
@@ -115,11 +122,22 @@ solitare:
     Stone Fishing Rod (+1)
 Faressain:
  Stats:
-  Indirect Attack: (+1)
-   Wooden Pickaxe (+1)
+  Indirect Attack: (+2.2)
+   Stone Shovel (+1)
+   Diamond Band (+1.2)
+  Indirect Defense: (+2.6)
+   Chain Helmet (+1)
+   Emerald Boots (+0.4)
+   Diamond Band (+1.2)
+  Direct Defense: (0.8)
+   Emerald Boots (+0.8)
+  Health: (+1)
+   Player Level (+1)
+  Health per Turn: (+0.3)
+   Golden Flesh (+0.3)
  Skills:
-  Mining: (+1)
-   Wooden Pickaxe (+1)
+  Digging: (+1)
+   Stone Shovel (+1)
 LeopardyLeaf:
  Stats:
  Skills:
@@ -132,12 +150,15 @@ gilbert:
    Sword Sticker (+0.5)
    Raised Sword Sticker (+1.1)
    Diamond Sword (+2)
-  Direct Defense: (+2)
+  Direct Defense: (+2.5)
+   Shield Sticker(+0.5) 
    Diamond Chestplate (+2)
   Health: (+4)
    Player Level (+5)
    Liquid Radiation (-1)
  Skills:
+  Crafting: (+0.7)
+   Hammer Sticker (+0.7)
 TwilightSeleneMisty:
  Stats:
   Indirect Defense: (+1)

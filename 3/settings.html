@@ -6,38 +6,27 @@
         <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/popup.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/settings.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Settings | FS3</title>
     </head>
     <body>
-        <img src="CurrentLogo/logo.png">
+        <img src="CurrentLogo/logo.png" id="logo">
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
         <h2>Settings</h2>
-        <div id="all_settings">
-            <!--<div class="settings_box">
-                <div class="settings_title">Placeholders</div>
-                <hr>
-                <div class="settings_inner">
-                    <span class="setting_left">Placeholder</span>
-                    <span class="setting_right">( O)</span>
-                </div>
-                <hr>
-                <div class="settings_inner">
-                    <span class="setting_left">Placeholder</span>
-                    <span class="setting_right">(O )</span>
-                    <span class="setting_desc"><span class="setting_desc_inner">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></span>
-                </div>
-            </div>-->
-        </div>
+        <div id="all_settings"></div>
         <div id="save_cont"><button id="save_button" onclick="save_settings();">Save Changes</button></div>
+        <span class="easter_egg" data-egg="22"></span>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
+        <script src="popup.js"></script>
         <script src="../js_lists/headerLinks.js"></script>
         <script src="../js_lists/settingsList.js"></script>
         <script src="../js_lists/splashList.js"></script>
+        <script src="../js_lists/eggList.js"></script>
         <script src="../common_allpages.js"></script>
         <script src="allpages.js"></script>
         <script src="../js_lists/equipList.js"></script>

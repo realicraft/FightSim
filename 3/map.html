@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/popup.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Map | FS3</title>
         <style>
@@ -20,7 +21,7 @@
         </style>
     </head>
     <body>
-        <img src="CurrentLogo/logo.png">
+        <img src="CurrentLogo/logo.png" id="logo">
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
@@ -36,12 +37,15 @@
             <area shape="poly" coords="194,73,  223,151, 245,156, 247,206, 277,206, 270,234, 308,241, 314,267, 366,293, 406,300, 444,300, 540,278, 528,243, 519,218, 487,212, 459,192, 491,190, 492,173, 410,174, 391,95, 300,91, 262,43, 220,43, 200,56" onmouseover="popup(5)" onmouseout="nopopup()">
         </map>
         <br />
+        <span class="easter_egg" data-egg="3"></span>
         <p id="area_contain"></p>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
+        <script src="popup.js"></script>
         <script src="../js_lists/headerLinks.js"></script>
         <script src="../js_lists/settingsList.js"></script>
         <script src="../js_lists/splashList.js"></script>
+        <script src="../js_lists/eggList.js"></script>
         <script src="../common_allpages.js"></script>
         <script src="allpages.js"></script>
         <script src="../js_lists/equipList.js"></script>

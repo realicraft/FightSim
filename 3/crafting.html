@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/collapse.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/popup.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Crafting Recipies | FS3</title>
         <style>
@@ -46,17 +47,20 @@
         </style>
     </head>
     <body>
-        <img src="CurrentLogo/logo.png">
+        <img src="CurrentLogo/logo.png" id="logo">
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
         <h1 id="header_el">Crafting Recipies</h1>
+        <span class="easter_egg" data-egg="5"></span>
         <div class="struct" id="recipe-box"></div>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
+        <script src="popup.js"></script>
         <script src="../js_lists/headerLinks.js"></script>
         <script src="../js_lists/settingsList.js"></script>
         <script src="../js_lists/splashList.js"></script>
+        <script src="../js_lists/eggList.js"></script>
         <script src="../common_allpages.js"></script>
         <script src="allpages.js"></script>
         <script src="info.js"></script>

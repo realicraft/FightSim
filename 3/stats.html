@@ -7,13 +7,14 @@
         <link rel="stylesheet" type="text/css" href="../CSS/pt_errata.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/popup.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Stats | FS3</title>
         <style>
         </style>
     </head>
     <body>
-        <img src="CurrentLogo/logo.png">
+        <img src="CurrentLogo/logo.png" id="logo">
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
@@ -47,79 +48,16 @@
             id="info-stat-table" onmouseover="info('info-stat-table');" onmouseout="noinfo();">
         </span>
         <div style="height: 20px;"></div>
+        <span class="easter_egg" data-egg="10"></span>
         <div style="width: min(90%, 1500px); margin: auto;" id="stat_table_container"></div>
-        <!--<table id="effects">
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Common Causes</th>
-            </tr>
-            <tr>
-                <td>None</td>
-                <td>You don't have an effect here.</td>
-                <td>Not having an effect.</td>
-            </tr>
-            <tr>
-                <td>KOd</td>
-                <td>You've been knocked out, causing you to be out of play for three turns.</td>
-                <td>HP reaching 0</td>
-            </tr>
-            <tr>
-                <td>AFK</td>
-                <td>You've been inactive for a while, and can't be attacked.</td>
-                <td>Being inactive</td>
-            </tr>
-            <tr>
-                <td>On Fire</td>
-                <td>You've been set on fire and take 5 damage each turn. Can be removed with water or ice.</td>
-                <td>Getting set on fire</td>
-            </tr>
-            <tr>
-                <td>Frozen</td>
-                <td>You've been set frozen and can't act. Can be removed by fire or blunt attacks.</td>
-                <td>Getting frozen</td>
-            </tr>
-            <tr>
-                <td>Shielded</td>
-                <td>You have a shield that increases your defense. +4 Def</td>
-                <td>Using some sort of shield</td>
-            </tr>
-            <tr>
-                <td>Hiding</td>
-                <td>You're hiding, which increases your defense. +2 Def</td>
-                <td>Hiding behind something</td>
-            </tr>
-            <tr>
-                <td>Beans</td>
-                <td>You ate beans. Neat. +1 Atk</td>
-                <td>Eating beans</td>
-            </tr>
-            <tr>
-                <td>Bruised</td>
-                <td>You got bruised somewhere. Ow... -1 Def</td>
-                <td>Falling, Blunt attacks</td>
-            </tr>
-            <tr>
-                <td>Generic Attack Buff</td>
-                <td>Whatever you did to get this, it didn't give me flavor text. +1 Atk</td>
-                <td>Increasing Attack</td>
-            </tr>
-            <tr>
-                <td>Flying to the North Pole</td>
-                <td>You are heading to the north pole, for some reason. Might take a while.</td>
-                <td>???</td>
-            </tr>
-            <tr>
-                <td>name</td>
-                <td>desc</td>
-                <td>cause</td>
-            </tr>-->
         </table>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
+        <script src="popup.js"></script>
         <script src="../js_lists/headerLinks.js"></script>
         <script src="../js_lists/settingsList.js"></script>
         <script src="../js_lists/splashList.js"></script>
+        <script src="../js_lists/eggList.js"></script>
         <script src="../common_allpages.js"></script>
         <script src="allpages.js"></script>
         <script src="../js_lists/effectList.js"></script>

@@ -3,6 +3,7 @@ var settingslist = [ // [section lang_str, [cookie id, lang_str id, has_desc, ty
         "settings.headers.general", [
             ["sans", "settings.comic_sans", true, "bool", false, ""],
             ["splashes", "settings.splashes_anywhere", true, "bool", false, ""],
+            ["skew", "settings.skew_page", true, "bool", false, ""],
         ]
     ],
     [
@@ -32,8 +33,9 @@ var langlist = [ // [id, name]
 var themelist = [ // [id]
     ["light"],
     ["medium"],
-    ["dark"],
+    // ["dark"],
     ["cga"],
+    ["neon"],
 ];
 
 var iconsetlist = [ // [id]

@@ -186,7 +186,9 @@ var comp_conv2 = function(conv, otype, outer) {
             }
             outTag = replaceList[sections[0]][2][otype]; // ...parse the tag contents...
             for (part = 1; part <= replaceList[sections[0]][0]; part++) {
-                outTag = outTag.replace("%"+part, sections[part]);
+                console.log(outTag);
+                outTag = outTag.replace(new RegExp("%"+part, 'g'), sections[part]);
+                console.log(outTag);
             }
             outCont += outTag; // ...and add the tag contents
         }

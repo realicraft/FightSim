@@ -33,7 +33,9 @@
     --icn_weapontier: url("../Icons/Resprite/weapons_tiered_sheet.png");
     --icn_weaponmisc: url("../Icons/Exported/weapons_misc_sheet.png");
     --icn_dust: url("../Icons/Resprite/dust_sheet.png");
+    --icn_prof_bg: url("../Icons/Exported/prof_bg_sheet.png"); /* unchanged */
     --icn_banana: url("../3/banana.gif");
+    --icn_fumo: url("../Icons/Exported/fumo.png"); /* unchanged */
 
     --icn_bg: url("../3/Items/Exported/equip_back.png");
 

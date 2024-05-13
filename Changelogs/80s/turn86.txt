@@ -23,33 +23,12 @@ Item Revamp
 - added a tag icon to colorable_sheet
 - equipList2: ported over the dirt/grass block sell prices and sand block typo fix
 - equipList2: merged plain shirts and tags into single data values, using the "color" tag in nbt data as a replacement
-- equipList2: merged dry and wat contact cards into a single item, using the "soaked" tag in nbt data as a disambiguator
+- equipList2: merged dry and wet contact cards into a single item, using the "soaked" tag in nbt data as a disambiguator
 - equipList2: wool can now be dyed, using the "color" nbt tag
 - equipList2: added a list to convert between color numbers and names
 
-Crafting
-- 
-
 Effects
 - added obsessed (you know, from fs2)
-
-Structures
-- 
-
-Scrolls
-- 
-
-Skills
-- 
-
-Gardens
-- 
-
-Quests
-- 
-
-Phone System
-- 
 
 Helpers
 - renamed the tbgsbb+ compiler
@@ -58,9 +37,6 @@ Helpers
 - added tbgsbb+ tags for advanced quotes, ruby text, fractions, and generic size/color
 - the tbgsbb+ tag {links} now links to the official wasteof account
 - the phone icon before phone numbers no longer has alt text, as in that case it is intended to be decor
-
-Votes
-- 
 
 Translations
 - en_us: added strings for wool/carpet recipes and colors
@@ -76,17 +52,11 @@ Splashes
 - added two new rare splashes
 - removed the lithium splash
 
-Themes
-- 
-
 Icon Sets
 - classic: moved dust icons to a new sheet named "dust_sheet"
 - resprite: continued working on block_sheet (stone wall, stone brick wall, hardite wall, stone pressure plate)
 - resprite: continued working on icons_sheet (regen and obsessed)
 - resprite: started working on dust_sheet (moved icons from misc_sheet and ore_sheet, nitro dust, sugar, salt, msg, gunpowder)
-
-Settings
-- 
 
 Internal
 - added line breaks to the big help string on the stats page

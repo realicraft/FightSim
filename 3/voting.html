@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/popup.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Votes | FS3</title>
         <style>
@@ -33,9 +34,11 @@
         Usually, a vote will require a majority, or over half, of votes to be yes votes in order to pass, but some votes require a <em>supermajority</em>, or over two-thirds, of yes votes to pass.
         </p>
         <h1>Ongoing Votes</h1>
-        <!--<p>None right now.</p>-->
+        <p>None right now.</p>
+        <span class="easter_egg" data-egg="11"></span>
+        <h1>Past Votes</h1>
         <div class="struct">
-            <span class="icon time" title="In progress."></span>
+            <span class="icon failed" title="Failed to pass."></span>
             <h2><span class="info-hover" data-info-title="Structures provide Defense" data-info-desc="Makes Structures provide Defense if you're in them, assuming I remember that." id="info-structdefense" onmouseover="info('info-structdefense');" onmouseout="noinfo();">Structures provide Defense</span></h2>
             <table>
                 <tr>
@@ -61,7 +64,6 @@
                 </tr>
             </table>
         </div>
-        <h1>Past Votes</h1>
         <div class="struct">
             <span class="icon failed" title="Failed to pass."></span>
             <h2><span class="info-hover" data-info-title="Change Blocking" data-info-desc="We should make blocking based on time rather than post count, because I <em>totally</em> record when posts were made.<br /><br />I don't do that, by the way." id="info-changeblock" onmouseover="info('info-changeblock');" onmouseout="noinfo();">Change Blocking</span></h2>
@@ -411,9 +413,11 @@
         </div>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
+        <script src="popup.js"></script>
         <script src="../js_lists/headerLinks.js"></script>
         <script src="../js_lists/settingsList.js"></script>
         <script src="../js_lists/splashList.js"></script>
+        <script src="../js_lists/eggList.js"></script>
         <script src="../common_allpages.js"></script>
         <script src="allpages.js"></script>
         <script src="info.js"></script>

@@ -6,6 +6,9 @@
         <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/popup.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/themes/medium.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/iconsets/default.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title id="title">Archive | FS3</title>
         <style>
@@ -21,7 +24,7 @@
                 text-align: left;
                 padding: 3px;
             }
-            code {
+            code, pre {
                 font-family: "FightSim Body Mono", monospace;
                 border: 1px solid var(--struct_border);
                 margin: 2px;
@@ -53,17 +56,20 @@
         </style>
     </head>
     <body>
-        <img src="CurrentLogo/logo.png">
+        <img src="CurrentLogo/logo.png" id="logo">
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
         <h1>Archive</h1>
-        <div id="archive_body">placeholder text<br/>(If you can see this, you have JavaScript disabled.)</div>
+        <div id="archive_body">placeholder text<br/>(If you can see this, you have JavaScript disabled, or your browser is like five years old)</div>
+        <span class="easter_egg" data-egg="13"></span>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
+        <script src="popup.js"></script>
         <script src="../js_lists/headerLinks.js"></script>
         <script src="../js_lists/settingsList.js"></script>
         <script src="../js_lists/splashList.js"></script>
+        <script src="../js_lists/eggList.js"></script>
         <script src="../common_allpages.js"></script>
         <script src="allpages.js"></script>
         <script src="../js_lists/equipList.js"></script>

@@ -168,5 +168,7 @@ var splashesList = { // "type": [splash, ...]
         "If you need ideas, have you tried making funny beeping noises?",
         "If you need ideas, have you tried playing Minecraft?",
         "If you need ideas, have you tried making a machine to thrash your own ass?",
+        "If you need ideas, have you tried <span style=\"color: var(--ele_fire);\">killing</span>, some <span style=\"color: var(--ele_fire);\">monsters</span>?",
+        "If you need ideas, have you tried killbinding?",
     ]
 }

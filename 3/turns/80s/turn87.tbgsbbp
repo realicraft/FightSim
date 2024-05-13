@@ -1,0 +1,294 @@
+Turn 87 - Skeledop
+time to get back on schedule, for like the tenth time
+edit: ah. i did not do that.
+{hr2}
+{quoteall|Incendiary|712219|1705826183|
+I hang my stocking, and as a Christmas present I give every player a Reimu Hakurei Fumo (pls make this an item it'd be funny plus touhou hijack, I'll even make the sprite if you want)
+
+As for my actual turn, I:
+- eat my ripe carrot, candy cane, chocolate bar and chocolate pumpkin
+- eat my effect candy
+- steal the wheat, empty cans, oranges, tomatoes and grapes from the ground
+- go underground and work on my bunker 
+}
+You hang up your stocking, and put a Reimu Hakurei Fumo in every hung stocking.
+You eat five different things, but it's only a total of 4.3 servings, so you don't get Nausea.
+The first three items heal you for 10+1.5+5={b|17} HP.
+The Pumpkin-shaped Chocolate heals 1 HP, and is filled with...
+Effect roll: 1d20 = 6
+...electricity, somehow.
+Damage roll: 1d4+2 = 4+2 = 6
+You take {elec|6 Electric damage}, and are Paralyzed for a turn. I guess it's a good thing you didn't eat it first.
+You eat your Effect Candies.
+Paralysis roll: 1d4 = 2
+Effect rolls: 1d3 = 2, 3
+(You are inflicted with Attack Up and Defense Up for one turn.)
+You pick some stuff up off the ground.
+Paralysis roll: 1d4 = 2
+You work on your Bunker Workshop. (4/5)
+{hr2}
+{quoteall|gilbert_given_TBG|712257|1705835940|
+{quoteall|Incendiary|712219|1705826183|
+... as a Christmas present I give every player a Reimu Hakurei Fumo (pls make this an item it'd be funny plus touhou hijack, I'll even make the sprite if you want)}
+
+Looks like I'm not the only one who tried to include a reference to FS3.
+
+Anyway, for this turn:
+- I take out the Christmas Stocking from the Halloween Bucket and hang it on my Treehouse. (directly instead of through the inventory, since it's full)
+- I stick my other Hammer Sticker, my Shield Sticker and Orb Sticker to my Sticker Book to free up my inventory space.
+- I take out the Chocolate Candy and eat it.
+
+In case that's more than 3 moves, truncate it until it fits.
+}
+You hang up your stocking.
+You put your Hammer Sticker and Shield Sticker into your Sticker Book, which is now full (and thus can't fit the Orb Sticker.)*
+You eat the Chocolate Egg. Looks like it's filled with...
+Effect roll: 1d20 = 6
+...electricity again.
+Damage roll: 1d4+2 = 2+2 = 4
+You take {elec|4 Electric damage}, and are Paralyzed for a turn.
+{hr2}
+{quoteall|Faressain|712258|1705836309|
+Free action:
+- Hang the stocking. That's really late gift that I can't avoid either way, heh.
+
+Actual actions:
+- Swap pickaxe for a shovel.
+- Dig more. We do a little digging.
+- Smelt 4 iron ores using 3 planks into 2 iron bars, then use remaining 3 to smelt 3 Electrum (oops, I had a furnace after all.)
+}
+You hang up your stocking, which is indeed a free action, and also a late gift.
+You unequip your Wooden Pickaxe and equip your Stone Shovel.
+You go Digging.
+Skill roll: 1d20+1 = {crmiss|1}+1 = {crmiss|2}
+You immediately fall into a cave, somehow.
+Damage roll: 1d4+4 = 3+4 = 7
+You take {b|7} damage. (Your Digging skill has gone up by 15%. Your Digging skill leveled up!)
+{bi|You leveled up!} You've gained 1 Max HP.
+You've completed a quest! (Go Digging.) You've obtained 10 Dirt, 150% Digging, and 2 Misc EXP. (Your Digging skill leveled up!)
+Using your Furnace to reduce fuel requirements, you smelt 4 Iron Ore and 3 Oak Planks into 2 Iron Bars, and then smelt 3 Electrum Ore and 3 Oak Planks into 3 Electrum Bars. (Your Crafting skill has gone up by 63%. Your Crafting skill leveled up!)
+{hr2}
+{quoteall|gilbert_given_TBG|712260|1705837013|
+Since I thirst for bl- I mean HP, attack 2 players near me. (near me as in near my Treehouse, because that's how time works)
+
+Then use the Esolang once.
+}
+I'm going to be honest with you, I have no idea where your treehouse is compared to other players or structures. Thus, the range of attackable players is everyone.
+Target rolls: 2d6 = 6, 5
+You attack Landon... but your attack gets Blocked! (Landon gains 1 Combat EXP.)
+You attack Luigi.
+Attack roll: 1d11+5 = 8+5 = 13
+Defense roll: 1d5 = 3
+Luigi takes 13-3={b|10} damage. (You gain 3 Combat EXP.)
+You use the Esolang.
+Skill roll: 1d61+14 = 37+14 = 51
+{esocode|global/fs3/quests/turn/{1}.completer <- global/ref<global/fs3/players/{10}>}
+You've completed a quest! (Open a Lucky Block.) You've obtained a Lucky Block, plus a total of 7 Misc EXP.
+...huh. I guess that works.
+{hr2}
+{quoteall|Orb Fish|712264|1705837607|
+POST #1
+
+Block Gilbert's attack. I'm near him.
+Pick up the Grapes and Tomatoes on the ground.
+Eat them, along with my unripe Carrot (16 -> 31)
+}
+You successfully block Gilbert's attack.
+There are no Grapes or Tomatoes to pick up, because Incendiary already did that.
+You eat a single Carrot, and gain 5 HP.
+{hr2}
+{quoteall|Faressain|712265|1705838698|
+Post #2
+
+- Craft Diamond Band, Chain Helmet and Emerald Boots
+- Equip Golden Flesh, Diamond Band, Chain Helmet and Emerald Boots
+- Throw Ench. Experience Bottle at self.
+
+(That being said, replace throwing EXP bottle with hanging a stock if the action is not free. If not possible, the last action must be hanging a stock no matter what.)
+}
+You craft 2 Diamonds into a Diamond Band, 2 Iron Bars into a Chain Helmet, and 2 Emeralds into a pair of Emerald Boots. (Your Crafting skill has gone up by 73%.)
+You equip the stuff you just crafted, plus your Golden Flesh.
+You throw the Bottle o' Enchanting at yourself.
+Skill rolls: 4d17 = 1, 13, 11, 14
+(Your Farming skill went up by 50%.) (Your Fishing skill went up by 50%.) (Your Alchemy skill went up by 50%.) (Your Dancing skill went up by 50%.)
+(By the way, hanging your stocking is indeed a free action, as mentioned in the footnotes of Turn 77.)
+{hr2}
+{quoteall|Incendiary|712280|1705842731|
+Post 2
+
+Block the attack incoming if it does come towards me, and finish work on the bunker. 
+}
+Gilbert does not attack you, so you don't block anything.
+Paralysis roll: 1d4 = 4
+You finish your Bunker Workshop. (Your Construction skill has gone up by 100%. {i|You've reached {b|Proficient} in Construction!} You've gained 2 Indirect Defense.)
+{hr2}
+{quoteall|realicraft|712298|1705869408|
+okay wow there are a lot more of you than i expected
+
+post 1
+
+- (free action*) yell out "it's over 9000!!!!" at nothing in particular to point out this this is my 9001st post
+- hang up my stocking
+- eat my pumpkin-shaped chocolate
+- go digging for some dirt
+
+
+* yes, {url|https://tvtropes.org/pmwiki/pmwiki.php/Main/TalkingIsAFreeAction|talking is a free action}
+}
+You yell at nothing in particular, to show off a very outdated post count.**
+You hang up your stocking.
+You eat your Pumpkin-Shaped Chocolate. Looks like it's filled with...
+Effect roll: 1d20 = {red|2}
+{bi|shards of glass!?}
+Damage roll: 1d11+24 = 9+24 = 33
+You take 33 damage, and are inflicted with Bleeding for 2 turns.
+You go Digging.
+Skill roll: 1d20 = {red|3}
+You obtain one (1) Dirt Block. (Your Digging skill has gone up by 20%.)
+{hr2}
+{quoteall|realicraft|712300|1705874109|
+post 2
+
+- attempt to steal a lucky block from landon
+- if that succeeds, use the lucky block, otherwise attack landon
+- grab and use a scroll from the treasure chest
+}
+You attempt to steal a Lucky Block from Landon.
+Theft roll: 1d20 = {red|4}
+Landon catches you in the act, but decides to just let you steal it.
+You use the Lucky Block.
+Lucky Block roll: 1d200 = {crhit|177} (Group 2)
+A Redstone Block replaces the Lucky Block! And then 2 blocks of TNT fall onto it and ignite!
+...wait, that's not lucky!
+Damage rolls: 2d18+5 = 15, 13 = 20, 18
+Defense rolls: 2d8-1 = 7, 7 = 6, 6
+You take 20+18-6-6={b|26} damage.
+(The Redstone Block is lost in the explosions. You do, however, gain 9 Cobblestone.†)
+You pull a Scroll out of the Treasure Chest.
+Item roll: 1d35 = 32
+You obtain a Scroll of (22) (4), which you then use.
+Target roll: 1d6 = 5 (Luigi)
+Nothing happens. I guess Luigi was missing whatever this scroll affects.
+This also means you don't get to learn what the runes are.
+You put the scroll in your inventory.
+You've completed a quest! ({i|Use a Scroll.}) You've obtained two random scrolls, plus 4 Misc EXP.
+...but you don't have room for the scroll, so they get queued.†*
+{hr2}
+{quoteall|Byron_Inc_TBG|712623|1706012313|
+Post #1
+
+Harvest my golden carrots.
+Give another golden carrot to the dragon.
+Fix the tank while I'm there.
+
+
+... actually, I'm only making one post this turn. 
+}
+You harvest your Golden Carrots.
+Skill roll: 1d20+13 = 6+13 = 19
+You harvest 6 Golden Carrots. (Your Farming skill has gone up by 75%.)
+You give one of your Golden Carrots to the dragon again. He seems to be confused as to why you're giving him inedible carrots.
+You work on your Tank, while the dragon watches.
+Skill roll: 1d18+10 = 8+10 = 18†**
+You manage to restore 18 HP. (Your Construction skill has gone up by 70%.)
+{hr2}
+{quoteall|Orb Fish|712647|1706045777|
+POST #2
+
+If possible, guarantee that realicraft successfully steals a Lucky Block from me. Otherwise, block realicraft from attacking.
+Nothing else, it's 4:36 AND I WASN"T LOOKING AT THE CLOCK-
+
+}
+You allow Reali to steal a Lucky Block - or, in terms you aren't yet familiar with, you Unblock the theft.
+Unblocking is like Blocking, only instead of preventing someone from doing something to you, you allow it instead. It also has infinite range, and can even be done {i|before} someone does something to you!
+{hr2}
+{quoteall|Luigis_Pizza|713840|1706573334|
+I continue to build my house
+}
+You use 30 Oak Planks to finish building your Basic House. (Your Construction skill has gone up by 30+30={b|60}%)
+{hr2}
+The dragon decides to investigate the Tank, and eventually ends up inside it. I'm sure this will have no positive consequences whatsoever.
+
+NPC action roll: 1d26 = 3 (Do nothing * 2, every skill in order, help Byron * 2, fight someone * 5)
+Skelton helps out with Farming.
+Target roll: 1d5 = 3 (Potatoes)
+Count roll: 1d4+4 = 4+4 = 8
+Byron's Potatoes get 0.8 turns of growth.
+
+Plants grow.
+Byron's Potatoes are harvestable.
+Sparky's crops have all started rotting.
+Reali's Carrots are harvestable.
+Landon's Carrots have started rotting.
+Incendiary's Apple Tree is ripe.
+
+Mob action rolls: 10d6 = 4, 2, 5, 5, 5, 4, 4, 2, 3, 2
+None of the mobs really do anything. {comment|watch this never happen again}
+
+{b|Four} people hung up their stockings - Incendiary, Gilbert, Fares, and Reali.
+They all get the following:
+2x Effect Candy
+2x Skill Candy
+2x Item Candy
+1x Time Candy
+1x Mystery Gift
+1x Santa Hat
+1x Reimu Hakurei Fumo (from Incendiary)
+All in the Filled Stocking. Merry Three-Months-After-Christmas!
+(By the way, if you already have a Filled Stocking, the contents of new ones will be added to old ones.)
+
+Oh, yeah, and every active player gets a (semi-)personalized gift!††
+Reali gets nothing again because cheating is still bad
+Incendiary gets 10 Flame Arrows, because fire. And also 3 blocks of TNT to light with the arrows.
+Byron gets a Chest to store all those crops in.
+Fares gets 10 Coal again. I'm sure it will be just as useful this time, as long as you don't drop it again.
+Gilbert gets 5 Disposable Phones to make esolangs on. Did you know you can play Snake on them?
+Luigi gets a Mama June's Pepperoni Pizza and a Mama June's Cheese Pizza, because pizza. And also because there aren't any ghost-related items.
+Landon gets 5 Copper Ore because I couldn't really think of anything fitting so I just went with the closest equivalent to a Copper Fish.
+...but Incendiary can't fit those gifts into her inventory, so they get queued.
+
+Oh, and everyone gets a permanent 2+1 Attack. Merry Ides of March! ...wait, no, I meant Christmas.††*
+
+And also a Heart-Shaped Chocolate, because Valentine's Day was two months ago.
+...but Reali and Incendiary can't fit those into their inventories, so they get queued.
+
+Weather roll: 1d20 = {green|19}
+The clouds disappear.
+
+Byron's bank account gains 16.713{dec}.
+Gilbert's bank account gains 20.555{dec}.
+
+Reali takes 5 damage from Bleeding.
+Landon gains 3 HP from his Raised Apple Sticker.
+
+{hr2}
+The boat finally arrives at the beach, and the kid††** steps out, looking around. He seems to be... looking for something?
+{hr2}
+Hey, remember how Easter was about a month ago? Well, that means it's not too late to have Easter here! ...you know, since holidays routinely happen weeks late?
+Anyway, it works like it did in 2022, only with some changes:
+{list|{*|You can only collect a maximum of {b|five eggs}.}
+{*|Egg codes {b|must be in spoiler tags}, to keep other players from trying to steal your codes, and also so that you don't know which eggs have already been claimed.}
+{*|(You are encouraged to put as many egg codes as you find into your posts, in case some have already been claimed.)}
+{*|Eggs are only located on pages related to FS3 - so there won't be any on the FS2 index page, for instance.}
+{*|Eggs are {b|not guaranteed} to appear every time you load a page.}
+{*|And don't forget about edited posts being disqualified.}}
+{hr2}
+The vote about Structures providing Defense has finished.
+It got 2 Yeses and 2 Nos, resulting in a percentage of 50%. As the vote required a majority, or for over half of the votes to be Yes, it has failed to pass.
+Since, you know, {i|exactly} half is not {i|over} half.
+{hr2}
+{links}
+{links2}
+{changelog|8|7}
+
+
+
+* At some point, I'm going to implement a Sticker Bag, which is an item that can hold stickers, which should help reduce the inventory space that stickers take up.
+** As of writing this, it's currently at around 9.6k, and it'll probably be larger by the time this comes out.‡
+† 2d6 = 6, 3
+†* When quest rewards are queued, they will wait to enter your inventory until you have a free slot.
+†** I'm going to remind you about the "using multiple skills in a single post makes them less effective" thing again, in case you forgot.
+†† It's semi-personalized because I'm not introducing any new items.
+††* Look, this made sense when I wrote it, okay?
+††** Yes, this mysterious person is a kid. If you had to guess, he's probably around 12 or 13?
+‡ As of writing {i|this}, it's now at a little under 13k, which says a lot about both how quickly I've been making posts lately, and how long this turn took. Also I think this is the first turn with nine or more footnotes?

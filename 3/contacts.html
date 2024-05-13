@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/popup.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/contacts.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Contact List | FS3</title>
@@ -19,7 +20,7 @@
         </style>
     </head>
     <body>
-        <img src="CurrentLogo/logo.png">
+        <img src="CurrentLogo/logo.png" id="logo">
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
@@ -233,11 +234,14 @@
                 </tr>
             </tbody>
         </table>
+        <span class="easter_egg" data-egg="25"></span>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
+        <script src="popup.js"></script>
         <script src="../js_lists/headerLinks.js"></script>
         <script src="../js_lists/settingsList.js"></script>
         <script src="../js_lists/splashList.js"></script>
+        <script src="../js_lists/eggList.js"></script>
         <script src="../common_allpages.js"></script>
         <script src="allpages.js"></script>
         <script src="../js_lists/equipList.js"></script>

@@ -9,7 +9,8 @@ var name_class_list = [
     "fs2_ex", //7
     "moss", //8
 ]
-var get_pretty_price = function(price) { // function to convert a sell price in decicents form to a form displaying all units
+// function to convert a sell price in decicents form to a form displaying all units
+var get_pretty_price = function(price) {
     var price2 = price
     dollars = 0
     cents = 0
@@ -27,7 +28,8 @@ var get_pretty_price = function(price) { // function to convert a sell price in 
     else if (cents >= 1) {return "C" + cents.toString() + " " + decicents.toString() + "¢"}
     else {return decicents.toString() + "¢"}
 }
-var func_or_str = function(data, inputs) { // takes a variable containing unknown data; if it is a function, it calls the function with the given inputs, otherwise, it passes the value through
+// takes a variable containing unknown data; if it is a function, it calls the function with the given inputs, otherwise, it passes the value through
+var func_or_str = function(data, inputs) {
     if (typeof data == "function") {
         return data(...inputs);
     } else {return data};
@@ -75,12 +77,13 @@ var tt = function(id=0, dv=0, stack=1, nbt={}, anbt="", dnbt="", cname="") { // 
     var initial_cat = true;
     var dvs_of_id = equiplist[id].length;
     mdv = dv%dvs_of_id;
-    if (equiplist[id][mdv][5].length == 0) {} // create category list
+    var cats = func_or_str(equiplist[id][mdv][5], [id, dv, stack, nbt])
+    if (cats.length == 0) {} // create category list
     else {
-        for (var i in equiplist[id][mdv][5]) {
+        for (var i in cats) {
             if (initial_cat) {initial_cat = false}
             else {assembled_cats += ", "}
-            assembled_cats += getTranslatedString(categorylist[equiplist[id][mdv][5][i]])
+            assembled_cats += getTranslatedString(categorylist[cats[i]])
         }
     }
 

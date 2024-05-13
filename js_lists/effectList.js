@@ -8,7 +8,7 @@ var effectlist = [ //[name lang_id, css class for icon, description, source, bon
     ["effect.poisoned.name", "poisoned", "effect.poisoned.desc", "Poison", "-6 to 3 HP each turn, depending on remaining duration", [34, 35], 1], //6
     ["effect.soaked.name", "soaked", "effect.soaked.desc", "Rain", "You keep tracking water everywhere", [34, 35, 50], 1], //7
     ["effect.bleeding.name", "bleeding", "effect.bleeding.desc", "Taking damage", "-5 HP per turn<br />-1 Direct Attack", [34, 35], 1], //8
-    ["effect.nausea.name", "poisoned", "effect.poisoned.desc", "Eating 5+ food at once", "25% chance of missing an attack<br />-1 to all skills", [34, 35], 1], //9
+    ["effect.nausea.name", "poisoned", "effect.nausea.desc", "Eating 5+ food at once", "25% chance of missing an attack<br />-1 to all skills", [34, 35], 1], //9
     ["effect.regen.name", "regen", "effect.regen.desc", "Potions", "+3 HP/turn", [34, 36], 1], //10
     ["effect.regen+.name", "regen", "effect.regen+.desc", "Potions", "+6 HP/turn", [34, 36], 1], //11
     ["effect.regen++.name", "regen", "effect.regen++.desc", "Potions", "+9 HP/turn", [34, 36], 2], //12

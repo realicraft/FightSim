@@ -267,6 +267,20 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_icons);
     background-position: -384px -192px;
 }
+/* level backgrounds */
+/* these are slightly misaligned for some reason */
+.proficient {
+    background-image: var(--icn_prof_bg);
+    background-position: -34.5px -0.5px;
+}
+.mastered {
+    background-image: var(--icn_prof_bg);
+    background-position: 0.5px -34.5px;
+}
+.grandmastered {
+    background-image: var(--icn_prof_bg);
+    background-position: -34.5px -34.5px;
+}
 /* misc */
 .missing, .iconless, .missingno {
     background-image: var(--icn_icons);
@@ -1548,6 +1562,10 @@ span.mini_cont span.mini_icon {
 .dollar_bill {
     background-image: var(--icn_misc);
     background-position: -64px -160px;
+}
+.five_dollar_bill {
+    background-image: var(--icn_misc);
+    background-position: -32px -192px;
 }
 .oak_plate {
     background-image: var(--icn_wood);
@@ -3141,6 +3159,10 @@ span.mini_cont span.mini_icon {
     background-image: var(--icn_color);
     background-position: -160px -64px;
 }
+.reimu_hakurei_fumo {
+    background-image: var(--icn_fumo);
+    background-position: -0px -0px;
+}
 /* critter descriptions */
 span.cr_hp_0, span.cr_hp_1, span.cr_hp_2, span.cr_hp_3, 
 span.cr_hp_4, span.cr_hp_5, span.cr_hp_6, span.cr_hp_7, 
@@ -3981,6 +4003,34 @@ span.cr_colouric {
     background-image: var(--icn_egg);
     background-position: -192px -64px;
 }
+.egg_gradient {
+    background-image: var(--icn_egg);
+    background-position: -224px -64px;
+}
+.egg_mono_gradient {
+    background-image: var(--icn_egg);
+    background-position: -0px -96px;
+}
+.egg_stick {
+    background-image: var(--icn_egg);
+    background-position: -32px -96px;
+}
+.egg_sticker {
+    background-image: var(--icn_egg);
+    background-position: -64px -96px;
+}
+.egg_raised_sticker {
+    background-image: var(--icn_egg);
+    background-position: -96px -96px;
+}
+.egg_small {
+    background-image: var(--icn_egg);
+    background-position: -128px -96px;
+}
+.egg_code {
+    background-image: var(--icn_egg);
+    background-position: -160px -96px;
+}
 /* file icons */
 .folder {
     background-image: var(--icn_file);
@@ -4140,7 +4190,7 @@ span.cr_colouric {
     background-image: var(--icn_info);
     background-position: -224px 0px;
 }
-.moon {
+.moon, .moony {
     background-image: var(--icn_info);
     background-position: -240px 0px;
 }

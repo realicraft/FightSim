@@ -1,0 +1,131 @@
+:root {
+    --top_image: url("../3/CurrentLogo/logo.png");
+    --fs_top_image: url("fs_logo.png");
+    --snap_top_image: url("../Snap!/logos/logo.png");
+    --background: #FFFF00;
+    --text: #000000;
+
+    --header_bg: #ff7f00;
+    --header_border: #000000;
+    --header_hover: #ffffff;
+
+    --timebox_bg: #8f8f8f;
+    --timebox_border: #afafaf;
+
+    --struct_bg: transparent;
+    --struct_bg2: #ff7f00;
+    --struct_border: #0000FF;
+    --struct_header_color: #ffffff;
+    --struct_col1: #ff0000;
+    --struct_col2: #00ff00;
+
+    --table_bg: #ffffff;
+    --table_border: #000000;
+    --table_dbg: #bfbfbf;
+
+    --inv_table_bg: #ffffff;
+    --inv_table_border: #000000;
+    --inv_table_dbg: #000000;
+
+    --summon_bg: #ff7f00;
+    --summon_border: var(--struct_border);
+
+    --stack_color: #ffffff;
+    --stack_border: #000000;
+
+    --sstack_color: #000000;
+    --sstack_border: #ffffff;
+    --sstack_color_inv: var(--sstack_border);
+    --sstack_border_inv: var(--sstack_color);
+    --sstack_color_low: #3f0000;
+    --sstack_border_low: #ffdfdf;
+    --sstack_color_out: #6f0f0f;
+    --sstack_border_out: #ffbfbf;
+
+    --popup_border: #0000FF;
+    --popup_title_color: #ffffff;
+    --popup_bg: #7f7f7f;
+    --popup_close_bg: #1f1f1f;
+    --popup_close_color: var(--popup_title_color);
+    --popup_close_bg_hover: #df0000;
+    --popup_close_color_hover: #000000;
+
+    --health_over: #003f00;
+    --health_low: #3f0000;
+
+    --level_outer: #ffffff;
+    --level_bg: #000000;
+    --level_inner: #ffffff;
+
+    --tooltip_bg: #000000;
+    --tooltip_border: #000000;
+    --tooltip_text: #ffffff;
+    --tooltip_dark: #8f8f8f;
+    --tooltip_bonus: #7f7fff;
+
+    --rarity_null: #00ffff;
+    --rarity_common: #0fefef;
+    --rarity_uncommon: #0f8fef;
+    --rarity_rare: #0fef7f;
+    --rarity_unique: #ef7f0f;
+    --rarity_moss: #3f9f2f;
+    --rarity_unob: #7f7f7f;
+
+    --idesc_dragon: #ffffbf;
+    --idesc_moss: var(--rarity_moss);
+
+    --rarity_pbad_fallback: rgb(255,127,0);
+    --rarity_pbad: linear-gradient(180deg, rgba(255,255,0,1) 10%, rgba(255,127,0,1) 60%, rgba(255,0,0,1) 90%);
+    --rarity_pgood_fallback: rgb(255,255,127);
+    --rarity_pgood: linear-gradient(180deg, rgba(255,255,0,1) 10%, rgba(255,255,127,1) 50%, rgba(255,255,255,1) 80%);
+
+    --info_bg: #ffffff;
+    --info_border: #000000;
+    --info_hover: #0000ff;
+    --info_name: #000000;
+    --info_text: #000000;
+
+    --settings_desc_color: #000000;
+
+    --toggle_bg: #ffffff;
+    --toggle_border: #000000;
+    --toggle_checked_bg: #00ff00;
+    --toggle_checked_border: #000000;
+    --toggle_unchecked_bg: #ff0000;
+    --toggle_unchecked_border: #000000;
+    --toggle_highlight: #000000;
+
+    --ele_normal: #dfdfdf;
+    --ele_fire: #df0f0f;
+    --ele_water: #2f2fef;
+    --ele_elec: #dfdf0f;
+    --ele_plant: #0fdf0f;
+    --ele_ice: #0fdfdf;
+    --ele_light: #dfdfaf;
+    --ele_dark: #3f4f6f;
+
+    --ele_normal2: #dfdfdf;
+    --ele_fire2: #df0f0f;
+    --ele_water2: #2f2fef;
+    --ele_elec2: #dfdf0f;
+    --ele_plant2: #0fdf0f;
+    --ele_ice2: #0fdfdf;
+    --ele_light2: #dfdfaf;
+    --ele_dark2: #3f4f6f;
+
+    --phone_number: #0f5f0f;
+
+    --cont_border: #000000;
+    --cont_color: #000000;
+    --cont_bg1: #00ef00;
+    --cont_bg2: #1fff1f;
+
+    --vote_passed: #007f00;
+    --vote_failed: #7f0000;
+
+    --splash_text: #000000;
+}
+/* from ../mini/comic_sans.css */
+* {
+    font-family: "Comic Sans MS", "Chalkboard", cursive !important;
+}

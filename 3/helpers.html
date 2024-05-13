@@ -6,11 +6,12 @@
         <link rel="stylesheet" type="text/css" href="../CSS/icons.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/tooltip.css"></link>
         <link rel="stylesheet" type="text/css" href="../CSS/table.css"></link>
+        <link rel="stylesheet" type="text/css" href="../CSS/popup.css"></link>
         <link rel="shortcut icon" href="../favicon.ico">
         <title>Helper Tools | FS3</title>
     </head>
     <body>
-        <img src="CurrentLogo/logo.png">
+        <img src="CurrentLogo/logo.png" id="logo">
         <br />
         <div id="header_container"></div>
         <div id="time_box"></div>
@@ -42,6 +43,7 @@
         </select>
         <button id="chop_button" onclick="run_chop();">Get Result</button>
         <br /><div class="output" id="chop_output">&nbsp;</div>
+        <span class="easter_egg" data-egg="26"></span>
         <h2>TBGSBB+ compiler</h2>
         <label for="conv_type">Target Language</label>
         <select id="conv_type">
@@ -57,6 +59,7 @@
         <input placeholder="Count" type="number" min="1" max="100" step="1" id="gfood_count" style="width:70px;">
         <button id="gfood_button" onclick="run_gfood();">Calculate</button>
         <br /><div class="output" id="gfood_output">&nbsp;</div>
+        <span class="easter_egg" data-egg="7"></span>
         <h2>Emergency Random Number Generator</h2>
         <p>To be used only in event of lack of internet.</p>
         <input placeholder="Min" type="number" min="0" max="999999" step="1" id="rand_min" style="width:70px;">
@@ -70,9 +73,11 @@
         <br /><textarea rows="15" cols="80" id="recipe_out" disabled></textarea>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
+        <script src="popup.js"></script>
         <script src="../js_lists/headerLinks.js"></script>
         <script src="../js_lists/settingsList.js"></script>
         <script src="../js_lists/splashList.js"></script>
+        <script src="../js_lists/eggList.js"></script>
         <script src="../common_allpages.js"></script>
         <script src="allpages.js"></script>
         <script src="../js_lists/equipList.js"></script>
@@ -80,7 +85,6 @@
         <script src="../js_lists/categoryList.js"></script>
         <script src="../js_lists/skillRewards.js"></script>
         <script src="../js_lists/replaceList.js"></script>
-        <script src="../js_lists/eggList.js"></script>
         <script src="tooltip.js"></script>
         <script src="info.js"></script>
         <script src="helper.js"></script>

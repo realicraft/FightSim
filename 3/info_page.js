@@ -20,7 +20,7 @@ var fishTable = function() {
                 currentfishRow += '<td>'
                 if (fishRewardList[i][j][k][0] == 385) {currentfishRow += '<span class="info-hover" data-info-title="Used Disposable Phone Count" data-info-desc="The chance of catching a phone goes up the more phones are used (and down the more are caught.) The formula for this is floor(sqrt(phones_used)).<br /><br />The current value is as follows:<br />floor(sqrt(<b>11</b>))<br />floor(<b>3.317</b>)<br /><b>3</b>" id="info-used-phone" onmouseover="info(\'info-used-phone\');" onmouseout="noinfo();">Used Disp. Phone</span><br />'}
                 else {currentfishRow += equiplist[fishRewardList[i][j][k][0]][fishRewardList[i][j][k][1]][0]};
-                currentfishRow += ' (' + fishRewardList[i][j][k][0] + ')<br />' + fishRewardList[i][j][k][2] + '/' + fishRewardList[i][j][k][3] + ' (' + (fishRewardList[i][j][k][2]/fishRewardList[i][j][k][3]).toFixed(1) + ')%';
+                currentfishRow += ' (' + fishRewardList[i][j][k][0] + ')<br />' + fishRewardList[i][j][k][2] + '/' + fishRewardList[i][j][k][3] + ' (' + ((fishRewardList[i][j][k][2]/fishRewardList[i][j][k][3])*100).toFixed(1) + '%)';
                 currentfishRow += '</td>';
                 l++;
             };

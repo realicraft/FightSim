@@ -279,21 +279,24 @@ var makeItem = function(id, dv, stack, nbt, donoequip) {
 }
 
 // functions for easter eggs
-var egg_els = document.getElementsByClassName("easter_egg")
+var egg_els = document.getElementsByClassName("easter_egg");
+var egg_popups = [];
 for (var i of egg_els) {
-    egg_id = i.dataset.egg
-    i.innerHTML = '<span class="icon ' + egglist[egg_id][1] + '" onClick="egg(' + egg_id + ')"></span>'
+    if (Math.random() < 0.4) { // only spawn an egg 40% of the time
+        egg_id = i.dataset.egg;
+        i.innerHTML = '<span class="icon ' + egglist["2024"][egg_id][1] + '" onClick="egg(' + egg_id + ')"></span>';
+        egg_popups[egg_id] = new Popup("egg_popup_" + egg_id, 400, 300, "You found an egg!", "<div style=\"width:100%;text-align:left;padding-left:2px;\"><span class=\"icon " + egglist["2024"][egg_id][1] + "\"></span><br/>[" + egglist["2024"][egg_id][0] + "]<br/>" + egglist["2024"][egg_id][3] + "<br/><br/>Code: " + egglist["2024"][egg_id][2] + "<br/><br/>Reward: " + egglist["2024"][egg_id][4] + "</div>");
+    }
 }
 
 var egg = function(id) {
-    alert(
-        "You found an egg!\n[" + egglist[id][0] + "]\n" + egglist[id][3] + "\nCode: " + egglist[id][2] + "\nReward: " + egglist[id][4]
-    )
+    egg_popups[id].spawn();
 }
 
 // settings
 if (getCookie("set_min_ico") == "true") {document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/mini/mini_icons.css"></link>'}
 if (getCookie("set_sans") == "true") {document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/mini/comic_sans.css"></link>'}
+if (getCookie("set_skew") == "true") {document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/mini/skew_page.css"></link>'}
 if (is_root) {splashFunc();}
 else if (getCookie("set_splashes") == "true") {
     var brAfterLogoEl = document.querySelector(`img + br`);
