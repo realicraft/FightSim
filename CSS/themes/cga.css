@@ -1,5 +1,6 @@
 :root {
     --top_image: url("../3/logos/fs3_logo_cga.png");
+    --top_image_june: url("../3/logos/fs3_logo_ace_cga.png");
     --fs_top_image: url("fs_logo.png");
     --snap_top_image: url("../Snap!/logos/cga.png");
     --background: #ffffff;
@@ -124,4 +125,7 @@
     --vote_failed: #ff55ff;
     
     --splash_text: #ff55ff;
+
+    --arch_red: #ff55ff;
+    --arch_green: #55ffff;
 }

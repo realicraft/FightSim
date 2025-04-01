@@ -30,6 +30,9 @@
                 margin: 2px;
                 padding: 2px;
             }
+            pre {
+                background-color: #0000007f;
+            }
             hr {
                 border-color: var(--struct_border);
             }
@@ -53,6 +56,15 @@
                 margin-top: 4px;
                 margin-bottom: 4px;
             }
+            #contents {
+                background-color: var(--table_dbg);
+            }
+            .text_green {
+                color: var(--arch_green);
+            }
+            .text_red {
+                color: var(--arch_red);
+            }
         </style>
     </head>
     <body>
@@ -62,7 +74,6 @@
         <div id="time_box"></div>
         <h1>Archive</h1>
         <div id="archive_body">placeholder text<br/>(If you can see this, you have JavaScript disabled, or your browser is like five years old)</div>
-        <span class="easter_egg" data-egg="13"></span>
         <div class="tooltip_body"></div>
         <div class="info_body"></div>
         <script src="popup.js"></script>

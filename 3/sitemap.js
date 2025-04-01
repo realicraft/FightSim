@@ -15,7 +15,7 @@ var parseFile = function(file, path) {
         outFile += file.name + "<br />"
         outFile += parseFileList(file.contents, (path+"/"+file.name));
     } else {
-        outFile += "<a href=\".." + path + "/" + file.name + "\">" + file.name + "</a>";
+        outFile += ("<a href=\".." + path + "/" + file.name + "\">" + file.name + "</a>");
     }
     outFile += "</li>";
     return outFile;

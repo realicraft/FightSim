@@ -7,25 +7,25 @@ var questbox_quadturnpast = document.getElementById("quest_quadturnpast")
 var questbox_fullpast = document.getElementById("quest_fullpast")
 
 var quests = [ // [[quest lang_id, number], [claimed], reward, turn]
-    [["go_fish", 1], [], "6 Goldfish, 100% Fishing", "87"],
-    [["damage_total", 15], [], "Diamond Sword, 2 Misc EXP", "87"],
-    [["use_disp_phone", 1], [], "6 Misc EXP", "87"],
-    [["damage_total", 30], ["Gilbert"], "1 Diamond Sword", "84~87"], // gilbert 38
-    [["make_new_item", 1], ["Faressain"], "2 Sleep Shrooms, 1 Metal Triangle", "84~87"],
-    [["use_scroll", 1], [], "2 Random Scrolls", "84~87"],
+    [["chop_tree", 1], [], "80% Chopping, 4 Sticks", "88"],
+    [["make_weapon", 1], [], "4 Misc EXP", "88"],
+    [["use_candy", 1], [], "10 HP", "88"],
+    [["kill_mob", 1], [], "10 Misc EXP", "88~91"],
+    [["attack_struct", 2], [], "30 Stone", "88~91"],
+    [["mine_geode", 4], [], "4 Diamonds, 5 Misc EXP", "88~91"],
     [["talk_to_morshu", 1], [], "2 Bombs, 7 Misc EXP"],
-    [["equip_gold_food", 1], [], "3 Gold Bars, 150% Farming"], // fares 1 (!)
-    [["level_up_skill", 8], [], "40 Misc EXP, 0.5 Direct Attack"], // incendiary 1, landon 2, reali 4, byron 1, fares 3, luigi 2
+    [["get_burger", 1], [], "10 HP, 10 Misc EXP, Fries"],
+    [["level_up_skill", 8], [], "40 Misc EXP, 0.5 Direct Attack"], // incendiary 2, landon 2, reali 4, byron 1, fares 4, luigi 2
 ]
 
-var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div height]
+var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal]
     ["crops",
         [
             ["reali", "2 Crops", "2 Misc EXP", "1/2"],
             ["S.&nbsp;McSaus", "1 Crop", "1 Misc EXP", "0/1"],
             ["Cats.", "1 Crop", "1 Misc EXP", "0/1"],
             ["Squirrelflight", "1 Crop", "1 Misc EXP", "0/1"],
-            ["Incendiary", "1 Crop", "1 Misc EXP", "1/1"],
+            ["Incendiary", "2 Crop", "2 Misc EXP", "0/2"],
             ["Byron", "8 Crops", "8 Misc EXP", "5/8"],
             ["sparky", "7 Crops", "7 Misc EXP", "1/6"],
             ["solitare", "2 Crops", "2 Misc EXP", "0/2"],
@@ -34,14 +34,12 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["gilbert", "1 Crop", "1 Misc EXP", "0/1"],
             ["Twilight", "3 Crops", "3 Misc EXP", "0/3"],
             ["Luigi", "1 Crop", "1 Misc EXP", "0/1"],
-            /*["Kitty", "1 Crop", "1 Misc EXP", "0/1"],*/
-            /*["Savvy", "1 Crop", "1 Misc EXP", "0/1"],*/
             ["Bobby", "1 Crop", "1 Misc EXP", "0/1"],
             ["Tony", "1 Crop", "1 Misc EXP", "0/1"],
             ["Landon", "1 Crop", "1 Misc EXP", "0/1"],
-        ], "75 Harvests (55/75)"
+        ], "75 Harvests (56/75)"
     ],
-    ["wiki",
+    /*["wiki",
         [
             ["reali", "Ineligible", "N/A", "N/A"],
             ["S.&nbsp;McSause", "10 Edits", "1 Skill Candy", "0/10"],
@@ -56,39 +54,38 @@ var repquests = [ // [lang id, [[username, req, rewards, comp], ...], goal, div 
             ["gilbert", "10 Edits", "1 Skill Candy", "0/10"],
             ["Twilight", "10 Edits", "1 Skill Candy", "0/10"],
             ["Luigi", "10 Edits", "1 Skill Candy", "0/10"],
-            /*["Kitty", "10 Edits", "1 Skill Candy", "0/10"],*/
-            /*["Savvy", "10 Edits", "1 Skill Candy", "0/10"],*/
             ["Bobby", "10 Edits", "1 Skill Candy", "0/10"],
             ["Tony", "10 Edits", "1 Skill Candy", "5/10"],
             ["Landon", "10 Edits", "1 Skill Candy", "0/10"],
         ], "500 Edits (13/500)"
-    ],
+    ],*/
     ["use",
         [
-            ["reali", "1 Use/Equip", "1 Lucky Block", "1/1"],
+            ["reali", "2 Use/Equip", "2 Lucky Blocks", "1/2"],
             ["S.&nbsp;McSause", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Cats.", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Squirrelflight", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["Incendiary", "1 Use/Equip", "1 Lucky Block", "5/1"],
+            ["Incendiary", "3 Use/Equips", "3 Lucky Blocks", "2/3"],
             ["Byron", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["sparky", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["solitare", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Fares", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Leopardy", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["gilbert", "1 Use/Equip", "1 Lucky Block", "1/1"],
+            ["gilbert", "2 Use/Equips", "2 Lucky Blocks", "1/2"],
             ["Twilight", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["Luigi", "1 Use/Equip", "1 Lucky Block", "1/1"],
-            /*["Kitty", "1 Use/Equip", "1 Lucky Block", "0/1"],*/
-            /*["Savvy", "1 Use/Equip", "1 Lucky Block", "0/1"],*/
+            ["Luigi", "3 Use/Equips", "3 Lucky Blocks", "1/3"],
             ["Bobby", "1 Use/Equip", "1 Lucky Block", "0/1"],
             ["Tony", "1 Use/Equip", "1 Lucky Block", "0/1"],
-            ["Landon", "3 Use/Equips", "3 Lucky Blocks", "7/3"],
-        ], "75 Uses or Equips (7/75)"
+            ["Landon", "5 Use/Equips", "5 Lucky Blocks", "0/5"],
+        ], "75 Uses or Equips (22/75)"
     ],
 ]
 
 var pastquests = [ // same as quests inside, outside is turn, quadturn, full
     [
+        ["Go Fishing.", [], "6 Goldfish, 100% Fishing", "87"],
+        ["Deal 15 damage total.", ["Faressain"], "Diamond Sword, 2 Misc EXP", "87"],
+        ["Use a Disposable Phone.", [], "6 Misc EXP", "87"],
         ["Obtain a Sticker.", [], "10 Paper, 4 Misc EXP", "86"],
         ["Open a Lucky Block.", ["Gilbert"], "1 Lucky Block, 5 Misc EXP", "86"],
         ["Go Digging.", ["Faressain"], "10 Dirt, 150% Digging", "86"],
@@ -226,6 +223,9 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Damage someone.", [], "1 Misc EXP", "42"],
     ],
     [
+        ["Deal 30 damage total.", ["Gilbert"], "1 Diamond Sword", "84~87"],
+        ["Cause a new item to be added to the data.", ["Faressain"], "2 Sleep Shrooms, 1 Metal Triangle", "84~87"],
+        ["Use a Scroll.", ["Reali"], "2 Random Scrolls", "84~87"],
         ["Deal type-aligned damage.", ["Sparky"], "10 HP", "80~83"],
         ["Use 5 Skills.", ["Incendiary"], "3 Bottles o' Enchanting", "80~83"],
         ["Interact with an enemy.", ["Reali"], "5 Misc EXP", "80~83"],
@@ -258,6 +258,7 @@ var pastquests = [ // same as quests inside, outside is turn, quadturn, full
         ["Mine 3 Iron Ore.", [], "30% Mining Exp", "40~43"],
     ],
     [
+        ["Equip a Golden Food.", ["Faressain"], "3 Gold Bars, 150% Farming"],
         ["Equip a Sticker.", ["Gilbert"], "Orb Sticker"],
         ["Recruit an ally or summon.", ["Byron"], "1 Max HP Upgrade"],
         ["Attack a Structure.", ["Theta"], "1 Indirect Attack"],

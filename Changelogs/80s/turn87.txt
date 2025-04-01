@@ -6,18 +6,12 @@ Easter Event
 - added elements for relevant data to almost every html file
 - added icons for five new easter eggs
 
-Mobs
-- 
-
 Items
 - the ltt hoodie is now Unique instead of Uncommon
 - added the Reimu Hakurei Fumo, courtesy of incendiary
 - hanging a stocking is now a free action
 - water bottles only heal 2 hp
 - added an icon for the five dollar bill
-
-Future Items
-- 
 
 Item Revamp
 - equipList2: ported over the changes to the ltt hoodie, christmas stocking, and water bottle
@@ -32,32 +26,8 @@ Effects
 - fixed nausea's description being identical to poisoned's description
 - adjusted severe nausea's description to be less severe
 
-Structures
-- 
-
-Scrolls
-- 
-
-Skills
-- 
-
-Gardens
-- 
-
-Quests
-- 
-
-Phone System
-- 
-
 Helpers
 - the tbgsbbp compliler can now properly handle an argument being used multiple times
-
-Votes
-- 
-
-Translations
-- 
 
 Splashes
 - added two new splashes to the 'ideas' section

@@ -36,6 +36,7 @@ var themelist = [ // [id]
     // ["dark"],
     ["cga"],
     ["neon"],
+    ["ace"],
 ];
 
 var iconsetlist = [ // [id]

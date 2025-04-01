@@ -1,0 +1,131 @@
+:root {
+    --top_image: url("../3/logos/fs3_logo_ace.png");
+    --top_image_june: url("../3/logos/fs3_logo_ace.png");
+    --fs_top_image: url("fs_logo.png");
+    --snap_top_image: url("../Snap!/logos/logo.png");
+    --background: #777777;
+    --text: #000000;
+
+    --header_bg: #afafaf;
+    --header_border: #ffffff;
+    --header_hover: #7f7f7f;
+
+    --timebox_bg: #8f8f8f;
+    --timebox_border: #afafaf;
+
+    --struct_bg: transparent;
+    --struct_bg2: #8f8f8f;
+    --struct_border: #0f000f;
+    --struct_header_color: #ffefff;
+    --struct_col1: #7f7f7f;
+    --struct_col2: #9f9f9f;
+
+    --table_bg: #cfcfcf;
+    --table_border: #000000;
+    --table_dbg: #afafaf;
+
+    --inv_table_bg: #7f7f7f;
+    --inv_table_border: #3f3f3f;
+    --inv_table_dbg: #3f3f3f;
+
+    --summon_bg: #9f9f9f;
+    --summon_border: var(--struct_border);
+
+    --stack_color: #ffdfff;
+    --stack_border: #1f001f;
+
+    --sstack_color: #1f001f;
+    --sstack_border: #ffdfff;
+    --sstack_color_inv: var(--sstack_border);
+    --sstack_border_inv: var(--sstack_color);
+    --sstack_color_low: #3f003f;
+    --sstack_border_low: #ffcfff;
+    --sstack_color_out: #6f0f6f;
+    --sstack_border_out: #ffafff;
+
+    --popup_border: #000000;
+    --popup_title_color: #ffdfff;
+    --popup_bg: #7f7f7f;
+    --popup_close_bg: #1f1f1f;
+    --popup_close_color: var(--popup_title_color);
+    --popup_close_bg_hover: #cf00cf;
+    --popup_close_color_hover: #000000;
+
+    --health_over: #007f00;
+    --health_low: #7f0000;
+
+    --level_outer: #ffcfff;
+    --level_bg: #3f2f3f;
+    --level_inner: #ffcfff;
+
+    --tooltip_bg: rgb(29, 14, 30);
+    --tooltip_border: rgb(44, 10, 98);
+    --tooltip_text: #ffffff;
+    --tooltip_dark: #8f8f8f;
+    --tooltip_bonus: #6f6fff;
+
+    --rarity_null: #00ffff;
+    --rarity_common: #0fefef;
+    --rarity_uncommon: #0f7fef;
+    --rarity_rare: #0fef7f;
+    --rarity_unique: #ef7f0f;
+    --rarity_moss: #3f9f2f;
+    --rarity_unob: #7f7f7f;
+
+    --idesc_dragon: #ffffbf;
+    --idesc_moss: var(--rarity_moss);
+
+    --rarity_pbad_fallback: rgb(175,111,15);
+    --rarity_pbad: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(175,111,15,1) 60%, rgba(127,15,15,1) 90%);
+    --rarity_pgood_fallback: rgb(231,223,127);
+    --rarity_pgood: linear-gradient(180deg, rgba(223,207,15,1) 10%, rgba(231,223,127,1) 50%, rgba(239,239,239,1) 80%);
+
+    --info_bg: #ffdfffbf;
+    --info_border: #ffdfffdf;
+    --info_hover: #ff3fff;
+    --info_name: #3f2f3f;
+    --info_text: #000000;
+
+    --settings_desc_color: #3f2f3f;
+
+    --toggle_bg: #dfdfdf;
+    --toggle_border: #2f2f2f;
+    --toggle_checked_bg: #2fff2f;
+    --toggle_checked_border: #1f7f1f;
+    --toggle_unchecked_bg: #ff2fff;
+    --toggle_unchecked_border: #7f1f7f;
+    --toggle_highlight: #8f4fdf;
+
+    --ele_normal: #dfdfdf;
+    --ele_fire: #df0f0f;
+    --ele_water: #2f2fef;
+    --ele_elec: #dfdf0f;
+    --ele_plant: #0fdf0f;
+    --ele_ice: #0fdfdf;
+    --ele_light: #dfdfaf;
+    --ele_dark: #3f4f6f;
+
+    --ele_normal2: #dfdfdf;
+    --ele_fire2: #df0f0f;
+    --ele_water2: #2f2fef;
+    --ele_elec2: #dfdf0f;
+    --ele_plant2: #0fdf0f;
+    --ele_ice2: #0fdfdf;
+    --ele_light2: #dfdfaf;
+    --ele_dark2: #3f4f6f;
+
+    --phone_number: #0f5f0f;
+
+    --cont_border: #5f0f5f;
+    --cont_color: #2f0f2f;
+    --cont_bg1: #ef9fef;
+    --cont_bg2: #efcfef;
+
+    --vote_passed: #1fdf1f;
+    --vote_failed: #df1f1f;
+
+    --splash_text: #df0fdf;
+
+    --arch_red: #4f0000;
+    --arch_green: #004f00;
+}

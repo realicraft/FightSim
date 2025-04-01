@@ -402,7 +402,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Effect Candy", "blue_candy", "A small piece of candy, wrapped in a blue wrapper. Eat it to gain a random positive effect!", "Events", "Consume for one of the following: Regen, Attack Up, Defense Up", [12,30,31], 2, 0]], //234
     [["Skill Candy", "green_candy", "A small piece of candy, wrapped in a green wrapper. Eat it to gain 300% in a random skill!", "Events", "Consume for 300% in a random skill you have that is below level 5", [12,30,31], 2, 0]], //235
     [["Item Candy", "red_candy", "A small piece of candy, wrapped in a red wrapper. Eat it to gain a random item!", "Events", "Consume for a random item (see Info)", [12,30,31], 2, 0]], //236
-    [["Mystery Gift", "gift_box", "A gift in a box. It could be anything!", "Item Candy", "Open it to gain a random item out of all the items currently in the game", [12,20], 3, 0]], //237
+    [["Mystery Gift", "gift_box", "A gift in a box. It could be anything. It could even be a box!", "Item Candy", "Open it to gain a random item out of all the items currently in the game", [12,20], 3, 0]], //237
     [["Time Candy", "black_candy", "A small piece of candy, wrapped in a black and yellow wrapper. If you have this in your inventory, you'll be allowed three posts in a turn, instead of two!", "Unknown", "Holding this item allows one extra post in a turn (consumed during extra post)<br />Can only be used once per turn", [12,30,31], 3, 0]], //238
     [["Old Candy", "gray_candy", "A small piece of old candy. The color on the wrapper has faded away, so you can't tell what kind of candy this was.", "Old Stocking", "Consume for a reduced version of a different candy's effect", [12,30,31], 1, 0]], //239
     [["Old Christmas Stocking", "old_stocking", "An old stocking for Christmas. It's too late to hang it up, but there might still be something inside...", "Post-Christmas", "Look inside", [12,20,59], 3, 0]], //240
@@ -606,7 +606,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Dragon Youth Potion", "mystery_potion", "A bottle filled with a strange liquid. When used on a dragon, it'll set their age to 1.<br /><br />What a weird potion.<br /><br /><br />It smells oddly sweet.", "Unknown", "???", [16,29,32,33,40], 5, 0]], //409
     [["Dragon Age Lock Potion", "mystery_potion", "A bottle filled with a strange liquid. When used on a dragon, it'll lock their age, preventing them from growing older.<br /><br />Wait, if you combined these two...!<br /><br /><br />It smells oddly sour.", "Unknown", "???", [16,29,32,33,40], 5, 0]], //410
     [["Shrapnel Bomb", "shrapnel_bomb", "A bomb with cracks in it, designed to break into shrapnel after exploding.", "Crafting", "Throw it at someone after lighting it to deal 12+<span class=fire>6</span> damage<br />Will also inflict Bleeding for 2 turns", [21,22,47], 1, 0]], //411
-    [["Scroll of Gain (4)", "scroll_01_04", "A scroll with the first and fourth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //412
+    [["Scroll of Summon Plant", "scroll_01_04", "A scroll that gives you several plants.", "Shops", "Gain 1d3 plants", [20,43], 2, 0]], //412
     [["Scroll of Gain Ore", "scroll_01_21", "A scroll that allows you to gain several ores.", "Shops", "Gain 1d3 Ore", [20,43], 2, 0]], //413
     [["Scroll of Gain (5)", "scroll_01_05", "A scroll with the first and fifth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //414
     [["Scroll of Gain (3)", "scroll_01_03", "A scroll with the first and third runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //415
@@ -614,7 +614,7 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Scroll (Runes 6,7)", "scroll_06_07", "A scroll with the sixth and seventh runes printed on it.", "Shops", "???", [20,43], 2, 0]], //417
     [["Scroll of Large (9)", "scroll_14_09", "A scroll with the fourteenth and ninth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //418
     [["Scroll of Large (10)", "scroll_14_10", "A scroll with the fourteenth and tenth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //419
-    [["Scroll of Large (4)", "scroll_14_04", "A scroll with the fourteenth and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //420
+    [["Scroll of Overgrowth", "scroll_14_04", "A scroll that summons a bunch of vines.", "Shops", "Deals 1d15+10 <span class='plant'>Plant</span> damage and inflicts Rooted for one turn", [20,43], 2, 0]], //420
     [["Scroll of Large (30)", "scroll_14_30", "A scroll with the fourteenth and thirtieth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //421
     [["Scroll of Thunderstorm", "scroll_14_11", "A scroll that summons a lightning bolt.", "Shops", "Deals 1d15+10 <span class='electric'>Electric</span> damage and inflicts Paralyzed for one turn", [20,43], 2, 0]], //422
     [["Scroll of Large (12)", "scroll_14_12", "A scroll with the fourteenth and twelfth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //423
@@ -631,13 +631,13 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Scroll (Runes 25,31)", "scroll_25_31", "A scroll with the twenty-fifth and thirty-first runes printed on it.", "Shops", "???", [20,43], 2, 0]], //434
     [["Scroll of (3) Pie", "scroll_03_29", "A scroll with the third and twenty-ninth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //435
     [["Scroll (Runes 23,23)", "scroll_23_23", "A scroll with the twenty-third rune printed on it twice.", "Shops", "???", [20,43], 2, 0]], //436
-    [["Scroll (Runes 4,4)", "scroll_04_04", "A scroll with the fourth rune printed on it twice.", "Shops", "???", [20,43], 2, 0]], //437
+    [["Scroll of Rapid Growth", "scroll_04_04", "A scroll that grows all of your plants.", "Shops", "All of your plants gain 0.5 growth turns.", [20,43], 2, 0]], //437
     [["Scroll of (13) Ally", "scroll_13_24", "A scroll with the thirteenth and twenty-fourth runes printed on it.", "Shops", "Does something to an ally", [20,43], 2, 0]], //438
     [["Scroll of Gain (23)", "scroll_01_23", "A scroll with the first and twenty-third runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //439
     [["Scroll of Gain Pie", "scroll_01_29", "A scroll that gives you some nice pie.", "Shops", "Gain a random pie", [20,43], 2, 0]], //440
     [["Scroll of Gain (9)", "scroll_01_09", "A scroll with the first and ninth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //441
     [["Scroll of Gain (10)", "scroll_01_10", "A scroll with the first and tenth runes printed on it.", "Shops", "Gain... something", [20,43], 2, 0]], //442
-    [["Scroll (Runes 22,4)", "scroll_22_04", "A scroll with the twenty-second and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //443
+    [["Scroll of Shrink Plants", "scroll_22_04", "A scroll that shrinks all of someone's plants.", "Shops", "Make someone's plants lose 0.5 growth turns", [20,43], 2, 0]], //443
     [["Scroll of Recruit Ally", "scroll_24_24", "A scroll that allows you to recruit any mob as an Ally, without needing to convince it.", "Shops", "Recruits an ally", [20,43], 3, 0]], //444
     [["Scroll of (7) Ally", "scroll_07_24", "A scroll with the seventh and twenty-fourth runes printed on it.", "Shops", "Does something to an ally", [20,43], 2, 0]], //445
     [["Scroll (Runes 20,5)", "scroll_20_05", "A scroll with the twentieth and fifth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //446
@@ -808,10 +808,10 @@ var equiplist = [ //[name, css class for icon, description, source, bonuses, [ca
     [["Scroll (Runes 13,17)", "scroll_13_17", "A scroll with the thirteenth and seventeenth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //591
     [["Scroll (Runes 9,36)", "scroll_09_36", "A scroll with the ninth and thirty-sixth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //592
     [["Scroll (Runes 33,36)", "scroll_33_36", "A scroll with the thirty-third and thirty-sixth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //593
-    [["Scroll (Runes 33,4)", "scroll_33_04", "A scroll with the thirty-third and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //594
+    [["Scroll (33) Plant", "scroll_33_04", "A scroll with the thirty-third and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //594
     [["Scroll (Runes 3,32)", "scroll_03_32", "A scroll with the third and thirty-second runes printed on it.", "Shops", "???", [20,43], 2, 0]], //595
     [["Scroll (Runes 27,2)", "scroll_27_02", "A scroll with the twenty-seventh and second runes printed on it.", "Shops", "???", [20,43], 2, 0]], //596
-    [["Scroll of Pie (4)", "scroll_29_04", "A scroll with the twenty-ninth and fourth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //597
+    [["Scroll of Pie Plant", "scroll_29_04", "A scroll that throws a pie at a plant.", "Shops", "Throws a pie at a plant, giving it between -0.3 and 0.3 growth turns", [20,43], 2, 0]], //597
     [["Scroll (Runes 37,36)", "scroll_37_36", "A scroll with the thirty-seventh and thirty-sixth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //598
     [["Scroll (Runes 9,40)", "scroll_09_40", "A scroll with the ninth and fortieth runes printed on it.", "Shops", "???", [20,43], 2, 0]], //599
     [["Scroll (Runes 32,2)", "scroll_32_02", "A scroll with the thirty-second and second runes printed on it.", "Shops", "???", [20,43], 2, 0]], //600

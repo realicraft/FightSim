@@ -81,7 +81,16 @@ var save_settings = function() {
     setTimeout(resetButton, 1000);
 };
 
-waitForLang(settingFunc);
+var not_on_wayback = function() {
+    document.getElementById("all_settings").innerHTML = getTranslatedString("settings.no_wayback.text");
+    document.getElementById("save_button").style = "display: none;";
+}
+
+if (!wayback) {
+    waitForLang(settingFunc);
+} else {
+    waitForLang(not_on_wayback);
+}
 /*
 <div class="settings_box">
     <div class="settings_title">Placeholders</div>

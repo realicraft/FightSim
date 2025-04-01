@@ -47,6 +47,8 @@
     "settings.plain_critter_descs.desc": "If enabled, use text-based critter descriptions instead of images.",
     "settings.splashes_anywhere.desc": "If enabled, show splash messages anywhere, rather than just the index page.",
 
+    "settings.no_wayback.text": "Due to limitations regarding cookies, settings are not available on the Wayback Machine.",
+
     "langs.en_us.name": "English (US)",
     "langs.es_es.name": "Spanish (Spain)",
 
@@ -55,6 +57,14 @@
     "themes.dark.name": "Dark",
     "themes.cga.name": "CGA",
     "themes.neon.name": "Neon",
+    "themes.ace.name": "Ace",
+
+    "themes.light.desc": "A lighter version of the default theme.",
+    "themes.medium.desc": "The default theme.",
+    "themes.dark.desc": "A darker version of the default theme.",
+    "themes.cga.desc": "Remember when color palettes only had four colors?",
+    "themes.neon.desc": "Sunglasses recommended.",
+    "themes.ace.desc": "...of Hearts",
 
     "iconsets.default.name": "Default",
     "iconsets.cga.name": "CGA",
@@ -62,6 +72,13 @@
     "iconsets.lowcolor.name": "Low Color Palette",
     "iconsets.plastic.name": "Plastic",
     "iconsets.resprite.name": "Resprite",
+
+    "iconsets.default.desc": "The default icon set.",
+    "iconsets.cga.desc": "Remember when color palettes only had four colors?",
+    "iconsets.cga4.desc": "Yes, CGA could in fact display more than magenta and cyan.",
+    "iconsets.lowcolor.desc": "Alright, who shrunk the color palette?",
+    "iconsets.plastic.desc": "You know, like the texture pack from Minecraft.",
+    "iconsets.resprite.desc": "An in-progress revamp of the icons.",
 
     "category.null.name": "null",
     "category.helmet.name": "Helmet",
@@ -1324,7 +1341,7 @@
     "item.effect_candy.desc": "A small piece of candy, wrapped in a blue wrapper. Eat it to gain a random positive effect!",
     "item.skill_candy.desc": "A small piece of candy, wrapped in a green wrapper. Eat it to gain 300% in a random skill!",
     "item.item_candy.desc": "A small piece of candy, wrapped in a red wrapper. Eat it to gain a random item!",
-    "item.gift_box.desc": "A gift in a box. It could be anything!",
+    "item.gift_box.desc": "A gift in a box. It could be anything. It could even be a box!",
     "item.time_candy.desc": "A small piece of candy, wrapped in a black and yellow wrapper. If you have this in your inventory, you'll be allowed three posts in a turn, instead of two!",
     "item.old_candy.desc": "A small piece of old candy. The color on the wrapper has faded away, so you can't tell what kind of candy this was.",
     "item.old_stocking.desc": "An old stocking for Christmas. It's too late to hang it up, but there might still be something inside...",
@@ -2040,8 +2057,8 @@
     "quests.normal.damage_mob.sing": "Deal damage to a mob.",
     "quests.normal.damage_player.sing": "Deal damage to a player.",
     "quests.normal.deal_damage.sing": "Deal damage.",
-    "quests.normal.deal_type_damage.sing": "Deal type-aligned damage.",
-    "quests.normal.deal_type_damage.plur": "Deal {n1} type-aligned damage.",
+    "quests.normal.deal_type_damage.sing": "Deal elementally aligned damage.",
+    "quests.normal.deal_type_damage.plur": "Deal {n1} elementally aligned damage.",
     "quests.normal.deal_damage_normal.sing": "Deal Normal-aligned damage.",
     "quests.normal.deal_damage_normal.plur": "Deal {n1} Normal-aligned damage.",
     "quests.normal.deal_damage_fire.sing": "Deal Fire-aligned damage.",
@@ -2155,7 +2172,7 @@
     "quests.normal.obtain_item.sing": "Obtain an item.",
     "quests.normal.obtain_item.plur": "Obtain {n1} items.",
     "quests.normal.obtain_time_candy.sing": "Obtain a Time Candy.",
-    "quests.normal.obtain_time_candy.plur": "Obtain {n1} Time Candyies.",
+    "quests.normal.obtain_time_candy.plur": "Obtain {n1} Time Candies.",
     "quests.normal.open_lucky_block.sing": "Open a Lucky Block.",
     "quests.normal.open_lucky_block.plur": "Open {n1} Lucky Blocks.",
     "quests.normal.pet_a_slime.sing": "Pet a Slime.",

@@ -1,0 +1,87 @@
+Changelog for Turn 88
+
+Summer Cleaning (look it was summer when i wrote this okay)
+- removed a bunch of old files that are no longer used, including:
+- all of the CSS CGA folder
+- the archived versions of fonts, and the container folders
+- all of 3/Items
+- both copies of the timeline
+- apology.txt, choplist.txt, exp.txt, exp2.txt, gardenlist.txt, gardenlist2.txt, toolstats.txt
+- equip_plan.piko and equip_plan.png
+- turns/turn66.tbgsbbp and turns/turnnull.tbgsbb
+- Icons/tree.png and Icons/spyglass_tower.piskel
+- exp_sheet.piko and mini_sheet_ph.piskel
+- Exported/mini_sheet_ph.png
+- Exported/color_sheet.png, Exported/equip_sheet.png, and Exported/critter_desc_sheet.png
+- color_sheet.piko and equip_sheet.piko
+- Original/color_palettes.txt
+- Exported CGA/hr.png, Exported CGA\color_sheet.png, and Exported CGA\critter_desc_sheet.png
+- Plastic\color_sheet.png, Plastic\critter_desc_sheet.png, and Plastic\equip_sheet.png
+- enchantList.js and itemList.js
+- all of Maps/Cropped
+- feedback.txt
+
+Items
+- updated some scrolls to account for runes 4 and 22 being revealed
+- changed the mystery gift's description to be funnier
+
+Item Revamp
+- equipList2: ported over scroll changes
+- equipList2: merged snowballs, using the "rock" nbt tag (the attribute list is shared for now)
+
+Crafting
+- removed the thunder knife/staff recipes (the thunder stone is going to be reworked eventually)
+
+Structures
+- the scroll section of the treasure chest now includes the second batch of scrolls
+
+Quests
+- renamed "Deal type-aligned damage." to "Deal elementally aligned damage."
+- removed the wiki edits repquest, since it didn't feel like a good idea anymore
+
+Helpers
+- tbgsbb+ compiler: added two new tags, which are variants of purl and url that have rel="nofollow"
+- tbgsbb+ compiler: added a spoiler tag
+- tbgsbb+ compiler: the green and red tags now use css classes instead of inline styles
+- tbgsbb+ compiler: fixed an issue with broken inline styles
+
+Splashes
+- updated the splash about not having a tvtropes page to now link to the tvtropes article
+- added five new "ideas" splashes
+
+Themes
+- added an acetheme, which is like medium with extra purple
+
+Icon Sets
+- cga: updated file_sheet to match classic
+- cga4: updated file_sheet to match classic
+- plastic: updated file_sheet to match classic
+- resprite: finished the elemental alignment icons
+
+Audio
+- added a sound folder
+- added a popup folder in the sound folder
+- added two sounds for popups (not yet implemented)
+
+Settings
+- the settings page should no longer be available on the wayback machine
+
+Internal
+- common_allpages now detects if it's running in the wayback machine, and what the timestamp is
+- on the wayback machine, warnings about unset cookies aren't made
+- on the wayback machine, most checks involving cookies are ignored
+- on the wayback machine, unset cookies are not set in common_allpages
+- removed some redundant css from the all items page, as it was interfering with themes
+- removed some unused css from player_table.css
+- removed a part of iconset css meant for the old player equipment table background
+- commented out some debug prints in the translation function, which should heavily reduce the number of console entries
+- removed some commented out player data from the quest data
+- the inventories page no longer tries to load removed files
+
+Misc
+- during june, the curve in the logo will be purple instead of gray (magenta in the cga theme)
+- fixed the sitemap not showing files in the root of Icons
+- removed two music discs from music_sheet because they weren't actually real and definitely aren't from the future
+- added a credits file (/credits.txt)
+- adjusted some of the colors in the archive to improve contrast
+- replaced the big info tooltip in the stats page with a help button (which i forgot to implement lol)

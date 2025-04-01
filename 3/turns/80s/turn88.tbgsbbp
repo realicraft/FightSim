@@ -1,0 +1,255 @@
+Skeledop - Turn 88
+how about we try that again
+edit: yikes
+{hr2}
+Last turn, I didn't handle quests until the end of the turn, and ended up missing a few quest completions, so I'm putting them here.
+Fares completed a quest! ({bi|Equip a Golden Food.}) He obtains 3 Gold Bars, 150% Farming, and 10 Misc EXP. (Fares's Farming skill leveled up!)
+Incendiary completed a repquest! (Harvest Crops.) She obtains 1 Misc EXP.
+Incendiary completed a repquest! (Use/Equip Scrolls, Upgrades, Stickers, Chocolates, or Lucky Blocks.) She obtains a Lucky Block.
+Incendiary completed a repquest! (Use/Equip Scrolls, Upgrades, Stickers, Chocolates, or Lucky Blocks.) She obtains 2 Lucky Blocks.
+Gilbert completed a repquest! (Use/Equip Scrolls, Upgrades, Stickers, Chocolates, or Lucky Blocks.) He obtains a Lucky Block.
+Luigi completed a repquest! (Use/Equip Scrolls, Upgrades, Stickers, Chocolates, or Lucky Blocks.) He obtains a Lucky Block.
+Landon completed a repquest! (Use/Equip Scrolls, Upgrades, Stickers, Chocolates, or Lucky Blocks.) He obtains 3 Lucky Blocks.
+Landon completed a repquest! (Use/Equip Scrolls, Upgrades, Stickers, Chocolates, or Lucky Blocks.) He obtains 4 Lucky Blocks.
+{hr2}
+{quoteall|realicraft|735940|1715586562|
+post 1
+
+{quoteall|Incendiary|732773|1713918728|
+Pipe bomb
+}
+ow :( 
+
+- eat my chocolate chip cookie and apple cookies
+- open my mystery gift
+- use the scroll i got last turn on byron
+
+
+
+also turn 87 is out
+}
+You eat some of your cookies, and gain 14 HP.
+This makes room for two queued items, which are random scrolls.
+Item roll: 2d64 = 50, 12
+You obtain a Scroll of (33) (36) and a Scroll of Large (12).
+You open your Mistery Gift.
+Item roll: 1d741+8 = 459
+You obtain a Mining Upgrade.
+You cast your Scroll of (22) (4) on Byron, and all of his plants lose half a growth turn! (Except for his Golden Carrots, which go down to 0.)
+Byron's Potatoes are no longer harvestable.
+It looks like this is a Scroll of {b|Shrink Plants}. So that means that rune 22 is {b|Small/Shrink}, while rune 4 is {b|Plant/Plants}.
+This makes room for a queued Heart-Shaped Chocolate.
+You've completed a repquest! (Use/Equip Scrolls, Upgrades, Stickers, Chocolates, or Lucky Blocks.) You obtained a Lucky Block.
+...which you don't have room for, so it's been queued.
+{hr2}
+{quoteall|Incendiary|735945|1715587393|
+Post 1
+- I store everything that isn't my tools or food in my storage room
+- Loot the stocking
+- Equip Reimu
+- Harvest my apples
+}
+You only have room for fifteen items in your Storage Room, so you only move your Logo 3, 54 Stone, 12 Iron Bars, Old Candy, Lucky Block, two Electrum Bars, three Leather, two Grapes, two Flint, five Amethyst Shards, Time Candy, 13 Oak Logs, four Bottles o' Enchanting, four Birch Logs, and 14 Emeralds.
+Some queued items enter your inventory.
+(You obtained 10 Flame Arrows, 3 TNT, and a Heart-Shaped Chocolate.)
+You then empty out your Filled Stocking into your inventory, causing the Stocking to disappear.
+You equip the Reimu Hakurei Fumo.
+You can't harvest your apples, because you're out of actions!
+{hr2}
+{quoteall|gilbert_given_TBG|735947|1715589540|
+Oh no, my inventory is a mess.
+
+Equip the Christmas Hat.
+Craft a Diamond Legging amd equip that.
+
+{spoiler|egg|iappeartohave}
+}
+You equip the Santa Hat that was in your inventory.
+You can't craft a pair of Diamond Leggings, as you need a Crafting level of 1, but only have a Crafting level of 0. Maybe try crafting a bunch of sticks first, or something.
+You found the {b|Fire Egg}! Your reward is someone random getting set on fire.
+Target roll: 1d7 = 3
+Byron is set on fire for 2 turns.
+{hr2}
+{i|(Note: this post was adjusted from its original form to fix problematic BBCode. In the future, please try to use list and li tags, rather than *, x, or o tags.)}
+{quoteall|gilbert_given_TBG|735950|1715590500|
+{list|{*|Take the items from the stocking, except the doll and the hat since I don't even know what I would do with them.}
+{*|Well, I don't feel like taking a gamble again, but for the sake of freeing my inventory space I might as well eat the Heart-Shaped Chocolate.}
+{*|I guess I'll eat the Effect Candy.}}
+
+
+}
+You take candies and Mystery Gift out of your Filled Stocking.
+You know, you {i|could} equip the Reimu Hakurei Fumo, since you have empty Accessory slots.
+You eat the Heart-Shaped Chocolate.
+Effect roll: 1d20 = 18
+Ooh, some Attack/Defense Potion! (You are afflicted with Attack Up for 1 turn.) (You are afflicted with Defense Up for 1 turn.) (You gain 1 HP.)
+You eat an Effect Candy.
+Effect roll: 1d3 = 2
+(You are afflicted with Attack Up for 1 turn.)
+{hr2}
+{quoteall|gilbert_given_TBG|735951|1715590783|
+*eats the Time Candy*
+"Hmm, I feel like attacking someone else, but I'm not sure who should I attack..."
+"Oh I know! I'll use the Esolang to tell me what player to attack!"
+}
+You eat a Time Candy.
+You use the Esolang as a simple random number generator.
+{esocode|global/func/output/print.int<((global/func/random.randint<{1}-{6}>))>:}{esooutput|5}
+Look like you're attacking Luigi.
+Attack roll: 1d10+9.6 = 3+9.6 = 13
+Defense roll: 1d5 = 2
+Luigi takes 13-2={b|11} damage.
+{hr2}
+{quoteall|Incendiary|735971|1715595594|
+Post 2
+- Go mining for electrum and hardite 
+- Eat 2 oranges and 2 grapes
+
+{spoiler|Egg|
+- esoegg
+- hurry
+- burstintoflames
+- maybeillcallyouback
+- youcantequipit
+}
+}
+Paralysis roll: 1d4 = 3
+You go Mining for Electrum.
+Mining roll: 1d20+8 = 4+8 = 12
+You obtain one Electrum Ore. (Your Mining skill has gone up by 55%.)
+Paralysis roll: 1d4 = 4
+You go Mining for Hardite.
+Mining roll: 1d18+8 = {green|17}+8 = {green|25}
+You obtain two Hardite ore. (Your Mining skill has gone up by 90%. {i|You've reached {b|Proficient} in Mining!} You can now mine for up to four unique ores per post,* and gain an extra ore when mining for nothing in particular.)
+{bi|You leveled up!} You've gained 1 Max HP.
+Paralysis roll: 1d4 = 3
+You eat some fruit, and gain 20 HP. (The Grapes were taken from your Storage Room.)
+You found the {b|Code Egg}! Your reward is an Esolang.
+You found the {b|Monochrome Egg}! Your reward is 150% MS4 experience.
+(Your Mystery Skill 4 skill has gone up by 150%. Your Mystery Skill 4 skill leveled up!)
+You found the {b|Blue Fire Egg}! Your reward is someone random getting frozen.
+Target roll: 1d7 = 6
+Luigi is Frozen for 2 turns.
+You found the {b|Hardite Egg}! Your reward is three Hardite Bars.
+You found the {b|Egg Sticker}! Your reward is three random stickers.
+Sticker rolls: 3d81 = 35, 40, 9
+You obtain a Raised Apple Sticker, a Carrot Sticker, and a Shield Sticker.
+{hr2}
+{quoteall|PhantomLuigi|735991|1715605537|
+I eat my chocolate egg
+I eat both of my heart-shaped chocolate
+}
+You eat your various filled chocolates.**
+Effect roll: 1d20 = 4
+This one's filled with Liquid Fire! (You are set On Fire for 2 turns.) (You gain 1 HP.)
+Effect roll: 1d20 = 11
+Hey, this one's hollow! (You gain 1 HP.)
+Effect roll: 1d20 = 4
+This one's {i|also} filled with Liquid Fire! (You are set On Fire for 2 turns.) (You gain 1 HP.)
+You've completed a repquest! (Use/Equip Scrolls, Upgrades, Stickers, Chocolates, or Lucky Blocks.) You obtained two Lucky Blocks.
+{hr2}
+{quoteall|realicraft|736214|1715737613|
+post 2
+
+- equip the reimu hakurei fumo
+- use one of my arrows to perform {url|https://wiki.teamfortress.com/wiki/Arrow_Stab|Arrow Stab} on luigi
+- use my equipped iron staff to perform a generic electric-aligned attacking spell on a random active player that is not me
+}
+<attack random player - 1d6 = 5 (Luigi)>
+You equip the Reimu Hakurei Fumo from your Filled Stocking.
+{quote|{reali|Stab, stab, stab.}}
+(You obtained 1 Kill.)
+You attack a random player.
+Target roll: 1d6 = 5
+You attack Luigi.
+Attack roll: 1d10+3 = {green|9}+3 = {green|12}
+Defense roll: 1d5 = 2
+Luigi takes 12-2={b|{elec|10}} damage.
+{hr2}
+The dragon looks around the inside of the Tank. There sure are a lot of buttons in here!
+{hr2}
+That kid from the boat wanders around the forest, looking for something. Maybe you should ask him what he's looking for?
+{hr2}
+
+NPC action roll: 1d26 = 23 (Do nothing * 2, every skill in order, help Byron * 2, fight someone * 5)
+Skeleton decides to attack someone.
+Target roll: 1d6 = 3
+Skeleton attacks Faressain.
+Attack roll: 1d7+3 = {green|6}+3 = {green|9}
+Defense roll: 1d7.6+0.8 = 5+1 = 6
+Fares takes 9-6={b|3} damage.
+
+Plants grow.
+Byron's Beans and Potatoes are now harvestable.
+Sparky's crops continue to rot.
+Solitaire's Beetroots continue to rot.
+Reali's Carrots are now ripe.
+Landon's Carrots continue to rot.
+Incendiary's Carrots are now harvestable.
+Incendiary's Apple Tree has started to rot.
+Byron's Orange Tulips are now harvestable.
+
+Mob action rolls: 10d6 = 2, 3, {red|1}, {red|1}, 4, 2, {green|6}, 2, {red|1}, {green|6}
+The first Sheep trips over a rock and takes {b|2} damage.
+The second Sheep also trips over a rock, and also takes {b|2} damage.
+The Zombie attacks someone!
+Target roll: 1d7 = 4 (Fares)
+Attack roll: 1d6+3 = 4+3 = 7
+Defense roll: 1d7.6+0.8 = {crhit|8}+1 = {crhit|9}
+Fares counters the attack!
+Attack roll: 1d11.2+4 = {crhit|11}+4 = {crhit|15}
+Defense roll: 1d2+2 = 2+2 = 4
+The Zombie takes 30-4={b|26} damage and is killed instantly.†
+{bi|Fares leveled up!} He gained 1 Max HP.
+Fares completed a quest! (Deal 15 damage total.) He gains a Diamond Sword, plus a total of 4 Misc EXP.
+The third Sheep {i|also} trips over a rock, and {i|also} takes {b|2} damage.
+The Yellow Slime attacks someone!
+Target roll: 1d7 = 6 (Luigi)
+Attack roll: 1d4+2 = 4+2 = 6
+Defense roll: 1d5 = 2
+Luigi takes 6-2={b|4} damage.
+
+Mob Spawn roll: 1d14 = 1
+A Cow spawns.
+
+Weather roll: 1d20 = 7
+It starts raining.
+
+Byron's bank account gains 17.549{dec}.
+Gilbert's bank account gains 21.583{dec}.
+
+<effects>
+Reali takes 5 damage from Bleeding.
+Incendiary's Paralyzed and Attack Up expire.
+One of Gilbert's Attack Ups expires.
+Landon gains 3 HP from his Raised Apple Sticker.
+{hr2}
+Oh, hey, it's around midnight now. Cool.
+{hr2}
+Well, that went quickly; only took negative one months!
+
+...wait.
+Considering how long this turn took, it's probably not a good idea to start any new events, so I'll instead be implementing some smaller versions of them right now.
+{list|{*|Some random day from last June:†* everyone gets a Slice of Ice Cream Cake.}
+{*|Halloween '24: everyone gets a Chocolate Bar and a Pumpkin-Shaped Chocolate.}
+{*|Christmas '24: everyone gets a Time Candy and a Mystery Gift.}
+{*|Valentines '25: everyone gets a Heart-Shaped Chocolate.}
+{*|April Fools '25: everyone gets- wait, no, that's today.}}
+Some items don't fit in some people's inventories, so they've been queued.
+(Also, these only apply to active players.)
+{hr2}
+{links}
+{links2}
+{changelog|8|8}
+So.
+It's been a while, huh?
+It turns out I need this thing called "motivation" to work on FS3 - and to be quite frank, you guys are kinda terrible at providing it.
+Oh well; I'm sure the next turn won't take as long.
+...mainly because it's a bit hard to beat {i|ten months}.
+
+...hey, what happened to the website?
+
+* I'm not sure that's actually useful right now.
+** Yes, while frozen; it just makes you unable to move (as in from one location to another).
+† Somehow, this only gave 5 Combat Exp. ...I'm probably going to rebalance that at some point.
+†* Okay, fine, this was for my birthday last year.

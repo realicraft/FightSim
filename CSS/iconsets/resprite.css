@@ -37,8 +37,6 @@
     --icn_banana: url("../3/banana.gif");
     --icn_fumo: url("../Icons/Exported/fumo.png"); /* unchanged */
 
-    --icn_bg: url("../3/Items/Exported/equip_back.png");
-
     --icn_unused: #5f5f5f;
     --icn_ench: #bf00ff7f;
 }

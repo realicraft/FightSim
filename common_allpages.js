@@ -10,6 +10,14 @@ if ((window.location.href.includes("/3/")) || (window.location.href.includes("/2
     var url_start = ""
     var is_root = true
 }
+// is this the wayback machine?
+if (window.location.href.includes("web.archive.org")) {
+    var wayback = true
+    var wb_timestamp = Number(window.location.href.split("/web/")[1].split("/")[0])
+} else {
+    var wayback = false
+    var wb_timestamp = 0
+}
 
 // cookies
 // from https://www.w3schools.com/js/js_cookies.asp
@@ -32,7 +40,9 @@ function getCookie(cname) {
         return c.substring(name.length, c.length);
         }
     }
-    console.warn("Invalid or unset cookie: " + cname);
+    if (!wayback) { // suppress warnings on the wayback machine
+        console.warn("Invalid or unset cookie: " + cname);
+    }
     return "";
 }
 function cookieExists(cname) {
@@ -51,10 +61,12 @@ function cookieExists(cname) {
     return false;
 }
 
-for (i in settingslist) {
-    for (j in settingslist[i][1]) {
-        if (getCookie("set_" + settingslist[i][1][j][0]) == "") {
-        setCookie("set_" + settingslist[i][1][j][0], settingslist[i][1][j][4], 365)
+if (!wayback) { // don't bother with setting cookies on the wayback machine
+    for (i in settingslist) {
+        for (j in settingslist[i][1]) {
+            if (getCookie("set_" + settingslist[i][1][j][0]) == "") {
+            setCookie("set_" + settingslist[i][1][j][0], settingslist[i][1][j][4], 365)
+            }
         }
     }
 }
@@ -77,7 +89,7 @@ var loop_until_char = function(string, char) {
 }
 
 var getTranslatedString = function(id, nbt) {
-    console.log("=> " + id)
+    //console.log("=> " + id)
     var preparse;
     var done = false;
     var outCont = ""
@@ -117,7 +129,7 @@ var getTranslatedString = function(id, nbt) {
         }
         preparse = preparse.slice(k+1);
     }
-    console.log("<= " + outCont)
+    //console.log("<= " + outCont)
     return outCont;
 }
 
@@ -293,12 +305,20 @@ var egg = function(id) {
     egg_popups[id].spawn();
 }
 
+// june logo
+var cdate = new Date();
+if (cdate.getMonth() == 5) {
+    document.head.innerHTML += '<style>#logo {\ncontent: var(--top_image_june);\n}</style>'
+}
+
 // settings
-if (getCookie("set_min_ico") == "true") {document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/mini/mini_icons.css"></link>'}
-if (getCookie("set_sans") == "true") {document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/mini/comic_sans.css"></link>'}
-if (getCookie("set_skew") == "true") {document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/mini/skew_page.css"></link>'}
+if (!wayback) {
+    if (getCookie("set_min_ico") == "true") {document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/mini/mini_icons.css"></link>'}
+    if (getCookie("set_sans") == "true") {document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/mini/comic_sans.css"></link>'}
+    if (getCookie("set_skew") == "true") {document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/mini/skew_page.css"></link>'}
+}
 if (is_root) {splashFunc();}
-else if (getCookie("set_splashes") == "true") {
+else if ((!wayback) && (getCookie("set_splashes") == "true")) {
     var brAfterLogoEl = document.querySelector(`img + br`);
     var splashSpanEl = document.createElement("span"); // i wish i could just pass a string like i normally do
     splashSpanEl.id = "splash_span";
@@ -310,5 +330,11 @@ else if (getCookie("set_splashes") == "true") {
     splashSpanEl.after(brAfterSpanEl2);
     splashFunc();
 }
-document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/themes/' + getCookie("set_theme") + '.css"></link>'
-document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/iconsets/' + getCookie("set_iconset") + '.css"></link>'
+if (wayback) {
+    document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="https://web.archive.org/web/' + wb_timestamp + '/https://realicraft.github.io/FightSim/CSS/themes/medium.css"></link>'
+    document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="https://web.archive.org/web/' + wb_timestamp + '/https://realicraft.github.io/FightSim/CSS/iconsets/default.css"></link>'
+}
+else {
+    document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/themes/' + getCookie("set_theme") + '.css"></link>'
+    document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="' + url_start + 'CSS/iconsets/' + getCookie("set_iconset") + '.css"></link>'
+}

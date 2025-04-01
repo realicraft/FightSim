@@ -139,7 +139,7 @@ var splashesList = { // "type": [splash, ...]
         "Also try <i>Fragmented Future</i>!",
         "Also try <i>the role play</i>!",
         "Also try <em>literally</em> any other RPG on this forum",
-        "No TVTropes page! (yet)",
+        "Check out the <a href='https://tvtropes.org/pmwiki/pmwiki.php/Roleplay/FightingSimulator'>TVTropes article</a>!",
         "Check out <a href='https://fightsim.miraheze.org/wiki/Main_Page'>the wiki</a>!",
         "Check out <a href='https://shefwerld.github.io/shefnews/index.html'>SKNN</a>!",
         // "Try out Nihonium!", // this is a real backwards-incompatibility moment
@@ -170,5 +170,10 @@ var splashesList = { // "type": [splash, ...]
         "If you need ideas, have you tried making a machine to thrash your own ass?",
         "If you need ideas, have you tried <span style=\"color: var(--ele_fire);\">killing</span>, some <span style=\"color: var(--ele_fire);\">monsters</span>?",
         "If you need ideas, have you tried killbinding?",
+        "If you need ideas, have you tried turning the left card into the right card?",
+        "If you need ideas, have you tried buying fast food, and disguising it as your own cooking?",
+        "If you need ideas, have you tried playing golf?",
+        "If you need ideas, have you tried putting a dispenser here?",
+        "If you need ideas, have you tried stabbing someone?",
     ]
 }

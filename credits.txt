@@ -1,0 +1,6 @@
+>] informal credits file [<
+
+> sounds <
+- >> popup <<
+--- paper.wav - "Page Turn - 35" by freesound user SpaceJoe (https://freesound.org/people/SpaceJoe/sounds/484955/) (CC0, edited)
+--- box.wav - "open-cardboard-box-compartment.wav" by freesound user newagesoup (https://freesound.org/people/newagesoup/sounds/364740/) (CC0, edited)
